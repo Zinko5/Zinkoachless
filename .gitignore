@@ -22,3 +22,7 @@ Thumbs.db
 # Zinkoachless local cache and data outputs
 # Se ignoran los datos descargados en bruto (raw) por su tamaño y por ser temporales
 data/raw/
+
+# Local design plans
+plan.md
+plan2.md
