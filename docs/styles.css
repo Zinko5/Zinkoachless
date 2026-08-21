@@ -317,6 +317,51 @@ body {
   font-family: var(--font-mono);
 }
 
+/* PESTAÑAS DE NAVEGACIÓN */
+.view-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.25rem;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+  color: var(--text-primary);
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.tab-btn.active {
+  color: var(--text-primary);
+  border-bottom-color: var(--accent-color);
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+/* VISTA DE UNA SOLA COLUMNA */
+.single-card-view {
+  width: 100%;
+  margin-bottom: 3rem;
+  animation: fadeIn 0.4s ease-out 0.1s both;
+}
+
 /* ANIMACIONES */
 @keyframes fadeIn {
   from {

@@ -126,7 +126,8 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
         "item_slot_1": "1st Item",
         "item_slot_2": "2nd Item",
         "item_slot_3": "3rd Item",
-        "late_game_items": "4th+ Item"
+        "late_game_items": "4th+ Item",
+        "items_no_slot": "All Items"
     }
 
     records = []

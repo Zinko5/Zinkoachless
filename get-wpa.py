@@ -95,11 +95,11 @@ for champ_id in CHAMPIONS:
     for patch in PATCHES:
         patch_key = f"{MAJOR}.{patch}"
         
-        # Comprobar si ya existe y si NO es el parche más reciente
+        # Comprobar si ya existe y si NO es el parche más reciente, y si ya tiene la clave items_no_slot
         if patch_key in resultado_final and patch != latest_patch_num:
-            # Asegurar que tiene información cargada
-            if resultado_final[patch_key] and any(resultado_final[patch_key].values()):
-                print(f"  [✓] Parche {patch_key} ya existe. Omitiendo descarga.")
+            # Asegurar que tiene información cargada y que incluye la nueva clave
+            if resultado_final[patch_key] and "items_no_slot" in resultado_final[patch_key] and resultado_final[patch_key]["items_no_slot"]:
+                print(f"  [✓] Parche {patch_key} ya existe con items_no_slot. Omitiendo descarga.")
                 continue
 
         if patch == latest_patch_num:
@@ -117,7 +117,8 @@ for champ_id in CHAMPIONS:
             "item_slot_1": safe_fetch(fetch_items, cf, slots=[1], item_type=1),
             "item_slot_2": safe_fetch(fetch_items, cf, slots=[2], item_type=1),
             "item_slot_3": safe_fetch(fetch_items, cf, slots=[3], item_type=1),
-            "late_game_items": safe_fetch(fetch_items, cf, slots=[4, 5, 6], item_type=1)
+            "late_game_items": safe_fetch(fetch_items, cf, slots=[4, 5, 6], item_type=1),
+            "items_no_slot": safe_fetch(fetch_items, cf, slots=None, item_type=1)
         }
         time.sleep(0.5)
 

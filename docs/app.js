@@ -25,6 +25,7 @@ let latestVersion = "16.16.1";
 let wpaData = []; // Esto guardará los registros granulares (por parche)
 let currentView = "global"; // "global" o "all-items"
 let currentSort = "wpa";      // "wpa" o "sample_size"
+let currentTab = "builds";    // "builds" o "items"
 let availablePatches = [];
 
 // Comparar versiones de parches de LoL de manera natural (ej: 16.2 < 16.10)
@@ -222,7 +223,8 @@ function applyFilters() {
     "Spell": "list-Spell",
     "Boots": "list-Boots",
     "3rd Item": "list-3rd-Item",
-    "4th+ Item": "list-4th-Item"
+    "4th+ Item": "list-4th-Item",
+    "All Items": "list-All-Items"
   };
 
   for (const [catName, containerId] of Object.entries(categories)) {
@@ -310,6 +312,26 @@ window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("champion-select").addEventListener("change", (e) => {
     selectedChamp = e.target.value;
     loadData();
+  });
+
+  // Pestaña Builds
+  document.getElementById("tab-builds").addEventListener("click", () => {
+    document.getElementById("tab-builds").classList.add("active");
+    document.getElementById("tab-items").classList.remove("active");
+    document.getElementById("builds-view").style.display = "grid";
+    document.getElementById("items-view").style.display = "none";
+    currentTab = "builds";
+    applyFilters();
+  });
+
+  // Pestaña Items
+  document.getElementById("tab-items").addEventListener("click", () => {
+    document.getElementById("tab-items").classList.add("active");
+    document.getElementById("tab-builds").classList.remove("active");
+    document.getElementById("builds-view").style.display = "none";
+    document.getElementById("items-view").style.display = "block";
+    currentTab = "items";
+    applyFilters();
   });
 
   // Botón Global

@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lucian & Smolder WPA Dashboard - Coachless Aggregator</title>
-  <meta name="description" content="Dashboard de análisis multiparche de Win Probability Added (WPA) para Lucian y Smolder. Optimizado con datos agregados.">
-  
+  <meta name="description"
+    content="Dashboard de análisis multiparche de Win Probability Added (WPA) para Lucian y Smolder. Optimizado con datos agregados.">
+
   <!-- Inter & JetBrains Mono Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
   <!-- Estilos del Dashboard -->
   <link rel="stylesheet" href="styles.css">
 
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
 
   <div class="container">
-    
+
     <!-- LOGO BANNER -->
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; animation: fadeIn 0.4s ease-out;">
+    <div
+      style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; animation: fadeIn 0.4s ease-out;">
       <div style="display: flex; align-items: center; gap: 0.75rem;">
-        <div style="background: linear-gradient(135deg, #3b82f6 0%, #ec4899 100%); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);">
+        <div
+          style="background: linear-gradient(135deg, #3b82f6 0%, #ec4899 100%); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);">
           <i data-lucide="activity" style="width: 20px; height: 20px; color: #ffffff;"></i>
         </div>
-        <span style="font-size: 1.5rem; font-weight: 800; letter-spacing: -0.05em; background: linear-gradient(to right, #ffffff, #8e8e9f); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Zinkoachless</span>
+        <span
+          style="font-size: 1.5rem; font-weight: 800; letter-spacing: -0.05em; background: linear-gradient(to right, #ffffff, #8e8e9f); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Zinkoachless</span>
       </div>
-      <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary); background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 0.3rem 0.6rem; border-radius: var(--radius);">
-        v1.2.0
+      <div
+        style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary); background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 0.3rem 0.6rem; border-radius: var(--radius);">
+        v1.3.0
       </div>
     </div>
 
@@ -38,11 +47,14 @@
     <header class="champion-header">
       <div class="champion-info">
         <div class="champion-icon-wrapper">
-          <img id="champion-avatar" src="https://ddragon.leagueoflegends.com/cdn/16.16.1/img/champion/Lucian.png" alt="Champion Avatar" onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png'">
+          <img id="champion-avatar" src="https://ddragon.leagueoflegends.com/cdn/16.16.1/img/champion/Lucian.png"
+            alt="Champion Avatar"
+            onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png'">
         </div>
         <div class="champion-meta">
           <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.2rem;">
-            <select id="champion-select" style="background-color: var(--bg-main); border: 1.5px solid var(--border-color); color: var(--text-primary); font-size: 1.35rem; font-weight: 700; border-radius: var(--radius); padding: 0.25rem 0.5rem; outline: none; cursor: pointer; letter-spacing: -0.04em;">
+            <select id="champion-select"
+              style="background-color: var(--bg-main); border: 1.5px solid var(--border-color); color: var(--text-primary); font-size: 1.35rem; font-weight: 700; border-radius: var(--radius); padding: 0.25rem 0.5rem; outline: none; cursor: pointer; letter-spacing: -0.04em;">
               <option value="236" selected>Lucian</option>
               <option value="901">Smolder</option>
             </select>
@@ -51,34 +63,57 @@
         </div>
       </div>
       <div class="header-actions">
-        <button class="btn active" id="btn-global"><i data-lucide="crosshair" style="width: 16px; height: 16px;"></i> Global</button>
-        <button class="btn" id="btn-all-items"><i data-lucide="layers" style="width: 16px; height: 16px;"></i> Todos los Objetos</button>
-        <button class="btn" id="btn-filters"><i data-lucide="sliders-horizontal" style="width: 16px; height: 16px;"></i> Filtros</button>
-      </div>
+        <button class="btn active" id="btn-global"><i data-lucide="crosshair" style="width: 16px; height: 16px;"></i>
+          Global</button>
+        <button class="btn" id="btn-all-items"><i data-lucide="layers" style="width: 16px; height: 16px;"></i> Todos los
+          Objetos</button>
+        <button class="btn" id="btn-filters"><i data-lucide="sliders-horizontal" style="width: 16px; height: 16px;"></i>
+          Filtros</button>
     </header>
 
+    <!-- PESTAÑAS DE NAVEGACIÓN -->
+    <div class="view-tabs">
+      <button class="tab-btn active" id="tab-builds">
+        <i data-lucide="layout-grid" style="width: 16px; height: 16px;"></i>
+        Vista por Slots (Builds)
+      </button>
+      <button class="tab-btn" id="tab-items">
+        <i data-lucide="list" style="width: 16px; height: 16px;"></i>
+        Catálogo General (Items)
+      </button>
+    </div>
+
     <!-- SECCIÓN FILTROS (Colapsable) -->
-    <div id="filter-panel" style="display: none; background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between; animation: fadeIn 0.3s ease-out;">
+    <div id="filter-panel"
+      style="display: none; background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); padding: 1.2rem 1.5rem; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between; animation: fadeIn 0.3s ease-out;">
       <div style="display: flex; align-items: center; gap: 0.75rem; flex: 1; min-width: 250px;">
         <i data-lucide="search" style="width: 18px; height: 18px; color: var(--text-secondary);"></i>
-        <input type="text" id="search-input" placeholder="Search runes, spells, items..." style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem 1rem; border-radius: var(--radius); width: 100%; font-family: var(--font-sans); outline: none; transition: border-color 0.2s;" oninput="applyFilters()">
+        <input type="text" id="search-input" placeholder="Search runes, spells, items..."
+          style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem 1rem; border-radius: var(--radius); width: 100%; font-family: var(--font-sans); outline: none; transition: border-color 0.2s;"
+          oninput="applyFilters()">
       </div>
       <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span style="font-size: 0.85rem; color: var(--text-secondary);">From:</span>
-          <select id="patch-from" style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;" onchange="onPatchChange('from')">
+          <select id="patch-from"
+            style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
+            onchange="onPatchChange('from')">
             <!-- Dinámico -->
           </select>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span style="font-size: 0.85rem; color: var(--text-secondary);">To:</span>
-          <select id="patch-to" style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;" onchange="onPatchChange('to')">
+          <select id="patch-to"
+            style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
+            onchange="onPatchChange('to')">
             <!-- Dinámico -->
           </select>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span style="font-size: 0.85rem; color: var(--text-secondary);">WPA:</span>
-          <select id="wpa-filter" style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;" onchange="applyFilters()">
+          <select id="wpa-filter"
+            style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
+            onchange="applyFilters()">
             <option value="all">Show All</option>
             <option value="positive">Only Positive WPA (+)</option>
             <option value="negative">Only Negative WPA (-)</option>
@@ -94,7 +129,7 @@
     </section>
 
     <!-- GRID DE DASHBOARD EN DOS FILAS -->
-    <main class="dashboard-grid">
+    <main class="dashboard-grid" id="builds-view">
 
       <!-- CARD 1: KEYSTONE -->
       <div class="slot-card">
@@ -235,10 +270,30 @@
 
     </main>
 
+    <!-- VISTA DE CATÁLOGO GENERAL (ITEMS SIN SLOT) -->
+    <main class="single-card-view" id="items-view" style="display: none;">
+      <div class="slot-card" style="min-height: 500px;">
+        <div class="slot-header">
+          <div class="slot-title">
+            <i data-lucide="layers" style="width: 16px; height: 16px; color: #3b82f6;"></i>
+            Todos los Objetos (Sin orden de compra)
+          </div>
+          <div class="slot-header-meta">
+            <span class="sort-trigger active" data-sort="wpa">▼ WPA</span>
+            <span class="sort-trigger" data-sort="sample_size">Compras</span>
+          </div>
+        </div>
+        <div class="item-list" id="list-All-Items" style="max-height: none;">
+          <div style="padding: 2rem; text-align: center; color: var(--text-secondary);">Cargando...</div>
+        </div>
+      </div>
+    </main>
+
   </div>
 
   <!-- Carga de datos estáticos y lógica de control -->
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
+
 </html>

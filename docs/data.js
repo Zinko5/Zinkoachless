@@ -808,6 +808,318 @@ const fallbackGranularData236 = [
     "sample_size": 203
   },
   {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 0.0509,
+    "sample_size": 391
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -1.3754,
+    "sample_size": 932
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 3.0136,
+    "sample_size": 298
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2520,
+    "name": "Bastionbreaker",
+    "wpa": -1.4378,
+    "sample_size": 130
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -2.785,
+    "sample_size": 1197
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.649,
+    "sample_size": 22032
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2848,
+    "sample_size": 273250
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -6.857,
+    "sample_size": 121
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1177,
+    "sample_size": 41227
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.5795,
+    "sample_size": 107626
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 1.3739,
+    "sample_size": 282
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -4.1325,
+    "sample_size": 177
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.3059,
+    "sample_size": 8549
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": 0.0274,
+    "sample_size": 35864
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": 2.0423,
+    "sample_size": 176
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -2.0688,
+    "sample_size": 23603
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.2399,
+    "sample_size": 8954
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 2.4549,
+    "sample_size": 103
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.1606,
+    "sample_size": 6044
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -2.2992,
+    "sample_size": 211
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.4525,
+    "sample_size": 1164
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.5838,
+    "sample_size": 2427
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.6219,
+    "sample_size": 11608
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.3244,
+    "sample_size": 215
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.832,
+    "sample_size": 114
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1281,
+    "sample_size": 357877
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -2.0429,
+    "sample_size": 987
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.6426,
+    "sample_size": 470
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -4.4219,
+    "sample_size": 209
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.5476,
+    "sample_size": 399
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.3718,
+    "sample_size": 11226
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.2309,
+    "sample_size": 8945
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.4024,
+    "sample_size": 283042
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.776,
+    "sample_size": 44401
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.1447,
+    "sample_size": 1141
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.4733,
+    "sample_size": 4767
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -1.1056,
+    "sample_size": 157
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.864,
+    "sample_size": 147
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -5.3791,
+    "sample_size": 615
+  },
+  {
     "patch": "16.2",
     "category": "Keystone",
     "id": 8369,
@@ -1584,6 +1896,294 @@ const fallbackGranularData236 = [
     "sample_size": 129
   },
   {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -5.4566,
+    "sample_size": 254
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -1.9792,
+    "sample_size": 387
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 3.0907,
+    "sample_size": 291
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.5406,
+    "sample_size": 1056
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.7009,
+    "sample_size": 18433
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.259,
+    "sample_size": 186880
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -4.3195,
+    "sample_size": 107
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0747,
+    "sample_size": 26515
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.6759,
+    "sample_size": 75210
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -0.2841,
+    "sample_size": 203
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 3.6356,
+    "sample_size": 110
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.7588,
+    "sample_size": 6935
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.3635,
+    "sample_size": 24515
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.3096,
+    "sample_size": 15749
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -0.6832,
+    "sample_size": 5567
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.1159,
+    "sample_size": 4386
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -1.0605,
+    "sample_size": 108
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.03,
+    "sample_size": 851
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.8999,
+    "sample_size": 1555
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.4792,
+    "sample_size": 9024
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": 3.3349,
+    "sample_size": 155
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -3.3636,
+    "sample_size": 1207
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1123,
+    "sample_size": 245223
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 0.9609,
+    "sample_size": 559
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.2618,
+    "sample_size": 354
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -3.7416,
+    "sample_size": 144
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 0.2027,
+    "sample_size": 298
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.8541,
+    "sample_size": 7494
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.7456,
+    "sample_size": 6619
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.3357,
+    "sample_size": 193241
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.8309,
+    "sample_size": 30726
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.103,
+    "sample_size": 821
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.2239,
+    "sample_size": 3281
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -2.6549,
+    "sample_size": 115
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.9358,
+    "sample_size": 135
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -2.6526,
+    "sample_size": 415
+  },
+  {
     "patch": "16.3",
     "category": "Keystone",
     "id": 8369,
@@ -2334,6 +2934,286 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": -4.773,
     "sample_size": 130
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -1.3301,
+    "sample_size": 187
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -4.6387,
+    "sample_size": 291
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -4.7736,
+    "sample_size": 424
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.404,
+    "sample_size": 1276
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.2461,
+    "sample_size": 20201
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2702,
+    "sample_size": 166566
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -7.0671,
+    "sample_size": 105
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0729,
+    "sample_size": 24144
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.6635,
+    "sample_size": 67072
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -0.362,
+    "sample_size": 182
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -1.2909,
+    "sample_size": 9519
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.2905,
+    "sample_size": 20488
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.9457,
+    "sample_size": 14542
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.2033,
+    "sample_size": 3899
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.6117,
+    "sample_size": 3683
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 1.699,
+    "sample_size": 161
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 2.0253,
+    "sample_size": 700
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.5497,
+    "sample_size": 1504
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.3494,
+    "sample_size": 7406
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -0.2918,
+    "sample_size": 134
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.4304,
+    "sample_size": 1333
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1815,
+    "sample_size": 222129
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 2.274,
+    "sample_size": 541
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.5438,
+    "sample_size": 254
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 0.7978,
+    "sample_size": 136
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.4601,
+    "sample_size": 223
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.1954,
+    "sample_size": 9639
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -1.0717,
+    "sample_size": 5934
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2818,
+    "sample_size": 175167
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.5715,
+    "sample_size": 32020
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.2487,
+    "sample_size": 720
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.4661,
+    "sample_size": 3379
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -1.8326,
+    "sample_size": 130
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.3983,
+    "sample_size": 188
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -5.2079,
+    "sample_size": 370
   },
   {
     "patch": "16.4",
@@ -3102,6 +3982,294 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": -1.5309,
     "sample_size": 125
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -2.7858,
+    "sample_size": 204
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 0.9471,
+    "sample_size": 220
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -0.6835,
+    "sample_size": 364
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.5597,
+    "sample_size": 1933
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -5.9688,
+    "sample_size": 106
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.506,
+    "sample_size": 19064
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.311,
+    "sample_size": 153492
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0044,
+    "sample_size": 22622
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7707,
+    "sample_size": 63091
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -0.0398,
+    "sample_size": 227
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -1.3767,
+    "sample_size": 8768
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.5049,
+    "sample_size": 18534
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.7245,
+    "sample_size": 14992
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.2449,
+    "sample_size": 3406
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 0.1469,
+    "sample_size": 3698
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -0.3825,
+    "sample_size": 144
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.4239,
+    "sample_size": 705
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.8558,
+    "sample_size": 1517
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.6367,
+    "sample_size": 6880
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.2386,
+    "sample_size": 136
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.1907,
+    "sample_size": 758
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3179,
+    "name": "Umbral Glaive",
+    "wpa": 0.4202,
+    "sample_size": 158
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2702,
+    "sample_size": 205945
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.8008,
+    "sample_size": 570
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.7629,
+    "sample_size": 254
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -3.5743,
+    "sample_size": 138
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 2.7126,
+    "sample_size": 247
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.6323,
+    "sample_size": 19480
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.8103,
+    "sample_size": 5596
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.3483,
+    "sample_size": 158067
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.8887,
+    "sample_size": 33876
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -1.6903,
+    "sample_size": 758
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.6185,
+    "sample_size": 3580
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": 0.2758,
+    "sample_size": 102
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.1559,
+    "sample_size": 222
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -5.1265,
+    "sample_size": 433
   },
   {
     "patch": "16.5",
@@ -3904,6 +5072,302 @@ const fallbackGranularData236 = [
     "sample_size": 151
   },
   {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -1.2854,
+    "sample_size": 211
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 0.2455,
+    "sample_size": 206
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -1.1015,
+    "sample_size": 457
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.3392,
+    "sample_size": 1924
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -4.1293,
+    "sample_size": 175
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.8623,
+    "sample_size": 14850
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3023,
+    "sample_size": 156749
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.2795,
+    "sample_size": 23857
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.4514,
+    "sample_size": 65750
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 2.4995,
+    "sample_size": 224
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.1027,
+    "sample_size": 8038
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.0102,
+    "sample_size": 19547
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -3.0466,
+    "sample_size": 133
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.0501,
+    "sample_size": 17794
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -0.1502,
+    "sample_size": 3514
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.1862,
+    "sample_size": 4121
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -1.9179,
+    "sample_size": 163
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.3887,
+    "sample_size": 822
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.9347,
+    "sample_size": 1823
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.1093,
+    "sample_size": 5849
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -6.2587,
+    "sample_size": 162
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0144,
+    "sample_size": 596
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3179,
+    "name": "Umbral Glaive",
+    "wpa": 1.4849,
+    "sample_size": 312
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2012,
+    "sample_size": 207738
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 2.236,
+    "sample_size": 641
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.7829,
+    "sample_size": 356
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 0.9352,
+    "sample_size": 153
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 0.8874,
+    "sample_size": 267
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.6692,
+    "sample_size": 20921
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.1376,
+    "sample_size": 5499
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.358,
+    "sample_size": 160276
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.7879,
+    "sample_size": 38550
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.034,
+    "sample_size": 789
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.2227,
+    "sample_size": 4249
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -0.9511,
+    "sample_size": 125
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.8836,
+    "sample_size": 1068
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.0079,
+    "sample_size": 857
+  },
+  {
     "patch": "16.6",
     "category": "Keystone",
     "id": 8369,
@@ -4678,6 +6142,302 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": -3.3293,
     "sample_size": 146
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -4.1847,
+    "sample_size": 191
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -2.6285,
+    "sample_size": 245
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 1.818,
+    "sample_size": 323
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.5466,
+    "sample_size": 2029
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -3.897,
+    "sample_size": 126
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.7667,
+    "sample_size": 14935
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2415,
+    "sample_size": 142026
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": 2.1854,
+    "sample_size": 108
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.0556,
+    "sample_size": 20283
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.6319,
+    "sample_size": 61302
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -1.1098,
+    "sample_size": 211
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.54,
+    "sample_size": 6622
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.0507,
+    "sample_size": 17786
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -2.6933,
+    "sample_size": 101
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.192,
+    "sample_size": 12859
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.1679,
+    "sample_size": 2477
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 0.1042,
+    "sample_size": 3492
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 1.9339,
+    "sample_size": 172
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -1.8421,
+    "sample_size": 682
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.037,
+    "sample_size": 1757
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.3237,
+    "sample_size": 6187
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.5756,
+    "sample_size": 128
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.5103,
+    "sample_size": 393
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2598,
+    "sample_size": 189638
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.1196,
+    "sample_size": 539
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 3.6523,
+    "sample_size": 299
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.4286,
+    "sample_size": 154
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.96,
+    "sample_size": 215
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.5115,
+    "sample_size": 21672
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.0317,
+    "sample_size": 4354
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.32,
+    "sample_size": 146813
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.8432,
+    "sample_size": 38195
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 1.2302,
+    "sample_size": 745
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.3316,
+    "sample_size": 3791
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -3.6981,
+    "sample_size": 123
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.4357,
+    "sample_size": 1890
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.2861,
+    "sample_size": 574
   },
   {
     "patch": "16.7",
@@ -5456,6 +7216,310 @@ const fallbackGranularData236 = [
     "sample_size": 188
   },
   {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 4.1271,
+    "sample_size": 175
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 1.6226,
+    "sample_size": 233
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.5753,
+    "sample_size": 1331
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.1939,
+    "sample_size": 2268
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -0.7267,
+    "sample_size": 203
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.257,
+    "sample_size": 15413
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.4319,
+    "sample_size": 138843
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": 1.5408,
+    "sample_size": 129
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0915,
+    "sample_size": 20332
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.623,
+    "sample_size": 60073
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -3.3059,
+    "sample_size": 204
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.2681,
+    "sample_size": 7966
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.0114,
+    "sample_size": 17373
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.6335,
+    "sample_size": 117
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -2.1077,
+    "sample_size": 17440
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.7602,
+    "sample_size": 8923
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.4337,
+    "sample_size": 3470
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 0.4322,
+    "sample_size": 139
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 4.6507,
+    "sample_size": 691
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.0466,
+    "sample_size": 1715
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.3692,
+    "sample_size": 5812
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -0.9787,
+    "sample_size": 119
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.4449,
+    "sample_size": 299
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.382,
+    "sample_size": 183268
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.3654,
+    "sample_size": 527
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 1.6502,
+    "sample_size": 255
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 4.3069,
+    "sample_size": 111
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.6909,
+    "sample_size": 196
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -2.2896,
+    "sample_size": 22774
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.2097,
+    "sample_size": 4112
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2657,
+    "sample_size": 141940
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.7694,
+    "sample_size": 38929
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.6254,
+    "sample_size": 847
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.8658,
+    "sample_size": 6821
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -1.566,
+    "sample_size": 152
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.3152,
+    "sample_size": 2511
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -2.9747,
+    "sample_size": 749
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6701,
+    "name": "Opportunity",
+    "wpa": -6.1207,
+    "sample_size": 119
+  },
+  {
     "patch": "16.8",
     "category": "Keystone",
     "id": 8369,
@@ -6200,6 +8264,286 @@ const fallbackGranularData236 = [
     "sample_size": 140
   },
   {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.5033,
+    "sample_size": 170
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 1.5479,
+    "sample_size": 137
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -0.365,
+    "sample_size": 2203
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.3967,
+    "sample_size": 2816
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -2.0588,
+    "sample_size": 122
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.3967,
+    "sample_size": 16119
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3309,
+    "sample_size": 140170
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.0724,
+    "sample_size": 20062
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.6151,
+    "sample_size": 59403
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.4364,
+    "sample_size": 189
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -0.9777,
+    "sample_size": 102
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.47,
+    "sample_size": 11245
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.4549,
+    "sample_size": 17473
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.1917,
+    "sample_size": 14770
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.8747,
+    "sample_size": 6633
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.669,
+    "sample_size": 3918
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -6.0797,
+    "sample_size": 143
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.8583,
+    "sample_size": 713
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.2878,
+    "sample_size": 1435
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.1311,
+    "sample_size": 6097
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": 5.0034,
+    "sample_size": 134
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -1.6952,
+    "sample_size": 417
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2793,
+    "sample_size": 186967
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 2.0929,
+    "sample_size": 537
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -0.2565,
+    "sample_size": 267
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 4.4827,
+    "sample_size": 199
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.7952,
+    "sample_size": 19802
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.791,
+    "sample_size": 4147
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2837,
+    "sample_size": 148282
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.6021,
+    "sample_size": 34948
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.0711,
+    "sample_size": 686
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.3422,
+    "sample_size": 5879
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -0.8952,
+    "sample_size": 111
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.4159,
+    "sample_size": 4839
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -0.3292,
+    "sample_size": 591
+  },
+  {
     "patch": "16.9",
     "category": "Keystone",
     "id": 8369,
@@ -6372,7 +8716,7 @@ const fallbackGranularData236 = [
     "category": "Boots",
     "id": 3006,
     "name": "Berserker's Greaves",
-    "wpa": -1.2583,
+    "wpa": -1.2584,
     "sample_size": 44368
   },
   {
@@ -7038,6 +9382,310 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": 2.2387,
     "sample_size": 399
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 1.4747,
+    "sample_size": 201
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -5.0602,
+    "sample_size": 141
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -1.5732,
+    "sample_size": 2611
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.0369,
+    "sample_size": 2624
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 5.8786,
+    "sample_size": 112
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.5611,
+    "sample_size": 18977
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2731,
+    "sample_size": 162379
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": 6.6466,
+    "sample_size": 106
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.3231,
+    "sample_size": 23958
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.9194,
+    "sample_size": 65391
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.0816,
+    "sample_size": 242
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 0.6916,
+    "sample_size": 105
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -1.0617,
+    "sample_size": 14894
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.3178,
+    "sample_size": 18934
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3087,
+    "name": "Statikk Shiv",
+    "wpa": -5.2045,
+    "sample_size": 274
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.973,
+    "sample_size": 16072
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.2408,
+    "sample_size": 4741
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.0546,
+    "sample_size": 4369
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -5.0526,
+    "sample_size": 150
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -1.6571,
+    "sample_size": 774
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.172,
+    "sample_size": 1433
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.3616,
+    "sample_size": 7065
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": 0.0561,
+    "sample_size": 163
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.5461,
+    "sample_size": 2034
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2784,
+    "sample_size": 221958
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.6936,
+    "sample_size": 505
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -3.238,
+    "sample_size": 403
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -3.9096,
+    "sample_size": 181
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.7435,
+    "sample_size": 259
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.8239,
+    "sample_size": 18012
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -1.1716,
+    "sample_size": 4740
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.3197,
+    "sample_size": 177234
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.8747,
+    "sample_size": 38275
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.6004,
+    "sample_size": 766
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.26,
+    "sample_size": 5615
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": 0.3734,
+    "sample_size": 116
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.2552,
+    "sample_size": 4004
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.2901,
+    "sample_size": 2448
   },
   {
     "patch": "16.10",
@@ -7904,6 +10552,310 @@ const fallbackGranularData236 = [
     "sample_size": 695
   },
   {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.1568,
+    "sample_size": 258
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -3.7567,
+    "sample_size": 158
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -2.5415,
+    "sample_size": 4062
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.3298,
+    "sample_size": 2300
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.4844,
+    "sample_size": 24484
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3457,
+    "sample_size": 189180
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -5.9306,
+    "sample_size": 109
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1217,
+    "sample_size": 34406
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.9058,
+    "sample_size": 70211
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -2.7775,
+    "sample_size": 252
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -1.5264,
+    "sample_size": 145
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -1.0282,
+    "sample_size": 26121
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.3266,
+    "sample_size": 21234
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": 2.4219,
+    "sample_size": 125
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.5805,
+    "sample_size": 16053
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.5986,
+    "sample_size": 4668
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -9.785,
+    "sample_size": 109
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.5757,
+    "sample_size": 5040
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -2.1024,
+    "sample_size": 160
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 2.1132,
+    "sample_size": 950
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.6909,
+    "sample_size": 1613
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.1213,
+    "sample_size": 7862
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -6.9022,
+    "sample_size": 221
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -4.0749,
+    "sample_size": 3213
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2638,
+    "sample_size": 265163
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -1.2137,
+    "sample_size": 636
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 3.453,
+    "sample_size": 449
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -2.2349,
+    "sample_size": 216
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.9737,
+    "sample_size": 269
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.7574,
+    "sample_size": 16118
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.6291,
+    "sample_size": 5817
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2351,
+    "sample_size": 212878
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.7412,
+    "sample_size": 43634
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.3412,
+    "sample_size": 793
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.0956,
+    "sample_size": 6374
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -3.1252,
+    "sample_size": 140
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.2251,
+    "sample_size": 5485
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.9358,
+    "sample_size": 3398
+  },
+  {
     "patch": "16.11",
     "category": "Keystone",
     "id": 8369,
@@ -8744,6 +11696,286 @@ const fallbackGranularData236 = [
     "sample_size": 524
   },
   {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 1.185,
+    "sample_size": 210
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -0.88,
+    "sample_size": 2690
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.7704,
+    "sample_size": 1988
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.4069,
+    "sample_size": 20877
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2907,
+    "sample_size": 157034
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1295,
+    "sample_size": 29714
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7654,
+    "sample_size": 58333
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -1.3528,
+    "sample_size": 199
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -0.7999,
+    "sample_size": 113
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.6971,
+    "sample_size": 19323
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.734,
+    "sample_size": 15878
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -2.2018,
+    "sample_size": 110
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.9534,
+    "sample_size": 10180
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.4513,
+    "sample_size": 2416
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.6542,
+    "sample_size": 4322
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -2.3219,
+    "sample_size": 173
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.4455,
+    "sample_size": 774
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -3.9122,
+    "sample_size": 1474
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.2921,
+    "sample_size": 6641
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.1887,
+    "sample_size": 176
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -0.9918,
+    "sample_size": 1933
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2888,
+    "sample_size": 221547
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.0209,
+    "sample_size": 538
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -0.4057,
+    "sample_size": 429
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 2.0041,
+    "sample_size": 153
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.1614,
+    "sample_size": 185
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -2.4093,
+    "sample_size": 11897
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.4436,
+    "sample_size": 4402
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.206,
+    "sample_size": 178690
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.0412,
+    "sample_size": 37082
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.3413,
+    "sample_size": 533
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.323,
+    "sample_size": 4395
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": 0.7151,
+    "sample_size": 113
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.5281,
+    "sample_size": 3797
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -3.0852,
+    "sample_size": 2105
+  },
+  {
     "patch": "16.12",
     "category": "Keystone",
     "id": 8369,
@@ -9542,6 +12774,286 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": -0.5616,
     "sample_size": 358
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -1.2159,
+    "sample_size": 199
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 0.0209,
+    "sample_size": 107
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -1.16,
+    "sample_size": 2587
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.408,
+    "sample_size": 1781
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -4.9366,
+    "sample_size": 108
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.6327,
+    "sample_size": 17975
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3775,
+    "sample_size": 134350
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1598,
+    "sample_size": 25061
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.9468,
+    "sample_size": 48932
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 1.9578,
+    "sample_size": 210
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -0.9212,
+    "sample_size": 112
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.6363,
+    "sample_size": 26721
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.0091,
+    "sample_size": 13158
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.6371,
+    "sample_size": 7425
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.665,
+    "sample_size": 1447
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.7905,
+    "sample_size": 3694
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -6.0571,
+    "sample_size": 151
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 2.238,
+    "sample_size": 814
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -0.9906,
+    "sample_size": 1385
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.419,
+    "sample_size": 6135
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": 2.237,
+    "sample_size": 138
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -4.1565,
+    "sample_size": 2075
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2738,
+    "sample_size": 194903
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -4.1568,
+    "sample_size": 430
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -1.8437,
+    "sample_size": 420
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -8.821,
+    "sample_size": 192
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.0362,
+    "sample_size": 219
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.7608,
+    "sample_size": 11016
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.1337,
+    "sample_size": 4679
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.3663,
+    "sample_size": 157376
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.8112,
+    "sample_size": 33880
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.2229,
+    "sample_size": 400
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.3243,
+    "sample_size": 3673
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.0549,
+    "sample_size": 3243
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.214,
+    "sample_size": 1325
   },
   {
     "patch": "16.13",
@@ -10440,6 +13952,318 @@ const fallbackGranularData236 = [
     "sample_size": 470
   },
   {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.455,
+    "sample_size": 430
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 2.4794,
+    "sample_size": 135
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -1.5445,
+    "sample_size": 3039
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.4624,
+    "sample_size": 2390
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -4.1289,
+    "sample_size": 157
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.3708,
+    "sample_size": 30716
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3045,
+    "sample_size": 228329
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -8.5511,
+    "sample_size": 124
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.3444,
+    "sample_size": 43586
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.8172,
+    "sample_size": 85237
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -1.2176,
+    "sample_size": 312
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 1.3164,
+    "sample_size": 174
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.5436,
+    "sample_size": 39921
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.0408,
+    "sample_size": 21526
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": 2.407,
+    "sample_size": 150
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -2.1417,
+    "sample_size": 10353
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -0.8743,
+    "sample_size": 2225
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 1.0291,
+    "sample_size": 118
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.3065,
+    "sample_size": 6415
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -4.2779,
+    "sample_size": 268
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.8466,
+    "sample_size": 1265
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.6744,
+    "sample_size": 2392
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.1286,
+    "sample_size": 12117
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -2.1028,
+    "sample_size": 257
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -1.803,
+    "sample_size": 2534
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2563,
+    "sample_size": 327507
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 0.4621,
+    "sample_size": 689
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -0.6658,
+    "sample_size": 714
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -4.9953,
+    "sample_size": 299
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -5.0076,
+    "sample_size": 286
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -2.3794,
+    "sample_size": 18067
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.3743,
+    "sample_size": 7388
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2805,
+    "sample_size": 266642
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.004,
+    "sample_size": 56760
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -1.6198,
+    "sample_size": 710
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.2395,
+    "sample_size": 5729
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": 3.5552,
+    "sample_size": 178
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.4779,
+    "sample_size": 4786
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.1025,
+    "sample_size": 1628
+  },
+  {
     "patch": "16.14",
     "category": "Keystone",
     "id": 8369,
@@ -11246,6 +15070,286 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": -0.9591,
     "sample_size": 261
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -2.1717,
+    "sample_size": 291
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -1.635,
+    "sample_size": 1560
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.277,
+    "sample_size": 1136
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.0011,
+    "sample_size": 18419
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2436,
+    "sample_size": 132476
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.6452,
+    "sample_size": 25273
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.011,
+    "sample_size": 50205
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.4915,
+    "sample_size": 174
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 2.5892,
+    "sample_size": 119
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.8975,
+    "sample_size": 23564
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.6037,
+    "sample_size": 13103
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": 1.7703,
+    "sample_size": 109
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.6588,
+    "sample_size": 4459
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.0339,
+    "sample_size": 1023
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.4339,
+    "sample_size": 3937
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 1.2203,
+    "sample_size": 101
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.6544,
+    "sample_size": 701
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -1.4977,
+    "sample_size": 1430
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.0499,
+    "sample_size": 7843
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -5.6971,
+    "sample_size": 180
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -4.0781,
+    "sample_size": 1365
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.24,
+    "sample_size": 189673
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.4328,
+    "sample_size": 449
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -0.2529,
+    "sample_size": 407
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -4.6623,
+    "sample_size": 192
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 0.4306,
+    "sample_size": 192
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.352,
+    "sample_size": 10211
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.9609,
+    "sample_size": 4232
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2603,
+    "sample_size": 155066
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.3369,
+    "sample_size": 33709
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 3.0219,
+    "sample_size": 385
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.2555,
+    "sample_size": 3160
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -0.1768,
+    "sample_size": 114
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.2487,
+    "sample_size": 2874
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.7248,
+    "sample_size": 943
   },
   {
     "patch": "16.15",
@@ -12088,6 +16192,286 @@ const fallbackGranularData236 = [
     "sample_size": 247
   },
   {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -2.6364,
+    "sample_size": 320
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -0.5111,
+    "sample_size": 896
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -0.5464,
+    "sample_size": 891
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.5778,
+    "sample_size": 1265
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.273,
+    "sample_size": 21509
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3085,
+    "sample_size": 152651
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": 2.7855,
+    "sample_size": 146
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.2958,
+    "sample_size": 28648
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.0052,
+    "sample_size": 58657
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -1.5819,
+    "sample_size": 196
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 2.7175,
+    "sample_size": 117
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.6693,
+    "sample_size": 25547
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.8413,
+    "sample_size": 14554
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -3.2419,
+    "sample_size": 120
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.4476,
+    "sample_size": 4528
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -0.1221,
+    "sample_size": 1049
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.2969,
+    "sample_size": 4361
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -2.1838,
+    "sample_size": 821
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.4248,
+    "sample_size": 1517
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.1628,
+    "sample_size": 9017
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -0.6181,
+    "sample_size": 234
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -1.9128,
+    "sample_size": 1655
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.206,
+    "sample_size": 218432
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 4.4663,
+    "sample_size": 391
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -1.7962,
+    "sample_size": 492
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -4.9488,
+    "sample_size": 204
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -6.2848,
+    "sample_size": 246
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.8545,
+    "sample_size": 10302
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -2.061,
+    "sample_size": 4859
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2738,
+    "sample_size": 180025
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.2429,
+    "sample_size": 33650
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -4.5481,
+    "sample_size": 494
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.4418,
+    "sample_size": 3276
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.7341,
+    "sample_size": 2445
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -2.701,
+    "sample_size": 866
+  },
+  {
     "patch": "16.16",
     "category": "Keystone",
     "id": 8369,
@@ -12734,6 +17118,238 @@ const fallbackGranularData236 = [
     "name": "Voltaic Cyclosword",
     "wpa": 5.3897,
     "sample_size": 105
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 0.9897,
+    "sample_size": 119
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": 3.1109,
+    "sample_size": 154
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.6352,
+    "sample_size": 350
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 1.1703,
+    "sample_size": 471
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 0.88,
+    "sample_size": 9251
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2929,
+    "sample_size": 68489
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.4459,
+    "sample_size": 12645
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.8465,
+    "sample_size": 26475
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.4254,
+    "sample_size": 10287
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.8009,
+    "sample_size": 6069
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -2.325,
+    "sample_size": 2024
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.5118,
+    "sample_size": 494
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 0.1076,
+    "sample_size": 1966
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -3.0861,
+    "sample_size": 356
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.4162,
+    "sample_size": 663
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.634,
+    "sample_size": 3707
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -3.4398,
+    "sample_size": 675
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1994,
+    "sample_size": 98445
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -3.475,
+    "sample_size": 196
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.6823,
+    "sample_size": 199
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -8.0537,
+    "sample_size": 109
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.9511,
+    "sample_size": 4501
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -1.5963,
+    "sample_size": 2083
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.3094,
+    "sample_size": 81814
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.0574,
+    "sample_size": 14256
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.9697,
+    "sample_size": 205
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.0331,
+    "sample_size": 1596
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.2274,
+    "sample_size": 921
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -0.336,
+    "sample_size": 314
   }
 ];
 
@@ -13643,6 +18259,302 @@ const fallbackGranularData901 = [
     "sample_size": 137
   },
   {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.3246,
+    "sample_size": 1309
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 0.0143,
+    "sample_size": 927
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -7.3402,
+    "sample_size": 197
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 1.3707,
+    "sample_size": 6151
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2520,
+    "name": "Bastionbreaker",
+    "wpa": 0.5406,
+    "sample_size": 185
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.698,
+    "sample_size": 3323
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -0.0187,
+    "sample_size": 3906
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.1459,
+    "sample_size": 19489
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.5977,
+    "sample_size": 139083
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.6144,
+    "sample_size": 30776
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.5967,
+    "sample_size": 50863
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -0.4234,
+    "sample_size": 164
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 4.1327,
+    "sample_size": 180
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 3.225,
+    "sample_size": 10195
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.9416,
+    "sample_size": 22455
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -3.0326,
+    "sample_size": 5440
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.6307,
+    "sample_size": 181199
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.1419,
+    "sample_size": 1939
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -5.2975,
+    "sample_size": 185
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.441,
+    "sample_size": 2378
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.3618,
+    "sample_size": 1222
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 2.3501,
+    "sample_size": 4758
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.7798,
+    "sample_size": 1766
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.3546,
+    "sample_size": 190110
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.0687,
+    "sample_size": 272143
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 3.5712,
+    "sample_size": 2699
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -8.7613,
+    "sample_size": 116
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.5407,
+    "sample_size": 2113
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.9139,
+    "sample_size": 598
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -3.9132,
+    "sample_size": 451
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.3335,
+    "sample_size": 1072
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.1261,
+    "sample_size": 12274
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -6.779,
+    "sample_size": 156
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -4.0923,
+    "sample_size": 635
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.5295,
+    "sample_size": 762
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 1.251,
+    "sample_size": 3152
+  },
+  {
+    "patch": "16.1",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 1.4202,
+    "sample_size": 9529
+  },
+  {
     "patch": "16.2",
     "category": "Keystone",
     "id": 8005,
@@ -14481,6 +19393,278 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -3.191,
     "sample_size": 255
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 2.8735,
+    "sample_size": 924
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 1.6207,
+    "sample_size": 735
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 1.2956,
+    "sample_size": 6203
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.0367,
+    "sample_size": 2695
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 1.4354,
+    "sample_size": 2217
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.9965,
+    "sample_size": 16578
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.5583,
+    "sample_size": 109786
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1044,
+    "sample_size": 24697
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.5485,
+    "sample_size": 40949
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -0.9189,
+    "sample_size": 141
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 3.8655,
+    "sample_size": 142
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 2.5728,
+    "sample_size": 8407
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.7588,
+    "sample_size": 15865
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.1096,
+    "sample_size": 4468
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.6181,
+    "sample_size": 143707
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.2912,
+    "sample_size": 1037
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -1.247,
+    "sample_size": 177
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.1753,
+    "sample_size": 1982
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 2.173,
+    "sample_size": 1084
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.6131,
+    "sample_size": 3634
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -4.4957,
+    "sample_size": 1432
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.3644,
+    "sample_size": 160073
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.0578,
+    "sample_size": 219837
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 2.3449,
+    "sample_size": 1976
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.084,
+    "sample_size": 1571
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 2.8632,
+    "sample_size": 496
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -4.3381,
+    "sample_size": 358
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.9436,
+    "sample_size": 854
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.1157,
+    "sample_size": 9832
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -1.9362,
+    "sample_size": 120
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -3.0768,
+    "sample_size": 451
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -1.3399,
+    "sample_size": 632
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 1.9721,
+    "sample_size": 2689
+  },
+  {
+    "patch": "16.2",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.1871,
+    "sample_size": 6110
   },
   {
     "patch": "16.3",
@@ -15345,6 +20529,286 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -0.7553,
     "sample_size": 306
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -0.3151,
+    "sample_size": 1114
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -1.5977,
+    "sample_size": 706
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 1.1816,
+    "sample_size": 8766
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.7851,
+    "sample_size": 2728
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 0.6946,
+    "sample_size": 2499
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.2421,
+    "sample_size": 17041
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.528,
+    "sample_size": 99485
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0801,
+    "sample_size": 24604
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7468,
+    "sample_size": 38395
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -3.0607,
+    "sample_size": 154
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 1.6034,
+    "sample_size": 132
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 2.9766,
+    "sample_size": 7303
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.727,
+    "sample_size": 13929
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -1.907,
+    "sample_size": 5744
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.6932,
+    "sample_size": 131429
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 1.1731,
+    "sample_size": 767
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -5.8209,
+    "sample_size": 189
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.1686,
+    "sample_size": 1798
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 3.1394,
+    "sample_size": 1277
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.1806,
+    "sample_size": 2973
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.0798,
+    "sample_size": 1232
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.2603,
+    "sample_size": 159054
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.0773,
+    "sample_size": 206385
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 3.9992,
+    "sample_size": 1641
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.4543,
+    "sample_size": 1171
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.1379,
+    "sample_size": 523
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -1.931,
+    "sample_size": 463
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": 1.6504,
+    "sample_size": 111
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.529,
+    "sample_size": 887
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.3305,
+    "sample_size": 10199
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -7.1175,
+    "sample_size": 101
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.0764,
+    "sample_size": 461
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.733,
+    "sample_size": 619
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.6569,
+    "sample_size": 2630
+  },
+  {
+    "patch": "16.3",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.065,
+    "sample_size": 5106
   },
   {
     "patch": "16.4",
@@ -16217,6 +21681,294 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": 0.9374,
     "sample_size": 305
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.7334,
+    "sample_size": 1478
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.4869,
+    "sample_size": 776
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 1.0926,
+    "sample_size": 17490
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.2604,
+    "sample_size": 4617
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 2.2897,
+    "sample_size": 2548
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.4867,
+    "sample_size": 17754
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.6097,
+    "sample_size": 92243
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.5145,
+    "sample_size": 25551
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.6452,
+    "sample_size": 37171
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 0.8691,
+    "sample_size": 200
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -0.1383,
+    "sample_size": 144
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 1.7793,
+    "sample_size": 7233
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.9991,
+    "sample_size": 11859
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -0.8968,
+    "sample_size": 6585
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.7584,
+    "sample_size": 124311
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -5.2175,
+    "sample_size": 582
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -4.1702,
+    "sample_size": 243
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.1173,
+    "sample_size": 1868
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.0899,
+    "sample_size": 1284
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.9566,
+    "sample_size": 2942
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -4.5763,
+    "sample_size": 1106
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.2237,
+    "sample_size": 159713
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.0341,
+    "sample_size": 203206
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": 2.3749,
+    "sample_size": 102
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.5701,
+    "sample_size": 3735
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 4.0352,
+    "sample_size": 1029
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.2432,
+    "sample_size": 525
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -4.2346,
+    "sample_size": 456
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": 3.1737,
+    "sample_size": 123
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.9019,
+    "sample_size": 811
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.0043,
+    "sample_size": 9998
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -3.0218,
+    "sample_size": 137
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": 0.1242,
+    "sample_size": 429
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 1.5878,
+    "sample_size": 647
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 1.4724,
+    "sample_size": 2696
+  },
+  {
+    "patch": "16.4",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.5977,
+    "sample_size": 5443
   },
   {
     "patch": "16.5",
@@ -17131,6 +22883,302 @@ const fallbackGranularData901 = [
     "sample_size": 354
   },
   {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.2051,
+    "sample_size": 3431
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.7755,
+    "sample_size": 879
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.778,
+    "sample_size": 41973
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.6617,
+    "sample_size": 4554
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 0.1054,
+    "sample_size": 4881
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.4427,
+    "sample_size": 21931
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.6618,
+    "sample_size": 107020
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.3681,
+    "sample_size": 28403
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7305,
+    "sample_size": 46038
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -1.0031,
+    "sample_size": 329
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 4.5812,
+    "sample_size": 150
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 1.3476,
+    "sample_size": 16994
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.3658,
+    "sample_size": 15435
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.702,
+    "sample_size": 7852
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.7817,
+    "sample_size": 148409
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.4933,
+    "sample_size": 596
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 0.2816,
+    "sample_size": 296
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.8601,
+    "sample_size": 2295
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.8249,
+    "sample_size": 1541
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.2595,
+    "sample_size": 4025
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -4.4557,
+    "sample_size": 1314
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.169,
+    "sample_size": 212048
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1006,
+    "sample_size": 262821
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3748,
+    "name": "Titanic Hydra",
+    "wpa": -1.8621,
+    "sample_size": 117
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 2.2559,
+    "sample_size": 3209
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -1.8594,
+    "sample_size": 108
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 1.7707,
+    "sample_size": 1494
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 0.7676,
+    "sample_size": 806
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -0.2214,
+    "sample_size": 569
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": -2.4536,
+    "sample_size": 129
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.1124,
+    "sample_size": 951
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.1114,
+    "sample_size": 10896
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -8.6463,
+    "sample_size": 154
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.3257,
+    "sample_size": 558
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -1.0283,
+    "sample_size": 846
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.5331,
+    "sample_size": 3729
+  },
+  {
+    "patch": "16.5",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 1.2895,
+    "sample_size": 13828
+  },
+  {
     "patch": "16.6",
     "category": "Keystone",
     "id": 8005,
@@ -18017,6 +24065,310 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -1.3879,
     "sample_size": 663
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.7456,
+    "sample_size": 4322
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 1.5727,
+    "sample_size": 822
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.8267,
+    "sample_size": 52216
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -2.1102,
+    "sample_size": 3877
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 1.1207,
+    "sample_size": 3293
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.6013,
+    "sample_size": 21445
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.9439,
+    "sample_size": 97090
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.3525,
+    "sample_size": 27442
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.5294,
+    "sample_size": 44531
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -1.674,
+    "sample_size": 256
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -2.4613,
+    "sample_size": 153
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 1.4804,
+    "sample_size": 17852
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.1892,
+    "sample_size": 9947
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3074,
+    "name": "Ravenous Hydra",
+    "wpa": 0.4242,
+    "sample_size": 119
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.1595,
+    "sample_size": 8853
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.873,
+    "sample_size": 138927
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.9014,
+    "sample_size": 544
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 3.1251,
+    "sample_size": 269
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.9418,
+    "sample_size": 2114
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.9969,
+    "sample_size": 1427
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.6505,
+    "sample_size": 3880
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.0149,
+    "sample_size": 1233
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.1724,
+    "sample_size": 199673
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.108,
+    "sample_size": 250614
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3748,
+    "name": "Titanic Hydra",
+    "wpa": -3.9011,
+    "sample_size": 113
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 3.1232,
+    "sample_size": 2421
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.161,
+    "sample_size": 1179
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 1.755,
+    "sample_size": 800
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -4.2606,
+    "sample_size": 501
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": -1.5945,
+    "sample_size": 120
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.2061,
+    "sample_size": 782
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.222,
+    "sample_size": 9142
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -3.807,
+    "sample_size": 187
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.6659,
+    "sample_size": 495
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.507,
+    "sample_size": 805
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.0693,
+    "sample_size": 3691
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": 4.2682,
+    "sample_size": 249
+  },
+  {
+    "patch": "16.6",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.698,
+    "sample_size": 20546
   },
   {
     "patch": "16.7",
@@ -18939,6 +25291,310 @@ const fallbackGranularData901 = [
     "sample_size": 759
   },
   {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.5497,
+    "sample_size": 3665
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -1.8822,
+    "sample_size": 887
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.8843,
+    "sample_size": 50548
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.7054,
+    "sample_size": 4003
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 0.3941,
+    "sample_size": 3046
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.3367,
+    "sample_size": 22967
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.5832,
+    "sample_size": 105110
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.4988,
+    "sample_size": 29282
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.5048,
+    "sample_size": 51944
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -1.0735,
+    "sample_size": 294
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 4.2238,
+    "sample_size": 107
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 1.3026,
+    "sample_size": 18221
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.6251,
+    "sample_size": 9618
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3074,
+    "name": "Ravenous Hydra",
+    "wpa": -1.3764,
+    "sample_size": 103
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -1.751,
+    "sample_size": 8966
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.8324,
+    "sample_size": 155664
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.9343,
+    "sample_size": 540
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -0.66,
+    "sample_size": 250
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.6881,
+    "sample_size": 2153
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 8.3784,
+    "sample_size": 139
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -1.0374,
+    "sample_size": 1576
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.1388,
+    "sample_size": 4064
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.5084,
+    "sample_size": 1444
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.2005,
+    "sample_size": 200732
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1386,
+    "sample_size": 270323
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.564,
+    "sample_size": 2729
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 1.9479,
+    "sample_size": 1384
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -2.4419,
+    "sample_size": 818
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -3.2307,
+    "sample_size": 518
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": 0.2459,
+    "sample_size": 129
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.7255,
+    "sample_size": 844
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.0646,
+    "sample_size": 8942
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -10.768,
+    "sample_size": 171
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -3.6532,
+    "sample_size": 553
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.6275,
+    "sample_size": 1303
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 1.0674,
+    "sample_size": 4147
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": 2.2761,
+    "sample_size": 497
+  },
+  {
+    "patch": "16.7",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.2664,
+    "sample_size": 50664
+  },
+  {
     "patch": "16.8",
     "category": "Keystone",
     "id": 8005,
@@ -19793,6 +26449,294 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -0.6234,
     "sample_size": 925
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -0.5749,
+    "sample_size": 2374
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.3778,
+    "sample_size": 604
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.7525,
+    "sample_size": 33789
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.6147,
+    "sample_size": 2825
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -0.0718,
+    "sample_size": 1632
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.4316,
+    "sample_size": 16489
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.6232,
+    "sample_size": 77047
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.4663,
+    "sample_size": 21434
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.6953,
+    "sample_size": 39237
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 3.0297,
+    "sample_size": 203
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 2.1653,
+    "sample_size": 106
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 1.3373,
+    "sample_size": 10766
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.1972,
+    "sample_size": 6399
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -1.4248,
+    "sample_size": 2666
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.8364,
+    "sample_size": 116941
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 1.5668,
+    "sample_size": 322
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 3.1344,
+    "sample_size": 185
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 0.2577,
+    "sample_size": 1636
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 1.3192,
+    "sample_size": 127
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.9527,
+    "sample_size": 1141
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.4916,
+    "sample_size": 3015
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -4.9346,
+    "sample_size": 1020
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.3303,
+    "sample_size": 125741
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1567,
+    "sample_size": 196893
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.9608,
+    "sample_size": 1871
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 4.0031,
+    "sample_size": 902
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 2.5874,
+    "sample_size": 527
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -4.1068,
+    "sample_size": 292
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.8645,
+    "sample_size": 591
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.8811,
+    "sample_size": 3563
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -5.1226,
+    "sample_size": 113
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.2409,
+    "sample_size": 588
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 1.094,
+    "sample_size": 819
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 1.3227,
+    "sample_size": 3244
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -0.3419,
+    "sample_size": 348
+  },
+  {
+    "patch": "16.8",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -0.5473,
+    "sample_size": 74657
   },
   {
     "patch": "16.9",
@@ -20859,6 +27803,350 @@ const fallbackGranularData901 = [
     "sample_size": 322
   },
   {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.4556,
+    "sample_size": 9308
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "wpa": -5.6888,
+    "sample_size": 108
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 0.9784,
+    "sample_size": 1438
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.773,
+    "sample_size": 140925
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -2.1032,
+    "sample_size": 4758
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -1.0232,
+    "sample_size": 2092
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.3807,
+    "sample_size": 43564
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -1.8399,
+    "sample_size": 113207
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.8521,
+    "sample_size": 20941
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": -0.4854,
+    "sample_size": 33787
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 1.5268,
+    "sample_size": 514
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": 0.2032,
+    "sample_size": 333
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 1.7561,
+    "sample_size": 296193
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.7415,
+    "sample_size": 11927
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3074,
+    "name": "Ravenous Hydra",
+    "wpa": 1.2461,
+    "sample_size": 126
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.1645,
+    "sample_size": 3421
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3087,
+    "name": "Statikk Shiv",
+    "wpa": -3.7268,
+    "sample_size": 644
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.7872,
+    "sample_size": 200263
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -5.0065,
+    "sample_size": 490
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -0.0383,
+    "sample_size": 526
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.4242,
+    "sample_size": 4002
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.4892,
+    "sample_size": 2709
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.3223,
+    "sample_size": 8471
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.7342,
+    "sample_size": 3024
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0533,
+    "sample_size": 364124
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1642,
+    "sample_size": 499408
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": 3.4978,
+    "sample_size": 145
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3748,
+    "name": "Titanic Hydra",
+    "wpa": -3.362,
+    "sample_size": 269
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.5551,
+    "sample_size": 2543
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": 2.0178,
+    "sample_size": 271
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 1.2607,
+    "sample_size": 4162
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -0.4528,
+    "sample_size": 4874
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -2.5759,
+    "sample_size": 1209
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": -0.0357,
+    "sample_size": 214
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.0165,
+    "sample_size": 1589
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.5917,
+    "sample_size": 5628
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -9.6838,
+    "sample_size": 117
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -5.4878,
+    "sample_size": 822
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.2389,
+    "sample_size": 631
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.3393,
+    "sample_size": 6061
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -4.2924,
+    "sample_size": 561
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.489,
+    "sample_size": 69969
+  },
+  {
+    "patch": "16.9",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -4.2625,
+    "sample_size": 1292
+  },
+  {
     "patch": "16.10",
     "category": "Keystone",
     "id": 8005,
@@ -21819,6 +29107,326 @@ const fallbackGranularData901 = [
     "sample_size": 234
   },
   {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -0.2594,
+    "sample_size": 12517
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 0.5485,
+    "sample_size": 1408
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.3377,
+    "sample_size": 179070
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -2.5888,
+    "sample_size": 2941
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -2.3095,
+    "sample_size": 1707
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 2.1511,
+    "sample_size": 54581
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -1.6793,
+    "sample_size": 83540
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.5464,
+    "sample_size": 9269
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": -0.6502,
+    "sample_size": 10316
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 1.4789,
+    "sample_size": 438
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -0.6797,
+    "sample_size": 355
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.4529,
+    "sample_size": 493518
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.6854,
+    "sample_size": 10223
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.2349,
+    "sample_size": 1821
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3087,
+    "name": "Statikk Shiv",
+    "wpa": -5.5173,
+    "sample_size": 128
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -1.0606,
+    "sample_size": 196508
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.1891,
+    "sample_size": 373
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 1.1192,
+    "sample_size": 552
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.7649,
+    "sample_size": 4349
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.8838,
+    "sample_size": 2987
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.448,
+    "sample_size": 8232
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -2.9226,
+    "sample_size": 3003
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.1226,
+    "sample_size": 368948
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1461,
+    "sample_size": 580823
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": -6.1822,
+    "sample_size": 110
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3748,
+    "name": "Titanic Hydra",
+    "wpa": -0.1256,
+    "sample_size": 155
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.3054,
+    "sample_size": 1965
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -0.6552,
+    "sample_size": 255
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 1.7621,
+    "sample_size": 2978
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -0.9947,
+    "sample_size": 6236
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -1.3619,
+    "sample_size": 882
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": -1.7137,
+    "sample_size": 124
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.5327,
+    "sample_size": 1554
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -1.1513,
+    "sample_size": 4736
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -5.8241,
+    "sample_size": 122
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -3.3746,
+    "sample_size": 558
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 1.2065,
+    "sample_size": 310
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.3954,
+    "sample_size": 5722
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -3.0447,
+    "sample_size": 40554
+  },
+  {
+    "patch": "16.10",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -2.095,
+    "sample_size": 562
+  },
+  {
     "patch": "16.11",
     "category": "Keystone",
     "id": 8005,
@@ -22707,6 +30315,286 @@ const fallbackGranularData901 = [
     "sample_size": 553
   },
   {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -1.6308,
+    "sample_size": 3866
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.6101,
+    "sample_size": 672
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.165,
+    "sample_size": 51019
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.1723,
+    "sample_size": 2570
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -2.4295,
+    "sample_size": 1123
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.9189,
+    "sample_size": 22350
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.5529,
+    "sample_size": 59588
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.6746,
+    "sample_size": 10047
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.2816,
+    "sample_size": 13012
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -1.7642,
+    "sample_size": 152
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -3.2418,
+    "sample_size": 107
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.3608,
+    "sample_size": 166639
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.4625,
+    "sample_size": 5449
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.1435,
+    "sample_size": 984
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.7876,
+    "sample_size": 103771
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.1585,
+    "sample_size": 292
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -2.2103,
+    "sample_size": 183
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.4288,
+    "sample_size": 1694
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.7037,
+    "sample_size": 1069
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.7843,
+    "sample_size": 3449
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -2.2246,
+    "sample_size": 1178
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0915,
+    "sample_size": 132327
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2287,
+    "sample_size": 245303
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 2.2872,
+    "sample_size": 882
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.3757,
+    "sample_size": 1410
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -0.5975,
+    "sample_size": 2302
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -2.3846,
+    "sample_size": 387
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 0.2641,
+    "sample_size": 579
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.2828,
+    "sample_size": 3405
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -2.6393,
+    "sample_size": 141
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.6536,
+    "sample_size": 457
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.66,
+    "sample_size": 289
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.4526,
+    "sample_size": 2452
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.9463,
+    "sample_size": 30367
+  },
+  {
+    "patch": "16.11",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -5.8781,
+    "sample_size": 255
+  },
+  {
     "patch": "16.12",
     "category": "Keystone",
     "id": 8005,
@@ -23513,6 +31401,278 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -4.297,
     "sample_size": 429
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.0089,
+    "sample_size": 907
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 2.8316,
+    "sample_size": 507
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.1979,
+    "sample_size": 27849
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -2.1847,
+    "sample_size": 1370
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -2.1997,
+    "sample_size": 1069
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.5915,
+    "sample_size": 15260
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.6405,
+    "sample_size": 42551
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 1.097,
+    "sample_size": 8699
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.3272,
+    "sample_size": 9057
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 2.5202,
+    "sample_size": 105
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.4158,
+    "sample_size": 102105
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.1039,
+    "sample_size": 3802
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -4.3798,
+    "sample_size": 757
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.7883,
+    "sample_size": 69762
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.6693,
+    "sample_size": 245
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -0.51,
+    "sample_size": 147
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 0.3411,
+    "sample_size": 1210
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -1.4005,
+    "sample_size": 836
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.0462,
+    "sample_size": 2429
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -2.665,
+    "sample_size": 836
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0225,
+    "sample_size": 84530
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2791,
+    "sample_size": 157492
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 0.0294,
+    "sample_size": 716
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.5373,
+    "sample_size": 1358
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -2.7291,
+    "sample_size": 1396
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -2.6697,
+    "sample_size": 295
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.4277,
+    "sample_size": 509
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.5984,
+    "sample_size": 2324
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -5.3592,
+    "sample_size": 113
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.9515,
+    "sample_size": 326
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": 0.2116,
+    "sample_size": 203
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.1483,
+    "sample_size": 1781
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.8689,
+    "sample_size": 21130
+  },
+  {
+    "patch": "16.12",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": 1.8999,
+    "sample_size": 171
   },
   {
     "patch": "16.13",
@@ -24395,6 +32555,286 @@ const fallbackGranularData901 = [
     "sample_size": 558
   },
   {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -0.1413,
+    "sample_size": 1078
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 1.8066,
+    "sample_size": 855
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.2968,
+    "sample_size": 35442
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.5088,
+    "sample_size": 1831
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -1.5378,
+    "sample_size": 1742
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.9342,
+    "sample_size": 20703
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.5885,
+    "sample_size": 60086
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.5554,
+    "sample_size": 12225
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.091,
+    "sample_size": 12934
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": -0.1589,
+    "sample_size": 139
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -1.6745,
+    "sample_size": 123
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.4305,
+    "sample_size": 138463
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.6144,
+    "sample_size": 5457
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -2.4026,
+    "sample_size": 1208
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.8319,
+    "sample_size": 95822
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.5697,
+    "sample_size": 334
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -0.7692,
+    "sample_size": 197
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 2.2339,
+    "sample_size": 1713
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 2.4125,
+    "sample_size": 1205
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.5292,
+    "sample_size": 3880
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.4848,
+    "sample_size": 1146
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -0.0145,
+    "sample_size": 116630
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2544,
+    "sample_size": 215150
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.2141,
+    "sample_size": 896
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 2.2682,
+    "sample_size": 2073
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -0.2757,
+    "sample_size": 1925
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -3.9552,
+    "sample_size": 456
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.1289,
+    "sample_size": 770
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.0267,
+    "sample_size": 3180
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.4527,
+    "sample_size": 157
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.8724,
+    "sample_size": 446
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -0.6422,
+    "sample_size": 327
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.0034,
+    "sample_size": 2488
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.951,
+    "sample_size": 27121
+  },
+  {
+    "patch": "16.13",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -5.4307,
+    "sample_size": 258
+  },
+  {
     "patch": "16.14",
     "category": "Keystone",
     "id": 8005,
@@ -25161,6 +33601,254 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -2.5666,
     "sample_size": 332
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -0.551,
+    "sample_size": 480
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -1.5546,
+    "sample_size": 481
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -0.0783,
+    "sample_size": 18544
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -2.351,
+    "sample_size": 933
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -3.1235,
+    "sample_size": 893
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.6371,
+    "sample_size": 11066
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.3946,
+    "sample_size": 33561
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 1.2152,
+    "sample_size": 6405
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.5827,
+    "sample_size": 7328
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.3531,
+    "sample_size": 74863
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.8893,
+    "sample_size": 3135
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -3.9345,
+    "sample_size": 689
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.6765,
+    "sample_size": 50894
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.5814,
+    "sample_size": 204
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": 0.8454,
+    "sample_size": 966
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.8263,
+    "sample_size": 620
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.8919,
+    "sample_size": 2333
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -4.6543,
+    "sample_size": 638
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0637,
+    "sample_size": 63378
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.223,
+    "sample_size": 115799
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 0.1214,
+    "sample_size": 494
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.6052,
+    "sample_size": 1255
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.1837,
+    "sample_size": 1079
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -5.2201,
+    "sample_size": 232
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -2.1624,
+    "sample_size": 395
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.7564,
+    "sample_size": 1674
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -4.3856,
+    "sample_size": 268
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.0912,
+    "sample_size": 180
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.0966,
+    "sample_size": 1376
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.7312,
+    "sample_size": 13433
+  },
+  {
+    "patch": "16.14",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -4.4079,
+    "sample_size": 159
   },
   {
     "patch": "16.15",
@@ -25947,6 +34635,262 @@ const fallbackGranularData901 = [
     "sample_size": 318
   },
   {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -1.0798,
+    "sample_size": 454
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -3.0858,
+    "sample_size": 432
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.4341,
+    "sample_size": 16519
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.5149,
+    "sample_size": 850
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": -3.6996,
+    "sample_size": 939
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.8541,
+    "sample_size": 10361
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.3294,
+    "sample_size": 33072
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.0872,
+    "sample_size": 6208
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7936,
+    "sample_size": 7734
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.5421,
+    "sample_size": 68937
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.4635,
+    "sample_size": 2811
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -5.5421,
+    "sample_size": 686
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.7684,
+    "sample_size": 49184
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -4.6594,
+    "sample_size": 228
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -2.7453,
+    "sample_size": 874
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.3677,
+    "sample_size": 526
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 1.4565,
+    "sample_size": 2309
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -2.865,
+    "sample_size": 592
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.1093,
+    "sample_size": 58936
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2679,
+    "sample_size": 109896
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -1.7594,
+    "sample_size": 477
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.0358,
+    "sample_size": 1084
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.7092,
+    "sample_size": 953
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -4.8245,
+    "sample_size": 239
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.8109,
+    "sample_size": 435
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.3312,
+    "sample_size": 1524
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": 0.2074,
+    "sample_size": 148
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -6.6739,
+    "sample_size": 246
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.5406,
+    "sample_size": 150
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.4656,
+    "sample_size": 1218
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.5233,
+    "sample_size": 13236
+  },
+  {
+    "patch": "16.15",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -1.6865,
+    "sample_size": 169
+  },
+  {
     "patch": "16.16",
     "category": "Keystone",
     "id": 8369,
@@ -26561,5 +35505,221 @@ const fallbackGranularData901 = [
     "name": "Hubris",
     "wpa": -1.4649,
     "sample_size": 147
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": 0.523,
+    "sample_size": 153
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": 5.6305,
+    "sample_size": 169
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.5673,
+    "sample_size": 6144
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.256,
+    "sample_size": 316
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3004,
+    "name": "Manamune",
+    "wpa": 1.612,
+    "sample_size": 402
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.4705,
+    "sample_size": 4042
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.3963,
+    "sample_size": 13134
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.4535,
+    "sample_size": 2509
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.9254,
+    "sample_size": 3237
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.369,
+    "sample_size": 25837
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -3.1029,
+    "sample_size": 1041
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -5.9987,
+    "sample_size": 251
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.5918,
+    "sample_size": 19383
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.6402,
+    "sample_size": 327
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.1347,
+    "sample_size": 222
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 3.039,
+    "sample_size": 800
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -3.9707,
+    "sample_size": 237
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0332,
+    "sample_size": 22922
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.2735,
+    "sample_size": 43014
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.5895,
+    "sample_size": 193
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 5.0772,
+    "sample_size": 455
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.0113,
+    "sample_size": 380
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -3.4114,
+    "sample_size": 103
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": 2.2836,
+    "sample_size": 200
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -2.8036,
+    "sample_size": 635
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.5388,
+    "sample_size": 522
+  },
+  {
+    "patch": "16.16",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -2.2006,
+    "sample_size": 5214
   }
 ];
