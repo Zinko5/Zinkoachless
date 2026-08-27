@@ -52,6 +52,14 @@ def fetch_names_mapping(version):
     except Exception as e:
         print(f"Error fetching summoners: {e}")
 
+    # Mappings heredados de ítems eliminados de versiones recientes de DDragon (ej. 3097 = Stormrazor)
+    legacy_items = {
+        3097: "Stormrazor"
+    }
+    for k, v in legacy_items.items():
+        if k not in item_map:
+            item_map[k] = v
+
     return item_map, rune_map, summoner_map
 
 def parse_wpa_entry(entry, category, patch_version, item_map, rune_map, summoner_map):
@@ -135,6 +143,7 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
     for patch, sections in raw_data.items():
         if not sections:
             continue
+        item_details_map = sections.get("item_details", {})
         for section_key, cat_name in category_mapping.items():
             section_content = sections.get(section_key)
             if not section_content:
@@ -145,12 +154,16 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
 
             for entry in items_list:
                 parsed = parse_wpa_entry(entry, cat_name, patch, item_map, rune_map, summoner_map)
+                if cat_name == "All Items" and item_details_map:
+                    item_id_str = str(parsed["id"])
+                    if item_id_str in item_details_map:
+                        parsed["details"] = item_details_map[item_id_str].get("detailed")
                 records.append(parsed)
 
     # 1. Exportar registros individuales a CSV
     headers = ["patch", "category", "id", "name", "wpa", "sample_size"]
     with open(output_csv, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=headers)
+        writer = csv.DictWriter(f, fieldnames=headers, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(records)
     print(f"CSV exportado: {len(records)} registros guardados en '{output_csv}'.")

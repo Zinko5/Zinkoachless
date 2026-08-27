@@ -107,12 +107,21 @@ function renderCategory(containerId, items) {
     return;
   }
 
-  // Ordenar por WPA o cantidad de compras según selección activa
-  if (currentSort === 'wpa') {
-    items.sort((a, b) => b.wpa - a.wpa);
-  } else {
-    items.sort((a, b) => b.sample_size - a.sample_size);
-  }
+  // Ordenar por selección activa (WPA, Compras o métricas avanzadas)
+  items.sort((a, b) => {
+    let valA, valB;
+    if (currentSort === 'sample_size') {
+      valA = a.sample_size;
+      valB = b.sample_size;
+    } else if (currentSort === 'wpa') {
+      valA = a.wpa;
+      valB = b.wpa;
+    } else {
+      valA = (a.details && a.details[currentSort] !== undefined && a.details[currentSort] !== null) ? a.details[currentSort] : -999;
+      valB = (b.details && b.details[currentSort] !== undefined && b.details[currentSort] !== null) ? b.details[currentSort] : -999;
+    }
+    return valB - valA;
+  });
 
   items.forEach(item => {
     const sign = item.wpa >= 0 ? "+" : "";
@@ -121,9 +130,13 @@ function renderCategory(containerId, items) {
     
     const row = document.createElement("div");
     row.className = "item-row";
+    if (item.category === "All Items") {
+      row.classList.add("expandable");
+    }
+    
     row.innerHTML = `
       <div class="item-icon">
-        <img src="${iconUrl}" alt="${item.name}" onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${item.id}.png'">
+        <img src="${iconUrl}" alt="${item.name}" onerror="this.onerror=function(){this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/1001.png';}; this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${item.id}.png';">
       </div>
       <div class="item-details">
         <div class="item-name">${item.name}</div>
@@ -133,9 +146,22 @@ function renderCategory(containerId, items) {
         <div class="wpa-value ${wpaClass}">${sign}${item.wpa.toFixed(2)}%</div>
         <div class="buys-count">${formatNumber(item.sample_size)}</div>
       </div>
+      ${item.category === "All Items" ? `
+      <div class="item-expand-trigger">
+        <i data-lucide="chevron-down" style="width: 18px; height: 18px; color: var(--text-secondary);"></i>
+      </div>` : ""}
     `;
+
+    if (item.category === "All Items") {
+      row.addEventListener("click", (e) => {
+        if (e.target.closest(".item-details-expanded")) return;
+        toggleItemDetails(row, item);
+      });
+    }
+
     container.appendChild(row);
   });
+  lucide.createIcons();
 }
 
 function applyFilters() {
@@ -173,11 +199,13 @@ function applyFilters() {
         id: r.id,
         name: r.name,
         weighted_wpa_sum: 0,
-        total_sample: 0
+        total_sample: 0,
+        records: []
       };
     }
     aggregated[key].total_sample += r.sample_size;
     aggregated[key].weighted_wpa_sum += r.wpa * r.sample_size;
+    aggregated[key].records.push(r);
   });
 
   // Convertir a lista y calcular promedios
@@ -185,12 +213,17 @@ function applyFilters() {
   for (const key in aggregated) {
     const item = aggregated[key];
     if (item.total_sample > 0) {
+      let details = null;
+      if (item.records.length > 0 && item.records.some(r => r.details)) {
+        details = aggregateLocalDetails(item.records);
+      }
       aggregatedList.push({
         category: item.category,
         id: item.id,
         name: item.name,
         wpa: item.weighted_wpa_sum / item.total_sample,
-        sample_size: item.total_sample
+        sample_size: item.total_sample,
+        details: details
       });
     }
   }
@@ -257,7 +290,7 @@ let selectedChamp = "236";
 
 // Cargar datos
 async function loadData() {
-  // Intentar obtener la versión más reciente de DDragon y mapear runas dinámicamente
+  // Intentar obtener la versión más reciente de DDragon y mapear runas y campeones dinámicamente
   try {
     const vRes = await fetch("https://ddragon.leagueoflegends.com/api/versions.json");
     if (vRes.ok) {
@@ -279,9 +312,19 @@ async function loadData() {
         });
         console.log("Runes mapped successfully from DDragon.");
       }
+
+      // Cargar catálogo de campeones para mapear IDs a nombres
+      const cRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/champion.json`);
+      if (cRes.ok) {
+        const champData = await cRes.json();
+        for (const [key, val] of Object.entries(champData.data)) {
+          championNames[Number(val.key)] = val.id;
+        }
+        console.log("Champions mapped successfully from DDragon.");
+      }
     }
   } catch (e) {
-    console.warn("Could not fetch DDragon versions or runes dynamically:", e);
+    console.warn("Could not fetch DDragon versions, runes or champions dynamically:", e);
   }
 
   // Actualizar cabecera del campeón
@@ -373,6 +416,12 @@ window.addEventListener("DOMContentLoaded", () => {
       const sortType = e.target.getAttribute('data-sort');
       currentSort = sortType;
       
+      // Sincronizar select dropdown de ordenamiento avanzado
+      const select = document.getElementById("sort-by");
+      if (select && (sortType === 'wpa' || sortType === 'sample_size')) {
+        select.value = sortType;
+      }
+      
       // Actualizar clase activa en todos los triggers correspondientes de la web
       document.querySelectorAll('.sort-trigger').forEach(trigger => {
         if (trigger.getAttribute('data-sort') === sortType) {
@@ -386,3 +435,243 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+function toggleItemDetails(row, item) {
+  const nextEl = row.nextElementSibling;
+  const isExpanded = nextEl && nextEl.classList.contains("item-details-expanded");
+
+  if (isExpanded) {
+    nextEl.remove();
+    row.classList.remove("expanded");
+    const icon = row.querySelector(".item-expand-trigger i");
+    if (icon) icon.setAttribute("data-lucide", "chevron-down");
+    lucide.createIcons();
+    return;
+  }
+
+  // Cerrar otros abiertos en la misma lista para una experiencia limpia
+  const container = row.parentNode;
+  container.querySelectorAll(".item-details-expanded").forEach(el => el.remove());
+  container.querySelectorAll(".item-row.expanded").forEach(el => {
+    el.classList.remove("expanded");
+    const icon = el.querySelector(".item-expand-trigger i");
+    if (icon) icon.setAttribute("data-lucide", "chevron-down");
+  });
+
+  row.classList.add("expanded");
+  const icon = row.querySelector(".item-expand-trigger i");
+  if (icon) icon.setAttribute("data-lucide", "chevron-up");
+  lucide.createIcons();
+
+  // Crear contenedor de detalles
+  const detailContainer = document.createElement("div");
+  detailContainer.className = "item-details-expanded";
+  
+  const loading = document.createElement("div");
+  loading.className = "loading-spinner";
+  loading.textContent = "Cargando estadísticas avanzadas...";
+  detailContainer.appendChild(loading);
+  
+  row.after(detailContainer);
+
+  // Obtener los datos (del item local)
+  loadDetailedStats(item, detailContainer);
+}
+
+function loadDetailedStats(item, container) {
+  try {
+    const fromVal = document.getElementById("patch-from").value;
+    const toVal = document.getElementById("patch-to").value;
+    const itemRecords = wpaData.filter(d => 
+      d.id === item.id && 
+      d.category === "All Items" && 
+      comparePatches(d.patch, fromVal) >= 0 && 
+      comparePatches(d.patch, toVal) <= 0
+    );
+
+    if (itemRecords.length > 0 && itemRecords.some(r => r.details)) {
+      const details = aggregateLocalDetails(itemRecords);
+      renderExpandedPanel(container, details);
+    } else {
+      container.replaceChildren();
+      const infoMsg = document.createElement("div");
+      infoMsg.className = "error-message";
+      infoMsg.style.color = "var(--text-secondary)";
+      infoMsg.textContent = "Estadísticas detalladas no disponibles localmente. Ejecuta 'get-wpa.py' y 'process_wpa.py' para descargar y procesar los datos de este ítem.";
+      container.appendChild(infoMsg);
+    }
+  } catch (err) {
+    console.error("Error cargando detalles del ítem:", err);
+    container.replaceChildren();
+    const errMsg = document.createElement("div");
+    errMsg.className = "error-message";
+    errMsg.textContent = "No se pudieron cargar las estadísticas avanzadas.";
+    container.appendChild(errMsg);
+  }
+}
+
+function aggregateLocalDetails(records) {
+  const keysToAggregate = [
+    'deltaAgainstMagicDamage', 'deltaAgainstPhysicalDamage', 'deltaAgainstBalancedDamage',
+    'deltaWhenHighRange', 'deltaWhenLowRange', 'deltaWhenBalancedRange',
+    'deltaWhenTanky', 'deltaWhenSquishy', 'deltaWhenBalancedTankiness',
+    'deltaWhenHighCC', 'deltaWhenLowCC', 'deltaWhenNormalCC',
+    'deltaWhenGoldAhead', 'deltaWhenGoldBehind', 'deltaWhenGoldBalanced'
+  ];
+  
+  const occurrenceMap = {
+    'deltaAgainstMagicDamage': 'magicDamageOccurrence',
+    'deltaAgainstPhysicalDamage': 'physicalDamageOccurrence',
+    'deltaAgainstBalancedDamage': 'balancedDamageOccurrence',
+    'deltaWhenHighRange': 'highRangeOccurrence',
+    'deltaWhenLowRange': 'lowRangeOccurrence',
+    'deltaWhenBalancedRange': 'balancedRangeOccurrence',
+    'deltaWhenTanky': 'tankyOccurrence',
+    'deltaWhenSquishy': 'squishyOccurrence',
+    'deltaWhenBalancedTankiness': 'balancedTankinessOccurrence',
+    'deltaWhenHighCC': 'highCCOccurrence',
+    'deltaWhenLowCC': 'lowCCOccurrence',
+    'deltaWhenNormalCC': 'normalCCOccurrence',
+    'deltaWhenGoldAhead': 'goldAheadOccurrence',
+    'deltaWhenGoldBehind': 'goldBehindOccurrence',
+    'deltaWhenGoldBalanced': 'goldBalancedOccurrence'
+  };
+
+  const result = {};
+  keysToAggregate.forEach(key => {
+    let weightedSum = 0;
+    let totalOccur = 0;
+    const occurKey = occurrenceMap[key];
+
+    records.forEach(r => {
+      if (r.details) {
+        const val = r.details[key];
+        const occur = r.details[occurKey] || r.sample_size || 0;
+        if (val !== undefined && val !== null) {
+          weightedSum += val * occur;
+          totalOccur += occur;
+        }
+      }
+    });
+
+    result[key] = totalOccur > 0 ? (weightedSum / totalOccur) : 0;
+  });
+
+  return result;
+}
+
+function renderExpandedPanel(container, details) {
+  container.replaceChildren();
+
+  const title = document.createElement("h4");
+  title.textContent = "Rendimiento Avanzado (WPA Added)";
+  title.style.marginBottom = "1rem";
+  container.appendChild(title);
+
+  const grid = document.createElement("div");
+  grid.className = "expanded-grid-full";
+
+  const groups = [
+    {
+      title: "Por Daño Enemigo",
+      metrics: [
+        { label: "Físico", val: details.deltaAgainstPhysicalDamage || 0 },
+        { label: "Mágico", val: details.deltaAgainstMagicDamage || 0 },
+        { label: "Balanceado", val: details.deltaAgainstBalancedDamage || 0 }
+      ]
+    },
+    {
+      title: "Por Rango Enemigo",
+      metrics: [
+        { label: "Alto Rango", val: details.deltaWhenHighRange || 0 },
+        { label: "Bajo Rango", val: details.deltaWhenLowRange || 0 },
+        { label: "Balanceado", val: details.deltaWhenBalancedRange || 0 }
+      ]
+    },
+    {
+      title: "Por Aguante Enemigo",
+      metrics: [
+        { label: "Tanques", val: details.deltaWhenTanky || 0 },
+        { label: "Blandos (Squishy)", val: details.deltaWhenSquishy || 0 },
+        { label: "Balanceado", val: details.deltaWhenBalancedTankiness || 0 }
+      ]
+    },
+    {
+      title: "Por Control de Masas (CC)",
+      metrics: [
+        { label: "Alto CC", val: details.deltaWhenHighCC || 0 },
+        { label: "Bajo CC", val: details.deltaWhenLowCC || 0 },
+        { label: "Normal CC", val: details.deltaWhenNormalCC || 0 }
+      ]
+    },
+    {
+      title: "Por Diferencia de Oro",
+      metrics: [
+        { label: "Con Ventaja", val: details.deltaWhenGoldAhead || 0 },
+        { label: "Con Desventaja", val: details.deltaWhenGoldBehind || 0 },
+        { label: "Partida Pareja", val: details.deltaWhenGoldBalanced || 0 }
+      ]
+    }
+  ];
+
+  groups.forEach(g => {
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "metric-group";
+
+    const groupTitle = document.createElement("div");
+    groupTitle.className = "metric-group-title";
+    groupTitle.textContent = g.title;
+    groupDiv.appendChild(groupTitle);
+
+    g.metrics.forEach(m => {
+      const row = document.createElement("div");
+      row.className = "metric-bar-row";
+
+      const labelSpan = document.createElement("span");
+      labelSpan.className = "metric-label";
+      labelSpan.textContent = m.label;
+
+      const barWrapper = document.createElement("div");
+      barWrapper.className = "metric-bar-wrapper";
+
+      const bar = document.createElement("div");
+      bar.className = `metric-bar ${m.val >= 0 ? 'pos' : 'neg'}`;
+      
+      const percentage = Math.min(Math.abs(m.val) / 5 * 100, 100);
+      bar.style.width = `${percentage}%`;
+
+      const valSpan = document.createElement("span");
+      valSpan.className = `metric-value ${m.val >= 0 ? 'pos' : 'neg'}`;
+      valSpan.textContent = `${m.val >= 0 ? '+' : ''}${m.val.toFixed(2)}%`;
+
+      barWrapper.appendChild(bar);
+      row.appendChild(labelSpan);
+      row.appendChild(barWrapper);
+      row.appendChild(valSpan);
+      groupDiv.appendChild(row);
+    });
+
+    grid.appendChild(groupDiv);
+  });
+
+  container.appendChild(grid);
+}
+
+function onAdvancedSortChange() {
+  const select = document.getElementById("sort-by");
+  if (!select) return;
+  currentSort = select.value;
+
+  // Actualizar clases activas en los triggers tradicionales de la cabecera
+  document.querySelectorAll('.sort-trigger').forEach(trigger => {
+    const sortType = trigger.getAttribute('data-sort');
+    if (sortType === currentSort) {
+      trigger.classList.add('active');
+    } else {
+      trigger.classList.remove('active');
+    }
+  });
+
+  applyFilters();
+}

@@ -51,6 +51,22 @@ def fetch_items(common_filters, slots=None, item_type=1, is_support=False):
     res = requests.post(url, headers=HEADERS, json=payload, timeout=30)
     return res.json() if res.status_code == 200 else None
 
+def fetch_item_detailed(common_filters, item_id):
+    url = f"{BASE_URL}/api/ChampionWinprob/GetItemDetailed"
+    payload = {
+        "commonFilters": common_filters,
+        "itemId": item_id,
+        "itemType": 1,
+        "itemSlots": None,
+        "keystone": None,
+        "starterId": None,
+        "firstPurchaseId": None,
+        "firstLegendaryId": None,
+        "secondLegendaryId": None
+    }
+    res = requests.post(url, headers=HEADERS, json=payload, timeout=30)
+    return res.json() if res.status_code == 200 else None
+
 def safe_fetch(func, *args, **kwargs):
     try:
         return func(*args, **kwargs)
@@ -95,11 +111,11 @@ for champ_id in CHAMPIONS:
     for patch in PATCHES:
         patch_key = f"{MAJOR}.{patch}"
         
-        # Comprobar si ya existe y si NO es el parche más reciente, y si ya tiene la clave items_no_slot
+        # Comprobar si ya existe y si NO es el parche más reciente, y si ya tiene la clave items_no_slot e item_details
         if patch_key in resultado_final and patch != latest_patch_num:
             # Asegurar que tiene información cargada y que incluye la nueva clave
-            if resultado_final[patch_key] and "items_no_slot" in resultado_final[patch_key] and resultado_final[patch_key]["items_no_slot"]:
-                print(f"  [✓] Parche {patch_key} ya existe con items_no_slot. Omitiendo descarga.")
+            if resultado_final[patch_key] and "items_no_slot" in resultado_final[patch_key] and resultado_final[patch_key]["items_no_slot"] and "item_details" in resultado_final[patch_key]:
+                print(f"  [✓] Parche {patch_key} ya existe con items_no_slot e item_details. Omitiendo descarga.")
                 continue
 
         if patch == latest_patch_num:
@@ -109,6 +125,22 @@ for champ_id in CHAMPIONS:
             
         cf = build_common_filters(MAJOR, patch, champ_id, ROLE)
         
+        items_no_slot = safe_fetch(fetch_items, cf, slots=None, item_type=1)
+        
+        item_details = {}
+        if items_no_slot:
+            items_list = items_no_slot if isinstance(items_no_slot, list) else items_no_slot.get("statistics", items_no_slot.get("items", []))
+            for item in items_list:
+                item_id = item.get("itemId") or item.get("id")
+                if item_id:
+                    item_id = int(item_id)
+                    print(f"    -> Extrayendo detalles para ítem ID: {item_id}")
+                    detailed = safe_fetch(fetch_item_detailed, cf, item_id)
+                    item_details[str(item_id)] = {
+                        "detailed": detailed
+                    }
+                    time.sleep(0.1)
+
         resultado_final[patch_key] = {
             "keystones": safe_fetch(fetch_keystones, cf),
             "summoner_spells": safe_fetch(fetch_summoners, cf),
@@ -118,7 +150,8 @@ for champ_id in CHAMPIONS:
             "item_slot_2": safe_fetch(fetch_items, cf, slots=[2], item_type=1),
             "item_slot_3": safe_fetch(fetch_items, cf, slots=[3], item_type=1),
             "late_game_items": safe_fetch(fetch_items, cf, slots=[4, 5, 6], item_type=1),
-            "items_no_slot": safe_fetch(fetch_items, cf, slots=None, item_type=1)
+            "items_no_slot": items_no_slot,
+            "item_details": item_details
         }
         time.sleep(0.5)
 

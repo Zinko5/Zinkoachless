@@ -119,6 +119,22 @@
             <option value="negative">Only Negative WPA (-)</option>
           </select>
         </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 0.85rem; color: var(--text-secondary);">Sort By:</span>
+          <select id="sort-by"
+            style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
+            onchange="onAdvancedSortChange()">
+            <option value="wpa">WPA General</option>
+            <option value="sample_size">Popularidad (Compras)</option>
+            <option value="deltaAgainstMagicDamage">Daño Mágico Enemigo</option>
+            <option value="deltaAgainstPhysicalDamage">Daño Físico Enemigo</option>
+            <option value="deltaWhenTanky">Tanques Enemigos</option>
+            <option value="deltaWhenSquishy">Campeones Blandos (Squishy)</option>
+            <option value="deltaWhenHighCC">Alto CC Enemigo</option>
+            <option value="deltaWhenGoldAhead">Ventaja de Oro</option>
+            <option value="deltaWhenGoldBehind">Desventaja de Oro</option>
+          </select>
+        </div>
       </div>
     </div>
 
