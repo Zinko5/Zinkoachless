@@ -55,6 +55,10 @@ function populatePatchDropdowns() {
     const optFrom = document.createElement("option");
     optFrom.value = patch;
     optFrom.innerText = patch;
+    // Seleccionar por defecto 16.9
+    if (patch === "16.9") {
+      optFrom.selected = true;
+    }
     fromSelect.appendChild(optFrom);
 
     const optTo = document.createElement("option");
@@ -107,7 +111,8 @@ function renderCategory(containerId, items) {
     return;
   }
 
-  // Ordenar por selección activa (WPA, Compras o métricas avanzadas)
+  // Ordenar por selección activa (WPA, Compras o métricas avanzadas) y orden (ascendente/descendente)
+  const sortOrder = document.getElementById("sort-order") ? document.getElementById("sort-order").value : "desc";
   items.sort((a, b) => {
     let valA, valB;
     if (currentSort === 'sample_size') {
@@ -120,7 +125,7 @@ function renderCategory(containerId, items) {
       valA = (a.details && a.details[currentSort] !== undefined && a.details[currentSort] !== null) ? a.details[currentSort] : -999;
       valB = (b.details && b.details[currentSort] !== undefined && b.details[currentSort] !== null) ? b.details[currentSort] : -999;
     }
-    return valB - valA;
+    return sortOrder === "asc" ? valA - valB : valB - valA;
   });
 
   items.forEach(item => {
@@ -166,8 +171,6 @@ function renderCategory(containerId, items) {
 
 function applyFilters() {
   const searchQuery = document.getElementById("search-input").value.toLowerCase().trim();
-  const wpaFilterValue = document.getElementById("wpa-filter").value;
-  
   const fromSelect = document.getElementById("patch-from");
   const toSelect = document.getElementById("patch-to");
   
@@ -235,9 +238,26 @@ function applyFilters() {
       return false;
     }
 
-    // Filtro de WPA
-    if (wpaFilterValue === "positive" && item.wpa < 0) return false;
-    if (wpaFilterValue === "negative" && item.wpa > 0) return false;
+    // Filtros de WPA Generales
+    const checkPosGen = document.getElementById("wpa-pos-gen").checked;
+    const checkNegGen = document.getElementById("wpa-neg-gen").checked;
+    if (checkPosGen && item.wpa < 0) return false;
+    if (checkNegGen && item.wpa > 0) return false;
+
+    // Filtros de WPA Avanzados (Solo si es item del catálogo general)
+    if (item.category === "All Items") {
+      const checkedAdvanced = document.querySelectorAll("#filter-panel input[data-wpa-stat]:checked");
+      if (checkedAdvanced.length > 0) {
+        if (!item.details) return false;
+        for (const cb of checkedAdvanced) {
+          const key = cb.getAttribute("data-wpa-stat");
+          const val = item.details[key];
+          if (val === undefined || val === null || val < 0) {
+            return false;
+          }
+        }
+      }
+    }
 
     // Filtro de muestra (Global vs Todos los Objetos)
     if (currentView === "global" && item.sample_size < 1000) {
@@ -405,7 +425,9 @@ window.addEventListener("DOMContentLoaded", () => {
       btn.classList.remove("active");
       // Limpiar filtros al cerrar el panel
       document.getElementById("search-input").value = "";
-      document.getElementById("wpa-filter").value = "all";
+      document.getElementById("wpa-pos-gen").checked = false;
+      document.getElementById("wpa-neg-gen").checked = false;
+      document.querySelectorAll("#filter-panel input[data-wpa-stat]").forEach(cb => cb.checked = false);
       applyFilters();
     }
   });

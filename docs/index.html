@@ -39,7 +39,7 @@
       </div>
       <div
         style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-secondary); background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 0.3rem 0.6rem; border-radius: var(--radius);">
-        v1.3.0
+        v1.4.0
       </div>
     </div>
 
@@ -109,15 +109,53 @@
             <!-- Dinámico -->
           </select>
         </div>
-        <div style="display: flex; align-items: center; gap: 0.5rem;">
-          <span style="font-size: 0.85rem; color: var(--text-secondary);">WPA:</span>
-          <select id="wpa-filter"
-            style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
-            onchange="applyFilters()">
-            <option value="all">Show All</option>
-            <option value="positive">Only Positive WPA (+)</option>
-            <option value="negative">Only Negative WPA (-)</option>
-          </select>
+        <div
+          style="display: flex; flex-direction: column; gap: 0.35rem; width: 100%; border-top: 1px solid var(--border-color); padding-top: 0.75rem; margin-top: 0.75rem;">
+          <span
+            style="font-size: 0.85rem; color: var(--text-secondary); font-weight: 600; margin-bottom: 0.25rem;">Filtrar
+            por WPA (Soporta selección múltiple):</span>
+          <div style="display: flex; gap: 1.25rem; flex-wrap: wrap;">
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" id="wpa-pos-gen" onchange="applyFilters()"> WPA General Positivo (+)
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" id="wpa-neg-gen" onchange="applyFilters()"> WPA General Negativo (-)
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaAgainstMagicDamage" onchange="applyFilters()"> Positivo: Daño
+              Mágico
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaAgainstPhysicalDamage" onchange="applyFilters()"> Positivo:
+              Daño Físico
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaWhenTanky" onchange="applyFilters()"> Positivo: Tanques
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaWhenSquishy" onchange="applyFilters()"> Positivo: Blandos
+              (Squishy)
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaWhenHighCC" onchange="applyFilters()"> Positivo: Alto CC
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaWhenGoldAhead" onchange="applyFilters()"> Positivo: Ventaja Oro
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
+              <input type="checkbox" data-wpa-stat="deltaWhenGoldBehind" onchange="applyFilters()"> Positivo: Desventaja
+              Oro
+            </label>
+          </div>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span style="font-size: 0.85rem; color: var(--text-secondary);">Sort By:</span>
@@ -133,6 +171,15 @@
             <option value="deltaWhenHighCC">Alto CC Enemigo</option>
             <option value="deltaWhenGoldAhead">Ventaja de Oro</option>
             <option value="deltaWhenGoldBehind">Desventaja de Oro</option>
+          </select>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 0.85rem; color: var(--text-secondary);">Orden:</span>
+          <select id="sort-order"
+            style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
+            onchange="applyFilters()">
+            <option value="desc">Descendente</option>
+            <option value="asc">Ascendente</option>
           </select>
         </div>
       </div>
