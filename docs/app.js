@@ -697,3 +697,156 @@ function onAdvancedSortChange() {
 
   applyFilters();
 }
+
+function exportLoLItemSet() {
+  const selectedChamp = document.getElementById("champion-select").value;
+  const championName = selectedChamp === "236" ? "Lucian" : "Smolder";
+
+  // 1. Agregar de 16.9 a 16.16
+  const startPatch = "16.9";
+  const endPatch = "16.16";
+  const granularFiltered = wpaData.filter(d => {
+    return comparePatches(d.patch, startPatch) >= 0 && comparePatches(d.patch, endPatch) <= 0;
+  });
+
+  const aggregated = {};
+  granularFiltered.forEach(r => {
+    const key = `${r.category}_${r.id}`;
+    if (!aggregated[key]) {
+      aggregated[key] = {
+        category: r.category,
+        id: r.id,
+        name: r.name,
+        weighted_wpa_sum: 0,
+        total_sample: 0,
+        records: []
+      };
+    }
+    aggregated[key].total_sample += r.sample_size;
+    aggregated[key].weighted_wpa_sum += r.wpa * r.sample_size;
+    aggregated[key].records.push(r);
+  });
+
+  const list = [];
+  for (const key in aggregated) {
+    const item = aggregated[key];
+    if (item.total_sample >= 1000) {
+      let details = null;
+      if (item.records.length > 0 && item.records.some(r => r.details)) {
+        details = aggregateLocalDetails(item.records);
+      }
+      list.push({
+        category: item.category,
+        id: item.id,
+        name: item.name,
+        wpa: item.weighted_wpa_sum / item.total_sample,
+        sample_size: item.total_sample,
+        details: details
+      });
+    }
+  }
+
+  // 2. Filtrar y ordenar bloques
+  // Bloque: Básicos (Starter con WPA > 0, luego Poción de curación, luego Boots con WPA > 0)
+  const starterItems = list.filter(item => item.category === "Starter" && item.wpa > 0);
+  starterItems.sort((a, b) => b.wpa - a.wpa);
+  
+  const bootsItems = list.filter(item => item.category === "Boots" && item.wpa > 0);
+  bootsItems.sort((a, b) => b.wpa - a.wpa);
+
+  const basicLoL = [
+    ...starterItems.map(item => ({ id: String(item.id), count: 1 })),
+    { id: "2003", count: 1 }, // Poción de curación
+    ...bootsItems.map(item => ({ id: String(item.id), count: 1 }))
+  ];
+
+  // Bloque: Primer item (1st Item con WPA > 0)
+  const firstItems = list.filter(item => item.category === "1st Item" && item.wpa > 0);
+  firstItems.sort((a, b) => b.wpa - a.wpa);
+  const firstLoL = firstItems.map(item => ({ id: String(item.id), count: 1 }));
+
+  // Bloque: Items por WPA (All Items con WPA General > 0, ordenados por WPA general)
+  const itemsPorWpa = list.filter(item => item.category === "All Items" && item.wpa > 0);
+  itemsPorWpa.sort((a, b) => b.wpa - a.wpa);
+  const itemsPorWpaLoL = itemsPorWpa.map(item => ({ id: String(item.id), count: 1 }));
+
+  // Bloques avanzados: All Items con WPA General > 0
+  const allItemsWpaPos = list.filter(item => item.category === "All Items" && item.wpa > 0);
+
+  // Helper para generar y ordenar bloques avanzados
+  const makeAdvancedBlock = (typeLabel, detailKey) => {
+    const valid = allItemsWpaPos.filter(item => item.details && item.details[detailKey] !== undefined && item.details[detailKey] > 0);
+    valid.sort((a, b) => b.details[detailKey] - a.details[detailKey]);
+    return {
+      "type": typeLabel,
+      "items": valid.map(item => ({ id: String(item.id), count: 1 })),
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    };
+  };
+
+  const blocks = [];
+  
+  if (basicLoL.length > 0) {
+    blocks.push({
+      "type": "Básicos",
+      "items": basicLoL,
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    });
+  }
+
+  if (firstLoL.length > 0) {
+    blocks.push({
+      "type": "Primer item",
+      "items": firstLoL,
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    });
+  }
+
+  if (itemsPorWpaLoL.length > 0) {
+    blocks.push({
+      "type": "Items por WPA",
+      "items": itemsPorWpaLoL,
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    });
+  }
+
+  blocks.push(makeAdvancedBlock("Vs. Daño Mágico", "deltaAgainstMagicDamage"));
+  blocks.push(makeAdvancedBlock("Vs. Daño Físico", "deltaAgainstPhysicalDamage"));
+  blocks.push(makeAdvancedBlock("Vs. Tanques", "deltaWhenTanky"));
+  blocks.push(makeAdvancedBlock("Vs. Blandos (Squishy)", "deltaWhenSquishy"));
+  blocks.push(makeAdvancedBlock("Vs. Alto CC", "deltaWhenHighCC"));
+  blocks.push(makeAdvancedBlock("Con Ventaja (Ahead)", "deltaWhenGoldAhead"));
+  blocks.push(makeAdvancedBlock("Con Desventaja (Behind)", "deltaWhenGoldBehind"));
+
+  // Filtrar bloques vacíos de items
+  const finalBlocks = blocks.filter(b => b.items.length > 0);
+
+  const itemSetJson = {
+    "title": `Zinkoachless - ${championName}`,
+    "associatedChampions": [parseInt(selectedChamp)],
+    "associatedMaps": [],
+    "blocks": finalBlocks
+  };
+
+  const jsonStr = JSON.stringify(itemSetJson, null, 2);
+
+  navigator.clipboard.writeText(jsonStr).then(() => {
+    alert(`¡Set de items de League of Legends para ${championName} copiado al portapapeles con éxito!`);
+  }).catch(err => {
+    console.error("Error al copiar al portapapeles: ", err);
+    alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
+    console.log(jsonStr);
+  });
+}
