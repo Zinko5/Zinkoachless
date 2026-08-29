@@ -765,6 +765,16 @@ function exportLoLItemSet() {
   firstItems.sort((a, b) => b.wpa - a.wpa);
   const firstLoL = firstItems.map(item => ({ id: String(item.id), count: 1 }));
 
+  // Bloque: Segundo item (2nd Item con WPA > 0)
+  const secondItems = list.filter(item => item.category === "2nd Item" && item.wpa > 0);
+  secondItems.sort((a, b) => b.wpa - a.wpa);
+  const secondLoL = secondItems.map(item => ({ id: String(item.id), count: 1 }));
+
+  // Bloque: Tercer item (3rd Item con WPA > 0)
+  const thirdItems = list.filter(item => item.category === "3rd Item" && item.wpa > 0);
+  thirdItems.sort((a, b) => b.wpa - a.wpa);
+  const thirdLoL = thirdItems.map(item => ({ id: String(item.id), count: 1 }));
+
   // Bloque: Items por WPA (All Items con WPA General > 0, ordenados por WPA general)
   const itemsPorWpa = list.filter(item => item.category === "All Items" && item.wpa > 0);
   itemsPorWpa.sort((a, b) => b.wpa - a.wpa);
@@ -804,6 +814,28 @@ function exportLoLItemSet() {
     blocks.push({
       "type": "Primer item",
       "items": firstLoL,
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    });
+  }
+
+  if (secondLoL.length > 0) {
+    blocks.push({
+      "type": "Segundo item",
+      "items": secondLoL,
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    });
+  }
+
+  if (thirdLoL.length > 0) {
+    blocks.push({
+      "type": "Tercer item",
+      "items": thirdLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
       "minSummonerLevel": -1,
