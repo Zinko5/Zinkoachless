@@ -138,6 +138,16 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
         "items_no_slot": "All Items"
     }
 
+    # Cargar historial de cambios de parches
+    item_history = {}
+    history_file = os.path.join("data", "processed", "item_patch_history.json")
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                item_history = json.load(f)
+        except Exception as e:
+            print(f"Advertencia al leer {history_file}: {e}")
+
     records = []
 
     for patch, sections in raw_data.items():
@@ -154,6 +164,15 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
 
             for entry in items_list:
                 parsed = parse_wpa_entry(entry, cat_name, patch, item_map, rune_map, summoner_map)
+                
+                # Asignar último parche modificado
+                if parsed["id"] is not None:
+                    item_id_str = str(parsed["id"])
+                    if item_id_str in item_history:
+                        parsed["last_changed_patch"] = item_history[item_id_str].get("last_changed_patch", "16.1")
+                    else:
+                        parsed["last_changed_patch"] = "16.1"
+
                 if cat_name == "All Items" and item_details_map:
                     item_id_str = str(parsed["id"])
                     if item_id_str in item_details_map:

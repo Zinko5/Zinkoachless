@@ -6,16 +6,18 @@ In competitive League of Legends analysis, single-patch data often suffers from 
 ---
 
 ## Solution
-Zinkoachless interceptively extracts data from Coachless REST endpoints across patch ranges (e.g. 16.1 to 16.16+), caches raw JSON files locally, and computes a sample-weighted average Win Probability Added ($\text{WPA}_{\text{weighted}}$):
+Zinkoachless interceptively extracts data from Coachless REST endpoints across patch ranges (16.1 to 16.16+), tracks DDragon item/rune change history, caches raw JSON files locally, and computes a **Recency-Weighted Win Probability Added ($\text{WPA}_{\text{recency}}$)** using time-decay exponential weighting ($\lambda = 0.75$):
 
-$$\text{WPA}_{\text{weighted}} = \frac{\sum (\text{WPA}_i \times \text{Sample}_i)}{\sum \text{Sample}_i}$$
+$$\text{WPA}_{\text{recency}} = \frac{\sum_{i=1}^N \text{WPA}(P_i) \times \text{Sample}(P_i) \times 0.75^{(N - i)}}{\sum_{i=1}^N \text{Sample}(P_i) \times 0.75^{(N - i)}}$$
 
-By consolidating purchase and pick counts across 10+ patches, low-frequency build paths gain statistical significance.
+By consolidating purchase and pick counts across 10+ patches with exponential recency decay, low-frequency build paths gain statistical significance without being distorted by outdated meta patches.
 
 ---
 
 ## User Experience Goals
-- **Instant Client-Side Filtering:** Sliders or dropdowns for selecting *From Patch* and *To Patch* range recalculate weighted WPAs in real-time in the browser without backend roundtrips.
-- **Visual Richness:** Clean modern dark UI featuring high-resolution item and rune icons sourced dynamically from Riot Games Data Dragon CDN.
-- **Sorting & Interactive Exploration:** Sort by WPA impact or sample count (buys/picks) across 8 distinct categories (Keystones, Spells, Starters, Boots, 1st Item, 2nd Item, 3rd Item, 4th+ Items).
+- **Instant Client-Side Filtering:** Dropdowns for selecting *From Patch* and *To Patch* range recalculate recency-weighted WPAs in real-time in the browser.
+- **Smart Composite Ranking (`smart_rank`):** Default recommendation metric combining recency WPA and sample confidence to rank optimal builds.
+- **Statistical Role Badging:** Instant visual guidance distinguishing `⭐ Meta` (Standard high-confidence), `🎯 Situacional / Hidden OP` (High-efficiency niche pick or secret OP choice), `📈 Emergente` (Rising momentum), and `⚡ Ajustado` (Latest patch change).
+- **Dynamic Market Share Filter:** Toggle between `⭐ Populares & Solidez` ($0.5\%$ category sample cutoff) and `📚 Catálogo Completo` (100% un-filtered catalog).
+- **LoL Item Set Exporter:** One-click clipboard copy generating ready-to-use in-game item sets for the League of Legends client.
 - **Offline Autonomy:** Web application functions completely offline using pre-compiled `docs/data.js` bundles.

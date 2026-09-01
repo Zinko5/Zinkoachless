@@ -64,13 +64,19 @@
         </div>
       </div>
       <div class="header-actions">
-        <button class="btn active" id="btn-global"><i data-lucide="crosshair" style="width: 16px; height: 16px;"></i>
-          Global</button>
-        <button class="btn" id="btn-all-items"><i data-lucide="layers" style="width: 16px; height: 16px;"></i> Todos los
-          Objetos</button>
+        <button class="btn active" id="btn-global"
+          title="Vista Filtrada: Muestra solo opciones relevantes con suficiente muestra (evita ruido y picks hiper-raros)">
+          <i data-lucide="sparkles" style="width: 16px; height: 16px;"></i>Populares & Solidez
+        </button>
+        <button class="btn" id="btn-all-items"
+          title="Vista Completa: Muestra el catálogo 100% entero de opciones, incluyendo picks de nicho u OTP">
+          <i data-lucide="layers" style="width: 16px; height: 16px;"></i>Catálogo Completo
+        </button>
         <button class="btn" id="btn-filters"><i data-lucide="sliders-horizontal" style="width: 16px; height: 16px;"></i>
           Filtros</button>
-        <button class="btn" id="btn-export-set" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; border: none; font-weight: 600;" onclick="exportLoLItemSet()">
+        <button class="btn" id="btn-export-set"
+          style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; border: none; font-weight: 600;"
+          onclick="exportLoLItemSet()">
           <i data-lucide="download" style="width: 16px; height: 16px;"></i> Exportar Set
         </button>
       </div>
@@ -129,6 +135,16 @@
               <input type="checkbox" id="wpa-neg-gen" onchange="applyFilters()"> WPA General Negativo (-)
             </label>
             <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: #f59e0b; font-weight: 600;">
+              <input type="checkbox" id="wpa-post-adj" checked onchange="applyFilters()"> ⚡ Filtrar Post-Ajuste (Solo
+              parches tras último cambio)
+            </label>
+            <label
+              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: #10b981; font-weight: 600;">
+              <input type="checkbox" id="wpa-trending-up" onchange="applyFilters()"> 📈 Alternativas Emergentes
+              (Trending Up)
+            </label>
+            <label
               style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
               <input type="checkbox" data-wpa-stat="deltaAgainstMagicDamage" onchange="applyFilters()"> Positivo: Daño
               Mágico
@@ -167,6 +183,7 @@
           <select id="sort-by"
             style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
             onchange="onAdvancedSortChange()">
+            <option value="smart_rank" selected>⭐ Recomendado (Smart Rank)</option>
             <option value="wpa">WPA General</option>
             <option value="sample_size">Popularidad (Compras)</option>
             <option value="deltaAgainstMagicDamage">Daño Mágico Enemigo</option>
@@ -192,8 +209,22 @@
 
     <!-- SECCIÓN OVERVIEW -->
     <section class="overview-section">
-      <h2>Agregación Multiparche WPA</h2>
-      <span class="overview-tag" id="active-patch-tag">Parches: 16.1 - 16.16 (Completo)</span>
+      <div
+        style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; width: 100%;">
+        <h2>Agregación Multiparche WPA</h2>
+        <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+          <div class="badge-legend"
+            style="font-size: 0.75rem; color: var(--text-secondary); display: flex; align-items: center; gap: 0.6rem; background: rgba(255,255,255,0.03); padding: 0.25rem 0.6rem; border-radius: 6px; border: 1px solid var(--border-color);">
+            <span title="Opción estándar de alto volumen"><strong style="color: #60a5fa;">⭐</strong> Meta</span>
+            <span title="Opción de nicho situacional o secretamente OP (Hidden Gem)"><strong
+                style="color: #c084fc;">🎯</strong> Situacional / Hidden OP</span>
+            <span title="Alternativa ganando rendimiento reciente"><strong style="color: #10b981;">📈</strong>
+              Emergente</span>
+            <span title="Parche del último ajuste registrado"><strong style="color: #f59e0b;">⚡</strong> Ajustado</span>
+          </div>
+          <span class="overview-tag" id="active-patch-tag">Parches: 16.1 - 16.16 (Completo)</span>
+        </div>
+      </div>
     </section>
 
     <!-- GRID DE DASHBOARD EN DOS FILAS -->

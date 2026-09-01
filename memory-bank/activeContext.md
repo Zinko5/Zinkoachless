@@ -1,26 +1,37 @@
 # Active Context: Zinkoachless
 
 ## Current State & Focus
-- **Memory Bank Initialized:** Full architectural and contextual documentation established in `memory-bank/`.
-- **Pipeline Operation:** `get-wpa.py` downloads and caches patch data for Lucian (236, Bot), Smolder (901, Bot), and Ekko (245, Jungla).
-- **Data Processor:** `process_wpa.py` transforms raw JSON files into structured records, fetches live item/rune metadata from DDragon, and writes `docs/data.js`.
-- **Web Interface:** Dashboard fully responsive with dark mode design system, champion switching, patch range sliders, and dynamic column sorting.
+- **Full Multi-Entity DDragon Patch Tracker:** [`patch_history.py`](file:///home/zinko/publico/zinkoachless/patch_history.py) diffs items, runes (`runesReforged.json`), and summoner spells (`summoner.json`) across 16 parches (978 total entities tracked).
+- **Time-Decay Exponential Weighting ($\lambda = 0.75$):** Aggregates WPA with a 2.4-patch half-life, ensuring recent patch performance dominates while preserving historical depth.
+- **Smart Composite Ranking (`smart_rank`):** Default sorting algorithm combining recency-weighted WPA and log-sample confidence.
+- **Statistical Role Badges & Compact UX:**
+  - `⭐ Meta`: High volume + solid positive WPA.
+  - `🎯 Situacional / Hidden OP`: High-efficiency niche pick / secret OP choice.
+  - `📈 Emergente`: Rising recent WPA momentum ($\Delta \text{WPA} > 0$).
+  - `⚡ Ajustado`: Indicates latest patch change.
+  - Strict Negative-WPA Exclusion: Items with $WPA < 0$ are never labeled Meta (eliminating popularity traps).
+- **Dynamic Market Share Sample Filtering:**
+  - Mode 1: `⭐ Populares & Solidez` filters out items below $0.5\%$ of total category purchase volume.
+  - Mode 2: `📚 Catálogo Completo (Incluye Nicho / OTP)` shows 100% of recorded items.
+- **League of Legends Item Set Exporter:**
+  - Copies JSON payload directly to clipboard (`navigator.clipboard.writeText`).
+  - Includes custom `"Todos por WPA"` block at the end with all positive WPA items unfiltered.
 
 ---
 
 ## Active Decisions & Workflows
-- **Patch Caching Strategy:**
-  - Historical patches (e.g. 16.1..16.15) are cached in `data/raw/` and skipped on subsequent runs.
-  - The latest patch in `PATCHES` array is always fetched fresh to catch daily metadata updates.
+- **Default Page Configuration:**
+  - Default patch range: `16.1` to `16.16` (Full Season).
+  - Default filter state: `⚡ Post-Ajuste` checked by default.
+  - Default sort order: `⭐ Recomendado (Smart Rank)`.
 - **Champion Scalability Workflow:**
-  1. Add Champion ID to `CHAMPIONS` list in `get-wpa.py`.
-  2. Add name/role to `championNames` and `championRoles` in `docs/app.js`.
-  3. Add `<option>` to `#champion-select` in `docs/index.html`.
-  4. Run `python3 get-wpa.py && python3 process_wpa.py`.
+  1. Add Champion ID to `CHAMPIONS` list in [`get-wpa.py`](file:///home/zinko/publico/zinkoachless/get-wpa.py).
+  2. Add name/role to `championNames` and `championRoles` in [`docs/app.js`](file:///home/zinko/publico/zinkoachless/docs/app.js).
+  3. Add `<option>` to `#champion-select` in [`docs/index.html`](file:///home/zinko/publico/zinkoachless/docs/index.html).
+  4. Run `source .venv/bin/activate && python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py`.
 
 ---
 
 ## Next Steps
-- Expand support for additional champions (e.g., Ezreal ID: 81, Kai'Sa ID: 145).
-- Integrate `GetItemDetailed` payload for deeper item metrics (damage type splits, matchup sinergies) in an item detail popup modal.
-- Create automated cron/CI script for periodic dataset updates when new Riot patches launch.
+- Add more ADC, midlane, and jungle champions (e.g. Ezreal ID: 81, Kai'Sa ID: 145, Lee Sin ID: 64).
+- Create automated CI/Cron runner to execute updates whenever Riot releases a new patch.

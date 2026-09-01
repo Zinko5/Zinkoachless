@@ -24,7 +24,7 @@ const runeImages = {
 let latestVersion = "16.16.1";
 let wpaData = []; // Esto guardará los registros granulares (por parche)
 let currentView = "global"; // "global" o "all-items"
-let currentSort = "wpa";      // "wpa" o "sample_size"
+let currentSort = "smart_rank"; // "smart_rank", "wpa" o "sample_size"
 let currentTab = "builds";    // "builds" o "items"
 let availablePatches = [];
 
@@ -55,8 +55,8 @@ function populatePatchDropdowns() {
     const optFrom = document.createElement("option");
     optFrom.value = patch;
     optFrom.innerText = patch;
-    // Seleccionar por defecto 16.9
-    if (patch === "16.9") {
+    // Seleccionar por defecto el primer parche disponible (16.1)
+    if (idx === 0) {
       optFrom.selected = true;
     }
     fromSelect.appendChild(optFrom);
@@ -111,11 +111,14 @@ function renderCategory(containerId, items) {
     return;
   }
 
-  // Ordenar por selección activa (WPA, Compras o métricas avanzadas) y orden (ascendente/descendente)
+  // Ordenar por selección activa (Smart Rank, WPA, Compras o métricas avanzadas) y orden (ascendente/descendente)
   const sortOrder = document.getElementById("sort-order") ? document.getElementById("sort-order").value : "desc";
   items.sort((a, b) => {
     let valA, valB;
-    if (currentSort === 'sample_size') {
+    if (currentSort === 'smart_rank' || !currentSort) {
+      valA = a.smart_score !== undefined ? a.smart_score : a.wpa;
+      valB = b.smart_score !== undefined ? b.smart_score : b.wpa;
+    } else if (currentSort === 'sample_size') {
       valA = a.sample_size;
       valB = b.sample_size;
     } else if (currentSort === 'wpa') {
@@ -139,12 +142,28 @@ function renderCategory(containerId, items) {
       row.classList.add("expandable");
     }
     
+    // Generar insignias compactas según el rol estadístico del elemento
+    let roleBadgeHtml = "";
+    if (item.is_meta) {
+      roleBadgeHtml = `<span class="meta-badge" title="⭐ Meta: Elección estándar de alto volumen y rendimiento sólido">⭐</span>`;
+    } else if (item.is_situational) {
+      roleBadgeHtml = `<span class="situational-badge" title="🎯 Situacional / Hidden OP: Alta efectividad en situaciones específicas o gema oculta (Counter-pick / Secret Meta)">🎯</span>`;
+    }
+
+    const patchBadgeHtml = item.last_changed_patch ? `<span class="patch-badge" title="⚡ Ajustado: Último cambio en parche ${item.last_changed_patch}">${item.last_changed_patch}⚡</span>` : "";
+    const trendingBadgeHtml = item.is_trending_up ? `<span class="trending-badge" title="📈 Alternativa Emergente: En alza (+${item.delta_wpa.toFixed(2)}% WPA en el último parche)">📈</span>` : "";
+    
     row.innerHTML = `
       <div class="item-icon">
         <img src="${iconUrl}" alt="${item.name}" onerror="this.onerror=function(){this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/1001.png';}; this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${item.id}.png';">
       </div>
-      <div class="item-details">
-        <div class="item-name">${item.name}</div>
+      <div class="item-details" style="display: flex; flex-direction: column; min-width: 0;">
+        <div style="display: flex; align-items: center; gap: 0.35rem; width: 100%; overflow: hidden;">
+          <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 0.875rem; font-weight: 500; color: var(--text-primary); flex: 1; min-width: 0;">${item.name}</span>
+          ${roleBadgeHtml}
+          ${patchBadgeHtml}
+          ${trendingBadgeHtml}
+        </div>
         <div class="item-subtext">ID: ${item.id}</div>
       </div>
       <div class="item-stats">
@@ -173,6 +192,8 @@ function applyFilters() {
   const searchQuery = document.getElementById("search-input").value.toLowerCase().trim();
   const fromSelect = document.getElementById("patch-from");
   const toSelect = document.getElementById("patch-to");
+  const postAdjChecked = document.getElementById("wpa-post-adj") ? document.getElementById("wpa-post-adj").checked : false;
+  const trendingUpChecked = document.getElementById("wpa-trending-up") ? document.getElementById("wpa-trending-up").checked : false;
   
   const startPatch = fromSelect.value || (availablePatches[0] || "16.1");
   const endPatch = toSelect.value || (availablePatches[availablePatches.length - 1] || "16.16");
@@ -180,15 +201,24 @@ function applyFilters() {
   // Actualizar el badge del rango de parches activo en la interfaz
   const patchTag = document.getElementById("active-patch-tag");
   if (patchTag) {
+    let suffix = "";
+    if (postAdjChecked) suffix += " [⚡ Post-Ajuste]";
+    if (trendingUpChecked) suffix += " [📈 Emergentes]";
     if (availablePatches.length > 0 && startPatch === availablePatches[0] && endPatch === availablePatches[availablePatches.length - 1]) {
-      patchTag.innerText = `Parches: ${startPatch} - ${endPatch} (Completo)`;
+      patchTag.innerText = `Parches: ${startPatch} - ${endPatch} (Completo)${suffix}`;
     } else {
-      patchTag.innerText = `Parches: ${startPatch} - ${endPatch}`;
+      patchTag.innerText = `Parches: ${startPatch} - ${endPatch}${suffix}`;
     }
   }
 
   // 1. Filtrar registros por parches seleccionados (rango inclusive)
   const granularFiltered = wpaData.filter(d => {
+    // Si la casilla Post-Ajuste está activada, ignorar parches anteriores al último cambio del objeto
+    if (postAdjChecked && d.last_changed_patch) {
+      if (comparePatches(d.patch, d.last_changed_patch) < 0) {
+        return false;
+      }
+    }
     return comparePatches(d.patch, startPatch) >= 0 && comparePatches(d.patch, endPatch) <= 0;
   });
 
@@ -201,6 +231,7 @@ function applyFilters() {
         category: r.category,
         id: r.id,
         name: r.name,
+        last_changed_patch: r.last_changed_patch,
         weighted_wpa_sum: 0,
         total_sample: 0,
         records: []
@@ -211,7 +242,7 @@ function applyFilters() {
     aggregated[key].records.push(r);
   });
 
-  // Convertir a lista y calcular promedios
+  // Convertir a lista y calcular promedios, Momentum Delta y Clasificación Estadística
   const aggregatedList = [];
   for (const key in aggregated) {
     const item = aggregated[key];
@@ -220,21 +251,92 @@ function applyFilters() {
       if (item.records.length > 0 && item.records.some(r => r.details)) {
         details = aggregateLocalDetails(item.records);
       }
+      
+      // Ordenar registros de este objeto por parche
+      item.records.sort((a, b) => comparePatches(a.patch, b.patch));
+      const latestRecord = item.records[item.records.length - 1];
+      const maxPatchIdx = availablePatches.length > 0 ? (availablePatches.length - 1) : 15;
+      
+      // Ponderación por Reciencia Temporal (Time-Decay Exponential Weighting)
+      // Calibración Óptima (lambda = 0.75, Half-Life de ~2.4 parches)
+      const lambda = 0.75;
+      let recencyWeightedWpaSum = 0;
+      let recencyWeightedSampleSum = 0;
+      
+      item.records.forEach(r => {
+        const patchIdx = availablePatches.indexOf(r.patch);
+        const patchDist = patchIdx >= 0 ? (maxPatchIdx - patchIdx) : 0;
+        const decayWeight = Math.pow(lambda, patchDist);
+        const effectiveWeight = r.sample_size * decayWeight;
+        
+        recencyWeightedWpaSum += r.wpa * effectiveWeight;
+        recencyWeightedSampleSum += effectiveWeight;
+      });
+      
+      const overallWpa = recencyWeightedSampleSum > 0 ? (recencyWeightedWpaSum / recencyWeightedSampleSum) : (item.weighted_wpa_sum / item.total_sample);
+
+      const historicalRecords = item.records.slice(0, -1);
+      let historicalWpa = 0;
+      let historicalSample = 0;
+      historicalRecords.forEach(h => {
+        historicalSample += h.sample_size;
+        historicalWpa += h.wpa * h.sample_size;
+      });
+      historicalWpa = historicalSample > 0 ? (historicalWpa / historicalSample) : (latestRecord ? latestRecord.wpa : 0);
+      
+      const latestWpa = latestRecord ? latestRecord.wpa : 0;
+      const deltaWpa = latestWpa - historicalWpa;
+      
+      // Tendencia y clasificación basada en WPA real ponderado por reciencia
+      const isTrendingUp = deltaWpa >= 0.05 || (latestWpa > 0 && deltaWpa > 0);
+      const isNerfed = (item.last_changed_patch === (availablePatches[availablePatches.length - 1] || "16.16")) && deltaWpa < -0.15;
+      
+      // Una opción NUNCA es Meta si su WPA ponderado por reciencia es negativo.
+      const hasSolidWpa = overallWpa >= 0.15 && latestWpa > 0;
+      const isMeta = hasSolidWpa && item.total_sample >= 3000 && !isNerfed;
+      
+      // Es Situacional si tiene WPA positivo pero menor muestra (< 3,000) o WPA moderado.
+      const isSituational = !isMeta && overallWpa > 0 && item.total_sample < 3000 && !isNerfed;
+
+      // Puntuación Inteligente (Smart Score): Pondera WPA por reciencia y logaritmo de muestra
+      const confidenceMultiplier = 1 + 0.15 * Math.log10(Math.max(1, item.total_sample));
+      const smartScore = (isNerfed ? latestWpa : overallWpa) * confidenceMultiplier;
+
       aggregatedList.push({
         category: item.category,
         id: item.id,
         name: item.name,
-        wpa: item.weighted_wpa_sum / item.total_sample,
+        last_changed_patch: item.last_changed_patch,
+        wpa: overallWpa,
         sample_size: item.total_sample,
+        latest_wpa: latestWpa,
+        historical_wpa: historicalWpa,
+        delta_wpa: deltaWpa,
+        is_trending_up: isTrendingUp,
+        is_meta: isMeta,
+        is_situational: isSituational,
+        is_nerfed: isNerfed,
+        smart_score: smartScore,
         details: details
       });
     }
   }
 
+  // Calcular la muestra total sumada por categoría para establecer la cuota de mercado mínima (Market Share >= 0.5%)
+  const totalSampleByCategory = {};
+  aggregatedList.forEach(item => {
+    totalSampleByCategory[item.category] = (totalSampleByCategory[item.category] || 0) + item.sample_size;
+  });
+
   // 3. Aplicar filtros de búsqueda y WPA sobre los agregados
   let filtered = aggregatedList.filter(item => {
     // Filtro de búsqueda
     if (searchQuery && !item.name.toLowerCase().includes(searchQuery) && !String(item.id).includes(searchQuery)) {
+      return false;
+    }
+
+    // Filtro de Alternativas Emergentes
+    if (trendingUpChecked && !item.is_trending_up) {
       return false;
     }
 
@@ -259,9 +361,13 @@ function applyFilters() {
       }
     }
 
-    // Filtro de muestra (Global vs Todos los Objetos)
-    if (currentView === "global" && item.sample_size < 1000) {
-      return false;
+    // Filtro de cuota de mercado mínima (0.5% del volumen total de la categoría en vista Populares & Solidez)
+    if (currentView === "global") {
+      const totalCategoryVolume = totalSampleByCategory[item.category] || 1000;
+      const minMarketShareSample = Math.max(50, Math.round(totalCategoryVolume * 0.005)); // 0.5% de la cuota total del slot
+      if (item.sample_size < minMarketShareSample) {
+        return false;
+      }
     }
 
     return true;
@@ -710,12 +816,16 @@ function onAdvancedSortChange() {
 
 function exportLoLItemSet() {
   const selectedChamp = document.getElementById("champion-select").value;
-  const championName = selectedChamp === "236" ? "Lucian" : "Smolder";
+  const championName = championNames[selectedChamp] || "Champion";
 
-  // 1. Agregar de 16.9 a 16.16
-  const startPatch = "16.9";
-  const endPatch = "16.16";
+  // 1. Filtrado predeterminado: 16.1 a parche actual con filtro Post-Ajuste (⚡)
+  const startPatch = availablePatches[0] || "16.1";
+  const endPatch = availablePatches[availablePatches.length - 1] || "16.16";
   const granularFiltered = wpaData.filter(d => {
+    // Filtro Post-Ajuste por defecto
+    if (d.last_changed_patch && comparePatches(d.patch, d.last_changed_patch) < 0) {
+      return false;
+    }
     return comparePatches(d.patch, startPatch) >= 0 && comparePatches(d.patch, endPatch) <= 0;
   });
 
@@ -727,6 +837,7 @@ function exportLoLItemSet() {
         category: r.category,
         id: r.id,
         name: r.name,
+        last_changed_patch: r.last_changed_patch,
         weighted_wpa_sum: 0,
         total_sample: 0,
         records: []
@@ -737,27 +848,63 @@ function exportLoLItemSet() {
     aggregated[key].records.push(r);
   });
 
-  const list = [];
+  // Calcular la muestra total sumada por categoría para respetar la cuota de mercado en vista Populares & Solidez
+  const totalSampleByCategory = {};
   for (const key in aggregated) {
     const item = aggregated[key];
-    if (item.total_sample >= 1000) {
-      let details = null;
-      if (item.records.length > 0 && item.records.some(r => r.details)) {
-        details = aggregateLocalDetails(item.records);
+    totalSampleByCategory[item.category] = (totalSampleByCategory[item.category] || 0) + item.total_sample;
+  }
+
+  const list = [];
+  const maxPatchIdx = availablePatches.length > 0 ? (availablePatches.length - 1) : 15;
+  const lambda = 0.75;
+
+  for (const key in aggregated) {
+    const item = aggregated[key];
+    
+    // Aplicar filtro de cuota de mercado si está en vista Populares & Solidez
+    if (currentView === "global") {
+      const totalCategoryVolume = totalSampleByCategory[item.category] || 1000;
+      const minMarketShareSample = Math.max(50, Math.round(totalCategoryVolume * 0.005));
+      if (item.total_sample < minMarketShareSample) {
+        continue;
       }
-      list.push({
-        category: item.category,
-        id: item.id,
-        name: item.name,
-        wpa: item.weighted_wpa_sum / item.total_sample,
-        sample_size: item.total_sample,
-        details: details
-      });
+    } else if (item.total_sample < 50) {
+      continue;
     }
+
+    item.records.sort((a, b) => comparePatches(a.patch, b.patch));
+    
+    let recencyWeightedWpaSum = 0;
+    let recencyWeightedSampleSum = 0;
+    
+    item.records.forEach(r => {
+      const patchIdx = availablePatches.indexOf(r.patch);
+      const patchDist = patchIdx >= 0 ? (maxPatchIdx - patchIdx) : 0;
+      const decayWeight = Math.pow(lambda, patchDist);
+      const effectiveWeight = r.sample_size * decayWeight;
+      
+      recencyWeightedWpaSum += r.wpa * effectiveWeight;
+      recencyWeightedSampleSum += effectiveWeight;
+    });
+    
+    const overallWpa = recencyWeightedSampleSum > 0 ? (recencyWeightedWpaSum / recencyWeightedSampleSum) : (item.weighted_wpa_sum / item.total_sample);
+
+    let details = null;
+    if (item.records.length > 0 && item.records.some(r => r.details)) {
+      details = aggregateLocalDetails(item.records);
+    }
+    list.push({
+      category: item.category,
+      id: item.id,
+      name: item.name,
+      wpa: overallWpa,
+      sample_size: item.total_sample,
+      details: details
+    });
   }
 
   // 2. Filtrar y ordenar bloques
-  // Bloque: Básicos (Starter con WPA > 0, luego Poción de curación, luego Boots con WPA > 0)
   const starterItems = list.filter(item => item.category === "Starter" && item.wpa > 0);
   starterItems.sort((a, b) => b.wpa - a.wpa);
   
@@ -770,30 +917,24 @@ function exportLoLItemSet() {
     ...bootsItems.map(item => ({ id: String(item.id), count: 1 }))
   ];
 
-  // Bloque: Primer item (1st Item con WPA > 0)
   const firstItems = list.filter(item => item.category === "1st Item" && item.wpa > 0);
   firstItems.sort((a, b) => b.wpa - a.wpa);
   const firstLoL = firstItems.map(item => ({ id: String(item.id), count: 1 }));
 
-  // Bloque: Segundo item (2nd Item con WPA > 0)
   const secondItems = list.filter(item => item.category === "2nd Item" && item.wpa > 0);
   secondItems.sort((a, b) => b.wpa - a.wpa);
   const secondLoL = secondItems.map(item => ({ id: String(item.id), count: 1 }));
 
-  // Bloque: Tercer item (3rd Item con WPA > 0)
   const thirdItems = list.filter(item => item.category === "3rd Item" && item.wpa > 0);
   thirdItems.sort((a, b) => b.wpa - a.wpa);
   const thirdLoL = thirdItems.map(item => ({ id: String(item.id), count: 1 }));
 
-  // Bloque: Items por WPA (All Items con WPA General > 0, ordenados por WPA general)
   const itemsPorWpa = list.filter(item => item.category === "All Items" && item.wpa > 0);
   itemsPorWpa.sort((a, b) => b.wpa - a.wpa);
   const itemsPorWpaLoL = itemsPorWpa.map(item => ({ id: String(item.id), count: 1 }));
 
-  // Bloques avanzados: All Items con WPA General > 0
   const allItemsWpaPos = list.filter(item => item.category === "All Items" && item.wpa > 0);
 
-  // Helper para generar y ordenar bloques avanzados
   const makeAdvancedBlock = (typeLabel, detailKey) => {
     const valid = allItemsWpaPos.filter(item => item.details && item.details[detailKey] !== undefined && item.details[detailKey] > 0);
     valid.sort((a, b) => b.details[detailKey] - a.details[detailKey]);
@@ -872,7 +1013,42 @@ function exportLoLItemSet() {
   blocks.push(makeAdvancedBlock("Con Ventaja (Ahead)", "deltaWhenGoldAhead"));
   blocks.push(makeAdvancedBlock("Con Desventaja (Behind)", "deltaWhenGoldBehind"));
 
-  // Filtrar bloques vacíos de items
+  // Bloque final: "Todos por WPA" (Todos los ítems con WPA > 0 sin filtro de muestra mínima)
+  const allItemsUnfilteredList = [];
+  for (const key in aggregated) {
+    const item = aggregated[key];
+    if (item.category === "All Items" && item.total_sample >= 50) {
+      item.records.sort((a, b) => comparePatches(a.patch, b.patch));
+      let recencyWeightedWpaSum = 0;
+      let recencyWeightedSampleSum = 0;
+      item.records.forEach(r => {
+        const patchIdx = availablePatches.indexOf(r.patch);
+        const patchDist = patchIdx >= 0 ? (maxPatchIdx - patchIdx) : 0;
+        const decayWeight = Math.pow(lambda, patchDist);
+        const effectiveWeight = r.sample_size * decayWeight;
+        recencyWeightedWpaSum += r.wpa * effectiveWeight;
+        recencyWeightedSampleSum += effectiveWeight;
+      });
+      const overallWpa = recencyWeightedSampleSum > 0 ? (recencyWeightedWpaSum / recencyWeightedSampleSum) : (item.weighted_wpa_sum / item.total_sample);
+      if (overallWpa > 0) {
+        allItemsUnfilteredList.push({ id: String(item.id), wpa: overallWpa });
+      }
+    }
+  }
+  allItemsUnfilteredList.sort((a, b) => b.wpa - a.wpa);
+  const todosPorWpaLoL = allItemsUnfilteredList.map(item => ({ id: item.id, count: 1 }));
+
+  if (todosPorWpaLoL.length > 0) {
+    blocks.push({
+      "type": "Todos por WPA",
+      "items": todosPorWpaLoL,
+      "showIfSummonerSpell": "",
+      "hideIfSummonerSpell": "",
+      "minSummonerLevel": -1,
+      "maxSummonerLevel": -1
+    });
+  }
+
   const finalBlocks = blocks.filter(b => b.items.length > 0);
 
   const itemSetJson = {
@@ -884,11 +1060,16 @@ function exportLoLItemSet() {
 
   const jsonStr = JSON.stringify(itemSetJson, null, 2);
 
-  navigator.clipboard.writeText(jsonStr).then(() => {
-    alert(`¡Set de items de League of Legends para ${championName} copiado al portapapeles con éxito!`);
-  }).catch(err => {
-    console.error("Error al copiar al portapapeles: ", err);
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(jsonStr).then(() => {
+      alert(`¡Set de items de LoL para ${championName} copiado al portapapeles con éxito!`);
+    }).catch(err => {
+      console.error("Error al copiar al portapapeles: ", err);
+      alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
+      console.log(jsonStr);
+    });
+  } else {
     alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
     console.log(jsonStr);
-  });
+  }
 }
