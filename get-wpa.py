@@ -82,17 +82,22 @@ def safe_fetch(func, *args, **kwargs):
 import os
 
 # Configuración de extracción
-CHAMPIONS = [236, 901]  # Lucian y Smolder
-ROLE = 3                # Rol (ADC / Bot)
+CHAMPIONS = [
+    {"id": 236, "role": 3},  # Lucian (Bot/ADC)
+    {"id": 901, "role": 3},  # Smolder (Bot/ADC)
+    {"id": 245, "role": 1},  # Ekko (Jungla)
+]
 MAJOR = 16              # Season
 PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 
 # Determinar el último parche en el array PATCHES para forzar su actualización
 latest_patch_num = max(PATCHES) if PATCHES else None
 
-for champ_id in CHAMPIONS:
+for champ in CHAMPIONS:
+    champ_id = champ["id"]
+    champ_role = champ["role"]
     print(f"\n=========================================")
-    print(f"Iniciando extracción para Campeón ID: {champ_id}")
+    print(f"Iniciando extracción para Campeón ID: {champ_id} (Rol: {champ_role})")
     print(f"=========================================")
     
     os.makedirs(os.path.join("data", "raw"), exist_ok=True)
@@ -123,7 +128,7 @@ for champ_id in CHAMPIONS:
         else:
             print(f"--- Extrayendo Nuevo Parche {patch_key} ---")
             
-        cf = build_common_filters(MAJOR, patch, champ_id, ROLE)
+        cf = build_common_filters(MAJOR, patch, champ_id, champ_role)
         
         items_no_slot = safe_fetch(fetch_items, cf, slots=None, item_type=1)
         

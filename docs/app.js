@@ -298,12 +298,14 @@ function formatNumber(num) {
 
 const championNames = {
   236: "Lucian",
-  901: "Smolder"
+  901: "Smolder",
+  245: "Ekko"
 };
 
 const championRoles = {
   236: "Tirador / ADC (Bot)",
-  901: "Tirador / ADC (Bot)"
+  901: "Tirador / ADC (Bot)",
+  245: "Jungla"
 };
 
 let selectedChamp = "236";
@@ -348,19 +350,27 @@ async function loadData() {
   }
 
   // Actualizar cabecera del campeón
-  const champName = championNames[selectedChamp];
+  const champName = championNames[selectedChamp] || "Ekko";
   document.getElementById("champion-avatar").src = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
-  document.getElementById("champion-role").innerText = championRoles[selectedChamp];
+  document.getElementById("champion-role").innerText = championRoles[selectedChamp] || "Campeón";
 
-  try {
-    const response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}.json`);
-    if (!response.ok) {
-      throw new Error("No se pudo cargar el JSON del campeón.");
+  // Usar datos embebidos offline si están disponibles (evita 404 en servidores donde /docs es raíz)
+  const offlineData = (window.fallbackGranularDataMap && window.fallbackGranularDataMap[selectedChamp]) || window[`fallbackGranularData${selectedChamp}`];
+  
+  if (offlineData && offlineData.length > 0) {
+    wpaData = offlineData;
+  } else {
+    try {
+      const response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}.json`);
+      if (response.ok) {
+        wpaData = await response.json();
+      } else {
+        wpaData = offlineData || [];
+      }
+    } catch (err) {
+      console.warn("Cargando datos embebidos de respaldo.");
+      wpaData = offlineData || [];
     }
-    wpaData = await response.json();
-  } catch (err) {
-    console.warn("Cargando datos embebidos granulares de respaldo.");
-    wpaData = selectedChamp === "236" ? fallbackGranularData236 : fallbackGranularData901;
   }
   populatePatchDropdowns();
   applyFilters();

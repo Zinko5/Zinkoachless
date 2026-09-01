@@ -227,13 +227,14 @@ if __name__ == "__main__":
     # Generar/actualizar automáticamente docs/data.js para compatibilidad sin conexión (offline)
     data_js_path = os.path.join("docs", "data.js")
     try:
-        js_content = ""
+        js_content = "window.fallbackGranularDataMap = window.fallbackGranularDataMap || {};\n\n"
         for champ_id in sorted(processed_ids, key=int):
             g_file = os.path.join("data", "granular", f"coachless_granular_wpa_{champ_id}.json")
             if os.path.exists(g_file):
                 with open(g_file, "r", encoding="utf-8") as f:
                     g_data = json.load(f)
-                js_content += f"const fallbackGranularData{champ_id} = {json.dumps(g_data, ensure_ascii=False, indent=2)};\n\n"
+                js_content += f"window.fallbackGranularDataMap[\"{champ_id}\"] = {json.dumps(g_data, ensure_ascii=False, indent=2)};\n"
+                js_content += f"var fallbackGranularData{champ_id} = window.fallbackGranularDataMap[\"{champ_id}\"];\n\n"
         
         if js_content:
             os.makedirs("docs", exist_ok=True)
@@ -241,4 +242,4 @@ if __name__ == "__main__":
                 f.write(js_content.strip() + "\n")
             print(f"\n---> 'docs/data.js' actualizado dinámicamente con los fallbacks offline de los campeones: {', '.join(processed_ids)}.")
     except Exception as e:
-        print(f"Error al generar 'page/data.js': {e}")
+        print(f"Error al generar 'docs/data.js': {e}")

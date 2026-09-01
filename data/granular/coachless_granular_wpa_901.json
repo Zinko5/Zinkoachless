@@ -75459,100 +75459,52 @@
     "wpa": 1.612,
     "sample_size": 402,
     "details": {
-      "itemOccurrence": 402,
-      "averagePurchaseWinprob": 49.63183,
-      "averageWinrate": 51.243782,
-      "averagePurchaseTime": 1202878.6,
-      "wpaOverall": 1.6119821,
+      "itemOccurrence": 0,
+      "averagePurchaseWinprob": 0,
+      "averageWinrate": 0,
+      "averagePurchaseTime": 0,
+      "wpaOverall": 0,
       "wpaStandalone": 0,
-      "wpaBias": 0.49187708,
-      "deltaWhenEven": 8.365286,
-      "deltaWhenAhead": -2.9375122,
-      "deltaWhenBehind": 1.4185269,
-      "evenOccurrence": 25.870647,
-      "aheadOccurrence": 36.81592,
-      "behindOccurrence": 37.31343,
-      "deltaAgainstBalancedDamage": -0.33248225,
-      "deltaAgainstMagicDamage": 3.065767,
-      "deltaAgainstPhysicalDamage": 1.933663,
-      "balancedDamageOccurrence": 32.83582,
-      "magicDamageOccurrence": 37.31343,
-      "physicalDamageOccurrence": 29.850746,
-      "deltaWhenBalancedRange": 1.8872678,
-      "deltaWhenHighRange": -0.6680466,
-      "deltaWhenLowRange": 2.4903283,
-      "balancedRangeOccurrence": 44.02985,
-      "highRangeOccurrence": 19.402985,
-      "lowRangeOccurrence": 36.56716,
+      "wpaBias": 0,
+      "deltaWhenEven": 0,
+      "deltaWhenAhead": 0,
+      "deltaWhenBehind": 0,
+      "evenOccurrence": 0,
+      "aheadOccurrence": 0,
+      "behindOccurrence": 0,
+      "deltaAgainstBalancedDamage": 0,
+      "deltaAgainstMagicDamage": 0,
+      "deltaAgainstPhysicalDamage": 0,
+      "balancedDamageOccurrence": 0,
+      "magicDamageOccurrence": 0,
+      "physicalDamageOccurrence": 0,
+      "deltaWhenBalancedRange": 0,
+      "deltaWhenHighRange": 0,
+      "deltaWhenLowRange": 0,
+      "balancedRangeOccurrence": 0,
+      "highRangeOccurrence": 0,
+      "lowRangeOccurrence": 0,
       "deltaWhenBalancedTankiness": 0,
-      "deltaWhenTanky": 2.8370514,
-      "deltaWhenSquishy": -0.33562517,
+      "deltaWhenTanky": 0,
+      "deltaWhenSquishy": 0,
       "balancedTankinessOccurrence": 0,
-      "tankyOccurrence": 73.88059,
-      "squishyOccurrence": 62.189056,
-      "deltaWhenNormalCC": 0.6178061,
-      "deltaWhenHighCC": -0.2622703,
-      "deltaWhenLowCC": 4.518931,
-      "normalCCOccurrence": 34.577114,
-      "highCCOccurrence": 32.587063,
-      "lowCCOccurrence": 32.83582,
-      "deltaWhenGoldBalanced": 1.6119821,
+      "tankyOccurrence": 0,
+      "squishyOccurrence": 0,
+      "deltaWhenNormalCC": 0,
+      "deltaWhenHighCC": 0,
+      "deltaWhenLowCC": 0,
+      "normalCCOccurrence": 0,
+      "highCCOccurrence": 0,
+      "lowCCOccurrence": 0,
+      "deltaWhenGoldBalanced": 0,
       "deltaWhenGoldAhead": 0,
       "deltaWhenGoldBehind": 0,
-      "goldBalancedOccurrence": 100,
+      "goldBalancedOccurrence": 0,
       "goldAheadOccurrence": 0,
       "goldBehindOccurrence": 0,
-      "componentDeltas": [
-        {
-          "itemId": 3133,
-          "count": 358,
-          "delta": 1.1088127
-        },
-        {
-          "itemId": 3070,
-          "count": 401,
-          "delta": 1.9875073
-        },
-        {
-          "itemId": 1036,
-          "count": 347,
-          "delta": 1.7903218
-        }
-      ],
-      "deltasByElo": [
-        {
-          "tier": 3,
-          "count": 710,
-          "delta": -0.6251814
-        },
-        {
-          "tier": 4,
-          "count": 487,
-          "delta": -1.6347756
-        },
-        {
-          "tier": 5,
-          "count": 304,
-          "delta": 2.5576448
-        },
-        {
-          "tier": 6,
-          "count": 91,
-          "delta": -1.1770358
-        },
-        {
-          "tier": 7,
-          "count": 7,
-          "delta": -3.1995628
-        }
-      ],
-      "deltasByItemSlot": [
-        {
-          "slot": 2,
-          "count": 278,
-          "delta": 2.9189093
-        }
-      ]
+      "componentDeltas": [],
+      "deltasByElo": [],
+      "deltasByItemSlot": []
     }
   },
   {
