@@ -230,35 +230,44 @@ if __name__ == "__main__":
     os.makedirs(os.path.join("data", "granular"), exist_ok=True)
     
     # Escanear archivos de estadísticas de campeones en data/raw/
-    processed_ids = []
+    processed_keys = []
     for filepath in glob.glob(os.path.join("data", "raw", "coachless_champ_*_full_stats.json")):
-        match = re.search(r"coachless_champ_(\d+)_full_stats.json", filepath)
-        if match:
-            champ_id = match.group(1)
-            output_csv = os.path.join("data", "processed", f"coachless_processed_wpa_{champ_id}.csv")
-            output_json = os.path.join("data", "consolidated", f"coachless_consolidated_wpa_{champ_id}.json")
-            output_granular_json = os.path.join("data", "granular", f"coachless_granular_wpa_{champ_id}.json")
+        match_role = re.search(r"coachless_champ_(\d+)_role_(\d+)_full_stats.json", filepath)
+        match_base = re.search(r"coachless_champ_(\d+)_full_stats.json", filepath)
+        
+        if match_role:
+            champ_id = match_role.group(1)
+            champ_role = match_role.group(2)
+            key_name = f"{champ_id}_role_{champ_role}"
+        elif match_base:
+            champ_id = match_base.group(1)
+            key_name = champ_id
+        else:
+            continue
             
-            print(f"\n---> Procesando estadísticas del Campeón ID: {champ_id}")
-            process_coachless_json(filepath, output_csv, output_json, output_granular_json)
-            processed_ids.append(champ_id)
+        output_csv = os.path.join("data", "processed", f"coachless_processed_wpa_{key_name}.csv")
+        output_json = os.path.join("data", "consolidated", f"coachless_consolidated_wpa_{key_name}.json")
+        output_granular_json = os.path.join("data", "granular", f"coachless_granular_wpa_{key_name}.json")
+        
+        print(f"\n---> Procesando estadísticas: {key_name}")
+        process_coachless_json(filepath, output_csv, output_json, output_granular_json)
+        processed_keys.append(key_name)
             
     # Generar/actualizar automáticamente docs/data.js para compatibilidad sin conexión (offline)
     data_js_path = os.path.join("docs", "data.js")
     try:
         js_content = "window.fallbackGranularDataMap = window.fallbackGranularDataMap || {};\n\n"
-        for champ_id in sorted(processed_ids, key=int):
-            g_file = os.path.join("data", "granular", f"coachless_granular_wpa_{champ_id}.json")
+        for key_name in sorted(processed_keys):
+            g_file = os.path.join("data", "granular", f"coachless_granular_wpa_{key_name}.json")
             if os.path.exists(g_file):
                 with open(g_file, "r", encoding="utf-8") as f:
                     g_data = json.load(f)
-                js_content += f"window.fallbackGranularDataMap[\"{champ_id}\"] = {json.dumps(g_data, ensure_ascii=False, indent=2)};\n"
-                js_content += f"var fallbackGranularData{champ_id} = window.fallbackGranularDataMap[\"{champ_id}\"];\n\n"
+                js_content += f"window.fallbackGranularDataMap[\"{key_name}\"] = {json.dumps(g_data, ensure_ascii=False, indent=2)};\n"
         
         if js_content:
             os.makedirs("docs", exist_ok=True)
             with open(data_js_path, "w", encoding="utf-8") as f:
                 f.write(js_content.strip() + "\n")
-            print(f"\n---> 'docs/data.js' actualizado dinámicamente con los fallbacks offline de los campeones: {', '.join(processed_ids)}.")
+            print(f"\n---> 'docs/data.js' actualizado dinámicamente con los fallbacks offline de: {', '.join(processed_keys)}.")
     except Exception as e:
         print(f"Error al generar 'docs/data.js': {e}")

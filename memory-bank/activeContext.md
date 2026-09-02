@@ -25,9 +25,9 @@
   - Default filter state: `⚡ Post-Ajuste` checked by default.
   - Default sort order: `⭐ Recomendado (Smart Rank)`.
 - **Champion Scalability Workflow:**
-  1. Add Champion ID to `CHAMPIONS` list in [`get-wpa.py`](file:///home/zinko/publico/zinkoachless/get-wpa.py).
-  2. Add name/role to `championNames` and `championRoles` in [`docs/app.js`](file:///home/zinko/publico/zinkoachless/docs/app.js).
-  3. Add `<option>` to `#champion-select` in [`docs/index.html`](file:///home/zinko/publico/zinkoachless/docs/index.html).
+  1. Add Champion ID and role (0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support) to `CHAMPIONS` list in [`get-wpa.py`](file:///home/zinko/publico/zinkoachless/get-wpa.py).
+  2. Map champion name and supported roles in `championNames` and `championRolesMap` in [`docs/app.js`](file:///home/zinko/publico/zinkoachless/docs/app.js).
+  3. Add `<option>` with unique champion name to `#champion-select` in [`docs/index.html`](file:///home/zinko/publico/zinkoachless/docs/index.html).
   4. Run `source .venv/bin/activate && python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py`.
 
 ---

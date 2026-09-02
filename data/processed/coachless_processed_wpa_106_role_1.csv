@@ -1,0 +1,1957 @@
+﻿patch,category,id,name,wpa,sample_size
+16.1,Keystone,8010,Conqueror,-7.1559,750
+16.1,Keystone,8005,Press the Attack,-1.5073,11838
+16.1,Keystone,8008,Lethal Tempo,0.4462,62572
+16.1,Keystone,8437,Grasp of the Undying,-10.2967,291
+16.1,Keystone,8439,Aftershock,-1.6906,103
+16.1,Spell,4,Flash,0.0758,74655
+16.1,Spell,6,Ghost,-4.6978,1173
+16.1,Spell,11,Smite,0.0,75880
+16.1,Starter,1101,Scorchclaw Pup,-1.7936,4044
+16.1,Starter,1102,Gustwalker Hatchling,0.1492,67267
+16.1,Starter,1103,Mosstomper Seedling,-0.626,4448
+16.1,Boots,3006,Berserker's Greaves,-5.3362,186
+16.1,Boots,3009,Boots of Swiftness,-0.5753,3963
+16.1,Boots,3020,Sorcerer's Shoes,-5.0858,101
+16.1,Boots,3047,Plated Steelcaps,1.0757,24326
+16.1,Boots,3111,Mercury's Treads,-0.2094,34146
+16.1,Boots,3158,Ionian Boots of Lucidity,-0.7681,9230
+16.1,1st Item,2510,Dusk and Dawn,1.7486,45344
+16.1,1st Item,2524,Bandlepipes,-2.1016,2040
+16.1,1st Item,3071,Black Cleaver,0.4043,295
+16.1,1st Item,3078,Trinity Force,-3.333,6513
+16.1,1st Item,3115,Nashor's Tooth,-2.5422,897
+16.1,1st Item,3146,Hextech Gunblade,-6.5275,561
+16.1,1st Item,3152,Hextech Rocketbelt,-2.9261,218
+16.1,1st Item,3742,Dead Man's Plate,-8.6731,114
+16.1,1st Item,4629,Cosmic Drive,-1.881,11304
+16.1,1st Item,4633,Riftmaker,-1.3528,130
+16.1,1st Item,6610,Sundered Sky,-3.5065,662
+16.1,1st Item,6657,Rod of Ages,-5.5243,2383
+16.1,1st Item,6662,Iceborn Gauntlet,-1.8994,1907
+16.1,1st Item,6675,Navori Flickerblade,-2.2566,708
+16.1,2nd Item,2502,Unending Despair,-0.4596,317
+16.1,2nd Item,2510,Dusk and Dawn,0.1328,1069
+16.1,2nd Item,2524,Bandlepipes,-1.2886,1865
+16.1,2nd Item,2525,Protoplasm Harness,-3.9744,170
+16.1,2nd Item,3041,Mejai's Soulstealer,-1.9969,177
+16.1,2nd Item,3065,Spirit Visage,-1.1837,4326
+16.1,2nd Item,3071,Black Cleaver,-2.4558,141
+16.1,2nd Item,3075,Thornmail,-1.0356,679
+16.1,2nd Item,3078,Trinity Force,0.0487,215
+16.1,2nd Item,3110,Frozen Heart,0.6546,323
+16.1,2nd Item,3115,Nashor's Tooth,-0.9447,893
+16.1,2nd Item,3143,Randuin's Omen,1.0851,318
+16.1,2nd Item,3146,Hextech Gunblade,-2.2842,229
+16.1,2nd Item,3152,Hextech Rocketbelt,1.3134,166
+16.1,2nd Item,3161,Spear of Shojin,-4.7348,1412
+16.1,2nd Item,3742,Dead Man's Plate,-1.1205,3031
+16.1,2nd Item,4401,Force of Nature,-1.7174,163
+16.1,2nd Item,4629,Cosmic Drive,-1.0744,2623
+16.1,2nd Item,4633,Riftmaker,-1.5472,919
+16.1,2nd Item,6610,Sundered Sky,-5.9587,471
+16.1,2nd Item,6657,Rod of Ages,-0.29,247
+16.1,2nd Item,6662,Iceborn Gauntlet,-0.572,2912
+16.1,2nd Item,6675,Navori Flickerblade,0.6927,45403
+16.1,3rd Item,2502,Unending Despair,0.3209,1005
+16.1,3rd Item,2504,Kaenic Rookern,-0.9316,230
+16.1,3rd Item,2510,Dusk and Dawn,1.1123,367
+16.1,3rd Item,2524,Bandlepipes,-0.9782,1576
+16.1,3rd Item,2525,Protoplasm Harness,1.3328,324
+16.1,3rd Item,3041,Mejai's Soulstealer,2.6698,333
+16.1,3rd Item,3053,Sterak's Gage,1.2162,240
+16.1,3rd Item,3065,Spirit Visage,0.3679,28994
+16.1,3rd Item,3075,Thornmail,-0.845,3507
+16.1,3rd Item,3110,Frozen Heart,1.7961,823
+16.1,3rd Item,3115,Nashor's Tooth,-0.6471,506
+16.1,3rd Item,3143,Randuin's Omen,2.0981,1949
+16.1,3rd Item,3146,Hextech Gunblade,-4.9014,143
+16.1,3rd Item,3157,Zhonya's Hourglass,0.5177,120
+16.1,3rd Item,3161,Spear of Shojin,-1.7859,197
+16.1,3rd Item,3742,Dead Man's Plate,-0.4627,7619
+16.1,3rd Item,4401,Force of Nature,-0.4506,336
+16.1,3rd Item,4629,Cosmic Drive,-1.1888,917
+16.1,3rd Item,4633,Riftmaker,-1.3839,567
+16.1,3rd Item,6333,Death's Dance,-0.2663,202
+16.1,3rd Item,6610,Sundered Sky,-1.0397,163
+16.1,3rd Item,6662,Iceborn Gauntlet,-0.9864,705
+16.1,3rd Item,6665,"Jak'Sho, The Protean",-3.7277,330
+16.1,3rd Item,6675,Navori Flickerblade,-0.5766,3555
+16.1,4th+ Item,2502,Unending Despair,-0.2152,2985
+16.1,4th+ Item,2504,Kaenic Rookern,0.1155,721
+16.1,4th+ Item,2510,Dusk and Dawn,3.708,162
+16.1,4th+ Item,2524,Bandlepipes,-0.966,742
+16.1,4th+ Item,2525,Protoplasm Harness,1.7071,862
+16.1,4th+ Item,3026,Guardian Angel,4.4626,122
+16.1,4th+ Item,3041,Mejai's Soulstealer,-0.7307,812
+16.1,4th+ Item,3053,Sterak's Gage,3.7285,704
+16.1,4th+ Item,3065,Spirit Visage,-0.0745,8045
+16.1,4th+ Item,3075,Thornmail,-0.3214,9705
+16.1,4th+ Item,3091,Wit's End,-6.7472,111
+16.1,4th+ Item,3110,Frozen Heart,2.0905,1190
+16.1,4th+ Item,3115,Nashor's Tooth,-1.9733,418
+16.1,4th+ Item,3143,Randuin's Omen,1.3952,3492
+16.1,4th+ Item,3146,Hextech Gunblade,-0.674,161
+16.1,4th+ Item,3157,Zhonya's Hourglass,1.0525,394
+16.1,4th+ Item,3161,Spear of Shojin,1.5909,143
+16.1,4th+ Item,3742,Dead Man's Plate,-0.7497,7062
+16.1,4th+ Item,4401,Force of Nature,0.1734,945
+16.1,4th+ Item,4629,Cosmic Drive,1.2267,938
+16.1,4th+ Item,4633,Riftmaker,0.6649,705
+16.1,4th+ Item,6333,Death's Dance,2.7878,290
+16.1,4th+ Item,6662,Iceborn Gauntlet,-0.5769,360
+16.1,4th+ Item,6665,"Jak'Sho, The Protean",0.3606,2221
+16.1,4th+ Item,6675,Navori Flickerblade,0.3882,1102
+16.1,4th+ Item,8020,Abyssal Mask,1.8262,181
+16.1,All Items,2501,Overlord's Bloodmail,-1.1508,102
+16.1,All Items,2502,Unending Despair,-0.1442,4363
+16.1,All Items,2504,Kaenic Rookern,0.4581,1057
+16.1,All Items,2510,Dusk and Dawn,1.7131,46948
+16.1,All Items,2517,Endless Hunger,-8.9449,209
+16.1,All Items,2524,Bandlepipes,-1.437,6231
+16.1,All Items,2525,Protoplasm Harness,0.7849,1391
+16.1,All Items,3026,Guardian Angel,4.4687,148
+16.1,All Items,3041,Mejai's Soulstealer,-0.1075,1328
+16.1,All Items,3050,Zeke's Convergence,5.265,175
+16.1,All Items,3053,Sterak's Gage,2.8238,1073
+16.1,All Items,3065,Spirit Visage,0.1144,41457
+16.1,All Items,3068,Sunfire Aegis,-2.9804,112
+16.1,All Items,3071,Black Cleaver,-1.5894,549
+16.1,All Items,3073,Experimental Hexplate,-2.3112,105
+16.1,All Items,3075,Thornmail,-0.4833,13968
+16.1,All Items,3078,Trinity Force,-3.2531,6890
+16.1,All Items,3084,Heartsteel,-2.3457,167
+16.1,All Items,3091,Wit's End,-6.247,215
+16.1,All Items,3110,Frozen Heart,1.6748,2374
+16.1,All Items,3115,Nashor's Tooth,-1.5562,2726
+16.1,All Items,3119,Winter's Approach,0.0052,276
+16.1,All Items,3143,Randuin's Omen,1.6043,5826
+16.1,All Items,3146,Hextech Gunblade,-4.5974,1099
+16.1,All Items,3152,Hextech Rocketbelt,-1.7248,453
+16.1,All Items,3157,Zhonya's Hourglass,0.1245,552
+16.1,All Items,3161,Spear of Shojin,-3.9585,1852
+16.1,All Items,3181,Hullbreaker,0.6005,127
+16.1,All Items,3742,Dead Man's Plate,-0.7323,17874
+16.1,All Items,3748,Titanic Hydra,-3.9016,110
+16.1,All Items,4401,Force of Nature,-0.0389,1467
+16.1,All Items,4629,Cosmic Drive,-1.5223,15803
+16.1,All Items,4633,Riftmaker,-0.8123,2343
+16.1,All Items,6333,Death's Dance,1.4585,570
+16.1,All Items,6610,Sundered Sky,-4.0185,1393
+16.1,All Items,6657,Rod of Ages,-5.1456,2719
+16.1,All Items,6662,Iceborn Gauntlet,-1.0408,5896
+16.1,All Items,6664,Hollow Radiance,3.5915,104
+16.1,All Items,6665,"Jak'Sho, The Protean",-0.35,2712
+16.1,All Items,6675,Navori Flickerblade,0.5574,50788
+16.1,All Items,8020,Abyssal Mask,0.4054,245
+16.2,Keystone,8010,Conqueror,-3.1229,1129
+16.2,Keystone,8005,Press the Attack,-1.0636,11719
+16.2,Keystone,8008,Lethal Tempo,0.189,155334
+16.2,Keystone,8437,Grasp of the Undying,-11.2891,796
+16.2,Keystone,8128,Dark Harvest,-7.358,108
+16.2,Keystone,8439,Aftershock,-4.9195,120
+16.2,Spell,4,Flash,0.0284,167673
+16.2,Spell,6,Ghost,-2.3768,1835
+16.2,Spell,11,Smite,0.0,169620
+16.2,Starter,1101,Scorchclaw Pup,-1.385,8222
+16.2,Starter,1102,Gustwalker Hatchling,0.0916,152251
+16.2,Starter,1103,Mosstomper Seedling,-0.2871,8928
+16.2,Boots,3006,Berserker's Greaves,-0.2414,233
+16.2,Boots,3009,Boots of Swiftness,-1.7108,7278
+16.2,Boots,3047,Plated Steelcaps,1.0906,59147
+16.2,Boots,3111,Mercury's Treads,0.1234,84785
+16.2,Boots,3158,Ionian Boots of Lucidity,-1.6176,9153
+16.2,1st Item,2510,Dusk and Dawn,0.2933,155104
+16.2,1st Item,2524,Bandlepipes,-5.0534,441
+16.2,1st Item,3071,Black Cleaver,-8.0875,172
+16.2,1st Item,3078,Trinity Force,-4.6052,2849
+16.2,1st Item,3115,Nashor's Tooth,-2.8535,447
+16.2,1st Item,3146,Hextech Gunblade,-8.5613,360
+16.2,1st Item,4629,Cosmic Drive,-4.648,2463
+16.2,1st Item,6610,Sundered Sky,-3.6474,222
+16.2,1st Item,6657,Rod of Ages,-7.5712,540
+16.2,1st Item,6662,Iceborn Gauntlet,-2.2119,1301
+16.2,1st Item,6675,Navori Flickerblade,-3.0437,626
+16.2,2nd Item,2502,Unending Despair,-1.843,480
+16.2,2nd Item,2510,Dusk and Dawn,-2.2117,901
+16.2,2nd Item,2524,Bandlepipes,-0.5748,1196
+16.2,2nd Item,3041,Mejai's Soulstealer,1.6775,336
+16.2,2nd Item,3053,Sterak's Gage,0.1753,116
+16.2,2nd Item,3065,Spirit Visage,-1.2859,7601
+16.2,2nd Item,3075,Thornmail,-1.0875,1003
+16.2,2nd Item,3110,Frozen Heart,1.1084,361
+16.2,2nd Item,3115,Nashor's Tooth,-1.07,620
+16.2,2nd Item,3143,Randuin's Omen,-0.3209,623
+16.2,2nd Item,3146,Hextech Gunblade,0.2391,166
+16.2,2nd Item,3152,Hextech Rocketbelt,0.3947,202
+16.2,2nd Item,3161,Spear of Shojin,-5.8542,572
+16.2,2nd Item,3742,Dead Man's Plate,-1.0567,5114
+16.2,2nd Item,4401,Force of Nature,-4.2728,159
+16.2,2nd Item,4629,Cosmic Drive,-1.2714,2647
+16.2,2nd Item,4633,Riftmaker,-1.2486,782
+16.2,2nd Item,6610,Sundered Sky,-1.4369,247
+16.2,2nd Item,6657,Rod of Ages,-1.1799,153
+16.2,2nd Item,6662,Iceborn Gauntlet,-3.1825,835
+16.2,2nd Item,6665,"Jak'Sho, The Protean",-3.5096,102
+16.2,2nd Item,6675,Navori Flickerblade,0.2552,129307
+16.2,3rd Item,2502,Unending Despair,-0.5218,1763
+16.2,3rd Item,2504,Kaenic Rookern,0.8611,374
+16.2,3rd Item,2510,Dusk and Dawn,0.0487,269
+16.2,3rd Item,2524,Bandlepipes,-0.5932,2739
+16.2,3rd Item,2525,Protoplasm Harness,-4.0584,197
+16.2,3rd Item,3041,Mejai's Soulstealer,-0.9403,558
+16.2,3rd Item,3050,Zeke's Convergence,3.8645,121
+16.2,3rd Item,3053,Sterak's Gage,0.1083,189
+16.2,3rd Item,3065,Spirit Visage,0.2437,68223
+16.2,3rd Item,3075,Thornmail,-0.7707,13651
+16.2,3rd Item,3110,Frozen Heart,0.6752,1496
+16.2,3rd Item,3115,Nashor's Tooth,-0.7706,613
+16.2,3rd Item,3143,Randuin's Omen,2.2252,4144
+16.2,3rd Item,3146,Hextech Gunblade,-1.3533,162
+16.2,3rd Item,3157,Zhonya's Hourglass,-4.1836,179
+16.2,3rd Item,3161,Spear of Shojin,2.3618,134
+16.2,3rd Item,3742,Dead Man's Plate,-0.1682,20803
+16.2,3rd Item,4401,Force of Nature,-1.0923,516
+16.2,3rd Item,4629,Cosmic Drive,-1.8391,1743
+16.2,3rd Item,4633,Riftmaker,-0.1965,1388
+16.2,3rd Item,6333,Death's Dance,-5.1039,188
+16.2,3rd Item,6610,Sundered Sky,-5.5413,109
+16.2,3rd Item,6662,Iceborn Gauntlet,-1.7726,178
+16.2,3rd Item,6665,"Jak'Sho, The Protean",-0.2071,493
+16.2,3rd Item,6675,Navori Flickerblade,-0.0402,4772
+16.2,4th+ Item,2502,Unending Despair,-0.8052,7044
+16.2,4th+ Item,2504,Kaenic Rookern,1.12,1625
+16.2,4th+ Item,2510,Dusk and Dawn,0.3966,117
+16.2,4th+ Item,2524,Bandlepipes,-0.762,1219
+16.2,4th+ Item,2525,Protoplasm Harness,-0.776,2149
+16.2,4th+ Item,3026,Guardian Angel,6.8891,245
+16.2,4th+ Item,3041,Mejai's Soulstealer,-0.6142,1645
+16.2,4th+ Item,3050,Zeke's Convergence,1.7977,188
+16.2,4th+ Item,3053,Sterak's Gage,-0.6735,820
+16.2,4th+ Item,3065,Spirit Visage,0.3549,19664
+16.2,4th+ Item,3075,Thornmail,-0.2504,22149
+16.2,4th+ Item,3091,Wit's End,-1.0846,192
+16.2,4th+ Item,3109,Knight's Vow,4.1933,108
+16.2,4th+ Item,3110,Frozen Heart,1.1984,2233
+16.2,4th+ Item,3115,Nashor's Tooth,-2.2682,658
+16.2,4th+ Item,3143,Randuin's Omen,1.594,8958
+16.2,4th+ Item,3146,Hextech Gunblade,1.547,186
+16.2,4th+ Item,3157,Zhonya's Hourglass,-1.3188,642
+16.2,4th+ Item,3161,Spear of Shojin,-2.9065,144
+16.2,4th+ Item,3742,Dead Man's Plate,-0.3944,19069
+16.2,4th+ Item,4401,Force of Nature,0.6747,2189
+16.2,4th+ Item,4629,Cosmic Drive,-0.563,2074
+16.2,4th+ Item,4633,Riftmaker,0.4751,1168
+16.2,4th+ Item,6333,Death's Dance,-0.6348,360
+16.2,4th+ Item,6610,Sundered Sky,2.0322,102
+16.2,4th+ Item,6657,Rod of Ages,-2.2029,112
+16.2,4th+ Item,6665,"Jak'Sho, The Protean",-0.0818,7138
+16.2,4th+ Item,6675,Navori Flickerblade,-0.4733,1501
+16.2,4th+ Item,6695,Serpent's Fang,-7.5018,102
+16.2,4th+ Item,8020,Abyssal Mask,-2.1435,285
+16.2,All Items,2502,Unending Despair,-0.8129,9367
+16.2,All Items,2504,Kaenic Rookern,0.8453,2133
+16.2,All Items,2510,Dusk and Dawn,0.2783,156401
+16.2,All Items,2517,Endless Hunger,-3.4689,142
+16.2,All Items,2524,Bandlepipes,-0.974,5611
+16.2,All Items,2525,Protoplasm Harness,-1.1158,2469
+16.2,All Items,3002,Trailblazer,1.6786,110
+16.2,All Items,3026,Guardian Angel,6.0098,296
+16.2,All Items,3041,Mejai's Soulstealer,-0.5646,2555
+16.2,All Items,3050,Zeke's Convergence,1.4565,416
+16.2,All Items,3053,Sterak's Gage,-0.4137,1154
+16.2,All Items,3065,Spirit Visage,0.1442,95603
+16.2,All Items,3071,Black Cleaver,-3.8467,371
+16.2,All Items,3073,Experimental Hexplate,-4.249,110
+16.2,All Items,3075,Thornmail,-0.4613,36894
+16.2,All Items,3078,Trinity Force,-4.5891,2953
+16.2,All Items,3084,Heartsteel,-1.5735,147
+16.2,All Items,3089,Rabadon's Deathcap,-6.471,102
+16.2,All Items,3091,Wit's End,-1.6402,294
+16.2,All Items,3109,Knight's Vow,2.9475,159
+16.2,All Items,3110,Frozen Heart,0.9559,4134
+16.2,All Items,3115,Nashor's Tooth,-1.628,2348
+16.2,All Items,3119,Winter's Approach,-3.4342,167
+16.2,All Items,3143,Randuin's Omen,1.7012,13869
+16.2,All Items,3146,Hextech Gunblade,-3.3468,879
+16.2,All Items,3152,Hextech Rocketbelt,1.4549,365
+16.2,All Items,3157,Zhonya's Hourglass,-1.7017,889
+16.2,All Items,3161,Spear of Shojin,-4.2351,906
+16.2,All Items,3181,Hullbreaker,-2.8198,115
+16.2,All Items,3742,Dead Man's Plate,-0.3699,45154
+16.2,All Items,3748,Titanic Hydra,0.803,107
+16.2,All Items,4401,Force of Nature,0.2072,2921
+16.2,All Items,4629,Cosmic Drive,-2.1246,8988
+16.2,All Items,4633,Riftmaker,-0.3877,3426
+16.2,All Items,6333,Death's Dance,-1.8763,621
+16.2,All Items,6610,Sundered Sky,-2.2894,682
+16.2,All Items,6657,Rod of Ages,-4.9664,883
+16.2,All Items,6662,Iceborn Gauntlet,-2.4458,2421
+16.2,All Items,6664,Hollow Radiance,-4.0778,140
+16.2,All Items,6665,"Jak'Sho, The Protean",-0.1996,7896
+16.2,All Items,6675,Navori Flickerblade,0.2217,136222
+16.2,All Items,6695,Serpent's Fang,-6.2897,143
+16.2,All Items,8020,Abyssal Mask,-2.2331,362
+16.3,Keystone,8010,Conqueror,-5.0366,911
+16.3,Keystone,8005,Press the Attack,-0.9007,8853
+16.3,Keystone,8008,Lethal Tempo,0.2079,76021
+16.3,Keystone,8437,Grasp of the Undying,4.3856,176
+16.3,Spell,4,Flash,0.0196,85247
+16.3,Spell,6,Ghost,-1.4031,1033
+16.3,Spell,11,Smite,0.0,86360
+16.3,Starter,1101,Scorchclaw Pup,-1.1926,5995
+16.3,Starter,1102,Gustwalker Hatchling,0.0777,74480
+16.3,Starter,1103,Mosstomper Seedling,0.2385,5711
+16.3,Boots,3006,Berserker's Greaves,-10.8064,137
+16.3,Boots,3009,Boots of Swiftness,-1.6839,4976
+16.3,Boots,3047,Plated Steelcaps,0.815,31820
+16.3,Boots,3111,Mercury's Treads,0.2886,39245
+16.3,Boots,3158,Ionian Boots of Lucidity,-1.4618,4658
+16.3,1st Item,2510,Dusk and Dawn,0.432,75332
+16.3,1st Item,2524,Bandlepipes,-0.9808,109
+16.3,1st Item,3071,Black Cleaver,-10.0079,119
+16.3,1st Item,3078,Trinity Force,-2.3736,3234
+16.3,1st Item,3115,Nashor's Tooth,-4.8107,380
+16.3,1st Item,3146,Hextech Gunblade,-5.082,296
+16.3,1st Item,4629,Cosmic Drive,-6.1619,1642
+16.3,1st Item,6610,Sundered Sky,-6.8413,220
+16.3,1st Item,6657,Rod of Ages,-4.5101,304
+16.3,1st Item,6662,Iceborn Gauntlet,-4.4392,578
+16.3,1st Item,6675,Navori Flickerblade,-2.801,452
+16.3,2nd Item,2502,Unending Despair,-1.9646,352
+16.3,2nd Item,2510,Dusk and Dawn,0.2391,705
+16.3,2nd Item,2524,Bandlepipes,-5.7823,696
+16.3,2nd Item,3041,Mejai's Soulstealer,-0.3202,116
+16.3,2nd Item,3065,Spirit Visage,-0.8839,4346
+16.3,2nd Item,3075,Thornmail,-1.9436,907
+16.3,2nd Item,3110,Frozen Heart,-1.3144,230
+16.3,2nd Item,3115,Nashor's Tooth,-1.6137,503
+16.3,2nd Item,3143,Randuin's Omen,1.5909,550
+16.3,2nd Item,3146,Hextech Gunblade,-0.3887,200
+16.3,2nd Item,3152,Hextech Rocketbelt,-9.2578,102
+16.3,2nd Item,3161,Spear of Shojin,-3.7696,522
+16.3,2nd Item,3742,Dead Man's Plate,-0.4497,3121
+16.3,2nd Item,4629,Cosmic Drive,-0.7737,1586
+16.3,2nd Item,4633,Riftmaker,1.7812,386
+16.3,2nd Item,6610,Sundered Sky,-6.5228,214
+16.3,2nd Item,6662,Iceborn Gauntlet,-4.1911,434
+16.3,2nd Item,6665,"Jak'Sho, The Protean",-2.2815,108
+16.3,2nd Item,6675,Navori Flickerblade,0.3474,61738
+16.3,3rd Item,2502,Unending Despair,0.9317,987
+16.3,3rd Item,2504,Kaenic Rookern,2.1282,229
+16.3,3rd Item,2510,Dusk and Dawn,-2.5531,192
+16.3,3rd Item,2524,Bandlepipes,-4.6267,816
+16.3,3rd Item,2525,Protoplasm Harness,1.8237,118
+16.3,3rd Item,3041,Mejai's Soulstealer,1.9803,214
+16.3,3rd Item,3050,Zeke's Convergence,0.6922,128
+16.3,3rd Item,3053,Sterak's Gage,-4.8241,164
+16.3,3rd Item,3065,Spirit Visage,0.373,30543
+16.3,3rd Item,3075,Thornmail,-0.3547,8692
+16.3,3rd Item,3110,Frozen Heart,2.9302,832
+16.3,3rd Item,3115,Nashor's Tooth,-0.706,925
+16.3,3rd Item,3143,Randuin's Omen,1.8224,2901
+16.3,3rd Item,3146,Hextech Gunblade,-1.5347,118
+16.3,3rd Item,3161,Spear of Shojin,0.4284,147
+16.3,3rd Item,3742,Dead Man's Plate,-0.873,9295
+16.3,3rd Item,4401,Force of Nature,-0.2978,231
+16.3,3rd Item,4629,Cosmic Drive,-1.1556,1054
+16.3,3rd Item,4633,Riftmaker,-1.3327,514
+16.3,3rd Item,6333,Death's Dance,2.4014,132
+16.3,3rd Item,6665,"Jak'Sho, The Protean",-0.68,605
+16.3,3rd Item,6675,Navori Flickerblade,-0.1765,2682
+16.3,4th+ Item,2502,Unending Despair,0.8536,3345
+16.3,4th+ Item,2504,Kaenic Rookern,0.9589,722
+16.3,4th+ Item,2524,Bandlepipes,-0.4772,276
+16.3,4th+ Item,2525,Protoplasm Harness,-0.3224,788
+16.3,4th+ Item,3026,Guardian Angel,-0.0556,113
+16.3,4th+ Item,3041,Mejai's Soulstealer,-2.4643,548
+16.3,4th+ Item,3050,Zeke's Convergence,0.5058,110
+16.3,4th+ Item,3053,Sterak's Gage,0.6383,381
+16.3,4th+ Item,3065,Spirit Visage,-0.6438,9525
+16.3,4th+ Item,3075,Thornmail,-0.1693,10865
+16.3,4th+ Item,3110,Frozen Heart,2.2617,1109
+16.3,4th+ Item,3115,Nashor's Tooth,-1.0208,414
+16.3,4th+ Item,3143,Randuin's Omen,0.5112,5733
+16.3,4th+ Item,3146,Hextech Gunblade,-2.9661,110
+16.3,4th+ Item,3157,Zhonya's Hourglass,0.4661,260
+16.3,4th+ Item,3742,Dead Man's Plate,-0.1771,6762
+16.3,4th+ Item,4401,Force of Nature,-1.6772,852
+16.3,4th+ Item,4629,Cosmic Drive,-0.0928,874
+16.3,4th+ Item,4633,Riftmaker,0.3852,552
+16.3,4th+ Item,6333,Death's Dance,-4.0148,216
+16.3,4th+ Item,6665,"Jak'Sho, The Protean",0.9434,4958
+16.3,4th+ Item,6675,Navori Flickerblade,0.4721,826
+16.3,4th+ Item,8020,Abyssal Mask,-0.9749,108
+16.3,All Items,2502,Unending Despair,0.6002,4751
+16.3,All Items,2504,Kaenic Rookern,1.2317,1028
+16.3,All Items,2510,Dusk and Dawn,0.4215,76330
+16.3,All Items,2524,Bandlepipes,-4.229,1901
+16.3,All Items,2525,Protoplasm Harness,0.562,980
+16.3,All Items,3026,Guardian Angel,-0.4332,147
+16.3,All Items,3041,Mejai's Soulstealer,-1.1155,883
+16.3,All Items,3050,Zeke's Convergence,-0.2048,352
+16.3,All Items,3053,Sterak's Gage,-0.4018,611
+16.3,All Items,3065,Spirit Visage,0.0343,44476
+16.3,All Items,3068,Sunfire Aegis,-6.5193,106
+16.3,All Items,3071,Black Cleaver,-4.9944,290
+16.3,All Items,3075,Thornmail,-0.3266,20514
+16.3,All Items,3078,Trinity Force,-2.5509,3334
+16.3,All Items,3084,Heartsteel,-6.1047,139
+16.3,All Items,3091,Wit's End,4.3797,156
+16.3,All Items,3110,Frozen Heart,2.1685,2185
+16.3,All Items,3115,Nashor's Tooth,-1.6789,2233
+16.3,All Items,3119,Winter's Approach,5.4983,138
+16.3,All Items,3143,Randuin's Omen,0.9896,9257
+16.3,All Items,3146,Hextech Gunblade,-2.861,726
+16.3,All Items,3152,Hextech Rocketbelt,-2.7651,219
+16.3,All Items,3157,Zhonya's Hourglass,-0.9788,392
+16.3,All Items,3161,Spear of Shojin,-3.2957,822
+16.3,All Items,3181,Hullbreaker,-2.508,107
+16.3,All Items,3742,Dead Man's Plate,-0.5624,19311
+16.3,All Items,4401,Force of Nature,-1.1743,1197
+16.3,All Items,4629,Cosmic Drive,-2.4579,5176
+16.3,All Items,4633,Riftmaker,-0.3759,1524
+16.3,All Items,6333,Death's Dance,-1.3011,389
+16.3,All Items,6610,Sundered Sky,-5.7817,573
+16.3,All Items,6657,Rod of Ages,-4.905,351
+16.3,All Items,6662,Iceborn Gauntlet,-3.7015,1158
+16.3,All Items,6665,"Jak'Sho, The Protean",0.6757,5786
+16.3,All Items,6675,Navori Flickerblade,0.3058,65706
+16.3,All Items,8020,Abyssal Mask,-1.5678,134
+16.4,Keystone,8010,Conqueror,-3.6586,659
+16.4,Keystone,8005,Press the Attack,-1.5074,6977
+16.4,Keystone,8008,Lethal Tempo,0.2966,53271
+16.4,Keystone,8437,Grasp of the Undying,-9.018,199
+16.4,Spell,4,Flash,0.0053,60527
+16.4,Spell,6,Ghost,-0.369,834
+16.4,Spell,11,Smite,0.0,61414
+16.4,Starter,1101,Scorchclaw Pup,-0.0025,4866
+16.4,Starter,1102,Gustwalker Hatchling,0.0033,52188
+16.4,Starter,1103,Mosstomper Seedling,-0.038,4251
+16.4,Boots,3006,Berserker's Greaves,-0.7338,167
+16.4,Boots,3009,Boots of Swiftness,-0.6511,3176
+16.4,Boots,3047,Plated Steelcaps,0.7044,22581
+16.4,Boots,3111,Mercury's Treads,-0.0961,28014
+16.4,Boots,3158,Ionian Boots of Lucidity,-0.3499,3496
+16.4,1st Item,2510,Dusk and Dawn,0.3839,52537
+16.4,1st Item,3071,Black Cleaver,-7.0303,146
+16.4,1st Item,3078,Trinity Force,-2.8838,2352
+16.4,1st Item,3115,Nashor's Tooth,-3.4808,341
+16.4,1st Item,3146,Hextech Gunblade,0.7668,143
+16.4,1st Item,4629,Cosmic Drive,-2.7248,1489
+16.4,1st Item,6610,Sundered Sky,-0.8579,195
+16.4,1st Item,6657,Rod of Ages,-6.502,201
+16.4,1st Item,6662,Iceborn Gauntlet,-0.7699,548
+16.4,1st Item,6675,Navori Flickerblade,-4.4713,472
+16.4,2nd Item,2502,Unending Despair,-2.0418,240
+16.4,2nd Item,2510,Dusk and Dawn,-0.5189,647
+16.4,2nd Item,2524,Bandlepipes,-0.1607,266
+16.4,2nd Item,3050,Zeke's Convergence,-2.3276,252
+16.4,2nd Item,3065,Spirit Visage,-1.4021,3162
+16.4,2nd Item,3075,Thornmail,-3.8187,669
+16.4,2nd Item,3110,Frozen Heart,5.3003,154
+16.4,2nd Item,3115,Nashor's Tooth,-2.3313,364
+16.4,2nd Item,3143,Randuin's Omen,-0.8681,444
+16.4,2nd Item,3161,Spear of Shojin,-3.7462,415
+16.4,2nd Item,3742,Dead Man's Plate,-0.722,2266
+16.4,2nd Item,4629,Cosmic Drive,-0.3205,1865
+16.4,2nd Item,4633,Riftmaker,-0.2061,894
+16.4,2nd Item,6610,Sundered Sky,-4.9117,135
+16.4,2nd Item,6662,Iceborn Gauntlet,-4.8544,356
+16.4,2nd Item,6665,"Jak'Sho, The Protean",-10.2431,124
+16.4,2nd Item,6675,Navori Flickerblade,0.4748,41966
+16.4,3rd Item,2502,Unending Despair,0.0871,765
+16.4,3rd Item,2504,Kaenic Rookern,-5.4021,158
+16.4,3rd Item,2510,Dusk and Dawn,-0.0562,171
+16.4,3rd Item,2524,Bandlepipes,-0.0207,283
+16.4,3rd Item,2525,Protoplasm Harness,3.2093,106
+16.4,3rd Item,3041,Mejai's Soulstealer,1.4107,178
+16.4,3rd Item,3050,Zeke's Convergence,-3.6945,180
+16.4,3rd Item,3065,Spirit Visage,0.2679,21233
+16.4,3rd Item,3075,Thornmail,-0.9076,6223
+16.4,3rd Item,3110,Frozen Heart,1.2144,630
+16.4,3rd Item,3115,Nashor's Tooth,-0.9458,437
+16.4,3rd Item,3143,Randuin's Omen,1.676,2343
+16.4,3rd Item,3742,Dead Man's Plate,-0.1786,6789
+16.4,3rd Item,4401,Force of Nature,1.4098,218
+16.4,3rd Item,4629,Cosmic Drive,-1.6071,527
+16.4,3rd Item,4633,Riftmaker,-0.9159,414
+16.4,3rd Item,6333,Death's Dance,0.132,143
+16.4,3rd Item,6665,"Jak'Sho, The Protean",-1.147,603
+16.4,3rd Item,6675,Navori Flickerblade,0.3863,1839
+16.4,4th+ Item,2502,Unending Despair,-0.4686,2330
+16.4,4th+ Item,2504,Kaenic Rookern,2.2509,492
+16.4,4th+ Item,2524,Bandlepipes,-5.0192,172
+16.4,4th+ Item,2525,Protoplasm Harness,1.0098,535
+16.4,4th+ Item,3041,Mejai's Soulstealer,0.1019,403
+16.4,4th+ Item,3050,Zeke's Convergence,4.1727,133
+16.4,4th+ Item,3053,Sterak's Gage,1.0715,263
+16.4,4th+ Item,3065,Spirit Visage,0.1941,6914
+16.4,4th+ Item,3075,Thornmail,-0.3453,7636
+16.4,4th+ Item,3110,Frozen Heart,-1.8491,854
+16.4,4th+ Item,3115,Nashor's Tooth,1.1843,316
+16.4,4th+ Item,3143,Randuin's Omen,0.9966,4479
+16.4,4th+ Item,3157,Zhonya's Hourglass,-0.4959,231
+16.4,4th+ Item,3742,Dead Man's Plate,-0.3039,4732
+16.4,4th+ Item,4401,Force of Nature,-1.7941,605
+16.4,4th+ Item,4629,Cosmic Drive,0.6181,486
+16.4,4th+ Item,4633,Riftmaker,-1.4615,405
+16.4,4th+ Item,6333,Death's Dance,-2.3939,156
+16.4,4th+ Item,6665,"Jak'Sho, The Protean",0.6105,3637
+16.4,4th+ Item,6675,Navori Flickerblade,0.2073,590
+16.4,All Items,2502,Unending Despair,-0.4511,3371
+16.4,All Items,2504,Kaenic Rookern,0.1132,726
+16.4,All Items,2510,Dusk and Dawn,0.3655,53434
+16.4,All Items,2524,Bandlepipes,-1.4713,785
+16.4,All Items,2525,Protoplasm Harness,0.9873,693
+16.4,All Items,3026,Guardian Angel,1.7293,114
+16.4,All Items,3041,Mejai's Soulstealer,-0.1846,677
+16.4,All Items,3050,Zeke's Convergence,-1.4444,588
+16.4,All Items,3053,Sterak's Gage,0.4258,428
+16.4,All Items,3065,Spirit Visage,0.0691,31359
+16.4,All Items,3071,Black Cleaver,-6.3663,281
+16.4,All Items,3075,Thornmail,-0.734,14572
+16.4,All Items,3078,Trinity Force,-2.7032,2424
+16.4,All Items,3084,Heartsteel,-6.2887,109
+16.4,All Items,3091,Wit's End,1.062,136
+16.4,All Items,3110,Frozen Heart,0.0254,1660
+16.4,All Items,3115,Nashor's Tooth,-1.421,1460
+16.4,All Items,3119,Winter's Approach,-5.9151,115
+16.4,All Items,3143,Randuin's Omen,1.0994,7315
+16.4,All Items,3146,Hextech Gunblade,-2.339,364
+16.4,All Items,3152,Hextech Rocketbelt,-0.094,133
+16.4,All Items,3157,Zhonya's Hourglass,0.0684,346
+16.4,All Items,3161,Spear of Shojin,-3.9878,606
+16.4,All Items,3742,Dead Man's Plate,-0.3285,13916
+16.4,All Items,3748,Titanic Hydra,-3.4781,135
+16.4,All Items,4401,Force of Nature,-1.1755,910
+16.4,All Items,4629,Cosmic Drive,-1.1827,4380
+16.4,All Items,4633,Riftmaker,-0.4689,1775
+16.4,All Items,6333,Death's Dance,-0.3963,368
+16.4,All Items,6610,Sundered Sky,-2.8694,457
+16.4,All Items,6657,Rod of Ages,-6.0768,235
+16.4,All Items,6662,Iceborn Gauntlet,-2.3149,1026
+16.4,All Items,6665,"Jak'Sho, The Protean",-0.0015,4441
+16.4,All Items,6675,Navori Flickerblade,0.4155,44876
+16.4,All Items,8020,Abyssal Mask,-1.1907,109
+16.5,Keystone,8010,Conqueror,-2.3361,836
+16.5,Keystone,8005,Press the Attack,-1.25,9721
+16.5,Keystone,8008,Lethal Tempo,0.3269,56917
+16.5,Keystone,8437,Grasp of the Undying,-4.7934,224
+16.5,Spell,4,Flash,0.011,67151
+16.5,Spell,6,Ghost,-0.7987,912
+16.5,Spell,11,Smite,0.0,68135
+16.5,Starter,1101,Scorchclaw Pup,-1.4214,5327
+16.5,Starter,1102,Gustwalker Hatchling,0.2166,57335
+16.5,Starter,1103,Mosstomper Seedling,-0.9103,5327
+16.5,Boots,3006,Berserker's Greaves,-6.23,169
+16.5,Boots,3009,Boots of Swiftness,-0.7874,3552
+16.5,Boots,3047,Plated Steelcaps,0.8429,21597
+16.5,Boots,3111,Mercury's Treads,0.332,32218
+16.5,Boots,3158,Ionian Boots of Lucidity,-0.74,5743
+16.5,1st Item,2510,Dusk and Dawn,1.4276,47218
+16.5,1st Item,2524,Bandlepipes,-4.6557,110
+16.5,1st Item,3071,Black Cleaver,-5.1609,727
+16.5,1st Item,3078,Trinity Force,-2.1895,7156
+16.5,1st Item,3115,Nashor's Tooth,-3.6649,577
+16.5,1st Item,3146,Hextech Gunblade,-6.7225,198
+16.5,1st Item,3161,Spear of Shojin,-3.06,179
+16.5,1st Item,4629,Cosmic Drive,-4.3875,3640
+16.5,1st Item,4633,Riftmaker,-6.3727,110
+16.5,1st Item,6610,Sundered Sky,-2.8261,764
+16.5,1st Item,6657,Rod of Ages,-6.2453,1851
+16.5,1st Item,6662,Iceborn Gauntlet,-2.2091,1041
+16.5,1st Item,6675,Navori Flickerblade,-2.5138,854
+16.5,2nd Item,2502,Unending Despair,-0.2028,369
+16.5,2nd Item,2510,Dusk and Dawn,-1.2447,930
+16.5,2nd Item,2524,Bandlepipes,-2.8994,196
+16.5,2nd Item,3050,Zeke's Convergence,-4.2498,123
+16.5,2nd Item,3053,Sterak's Gage,-0.2751,120
+16.5,2nd Item,3065,Spirit Visage,-1.1067,3558
+16.5,2nd Item,3071,Black Cleaver,-2.8558,2067
+16.5,2nd Item,3075,Thornmail,0.5165,788
+16.5,2nd Item,3078,Trinity Force,-4.8616,218
+16.5,2nd Item,3110,Frozen Heart,-0.8472,204
+16.5,2nd Item,3115,Nashor's Tooth,-0.9989,504
+16.5,2nd Item,3143,Randuin's Omen,3.1996,377
+16.5,2nd Item,3161,Spear of Shojin,-3.4806,2139
+16.5,2nd Item,3742,Dead Man's Plate,-0.5706,2773
+16.5,2nd Item,4401,Force of Nature,1.8693,118
+16.5,2nd Item,4629,Cosmic Drive,-0.6059,1491
+16.5,2nd Item,4633,Riftmaker,-1.1673,466
+16.5,2nd Item,6610,Sundered Sky,-4.0026,455
+16.5,2nd Item,6662,Iceborn Gauntlet,-2.8086,1327
+16.5,2nd Item,6675,Navori Flickerblade,0.8267,41444
+16.5,3rd Item,2502,Unending Despair,0.2572,1240
+16.5,3rd Item,2504,Kaenic Rookern,2.8883,190
+16.5,3rd Item,2510,Dusk and Dawn,-1.5106,203
+16.5,3rd Item,2524,Bandlepipes,0.1256,183
+16.5,3rd Item,2525,Protoplasm Harness,-1.9445,124
+16.5,3rd Item,3041,Mejai's Soulstealer,2.5015,175
+16.5,3rd Item,3050,Zeke's Convergence,0.9543,122
+16.5,3rd Item,3053,Sterak's Gage,-0.2769,259
+16.5,3rd Item,3065,Spirit Visage,0.4677,22961
+16.5,3rd Item,3071,Black Cleaver,-3.64,194
+16.5,3rd Item,3075,Thornmail,-1.0926,4065
+16.5,3rd Item,3110,Frozen Heart,2.9309,743
+16.5,3rd Item,3115,Nashor's Tooth,-3.1292,424
+16.5,3rd Item,3143,Randuin's Omen,2.2771,2205
+16.5,3rd Item,3161,Spear of Shojin,-3.4522,591
+16.5,3rd Item,3742,Dead Man's Plate,-0.5433,8240
+16.5,3rd Item,4401,Force of Nature,-5.4269,260
+16.5,3rd Item,4629,Cosmic Drive,-0.2483,1393
+16.5,3rd Item,4633,Riftmaker,-0.7567,346
+16.5,3rd Item,6333,Death's Dance,-2.5736,291
+16.5,3rd Item,6610,Sundered Sky,2.74,218
+16.5,3rd Item,6662,Iceborn Gauntlet,-3.1038,281
+16.5,3rd Item,6665,"Jak'Sho, The Protean",0.3209,360
+16.5,3rd Item,6675,Navori Flickerblade,0.1862,2181
+16.5,4th+ Item,2502,Unending Despair,-0.4729,2322
+16.5,4th+ Item,2504,Kaenic Rookern,-0.1512,630
+16.5,4th+ Item,2524,Bandlepipes,-2.8971,166
+16.5,4th+ Item,2525,Protoplasm Harness,-0.8417,369
+16.5,4th+ Item,3026,Guardian Angel,4.4776,158
+16.5,4th+ Item,3041,Mejai's Soulstealer,3.8217,430
+16.5,4th+ Item,3050,Zeke's Convergence,1.8091,116
+16.5,4th+ Item,3053,Sterak's Gage,2.1534,459
+16.5,4th+ Item,3065,Spirit Visage,-0.0796,7324
+16.5,4th+ Item,3071,Black Cleaver,-0.4051,108
+16.5,4th+ Item,3075,Thornmail,0.2242,8534
+16.5,4th+ Item,3110,Frozen Heart,0.6378,1039
+16.5,4th+ Item,3115,Nashor's Tooth,-1.3492,380
+16.5,4th+ Item,3143,Randuin's Omen,1.5053,3028
+16.5,4th+ Item,3157,Zhonya's Hourglass,1.1525,261
+16.5,4th+ Item,3161,Spear of Shojin,-2.0705,213
+16.5,4th+ Item,3742,Dead Man's Plate,-0.25,5982
+16.5,4th+ Item,4401,Force of Nature,-0.2592,749
+16.5,4th+ Item,4629,Cosmic Drive,-2.8724,1027
+16.5,4th+ Item,4633,Riftmaker,0.6933,434
+16.5,4th+ Item,6333,Death's Dance,1.8695,290
+16.5,4th+ Item,6610,Sundered Sky,-0.0082,128
+16.5,4th+ Item,6662,Iceborn Gauntlet,0.8562,162
+16.5,4th+ Item,6665,"Jak'Sho, The Protean",0.3967,2328
+16.5,4th+ Item,6675,Navori Flickerblade,-3.305,735
+16.5,All Items,2501,Overlord's Bloodmail,-7.3074,168
+16.5,All Items,2502,Unending Despair,-0.2155,3984
+16.5,All Items,2504,Kaenic Rookern,0.2724,898
+16.5,All Items,2510,Dusk and Dawn,1.3611,48447
+16.5,All Items,2517,Endless Hunger,-0.5575,162
+16.5,All Items,2524,Bandlepipes,-2.3466,657
+16.5,All Items,2525,Protoplasm Harness,-1.0306,588
+16.5,All Items,3026,Guardian Angel,4.386,186
+16.5,All Items,3041,Mejai's Soulstealer,4.0723,705
+16.5,All Items,3050,Zeke's Convergence,0.1611,388
+16.5,All Items,3053,Sterak's Gage,0.7777,858
+16.5,All Items,3065,Spirit Visage,0.1745,33927
+16.5,All Items,3071,Black Cleaver,-3.3585,3098
+16.5,All Items,3073,Experimental Hexplate,-1.2761,161
+16.5,All Items,3075,Thornmail,-0.2072,13436
+16.5,All Items,3078,Trinity Force,-2.3345,7494
+16.5,All Items,3084,Heartsteel,-8.3166,183
+16.5,All Items,3091,Wit's End,-3.77,171
+16.5,All Items,3110,Frozen Heart,1.3375,2012
+16.5,All Items,3115,Nashor's Tooth,-2.3478,1895
+16.5,All Items,3119,Winter's Approach,-2.4049,110
+16.5,All Items,3143,Randuin's Omen,1.8875,5655
+16.5,All Items,3146,Hextech Gunblade,-4.3724,441
+16.5,All Items,3152,Hextech Rocketbelt,-3.6985,185
+16.5,All Items,3157,Zhonya's Hourglass,1.6068,406
+16.5,All Items,3161,Spear of Shojin,-3.3519,3126
+16.5,All Items,3742,Dead Man's Plate,-0.4277,17128
+16.5,All Items,3748,Titanic Hydra,-8.3869,185
+16.5,All Items,4401,Force of Nature,-1.2869,1158
+16.5,All Items,4629,Cosmic Drive,-2.6641,7571
+16.5,All Items,4633,Riftmaker,-0.8952,1364
+16.5,All Items,6333,Death's Dance,-0.6496,686
+16.5,All Items,6610,Sundered Sky,-2.1596,1567
+16.5,All Items,6631,Stridebreaker,-9.4107,113
+16.5,All Items,6657,Rod of Ages,-5.7784,2042
+16.5,All Items,6662,Iceborn Gauntlet,-2.4046,2823
+16.5,All Items,6665,"Jak'Sho, The Protean",0.236,2799
+16.5,All Items,6675,Navori Flickerblade,0.6635,45229
+16.5,All Items,6695,Serpent's Fang,-6.0583,111
+16.5,All Items,6697,Hubris,-10.4833,119
+16.5,All Items,8020,Abyssal Mask,0.9008,141
+16.6,Keystone,8010,Conqueror,-4.9848,662
+16.6,Keystone,8005,Press the Attack,-1.7638,8536
+16.6,Keystone,8008,Lethal Tempo,0.4793,46806
+16.6,Keystone,8437,Grasp of the Undying,-8.321,191
+16.6,Spell,4,Flash,0.093,55733
+16.6,Spell,6,Ghost,-6.4557,736
+16.6,Spell,11,Smite,0.0,56509
+16.6,Starter,1101,Scorchclaw Pup,-2.4299,4685
+16.6,Starter,1102,Gustwalker Hatchling,0.2825,47441
+16.6,Starter,1103,Mosstomper Seedling,-0.474,4253
+16.6,Boots,3006,Berserker's Greaves,-10.2639,131
+16.6,Boots,3009,Boots of Swiftness,-1.3163,2714
+16.6,Boots,3047,Plated Steelcaps,1.1648,21349
+16.6,Boots,3111,Mercury's Treads,-0.0809,24472
+16.6,Boots,3158,Ionian Boots of Lucidity,-1.181,4043
+16.6,1st Item,2510,Dusk and Dawn,0.8578,44415
+16.6,1st Item,3071,Black Cleaver,-4.6823,961
+16.6,1st Item,3078,Trinity Force,-2.4055,3554
+16.6,1st Item,3115,Nashor's Tooth,-4.1613,500
+16.6,1st Item,4629,Cosmic Drive,-4.9281,1878
+16.6,1st Item,6610,Sundered Sky,-8.8399,339
+16.6,1st Item,6657,Rod of Ages,-4.1099,284
+16.6,1st Item,6662,Iceborn Gauntlet,-3.4284,806
+16.6,1st Item,6675,Navori Flickerblade,-3.7761,580
+16.6,2nd Item,2502,Unending Despair,-0.0028,368
+16.6,2nd Item,2510,Dusk and Dawn,1.0313,776
+16.6,2nd Item,3041,Mejai's Soulstealer,-6.9481,116
+16.6,2nd Item,3065,Spirit Visage,-0.8531,3184
+16.6,2nd Item,3071,Black Cleaver,-2.1198,2127
+16.6,2nd Item,3075,Thornmail,-3.0339,684
+16.6,2nd Item,3110,Frozen Heart,0.2589,167
+16.6,2nd Item,3115,Nashor's Tooth,-0.9183,415
+16.6,2nd Item,3143,Randuin's Omen,0.6571,295
+16.6,2nd Item,3161,Spear of Shojin,-4.7745,1011
+16.6,2nd Item,3742,Dead Man's Plate,-1.4054,2590
+16.6,2nd Item,4629,Cosmic Drive,-1.0622,957
+16.6,2nd Item,4633,Riftmaker,-0.1759,424
+16.6,2nd Item,6610,Sundered Sky,-4.6956,299
+16.6,2nd Item,6662,Iceborn Gauntlet,-3.6505,1106
+16.6,2nd Item,6675,Navori Flickerblade,0.8139,34826
+16.6,3rd Item,2502,Unending Despair,-0.1225,1006
+16.6,3rd Item,2504,Kaenic Rookern,6.1653,166
+16.6,3rd Item,2510,Dusk and Dawn,0.7466,202
+16.6,3rd Item,3041,Mejai's Soulstealer,0.3042,182
+16.6,3rd Item,3053,Sterak's Gage,-4.1738,161
+16.6,3rd Item,3065,Spirit Visage,0.1584,18775
+16.6,3rd Item,3071,Black Cleaver,-3.1577,146
+16.6,3rd Item,3075,Thornmail,0.1231,5445
+16.6,3rd Item,3110,Frozen Heart,-1.339,615
+16.6,3rd Item,3115,Nashor's Tooth,-2.7602,323
+16.6,3rd Item,3143,Randuin's Omen,2.2605,1851
+16.6,3rd Item,3161,Spear of Shojin,-3.6097,612
+16.6,3rd Item,3742,Dead Man's Plate,-0.0824,6052
+16.6,3rd Item,4401,Force of Nature,-0.0527,228
+16.6,3rd Item,4629,Cosmic Drive,-2.4416,670
+16.6,3rd Item,4633,Riftmaker,-2.27,321
+16.6,3rd Item,6333,Death's Dance,2.3003,204
+16.6,3rd Item,6610,Sundered Sky,-0.2229,112
+16.6,3rd Item,6662,Iceborn Gauntlet,-4.4832,116
+16.6,3rd Item,6665,"Jak'Sho, The Protean",-0.2077,288
+16.6,3rd Item,6675,Navori Flickerblade,-0.2119,1805
+16.6,4th+ Item,2502,Unending Despair,-0.494,2133
+16.6,4th+ Item,2504,Kaenic Rookern,1.2605,487
+16.6,4th+ Item,2525,Protoplasm Harness,-0.3469,238
+16.6,4th+ Item,3026,Guardian Angel,2.5575,130
+16.6,4th+ Item,3041,Mejai's Soulstealer,1.7463,411
+16.6,4th+ Item,3053,Sterak's Gage,-1.3568,364
+16.6,4th+ Item,3065,Spirit Visage,0.4623,6430
+16.6,4th+ Item,3071,Black Cleaver,0.6811,118
+16.6,4th+ Item,3075,Thornmail,-1.122,6585
+16.6,4th+ Item,3110,Frozen Heart,0.0623,905
+16.6,4th+ Item,3115,Nashor's Tooth,-1.4434,295
+16.6,4th+ Item,3143,Randuin's Omen,1.3966,3679
+16.6,4th+ Item,3157,Zhonya's Hourglass,1.1054,203
+16.6,4th+ Item,3161,Spear of Shojin,0.2569,166
+16.6,4th+ Item,3742,Dead Man's Plate,-0.7451,4547
+16.6,4th+ Item,4401,Force of Nature,0.8419,596
+16.6,4th+ Item,4629,Cosmic Drive,-1.8503,575
+16.6,4th+ Item,4633,Riftmaker,0.8217,338
+16.6,4th+ Item,6333,Death's Dance,-1.8177,247
+16.6,4th+ Item,6665,"Jak'Sho, The Protean",0.9266,2587
+16.6,4th+ Item,6675,Navori Flickerblade,1.1489,646
+16.6,All Items,2502,Unending Despair,-0.3539,3551
+16.6,All Items,2504,Kaenic Rookern,1.6367,711
+16.6,All Items,2510,Dusk and Dawn,0.8566,45485
+16.6,All Items,2524,Bandlepipes,-2.1388,272
+16.6,All Items,2525,Protoplasm Harness,1.8331,343
+16.6,All Items,3026,Guardian Angel,1.7203,158
+16.6,All Items,3041,Mejai's Soulstealer,0.4389,724
+16.6,All Items,3050,Zeke's Convergence,-4.4596,235
+16.6,All Items,3053,Sterak's Gage,-1.7342,603
+16.6,All Items,3065,Spirit Visage,0.0887,28449
+16.6,All Items,3071,Black Cleaver,-2.7846,3355
+16.6,All Items,3073,Experimental Hexplate,-2.122,194
+16.6,All Items,3075,Thornmail,-0.7032,12751
+16.6,All Items,3078,Trinity Force,-2.4997,3674
+16.6,All Items,3084,Heartsteel,-3.0622,170
+16.6,All Items,3091,Wit's End,0.381,153
+16.6,All Items,3110,Frozen Heart,-0.5322,1713
+16.6,All Items,3115,Nashor's Tooth,-2.4501,1542
+16.6,All Items,3119,Winter's Approach,-7.0187,103
+16.6,All Items,3143,Randuin's Omen,1.6507,5875
+16.6,All Items,3146,Hextech Gunblade,-0.1762,228
+16.6,All Items,3152,Hextech Rocketbelt,-1.5772,164
+16.6,All Items,3157,Zhonya's Hourglass,-0.8381,345
+16.6,All Items,3161,Spear of Shojin,-3.6023,1851
+16.6,All Items,3742,Dead Man's Plate,-0.5487,13289
+16.6,All Items,3748,Titanic Hydra,1.1439,130
+16.6,All Items,4401,Force of Nature,0.2982,924
+16.6,All Items,4629,Cosmic Drive,-3.1547,4100
+16.6,All Items,4633,Riftmaker,-0.6549,1149
+16.6,All Items,6333,Death's Dance,-0.5525,529
+16.6,All Items,6610,Sundered Sky,-5.1529,834
+16.6,All Items,6657,Rod of Ages,-2.5534,439
+16.6,All Items,6662,Iceborn Gauntlet,-3.5497,2127
+16.6,All Items,6665,"Jak'Sho, The Protean",0.7819,2967
+16.6,All Items,6672,Kraken Slayer,-2.7473,135
+16.6,All Items,6675,Navori Flickerblade,0.6991,37866
+16.6,All Items,8020,Abyssal Mask,6.6912,104
+16.7,Keystone,8010,Conqueror,-0.6726,862
+16.7,Keystone,8005,Press the Attack,-0.3575,7023
+16.7,Keystone,8008,Lethal Tempo,0.1709,51000
+16.7,Keystone,8437,Grasp of the Undying,-6.5197,580
+16.7,Spell,4,Flash,0.0037,58886
+16.7,Spell,6,Ghost,-0.0803,874
+16.7,Spell,11,Smite,0.0,59811
+16.7,Starter,1101,Scorchclaw Pup,-0.0516,4703
+16.7,Starter,1102,Gustwalker Hatchling,0.0407,49615
+16.7,Starter,1103,Mosstomper Seedling,-0.3299,5389
+16.7,Boots,3006,Berserker's Greaves,-4.9757,203
+16.7,Boots,3009,Boots of Swiftness,-0.4735,3119
+16.7,Boots,3047,Plated Steelcaps,0.8886,22773
+16.7,Boots,3111,Mercury's Treads,0.1364,25694
+16.7,Boots,3158,Ionian Boots of Lucidity,-1.9924,3926
+16.7,1st Item,2510,Dusk and Dawn,0.5261,48239
+16.7,1st Item,3071,Black Cleaver,-4.5865,460
+16.7,1st Item,3078,Trinity Force,-1.3711,3352
+16.7,1st Item,3084,Heartsteel,-10.4756,118
+16.7,1st Item,3115,Nashor's Tooth,-5.9931,471
+16.7,1st Item,4629,Cosmic Drive,-3.4348,1903
+16.7,1st Item,6610,Sundered Sky,-3.482,264
+16.7,1st Item,6657,Rod of Ages,-7.9093,210
+16.7,1st Item,6662,Iceborn Gauntlet,-0.3143,718
+16.7,1st Item,6675,Navori Flickerblade,-2.9219,748
+16.7,2nd Item,2502,Unending Despair,-2.4957,393
+16.7,2nd Item,2510,Dusk and Dawn,0.8303,859
+16.7,2nd Item,3065,Spirit Visage,-1.6459,3309
+16.7,2nd Item,3071,Black Cleaver,-2.1719,2025
+16.7,2nd Item,3075,Thornmail,-2.0592,717
+16.7,2nd Item,3078,Trinity Force,-3.8031,108
+16.7,2nd Item,3110,Frozen Heart,-3.5653,175
+16.7,2nd Item,3115,Nashor's Tooth,-3.9291,373
+16.7,2nd Item,3143,Randuin's Omen,0.2363,436
+16.7,2nd Item,3161,Spear of Shojin,-2.2775,1835
+16.7,2nd Item,3742,Dead Man's Plate,-1.2885,2561
+16.7,2nd Item,4629,Cosmic Drive,-1.3633,775
+16.7,2nd Item,4633,Riftmaker,-1.6716,385
+16.7,2nd Item,6610,Sundered Sky,-5.5907,189
+16.7,2nd Item,6662,Iceborn Gauntlet,-3.8799,651
+16.7,2nd Item,6675,Navori Flickerblade,0.7989,37488
+16.7,3rd Item,2502,Unending Despair,0.0645,1048
+16.7,3rd Item,2504,Kaenic Rookern,-0.8803,178
+16.7,3rd Item,2510,Dusk and Dawn,4.9409,221
+16.7,3rd Item,2524,Bandlepipes,3.0646,111
+16.7,3rd Item,3041,Mejai's Soulstealer,2.3492,126
+16.7,3rd Item,3053,Sterak's Gage,-4.9538,133
+16.7,3rd Item,3065,Spirit Visage,0.3937,19594
+16.7,3rd Item,3071,Black Cleaver,-3.2436,353
+16.7,3rd Item,3075,Thornmail,-0.2329,5987
+16.7,3rd Item,3110,Frozen Heart,-1.2317,679
+16.7,3rd Item,3115,Nashor's Tooth,0.8636,366
+16.7,3rd Item,3143,Randuin's Omen,1.4666,2406
+16.7,3rd Item,3161,Spear of Shojin,-1.6274,606
+16.7,3rd Item,3742,Dead Man's Plate,-0.6775,6012
+16.7,3rd Item,4401,Force of Nature,-1.1287,234
+16.7,3rd Item,4629,Cosmic Drive,0.3117,740
+16.7,3rd Item,4633,Riftmaker,-2.1131,339
+16.7,3rd Item,6333,Death's Dance,3.5211,228
+16.7,3rd Item,6665,"Jak'Sho, The Protean",-3.4062,513
+16.7,3rd Item,6675,Navori Flickerblade,-0.2542,1824
+16.7,4th+ Item,2502,Unending Despair,-0.463,2075
+16.7,4th+ Item,2504,Kaenic Rookern,2.3253,450
+16.7,4th+ Item,2510,Dusk and Dawn,-0.2818,108
+16.7,4th+ Item,2525,Protoplasm Harness,1.6145,239
+16.7,4th+ Item,3026,Guardian Angel,3.3557,129
+16.7,4th+ Item,3041,Mejai's Soulstealer,-1.1552,362
+16.7,4th+ Item,3053,Sterak's Gage,0.3403,364
+16.7,4th+ Item,3065,Spirit Visage,-0.0222,6932
+16.7,4th+ Item,3071,Black Cleaver,0.9176,135
+16.7,4th+ Item,3075,Thornmail,-0.4212,6780
+16.7,4th+ Item,3110,Frozen Heart,0.4874,964
+16.7,4th+ Item,3115,Nashor's Tooth,-3.8255,349
+16.7,4th+ Item,3143,Randuin's Omen,1.9311,4403
+16.7,4th+ Item,3157,Zhonya's Hourglass,-1.5006,167
+16.7,4th+ Item,3161,Spear of Shojin,1.5094,175
+16.7,4th+ Item,3742,Dead Man's Plate,-0.8235,4395
+16.7,4th+ Item,4401,Force of Nature,1.828,575
+16.7,4th+ Item,4629,Cosmic Drive,-1.2517,537
+16.7,4th+ Item,4633,Riftmaker,0.1627,355
+16.7,4th+ Item,6333,Death's Dance,-0.6862,248
+16.7,4th+ Item,6665,"Jak'Sho, The Protean",-0.1295,3444
+16.7,4th+ Item,6675,Navori Flickerblade,-0.703,621
+16.7,All Items,2502,Unending Despair,-0.4413,3581
+16.7,All Items,2504,Kaenic Rookern,0.8337,679
+16.7,All Items,2510,Dusk and Dawn,0.5493,49429
+16.7,All Items,2524,Bandlepipes,2.9523,289
+16.7,All Items,2525,Protoplasm Harness,2.0606,367
+16.7,All Items,3026,Guardian Angel,2.6568,156
+16.7,All Items,3041,Mejai's Soulstealer,-0.6464,588
+16.7,All Items,3050,Zeke's Convergence,2.4949,220
+16.7,All Items,3053,Sterak's Gage,-0.4372,625
+16.7,All Items,3065,Spirit Visage,0.0718,29907
+16.7,All Items,3071,Black Cleaver,-2.5147,2974
+16.7,All Items,3073,Experimental Hexplate,-4.785,224
+16.7,All Items,3075,Thornmail,-0.45,13534
+16.7,All Items,3078,Trinity Force,-1.4639,3502
+16.7,All Items,3084,Heartsteel,-5.1226,191
+16.7,All Items,3091,Wit's End,-1.9613,164
+16.7,All Items,3110,Frozen Heart,-0.459,1845
+16.7,All Items,3115,Nashor's Tooth,-3.4051,1564
+16.7,All Items,3119,Winter's Approach,4.4059,148
+16.7,All Items,3143,Randuin's Omen,1.6273,7288
+16.7,All Items,3146,Hextech Gunblade,-2.1766,172
+16.7,All Items,3152,Hextech Rocketbelt,1.6726,136
+16.7,All Items,3157,Zhonya's Hourglass,-1.0845,272
+16.7,All Items,3161,Spear of Shojin,-2.0376,2690
+16.7,All Items,3742,Dead Man's Plate,-0.8556,13086
+16.7,All Items,3748,Titanic Hydra,-7.0469,127
+16.7,All Items,4401,Force of Nature,-0.0517,909
+16.7,All Items,4629,Cosmic Drive,-2.0335,3975
+16.7,All Items,4633,Riftmaker,-1.7842,1175
+16.7,All Items,6333,Death's Dance,1.2689,540
+16.7,All Items,6610,Sundered Sky,-2.5134,578
+16.7,All Items,6657,Rod of Ages,-7.7144,253
+16.7,All Items,6662,Iceborn Gauntlet,-1.9916,1487
+16.7,All Items,6665,"Jak'Sho, The Protean",-0.6275,4085
+16.7,All Items,6675,Navori Flickerblade,0.6603,40686
+16.7,All Items,8020,Abyssal Mask,-1.9009,111
+16.8,Keystone,8010,Conqueror,0.1426,541
+16.8,Keystone,8005,Press the Attack,-1.0729,4467
+16.8,Keystone,8008,Lethal Tempo,0.2421,34815
+16.8,Keystone,8437,Grasp of the Undying,-5.0544,432
+16.8,Spell,4,Flash,0.0511,39807
+16.8,Spell,6,Ghost,-3.1506,622
+16.8,Spell,11,Smite,0.0,40467
+16.8,Starter,1101,Scorchclaw Pup,-0.2916,3471
+16.8,Starter,1102,Gustwalker Hatchling,0.0902,33393
+16.8,Starter,1103,Mosstomper Seedling,-0.5553,3601
+16.8,Boots,3009,Boots of Swiftness,-1.5147,2361
+16.8,Boots,3047,Plated Steelcaps,0.7383,16372
+16.8,Boots,3111,Mercury's Treads,0.0581,17752
+16.8,Boots,3158,Ionian Boots of Lucidity,-2.757,2405
+16.8,1st Item,2510,Dusk and Dawn,0.5267,34135
+16.8,1st Item,3071,Black Cleaver,-3.4162,258
+16.8,1st Item,3078,Trinity Force,-2.7664,2043
+16.8,1st Item,3115,Nashor's Tooth,-2.15,333
+16.8,1st Item,4629,Cosmic Drive,-3.6007,1346
+16.8,1st Item,6610,Sundered Sky,-2.6328,154
+16.8,1st Item,6657,Rod of Ages,-13.8,158
+16.8,1st Item,6662,Iceborn Gauntlet,0.8003,492
+16.8,1st Item,6675,Navori Flickerblade,-3.5939,534
+16.8,2nd Item,2502,Unending Despair,0.9048,252
+16.8,2nd Item,2510,Dusk and Dawn,-0.0493,685
+16.8,2nd Item,3065,Spirit Visage,-1.7612,2423
+16.8,2nd Item,3071,Black Cleaver,-1.5477,864
+16.8,2nd Item,3075,Thornmail,-4.7937,542
+16.8,2nd Item,3110,Frozen Heart,4.9038,128
+16.8,2nd Item,3115,Nashor's Tooth,-3.4947,254
+16.8,2nd Item,3143,Randuin's Omen,-3.2163,305
+16.8,2nd Item,3161,Spear of Shojin,-3.4525,1218
+16.8,2nd Item,3742,Dead Man's Plate,-0.4506,1912
+16.8,2nd Item,4629,Cosmic Drive,-2.1602,576
+16.8,2nd Item,4633,Riftmaker,0.6679,209
+16.8,2nd Item,6662,Iceborn Gauntlet,0.8399,420
+16.8,2nd Item,6675,Navori Flickerblade,0.7059,26622
+16.8,3rd Item,2502,Unending Despair,-0.0787,727
+16.8,3rd Item,2504,Kaenic Rookern,-1.3893,129
+16.8,3rd Item,2510,Dusk and Dawn,-5.0441,140
+16.8,3rd Item,3041,Mejai's Soulstealer,0.9854,113
+16.8,3rd Item,3065,Spirit Visage,0.7068,13713
+16.8,3rd Item,3071,Black Cleaver,-2.8994,247
+16.8,3rd Item,3075,Thornmail,-1.2286,4385
+16.8,3rd Item,3110,Frozen Heart,2.9168,456
+16.8,3rd Item,3115,Nashor's Tooth,0.1825,239
+16.8,3rd Item,3143,Randuin's Omen,0.982,1587
+16.8,3rd Item,3161,Spear of Shojin,-5.5027,315
+16.8,3rd Item,3742,Dead Man's Plate,-0.3808,4110
+16.8,3rd Item,4401,Force of Nature,-0.8539,166
+16.8,3rd Item,4629,Cosmic Drive,-2.4927,499
+16.8,3rd Item,4633,Riftmaker,3.955,203
+16.8,3rd Item,6333,Death's Dance,-0.2029,144
+16.8,3rd Item,6665,"Jak'Sho, The Protean",-1.4512,376
+16.8,3rd Item,6675,Navori Flickerblade,0.2483,1364
+16.8,4th+ Item,2502,Unending Despair,0.3453,1480
+16.8,4th+ Item,2504,Kaenic Rookern,2.1624,360
+16.8,4th+ Item,2525,Protoplasm Harness,-0.8264,185
+16.8,4th+ Item,3041,Mejai's Soulstealer,0.2947,256
+16.8,4th+ Item,3053,Sterak's Gage,-2.7276,239
+16.8,4th+ Item,3065,Spirit Visage,-0.2565,4712
+16.8,4th+ Item,3075,Thornmail,-0.1088,4653
+16.8,4th+ Item,3110,Frozen Heart,-0.219,604
+16.8,4th+ Item,3115,Nashor's Tooth,-3.735,221
+16.8,4th+ Item,3143,Randuin's Omen,0.9456,3189
+16.8,4th+ Item,3157,Zhonya's Hourglass,3.6968,154
+16.8,4th+ Item,3742,Dead Man's Plate,-1.0209,2882
+16.8,4th+ Item,4401,Force of Nature,0.6772,395
+16.8,4th+ Item,4629,Cosmic Drive,2.4429,358
+16.8,4th+ Item,4633,Riftmaker,0.617,275
+16.8,4th+ Item,6333,Death's Dance,5.0802,155
+16.8,4th+ Item,6665,"Jak'Sho, The Protean",-0.5213,2473
+16.8,4th+ Item,6675,Navori Flickerblade,2.2613,419
+16.8,All Items,2502,Unending Despair,0.2088,2492
+16.8,All Items,2504,Kaenic Rookern,0.3525,531
+16.8,All Items,2510,Dusk and Dawn,0.5003,35030
+16.8,All Items,2524,Bandlepipes,2.1149,183
+16.8,All Items,2525,Protoplasm Harness,-0.766,286
+16.8,All Items,3026,Guardian Angel,-0.2382,123
+16.8,All Items,3041,Mejai's Soulstealer,1.0859,433
+16.8,All Items,3050,Zeke's Convergence,-3.2194,155
+16.8,All Items,3053,Sterak's Gage,-2.4101,381
+16.8,All Items,3065,Spirit Visage,0.1894,20882
+16.8,All Items,3071,Black Cleaver,-1.9961,1454
+16.8,All Items,3073,Experimental Hexplate,-6.0354,167
+16.8,All Items,3075,Thornmail,-0.8966,9615
+16.8,All Items,3078,Trinity Force,-2.9889,2128
+16.8,All Items,3084,Heartsteel,-4.1121,124
+16.8,All Items,3091,Wit's End,3.3503,102
+16.8,All Items,3110,Frozen Heart,1.396,1195
+16.8,All Items,3115,Nashor's Tooth,-2.262,1052
+16.8,All Items,3119,Winter's Approach,-2.1016,105
+16.8,All Items,3124,Guinsoo's Rageblade,-4.4543,104
+16.8,All Items,3143,Randuin's Omen,0.6654,5137
+16.8,All Items,3146,Hextech Gunblade,-4.2008,147
+16.8,All Items,3152,Hextech Rocketbelt,2.3571,184
+16.8,All Items,3157,Zhonya's Hourglass,1.6356,232
+16.8,All Items,3161,Spear of Shojin,-3.6823,1690
+16.8,All Items,3742,Dead Man's Plate,-0.5771,8989
+16.8,All Items,4401,Force of Nature,0.3074,633
+16.8,All Items,4629,Cosmic Drive,-2.2965,2790
+16.8,All Items,4633,Riftmaker,1.8309,743
+16.8,All Items,6333,Death's Dance,1.3998,352
+16.8,All Items,6610,Sundered Sky,-2.1149,333
+16.8,All Items,6657,Rod of Ages,-11.2892,196
+16.8,All Items,6662,Iceborn Gauntlet,1.0666,1013
+16.8,All Items,6665,"Jak'Sho, The Protean",-0.4763,2976
+16.8,All Items,6675,Navori Flickerblade,0.6274,28944
+16.9,Keystone,8010,Conqueror,-0.1231,625
+16.9,Keystone,8005,Press the Attack,-0.021,6109
+16.9,Keystone,8008,Lethal Tempo,0.1034,41919
+16.9,Keystone,8437,Grasp of the Undying,-5.5226,488
+16.9,Spell,4,Flash,0.0923,48709
+16.9,Spell,6,Ghost,-5.0452,740
+16.9,Spell,11,Smite,0.0,49520
+16.9,Starter,1101,Scorchclaw Pup,-1.0738,4368
+16.9,Starter,1102,Gustwalker Hatchling,0.2446,40465
+16.9,Starter,1103,Mosstomper Seedling,-1.1125,4682
+16.9,Boots,3006,Berserker's Greaves,-5.8257,148
+16.9,Boots,3008,Gluttonous Greaves,-1.7268,5553
+16.9,Boots,3009,Boots of Swiftness,-1.371,2299
+16.9,Boots,3047,Plated Steelcaps,1.2526,18260
+16.9,Boots,3111,Mercury's Treads,0.262,19304
+16.9,Boots,3158,Ionian Boots of Lucidity,-1.8087,2269
+16.9,1st Item,2510,Dusk and Dawn,0.4041,42183
+16.9,1st Item,3071,Black Cleaver,2.1277,300
+16.9,1st Item,3078,Trinity Force,-2.3397,2178
+16.9,1st Item,3087,Statikk Shiv,-3.2223,895
+16.9,1st Item,3115,Nashor's Tooth,-1.7006,395
+16.9,1st Item,3161,Spear of Shojin,-7.2659,106
+16.9,1st Item,4629,Cosmic Drive,-4.2791,1088
+16.9,1st Item,6610,Sundered Sky,-2.5715,231
+16.9,1st Item,6657,Rod of Ages,-2.2509,133
+16.9,1st Item,6662,Iceborn Gauntlet,0.3037,468
+16.9,1st Item,6675,Navori Flickerblade,0.5158,539
+16.9,2nd Item,2502,Unending Despair,-1.4681,323
+16.9,2nd Item,2510,Dusk and Dawn,-1.6371,1168
+16.9,2nd Item,3065,Spirit Visage,-0.6742,2957
+16.9,2nd Item,3071,Black Cleaver,-3.149,346
+16.9,2nd Item,3075,Thornmail,-2.6417,608
+16.9,2nd Item,3087,Statikk Shiv,0.0109,4246
+16.9,2nd Item,3110,Frozen Heart,0.0002,142
+16.9,2nd Item,3115,Nashor's Tooth,-3.2914,249
+16.9,2nd Item,3143,Randuin's Omen,-0.8263,362
+16.9,2nd Item,3161,Spear of Shojin,-2.901,689
+16.9,2nd Item,3742,Dead Man's Plate,-1.0844,2132
+16.9,2nd Item,4629,Cosmic Drive,-2.9742,678
+16.9,2nd Item,4633,Riftmaker,1.0413,394
+16.9,2nd Item,6610,Sundered Sky,-4.4532,154
+16.9,2nd Item,6662,Iceborn Gauntlet,-0.655,440
+16.9,2nd Item,6675,Navori Flickerblade,0.5842,29727
+16.9,3rd Item,2502,Unending Despair,0.4575,1402
+16.9,3rd Item,2504,Kaenic Rookern,-3.4677,142
+16.9,3rd Item,2510,Dusk and Dawn,-2.2633,209
+16.9,3rd Item,3041,Mejai's Soulstealer,-2.1613,151
+16.9,3rd Item,3053,Sterak's Gage,-1.0272,113
+16.9,3rd Item,3065,Spirit Visage,0.0356,16336
+16.9,3rd Item,3075,Thornmail,-0.5395,5023
+16.9,3rd Item,3087,Statikk Shiv,0.5824,370
+16.9,3rd Item,3110,Frozen Heart,4.261,518
+16.9,3rd Item,3115,Nashor's Tooth,0.671,373
+16.9,3rd Item,3143,Randuin's Omen,1.6044,2004
+16.9,3rd Item,3161,Spear of Shojin,-2.7956,193
+16.9,3rd Item,3742,Dead Man's Plate,1.2166,4748
+16.9,3rd Item,4401,Force of Nature,-3.0554,218
+16.9,3rd Item,4629,Cosmic Drive,-1.3663,401
+16.9,3rd Item,4633,Riftmaker,-1.307,439
+16.9,3rd Item,6333,Death's Dance,1.0714,227
+16.9,3rd Item,6665,"Jak'Sho, The Protean",-1.2437,461
+16.9,3rd Item,6675,Navori Flickerblade,-1.7018,1754
+16.9,4th+ Item,2502,Unending Despair,-0.6947,2035
+16.9,4th+ Item,2504,Kaenic Rookern,-0.7345,400
+16.9,4th+ Item,2525,Protoplasm Harness,-0.5598,328
+16.9,4th+ Item,3026,Guardian Angel,2.1461,120
+16.9,4th+ Item,3041,Mejai's Soulstealer,-0.5794,435
+16.9,4th+ Item,3053,Sterak's Gage,2.3927,267
+16.9,4th+ Item,3065,Spirit Visage,0.55,5714
+16.9,4th+ Item,3075,Thornmail,-0.0967,5446
+16.9,4th+ Item,3087,Statikk Shiv,1.5354,193
+16.9,4th+ Item,3110,Frozen Heart,-1.0827,710
+16.9,4th+ Item,3115,Nashor's Tooth,0.1478,305
+16.9,4th+ Item,3143,Randuin's Omen,1.2659,3474
+16.9,4th+ Item,3157,Zhonya's Hourglass,1.6019,176
+16.9,4th+ Item,3161,Spear of Shojin,-3.8252,121
+16.9,4th+ Item,3742,Dead Man's Plate,-0.0962,3273
+16.9,4th+ Item,4401,Force of Nature,-4.6632,480
+16.9,4th+ Item,4629,Cosmic Drive,-0.8529,436
+16.9,4th+ Item,4633,Riftmaker,-0.3707,502
+16.9,4th+ Item,6333,Death's Dance,4.0759,278
+16.9,4th+ Item,6665,"Jak'Sho, The Protean",-0.5843,2724
+16.9,4th+ Item,6675,Navori Flickerblade,0.8099,598
+16.9,All Items,2502,Unending Despair,-0.2936,3801
+16.9,All Items,2504,Kaenic Rookern,-0.8204,590
+16.9,All Items,2510,Dusk and Dawn,0.3412,43644
+16.9,All Items,2524,Bandlepipes,2.4749,215
+16.9,All Items,2525,Protoplasm Harness,-0.5111,457
+16.9,All Items,3026,Guardian Angel,0.9881,149
+16.9,All Items,3041,Mejai's Soulstealer,-0.7039,688
+16.9,All Items,3050,Zeke's Convergence,0.3448,166
+16.9,All Items,3053,Sterak's Gage,1.0958,446
+16.9,All Items,3065,Spirit Visage,0.0807,25055
+16.9,All Items,3071,Black Cleaver,-1.6018,831
+16.9,All Items,3073,Experimental Hexplate,-8.6278,157
+16.9,All Items,3075,Thornmail,-0.4604,11115
+16.9,All Items,3078,Trinity Force,-2.1774,2272
+16.9,All Items,3084,Heartsteel,-5.8065,143
+16.9,All Items,3087,Statikk Shiv,-0.4078,5713
+16.9,All Items,3091,Wit's End,-2.1777,156
+16.9,All Items,3110,Frozen Heart,1.1864,1398
+16.9,All Items,3115,Nashor's Tooth,-0.9101,1328
+16.9,All Items,3143,Randuin's Omen,1.2252,5897
+16.9,All Items,3146,Hextech Gunblade,-5.2904,173
+16.9,All Items,3152,Hextech Rocketbelt,-0.8893,183
+16.9,All Items,3157,Zhonya's Hourglass,0.332,284
+16.9,All Items,3161,Spear of Shojin,-3.3479,1113
+16.9,All Items,3181,Hullbreaker,-3.2103,107
+16.9,All Items,3742,Dead Man's Plate,0.3316,10244
+16.9,All Items,4401,Force of Nature,-3.0361,790
+16.9,All Items,4629,Cosmic Drive,-2.9221,2615
+16.9,All Items,4633,Riftmaker,-0.2923,1413
+16.9,All Items,6333,Death's Dance,1.6562,592
+16.9,All Items,6610,Sundered Sky,-2.0762,491
+16.9,All Items,6657,Rod of Ages,-3.2552,168
+16.9,All Items,6662,Iceborn Gauntlet,-0.7876,997
+16.9,All Items,6665,"Jak'Sho, The Protean",-0.4761,3339
+16.9,All Items,6675,Navori Flickerblade,0.4626,32639
+16.9,All Items,8020,Abyssal Mask,1.1246,101
+16.10,Keystone,8230,Stormraider's Surge,-2.3773,114
+16.10,Keystone,8010,Conqueror,-0.956,562
+16.10,Keystone,8005,Press the Attack,-1.4183,6104
+16.10,Keystone,8008,Lethal Tempo,0.3805,38450
+16.10,Keystone,8437,Grasp of the Undying,-4.3738,537
+16.10,Spell,4,Flash,0.0484,45375
+16.10,Spell,6,Ghost,-3.8731,634
+16.10,Spell,11,Smite,-0.0,46074
+16.10,Starter,1101,Scorchclaw Pup,-2.3215,3885
+16.10,Starter,1102,Gustwalker Hatchling,0.2344,37880
+16.10,Starter,1103,Mosstomper Seedling,0.0327,4306
+16.10,Boots,3006,Berserker's Greaves,-7.853,124
+16.10,Boots,3008,Gluttonous Greaves,-2.0489,3038
+16.10,Boots,3009,Boots of Swiftness,-2.1021,1824
+16.10,Boots,3047,Plated Steelcaps,0.6356,19016
+16.10,Boots,3111,Mercury's Treads,0.7165,17792
+16.10,Boots,3158,Ionian Boots of Lucidity,0.1905,2644
+16.10,1st Item,2510,Dusk and Dawn,0.4619,37988
+16.10,1st Item,3071,Black Cleaver,0.297,552
+16.10,1st Item,3078,Trinity Force,-1.2033,2530
+16.10,1st Item,3087,Statikk Shiv,-3.6551,701
+16.10,1st Item,3115,Nashor's Tooth,-5.0425,367
+16.10,1st Item,3742,Dead Man's Plate,-1.8525,104
+16.10,1st Item,4629,Cosmic Drive,-1.8165,1360
+16.10,1st Item,6610,Sundered Sky,-6.0909,253
+16.10,1st Item,6657,Rod of Ages,-3.1411,113
+16.10,1st Item,6662,Iceborn Gauntlet,2.4767,524
+16.10,1st Item,6675,Navori Flickerblade,-4.2997,531
+16.10,2nd Item,2502,Unending Despair,0.1703,306
+16.10,2nd Item,2510,Dusk and Dawn,-1.0248,1098
+16.10,2nd Item,3065,Spirit Visage,-1.0124,2540
+16.10,2nd Item,3071,Black Cleaver,-2.3644,272
+16.10,2nd Item,3075,Thornmail,-2.8061,617
+16.10,2nd Item,3087,Statikk Shiv,-1.1744,4992
+16.10,2nd Item,3110,Frozen Heart,-3.9291,158
+16.10,2nd Item,3115,Nashor's Tooth,-4.9481,239
+16.10,2nd Item,3143,Randuin's Omen,1.7872,336
+16.10,2nd Item,3161,Spear of Shojin,-1.265,582
+16.10,2nd Item,3742,Dead Man's Plate,-0.1999,2204
+16.10,2nd Item,4629,Cosmic Drive,-3.2348,429
+16.10,2nd Item,4633,Riftmaker,-0.3481,419
+16.10,2nd Item,6610,Sundered Sky,-4.6393,147
+16.10,2nd Item,6662,Iceborn Gauntlet,-0.5635,705
+16.10,2nd Item,6675,Navori Flickerblade,0.6384,26239
+16.10,3rd Item,2502,Unending Despair,-0.9227,1624
+16.10,3rd Item,2504,Kaenic Rookern,2.8605,117
+16.10,3rd Item,2510,Dusk and Dawn,-6.2974,183
+16.10,3rd Item,3041,Mejai's Soulstealer,0.4778,127
+16.10,3rd Item,3053,Sterak's Gage,2.4102,113
+16.10,3rd Item,3065,Spirit Visage,0.3312,14907
+16.10,3rd Item,3071,Black Cleaver,-3.6129,102
+16.10,3rd Item,3075,Thornmail,-0.2773,4694
+16.10,3rd Item,3087,Statikk Shiv,-1.4092,542
+16.10,3rd Item,3110,Frozen Heart,0.4855,459
+16.10,3rd Item,3115,Nashor's Tooth,1.5055,312
+16.10,3rd Item,3143,Randuin's Omen,0.9167,1887
+16.10,3rd Item,3161,Spear of Shojin,-5.3275,127
+16.10,3rd Item,3742,Dead Man's Plate,0.2564,4228
+16.10,3rd Item,4401,Force of Nature,-0.4419,206
+16.10,3rd Item,4629,Cosmic Drive,2.3384,248
+16.10,3rd Item,4633,Riftmaker,-1.1446,461
+16.10,3rd Item,6333,Death's Dance,-1.1192,190
+16.10,3rd Item,6665,"Jak'Sho, The Protean",-0.4122,400
+16.10,3rd Item,6675,Navori Flickerblade,-1.8746,1519
+16.10,4th+ Item,2502,Unending Despair,-0.9331,1920
+16.10,4th+ Item,2504,Kaenic Rookern,0.6892,402
+16.10,4th+ Item,2525,Protoplasm Harness,1.0896,347
+16.10,4th+ Item,3041,Mejai's Soulstealer,-2.8561,394
+16.10,4th+ Item,3053,Sterak's Gage,-1.282,250
+16.10,4th+ Item,3065,Spirit Visage,0.9505,5346
+16.10,4th+ Item,3075,Thornmail,-0.8936,4791
+16.10,4th+ Item,3087,Statikk Shiv,1.4577,354
+16.10,4th+ Item,3110,Frozen Heart,0.4644,602
+16.10,4th+ Item,3115,Nashor's Tooth,2.169,242
+16.10,4th+ Item,3143,Randuin's Omen,0.8232,3269
+16.10,4th+ Item,3157,Zhonya's Hourglass,6.3122,186
+16.10,4th+ Item,3742,Dead Man's Plate,-0.6765,3117
+16.10,4th+ Item,4401,Force of Nature,0.8549,412
+16.10,4th+ Item,4629,Cosmic Drive,0.7939,271
+16.10,4th+ Item,4633,Riftmaker,-0.1833,436
+16.10,4th+ Item,6333,Death's Dance,3.702,249
+16.10,4th+ Item,6665,"Jak'Sho, The Protean",0.049,2375
+16.10,4th+ Item,6675,Navori Flickerblade,-3.3211,584
+16.10,All Items,2502,Unending Despair,-0.9152,3888
+16.10,All Items,2504,Kaenic Rookern,1.1583,557
+16.10,All Items,2510,Dusk and Dawn,0.3898,39351
+16.10,All Items,2524,Bandlepipes,-2.6615,188
+16.10,All Items,2525,Protoplasm Harness,0.6187,536
+16.10,All Items,3026,Guardian Angel,4.5538,131
+16.10,All Items,3041,Mejai's Soulstealer,-1.3142,600
+16.10,All Items,3050,Zeke's Convergence,2.7935,150
+16.10,All Items,3053,Sterak's Gage,0.9401,451
+16.10,All Items,3065,Spirit Visage,0.3132,22851
+16.10,All Items,3071,Black Cleaver,-0.6033,977
+16.10,All Items,3073,Experimental Hexplate,-6.4898,120
+16.10,All Items,3075,Thornmail,-0.705,10146
+16.10,All Items,3078,Trinity Force,-1.3211,2620
+16.10,All Items,3084,Heartsteel,-0.3839,163
+16.10,All Items,3087,Statikk Shiv,-1.3153,6594
+16.10,All Items,3091,Wit's End,-5.1857,121
+16.10,All Items,3110,Frozen Heart,-0.1679,1239
+16.10,All Items,3115,Nashor's Tooth,-1.8009,1166
+16.10,All Items,3143,Randuin's Omen,0.9305,5541
+16.10,All Items,3146,Hextech Gunblade,-4.6766,126
+16.10,All Items,3152,Hextech Rocketbelt,2.0574,230
+16.10,All Items,3157,Zhonya's Hourglass,2.3927,294
+16.10,All Items,3161,Spear of Shojin,-1.7423,871
+16.10,All Items,3742,Dead Man's Plate,-0.1646,9682
+16.10,All Items,3748,Titanic Hydra,-9.5679,116
+16.10,All Items,4401,Force of Nature,0.26,708
+16.10,All Items,4629,Cosmic Drive,-1.3037,2316
+16.10,All Items,4633,Riftmaker,-0.6724,1393
+16.10,All Items,6333,Death's Dance,1.1331,514
+16.10,All Items,6610,Sundered Sky,-4.9002,497
+16.10,All Items,6657,Rod of Ages,-1.8929,132
+16.10,All Items,6662,Iceborn Gauntlet,1.0411,1337
+16.10,All Items,6665,"Jak'Sho, The Protean",-0.1998,2913
+16.10,All Items,6675,Navori Flickerblade,0.3309,28886
+16.11,Keystone,8010,Conqueror,-0.5697,477
+16.11,Keystone,8005,Press the Attack,-1.0176,3773
+16.11,Keystone,8008,Lethal Tempo,0.2908,22931
+16.11,Keystone,8437,Grasp of the Undying,-3.258,325
+16.11,Spell,4,Flash,0.031,27233
+16.11,Spell,6,Ghost,-1.7868,447
+16.11,Spell,11,Smite,0.0,27710
+16.11,Starter,1101,Scorchclaw Pup,-1.5851,1923
+16.11,Starter,1102,Gustwalker Hatchling,0.1771,23502
+16.11,Starter,1103,Mosstomper Seedling,-0.4883,2283
+16.11,Boots,3008,Gluttonous Greaves,-1.1694,1440
+16.11,Boots,3009,Boots of Swiftness,-0.8593,1239
+16.11,Boots,3047,Plated Steelcaps,0.4661,11240
+16.11,Boots,3111,Mercury's Treads,0.6885,10806
+16.11,Boots,3158,Ionian Boots of Lucidity,-0.8611,1810
+16.11,1st Item,2510,Dusk and Dawn,0.169,22487
+16.11,1st Item,3071,Black Cleaver,-0.7353,256
+16.11,1st Item,3078,Trinity Force,0.0528,1765
+16.11,1st Item,3084,Heartsteel,-4.3146,305
+16.11,1st Item,3087,Statikk Shiv,0.8293,311
+16.11,1st Item,3115,Nashor's Tooth,1.0973,241
+16.11,1st Item,4629,Cosmic Drive,-0.9836,727
+16.11,1st Item,6610,Sundered Sky,-4.8635,134
+16.11,1st Item,6662,Iceborn Gauntlet,-1.3203,356
+16.11,1st Item,6675,Navori Flickerblade,-0.0164,397
+16.11,2nd Item,2502,Unending Despair,-3.8534,236
+16.11,2nd Item,2510,Dusk and Dawn,0.1165,631
+16.11,2nd Item,3065,Spirit Visage,-0.5918,1288
+16.11,2nd Item,3071,Black Cleaver,-3.4412,182
+16.11,2nd Item,3075,Thornmail,-1.9473,378
+16.11,2nd Item,3084,Heartsteel,-1.8043,407
+16.11,2nd Item,3087,Statikk Shiv,-0.1171,3440
+16.11,2nd Item,3115,Nashor's Tooth,0.801,122
+16.11,2nd Item,3143,Randuin's Omen,-0.4841,176
+16.11,2nd Item,3161,Spear of Shojin,-1.1845,534
+16.11,2nd Item,3742,Dead Man's Plate,-1.4659,1175
+16.11,2nd Item,4629,Cosmic Drive,-2.9303,230
+16.11,2nd Item,4633,Riftmaker,-2.8161,259
+16.11,2nd Item,6662,Iceborn Gauntlet,3.309,398
+16.11,2nd Item,6675,Navori Flickerblade,0.5607,15200
+16.11,3rd Item,2502,Unending Despair,-1.8612,1054
+16.11,3rd Item,2504,Kaenic Rookern,0.8063,119
+16.11,3rd Item,3041,Mejai's Soulstealer,2.8483,102
+16.11,3rd Item,3065,Spirit Visage,0.4477,8890
+16.11,3rd Item,3075,Thornmail,-0.9063,2714
+16.11,3rd Item,3087,Statikk Shiv,0.1645,319
+16.11,3rd Item,3110,Frozen Heart,-0.1519,303
+16.11,3rd Item,3115,Nashor's Tooth,1.7118,144
+16.11,3rd Item,3143,Randuin's Omen,1.8031,1246
+16.11,3rd Item,3161,Spear of Shojin,-1.1031,123
+16.11,3rd Item,3742,Dead Man's Plate,-0.3199,2412
+16.11,3rd Item,4401,Force of Nature,-1.8228,147
+16.11,3rd Item,4629,Cosmic Drive,0.562,142
+16.11,3rd Item,4633,Riftmaker,-0.1591,515
+16.11,3rd Item,6333,Death's Dance,-0.2346,170
+16.11,3rd Item,6665,"Jak'Sho, The Protean",-2.5494,204
+16.11,3rd Item,6675,Navori Flickerblade,1.5135,743
+16.11,4th+ Item,2502,Unending Despair,-0.1555,1173
+16.11,4th+ Item,2504,Kaenic Rookern,3.1043,213
+16.11,4th+ Item,2525,Protoplasm Harness,2.1469,201
+16.11,4th+ Item,3041,Mejai's Soulstealer,-0.3195,275
+16.11,4th+ Item,3053,Sterak's Gage,-2.9049,148
+16.11,4th+ Item,3065,Spirit Visage,0.1311,3405
+16.11,4th+ Item,3075,Thornmail,0.0701,2775
+16.11,4th+ Item,3087,Statikk Shiv,-1.7178,193
+16.11,4th+ Item,3110,Frozen Heart,0.0752,417
+16.11,4th+ Item,3115,Nashor's Tooth,-0.2802,144
+16.11,4th+ Item,3143,Randuin's Omen,1.1521,2000
+16.11,4th+ Item,3157,Zhonya's Hourglass,0.5009,116
+16.11,4th+ Item,3742,Dead Man's Plate,-0.0175,1684
+16.11,4th+ Item,4401,Force of Nature,-1.5152,301
+16.11,4th+ Item,4629,Cosmic Drive,3.0969,165
+16.11,4th+ Item,4633,Riftmaker,-0.9609,327
+16.11,4th+ Item,6333,Death's Dance,-1.2196,176
+16.11,4th+ Item,6665,"Jak'Sho, The Protean",-1.2807,1435
+16.11,4th+ Item,6675,Navori Flickerblade,0.2957,311
+16.11,All Items,2502,Unending Despair,-1.3379,2482
+16.11,All Items,2504,Kaenic Rookern,2.1156,353
+16.11,All Items,2510,Dusk and Dawn,0.1736,23253
+16.11,All Items,2524,Bandlepipes,0.6825,109
+16.11,All Items,2525,Protoplasm Harness,1.7808,373
+16.11,All Items,3041,Mejai's Soulstealer,1.4838,447
+16.11,All Items,3050,Zeke's Convergence,-5.0846,101
+16.11,All Items,3053,Sterak's Gage,-0.2395,281
+16.11,All Items,3065,Spirit Visage,0.2506,13615
+16.11,All Items,3071,Black Cleaver,-1.8005,523
+16.11,All Items,3075,Thornmail,-0.499,5888
+16.11,All Items,3078,Trinity Force,-0.293,1843
+16.11,All Items,3084,Heartsteel,-3.1731,740
+16.11,All Items,3087,Statikk Shiv,-0.0993,4270
+16.11,All Items,3110,Frozen Heart,-0.1365,813
+16.11,All Items,3115,Nashor's Tooth,0.8703,653
+16.11,All Items,3143,Randuin's Omen,1.3126,3448
+16.11,All Items,3152,Hextech Rocketbelt,2.368,116
+16.11,All Items,3157,Zhonya's Hourglass,0.5079,185
+16.11,All Items,3161,Spear of Shojin,-1.2364,786
+16.11,All Items,3742,Dead Man's Plate,-0.5002,5333
+16.11,All Items,4401,Force of Nature,-1.8761,511
+16.11,All Items,4629,Cosmic Drive,-0.6816,1271
+16.11,All Items,4633,Riftmaker,-1.3792,1179
+16.11,All Items,6333,Death's Dance,-1.4,398
+16.11,All Items,6610,Sundered Sky,-3.1032,291
+16.11,All Items,6662,Iceborn Gauntlet,1.5812,832
+16.11,All Items,6665,"Jak'Sho, The Protean",-1.5633,1714
+16.11,All Items,6675,Navori Flickerblade,0.5843,16657
+16.12,Keystone,8010,Conqueror,-2.9113,376
+16.12,Keystone,8005,Press the Attack,0.1078,3397
+16.12,Keystone,8008,Lethal Tempo,0.1162,22086
+16.12,Keystone,8437,Grasp of the Undying,-3.1808,281
+16.12,Spell,4,Flash,0.0238,25805
+16.12,Spell,6,Ghost,-0.3482,474
+16.12,Spell,11,Smite,0.0,26333
+16.12,Starter,1101,Scorchclaw Pup,-0.3765,1927
+16.12,Starter,1102,Gustwalker Hatchling,0.0457,22212
+16.12,Starter,1103,Mosstomper Seedling,-0.1321,2190
+16.12,Boots,3006,Berserker's Greaves,-8.2895,110
+16.12,Boots,3008,Gluttonous Greaves,-1.1266,1472
+16.12,Boots,3009,Boots of Swiftness,-0.5241,1220
+16.12,Boots,3047,Plated Steelcaps,-0.1149,9934
+16.12,Boots,3111,Mercury's Treads,0.4127,10896
+16.12,Boots,3158,Ionian Boots of Lucidity,-1.2348,1753
+16.12,1st Item,2510,Dusk and Dawn,0.4036,21668
+16.12,1st Item,3071,Black Cleaver,-5.0053,186
+16.12,1st Item,3078,Trinity Force,0.1142,1555
+16.12,1st Item,3084,Heartsteel,-1.4532,116
+16.12,1st Item,3087,Statikk Shiv,-1.1504,263
+16.12,1st Item,3115,Nashor's Tooth,-5.1932,198
+16.12,1st Item,3161,Spear of Shojin,-0.6866,110
+16.12,1st Item,4629,Cosmic Drive,-4.9218,775
+16.12,1st Item,6610,Sundered Sky,-0.8692,161
+16.12,1st Item,6662,Iceborn Gauntlet,-1.8058,346
+16.12,1st Item,6675,Navori Flickerblade,0.0849,416
+16.12,2nd Item,2502,Unending Despair,-0.3669,205
+16.12,2nd Item,2510,Dusk and Dawn,0.9135,561
+16.12,2nd Item,3065,Spirit Visage,-0.8731,1353
+16.12,2nd Item,3071,Black Cleaver,-7.149,107
+16.12,2nd Item,3075,Thornmail,-7.6976,385
+16.12,2nd Item,3084,Heartsteel,-3.795,536
+16.12,2nd Item,3087,Statikk Shiv,0.1672,3178
+16.12,2nd Item,3143,Randuin's Omen,1.1771,179
+16.12,2nd Item,3161,Spear of Shojin,-0.5855,413
+16.12,2nd Item,3742,Dead Man's Plate,-2.9598,1014
+16.12,2nd Item,4629,Cosmic Drive,-3.0733,187
+16.12,2nd Item,4633,Riftmaker,2.7204,203
+16.12,2nd Item,6662,Iceborn Gauntlet,-5.9232,329
+16.12,2nd Item,6675,Navori Flickerblade,0.7886,14627
+16.12,3rd Item,2502,Unending Despair,-0.1606,1024
+16.12,3rd Item,2504,Kaenic Rookern,-3.7446,107
+16.12,3rd Item,3041,Mejai's Soulstealer,2.6987,105
+16.12,3rd Item,3065,Spirit Visage,1.0941,8528
+16.12,3rd Item,3075,Thornmail,-1.7398,2530
+16.12,3rd Item,3087,Statikk Shiv,-3.0809,287
+16.12,3rd Item,3110,Frozen Heart,0.6975,297
+16.12,3rd Item,3115,Nashor's Tooth,-9.6404,116
+16.12,3rd Item,3143,Randuin's Omen,1.1091,1199
+16.12,3rd Item,3742,Dead Man's Plate,-1.3931,2059
+16.12,3rd Item,4401,Force of Nature,-0.5503,124
+16.12,3rd Item,4629,Cosmic Drive,-6.6774,113
+16.12,3rd Item,4633,Riftmaker,0.575,493
+16.12,3rd Item,6333,Death's Dance,2.5756,143
+16.12,3rd Item,6665,"Jak'Sho, The Protean",-1.0414,193
+16.12,3rd Item,6675,Navori Flickerblade,-1.7171,755
+16.12,4th+ Item,2502,Unending Despair,-1.91,1133
+16.12,4th+ Item,2504,Kaenic Rookern,-1.8592,228
+16.12,4th+ Item,2525,Protoplasm Harness,-0.2951,226
+16.12,4th+ Item,3041,Mejai's Soulstealer,0.0012,235
+16.12,4th+ Item,3053,Sterak's Gage,-2.9371,136
+16.12,4th+ Item,3065,Spirit Visage,0.2466,3133
+16.12,4th+ Item,3075,Thornmail,0.1014,2713
+16.12,4th+ Item,3087,Statikk Shiv,4.7261,165
+16.12,4th+ Item,3110,Frozen Heart,1.5482,404
+16.12,4th+ Item,3115,Nashor's Tooth,-4.0963,143
+16.12,4th+ Item,3143,Randuin's Omen,0.85,1757
+16.12,4th+ Item,3742,Dead Man's Plate,-0.1911,1644
+16.12,4th+ Item,4401,Force of Nature,1.2345,293
+16.12,4th+ Item,4629,Cosmic Drive,-1.726,127
+16.12,4th+ Item,4633,Riftmaker,1.2746,255
+16.12,4th+ Item,6333,Death's Dance,-0.6416,192
+16.12,4th+ Item,6665,"Jak'Sho, The Protean",-1.361,1244
+16.12,4th+ Item,6675,Navori Flickerblade,0.852,292
+16.12,All Items,2502,Unending Despair,-1.0696,2382
+16.12,All Items,2504,Kaenic Rookern,-2.1378,361
+16.12,All Items,2510,Dusk and Dawn,0.4312,22358
+16.12,All Items,2524,Bandlepipes,4.1581,128
+16.12,All Items,2525,Protoplasm Harness,-0.6522,380
+16.12,All Items,3041,Mejai's Soulstealer,1.0515,406
+16.12,All Items,3050,Zeke's Convergence,-5.636,118
+16.12,All Items,3053,Sterak's Gage,-0.697,243
+16.12,All Items,3065,Spirit Visage,0.6579,13038
+16.12,All Items,3071,Black Cleaver,-4.9191,355
+16.12,All Items,3075,Thornmail,-1.2302,5655
+16.12,All Items,3078,Trinity Force,0.1094,1613
+16.12,All Items,3084,Heartsteel,-3.3634,686
+16.12,All Items,3087,Statikk Shiv,0.0329,3898
+16.12,All Items,3110,Frozen Heart,1.8866,796
+16.12,All Items,3115,Nashor's Tooth,-3.9207,558
+16.12,All Items,3143,Randuin's Omen,0.9391,3152
+16.12,All Items,3152,Hextech Rocketbelt,-3.505,104
+16.12,All Items,3157,Zhonya's Hourglass,-3.6246,140
+16.12,All Items,3161,Spear of Shojin,-0.6642,670
+16.12,All Items,3742,Dead Man's Plate,-1.3054,4766
+16.12,All Items,4401,Force of Nature,0.3322,483
+16.12,All Items,4629,Cosmic Drive,-4.4557,1204
+16.12,All Items,4633,Riftmaker,0.769,1003
+16.12,All Items,6333,Death's Dance,1.1085,411
+16.12,All Items,6610,Sundered Sky,-1.8001,280
+16.12,All Items,6662,Iceborn Gauntlet,-2.9907,739
+16.12,All Items,6665,"Jak'Sho, The Protean",-1.1081,1508
+16.12,All Items,6675,Navori Flickerblade,0.6538,16095
+16.13,Keystone,8010,Conqueror,-1.7833,419
+16.13,Keystone,8005,Press the Attack,-0.1572,5008
+16.13,Keystone,8008,Lethal Tempo,0.1907,32151
+16.13,Keystone,8437,Grasp of the Undying,-5.3652,447
+16.13,Spell,4,Flash,0.0252,37613
+16.13,Spell,6,Ghost,-1.2931,623
+16.13,Spell,11,Smite,0.0,38317
+16.13,Starter,1101,Scorchclaw Pup,-0.453,2715
+16.13,Starter,1102,Gustwalker Hatchling,0.0357,31944
+16.13,Starter,1103,Mosstomper Seedling,0.0241,3656
+16.13,Boots,3006,Berserker's Greaves,-8.4735,139
+16.13,Boots,3008,Gluttonous Greaves,-2.2844,1646
+16.13,Boots,3009,Boots of Swiftness,-0.4492,1835
+16.13,Boots,3047,Plated Steelcaps,0.2462,13934
+16.13,Boots,3111,Mercury's Treads,0.4963,16789
+16.13,Boots,3158,Ionian Boots of Lucidity,-1.6085,2332
+16.13,1st Item,2510,Dusk and Dawn,0.4888,30607
+16.13,1st Item,3071,Black Cleaver,-0.6575,204
+16.13,1st Item,3078,Trinity Force,-0.841,2963
+16.13,1st Item,3084,Heartsteel,-3.0958,134
+16.13,1st Item,3087,Statikk Shiv,-1.3389,383
+16.13,1st Item,3115,Nashor's Tooth,-3.745,490
+16.13,1st Item,3161,Spear of Shojin,-11.3713,103
+16.13,1st Item,4629,Cosmic Drive,-3.0466,1177
+16.13,1st Item,6610,Sundered Sky,-2.1643,212
+16.13,1st Item,6657,Rod of Ages,-6.8187,129
+16.13,1st Item,6662,Iceborn Gauntlet,-3.1472,456
+16.13,1st Item,6675,Navori Flickerblade,-1.2395,540
+16.13,2nd Item,2502,Unending Despair,0.8045,364
+16.13,2nd Item,2510,Dusk and Dawn,-0.8845,743
+16.13,2nd Item,3041,Mejai's Soulstealer,1.9573,107
+16.13,2nd Item,3065,Spirit Visage,-2.138,2366
+16.13,2nd Item,3071,Black Cleaver,-1.615,228
+16.13,2nd Item,3075,Thornmail,-0.2183,556
+16.13,2nd Item,3084,Heartsteel,-5.0782,388
+16.13,2nd Item,3087,Statikk Shiv,-1.2371,3319
+16.13,2nd Item,3110,Frozen Heart,0.654,135
+16.13,2nd Item,3115,Nashor's Tooth,-6.325,162
+16.13,2nd Item,3143,Randuin's Omen,-1.9263,304
+16.13,2nd Item,3161,Spear of Shojin,-3.12,1003
+16.13,2nd Item,3742,Dead Man's Plate,-0.5337,1590
+16.13,2nd Item,4629,Cosmic Drive,1.6595,295
+16.13,2nd Item,4633,Riftmaker,0.7085,318
+16.13,2nd Item,6610,Sundered Sky,-2.2861,155
+16.13,2nd Item,6662,Iceborn Gauntlet,-1.1261,416
+16.13,2nd Item,6672,Kraken Slayer,-5.8234,129
+16.13,2nd Item,6675,Navori Flickerblade,0.8661,21591
+16.13,3rd Item,2502,Unending Despair,-1.7034,1077
+16.13,3rd Item,2504,Kaenic Rookern,3.9005,136
+16.13,3rd Item,2510,Dusk and Dawn,2.1582,158
+16.13,3rd Item,3041,Mejai's Soulstealer,1.6871,165
+16.13,3rd Item,3053,Sterak's Gage,4.4716,105
+16.13,3rd Item,3065,Spirit Visage,1.1223,12679
+16.13,3rd Item,3075,Thornmail,-1.1,3698
+16.13,3rd Item,3087,Statikk Shiv,-1.045,475
+16.13,3rd Item,3110,Frozen Heart,2.4492,377
+16.13,3rd Item,3115,Nashor's Tooth,-1.0232,164
+16.13,3rd Item,3143,Randuin's Omen,0.3349,1617
+16.13,3rd Item,3161,Spear of Shojin,-3.4752,125
+16.13,3rd Item,3742,Dead Man's Plate,-0.5598,2998
+16.13,3rd Item,4401,Force of Nature,-4.5295,212
+16.13,3rd Item,4629,Cosmic Drive,-1.3888,155
+16.13,3rd Item,4633,Riftmaker,-1.1034,521
+16.13,3rd Item,6333,Death's Dance,-1.8406,314
+16.13,3rd Item,6665,"Jak'Sho, The Protean",-3.5843,329
+16.13,3rd Item,6675,Navori Flickerblade,-2.4085,1097
+16.13,4th+ Item,2502,Unending Despair,-0.4644,1496
+16.13,4th+ Item,2504,Kaenic Rookern,4.9515,339
+16.13,4th+ Item,2525,Protoplasm Harness,1.2706,239
+16.13,4th+ Item,3041,Mejai's Soulstealer,-1.1484,418
+16.13,4th+ Item,3053,Sterak's Gage,1.8832,204
+16.13,4th+ Item,3065,Spirit Visage,-0.6034,4330
+16.13,4th+ Item,3075,Thornmail,-0.3152,3958
+16.13,4th+ Item,3087,Statikk Shiv,-3.1211,285
+16.13,4th+ Item,3110,Frozen Heart,-0.0232,504
+16.13,4th+ Item,3115,Nashor's Tooth,3.7071,165
+16.13,4th+ Item,3143,Randuin's Omen,1.6086,2629
+16.13,4th+ Item,3157,Zhonya's Hourglass,-0.9179,147
+16.13,4th+ Item,3742,Dead Man's Plate,-0.087,2295
+16.13,4th+ Item,4401,Force of Nature,-0.256,389
+16.13,4th+ Item,4629,Cosmic Drive,-1.1599,151
+16.13,4th+ Item,4633,Riftmaker,1.499,353
+16.13,4th+ Item,6333,Death's Dance,0.9224,243
+16.13,4th+ Item,6665,"Jak'Sho, The Protean",0.4377,1991
+16.13,4th+ Item,6675,Navori Flickerblade,-2.2586,434
+16.13,All Items,2502,Unending Despair,-0.6847,2998
+16.13,All Items,2504,Kaenic Rookern,4.5973,531
+16.13,All Items,2510,Dusk and Dawn,0.4592,31596
+16.13,All Items,2524,Bandlepipes,-0.8188,158
+16.13,All Items,2525,Protoplasm Harness,0.7704,446
+16.13,All Items,3026,Guardian Angel,5.34,114
+16.13,All Items,3041,Mejai's Soulstealer,-0.1684,699
+16.13,All Items,3050,Zeke's Convergence,1.3241,215
+16.13,All Items,3053,Sterak's Gage,2.7966,359
+16.13,All Items,3065,Spirit Visage,0.3156,19417
+16.13,All Items,3071,Black Cleaver,-0.6983,537
+16.13,All Items,3075,Thornmail,-0.6311,8241
+16.13,All Items,3078,Trinity Force,-0.9067,3075
+16.13,All Items,3084,Heartsteel,-4.3251,577
+16.13,All Items,3087,Statikk Shiv,-1.3456,4469
+16.13,All Items,3089,Rabadon's Deathcap,-2.8183,107
+16.13,All Items,3091,Wit's End,-6.3447,114
+16.13,All Items,3109,Knight's Vow,-3.6477,117
+16.13,All Items,3110,Frozen Heart,1.044,1028
+16.13,All Items,3115,Nashor's Tooth,-2.5115,989
+16.13,All Items,3119,Winter's Approach,2.6036,133
+16.13,All Items,3143,Randuin's Omen,0.8852,4578
+16.13,All Items,3152,Hextech Rocketbelt,2.2978,173
+16.13,All Items,3157,Zhonya's Hourglass,-1.0529,265
+16.13,All Items,3161,Spear of Shojin,-3.6633,1328
+16.13,All Items,3742,Dead Man's Plate,-0.3799,6972
+16.13,All Items,3748,Titanic Hydra,1.7892,114
+16.13,All Items,4401,Force of Nature,-1.1593,686
+16.13,All Items,4629,Cosmic Drive,-1.9835,1782
+16.13,All Items,4633,Riftmaker,0.2923,1273
+16.13,All Items,6333,Death's Dance,-0.4023,647
+16.13,All Items,6610,Sundered Sky,-1.9927,455
+16.13,All Items,6657,Rod of Ages,-6.2572,138
+16.13,All Items,6662,Iceborn Gauntlet,-2.2299,981
+16.13,All Items,6665,"Jak'Sho, The Protean",-0.1188,2450
+16.13,All Items,6672,Kraken Slayer,-5.5867,211
+16.13,All Items,6675,Navori Flickerblade,0.6121,23670
+16.14,Keystone,8010,Conqueror,0.1097,265
+16.14,Keystone,8005,Press the Attack,0.3553,3113
+16.14,Keystone,8008,Lethal Tempo,0.1336,18972
+16.14,Keystone,8437,Grasp of the Undying,-10.4632,280
+16.14,Spell,4,Flash,0.0344,22416
+16.14,Spell,6,Ghost,-2.0921,370
+16.14,Spell,11,Smite,0.0,22813
+16.14,Starter,1101,Scorchclaw Pup,-0.8036,1832
+16.14,Starter,1102,Gustwalker Hatchling,0.1397,18642
+16.14,Starter,1103,Mosstomper Seedling,-0.485,2333
+16.14,Boots,3008,Gluttonous Greaves,1.7265,747
+16.14,Boots,3009,Boots of Swiftness,-0.1659,1067
+16.14,Boots,3047,Plated Steelcaps,0.1256,8252
+16.14,Boots,3111,Mercury's Treads,0.625,10244
+16.14,Boots,3158,Ionian Boots of Lucidity,0.2005,1461
+16.14,1st Item,2510,Dusk and Dawn,0.755,17022
+16.14,1st Item,3071,Black Cleaver,-0.2491,140
+16.14,1st Item,3078,Trinity Force,-2.2751,2859
+16.14,1st Item,3087,Statikk Shiv,0.9472,230
+16.14,1st Item,3115,Nashor's Tooth,-2.8904,361
+16.14,1st Item,4629,Cosmic Drive,-3.6425,693
+16.14,1st Item,6610,Sundered Sky,1.2562,134
+16.14,1st Item,6662,Iceborn Gauntlet,-2.6787,276
+16.14,1st Item,6675,Navori Flickerblade,0.6014,364
+16.14,2nd Item,2502,Unending Despair,-4.1689,176
+16.14,2nd Item,2510,Dusk and Dawn,2.7167,485
+16.14,2nd Item,3065,Spirit Visage,-1.6386,1467
+16.14,2nd Item,3075,Thornmail,-1.3994,351
+16.14,2nd Item,3084,Heartsteel,0.0805,117
+16.14,2nd Item,3087,Statikk Shiv,-1.0419,1670
+16.14,2nd Item,3143,Randuin's Omen,-1.7081,252
+16.14,2nd Item,3161,Spear of Shojin,-2.4655,1349
+16.14,2nd Item,3742,Dead Man's Plate,-3.6251,889
+16.14,2nd Item,4629,Cosmic Drive,-3.8321,171
+16.14,2nd Item,4633,Riftmaker,1.6376,196
+16.14,2nd Item,6662,Iceborn Gauntlet,0.8048,236
+16.14,2nd Item,6675,Navori Flickerblade,1.1688,12514
+16.14,3rd Item,2502,Unending Despair,0.2446,553
+16.14,3rd Item,2504,Kaenic Rookern,1.836,101
+16.14,3rd Item,3065,Spirit Visage,0.4277,7609
+16.14,3rd Item,3075,Thornmail,0.03,2169
+16.14,3rd Item,3087,Statikk Shiv,-2.3746,194
+16.14,3rd Item,3110,Frozen Heart,0.1706,240
+16.14,3rd Item,3115,Nashor's Tooth,-2.8809,113
+16.14,3rd Item,3143,Randuin's Omen,-0.8794,977
+16.14,3rd Item,3742,Dead Man's Plate,-0.1899,1756
+16.14,3rd Item,4401,Force of Nature,0.7497,122
+16.14,3rd Item,4633,Riftmaker,0.572,219
+16.14,3rd Item,6333,Death's Dance,1.6335,376
+16.14,3rd Item,6665,"Jak'Sho, The Protean",-0.8651,213
+16.14,3rd Item,6675,Navori Flickerblade,0.7778,667
+16.14,4th+ Item,2502,Unending Despair,0.648,773
+16.14,4th+ Item,2504,Kaenic Rookern,-0.7773,209
+16.14,4th+ Item,3041,Mejai's Soulstealer,2.0817,217
+16.14,4th+ Item,3053,Sterak's Gage,3.7145,158
+16.14,4th+ Item,3065,Spirit Visage,0.5741,2537
+16.14,4th+ Item,3075,Thornmail,0.2283,2273
+16.14,4th+ Item,3087,Statikk Shiv,-3.3219,159
+16.14,4th+ Item,3110,Frozen Heart,-0.8629,281
+16.14,4th+ Item,3115,Nashor's Tooth,-6.1663,113
+16.14,4th+ Item,3143,Randuin's Omen,1.1838,1486
+16.14,4th+ Item,3742,Dead Man's Plate,-1.8077,1246
+16.14,4th+ Item,4401,Force of Nature,-2.4005,308
+16.14,4th+ Item,4633,Riftmaker,2.1503,179
+16.14,4th+ Item,6333,Death's Dance,-0.544,234
+16.14,4th+ Item,6665,"Jak'Sho, The Protean",0.872,1262
+16.14,4th+ Item,6675,Navori Flickerblade,-0.3798,300
+16.14,All Items,2502,Unending Despair,-0.0957,1521
+16.14,All Items,2504,Kaenic Rookern,-0.8522,339
+16.14,All Items,2510,Dusk and Dawn,0.7572,17651
+16.14,All Items,2524,Bandlepipes,6.3539,103
+16.14,All Items,2525,Protoplasm Harness,-1.3906,155
+16.14,All Items,3041,Mejai's Soulstealer,0.6654,363
+16.14,All Items,3053,Sterak's Gage,2.2679,277
+16.14,All Items,3065,Spirit Visage,0.2105,11647
+16.14,All Items,3071,Black Cleaver,-0.7395,281
+16.14,All Items,3075,Thornmail,0.0137,4815
+16.14,All Items,3078,Trinity Force,-2.2349,2931
+16.14,All Items,3084,Heartsteel,-1.8603,216
+16.14,All Items,3087,Statikk Shiv,-1.1125,2257
+16.14,All Items,3110,Frozen Heart,-0.706,593
+16.14,All Items,3115,Nashor's Tooth,-3.8568,686
+16.14,All Items,3143,Randuin's Omen,0.1685,2726
+16.14,All Items,3152,Hextech Rocketbelt,-2.429,172
+16.14,All Items,3157,Zhonya's Hourglass,-8.4153,179
+16.14,All Items,3161,Spear of Shojin,-2.0383,1534
+16.14,All Items,3742,Dead Man's Plate,-1.4533,3933
+16.14,All Items,4401,Force of Nature,-1.1234,487
+16.14,All Items,4629,Cosmic Drive,-2.8686,1056
+16.14,All Items,4633,Riftmaker,-0.0035,668
+16.14,All Items,6333,Death's Dance,0.5014,672
+16.14,All Items,6610,Sundered Sky,-3.0977,272
+16.14,All Items,6662,Iceborn Gauntlet,-1.2106,563
+16.14,All Items,6665,"Jak'Sho, The Protean",0.3898,1523
+16.14,All Items,6675,Navori Flickerblade,1.0977,13850
+16.15,Keystone,8010,Conqueror,-5.0498,299
+16.15,Keystone,8005,Press the Attack,-0.6744,3438
+16.15,Keystone,8008,Lethal Tempo,0.2563,21070
+16.15,Keystone,8437,Grasp of the Undying,-5.5087,249
+16.15,Spell,4,Flash,0.0967,24797
+16.15,Spell,6,Ghost,-4.3971,478
+16.15,Spell,11,Smite,0.0,25328
+16.15,Starter,1101,Scorchclaw Pup,-2.0204,1965
+16.15,Starter,1102,Gustwalker Hatchling,0.0425,20823
+16.15,Starter,1103,Mosstomper Seedling,1.2151,2539
+16.15,Boots,3008,Gluttonous Greaves,-1.6117,702
+16.15,Boots,3009,Boots of Swiftness,-0.329,1133
+16.15,Boots,3047,Plated Steelcaps,0.1439,9448
+16.15,Boots,3111,Mercury's Treads,0.6638,11305
+16.15,Boots,3158,Ionian Boots of Lucidity,-1.7051,1631
+16.15,1st Item,2510,Dusk and Dawn,0.7023,18347
+16.15,1st Item,3071,Black Cleaver,0.1387,277
+16.15,1st Item,3078,Trinity Force,-2.1091,3511
+16.15,1st Item,3087,Statikk Shiv,3.5603,341
+16.15,1st Item,3115,Nashor's Tooth,-2.6269,290
+16.15,1st Item,3152,Hextech Rocketbelt,3.2626,153
+16.15,1st Item,4629,Cosmic Drive,-4.5667,756
+16.15,1st Item,6610,Sundered Sky,-2.6727,189
+16.15,1st Item,6657,Rod of Ages,6.4912,119
+16.15,1st Item,6662,Iceborn Gauntlet,-6.5208,265
+16.15,1st Item,6675,Navori Flickerblade,0.2698,362
+16.15,2nd Item,2502,Unending Despair,3.5725,213
+16.15,2nd Item,2510,Dusk and Dawn,2.4569,602
+16.15,2nd Item,3065,Spirit Visage,-1.3244,1362
+16.15,2nd Item,3075,Thornmail,-4.2314,301
+16.15,2nd Item,3087,Statikk Shiv,-1.5058,1531
+16.15,2nd Item,3115,Nashor's Tooth,0.8743,129
+16.15,2nd Item,3143,Randuin's Omen,-0.3177,152
+16.15,2nd Item,3161,Spear of Shojin,-1.9435,1818
+16.15,2nd Item,3742,Dead Man's Plate,-0.1272,1032
+16.15,2nd Item,4629,Cosmic Drive,2.04,182
+16.15,2nd Item,4633,Riftmaker,-1.7571,251
+16.15,2nd Item,6610,Sundered Sky,2.599,149
+16.15,2nd Item,6662,Iceborn Gauntlet,-6.1935,328
+16.15,2nd Item,6675,Navori Flickerblade,0.8032,14095
+16.15,3rd Item,2502,Unending Despair,-0.8421,580
+16.15,3rd Item,2510,Dusk and Dawn,-1.2239,113
+16.15,3rd Item,3065,Spirit Visage,0.2716,8453
+16.15,3rd Item,3075,Thornmail,-0.4497,2359
+16.15,3rd Item,3087,Statikk Shiv,0.1263,248
+16.15,3rd Item,3110,Frozen Heart,-1.4995,259
+16.15,3rd Item,3115,Nashor's Tooth,-2.6571,126
+16.15,3rd Item,3143,Randuin's Omen,1.7008,1025
+16.15,3rd Item,3161,Spear of Shojin,-2.1144,151
+16.15,3rd Item,3742,Dead Man's Plate,0.1651,1846
+16.15,3rd Item,4401,Force of Nature,-3.8303,143
+16.15,3rd Item,4629,Cosmic Drive,-1.0577,114
+16.15,3rd Item,4633,Riftmaker,-5.9354,196
+16.15,3rd Item,6333,Death's Dance,1.377,664
+16.15,3rd Item,6665,"Jak'Sho, The Protean",1.2409,214
+16.15,3rd Item,6675,Navori Flickerblade,1.5713,779
+16.15,4th+ Item,2502,Unending Despair,-1.0943,774
+16.15,4th+ Item,2504,Kaenic Rookern,1.6269,242
+16.15,4th+ Item,3041,Mejai's Soulstealer,1.0037,234
+16.15,4th+ Item,3053,Sterak's Gage,3.3561,180
+16.15,4th+ Item,3065,Spirit Visage,0.9514,2948
+16.15,4th+ Item,3075,Thornmail,0.2107,2489
+16.15,4th+ Item,3087,Statikk Shiv,2.6351,170
+16.15,4th+ Item,3110,Frozen Heart,0.355,326
+16.15,4th+ Item,3143,Randuin's Omen,0.2168,1635
+16.15,4th+ Item,3157,Zhonya's Hourglass,0.7283,121
+16.15,4th+ Item,3742,Dead Man's Plate,-1.4498,1412
+16.15,4th+ Item,4401,Force of Nature,3.1352,302
+16.15,4th+ Item,4629,Cosmic Drive,-4.3396,137
+16.15,4th+ Item,4633,Riftmaker,-0.2915,193
+16.15,4th+ Item,6333,Death's Dance,-3.2346,332
+16.15,4th+ Item,6665,"Jak'Sho, The Protean",-0.4813,1431
+16.15,4th+ Item,6675,Navori Flickerblade,-1.566,343
+16.15,All Items,2502,Unending Despair,-0.4016,1583
+16.15,All Items,2504,Kaenic Rookern,2.6,396
+16.15,All Items,2510,Dusk and Dawn,0.7637,19140
+16.15,All Items,2525,Protoplasm Harness,7.2215,171
+16.15,All Items,3041,Mejai's Soulstealer,0.4341,383
+16.15,All Items,3053,Sterak's Gage,2.0062,312
+16.15,All Items,3065,Spirit Visage,0.2622,12791
+16.15,All Items,3071,Black Cleaver,-0.4683,461
+16.15,All Items,3075,Thornmail,-0.3675,5167
+16.15,All Items,3078,Trinity Force,-2.1188,3614
+16.15,All Items,3084,Heartsteel,-3.4838,136
+16.15,All Items,3087,Statikk Shiv,-0.267,2292
+16.15,All Items,3110,Frozen Heart,-0.5574,678
+16.15,All Items,3115,Nashor's Tooth,-2.5731,643
+16.15,All Items,3143,Randuin's Omen,0.7391,2832
+16.15,All Items,3152,Hextech Rocketbelt,-0.619,239
+16.15,All Items,3157,Zhonya's Hourglass,-1.9804,186
+16.15,All Items,3161,Spear of Shojin,-2.3943,2107
+16.15,All Items,3302,Terminus,-4.9683,180
+16.15,All Items,3742,Dead Man's Plate,-0.5215,4354
+16.15,All Items,4401,Force of Nature,1.3615,513
+16.15,All Items,4629,Cosmic Drive,-3.1755,1194
+16.15,All Items,4633,Riftmaker,-2.6907,677
+16.15,All Items,6333,Death's Dance,-0.2353,1086
+16.15,All Items,6610,Sundered Sky,-0.7512,411
+16.15,All Items,6657,Rod of Ages,7.5893,140
+16.15,All Items,6662,Iceborn Gauntlet,-6.2665,662
+16.15,All Items,6665,"Jak'Sho, The Protean",-0.3626,1725
+16.15,All Items,6675,Navori Flickerblade,0.7789,15591
+16.16,Keystone,8010,Conqueror,-5.0925,138
+16.16,Keystone,8005,Press the Attack,0.0985,1613
+16.16,Keystone,8008,Lethal Tempo,0.1802,8201
+16.16,Spell,4,Flash,-0.0238,9963
+16.16,Spell,6,Ghost,1.0448,223
+16.16,Spell,11,Smite,0.0,10199
+16.16,Starter,1101,Scorchclaw Pup,-0.0665,796
+16.16,Starter,1102,Gustwalker Hatchling,0.1845,8392
+16.16,Starter,1103,Mosstomper Seedling,-1.4808,1010
+16.16,Boots,3008,Gluttonous Greaves,-2.6989,270
+16.16,Boots,3009,Boots of Swiftness,0.4652,414
+16.16,Boots,3047,Plated Steelcaps,0.5674,3983
+16.16,Boots,3111,Mercury's Treads,-0.1918,4354
+16.16,Boots,3158,Ionian Boots of Lucidity,-0.3352,703
+16.16,1st Item,2510,Dusk and Dawn,0.8316,7185
+16.16,1st Item,3071,Black Cleaver,-3.3046,136
+16.16,1st Item,3078,Trinity Force,-1.2248,1310
+16.16,1st Item,3087,Statikk Shiv,-10.5921,113
+16.16,1st Item,3115,Nashor's Tooth,-5.2752,162
+16.16,1st Item,3152,Hextech Rocketbelt,-3.1427,102
+16.16,1st Item,4629,Cosmic Drive,-1.9252,469
+16.16,1st Item,6662,Iceborn Gauntlet,4.4814,112
+16.16,1st Item,6675,Navori Flickerblade,-3.0188,128
+16.16,2nd Item,2510,Dusk and Dawn,0.6117,284
+16.16,2nd Item,3065,Spirit Visage,-1.7151,546
+16.16,2nd Item,3071,Black Cleaver,-1.5638,130
+16.16,2nd Item,3075,Thornmail,-0.6453,121
+16.16,2nd Item,3087,Statikk Shiv,2.5918,622
+16.16,2nd Item,3161,Spear of Shojin,-0.1507,744
+16.16,2nd Item,3742,Dead Man's Plate,-0.2879,432
+16.16,2nd Item,4633,Riftmaker,-4.8385,112
+16.16,2nd Item,6662,Iceborn Gauntlet,-4.1698,332
+16.16,2nd Item,6675,Navori Flickerblade,0.5519,5287
+16.16,3rd Item,2502,Unending Despair,1.3611,214
+16.16,3rd Item,3065,Spirit Visage,-0.1664,3247
+16.16,3rd Item,3075,Thornmail,-0.7964,923
+16.16,3rd Item,3087,Statikk Shiv,3.1059,111
+16.16,3rd Item,3143,Randuin's Omen,2.5737,456
+16.16,3rd Item,3742,Dead Man's Plate,-0.1066,721
+16.16,3rd Item,4633,Riftmaker,-3.8338,109
+16.16,3rd Item,6333,Death's Dance,3.7602,247
+16.16,3rd Item,6675,Navori Flickerblade,-1.5118,305
+16.16,4th+ Item,2502,Unending Despair,1.4956,292
+16.16,4th+ Item,3065,Spirit Visage,1.4264,1167
+16.16,4th+ Item,3075,Thornmail,-1.0288,986
+16.16,4th+ Item,3110,Frozen Heart,4.7143,118
+16.16,4th+ Item,3143,Randuin's Omen,0.2722,675
+16.16,4th+ Item,3742,Dead Man's Plate,-1.2953,550
+16.16,4th+ Item,4401,Force of Nature,-1.3716,112
+16.16,4th+ Item,6333,Death's Dance,-3.2799,135
+16.16,4th+ Item,6665,"Jak'Sho, The Protean",-2.5632,549
+16.16,4th+ Item,6675,Navori Flickerblade,4.1182,115
+16.16,All Items,3053,Sterak's Gage,-2.9772,192
+16.16,All Items,6675,Navori Flickerblade,0.4358,5837
+16.16,All Items,2502,Unending Despair,1.8741,598
+16.16,All Items,3143,Randuin's Omen,0.8465,1217
+16.16,All Items,3041,Mejai's Soulstealer,0.216,129
+16.16,All Items,6610,Sundered Sky,-0.1374,143
+16.16,All Items,3071,Black Cleaver,-1.8065,381
+16.16,All Items,6333,Death's Dance,1.8831,415
+16.16,All Items,3115,Nashor's Tooth,-3.5389,287
+16.16,All Items,2504,Kaenic Rookern,-0.7614,115
+16.16,All Items,2510,Dusk and Dawn,0.8542,7547
+16.16,All Items,3110,Frozen Heart,4.9828,253
+16.16,All Items,3078,Trinity Force,-1.7023,1373
+16.16,All Items,4629,Cosmic Drive,-2.1701,665
+16.16,All Items,3157,Zhonya's Hourglass,-0.8177,108
+16.16,All Items,3075,Thornmail,-0.9581,2036
+16.16,All Items,6662,Iceborn Gauntlet,-2.8132,475
+16.16,All Items,6665,"Jak'Sho, The Protean",-2.4433,667
+16.16,All Items,4401,Force of Nature,-0.6418,206
+16.16,All Items,3161,Spear of Shojin,-0.2134,954
+16.16,All Items,3087,Statikk Shiv,0.6477,919
+16.16,All Items,3152,Hextech Rocketbelt,-4.8788,143
+16.16,All Items,4633,Riftmaker,-2.1466,303
+16.16,All Items,3065,Spirit Visage,0.0506,4971
+16.16,All Items,3742,Dead Man's Plate,-0.4188,1727
+16.17,Keystone,8010,Conqueror,4.4468,193
+16.17,Keystone,8005,Press the Attack,-1.5622,3098
+16.17,Keystone,8008,Lethal Tempo,0.7661,10259
+16.17,Keystone,8437,Grasp of the Undying,-8.4054,134
+16.17,Spell,4,Flash,0.1685,13640
+16.17,Spell,6,Ghost,-6.9323,292
+16.17,Spell,11,Smite,0.0,13948
+16.17,Starter,1101,Scorchclaw Pup,-1.6099,1625
+16.17,Starter,1102,Gustwalker Hatchling,0.1511,10878
+16.17,Starter,1103,Mosstomper Seedling,0.6739,1443
+16.17,Boots,3008,Gluttonous Greaves,-4.2106,412
+16.17,Boots,3009,Boots of Swiftness,-3.5322,599
+16.17,Boots,3020,Sorcerer's Shoes,-10.6882,766
+16.17,Boots,3047,Plated Steelcaps,0.9553,4987
+16.17,Boots,3111,Mercury's Treads,1.3834,5573
+16.17,Boots,3158,Ionian Boots of Lucidity,3.4357,979
+16.17,1st Item,2510,Dusk and Dawn,1.5264,9712
+16.17,1st Item,3071,Black Cleaver,0.306,150
+16.17,1st Item,3078,Trinity Force,-2.673,1068
+16.17,1st Item,3087,Statikk Shiv,-7.0628,1610
+16.17,1st Item,3115,Nashor's Tooth,-4.2612,109
+16.17,1st Item,4629,Cosmic Drive,0.9768,424
+16.17,1st Item,6675,Navori Flickerblade,-2.524,181
+16.17,2nd Item,2510,Dusk and Dawn,0.9411,655
+16.17,2nd Item,3065,Spirit Visage,0.3069,728
+16.17,2nd Item,3071,Black Cleaver,-1.4613,479
+16.17,2nd Item,3075,Thornmail,-0.0903,220
+16.17,2nd Item,3087,Statikk Shiv,1.8043,1205
+16.17,2nd Item,3143,Randuin's Omen,2.2755,142
+16.17,2nd Item,3161,Spear of Shojin,-1.1577,513
+16.17,2nd Item,3742,Dead Man's Plate,1.8456,507
+16.17,2nd Item,4629,Cosmic Drive,1.7487,123
+16.17,2nd Item,4633,Riftmaker,3.3131,111
+16.17,2nd Item,4645,Shadowflame,-11.5409,558
+16.17,2nd Item,4646,Stormsurge,-8.0214,317
+16.17,2nd Item,6662,Iceborn Gauntlet,-0.9528,244
+16.17,2nd Item,6675,Navori Flickerblade,0.8138,6303
+16.17,3rd Item,2502,Unending Despair,1.2835,322
+16.17,3rd Item,3053,Sterak's Gage,-0.8079,173
+16.17,3rd Item,3065,Spirit Visage,0.705,3746
+16.17,3rd Item,3075,Thornmail,1.0232,1230
+16.17,3rd Item,3087,Statikk Shiv,3.9906,156
+16.17,3rd Item,3089,Rabadon's Deathcap,-8.6307,130
+16.17,3rd Item,3110,Frozen Heart,0.1398,117
+16.17,3rd Item,3143,Randuin's Omen,-1.0383,667
+16.17,3rd Item,3161,Spear of Shojin,-2.9666,101
+16.17,3rd Item,3742,Dead Man's Plate,2.5786,989
+16.17,3rd Item,4633,Riftmaker,-3.1293,119
+16.17,3rd Item,4645,Shadowflame,-6.2102,241
+16.17,3rd Item,4646,Stormsurge,-8.4868,391
+16.17,3rd Item,6333,Death's Dance,0.1247,187
+16.17,3rd Item,6665,"Jak'Sho, The Protean",-2.4771,120
+16.17,3rd Item,6675,Navori Flickerblade,0.4776,438
+16.17,4th+ Item,2502,Unending Despair,0.5379,405
+16.17,4th+ Item,3041,Mejai's Soulstealer,4.5566,105
+16.17,4th+ Item,3053,Sterak's Gage,-3.8083,135
+16.17,4th+ Item,3065,Spirit Visage,2.4012,1483
+16.17,4th+ Item,3075,Thornmail,-0.4588,1195
+16.17,4th+ Item,3087,Statikk Shiv,-2.6083,104
+16.17,4th+ Item,3089,Rabadon's Deathcap,-7.3354,229
+16.17,4th+ Item,3110,Frozen Heart,-3.9713,130
+16.17,4th+ Item,3143,Randuin's Omen,1.0336,900
+16.17,4th+ Item,3157,Zhonya's Hourglass,-3.7593,123
+16.17,4th+ Item,3742,Dead Man's Plate,-2.6718,680
+16.17,4th+ Item,4401,Force of Nature,-3.3783,126
+16.17,4th+ Item,6333,Death's Dance,0.1641,138
+16.17,4th+ Item,6665,"Jak'Sho, The Protean",0.2587,608
+16.17,4th+ Item,6675,Navori Flickerblade,1.971,190
+16.17,All Items,4646,Stormsurge,-8.087,775
+16.17,All Items,4645,Shadowflame,-9.1057,858
+16.17,All Items,3053,Sterak's Gage,-0.4583,349
+16.17,All Items,6675,Navori Flickerblade,0.7392,7120
+16.17,All Items,2502,Unending Despair,0.5636,814
+16.17,All Items,3143,Randuin's Omen,0.3431,1724
+16.17,All Items,3041,Mejai's Soulstealer,3.991,180
+16.17,All Items,3071,Black Cleaver,-1.1648,725
+16.17,All Items,6333,Death's Dance,-1.0627,392
+16.17,All Items,3115,Nashor's Tooth,2.7911,258
+16.17,All Items,2504,Kaenic Rookern,0.5051,160
+16.17,All Items,2510,Dusk and Dawn,1.4909,10538
+16.17,All Items,3110,Frozen Heart,-0.1154,318
+16.17,All Items,3078,Trinity Force,-2.1307,1138
+16.17,All Items,4629,Cosmic Drive,1.367,718
+16.17,All Items,3157,Zhonya's Hourglass,-2.4355,196
+16.17,All Items,3075,Thornmail,0.2135,2656
+16.17,All Items,6662,Iceborn Gauntlet,-1.3081,369
+16.17,All Items,6665,"Jak'Sho, The Protean",-0.2823,773
+16.17,All Items,4401,Force of Nature,-3.9344,244
+16.17,All Items,3161,Spear of Shojin,-0.138,778
+16.17,All Items,3087,Statikk Shiv,-2.8748,3077
+16.17,All Items,3089,Rabadon's Deathcap,-8.6774,379
+16.17,All Items,3152,Hextech Rocketbelt,0.7887,197
+16.17,All Items,4633,Riftmaker,2.0428,353
+16.17,All Items,3065,Spirit Visage,1.0306,5971
+16.17,All Items,3742,Dead Man's Plate,0.8153,2214

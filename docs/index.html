@@ -57,10 +57,29 @@
               style="background-color: var(--bg-main); border: 1.5px solid var(--border-color); color: var(--text-primary); font-size: 1.35rem; font-weight: 700; border-radius: var(--radius); padding: 0.25rem 0.5rem; outline: none; cursor: pointer; letter-spacing: -0.04em;">
               <option value="236" selected>Lucian</option>
               <option value="901">Smolder</option>
-              <option value="245">Ekko (Jungla)</option>
+              <option value="245">Ekko</option>
+              <option value="887">Gwen</option>
+              <option value="106">Volibear</option>
             </select>
           </div>
-          <p id="champion-role">Tirador / ADC (Bot)</p>
+          <div class="role-selector" id="role-selector" style="display: flex; align-items: center; gap: 0.35rem; margin-top: 0.3rem;">
+            <button class="role-btn" data-role="0" title="Top (Carril Superior)">
+              <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png" width="16" height="16" alt="Top">
+            </button>
+            <button class="role-btn" data-role="1" title="Jungle (Jungla)">
+              <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png" width="16" height="16" alt="Jungle">
+            </button>
+            <button class="role-btn" data-role="2" title="Middle (Carril Central)">
+              <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png" width="16" height="16" alt="Mid">
+            </button>
+            <button class="role-btn" data-role="3" title="Bottom (ADC / Tirador)">
+              <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png" width="16" height="16" alt="Bot">
+            </button>
+            <button class="role-btn" data-role="4" title="Utility (Soporte)">
+              <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png" width="16" height="16" alt="Support">
+            </button>
+          </div>
+          <p id="champion-role" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">Tirador / ADC (Bot)</p>
         </div>
       </div>
       <div class="header-actions">

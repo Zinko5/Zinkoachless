@@ -23,7 +23,7 @@
   - **Statistical Role Badges & Compact UX:** `⭐ Meta`, `🎯 Situacional / Hidden OP`, `📈 Emergente`, `⚡ Ajustado`.
   - **Dynamic Market Share Filter:** Mode 1 (`⭐ Populares & Solidez` - $0.5\%$ category sample cutoff) vs Mode 2 (`📚 Catálogo Completo` - 100% un-filtered).
   - **LoL Item Set Exporter:** Copies JSON payload directly to clipboard with custom `"Todos por WPA"` block.
-  - Dynamic champion selector (Lucian, Smolder, Ekko).
+  - Dynamic champion selector (Lucian, Smolder, Ekko Jungla/Mid, Gwen Jungla, Volibear Jungla) con barra de selección de línea por icono SVG oficial.
   - Dark mode aesthetic with glassmorphic cards and crisp layout.
 - [x] **Memory Bank:**
   - Standard Memory Bank system fully maintained (`projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`, `activeContext.md`, `progress.md`).

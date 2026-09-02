@@ -86,6 +86,9 @@ CHAMPIONS = [
     {"id": 236, "role": 3},  # Lucian (Bot/ADC)
     {"id": 901, "role": 3},  # Smolder (Bot/ADC)
     {"id": 245, "role": 1},  # Ekko (Jungla)
+    {"id": 245, "role": 2},  # Ekko (Mid)
+    {"id": 887, "role": 1},  # Gwen (Jungla)
+    {"id": 106, "role": 1}   # Volibear (Jungla)
 ]
 MAJOR = 16              # Season
 PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
@@ -101,10 +104,11 @@ for champ in CHAMPIONS:
     print(f"=========================================")
     
     os.makedirs(os.path.join("data", "raw"), exist_ok=True)
-    filename = os.path.join("data", "raw", f"coachless_champ_{champ_id}_full_stats.json")
+    filename = os.path.join("data", "raw", f"coachless_champ_{champ_id}_role_{champ_role}_full_stats.json")
+    legacy_filename = os.path.join("data", "raw", f"coachless_champ_{champ_id}_full_stats.json")
     resultado_final = {}
     
-    # Intentar cargar datos existentes
+    # Intentar cargar datos existentes específicos para este rol
     if os.path.exists(filename):
         try:
             with open(filename, "r", encoding="utf-8") as f:

@@ -5,6 +5,7 @@ const spellImages = {
   4: "SummonerFlash.png",
   6: "SummonerHaste.png",
   7: "SummonerHeal.png",
+  11: "SummonerSmite.png",
   12: "SummonerTeleport.png",
   14: "SummonerDot.png",
   21: "SummonerBarrier.png"
@@ -405,16 +406,62 @@ function formatNumber(num) {
 const championNames = {
   236: "Lucian",
   901: "Smolder",
-  245: "Ekko"
+  245: "Ekko",
+  887: "Gwen",
+  106: "Volibear"
 };
 
-const championRoles = {
-  236: "Tirador / ADC (Bot)",
-  901: "Tirador / ADC (Bot)",
-  245: "Jungla"
+// Roles soportados por cada campeón (ID de rol de Coachless: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support)
+const championRolesMap = {
+  236: [3],    // Lucian (Bot)
+  901: [3],    // Smolder (Bot)
+  245: [1, 2], // Ekko (Jungle, Mid)
+  887: [1],    // Gwen (Jungle)
+  106: [1]     // Volibear (Jungle)
+};
+
+const roleNames = {
+  0: "Superior (Top)",
+  1: "Jungla (Jungle)",
+  2: "Central (Mid)",
+  3: "Tirador / ADC (Bot)",
+  4: "Soporte (Support)"
 };
 
 let selectedChamp = "236";
+let selectedRole = 3;
+
+function updateRoleSelector() {
+  const supportedRoles = championRolesMap[selectedChamp] || [3];
+  
+  // Si el rol seleccionado actual no está entre los soportados del campeón, cambiar al primero disponible
+  if (!supportedRoles.includes(selectedRole)) {
+    selectedRole = supportedRoles[0];
+  }
+
+  const roleBtns = document.querySelectorAll("#role-selector .role-btn");
+  roleBtns.forEach(btn => {
+    const roleId = parseInt(btn.getAttribute("data-role"));
+    if (supportedRoles.includes(roleId)) {
+      btn.classList.remove("disabled");
+      btn.removeAttribute("disabled");
+      if (roleId === selectedRole) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    } else {
+      btn.classList.add("disabled");
+      btn.classList.remove("active");
+      btn.setAttribute("disabled", "true");
+    }
+  });
+
+  const roleLabel = document.getElementById("champion-role");
+  if (roleLabel) {
+    roleLabel.innerText = roleNames[selectedRole] || "Rol no disponible";
+  }
+}
 
 // Cargar datos
 async function loadData() {
@@ -441,6 +488,16 @@ async function loadData() {
         console.log("Runes mapped successfully from DDragon.");
       }
 
+      // Cargar catálogo de hechizos para poblar sus imágenes exactas (ej. Smite, Flash, etc.)
+      const sRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/summoner.json`);
+      if (sRes.ok) {
+        const spellData = await sRes.json();
+        for (const [key, val] of Object.entries(spellData.data)) {
+          spellImages[Number(val.key)] = val.image.full;
+        }
+        console.log("Summoner spells mapped successfully from DDragon.");
+      }
+
       // Cargar catálogo de campeones para mapear IDs a nombres
       const cRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/champion.json`);
       if (cRes.ok) {
@@ -455,19 +512,24 @@ async function loadData() {
     console.warn("Could not fetch DDragon versions, runes or champions dynamically:", e);
   }
 
-  // Actualizar cabecera del campeón
+  // Actualizar cabecera del campeón y botones de roles
   const champName = championNames[selectedChamp] || "Ekko";
   document.getElementById("champion-avatar").src = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
-  document.getElementById("champion-role").innerText = championRoles[selectedChamp] || "Campeón";
+  updateRoleSelector();
 
-  // Usar datos embebidos offline si están disponibles (evita 404 en servidores donde /docs es raíz)
-  const offlineData = (window.fallbackGranularDataMap && window.fallbackGranularDataMap[selectedChamp]) || window[`fallbackGranularData${selectedChamp}`];
+  // Clave del archivo según campeón y rol si es diferente al por defecto
+  const dataKey = `${selectedChamp}_role_${selectedRole}`;
+  const offlineData = (window.fallbackGranularDataMap && (window.fallbackGranularDataMap[dataKey] || window.fallbackGranularDataMap[selectedChamp])) || window[`fallbackGranularData${selectedChamp}`];
   
   if (offlineData && offlineData.length > 0) {
     wpaData = offlineData;
   } else {
     try {
-      const response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}.json`);
+      // Intentar cargar datos específicos de rol si existen, si no fallback al archivo base del campeón
+      let response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}_role_${selectedRole}.json`);
+      if (!response.ok) {
+        response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}.json`);
+      }
       if (response.ok) {
         wpaData = await response.json();
       } else {
@@ -491,6 +553,21 @@ window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("champion-select").addEventListener("change", (e) => {
     selectedChamp = e.target.value;
     loadData();
+  });
+
+  // Selector de Roles por botones de línea
+  document.querySelectorAll("#role-selector .role-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const targetBtn = e.currentTarget;
+      if (targetBtn.classList.contains("disabled")) return;
+      
+      const roleId = parseInt(targetBtn.getAttribute("data-role"));
+      if (selectedRole !== roleId) {
+        selectedRole = roleId;
+        updateRoleSelector();
+        loadData();
+      }
+    });
   });
 
   // Pestaña Builds

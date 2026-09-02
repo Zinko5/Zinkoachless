@@ -87,6 +87,69 @@ body {
   color: var(--text-secondary);
 }
 
+/* ROLE SELECTOR BUTTONS */
+.role-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 0.2rem;
+  width: fit-content;
+}
+
+.role-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  padding: 0.35rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  opacity: 0.4;
+}
+
+.role-btn img {
+  width: 16px;
+  height: 16px;
+  opacity: 0.5;
+  filter: brightness(0.8) invert(1);
+  transition: all 0.2s ease;
+}
+
+.role-btn:not(.disabled):hover {
+  background-color: var(--bg-card-hover);
+}
+
+.role-btn:not(.disabled):hover img {
+  opacity: 0.9;
+  filter: brightness(1) invert(1);
+}
+
+.role-btn.active {
+  background-color: rgba(59, 130, 246, 0.2);
+  opacity: 1;
+  border: 1px solid rgba(59, 130, 246, 0.5);
+}
+
+.role-btn.active img {
+  opacity: 1;
+  filter: invert(53%) sepia(85%) saturate(3015%) hue-rotate(200deg) brightness(102%) contrast(97%);
+}
+
+.role-btn.disabled {
+  opacity: 0.15;
+  cursor: not-allowed;
+}
+
+.role-btn.disabled img {
+  filter: grayscale(100%) brightness(0.4);
+}
+
 /* FILTROS / ACCIONES DE CABECERA */
 .header-actions {
   display: flex;
