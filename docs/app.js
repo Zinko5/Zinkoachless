@@ -411,19 +411,33 @@ const championNames = {
   106: "Volibear",
   1: "Annie",
   19: "Warwick",
-  9: "Fiddlesticks"
+  9: "Fiddlesticks",
+  234: "Viego",
+  360: "Samira",
+  233: "Briar",
+  35: "Shaco",
+  104: "Graves",
+  84: "Akali",
+  99: "Lux"
 };
 
 // Roles soportados por cada campeón (ID de rol de Coachless: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support)
 const championRolesMap = {
-  236: [3],    // Lucian (Bot)
-  901: [3],    // Smolder (Bot)
-  245: [1, 2], // Ekko (Jungle, Mid)
-  887: [1, 2], // Gwen (Jungle, Mid)
-  106: [1],    // Volibear (Jungle)
-  1: [2],      // Annie (Mid)
-  19: [0, 1],  // Warwick (Top, Jungle)
-  9: [1]       // Fiddlesticks (Jungle)
+  236: [3],       // Lucian (Bot)
+  901: [3],       // Smolder (Bot)
+  245: [1, 2],    // Ekko (Jungle, Mid)
+  887: [1, 2],    // Gwen (Jungle, Mid)
+  106: [1],       // Volibear (Jungle)
+  1: [2],         // Annie (Mid)
+  19: [0, 1],     // Warwick (Top, Jungle)
+  9: [1],         // Fiddlesticks (Jungle)
+  234: [1],       // Viego (Jungle)
+  360: [3],       // Samira (Bot)
+  233: [1],       // Briar (Jungle)
+  35: [1],        // Shaco (Jungle)
+  104: [1],       // Graves (Jungle)
+  84: [0, 2],     // Akali (Top, Mid)
+  99: [2, 3, 4]   // Lux (Mid, Bot, Support)
 };
 
 const roleNames = {
@@ -550,8 +564,20 @@ async function loadData() {
   applyFilters();
 }
 
+function sortChampionSelectOptions() {
+  const select = document.getElementById("champion-select");
+  if (!select) return;
+  const selectedValue = select.value;
+  const options = Array.from(select.options);
+  options.sort((a, b) => a.text.localeCompare(b.text));
+  select.innerHTML = "";
+  options.forEach(opt => select.add(opt));
+  select.value = selectedValue;
+}
+
 // Configurar controladores de eventos
 window.addEventListener("DOMContentLoaded", () => {
+  sortChampionSelectOptions();
   loadData();
   lucide.createIcons();
 

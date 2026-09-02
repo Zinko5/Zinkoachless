@@ -95,7 +95,17 @@ CHAMPIONS = [
     {"id": 1, "role": 2},    # Annie (Mid)
     {"id": 19, "role": 0},   # Warwick (Top)
     {"id": 19, "role": 1},   # Warwick (Jungla)
-    {"id": 9, "role": 1}     # Fiddlesticks (Jungla)
+    {"id": 9, "role": 1},    # Fiddlesticks (Jungla)
+    {"id": 234, "role": 1},  # Viego (Jungla)
+    {"id": 360, "role": 3},  # Samira (Bot/ADC)
+    {"id": 233, "role": 1},  # Briar (Jungla)
+    {"id": 35, "role": 1},   # Shaco (Jungla)
+    {"id": 104, "role": 1},  # Graves (Jungla)
+    {"id": 84, "role": 0},   # Akali (Top)
+    {"id": 84, "role": 2},   # Akali (Mid)
+    {"id": 99, "role": 3},   # Lux (Bot/ADC)
+    {"id": 99, "role": 2},   # Lux (Mid)
+    {"id": 99, "role": 4}    # Lux (Support)
 ]
 MAJOR = 16              # Season
 PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
