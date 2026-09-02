@@ -24,7 +24,7 @@
     "name": "Fleet Footwork",
     "wpa": -4.8906,
     "sample_size": 243,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.1",
@@ -5292,7 +5292,7 @@
     "name": "Fleet Footwork",
     "wpa": -1.0837,
     "sample_size": 124,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.2",
@@ -10217,7 +10217,7 @@
     "name": "Fleet Footwork",
     "wpa": -9.9964,
     "sample_size": 125,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.3",
@@ -14994,7 +14994,7 @@
     "name": "Fleet Footwork",
     "wpa": -15.3437,
     "sample_size": 114,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.4",
@@ -19877,7 +19877,7 @@
     "name": "Fleet Footwork",
     "wpa": -6.463,
     "sample_size": 131,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.5",
@@ -24933,7 +24933,7 @@
     "name": "Fleet Footwork",
     "wpa": -5.6995,
     "sample_size": 145,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.6",
@@ -29951,7 +29951,7 @@
     "name": "Fleet Footwork",
     "wpa": -8.1051,
     "sample_size": 118,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.7",
@@ -35087,7 +35087,7 @@
     "name": "Fleet Footwork",
     "wpa": -0.3618,
     "sample_size": 117,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.8",
@@ -39873,7 +39873,7 @@
     "name": "Fleet Footwork",
     "wpa": -6.4959,
     "sample_size": 118,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.9",
@@ -45109,7 +45109,7 @@
     "name": "Fleet Footwork",
     "wpa": -8.6968,
     "sample_size": 113,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.10",
@@ -50396,7 +50396,7 @@
     "name": "Fleet Footwork",
     "wpa": -7.9336,
     "sample_size": 111,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.11",
@@ -55337,7 +55337,7 @@
     "name": "Fleet Footwork",
     "wpa": -7.0174,
     "sample_size": 110,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.12",
@@ -60256,7 +60256,7 @@
     "name": "Fleet Footwork",
     "wpa": -7.3166,
     "sample_size": 157,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.13",
@@ -70567,7 +70567,7 @@
     "name": "Fleet Footwork",
     "wpa": -5.2386,
     "sample_size": 139,
-    "last_changed_patch": "16.1"
+    "last_changed_patch": "16.17"
   },
   {
     "patch": "16.15",
@@ -79427,6 +79427,3482 @@
         }
       ],
       "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "Keystone",
+    "id": 8369,
+    "name": "First Strike",
+    "wpa": -3.0679,
+    "sample_size": 1986,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Keystone",
+    "id": 8005,
+    "name": "Press the Attack",
+    "wpa": 0.3206,
+    "sample_size": 60717,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Keystone",
+    "id": 8008,
+    "name": "Lethal Tempo",
+    "wpa": -4.7479,
+    "sample_size": 473,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Keystone",
+    "id": 8112,
+    "name": "Electrocute",
+    "wpa": -6.3472,
+    "sample_size": 1378,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 1,
+    "name": "Cleanse",
+    "wpa": 0.8477,
+    "sample_size": 3783,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 3,
+    "name": "Exhaust",
+    "wpa": 0.0131,
+    "sample_size": 6972,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 4,
+    "name": "Flash",
+    "wpa": -0.0022,
+    "sample_size": 64808,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 6,
+    "name": "Ghost",
+    "wpa": 2.2595,
+    "sample_size": 107,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 7,
+    "name": "Heal",
+    "wpa": -5.5425,
+    "sample_size": 328,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 14,
+    "name": "Ignite",
+    "wpa": -0.1292,
+    "sample_size": 344,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Spell",
+    "id": 21,
+    "name": "Barrier",
+    "wpa": -0.0352,
+    "sample_size": 53236,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Starter",
+    "id": 1055,
+    "name": "Doran's Blade",
+    "wpa": -0.0672,
+    "sample_size": 19438,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Starter",
+    "id": 1086,
+    "name": "Doran's Bow",
+    "wpa": 0.0295,
+    "sample_size": 44824,
+    "last_changed_patch": "16.10"
+  },
+  {
+    "patch": "16.17",
+    "category": "Starter",
+    "id": 1120,
+    "name": "Doran's Helm",
+    "wpa": 1.9627,
+    "sample_size": 331,
+    "last_changed_patch": "16.13"
+  },
+  {
+    "patch": "16.17",
+    "category": "Boots",
+    "id": 3006,
+    "name": "Berserker's Greaves",
+    "wpa": -1.008,
+    "sample_size": 11931,
+    "last_changed_patch": "16.16"
+  },
+  {
+    "patch": "16.17",
+    "category": "Boots",
+    "id": 3008,
+    "name": "Gluttonous Greaves",
+    "wpa": 0.4954,
+    "sample_size": 23236,
+    "last_changed_patch": "16.10"
+  },
+  {
+    "patch": "16.17",
+    "category": "Boots",
+    "id": 3009,
+    "name": "Boots of Swiftness",
+    "wpa": -2.4443,
+    "sample_size": 361,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Boots",
+    "id": 3047,
+    "name": "Plated Steelcaps",
+    "wpa": 1.0283,
+    "sample_size": 9249,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Boots",
+    "id": 3111,
+    "name": "Mercury's Treads",
+    "wpa": 0.6498,
+    "sample_size": 2937,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "Boots",
+    "id": 3158,
+    "name": "Ionian Boots of Lucidity",
+    "wpa": -1.101,
+    "sample_size": 11492,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "1st Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 6.2545,
+    "sample_size": 162,
+    "last_changed_patch": "16.3"
+  },
+  {
+    "patch": "16.17",
+    "category": "1st Item",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.1054,
+    "sample_size": 56747,
+    "last_changed_patch": "16.2"
+  },
+  {
+    "patch": "16.17",
+    "category": "1st Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.8826,
+    "sample_size": 1923,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "1st Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.7178,
+    "sample_size": 5059,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "1st Item",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 0.792,
+    "sample_size": 446,
+    "last_changed_patch": "16.9"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.6083,
+    "sample_size": 9509,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1434,
+    "sample_size": 285,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.607,
+    "sample_size": 561,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -5.7191,
+    "sample_size": 104,
+    "last_changed_patch": "16.16"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": 0.8362,
+    "sample_size": 431,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.095,
+    "sample_size": 4120,
+    "last_changed_patch": "16.2"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": 0.0002,
+    "sample_size": 345,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2362,
+    "sample_size": 41933,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": 1.1437,
+    "sample_size": 2754,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -4.1378,
+    "sample_size": 190,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "2nd Item",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 9.0457,
+    "sample_size": 124,
+    "last_changed_patch": "16.9"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2609,
+    "sample_size": 26772,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.0055,
+    "sample_size": 2512,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 1.3147,
+    "sample_size": 5599,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.5462,
+    "sample_size": 5165,
+    "last_changed_patch": "16.16"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -4.3857,
+    "sample_size": 294,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -2.2417,
+    "sample_size": 222,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": -2.6911,
+    "sample_size": 163,
+    "last_changed_patch": "16.2"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -3.6351,
+    "sample_size": 112,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": 0.2692,
+    "sample_size": 128,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -1.0818,
+    "sample_size": 6666,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.8473,
+    "sample_size": 579,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "3rd Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 4.0049,
+    "sample_size": 267,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -3.0006,
+    "sample_size": 165,
+    "last_changed_patch": "16.10"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 7.9162,
+    "sample_size": 123,
+    "last_changed_patch": "16.4"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.7431,
+    "sample_size": 5574,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.2128,
+    "sample_size": 6192,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.2282,
+    "sample_size": 4801,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.4919,
+    "sample_size": 10929,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.8482,
+    "sample_size": 1072,
+    "last_changed_patch": "16.16"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.4525,
+    "sample_size": 3504,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": 0.8228,
+    "sample_size": 604,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -3.6031,
+    "sample_size": 110,
+    "last_changed_patch": "16.3"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.3797,
+    "sample_size": 1160,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 2.5121,
+    "sample_size": 212,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -4.6507,
+    "sample_size": 267,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.213,
+    "sample_size": 1733,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -2.3605,
+    "sample_size": 361,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -0.8037,
+    "sample_size": 300,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.5273,
+    "sample_size": 1104,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -1.8894,
+    "sample_size": 1946,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": 0.3299,
+    "sample_size": 851,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "4th+ Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.3685,
+    "sample_size": 471,
+    "last_changed_patch": "16.1"
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -3.3656,
+    "sample_size": 106,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 106,
+      "averagePurchaseWinprob": 51.47885,
+      "averageWinrate": 48.11321,
+      "averagePurchaseTime": 1804470.5,
+      "wpaOverall": -3.3656278,
+      "wpaStandalone": 0,
+      "wpaBias": 0.34669662,
+      "deltaWhenEven": -4.1193023,
+      "deltaWhenAhead": -6.3282704,
+      "deltaWhenBehind": 0.37017795,
+      "evenOccurrence": 31.132074,
+      "aheadOccurrence": 34.90566,
+      "behindOccurrence": 33.962265,
+      "deltaAgainstBalancedDamage": -7.2749047,
+      "deltaAgainstMagicDamage": 0.33450097,
+      "deltaAgainstPhysicalDamage": -3.1784964,
+      "balancedDamageOccurrence": 32.07547,
+      "magicDamageOccurrence": 32.07547,
+      "physicalDamageOccurrence": 35.849056,
+      "deltaWhenBalancedRange": -2.0384145,
+      "deltaWhenHighRange": 0.79086095,
+      "deltaWhenLowRange": -7.323827,
+      "balancedRangeOccurrence": 38.679245,
+      "highRangeOccurrence": 23.584906,
+      "lowRangeOccurrence": 37.73585,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -6.8292284,
+      "deltaWhenSquishy": 0.37334555,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 56.60377,
+      "squishyOccurrence": 72.64151,
+      "deltaWhenNormalCC": -0.32119375,
+      "deltaWhenHighCC": -3.041875,
+      "deltaWhenLowCC": -6.898533,
+      "normalCCOccurrence": 34.90566,
+      "highCCOccurrence": 32.07547,
+      "lowCCOccurrence": 33.018867,
+      "deltaWhenGoldBalanced": -3.3656278,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 2021,
+          "count": 57,
+          "delta": -0.6694016
+        },
+        {
+          "itemId": 3134,
+          "count": 80,
+          "delta": -8.100491
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 94,
+          "delta": -1.161596
+        },
+        {
+          "tier": 4,
+          "count": 82,
+          "delta": 0.6282953
+        },
+        {
+          "tier": 5,
+          "count": 55,
+          "delta": -6.7169533
+        },
+        {
+          "tier": 6,
+          "count": 43,
+          "delta": -0.59792
+        },
+        {
+          "tier": 7,
+          "count": 8,
+          "delta": 4.7983027
+        }
+      ],
+      "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.6197,
+    "sample_size": 5797,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 5797,
+      "averagePurchaseWinprob": 57.91112,
+      "averageWinrate": 59.530796,
+      "averagePurchaseTime": 1976105.2,
+      "wpaOverall": 1.6197346,
+      "wpaStandalone": 0,
+      "wpaBias": -0.81247175,
+      "deltaWhenEven": 1.9262903,
+      "deltaWhenAhead": 1.2643033,
+      "deltaWhenBehind": 1.8860142,
+      "evenOccurrence": 31.188545,
+      "aheadOccurrence": 44.850784,
+      "behindOccurrence": 23.960669,
+      "deltaAgainstBalancedDamage": 1.4208355,
+      "deltaAgainstMagicDamage": 1.5751283,
+      "deltaAgainstPhysicalDamage": 1.8595178,
+      "balancedDamageOccurrence": 34.172848,
+      "magicDamageOccurrence": 31.602552,
+      "physicalDamageOccurrence": 34.224598,
+      "deltaWhenBalancedRange": 1.2347615,
+      "deltaWhenHighRange": 2.646977,
+      "deltaWhenLowRange": 1.3475038,
+      "balancedRangeOccurrence": 37.295155,
+      "highRangeOccurrence": 24.184923,
+      "lowRangeOccurrence": 38.519924,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 1.3593903,
+      "deltaWhenSquishy": 1.7524799,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 62.18734,
+      "squishyOccurrence": 70.41573,
+      "deltaWhenNormalCC": 1.5241108,
+      "deltaWhenHighCC": 1.4877256,
+      "deltaWhenLowCC": 1.8222692,
+      "normalCCOccurrence": 34.3281,
+      "highCCOccurrence": 29.946524,
+      "lowCCOccurrence": 35.725376,
+      "deltaWhenGoldBalanced": 1.6197346,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1038,
+          "count": 3618,
+          "delta": 2.0827034
+        },
+        {
+          "itemId": 2019,
+          "count": 2893,
+          "delta": 2.5004873
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 4244,
+          "delta": 1.4119189
+        },
+        {
+          "tier": 4,
+          "count": 4294,
+          "delta": 1.4673185
+        },
+        {
+          "tier": 5,
+          "count": 3806,
+          "delta": 1.5727186
+        },
+        {
+          "tier": 6,
+          "count": 1741,
+          "delta": 1.8354481
+        },
+        {
+          "tier": 7,
+          "count": 250,
+          "delta": 0.8332126
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 4,
+          "count": 636,
+          "delta": 2.135113
+        },
+        {
+          "slot": 5,
+          "count": 3699,
+          "delta": 1.8162384
+        },
+        {
+          "slot": 6,
+          "count": 1417,
+          "delta": 1.1704597
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": -2.7042,
+    "sample_size": 187,
+    "last_changed_patch": "16.10",
+    "details": {
+      "itemOccurrence": 187,
+      "averagePurchaseWinprob": 62.597233,
+      "averageWinrate": 59.893047,
+      "averagePurchaseTime": 1783663.2,
+      "wpaOverall": -2.70421,
+      "wpaStandalone": 0,
+      "wpaBias": -0.345877,
+      "deltaWhenEven": -1.473043,
+      "deltaWhenAhead": -4.0680943,
+      "deltaWhenBehind": -1.0754414,
+      "evenOccurrence": 27.272728,
+      "aheadOccurrence": 50.802143,
+      "behindOccurrence": 21.925133,
+      "deltaAgainstBalancedDamage": -0.7672136,
+      "deltaAgainstMagicDamage": -2.1027522,
+      "deltaAgainstPhysicalDamage": -4.9973845,
+      "balancedDamageOccurrence": 32.62032,
+      "magicDamageOccurrence": 31.5508,
+      "physicalDamageOccurrence": 35.828876,
+      "deltaWhenBalancedRange": 0.18150346,
+      "deltaWhenHighRange": -2.3471608,
+      "deltaWhenLowRange": -5.709756,
+      "balancedRangeOccurrence": 38.502674,
+      "highRangeOccurrence": 21.925133,
+      "lowRangeOccurrence": 39.57219,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -4.980743,
+      "deltaWhenSquishy": 0.1075348,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 70.588234,
+      "squishyOccurrence": 62.032085,
+      "deltaWhenNormalCC": -6.5548897,
+      "deltaWhenHighCC": 0.6451466,
+      "deltaWhenLowCC": -1.9458863,
+      "normalCCOccurrence": 32.085564,
+      "highCCOccurrence": 27.807486,
+      "lowCCOccurrence": 40.106953,
+      "deltaWhenGoldBalanced": -2.70421,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 100,
+          "delta": -0.70316505
+        },
+        {
+          "itemId": 3133,
+          "count": 145,
+          "delta": -0.14374816
+        },
+        {
+          "itemId": 1036,
+          "count": 37,
+          "delta": -0.96638155
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 103,
+          "delta": 0.30417028
+        },
+        {
+          "tier": 4,
+          "count": 97,
+          "delta": 1.925493
+        },
+        {
+          "tier": 5,
+          "count": 125,
+          "delta": -4.0907736
+        },
+        {
+          "tier": 6,
+          "count": 53,
+          "delta": 0.73375887
+        },
+        {
+          "tier": 7,
+          "count": 9,
+          "delta": -3.6921937
+        }
+      ],
+      "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.4156,
+    "sample_size": 50572,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 50572,
+      "averagePurchaseWinprob": 50.74963,
+      "averageWinrate": 50.33418,
+      "averagePurchaseTime": 1082273.6,
+      "wpaOverall": -0.41559258,
+      "wpaStandalone": 0,
+      "wpaBias": -1.9041665,
+      "deltaWhenEven": -0.63162386,
+      "deltaWhenAhead": -0.4377683,
+      "deltaWhenBehind": -0.20240453,
+      "evenOccurrence": 28.197422,
+      "aheadOccurrence": 39.156055,
+      "behindOccurrence": 32.646526,
+      "deltaAgainstBalancedDamage": -0.48401248,
+      "deltaAgainstMagicDamage": -0.42060623,
+      "deltaAgainstPhysicalDamage": -0.33828825,
+      "balancedDamageOccurrence": 33.58182,
+      "magicDamageOccurrence": 34.459778,
+      "physicalDamageOccurrence": 31.958395,
+      "deltaWhenBalancedRange": -0.31557548,
+      "deltaWhenHighRange": -0.5957813,
+      "deltaWhenLowRange": -0.39550695,
+      "balancedRangeOccurrence": 37.457485,
+      "highRangeOccurrence": 24.978249,
+      "lowRangeOccurrence": 37.564266,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -0.46006894,
+      "deltaWhenSquishy": -0.42245117,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 66.9323,
+      "squishyOccurrence": 65.785416,
+      "deltaWhenNormalCC": -0.481808,
+      "deltaWhenHighCC": -0.394064,
+      "deltaWhenLowCC": -0.37013012,
+      "normalCCOccurrence": 33.838882,
+      "highCCOccurrence": 32.049355,
+      "lowCCOccurrence": 34.111763,
+      "deltaWhenGoldBalanced": -0.41559258,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 3086,
+          "count": 42396,
+          "delta": -0.4124465
+        },
+        {
+          "itemId": 1042,
+          "count": 78358,
+          "delta": 0.17575388
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 30474,
+          "delta": -0.19522738
+        },
+        {
+          "tier": 4,
+          "count": 33121,
+          "delta": -0.4413932
+        },
+        {
+          "tier": 5,
+          "count": 32505,
+          "delta": -0.373089
+        },
+        {
+          "tier": 6,
+          "count": 15567,
+          "delta": -0.5962239
+        },
+        {
+          "tier": 7,
+          "count": 2500,
+          "delta": 0.15655726
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 41933,
+          "delta": -0.23621991
+        },
+        {
+          "slot": 3,
+          "count": 6666,
+          "delta": -1.0818431
+        },
+        {
+          "slot": 4,
+          "count": 1748,
+          "delta": -1.8062211
+        },
+        {
+          "slot": 5,
+          "count": 170,
+          "delta": -3.45408
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -1.2903,
+    "sample_size": 129,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 129,
+      "averagePurchaseWinprob": 50.902737,
+      "averageWinrate": 49.612404,
+      "averagePurchaseTime": 1653205.4,
+      "wpaOverall": -1.2903256,
+      "wpaStandalone": 0,
+      "wpaBias": -1.6199887,
+      "deltaWhenEven": -10.563944,
+      "deltaWhenAhead": 4.1143093,
+      "deltaWhenBehind": -0.7224064,
+      "evenOccurrence": 25.581396,
+      "aheadOccurrence": 40.310078,
+      "behindOccurrence": 34.10853,
+      "deltaAgainstBalancedDamage": 0.4204067,
+      "deltaAgainstMagicDamage": -0.063322924,
+      "deltaAgainstPhysicalDamage": -4.177382,
+      "balancedDamageOccurrence": 36.43411,
+      "magicDamageOccurrence": 29.457363,
+      "physicalDamageOccurrence": 34.10853,
+      "deltaWhenBalancedRange": 6.832356,
+      "deltaWhenHighRange": -7.9427404,
+      "deltaWhenLowRange": -4.502183,
+      "balancedRangeOccurrence": 37.984497,
+      "highRangeOccurrence": 31.782946,
+      "lowRangeOccurrence": 30.232557,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -1.6592987,
+      "deltaWhenSquishy": 0.62435895,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 54.26357,
+      "squishyOccurrence": 74.4186,
+      "deltaWhenNormalCC": -6.1898704,
+      "deltaWhenHighCC": -0.36122537,
+      "deltaWhenLowCC": 2.203044,
+      "normalCCOccurrence": 33.333336,
+      "highCCOccurrence": 27.131784,
+      "lowCCOccurrence": 39.534885,
+      "deltaWhenGoldBalanced": -1.2903256,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 3035,
+          "count": 109,
+          "delta": 1.0890727
+        },
+        {
+          "itemId": 3133,
+          "count": 53,
+          "delta": -2.2749622
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 99,
+          "delta": 2.2106984
+        },
+        {
+          "tier": 4,
+          "count": 100,
+          "delta": -5.079139
+        },
+        {
+          "tier": 5,
+          "count": 84,
+          "delta": -0.58230084
+        },
+        {
+          "tier": 6,
+          "count": 42,
+          "delta": -2.6879842
+        },
+        {
+          "tier": 7,
+          "count": 3,
+          "delta": -1.547792
+        }
+      ],
+      "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.2777,
+    "sample_size": 42563,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 42563,
+      "averagePurchaseWinprob": 53.42846,
+      "averageWinrate": 53.706272,
+      "averagePurchaseTime": 1376814.4,
+      "wpaOverall": 0.2776892,
+      "wpaStandalone": 0,
+      "wpaBias": -1.4105397,
+      "deltaWhenEven": 0.30621773,
+      "deltaWhenAhead": 0.24112062,
+      "deltaWhenBehind": 0.3057004,
+      "evenOccurrence": 24.272255,
+      "aheadOccurrence": 43.56836,
+      "behindOccurrence": 32.15939,
+      "deltaAgainstBalancedDamage": 0.529047,
+      "deltaAgainstMagicDamage": 0.20769897,
+      "deltaAgainstPhysicalDamage": 0.08990593,
+      "balancedDamageOccurrence": 33.432793,
+      "magicDamageOccurrence": 34.779034,
+      "physicalDamageOccurrence": 31.788174,
+      "deltaWhenBalancedRange": 0.34631902,
+      "deltaWhenHighRange": 0.3832782,
+      "deltaWhenLowRange": 0.13383386,
+      "balancedRangeOccurrence": 37.5279,
+      "highRangeOccurrence": 25.703075,
+      "lowRangeOccurrence": 36.769024,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.36500654,
+      "deltaWhenSquishy": 0.20632331,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 65.63447,
+      "squishyOccurrence": 67.31904,
+      "deltaWhenNormalCC": 0.32377845,
+      "deltaWhenHighCC": 0.37080196,
+      "deltaWhenLowCC": 0.14467515,
+      "normalCCOccurrence": 33.862747,
+      "highCCOccurrence": 32.001972,
+      "lowCCOccurrence": 34.13528,
+      "deltaWhenGoldBalanced": 0.2776892,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 32799,
+          "delta": 0.5646229
+        },
+        {
+          "itemId": 1018,
+          "count": 28953,
+          "delta": 0.3830046
+        },
+        {
+          "itemId": 1038,
+          "count": 38327,
+          "delta": 0.2837751
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 25996,
+          "delta": 0.433558
+        },
+        {
+          "tier": 4,
+          "count": 28198,
+          "delta": 0.3463697
+        },
+        {
+          "tier": 5,
+          "count": 27365,
+          "delta": 0.36222988
+        },
+        {
+          "tier": 6,
+          "count": 13103,
+          "delta": 0.16355225
+        },
+        {
+          "tier": 7,
+          "count": 2095,
+          "delta": -0.11272089
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 9509,
+          "delta": 0.6083004
+        },
+        {
+          "slot": 3,
+          "count": 26772,
+          "delta": 0.26092556
+        },
+        {
+          "slot": 4,
+          "count": 5695,
+          "delta": -0.13832624
+        },
+        {
+          "slot": 5,
+          "count": 446,
+          "delta": 0.13988073
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.5564,
+    "sample_size": 245,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 245,
+      "averagePurchaseWinprob": 50.280296,
+      "averageWinrate": 51.836735,
+      "averagePurchaseTime": 1924567,
+      "wpaOverall": 1.5564212,
+      "wpaStandalone": 0,
+      "wpaBias": -1.6132782,
+      "deltaWhenEven": 1.8562611,
+      "deltaWhenAhead": 0.9390465,
+      "deltaWhenBehind": 1.8913659,
+      "evenOccurrence": 35.10204,
+      "aheadOccurrence": 33.877552,
+      "behindOccurrence": 31.020409,
+      "deltaAgainstBalancedDamage": 4.754076,
+      "deltaAgainstMagicDamage": -1.7951503,
+      "deltaAgainstPhysicalDamage": 1.009234,
+      "balancedDamageOccurrence": 27.755102,
+      "magicDamageOccurrence": 17.55102,
+      "physicalDamageOccurrence": 54.69388,
+      "deltaWhenBalancedRange": 1.6866829,
+      "deltaWhenHighRange": -10.288311,
+      "deltaWhenLowRange": 7.3327236,
+      "balancedRangeOccurrence": 32.244896,
+      "highRangeOccurrence": 22.448978,
+      "lowRangeOccurrence": 45.30612,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 5.162885,
+      "deltaWhenSquishy": 0.44905892,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 51.428574,
+      "squishyOccurrence": 78.77551,
+      "deltaWhenNormalCC": -1.0374902,
+      "deltaWhenHighCC": 1.2909796,
+      "deltaWhenLowCC": 3.752207,
+      "normalCCOccurrence": 33.469387,
+      "highCCOccurrence": 24.081633,
+      "lowCCOccurrence": 42.44898,
+      "deltaWhenGoldBalanced": 1.5564212,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1011,
+          "count": 95,
+          "delta": 1.5878011
+        },
+        {
+          "itemId": 3082,
+          "count": 173,
+          "delta": -1.0961573
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 76,
+          "delta": 2.5131025
+        },
+        {
+          "tier": 4,
+          "count": 98,
+          "delta": -0.1337239
+        },
+        {
+          "tier": 5,
+          "count": 157,
+          "delta": 0.4133455
+        },
+        {
+          "tier": 6,
+          "count": 69,
+          "delta": 4.373812
+        },
+        {
+          "tier": 7,
+          "count": 19,
+          "delta": 0.7702603
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 5,
+          "count": 107,
+          "delta": -2.606251
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.1479,
+    "sample_size": 9279,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 9279,
+      "averagePurchaseWinprob": 51.414238,
+      "averageWinrate": 51.2663,
+      "averagePurchaseTime": 898939.2,
+      "wpaOverall": -0.1479131,
+      "wpaStandalone": 0,
+      "wpaBias": -1.7726806,
+      "deltaWhenEven": -0.5859091,
+      "deltaWhenAhead": -0.42518312,
+      "deltaWhenBehind": 0.7631591,
+      "evenOccurrence": 35.456406,
+      "aheadOccurrence": 36.41556,
+      "behindOccurrence": 28.12803,
+      "deltaAgainstBalancedDamage": 0.010388896,
+      "deltaAgainstMagicDamage": -1.0086432,
+      "deltaAgainstPhysicalDamage": 0.56725794,
+      "balancedDamageOccurrence": 33.516544,
+      "magicDamageOccurrence": 33.538097,
+      "physicalDamageOccurrence": 32.945362,
+      "deltaWhenBalancedRange": -0.4858911,
+      "deltaWhenHighRange": -0.7396733,
+      "deltaWhenLowRange": 0.64410645,
+      "balancedRangeOccurrence": 37.730362,
+      "highRangeOccurrence": 26.42526,
+      "lowRangeOccurrence": 35.84438,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.16337922,
+      "deltaWhenSquishy": -0.33849797,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 62.032543,
+      "squishyOccurrence": 70.41707,
+      "deltaWhenNormalCC": -0.40100738,
+      "deltaWhenHighCC": 0.26417142,
+      "deltaWhenLowCC": -0.25668228,
+      "normalCCOccurrence": 34.120056,
+      "highCCOccurrence": 30.337322,
+      "lowCCOccurrence": 35.54262,
+      "deltaWhenGoldBalanced": -0.1479131,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 7679,
+          "delta": 0.36244872
+        },
+        {
+          "itemId": 3134,
+          "count": 8341,
+          "delta": 0.3810437
+        },
+        {
+          "itemId": 1018,
+          "count": 5313,
+          "delta": -0.11400755
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 10419,
+          "delta": -1.5967045
+        },
+        {
+          "tier": 4,
+          "count": 8522,
+          "delta": -0.41477802
+        },
+        {
+          "tier": 5,
+          "count": 6302,
+          "delta": -0.11400131
+        },
+        {
+          "tier": 6,
+          "count": 2545,
+          "delta": -0.22268783
+        },
+        {
+          "tier": 7,
+          "count": 432,
+          "delta": -0.2021066
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 1,
+          "count": 5059,
+          "delta": -0.7177841
+        },
+        {
+          "slot": 2,
+          "count": 2754,
+          "delta": 1.1436521
+        },
+        {
+          "slot": 3,
+          "count": 579,
+          "delta": -1.8473265
+        },
+        {
+          "slot": 4,
+          "count": 505,
+          "delta": 1.0269508
+        },
+        {
+          "slot": 5,
+          "count": 268,
+          "delta": -2.4067042
+        },
+        {
+          "slot": 6,
+          "count": 114,
+          "delta": 2.6768007
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 4.2031,
+    "sample_size": 237,
+    "last_changed_patch": "16.4",
+    "details": {
+      "itemOccurrence": 237,
+      "averagePurchaseWinprob": 57.400238,
+      "averageWinrate": 61.603374,
+      "averagePurchaseTime": 1432968.8,
+      "wpaOverall": 4.203123,
+      "wpaStandalone": 0,
+      "wpaBias": -1.7002096,
+      "deltaWhenEven": 12.338445,
+      "deltaWhenAhead": 3.093786,
+      "deltaWhenBehind": -3.4182992,
+      "evenOccurrence": 29.535866,
+      "aheadOccurrence": 45.56962,
+      "behindOccurrence": 24.894514,
+      "deltaAgainstBalancedDamage": 4.835374,
+      "deltaAgainstMagicDamage": 3.5275645,
+      "deltaAgainstPhysicalDamage": 4.3126783,
+      "balancedDamageOccurrence": 32.911392,
+      "magicDamageOccurrence": 35.86498,
+      "physicalDamageOccurrence": 31.223627,
+      "deltaWhenBalancedRange": 5.8079624,
+      "deltaWhenHighRange": 5.8848157,
+      "deltaWhenLowRange": 0.79852974,
+      "balancedRangeOccurrence": 37.97468,
+      "highRangeOccurrence": 29.535866,
+      "lowRangeOccurrence": 32.489452,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 3.686201,
+      "deltaWhenSquishy": 6.2374606,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 64.55696,
+      "squishyOccurrence": 70.464134,
+      "deltaWhenNormalCC": 1.8338368,
+      "deltaWhenHighCC": 0.44640064,
+      "deltaWhenLowCC": 10.387624,
+      "normalCCOccurrence": 37.97468,
+      "highCCOccurrence": 29.535866,
+      "lowCCOccurrence": 32.489452,
+      "deltaWhenGoldBalanced": 4.203123,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 117,
+          "delta": 5.100406
+        },
+        {
+          "itemId": 1036,
+          "count": 121,
+          "delta": 7.012774
+        },
+        {
+          "itemId": 6670,
+          "count": 134,
+          "delta": 9.773146
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 67,
+          "delta": -0.6632535
+        },
+        {
+          "tier": 4,
+          "count": 89,
+          "delta": -0.7808746
+        },
+        {
+          "tier": 5,
+          "count": 129,
+          "delta": 4.35455
+        },
+        {
+          "tier": 6,
+          "count": 86,
+          "delta": 5.550422
+        },
+        {
+          "tier": 7,
+          "count": 22,
+          "delta": -1.9514959
+        }
+      ],
+      "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 1.593,
+    "sample_size": 407,
+    "last_changed_patch": "16.3",
+    "details": {
+      "itemOccurrence": 407,
+      "averagePurchaseWinprob": 59.09494,
+      "averageWinrate": 60.687958,
+      "averagePurchaseTime": 1133848,
+      "wpaOverall": 1.593017,
+      "wpaStandalone": 0,
+      "wpaBias": -1.6230505,
+      "deltaWhenEven": -0.2874729,
+      "deltaWhenAhead": 0.7352416,
+      "deltaWhenBehind": 5.921094,
+      "evenOccurrence": 28.255527,
+      "aheadOccurrence": 49.63145,
+      "behindOccurrence": 22.113022,
+      "deltaAgainstBalancedDamage": -1.6529478,
+      "deltaAgainstMagicDamage": 4.415544,
+      "deltaAgainstPhysicalDamage": 1.7028507,
+      "balancedDamageOccurrence": 33.660934,
+      "magicDamageOccurrence": 37.592136,
+      "physicalDamageOccurrence": 28.74693,
+      "deltaWhenBalancedRange": 1.8820167,
+      "deltaWhenHighRange": 0.95982003,
+      "deltaWhenLowRange": 1.6873913,
+      "balancedRangeOccurrence": 41.523342,
+      "highRangeOccurrence": 24.078625,
+      "lowRangeOccurrence": 34.398033,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 1.9763634,
+      "deltaWhenSquishy": 2.8451438,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 63.144962,
+      "squishyOccurrence": 69.28747,
+      "deltaWhenNormalCC": 0.42097244,
+      "deltaWhenHighCC": 2.645432,
+      "deltaWhenLowCC": 1.7908016,
+      "normalCCOccurrence": 33.90663,
+      "highCCOccurrence": 31.203932,
+      "lowCCOccurrence": 34.889435,
+      "deltaWhenGoldBalanced": 1.593017,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1018,
+          "count": 278,
+          "delta": 4.527715
+        },
+        {
+          "itemId": 1038,
+          "count": 358,
+          "delta": 3.0584068
+        },
+        {
+          "itemId": 3144,
+          "count": 249,
+          "delta": 5.557393
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 174,
+          "delta": -4.6615763
+        },
+        {
+          "tier": 4,
+          "count": 178,
+          "delta": 3.282961
+        },
+        {
+          "tier": 5,
+          "count": 249,
+          "delta": 0.76808524
+        },
+        {
+          "tier": 6,
+          "count": 134,
+          "delta": 3.4766
+        },
+        {
+          "tier": 7,
+          "count": 24,
+          "delta": -0.3649935
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 1,
+          "count": 162,
+          "delta": 6.254506
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.0084,
+    "sample_size": 1011,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 1011,
+      "averagePurchaseWinprob": 48.16175,
+      "averageWinrate": 48.170128,
+      "averagePurchaseTime": 1452879.2,
+      "wpaOverall": 0.00838209,
+      "wpaStandalone": 0,
+      "wpaBias": -1.3338163,
+      "deltaWhenEven": 1.6295273,
+      "deltaWhenAhead": 0.00066284236,
+      "deltaWhenBehind": -1.2374921,
+      "evenOccurrence": 27.992088,
+      "aheadOccurrence": 35.80613,
+      "behindOccurrence": 36.201782,
+      "deltaAgainstBalancedDamage": 3.2366986,
+      "deltaAgainstMagicDamage": -1.9301217,
+      "deltaAgainstPhysicalDamage": -1.1491545,
+      "balancedDamageOccurrence": 32.838776,
+      "magicDamageOccurrence": 36.201782,
+      "physicalDamageOccurrence": 30.959446,
+      "deltaWhenBalancedRange": 1.5306509,
+      "deltaWhenHighRange": 0.2469348,
+      "deltaWhenLowRange": -2.7560375,
+      "balancedRangeOccurrence": 41.345203,
+      "highRangeOccurrence": 33.0366,
+      "lowRangeOccurrence": 25.618198,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -0.9277945,
+      "deltaWhenSquishy": 0.35481858,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 55.192875,
+      "squishyOccurrence": 78.63501,
+      "deltaWhenNormalCC": 1.969865,
+      "deltaWhenHighCC": -1.6520629,
+      "deltaWhenLowCC": -0.65172577,
+      "normalCCOccurrence": 34.124626,
+      "highCCOccurrence": 23.442137,
+      "lowCCOccurrence": 42.433235,
+      "deltaWhenGoldBalanced": 0.00838209,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 589,
+          "delta": -0.5745273
+        },
+        {
+          "itemId": 3134,
+          "count": 757,
+          "delta": 1.0583056
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 284,
+          "delta": 2.7960718
+        },
+        {
+          "tier": 4,
+          "count": 442,
+          "delta": 0.76475376
+        },
+        {
+          "tier": 5,
+          "count": 574,
+          "delta": -0.054486834
+        },
+        {
+          "tier": 6,
+          "count": 377,
+          "delta": 0.18425779
+        },
+        {
+          "tier": 7,
+          "count": 60,
+          "delta": -0.495257
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 190,
+          "delta": -4.1377983
+        },
+        {
+          "slot": 3,
+          "count": 267,
+          "delta": 4.004887
+        },
+        {
+          "slot": 4,
+          "count": 237,
+          "delta": 1.9855548
+        },
+        {
+          "slot": 5,
+          "count": 193,
+          "delta": -0.3433808
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -0.7085,
+    "sample_size": 6347,
+    "last_changed_patch": "16.16",
+    "details": {
+      "itemOccurrence": 6347,
+      "averagePurchaseWinprob": 53.095375,
+      "averageWinrate": 52.38696,
+      "averagePurchaseTime": 1406985.4,
+      "wpaOverall": -0.70854104,
+      "wpaStandalone": 0,
+      "wpaBias": -1.2039156,
+      "deltaWhenEven": -1.6508067,
+      "deltaWhenAhead": 0.29542467,
+      "deltaWhenBehind": -1.3598889,
+      "evenOccurrence": 23.176304,
+      "aheadOccurrence": 43.42209,
+      "behindOccurrence": 33.401608,
+      "deltaAgainstBalancedDamage": -1.5543784,
+      "deltaAgainstMagicDamage": -0.908813,
+      "deltaAgainstPhysicalDamage": 0.33305612,
+      "balancedDamageOccurrence": 33.716717,
+      "magicDamageOccurrence": 32.62959,
+      "physicalDamageOccurrence": 33.653694,
+      "deltaWhenBalancedRange": -0.9833079,
+      "deltaWhenHighRange": -1.7139876,
+      "deltaWhenLowRange": 0.05253629,
+      "balancedRangeOccurrence": 37.1199,
+      "highRangeOccurrence": 21.317158,
+      "lowRangeOccurrence": 41.562943,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -1.1208204,
+      "deltaWhenSquishy": -0.2907938,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 70.49,
+      "squishyOccurrence": 62.801327,
+      "deltaWhenNormalCC": -0.83159685,
+      "deltaWhenHighCC": -1.3312346,
+      "deltaWhenLowCC": -0.034951597,
+      "normalCCOccurrence": 33.433117,
+      "highCCOccurrence": 31.416416,
+      "lowCCOccurrence": 35.150467,
+      "deltaWhenGoldBalanced": -0.70854104,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 3590,
+          "delta": 0.06687017
+        },
+        {
+          "itemId": 3067,
+          "count": 2766,
+          "delta": -1.305591
+        },
+        {
+          "itemId": 3044,
+          "count": 5331,
+          "delta": -0.4842269
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 3529,
+          "delta": -1.0861174
+        },
+        {
+          "tier": 4,
+          "count": 3903,
+          "delta": -0.56433165
+        },
+        {
+          "tier": 5,
+          "count": 3965,
+          "delta": -1.0651424
+        },
+        {
+          "tier": 6,
+          "count": 2119,
+          "delta": -0.06095136
+        },
+        {
+          "tier": 7,
+          "count": 263,
+          "delta": -0.5500522
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 104,
+          "delta": -5.7190633
+        },
+        {
+          "slot": 3,
+          "count": 5165,
+          "delta": -0.5461888
+        },
+        {
+          "slot": 4,
+          "count": 886,
+          "delta": -0.7838426
+        },
+        {
+          "slot": 5,
+          "count": 169,
+          "delta": -0.117003635
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.5599,
+    "sample_size": 129,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 129,
+      "averagePurchaseWinprob": 58.35479,
+      "averageWinrate": 58.914726,
+      "averagePurchaseTime": 1891478.4,
+      "wpaOverall": 0.55992615,
+      "wpaStandalone": 0,
+      "wpaBias": -1.58892,
+      "deltaWhenEven": -2.6148567,
+      "deltaWhenAhead": -1.0913683,
+      "deltaWhenBehind": 8.091298,
+      "evenOccurrence": 31.782946,
+      "aheadOccurrence": 44.961243,
+      "behindOccurrence": 23.255816,
+      "deltaAgainstBalancedDamage": -8.368982,
+      "deltaAgainstMagicDamage": -3.1615312,
+      "deltaAgainstPhysicalDamage": 7.952421,
+      "balancedDamageOccurrence": 29.457363,
+      "magicDamageOccurrence": 23.255816,
+      "physicalDamageOccurrence": 47.28682,
+      "deltaWhenBalancedRange": 8.142578,
+      "deltaWhenHighRange": -6.8001204,
+      "deltaWhenLowRange": -0.8362252,
+      "balancedRangeOccurrence": 27.906979,
+      "highRangeOccurrence": 18.60465,
+      "lowRangeOccurrence": 53.488373,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -0.2680789,
+      "deltaWhenSquishy": 1.2028611,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 58.914726,
+      "squishyOccurrence": 65.89147,
+      "deltaWhenNormalCC": 7.390528,
+      "deltaWhenHighCC": -2.7318728,
+      "deltaWhenLowCC": -2.3593075,
+      "normalCCOccurrence": 31.007751,
+      "highCCOccurrence": 27.906979,
+      "lowCCOccurrence": 41.08527,
+      "deltaWhenGoldBalanced": 0.55992615,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 20,
+          "delta": -10.034438
+        },
+        {
+          "itemId": 3133,
+          "count": 51,
+          "delta": 4.9876084
+        },
+        {
+          "itemId": 2019,
+          "count": 94,
+          "delta": 2.3176425
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 76,
+          "delta": 2.160026
+        },
+        {
+          "tier": 4,
+          "count": 84,
+          "delta": -4.722739
+        },
+        {
+          "tier": 5,
+          "count": 97,
+          "delta": -1.6460465
+        },
+        {
+          "tier": 6,
+          "count": 28,
+          "delta": 7.626846
+        },
+        {
+          "tier": 7,
+          "count": 4,
+          "delta": 4.5863204
+        }
+      ],
+      "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1648,
+    "sample_size": 7622,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 7622,
+      "averagePurchaseWinprob": 50.72739,
+      "averageWinrate": 50.892155,
+      "averagePurchaseTime": 1582333.1,
+      "wpaOverall": 0.16478963,
+      "wpaStandalone": 0,
+      "wpaBias": -1.1619004,
+      "deltaWhenEven": 1.2449052,
+      "deltaWhenAhead": 0.69668156,
+      "deltaWhenBehind": -1.1782036,
+      "evenOccurrence": 24.888481,
+      "aheadOccurrence": 39.464706,
+      "behindOccurrence": 35.646812,
+      "deltaAgainstBalancedDamage": 0.6212937,
+      "deltaAgainstMagicDamage": 0.18083304,
+      "deltaAgainstPhysicalDamage": -0.34150502,
+      "balancedDamageOccurrence": 33.823143,
+      "magicDamageOccurrence": 34.5841,
+      "physicalDamageOccurrence": 31.592756,
+      "deltaWhenBalancedRange": -0.36947408,
+      "deltaWhenHighRange": 1.133139,
+      "deltaWhenLowRange": 0.022903081,
+      "balancedRangeOccurrence": 38.270794,
+      "highRangeOccurrence": 26.305431,
+      "lowRangeOccurrence": 35.423775,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.24617349,
+      "deltaWhenSquishy": -0.054413237,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 66.596695,
+      "squishyOccurrence": 66.58357,
+      "deltaWhenNormalCC": 0.6577111,
+      "deltaWhenHighCC": -0.2115591,
+      "deltaWhenLowCC": 0.033460137,
+      "normalCCOccurrence": 33.06219,
+      "highCCOccurrence": 30.635006,
+      "lowCCOccurrence": 36.302807,
+      "deltaWhenGoldBalanced": 0.16478963,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1018,
+          "count": 2709,
+          "delta": -0.23229353
+        },
+        {
+          "itemId": 3123,
+          "count": 5326,
+          "delta": 0.3748312
+        },
+        {
+          "itemId": 3035,
+          "count": 4833,
+          "delta": 0.14255746
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 4560,
+          "delta": 0.17472567
+        },
+        {
+          "tier": 4,
+          "count": 4908,
+          "delta": 0.7337007
+        },
+        {
+          "tier": 5,
+          "count": 4896,
+          "delta": -0.2542531
+        },
+        {
+          "tier": 6,
+          "count": 2315,
+          "delta": 0.48570713
+        },
+        {
+          "tier": 7,
+          "count": 411,
+          "delta": 3.348995
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 285,
+          "delta": 0.1434166
+        },
+        {
+          "slot": 3,
+          "count": 2512,
+          "delta": -0.005458858
+        },
+        {
+          "slot": 4,
+          "count": 4470,
+          "delta": 0.3517037
+        },
+        {
+          "slot": 5,
+          "count": 301,
+          "delta": -0.8013328
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": 2.3904,
+    "sample_size": 596,
+    "last_changed_patch": "16.9",
+    "details": {
+      "itemOccurrence": 596,
+      "averagePurchaseWinprob": 53.482143,
+      "averageWinrate": 55.872482,
+      "averagePurchaseTime": 686024.56,
+      "wpaOverall": 2.3903544,
+      "wpaStandalone": 0,
+      "wpaBias": -2.079435,
+      "deltaWhenEven": 4.6185365,
+      "deltaWhenAhead": 2.6912003,
+      "deltaWhenBehind": -1.6389519,
+      "evenOccurrence": 37.91946,
+      "aheadOccurrence": 38.25503,
+      "behindOccurrence": 23.825504,
+      "deltaAgainstBalancedDamage": 5.1778846,
+      "deltaAgainstMagicDamage": 1.7439831,
+      "deltaAgainstPhysicalDamage": 0.4528813,
+      "balancedDamageOccurrence": 30.872482,
+      "magicDamageOccurrence": 37.08054,
+      "physicalDamageOccurrence": 32.046978,
+      "deltaWhenBalancedRange": -0.9392508,
+      "deltaWhenHighRange": 5.3002462,
+      "deltaWhenLowRange": 3.6085494,
+      "balancedRangeOccurrence": 37.583893,
+      "highRangeOccurrence": 29.026846,
+      "lowRangeOccurrence": 33.389263,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.11799811,
+      "deltaWhenSquishy": 2.9829767,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 61.241608,
+      "squishyOccurrence": 69.46309,
+      "deltaWhenNormalCC": 1.0586807,
+      "deltaWhenHighCC": -0.916617,
+      "deltaWhenLowCC": 6.5857506,
+      "normalCCOccurrence": 34.228188,
+      "highCCOccurrence": 30.704699,
+      "lowCCOccurrence": 35.067116,
+      "deltaWhenGoldBalanced": 2.3903544,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 3133,
+          "count": 403,
+          "delta": 3.6201115
+        },
+        {
+          "itemId": 3134,
+          "count": 564,
+          "delta": 3.6012702
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 298,
+          "delta": -1.0343454
+        },
+        {
+          "tier": 4,
+          "count": 276,
+          "delta": 0.40280506
+        },
+        {
+          "tier": 5,
+          "count": 358,
+          "delta": 1.411149
+        },
+        {
+          "tier": 6,
+          "count": 199,
+          "delta": 4.091081
+        },
+        {
+          "tier": 7,
+          "count": 39,
+          "delta": 2.7009006
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 1,
+          "count": 446,
+          "delta": 0.7920076
+        },
+        {
+          "slot": 2,
+          "count": 124,
+          "delta": 9.045664
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.6569,
+    "sample_size": 2710,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 2710,
+      "averagePurchaseWinprob": 49.442898,
+      "averageWinrate": 47.785976,
+      "averagePurchaseTime": 871871.9,
+      "wpaOverall": -1.6569468,
+      "wpaStandalone": 0,
+      "wpaBias": -1.3511823,
+      "deltaWhenEven": -2.2426176,
+      "deltaWhenAhead": -3.080049,
+      "deltaWhenBehind": 0.6808448,
+      "evenOccurrence": 37.19557,
+      "aheadOccurrence": 33.24723,
+      "behindOccurrence": 29.557196,
+      "deltaAgainstBalancedDamage": -2.4660463,
+      "deltaAgainstMagicDamage": -0.5941862,
+      "deltaAgainstPhysicalDamage": -1.9199891,
+      "balancedDamageOccurrence": 33.98524,
+      "magicDamageOccurrence": 33.83764,
+      "physicalDamageOccurrence": 32.17712,
+      "deltaWhenBalancedRange": -0.95714414,
+      "deltaWhenHighRange": -1.6197251,
+      "deltaWhenLowRange": -2.3449514,
+      "balancedRangeOccurrence": 36.346863,
+      "highRangeOccurrence": 25.313654,
+      "lowRangeOccurrence": 38.339485,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -0.7436766,
+      "deltaWhenSquishy": -2.4239323,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 69.2989,
+      "squishyOccurrence": 62.250923,
+      "deltaWhenNormalCC": -0.18228923,
+      "deltaWhenHighCC": -1.1937659,
+      "deltaWhenLowCC": -3.7020636,
+      "normalCCOccurrence": 33.726936,
+      "highCCOccurrence": 34.206642,
+      "lowCCOccurrence": 32.06642,
+      "deltaWhenGoldBalanced": -1.6569468,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1043,
+          "count": 1458,
+          "delta": -1.6082337
+        },
+        {
+          "itemId": 6690,
+          "count": 1993,
+          "delta": -1.0945145
+        },
+        {
+          "itemId": 3051,
+          "count": 2208,
+          "delta": -1.6802747
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 3478,
+          "delta": -2.8416474
+        },
+        {
+          "tier": 4,
+          "count": 2884,
+          "delta": -2.3965254
+        },
+        {
+          "tier": 5,
+          "count": 1948,
+          "delta": -2.183442
+        },
+        {
+          "tier": 6,
+          "count": 667,
+          "delta": 0.45831096
+        },
+        {
+          "tier": 7,
+          "count": 95,
+          "delta": -5.71234
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 1,
+          "count": 1923,
+          "delta": -1.8826451
+        },
+        {
+          "slot": 2,
+          "count": 345,
+          "delta": 0.00020605499
+        },
+        {
+          "slot": 3,
+          "count": 112,
+          "delta": -3.6351004
+        },
+        {
+          "slot": 5,
+          "count": 144,
+          "delta": 1.5094522
+        },
+        {
+          "slot": 6,
+          "count": 103,
+          "delta": -7.4863424
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -1.3173,
+    "sample_size": 1265,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 1265,
+      "averagePurchaseWinprob": 57.28569,
+      "averageWinrate": 55.96838,
+      "averagePurchaseTime": 1965399.2,
+      "wpaOverall": -1.317337,
+      "wpaStandalone": 0,
+      "wpaBias": -0.5527559,
+      "deltaWhenEven": -3.2181923,
+      "deltaWhenAhead": -0.329948,
+      "deltaWhenBehind": -0.65395427,
+      "evenOccurrence": 31.304348,
+      "aheadOccurrence": 43.003952,
+      "behindOccurrence": 25.6917,
+      "deltaAgainstBalancedDamage": -2.8864446,
+      "deltaAgainstMagicDamage": -1.0984137,
+      "deltaAgainstPhysicalDamage": 0.5157247,
+      "balancedDamageOccurrence": 33.438736,
+      "magicDamageOccurrence": 43.083004,
+      "physicalDamageOccurrence": 23.47826,
+      "deltaWhenBalancedRange": -1.9809928,
+      "deltaWhenHighRange": 0.47156233,
+      "deltaWhenLowRange": -2.8132212,
+      "balancedRangeOccurrence": 37.154152,
+      "highRangeOccurrence": 36.126484,
+      "lowRangeOccurrence": 26.719368,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -0.5471863,
+      "deltaWhenSquishy": -1.8534853,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 67.114624,
+      "squishyOccurrence": 65.77075,
+      "deltaWhenNormalCC": -2.1221523,
+      "deltaWhenHighCC": -1.755967,
+      "deltaWhenLowCC": 1.145281,
+      "normalCCOccurrence": 32.411068,
+      "highCCOccurrence": 48.379448,
+      "lowCCOccurrence": 19.209486,
+      "deltaWhenGoldBalanced": -1.317337,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 79,
+          "delta": -3.074153
+        },
+        {
+          "itemId": 1053,
+          "count": 469,
+          "delta": -2.7538908
+        },
+        {
+          "itemId": 3140,
+          "count": 967,
+          "delta": -3.0841472
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 719,
+          "delta": -2.1085668
+        },
+        {
+          "tier": 4,
+          "count": 827,
+          "delta": -0.52206844
+        },
+        {
+          "tier": 5,
+          "count": 855,
+          "delta": -0.65992355
+        },
+        {
+          "tier": 6,
+          "count": 354,
+          "delta": -2.4720137
+        },
+        {
+          "tier": 7,
+          "count": 56,
+          "delta": -4.055419
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 4,
+          "count": 185,
+          "delta": -5.1495013
+        },
+        {
+          "slot": 5,
+          "count": 607,
+          "delta": -0.16250047
+        },
+        {
+          "slot": 6,
+          "count": 437,
+          "delta": -1.1684239
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -5.1775,
+    "sample_size": 427,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 427,
+      "averagePurchaseWinprob": 45.224373,
+      "averageWinrate": 40.046837,
+      "averagePurchaseTime": 1688806.5,
+      "wpaOverall": -5.177519,
+      "wpaStandalone": 0,
+      "wpaBias": -1.5671391,
+      "deltaWhenEven": -9.771013,
+      "deltaWhenAhead": -2.709353,
+      "deltaWhenBehind": -3.7579439,
+      "evenOccurrence": 29.039812,
+      "aheadOccurrence": 31.14754,
+      "behindOccurrence": 39.812645,
+      "deltaAgainstBalancedDamage": -6.3675694,
+      "deltaAgainstMagicDamage": -6.2181544,
+      "deltaAgainstPhysicalDamage": -2.4466987,
+      "balancedDamageOccurrence": 36.53396,
+      "magicDamageOccurrence": 34.42623,
+      "physicalDamageOccurrence": 29.039812,
+      "deltaWhenBalancedRange": -9.476289,
+      "deltaWhenHighRange": -5.2862825,
+      "deltaWhenLowRange": -1.5449181,
+      "balancedRangeOccurrence": 36.299767,
+      "highRangeOccurrence": 20.140514,
+      "lowRangeOccurrence": 43.55972,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -5.2989817,
+      "deltaWhenSquishy": -5.633983,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 86.88525,
+      "squishyOccurrence": 44.96487,
+      "deltaWhenNormalCC": -6.118033,
+      "deltaWhenHighCC": -3.9756217,
+      "deltaWhenLowCC": -5.802741,
+      "normalCCOccurrence": 35.128803,
+      "highCCOccurrence": 40.28103,
+      "lowCCOccurrence": 24.590164,
+      "deltaWhenGoldBalanced": -5.177519,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 209,
+          "delta": -8.465686
+        },
+        {
+          "itemId": 1053,
+          "count": 349,
+          "delta": -6.8638945
+        },
+        {
+          "itemId": 1043,
+          "count": 219,
+          "delta": -5.8183713
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 635,
+          "delta": -1.1002465
+        },
+        {
+          "tier": 4,
+          "count": 494,
+          "delta": -0.6960087
+        },
+        {
+          "tier": 5,
+          "count": 307,
+          "delta": -5.292642
+        },
+        {
+          "tier": 6,
+          "count": 109,
+          "delta": -6.1241584
+        },
+        {
+          "tier": 7,
+          "count": 11,
+          "delta": 7.415806
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 5,
+          "count": 133,
+          "delta": -6.8847313
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -3.8704,
+    "sample_size": 181,
+    "last_changed_patch": "16.10",
+    "details": {
+      "itemOccurrence": 181,
+      "averagePurchaseWinprob": 60.224014,
+      "averageWinrate": 56.353592,
+      "averagePurchaseTime": 1340793.6,
+      "wpaOverall": -3.8704123,
+      "wpaStandalone": 0,
+      "wpaBias": -0.54381514,
+      "deltaWhenEven": -11.757263,
+      "deltaWhenAhead": -2.1466906,
+      "deltaWhenBehind": 0.31711906,
+      "evenOccurrence": 24.309393,
+      "aheadOccurrence": 50.82873,
+      "behindOccurrence": 24.861877,
+      "deltaAgainstBalancedDamage": 0.16744874,
+      "deltaAgainstMagicDamage": -5.177034,
+      "deltaAgainstPhysicalDamage": -7.1932716,
+      "balancedDamageOccurrence": 35.911602,
+      "magicDamageOccurrence": 33.70166,
+      "physicalDamageOccurrence": 30.38674,
+      "deltaWhenBalancedRange": -4.1888485,
+      "deltaWhenHighRange": -6.728655,
+      "deltaWhenLowRange": 0.062451348,
+      "balancedRangeOccurrence": 38.674034,
+      "highRangeOccurrence": 33.70166,
+      "lowRangeOccurrence": 27.62431,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -5.1560326,
+      "deltaWhenSquishy": -4.838273,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 56.906082,
+      "squishyOccurrence": 76.79558,
+      "deltaWhenNormalCC": -2.1380174,
+      "deltaWhenHighCC": -0.53857136,
+      "deltaWhenLowCC": -9.708115,
+      "normalCCOccurrence": 30.939228,
+      "highCCOccurrence": 38.121548,
+      "lowCCOccurrence": 30.939228,
+      "deltaWhenGoldBalanced": -3.8704123,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1036,
+          "count": 216,
+          "delta": -5.5225286
+        },
+        {
+          "itemId": 2020,
+          "count": 144,
+          "delta": -4.7513127
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 106,
+          "delta": -5.4720135
+        },
+        {
+          "tier": 4,
+          "count": 133,
+          "delta": 1.2215781
+        },
+        {
+          "tier": 5,
+          "count": 101,
+          "delta": -5.98828
+        },
+        {
+          "tier": 6,
+          "count": 66,
+          "delta": -1.840266
+        },
+        {
+          "tier": 7,
+          "count": 14,
+          "delta": 1.8377945
+        }
+      ],
+      "deltasByItemSlot": []
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.208,
+    "sample_size": 3773,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 3773,
+      "averagePurchaseWinprob": 57.55575,
+      "averageWinrate": 56.347733,
+      "averagePurchaseTime": 1928263,
+      "wpaOverall": -1.2079787,
+      "wpaStandalone": 0,
+      "wpaBias": -1.0003343,
+      "deltaWhenEven": -2.811008,
+      "deltaWhenAhead": -0.5811893,
+      "deltaWhenBehind": -0.52236414,
+      "evenOccurrence": 28.78346,
+      "aheadOccurrence": 45.66658,
+      "behindOccurrence": 25.549961,
+      "deltaAgainstBalancedDamage": -0.3730918,
+      "deltaAgainstMagicDamage": -0.8040183,
+      "deltaAgainstPhysicalDamage": -2.5786433,
+      "balancedDamageOccurrence": 33.633713,
+      "magicDamageOccurrence": 35.435993,
+      "physicalDamageOccurrence": 30.930296,
+      "deltaWhenBalancedRange": -1.5671836,
+      "deltaWhenHighRange": -1.588589,
+      "deltaWhenLowRange": -0.5506006,
+      "balancedRangeOccurrence": 37.900875,
+      "highRangeOccurrence": 26.212564,
+      "lowRangeOccurrence": 35.886562,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -1.7356422,
+      "deltaWhenSquishy": -1.5162001,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 61.622055,
+      "squishyOccurrence": 69.86483,
+      "deltaWhenNormalCC": -0.8817416,
+      "deltaWhenHighCC": -1.6418835,
+      "deltaWhenLowCC": -1.136872,
+      "normalCCOccurrence": 34.45534,
+      "highCCOccurrence": 31.486881,
+      "lowCCOccurrence": 34.057777,
+      "deltaWhenGoldBalanced": -1.2079787,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 460,
+          "delta": -3.251871
+        },
+        {
+          "itemId": 1038,
+          "count": 2452,
+          "delta": -1.6150818
+        },
+        {
+          "itemId": 1053,
+          "count": 2339,
+          "delta": -1.3022152
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 3522,
+          "delta": -1.0581201
+        },
+        {
+          "tier": 4,
+          "count": 3255,
+          "delta": -2.032848
+        },
+        {
+          "tier": 5,
+          "count": 2661,
+          "delta": -0.46064845
+        },
+        {
+          "tier": 6,
+          "count": 973,
+          "delta": -3.0768638
+        },
+        {
+          "tier": 7,
+          "count": 139,
+          "delta": -2.432574
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 4,
+          "count": 586,
+          "delta": -2.95798
+        },
+        {
+          "slot": 5,
+          "count": 2269,
+          "delta": -1.5612532
+        },
+        {
+          "slot": 6,
+          "count": 797,
+          "delta": 1.1319833
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -0.3835,
+    "sample_size": 1355,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 1355,
+      "averagePurchaseWinprob": 55.807835,
+      "averageWinrate": 55.424355,
+      "averagePurchaseTime": 1423227.2,
+      "wpaOverall": -0.38346702,
+      "wpaStandalone": 0,
+      "wpaBias": -1.327493,
+      "deltaWhenEven": -0.39734784,
+      "deltaWhenAhead": -0.9074509,
+      "deltaWhenBehind": 0.4883023,
+      "evenOccurrence": 27.601477,
+      "aheadOccurrence": 44.94465,
+      "behindOccurrence": 27.453876,
+      "deltaAgainstBalancedDamage": -0.18927597,
+      "deltaAgainstMagicDamage": -0.20969535,
+      "deltaAgainstPhysicalDamage": -0.82546955,
+      "balancedDamageOccurrence": 34.760147,
+      "magicDamageOccurrence": 35.867157,
+      "physicalDamageOccurrence": 29.372696,
+      "deltaWhenBalancedRange": -1.6947905,
+      "deltaWhenHighRange": 0.22011009,
+      "deltaWhenLowRange": 0.5022059,
+      "balancedRangeOccurrence": 36.16236,
+      "highRangeOccurrence": 32.324722,
+      "lowRangeOccurrence": 31.512917,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -0.5219897,
+      "deltaWhenSquishy": 0.3726831,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 56.752766,
+      "squishyOccurrence": 74.317345,
+      "deltaWhenNormalCC": -0.72191966,
+      "deltaWhenHighCC": -0.7364458,
+      "deltaWhenLowCC": 0.25428945,
+      "normalCCOccurrence": 34.02214,
+      "highCCOccurrence": 30.84871,
+      "lowCCOccurrence": 35.12915,
+      "deltaWhenGoldBalanced": -0.38346702,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 3086,
+          "count": 1075,
+          "delta": 0.43583432
+        },
+        {
+          "itemId": 3144,
+          "count": 723,
+          "delta": 0.7695384
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 629,
+          "delta": -3.263282
+        },
+        {
+          "tier": 4,
+          "count": 699,
+          "delta": -2.8056219
+        },
+        {
+          "tier": 5,
+          "count": 806,
+          "delta": -1.0297313
+        },
+        {
+          "tier": 6,
+          "count": 469,
+          "delta": 0.51646805
+        },
+        {
+          "tier": 7,
+          "count": 80,
+          "delta": 0.8517792
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 431,
+          "delta": 0.83621967
+        },
+        {
+          "slot": 3,
+          "count": 294,
+          "delta": -4.385675
+        },
+        {
+          "slot": 4,
+          "count": 438,
+          "delta": 2.6302598
+        },
+        {
+          "slot": 5,
+          "count": 125,
+          "delta": -6.928746
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 0.0977,
+    "sample_size": 61124,
+    "last_changed_patch": "16.2",
+    "details": {
+      "itemOccurrence": 61124,
+      "averagePurchaseWinprob": 48.830696,
+      "averageWinrate": 48.928406,
+      "averagePurchaseTime": 669664.44,
+      "wpaOverall": 0.09770066,
+      "wpaStandalone": 0,
+      "wpaBias": -1.5939186,
+      "deltaWhenEven": 0.1977629,
+      "deltaWhenAhead": 0.11801625,
+      "deltaWhenBehind": -0.060465902,
+      "evenOccurrence": 39.846867,
+      "aheadOccurrence": 30.966558,
+      "behindOccurrence": 29.186571,
+      "deltaAgainstBalancedDamage": 0.08865826,
+      "deltaAgainstMagicDamage": 0.14935143,
+      "deltaAgainstPhysicalDamage": 0.051156744,
+      "balancedDamageOccurrence": 33.44022,
+      "magicDamageOccurrence": 34.627968,
+      "physicalDamageOccurrence": 31.931812,
+      "deltaWhenBalancedRange": 0.07671946,
+      "deltaWhenHighRange": 0.16698413,
+      "deltaWhenLowRange": 0.07196302,
+      "balancedRangeOccurrence": 37.409203,
+      "highRangeOccurrence": 25.21268,
+      "lowRangeOccurrence": 37.378117,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.07203825,
+      "deltaWhenSquishy": 0.13532263,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 67.03586,
+      "squishyOccurrence": 65.75813,
+      "deltaWhenNormalCC": 0.19842815,
+      "deltaWhenHighCC": 0.023413569,
+      "deltaWhenLowCC": 0.06772586,
+      "normalCCOccurrence": 33.849224,
+      "highCCOccurrence": 32.198483,
+      "lowCCOccurrence": 33.952293,
+      "deltaWhenGoldBalanced": 0.09770066,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1018,
+          "count": 38167,
+          "delta": 0.071453415
+        },
+        {
+          "itemId": 3057,
+          "count": 57263,
+          "delta": -0.39544395
+        },
+        {
+          "itemId": 3133,
+          "count": 56205,
+          "delta": -0.099214256
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 38449,
+          "delta": 0.45748785
+        },
+        {
+          "tier": 4,
+          "count": 40731,
+          "delta": 0.24049853
+        },
+        {
+          "tier": 5,
+          "count": 39119,
+          "delta": 0.10654767
+        },
+        {
+          "tier": 6,
+          "count": 18849,
+          "delta": 0.08685314
+        },
+        {
+          "tier": 7,
+          "count": 3156,
+          "delta": 0.052819587
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 1,
+          "count": 56747,
+          "delta": 0.10543672
+        },
+        {
+          "slot": 2,
+          "count": 4120,
+          "delta": 0.09500098
+        },
+        {
+          "slot": 3,
+          "count": 163,
+          "delta": -2.6911294
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -1.9756,
+    "sample_size": 374,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 374,
+      "averagePurchaseWinprob": 57.323193,
+      "averageWinrate": 55.34759,
+      "averagePurchaseTime": 1687084.1,
+      "wpaOverall": -1.9756194,
+      "wpaStandalone": 0,
+      "wpaBias": -0.67311937,
+      "deltaWhenEven": -3.5999458,
+      "deltaWhenAhead": 0.34473917,
+      "deltaWhenBehind": -4.4845786,
+      "evenOccurrence": 23.796791,
+      "aheadOccurrence": 47.593582,
+      "behindOccurrence": 28.609625,
+      "deltaAgainstBalancedDamage": -0.37069038,
+      "deltaAgainstMagicDamage": -2.9163034,
+      "deltaAgainstPhysicalDamage": -2.795732,
+      "balancedDamageOccurrence": 35.294117,
+      "magicDamageOccurrence": 29.679144,
+      "physicalDamageOccurrence": 35.026737,
+      "deltaWhenBalancedRange": -0.9386466,
+      "deltaWhenHighRange": -3.8394458,
+      "deltaWhenLowRange": -1.9966427,
+      "balancedRangeOccurrence": 40.64171,
+      "highRangeOccurrence": 22.192514,
+      "lowRangeOccurrence": 37.165775,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -3.1823058,
+      "deltaWhenSquishy": -1.8447207,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 66.31016,
+      "squishyOccurrence": 67.37968,
+      "deltaWhenNormalCC": 3.5160813,
+      "deltaWhenHighCC": -3.9545693,
+      "deltaWhenLowCC": -4.865719,
+      "normalCCOccurrence": 31.283422,
+      "highCCOccurrence": 29.411766,
+      "lowCCOccurrence": 39.304813,
+      "deltaWhenGoldBalanced": -1.9756194,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 254,
+          "delta": -4.406895
+        },
+        {
+          "itemId": 1028,
+          "count": 99,
+          "delta": 4.939026
+        },
+        {
+          "itemId": 2021,
+          "count": 317,
+          "delta": -1.9785775
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 378,
+          "delta": -1.8629044
+        },
+        {
+          "tier": 4,
+          "count": 344,
+          "delta": -3.910617
+        },
+        {
+          "tier": 5,
+          "count": 269,
+          "delta": -2.0743313
+        },
+        {
+          "tier": 6,
+          "count": 98,
+          "delta": -2.3679583
+        },
+        {
+          "tier": 7,
+          "count": 7,
+          "delta": 7.3104987
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 4,
+          "count": 316,
+          "delta": -3.0227919
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": 0.0046,
+    "sample_size": 2071,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 2071,
+      "averagePurchaseWinprob": 54.65499,
+      "averageWinrate": 54.659588,
+      "averagePurchaseTime": 1830734.6,
+      "wpaOverall": 0.0045764754,
+      "wpaStandalone": 0,
+      "wpaBias": -1.0705426,
+      "deltaWhenEven": 1.6706715,
+      "deltaWhenAhead": -0.6376074,
+      "deltaWhenBehind": -0.69010943,
+      "evenOccurrence": 28.488653,
+      "aheadOccurrence": 42.15355,
+      "behindOccurrence": 29.357798,
+      "deltaAgainstBalancedDamage": -2.0512316,
+      "deltaAgainstMagicDamage": 0.5385727,
+      "deltaAgainstPhysicalDamage": 1.3755362,
+      "balancedDamageOccurrence": 24.239498,
+      "magicDamageOccurrence": 64.55818,
+      "physicalDamageOccurrence": 11.202317,
+      "deltaWhenBalancedRange": -0.076143846,
+      "deltaWhenHighRange": -0.67796206,
+      "deltaWhenLowRange": 0.74757564,
+      "balancedRangeOccurrence": 36.55239,
+      "highRangeOccurrence": 30.999517,
+      "lowRangeOccurrence": 32.448093,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.9370257,
+      "deltaWhenSquishy": -0.5225186,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 59.005314,
+      "squishyOccurrence": 73.7325,
+      "deltaWhenNormalCC": 0.61474496,
+      "deltaWhenHighCC": -0.73037136,
+      "deltaWhenLowCC": 0.0914425,
+      "normalCCOccurrence": 33.220665,
+      "highCCOccurrence": 31.723806,
+      "lowCCOccurrence": 35.05553,
+      "deltaWhenGoldBalanced": 0.0045764754,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 3133,
+          "count": 774,
+          "delta": 1.9620285
+        },
+        {
+          "itemId": 3155,
+          "count": 1834,
+          "delta": 1.4184227
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 1217,
+          "delta": 0.7436307
+        },
+        {
+          "tier": 4,
+          "count": 1473,
+          "delta": 0.0978385
+        },
+        {
+          "tier": 5,
+          "count": 1334,
+          "delta": 0.028221745
+        },
+        {
+          "tier": 6,
+          "count": 643,
+          "delta": -0.2513671
+        },
+        {
+          "tier": 7,
+          "count": 94,
+          "delta": 1.4197792
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 3,
+          "count": 222,
+          "delta": -2.241724
+        },
+        {
+          "slot": 4,
+          "count": 555,
+          "delta": -1.2493898
+        },
+        {
+          "slot": 5,
+          "count": 921,
+          "delta": 0.99639744
+        },
+        {
+          "slot": 6,
+          "count": 314,
+          "delta": 0.26898432
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.416,
+    "sample_size": 1319,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 1319,
+      "averagePurchaseWinprob": 55.45768,
+      "averageWinrate": 55.041702,
+      "averagePurchaseTime": 1760376,
+      "wpaOverall": -0.41596258,
+      "wpaStandalone": 0,
+      "wpaBias": -1.3798127,
+      "deltaWhenEven": 0.11243336,
+      "deltaWhenAhead": 0.62720895,
+      "deltaWhenBehind": -2.533108,
+      "evenOccurrence": 25.777105,
+      "aheadOccurrence": 45.413193,
+      "behindOccurrence": 28.809706,
+      "deltaAgainstBalancedDamage": -0.40733936,
+      "deltaAgainstMagicDamage": -0.55223095,
+      "deltaAgainstPhysicalDamage": -0.31541008,
+      "balancedDamageOccurrence": 36.92191,
+      "magicDamageOccurrence": 28.127369,
+      "physicalDamageOccurrence": 34.95072,
+      "deltaWhenBalancedRange": -0.9182485,
+      "deltaWhenHighRange": -1.5160855,
+      "deltaWhenLowRange": 0.7183268,
+      "balancedRangeOccurrence": 35.253983,
+      "highRangeOccurrence": 24.943138,
+      "lowRangeOccurrence": 39.802883,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": -1.0361519,
+      "deltaWhenSquishy": 0.28935626,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 56.785446,
+      "squishyOccurrence": 74.98105,
+      "deltaWhenNormalCC": -0.42660883,
+      "deltaWhenHighCC": -2.217964,
+      "deltaWhenLowCC": 0.7582632,
+      "normalCCOccurrence": 32.448826,
+      "highCCOccurrence": 26.535255,
+      "lowCCOccurrence": 41.01592,
+      "deltaWhenGoldBalanced": -0.41596258,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 1037,
+          "count": 679,
+          "delta": -1.9407127
+        },
+        {
+          "itemId": 6670,
+          "count": 977,
+          "delta": -0.7839706
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 655,
+          "delta": -2.1182292
+        },
+        {
+          "tier": 4,
+          "count": 776,
+          "delta": -0.5339613
+        },
+        {
+          "tier": 5,
+          "count": 842,
+          "delta": -0.94019985
+        },
+        {
+          "tier": 6,
+          "count": 426,
+          "delta": 0.19120263
+        },
+        {
+          "tier": 7,
+          "count": 51,
+          "delta": 3.1674604
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 3,
+          "count": 128,
+          "delta": 0.26924816
+        },
+        {
+          "slot": 4,
+          "count": 507,
+          "delta": -2.0079834
+        },
+        {
+          "slot": 5,
+          "count": 509,
+          "delta": -0.064210184
+        },
+        {
+          "slot": 6,
+          "count": 120,
+          "delta": 2.6112711
+        }
+      ]
+    }
+  },
+  {
+    "patch": "16.17",
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7984,
+    "sample_size": 17140,
+    "last_changed_patch": "16.1",
+    "details": {
+      "itemOccurrence": 17140,
+      "averagePurchaseWinprob": 54.808372,
+      "averageWinrate": 55.60677,
+      "averagePurchaseTime": 1601363.1,
+      "wpaOverall": 0.7984141,
+      "wpaStandalone": 0,
+      "wpaBias": -0.94354105,
+      "deltaWhenEven": 1.410842,
+      "deltaWhenAhead": 0.3797959,
+      "deltaWhenBehind": 0.9211936,
+      "evenOccurrence": 24.171528,
+      "aheadOccurrence": 44.53909,
+      "behindOccurrence": 31.289381,
+      "deltaAgainstBalancedDamage": 0.4310186,
+      "deltaAgainstMagicDamage": 1.087412,
+      "deltaAgainstPhysicalDamage": 0.86774474,
+      "balancedDamageOccurrence": 33.64061,
+      "magicDamageOccurrence": 35.32089,
+      "physicalDamageOccurrence": 31.038507,
+      "deltaWhenBalancedRange": 1.1854209,
+      "deltaWhenHighRange": 1.0315531,
+      "deltaWhenLowRange": 0.29127285,
+      "balancedRangeOccurrence": 37.053673,
+      "highRangeOccurrence": 23.75146,
+      "lowRangeOccurrence": 39.194866,
+      "deltaWhenBalancedTankiness": 0,
+      "deltaWhenTanky": 0.8437632,
+      "deltaWhenSquishy": 0.9079105,
+      "balancedTankinessOccurrence": 0,
+      "tankyOccurrence": 71.10852,
+      "squishyOccurrence": 61.441074,
+      "deltaWhenNormalCC": 0.25941887,
+      "deltaWhenHighCC": 1.1276035,
+      "deltaWhenLowCC": 1.0184481,
+      "normalCCOccurrence": 34.089848,
+      "highCCOccurrence": 35.472576,
+      "lowCCOccurrence": 30.437574,
+      "deltaWhenGoldBalanced": 0.7984141,
+      "deltaWhenGoldAhead": 0,
+      "deltaWhenGoldBehind": 0,
+      "goldBalancedOccurrence": 100,
+      "goldAheadOccurrence": 0,
+      "goldBehindOccurrence": 0,
+      "componentDeltas": [
+        {
+          "itemId": 3035,
+          "count": 13603,
+          "delta": 0.9353222
+        },
+        {
+          "itemId": 6670,
+          "count": 9082,
+          "delta": 1.344676
+        }
+      ],
+      "deltasByElo": [
+        {
+          "tier": 3,
+          "count": 11564,
+          "delta": 1.0824732
+        },
+        {
+          "tier": 4,
+          "count": 11796,
+          "delta": 0.77830064
+        },
+        {
+          "tier": 5,
+          "count": 11104,
+          "delta": 0.9978759
+        },
+        {
+          "tier": 6,
+          "count": 5133,
+          "delta": 0.78528
+        },
+        {
+          "tier": 7,
+          "count": 903,
+          "delta": -1.5796274
+        }
+      ],
+      "deltasByItemSlot": [
+        {
+          "slot": 2,
+          "count": 561,
+          "delta": 1.6069517
+        },
+        {
+          "slot": 3,
+          "count": 5599,
+          "delta": 1.3146449
+        },
+        {
+          "slot": 4,
+          "count": 10286,
+          "delta": 0.5366476
+        },
+        {
+          "slot": 5,
+          "count": 579,
+          "delta": 0.2888607
+        },
+        {
+          "slot": 6,
+          "count": 115,
+          "delta": -2.300685
+        }
+      ]
     }
   }
 ]

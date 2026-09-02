@@ -680,11 +680,11 @@
     "type": "item"
   },
   "223033": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "223036": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "223039": {
@@ -780,7 +780,7 @@
     "type": "item"
   },
   "223095": {
-    "last_changed_patch": "16.11",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "223100": {
@@ -796,7 +796,7 @@
     "type": "item"
   },
   "223107": {
-    "last_changed_patch": "16.11",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "223109": {
@@ -928,7 +928,7 @@
     "type": "item"
   },
   "223504": {
-    "last_changed_patch": "16.9",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "223508": {
@@ -1012,7 +1012,7 @@
     "type": "item"
   },
   "226616": {
-    "last_changed_patch": "16.9",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "226617": {
@@ -1104,7 +1104,7 @@
     "type": "item"
   },
   "226694": {
-    "last_changed_patch": "16.12",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "226695": {
@@ -1456,7 +1456,7 @@
     "type": "item"
   },
   "3095": {
-    "last_changed_patch": "16.3",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "3097": {
@@ -1628,7 +1628,7 @@
     "type": "item"
   },
   "3170": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "3171": {
@@ -2308,7 +2308,7 @@
     "type": "item"
   },
   "6610": {
-    "last_changed_patch": "16.16",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "6616": {
@@ -3236,7 +3236,7 @@
     "type": "item"
   },
   "773084": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "773085": {
@@ -3412,7 +3412,7 @@
     "type": "item"
   },
   "773154": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "773155": {
@@ -3432,7 +3432,7 @@
     "type": "item"
   },
   "773160": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "773165": {
@@ -3529,6 +3529,10 @@
   },
   "773521": {
     "last_changed_patch": "16.15",
+    "type": "item"
+  },
+  "226668": {
+    "last_changed_patch": "16.17",
     "type": "item"
   },
   "8112": {
@@ -3636,7 +3640,7 @@
     "type": "rune"
   },
   "8021": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.17",
     "type": "rune"
   },
   "9101": {

@@ -88,7 +88,7 @@ CHAMPIONS = [
     {"id": 245, "role": 1},  # Ekko (Jungla)
 ]
 MAJOR = 16              # Season
-PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
 
 # Determinar el último parche en el array PATCHES para forzar su actualización
 latest_patch_num = max(PATCHES) if PATCHES else None

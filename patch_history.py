@@ -6,7 +6,7 @@ DATA_RAW_DIR = os.path.join("data", "raw")
 OUTPUT_FILE = os.path.join("data", "processed", "item_patch_history.json")
 
 MAJOR = 16
-PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
 
 def fetch_ddragon_items(major, patch):
     os.makedirs(DATA_RAW_DIR, exist_ok=True)

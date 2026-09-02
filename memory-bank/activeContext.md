@@ -1,7 +1,7 @@
 # Active Context: Zinkoachless
 
 ## Current State & Focus
-- **Full Multi-Entity DDragon Patch Tracker:** [`patch_history.py`](file:///home/zinko/publico/zinkoachless/patch_history.py) diffs items, runes (`runesReforged.json`), and summoner spells (`summoner.json`) across 16 parches (978 total entities tracked).
+- **Full Multi-Entity DDragon Patch Tracker:** [`patch_history.py`](file:///home/zinko/publico/zinkoachless/patch_history.py) diffs items, runes (`runesReforged.json`), and summoner spells (`summoner.json`) across 17 parches.
 - **Time-Decay Exponential Weighting ($\lambda = 0.75$):** Aggregates WPA with a 2.4-patch half-life, ensuring recent patch performance dominates while preserving historical depth.
 - **Smart Composite Ranking (`smart_rank`):** Default sorting algorithm combining recency-weighted WPA and log-sample confidence.
 - **Statistical Role Badges & Compact UX:**
@@ -21,7 +21,7 @@
 
 ## Active Decisions & Workflows
 - **Default Page Configuration:**
-  - Default patch range: `16.1` to `16.16` (Full Season).
+  - Default patch range: `16.1` to `16.17` (Full Season).
   - Default filter state: `⚡ Post-Ajuste` checked by default.
   - Default sort order: `⭐ Recomendado (Smart Rank)`.
 - **Champion Scalability Workflow:**
