@@ -1,0 +1,2669 @@
+﻿patch,category,id,name,wpa,sample_size
+16.1,Keystone,8230,Stormraider's Surge,2.2702,122
+16.1,Keystone,8010,Conqueror,-3.7683,385
+16.1,Keystone,8005,Press the Attack,-1.1658,10172
+16.1,Keystone,8008,Lethal Tempo,0.3715,43938
+16.1,Keystone,8128,Dark Harvest,-14.0988,103
+16.1,Spell,4,Flash,-0.0809,51425
+16.1,Spell,6,Ghost,1.0083,2982
+16.1,Spell,11,Smite,0.0,54983
+16.1,Spell,14,Ignite,2.7207,491
+16.1,Starter,1101,Scorchclaw Pup,-0.2548,9862
+16.1,Starter,1102,Gustwalker Hatchling,-0.0498,38824
+16.1,Starter,1103,Mosstomper Seedling,0.7178,6195
+16.1,Boots,3006,Berserker's Greaves,-1.0108,1111
+16.1,Boots,3009,Boots of Swiftness,-0.5154,5443
+16.1,Boots,3020,Sorcerer's Shoes,-3.6203,164
+16.1,Boots,3047,Plated Steelcaps,0.6072,20913
+16.1,Boots,3111,Mercury's Treads,-0.3488,22965
+16.1,Boots,3158,Ionian Boots of Lucidity,0.8223,276
+16.1,1st Item,2510,Dusk and Dawn,-4.282,150
+16.1,1st Item,3073,Experimental Hexplate,-0.2883,147
+16.1,1st Item,3074,Ravenous Hydra,-1.5938,336
+16.1,1st Item,3078,Trinity Force,-3.4643,218
+16.1,1st Item,3087,Statikk Shiv,-2.8934,159
+16.1,1st Item,3153,Blade of The Ruined King,0.6105,21234
+16.1,1st Item,3748,Titanic Hydra,-0.3709,4455
+16.1,1st Item,6631,Stridebreaker,-0.6138,22522
+16.1,1st Item,6672,Kraken Slayer,1.9352,3014
+16.1,1st Item,6698,Profane Hydra,-6.342,103
+16.1,2nd Item,2510,Dusk and Dawn,2.9974,613
+16.1,2nd Item,2517,Endless Hunger,-1.2452,284
+16.1,2nd Item,2524,Bandlepipes,-1.2357,208
+16.1,2nd Item,3050,Zeke's Convergence,0.8539,370
+16.1,2nd Item,3053,Sterak's Gage,-0.9255,1475
+16.1,2nd Item,3065,Spirit Visage,-0.4519,2860
+16.1,2nd Item,3071,Black Cleaver,0.2056,122
+16.1,2nd Item,3073,Experimental Hexplate,0.1138,1204
+16.1,2nd Item,3074,Ravenous Hydra,-0.8652,664
+16.1,2nd Item,3075,Thornmail,-0.5927,3447
+16.1,2nd Item,3078,Trinity Force,1.1077,225
+16.1,2nd Item,3091,Wit's End,-1.9923,584
+16.1,2nd Item,3110,Frozen Heart,1.1465,126
+16.1,2nd Item,3124,Guinsoo's Rageblade,-3.4676,132
+16.1,2nd Item,3143,Randuin's Omen,1.6766,280
+16.1,2nd Item,3153,Blade of The Ruined King,0.2219,18194
+16.1,2nd Item,3156,Maw of Malmortius,2.4667,358
+16.1,2nd Item,3302,Terminus,-2.7373,146
+16.1,2nd Item,3742,Dead Man's Plate,2.752,264
+16.1,2nd Item,3748,Titanic Hydra,0.2938,2499
+16.1,2nd Item,6333,Death's Dance,1.0135,1345
+16.1,2nd Item,6610,Sundered Sky,-0.1489,128
+16.1,2nd Item,6631,Stridebreaker,0.0107,9650
+16.1,2nd Item,6662,Iceborn Gauntlet,0.0026,193
+16.1,2nd Item,6665,"Jak'Sho, The Protean",-1.1465,408
+16.1,2nd Item,6672,Kraken Slayer,-0.46,1295
+16.1,2nd Item,6692,Eclipse,-2.6316,108
+16.1,3rd Item,2501,Overlord's Bloodmail,-0.2624,477
+16.1,3rd Item,2504,Kaenic Rookern,-2.6865,227
+16.1,3rd Item,2510,Dusk and Dawn,-2.3199,131
+16.1,3rd Item,2517,Endless Hunger,-2.616,371
+16.1,3rd Item,2524,Bandlepipes,-0.6656,217
+16.1,3rd Item,2525,Protoplasm Harness,-3.0599,143
+16.1,3rd Item,3026,Guardian Angel,5.2107,265
+16.1,3rd Item,3050,Zeke's Convergence,0.2154,305
+16.1,3rd Item,3053,Sterak's Gage,0.2927,2830
+16.1,3rd Item,3065,Spirit Visage,-0.1959,8851
+16.1,3rd Item,3071,Black Cleaver,-1.2897,102
+16.1,3rd Item,3073,Experimental Hexplate,-1.8206,606
+16.1,3rd Item,3074,Ravenous Hydra,1.903,135
+16.1,3rd Item,3075,Thornmail,-0.1093,10302
+16.1,3rd Item,3078,Trinity Force,-0.9288,116
+16.1,3rd Item,3091,Wit's End,0.8811,579
+16.1,3rd Item,3110,Frozen Heart,1.565,385
+16.1,3rd Item,3124,Guinsoo's Rageblade,-5.221,118
+16.1,3rd Item,3143,Randuin's Omen,1.7246,1192
+16.1,3rd Item,3153,Blade of The Ruined King,0.9231,1464
+16.1,3rd Item,3156,Maw of Malmortius,1.004,715
+16.1,3rd Item,3302,Terminus,0.8656,246
+16.1,3rd Item,3742,Dead Man's Plate,1.431,337
+16.1,3rd Item,3748,Titanic Hydra,0.9846,471
+16.1,3rd Item,4401,Force of Nature,0.3483,197
+16.1,3rd Item,6333,Death's Dance,2.4578,1382
+16.1,3rd Item,6609,Chempunk Chainsword,-7.5578,106
+16.1,3rd Item,6610,Sundered Sky,-7.8088,116
+16.1,3rd Item,6631,Stridebreaker,-0.9206,887
+16.1,3rd Item,6662,Iceborn Gauntlet,-0.5164,107
+16.1,3rd Item,6665,"Jak'Sho, The Protean",0.4266,1258
+16.1,3rd Item,6672,Kraken Slayer,-3.8078,351
+16.1,3rd Item,6692,Eclipse,3.5186,125
+16.1,4th+ Item,2501,Overlord's Bloodmail,5.6029,108
+16.1,4th+ Item,2504,Kaenic Rookern,-4.5703,288
+16.1,4th+ Item,2517,Endless Hunger,0.9461,296
+16.1,4th+ Item,2524,Bandlepipes,3.5332,169
+16.1,4th+ Item,2525,Protoplasm Harness,2.6363,173
+16.1,4th+ Item,3026,Guardian Angel,0.9367,538
+16.1,4th+ Item,3050,Zeke's Convergence,-3.0823,233
+16.1,4th+ Item,3053,Sterak's Gage,0.0378,2770
+16.1,4th+ Item,3065,Spirit Visage,0.3826,5211
+16.1,4th+ Item,3073,Experimental Hexplate,-0.2924,199
+16.1,4th+ Item,3075,Thornmail,-0.2566,4151
+16.1,4th+ Item,3091,Wit's End,0.1395,374
+16.1,4th+ Item,3110,Frozen Heart,2.315,413
+16.1,4th+ Item,3143,Randuin's Omen,1.7024,1222
+16.1,4th+ Item,3153,Blade of The Ruined King,0.2605,426
+16.1,4th+ Item,3156,Maw of Malmortius,-1.0206,259
+16.1,4th+ Item,3302,Terminus,-5.7047,229
+16.1,4th+ Item,3742,Dead Man's Plate,2.1318,259
+16.1,4th+ Item,3748,Titanic Hydra,-2.7986,196
+16.1,4th+ Item,4401,Force of Nature,4.0811,237
+16.1,4th+ Item,6333,Death's Dance,-0.6253,741
+16.1,4th+ Item,6609,Chempunk Chainsword,-5.2684,130
+16.1,4th+ Item,6631,Stridebreaker,1.231,245
+16.1,4th+ Item,6665,"Jak'Sho, The Protean",-0.8043,2979
+16.1,4th+ Item,6672,Kraken Slayer,-5.9986,141
+16.1,All Items,2501,Overlord's Bloodmail,-0.2202,678
+16.1,All Items,2502,Unending Despair,-0.387,112
+16.1,All Items,2504,Kaenic Rookern,-3.8579,599
+16.1,All Items,2510,Dusk and Dawn,1.322,944
+16.1,All Items,2517,Endless Hunger,-0.9689,1030
+16.1,All Items,2524,Bandlepipes,0.4559,617
+16.1,All Items,2525,Protoplasm Harness,0.6295,393
+16.1,All Items,3026,Guardian Angel,2.5817,863
+16.1,All Items,3050,Zeke's Convergence,-0.4142,912
+16.1,All Items,3053,Sterak's Gage,-0.0706,7098
+16.1,All Items,3065,Spirit Visage,-0.0701,16973
+16.1,All Items,3071,Black Cleaver,0.1713,316
+16.1,All Items,3073,Experimental Hexplate,-0.4846,2162
+16.1,All Items,3074,Ravenous Hydra,-0.7603,1195
+16.1,All Items,3075,Thornmail,-0.2303,17955
+16.1,All Items,3078,Trinity Force,-1.4207,617
+16.1,All Items,3087,Statikk Shiv,-1.6711,228
+16.1,All Items,3091,Wit's End,-0.1328,1603
+16.1,All Items,3110,Frozen Heart,1.7413,933
+16.1,All Items,3124,Guinsoo's Rageblade,-3.2852,419
+16.1,All Items,3143,Randuin's Omen,1.6973,2711
+16.1,All Items,3146,Hextech Gunblade,-4.5501,253
+16.1,All Items,3153,Blade of The Ruined King,0.4461,41326
+16.1,All Items,3156,Maw of Malmortius,1.0552,1342
+16.1,All Items,3157,Zhonya's Hourglass,-3.6504,153
+16.1,All Items,3181,Hullbreaker,1.5845,163
+16.1,All Items,3302,Terminus,-2.7264,640
+16.1,All Items,3742,Dead Man's Plate,2.1149,872
+16.1,All Items,3748,Titanic Hydra,-0.1311,7625
+16.1,All Items,4401,Force of Nature,1.836,506
+16.1,All Items,6333,Death's Dance,1.317,3490
+16.1,All Items,6609,Chempunk Chainsword,-6.826,285
+16.1,All Items,6610,Sundered Sky,-3.5428,342
+16.1,All Items,6631,Stridebreaker,-0.4274,33309
+16.1,All Items,6662,Iceborn Gauntlet,1.3658,377
+16.1,All Items,6665,"Jak'Sho, The Protean",-0.5187,4676
+16.1,All Items,6672,Kraken Slayer,0.6366,4803
+16.1,All Items,6692,Eclipse,-0.2008,337
+16.1,All Items,6695,Serpent's Fang,0.4767,244
+16.1,All Items,6698,Profane Hydra,-5.4381,236
+16.2,Keystone,8010,Conqueror,-7.0246,277
+16.2,Keystone,8005,Press the Attack,-0.9253,8171
+16.2,Keystone,8008,Lethal Tempo,0.2691,41558
+16.2,Spell,4,Flash,0.0258,47550
+16.2,Spell,6,Ghost,0.1513,2535
+16.2,Spell,11,Smite,0.0,50435
+16.2,Spell,14,Ignite,-6.1326,280
+16.2,Starter,1101,Scorchclaw Pup,0.9497,8777
+16.2,Starter,1102,Gustwalker Hatchling,-0.2099,35891
+16.2,Starter,1103,Mosstomper Seedling,-0.1419,5656
+16.2,Boots,3006,Berserker's Greaves,-2.0985,850
+16.2,Boots,3009,Boots of Swiftness,0.1456,4969
+16.2,Boots,3020,Sorcerer's Shoes,-3.1707,131
+16.2,Boots,3047,Plated Steelcaps,0.8751,19257
+16.2,Boots,3111,Mercury's Treads,-0.6324,21439
+16.2,Boots,3158,Ionian Boots of Lucidity,-4.4431,216
+16.2,1st Item,2510,Dusk and Dawn,-1.8757,186
+16.2,1st Item,3073,Experimental Hexplate,-1.1488,132
+16.2,1st Item,3074,Ravenous Hydra,2.4728,263
+16.2,1st Item,3078,Trinity Force,0.1594,247
+16.2,1st Item,3153,Blade of The Ruined King,0.9045,19542
+16.2,1st Item,3748,Titanic Hydra,-0.9144,4714
+16.2,1st Item,6631,Stridebreaker,-0.9928,19591
+16.2,1st Item,6672,Kraken Slayer,1.7535,3476
+16.2,2nd Item,2510,Dusk and Dawn,1.8408,845
+16.2,2nd Item,2517,Endless Hunger,-4.8492,281
+16.2,2nd Item,2524,Bandlepipes,1.1932,122
+16.2,2nd Item,3050,Zeke's Convergence,2.8149,867
+16.2,2nd Item,3053,Sterak's Gage,-1.027,1618
+16.2,2nd Item,3065,Spirit Visage,0.8248,2520
+16.2,2nd Item,3071,Black Cleaver,-2.8717,130
+16.2,2nd Item,3073,Experimental Hexplate,-0.5716,1067
+16.2,2nd Item,3074,Ravenous Hydra,-1.4345,403
+16.2,2nd Item,3075,Thornmail,0.3892,3190
+16.2,2nd Item,3078,Trinity Force,0.9244,220
+16.2,2nd Item,3091,Wit's End,-2.4466,507
+16.2,2nd Item,3124,Guinsoo's Rageblade,4.0296,142
+16.2,2nd Item,3143,Randuin's Omen,1.8393,271
+16.2,2nd Item,3153,Blade of The Ruined King,-0.1062,16025
+16.2,2nd Item,3156,Maw of Malmortius,1.1581,352
+16.2,2nd Item,3302,Terminus,-1.0387,123
+16.2,2nd Item,3742,Dead Man's Plate,4.7915,291
+16.2,2nd Item,3748,Titanic Hydra,0.3485,2493
+16.2,2nd Item,6333,Death's Dance,2.0175,1449
+16.2,2nd Item,6610,Sundered Sky,-2.2357,131
+16.2,2nd Item,6631,Stridebreaker,-0.2685,8464
+16.2,2nd Item,6662,Iceborn Gauntlet,-2.7058,160
+16.2,2nd Item,6665,"Jak'Sho, The Protean",-1.9659,354
+16.2,2nd Item,6672,Kraken Slayer,-0.9129,1432
+16.2,3rd Item,2501,Overlord's Bloodmail,-1.4729,645
+16.2,3rd Item,2504,Kaenic Rookern,-1.4994,218
+16.2,3rd Item,2510,Dusk and Dawn,-0.6321,132
+16.2,3rd Item,2517,Endless Hunger,-2.0597,603
+16.2,3rd Item,2524,Bandlepipes,-2.2057,124
+16.2,3rd Item,3026,Guardian Angel,-1.4261,179
+16.2,3rd Item,3050,Zeke's Convergence,0.2675,659
+16.2,3rd Item,3053,Sterak's Gage,-0.4305,2698
+16.2,3rd Item,3065,Spirit Visage,-0.1306,7790
+16.2,3rd Item,3073,Experimental Hexplate,-0.3717,621
+16.2,3rd Item,3075,Thornmail,-0.3006,8983
+16.2,3rd Item,3091,Wit's End,-3.1434,491
+16.2,3rd Item,3110,Frozen Heart,-1.0835,334
+16.2,3rd Item,3124,Guinsoo's Rageblade,2.4475,160
+16.2,3rd Item,3143,Randuin's Omen,0.9151,1211
+16.2,3rd Item,3153,Blade of The Ruined King,1.8338,1255
+16.2,3rd Item,3156,Maw of Malmortius,1.8181,727
+16.2,3rd Item,3302,Terminus,-6.0202,195
+16.2,3rd Item,3742,Dead Man's Plate,1.0213,293
+16.2,3rd Item,3748,Titanic Hydra,4.2415,385
+16.2,3rd Item,4401,Force of Nature,1.7937,175
+16.2,3rd Item,6333,Death's Dance,2.4275,1595
+16.2,3rd Item,6609,Chempunk Chainsword,-1.7823,102
+16.2,3rd Item,6631,Stridebreaker,0.2216,686
+16.2,3rd Item,6665,"Jak'Sho, The Protean",0.8116,1028
+16.2,3rd Item,6672,Kraken Slayer,0.7101,537
+16.2,4th+ Item,2501,Overlord's Bloodmail,3.1895,105
+16.2,4th+ Item,2504,Kaenic Rookern,-1.8617,273
+16.2,4th+ Item,2517,Endless Hunger,-0.9274,599
+16.2,4th+ Item,2524,Bandlepipes,4.7659,103
+16.2,4th+ Item,2525,Protoplasm Harness,-3.3863,123
+16.2,4th+ Item,3026,Guardian Angel,4.3097,646
+16.2,4th+ Item,3050,Zeke's Convergence,-1.319,268
+16.2,4th+ Item,3053,Sterak's Gage,0.1081,2241
+16.2,4th+ Item,3065,Spirit Visage,-0.3099,4777
+16.2,4th+ Item,3073,Experimental Hexplate,-2.6903,217
+16.2,4th+ Item,3075,Thornmail,-0.5592,3800
+16.2,4th+ Item,3091,Wit's End,2.4946,358
+16.2,4th+ Item,3110,Frozen Heart,-1.1052,347
+16.2,4th+ Item,3124,Guinsoo's Rageblade,-0.9041,101
+16.2,4th+ Item,3143,Randuin's Omen,3.3694,1366
+16.2,4th+ Item,3153,Blade of The Ruined King,-0.0057,329
+16.2,4th+ Item,3156,Maw of Malmortius,-2.89,356
+16.2,4th+ Item,3302,Terminus,-1.4381,161
+16.2,4th+ Item,3742,Dead Man's Plate,-0.7989,232
+16.2,4th+ Item,3748,Titanic Hydra,-4.0251,160
+16.2,4th+ Item,4401,Force of Nature,1.0905,216
+16.2,4th+ Item,6333,Death's Dance,0.2467,598
+16.2,4th+ Item,6631,Stridebreaker,-1.2159,238
+16.2,4th+ Item,6665,"Jak'Sho, The Protean",-0.0993,2531
+16.2,4th+ Item,6672,Kraken Slayer,-0.9421,287
+16.2,All Items,2501,Overlord's Bloodmail,-1.2347,799
+16.2,All Items,2504,Kaenic Rookern,-0.2709,551
+16.2,All Items,2510,Dusk and Dawn,0.9496,1211
+16.2,All Items,2517,Endless Hunger,-2.2383,1529
+16.2,All Items,2524,Bandlepipes,1.1959,350
+16.2,All Items,2525,Protoplasm Harness,-0.4545,221
+16.2,All Items,3026,Guardian Angel,2.8933,878
+16.2,All Items,3050,Zeke's Convergence,1.2913,1799
+16.2,All Items,3053,Sterak's Gage,-0.387,6575
+16.2,All Items,3065,Spirit Visage,-0.0588,15121
+16.2,All Items,3068,Sunfire Aegis,2.6644,108
+16.2,All Items,3071,Black Cleaver,-0.7877,326
+16.2,All Items,3073,Experimental Hexplate,-0.7456,2040
+16.2,All Items,3074,Ravenous Hydra,-0.6241,805
+16.2,All Items,3075,Thornmail,-0.2184,15996
+16.2,All Items,3078,Trinity Force,0.2093,604
+16.2,All Items,3087,Statikk Shiv,2.1757,119
+16.2,All Items,3091,Wit's End,-1.1167,1406
+16.2,All Items,3110,Frozen Heart,-1.8452,776
+16.2,All Items,3124,Guinsoo's Rageblade,1.2722,476
+16.2,All Items,3143,Randuin's Omen,2.1979,2862
+16.2,All Items,3146,Hextech Gunblade,-4.2785,149
+16.2,All Items,3153,Blade of The Ruined King,0.4918,37158
+16.2,All Items,3156,Maw of Malmortius,0.4643,1450
+16.2,All Items,3157,Zhonya's Hourglass,-5.6258,181
+16.2,All Items,3181,Hullbreaker,7.9473,124
+16.2,All Items,3302,Terminus,-2.9863,484
+16.2,All Items,3742,Dead Man's Plate,1.8818,825
+16.2,All Items,3748,Titanic Hydra,-0.3164,7752
+16.2,All Items,4401,Force of Nature,0.5125,450
+16.2,All Items,6333,Death's Dance,1.891,3663
+16.2,All Items,6609,Chempunk Chainsword,-0.7651,229
+16.2,All Items,6610,Sundered Sky,-0.565,321
+16.2,All Items,6631,Stridebreaker,-0.7541,28983
+16.2,All Items,6662,Iceborn Gauntlet,-2.4318,337
+16.2,All Items,6665,"Jak'Sho, The Protean",-0.0065,3931
+16.2,All Items,6672,Kraken Slayer,0.8536,5739
+16.2,All Items,6692,Eclipse,-0.5516,264
+16.2,All Items,6695,Serpent's Fang,-0.7933,221
+16.2,All Items,6698,Profane Hydra,-0.3731,159
+16.3,Keystone,8010,Conqueror,-3.4383,370
+16.3,Keystone,9923,Hail of Blades,-1.7591,126
+16.3,Keystone,8005,Press the Attack,-2.345,9460
+16.3,Keystone,8008,Lethal Tempo,0.5542,45110
+16.3,Spell,4,Flash,0.027,51800
+16.3,Spell,6,Ghost,-0.1819,3030
+16.3,Spell,11,Smite,0.0,55393
+16.3,Spell,14,Ignite,-2.3889,437
+16.3,Starter,1101,Scorchclaw Pup,-0.302,9827
+16.3,Starter,1102,Gustwalker Hatchling,0.1134,39313
+16.3,Starter,1103,Mosstomper Seedling,-0.2433,6124
+16.3,Boots,3006,Berserker's Greaves,-2.5759,917
+16.3,Boots,3009,Boots of Swiftness,0.1226,4689
+16.3,Boots,3020,Sorcerer's Shoes,0.4362,104
+16.3,Boots,3047,Plated Steelcaps,0.6831,22797
+16.3,Boots,3111,Mercury's Treads,-0.5445,22109
+16.3,Boots,3158,Ionian Boots of Lucidity,-0.0084,228
+16.3,1st Item,2510,Dusk and Dawn,-0.585,156
+16.3,1st Item,3073,Experimental Hexplate,1.2609,132
+16.3,1st Item,3074,Ravenous Hydra,-6.5612,285
+16.3,1st Item,3078,Trinity Force,-0.5706,270
+16.3,1st Item,3153,Blade of The Ruined King,1.0628,21761
+16.3,1st Item,3748,Titanic Hydra,-1.0181,4540
+16.3,1st Item,6631,Stridebreaker,-0.8562,20814
+16.3,1st Item,6672,Kraken Slayer,0.9734,4447
+16.3,2nd Item,2510,Dusk and Dawn,-0.1587,1027
+16.3,2nd Item,2517,Endless Hunger,-0.9201,396
+16.3,2nd Item,3050,Zeke's Convergence,1.8636,1261
+16.3,2nd Item,3053,Sterak's Gage,-1.1246,1386
+16.3,2nd Item,3065,Spirit Visage,-0.6495,2466
+16.3,2nd Item,3071,Black Cleaver,-3.3061,156
+16.3,2nd Item,3073,Experimental Hexplate,-1.5004,974
+16.3,2nd Item,3074,Ravenous Hydra,0.2157,542
+16.3,2nd Item,3075,Thornmail,-0.0441,3576
+16.3,2nd Item,3078,Trinity Force,2.7197,285
+16.3,2nd Item,3091,Wit's End,1.4825,401
+16.3,2nd Item,3124,Guinsoo's Rageblade,-3.9042,197
+16.3,2nd Item,3143,Randuin's Omen,3.249,290
+16.3,2nd Item,3153,Blade of The Ruined King,0.0534,17264
+16.3,2nd Item,3156,Maw of Malmortius,-1.9869,235
+16.3,2nd Item,3302,Terminus,-1.92,110
+16.3,2nd Item,3742,Dead Man's Plate,-1.0391,273
+16.3,2nd Item,3748,Titanic Hydra,1.1921,2652
+16.3,2nd Item,6333,Death's Dance,1.1806,1106
+16.3,2nd Item,6610,Sundered Sky,-3.1197,160
+16.3,2nd Item,6631,Stridebreaker,0.2074,10117
+16.3,2nd Item,6662,Iceborn Gauntlet,0.643,224
+16.3,2nd Item,6665,"Jak'Sho, The Protean",-0.514,377
+16.3,2nd Item,6672,Kraken Slayer,-1.6519,1829
+16.3,2nd Item,6692,Eclipse,-6.8681,124
+16.3,3rd Item,2501,Overlord's Bloodmail,-1.1736,471
+16.3,3rd Item,2504,Kaenic Rookern,-4.2766,227
+16.3,3rd Item,2510,Dusk and Dawn,-0.9491,240
+16.3,3rd Item,2517,Endless Hunger,-0.2457,726
+16.3,3rd Item,2524,Bandlepipes,2.5815,103
+16.3,3rd Item,3026,Guardian Angel,2.281,227
+16.3,3rd Item,3050,Zeke's Convergence,0.5479,814
+16.3,3rd Item,3053,Sterak's Gage,0.3154,3144
+16.3,3rd Item,3065,Spirit Visage,-0.4835,8383
+16.3,3rd Item,3071,Black Cleaver,2.9103,123
+16.3,3rd Item,3073,Experimental Hexplate,-0.1742,623
+16.3,3rd Item,3074,Ravenous Hydra,3.0903,118
+16.3,3rd Item,3075,Thornmail,0.0209,9681
+16.3,3rd Item,3078,Trinity Force,-2.1185,101
+16.3,3rd Item,3091,Wit's End,-1.1207,462
+16.3,3rd Item,3110,Frozen Heart,-0.3189,329
+16.3,3rd Item,3124,Guinsoo's Rageblade,-1.6792,163
+16.3,3rd Item,3143,Randuin's Omen,0.9283,1345
+16.3,3rd Item,3153,Blade of The Ruined King,-0.243,1387
+16.3,3rd Item,3156,Maw of Malmortius,1.5659,617
+16.3,3rd Item,3302,Terminus,-0.6373,232
+16.3,3rd Item,3742,Dead Man's Plate,2.1762,356
+16.3,3rd Item,3748,Titanic Hydra,-0.9629,508
+16.3,3rd Item,4401,Force of Nature,0.2191,196
+16.3,3rd Item,6333,Death's Dance,1.8585,1702
+16.3,3rd Item,6609,Chempunk Chainsword,-1.7666,146
+16.3,3rd Item,6631,Stridebreaker,-0.7413,908
+16.3,3rd Item,6662,Iceborn Gauntlet,-1.5642,124
+16.3,3rd Item,6665,"Jak'Sho, The Protean",0.4706,1181
+16.3,3rd Item,6672,Kraken Slayer,0.0036,895
+16.3,4th+ Item,2504,Kaenic Rookern,0.3234,265
+16.3,4th+ Item,2517,Endless Hunger,1.2786,706
+16.3,4th+ Item,3026,Guardian Angel,4.4401,746
+16.3,4th+ Item,3050,Zeke's Convergence,0.1516,294
+16.3,4th+ Item,3053,Sterak's Gage,0.16,2331
+16.3,4th+ Item,3065,Spirit Visage,-0.1074,5173
+16.3,4th+ Item,3073,Experimental Hexplate,-1.0689,230
+16.3,4th+ Item,3075,Thornmail,-0.7154,4323
+16.3,4th+ Item,3091,Wit's End,-1.4118,330
+16.3,4th+ Item,3110,Frozen Heart,-1.2541,369
+16.3,4th+ Item,3143,Randuin's Omen,0.4933,1361
+16.3,4th+ Item,3153,Blade of The Ruined King,1.1497,361
+16.3,4th+ Item,3156,Maw of Malmortius,3.1551,407
+16.3,4th+ Item,3302,Terminus,3.4143,205
+16.3,4th+ Item,3742,Dead Man's Plate,1.5808,307
+16.3,4th+ Item,3748,Titanic Hydra,-1.5899,182
+16.3,4th+ Item,4401,Force of Nature,1.4979,229
+16.3,4th+ Item,6333,Death's Dance,0.5153,769
+16.3,4th+ Item,6609,Chempunk Chainsword,-5.6828,110
+16.3,4th+ Item,6631,Stridebreaker,0.8769,279
+16.3,4th+ Item,6665,"Jak'Sho, The Protean",-0.0379,2868
+16.3,4th+ Item,6672,Kraken Slayer,-1.7754,383
+16.3,All Items,2501,Overlord's Bloodmail,-1.116,589
+16.3,All Items,2504,Kaenic Rookern,-1.537,570
+16.3,All Items,2510,Dusk and Dawn,-0.7781,1514
+16.3,All Items,2517,Endless Hunger,0.1268,1870
+16.3,All Items,2524,Bandlepipes,3.5077,226
+16.3,All Items,2525,Protoplasm Harness,0.0844,192
+16.3,All Items,3026,Guardian Angel,3.4531,1076
+16.3,All Items,3033,Mortal Reminder,-3.6429,109
+16.3,All Items,3050,Zeke's Convergence,1.0914,2432
+16.3,All Items,3053,Sterak's Gage,-0.0353,6891
+16.3,All Items,3065,Spirit Visage,-0.386,16066
+16.3,All Items,3068,Sunfire Aegis,-5.1992,178
+16.3,All Items,3071,Black Cleaver,0.3884,410
+16.3,All Items,3073,Experimental Hexplate,-0.8415,1960
+16.3,All Items,3074,Ravenous Hydra,-1.3718,992
+16.3,All Items,3075,Thornmail,-0.1569,17644
+16.3,All Items,3078,Trinity Force,0.3728,705
+16.3,All Items,3084,Heartsteel,2.9634,157
+16.3,All Items,3087,Statikk Shiv,-6.36,105
+16.3,All Items,3091,Wit's End,-0.5131,1232
+16.3,All Items,3110,Frozen Heart,-0.2953,801
+16.3,All Items,3124,Guinsoo's Rageblade,-2.6655,513
+16.3,All Items,3139,Mercurial Scimitar,-3.7217,109
+16.3,All Items,3143,Randuin's Omen,0.9701,3020
+16.3,All Items,3146,Hextech Gunblade,0.6698,127
+16.3,All Items,3153,Blade of The Ruined King,0.5913,40783
+16.3,All Items,3156,Maw of Malmortius,1.2771,1272
+16.3,All Items,3157,Zhonya's Hourglass,-1.3669,166
+16.3,All Items,3181,Hullbreaker,1.2969,129
+16.3,All Items,3302,Terminus,0.8934,557
+16.3,All Items,3742,Dead Man's Plate,0.8888,957
+16.3,All Items,3748,Titanic Hydra,-0.2838,7890
+16.3,All Items,4401,Force of Nature,0.8116,497
+16.3,All Items,6333,Death's Dance,1.3153,3603
+16.3,All Items,6609,Chempunk Chainsword,-3.9187,322
+16.3,All Items,6610,Sundered Sky,-2.731,338
+16.3,All Items,6631,Stridebreaker,-0.5027,32126
+16.3,All Items,6662,Iceborn Gauntlet,-0.2578,448
+16.3,All Items,6665,"Jak'Sho, The Protean",-0.0184,4464
+16.3,All Items,6672,Kraken Slayer,0.0834,7560
+16.3,All Items,6692,Eclipse,-3.6561,256
+16.3,All Items,6695,Serpent's Fang,-1.5818,232
+16.3,All Items,6698,Profane Hydra,-2.5623,158
+16.4,Keystone,8010,Conqueror,-3.8853,419
+16.4,Keystone,9923,Hail of Blades,-2.8209,152
+16.4,Keystone,8005,Press the Attack,-2.467,9078
+16.4,Keystone,8008,Lethal Tempo,0.5843,46068
+16.4,Keystone,8128,Dark Harvest,-8.5648,130
+16.4,Spell,3,Exhaust,-4.2523,138
+16.4,Spell,4,Flash,0.1531,52636
+16.4,Spell,6,Ghost,-2.4141,2819
+16.4,Spell,11,Smite,0.0,56094
+16.4,Spell,14,Ignite,0.5588,423
+16.4,Starter,1101,Scorchclaw Pup,1.1445,11053
+16.4,Starter,1102,Gustwalker Hatchling,-0.0644,38847
+16.4,Starter,1103,Mosstomper Seedling,-1.6799,6041
+16.4,Boots,3006,Berserker's Greaves,-3.5928,806
+16.4,Boots,3009,Boots of Swiftness,0.2839,4907
+16.4,Boots,3047,Plated Steelcaps,0.3888,23506
+16.4,Boots,3111,Mercury's Treads,-0.3477,21943
+16.4,Boots,3158,Ionian Boots of Lucidity,-1.7289,271
+16.4,1st Item,2510,Dusk and Dawn,-4.0736,102
+16.4,1st Item,3073,Experimental Hexplate,0.8497,184
+16.4,1st Item,3074,Ravenous Hydra,-1.1808,342
+16.4,1st Item,3078,Trinity Force,-0.6769,316
+16.4,1st Item,3153,Blade of The Ruined King,0.8139,21839
+16.4,1st Item,3748,Titanic Hydra,0.2374,5042
+16.4,1st Item,6631,Stridebreaker,-1.0157,20960
+16.4,1st Item,6672,Kraken Slayer,1.6219,4172
+16.4,1st Item,6698,Profane Hydra,-2.2487,151
+16.4,2nd Item,2510,Dusk and Dawn,1.7544,921
+16.4,2nd Item,2517,Endless Hunger,-1.242,305
+16.4,2nd Item,3050,Zeke's Convergence,1.1256,1637
+16.4,2nd Item,3053,Sterak's Gage,1.0495,1418
+16.4,2nd Item,3065,Spirit Visage,-1.9078,2542
+16.4,2nd Item,3071,Black Cleaver,-2.1766,197
+16.4,2nd Item,3073,Experimental Hexplate,-0.4375,1051
+16.4,2nd Item,3074,Ravenous Hydra,-3.653,530
+16.4,2nd Item,3075,Thornmail,-0.9536,3658
+16.4,2nd Item,3078,Trinity Force,-0.3041,283
+16.4,2nd Item,3091,Wit's End,0.9433,396
+16.4,2nd Item,3110,Frozen Heart,1.4126,136
+16.4,2nd Item,3124,Guinsoo's Rageblade,-0.7701,156
+16.4,2nd Item,3143,Randuin's Omen,0.7269,325
+16.4,2nd Item,3153,Blade of The Ruined King,0.2208,17530
+16.4,2nd Item,3156,Maw of Malmortius,4.1193,212
+16.4,2nd Item,3742,Dead Man's Plate,-2.1653,276
+16.4,2nd Item,3748,Titanic Hydra,0.8881,2650
+16.4,2nd Item,6333,Death's Dance,3.1718,1082
+16.4,2nd Item,6631,Stridebreaker,-0.0196,9542
+16.4,2nd Item,6662,Iceborn Gauntlet,-3.7437,198
+16.4,2nd Item,6665,"Jak'Sho, The Protean",-3.6868,400
+16.4,2nd Item,6672,Kraken Slayer,0.233,2320
+16.4,2nd Item,6692,Eclipse,1.2705,149
+16.4,3rd Item,2501,Overlord's Bloodmail,-1.7972,424
+16.4,3rd Item,2504,Kaenic Rookern,2.7093,262
+16.4,3rd Item,2510,Dusk and Dawn,0.2828,267
+16.4,3rd Item,2517,Endless Hunger,-2.1096,667
+16.4,3rd Item,2524,Bandlepipes,-1.9803,117
+16.4,3rd Item,3026,Guardian Angel,0.4439,295
+16.4,3rd Item,3050,Zeke's Convergence,2.2397,1145
+16.4,3rd Item,3053,Sterak's Gage,0.0589,2963
+16.4,3rd Item,3065,Spirit Visage,-0.5095,8265
+16.4,3rd Item,3073,Experimental Hexplate,-2.1984,564
+16.4,3rd Item,3074,Ravenous Hydra,-3.7442,140
+16.4,3rd Item,3075,Thornmail,0.0475,9729
+16.4,3rd Item,3091,Wit's End,0.017,477
+16.4,3rd Item,3110,Frozen Heart,1.8532,381
+16.4,3rd Item,3124,Guinsoo's Rageblade,1.9329,156
+16.4,3rd Item,3143,Randuin's Omen,2.157,1448
+16.4,3rd Item,3153,Blade of The Ruined King,-0.3647,1336
+16.4,3rd Item,3156,Maw of Malmortius,-0.287,519
+16.4,3rd Item,3302,Terminus,0.5886,225
+16.4,3rd Item,3742,Dead Man's Plate,2.7734,383
+16.4,3rd Item,3748,Titanic Hydra,1.693,528
+16.4,3rd Item,4401,Force of Nature,-4.6236,205
+16.4,3rd Item,6333,Death's Dance,2.5857,1813
+16.4,3rd Item,6609,Chempunk Chainsword,2.7464,121
+16.4,3rd Item,6631,Stridebreaker,-1.7226,901
+16.4,3rd Item,6662,Iceborn Gauntlet,-1.4715,127
+16.4,3rd Item,6665,"Jak'Sho, The Protean",-0.7129,1210
+16.4,3rd Item,6672,Kraken Slayer,-1.0152,1181
+16.4,4th+ Item,2504,Kaenic Rookern,-3.4908,264
+16.4,4th+ Item,2517,Endless Hunger,0.9651,596
+16.4,4th+ Item,3026,Guardian Angel,3.9437,787
+16.4,4th+ Item,3050,Zeke's Convergence,1.1678,244
+16.4,4th+ Item,3053,Sterak's Gage,0.2773,2539
+16.4,4th+ Item,3065,Spirit Visage,0.5871,5378
+16.4,4th+ Item,3073,Experimental Hexplate,-1.6628,197
+16.4,4th+ Item,3075,Thornmail,-0.3419,4605
+16.4,4th+ Item,3091,Wit's End,-0.0529,336
+16.4,4th+ Item,3110,Frozen Heart,0.4506,406
+16.4,4th+ Item,3143,Randuin's Omen,-1.0882,1538
+16.4,4th+ Item,3153,Blade of The Ruined King,0.8247,450
+16.4,4th+ Item,3156,Maw of Malmortius,0.5885,328
+16.4,4th+ Item,3302,Terminus,-2.9617,186
+16.4,4th+ Item,3742,Dead Man's Plate,-2.4242,321
+16.4,4th+ Item,3748,Titanic Hydra,0.6988,207
+16.4,4th+ Item,4401,Force of Nature,2.5975,228
+16.4,4th+ Item,6333,Death's Dance,0.1032,829
+16.4,4th+ Item,6609,Chempunk Chainsword,3.8003,108
+16.4,4th+ Item,6631,Stridebreaker,-3.4873,281
+16.4,4th+ Item,6665,"Jak'Sho, The Protean",-0.5049,2678
+16.4,4th+ Item,6672,Kraken Slayer,-2.0422,605
+16.4,All Items,2501,Overlord's Bloodmail,-2.1958,532
+16.4,All Items,2502,Unending Despair,-1.8818,104
+16.4,All Items,2504,Kaenic Rookern,-0.7704,610
+16.4,All Items,2510,Dusk and Dawn,0.981,1382
+16.4,All Items,2517,Endless Hunger,-0.777,1591
+16.4,All Items,2524,Bandlepipes,-1.6061,198
+16.4,All Items,2525,Protoplasm Harness,1.5147,206
+16.4,All Items,3026,Guardian Angel,2.7372,1189
+16.4,All Items,3033,Mortal Reminder,0.2326,118
+16.4,All Items,3050,Zeke's Convergence,1.6494,3099
+16.4,All Items,3053,Sterak's Gage,0.3637,6953
+16.4,All Items,3065,Spirit Visage,-0.3802,16227
+16.4,All Items,3068,Sunfire Aegis,-2.6942,126
+16.4,All Items,3071,Black Cleaver,-0.6229,370
+16.4,All Items,3073,Experimental Hexplate,-0.935,2001
+16.4,All Items,3074,Ravenous Hydra,-2.4285,1078
+16.4,All Items,3075,Thornmail,-0.2341,18054
+16.4,All Items,3078,Trinity Force,-0.3623,755
+16.4,All Items,3084,Heartsteel,-7.286,121
+16.4,All Items,3087,Statikk Shiv,-4.1068,155
+16.4,All Items,3091,Wit's End,0.2533,1260
+16.4,All Items,3110,Frozen Heart,1.1251,929
+16.4,All Items,3124,Guinsoo's Rageblade,-0.167,458
+16.4,All Items,3143,Randuin's Omen,0.4922,3329
+16.4,All Items,3146,Hextech Gunblade,-9.7007,104
+16.4,All Items,3153,Blade of The Ruined King,0.523,41164
+16.4,All Items,3156,Maw of Malmortius,0.8378,1063
+16.4,All Items,3157,Zhonya's Hourglass,-0.1531,170
+16.4,All Items,3302,Terminus,-1.6891,520
+16.4,All Items,3742,Dead Man's Plate,-0.5037,1001
+16.4,All Items,3748,Titanic Hydra,0.5443,8432
+16.4,All Items,4401,Force of Nature,0.086,502
+16.4,All Items,6333,Death's Dance,2.1317,3747
+16.4,All Items,6609,Chempunk Chainsword,2.6218,279
+16.4,All Items,6610,Sundered Sky,-0.3109,257
+16.4,All Items,6631,Stridebreaker,-0.7576,31690
+16.4,All Items,6662,Iceborn Gauntlet,-2.6894,421
+16.4,All Items,6665,"Jak'Sho, The Protean",-0.8667,4319
+16.4,All Items,6672,Kraken Slayer,0.588,8288
+16.4,All Items,6692,Eclipse,-1.8498,243
+16.4,All Items,6695,Serpent's Fang,-5.6252,212
+16.4,All Items,6696,Axiom Arc,-2.3099,151
+16.4,All Items,6698,Profane Hydra,-0.4143,292
+16.5,Keystone,8010,Conqueror,-3.3515,436
+16.5,Keystone,9923,Hail of Blades,-0.3122,141
+16.5,Keystone,8005,Press the Attack,-0.8271,10726
+16.5,Keystone,8008,Lethal Tempo,0.2531,51503
+16.5,Keystone,8128,Dark Harvest,-8.8484,112
+16.5,Spell,3,Exhaust,-3.3479,157
+16.5,Spell,4,Flash,0.0699,59353
+16.5,Spell,6,Ghost,-1.4291,3162
+16.5,Spell,11,Smite,-0.0,63155
+16.5,Spell,14,Ignite,2.2606,431
+16.5,Starter,1101,Scorchclaw Pup,0.5441,13725
+16.5,Starter,1102,Gustwalker Hatchling,-0.0803,42667
+16.5,Starter,1103,Mosstomper Seedling,-0.6081,6647
+16.5,Boots,3006,Berserker's Greaves,-2.5727,945
+16.5,Boots,3009,Boots of Swiftness,-1.0872,5255
+16.5,Boots,3020,Sorcerer's Shoes,-3.0099,118
+16.5,Boots,3047,Plated Steelcaps,0.609,27078
+16.5,Boots,3111,Mercury's Treads,-0.546,24286
+16.5,Boots,3158,Ionian Boots of Lucidity,2.32,298
+16.5,1st Item,2510,Dusk and Dawn,-0.6026,111
+16.5,1st Item,3073,Experimental Hexplate,-2.9124,702
+16.5,1st Item,3074,Ravenous Hydra,-4.6655,371
+16.5,1st Item,3078,Trinity Force,0.0546,336
+16.5,1st Item,3087,Statikk Shiv,1.6211,180
+16.5,1st Item,3153,Blade of The Ruined King,0.7575,25094
+16.5,1st Item,3748,Titanic Hydra,-0.3632,6296
+16.5,1st Item,6631,Stridebreaker,-0.6183,21421
+16.5,1st Item,6672,Kraken Slayer,0.6134,4938
+16.5,1st Item,6698,Profane Hydra,-1.9778,365
+16.5,2nd Item,2510,Dusk and Dawn,0.3724,1279
+16.5,2nd Item,2517,Endless Hunger,-1.7841,129
+16.5,2nd Item,3050,Zeke's Convergence,-0.5243,1295
+16.5,2nd Item,3053,Sterak's Gage,-1.4481,1568
+16.5,2nd Item,3065,Spirit Visage,-0.9688,2989
+16.5,2nd Item,3071,Black Cleaver,-4.1419,196
+16.5,2nd Item,3073,Experimental Hexplate,-1.2954,1284
+16.5,2nd Item,3074,Ravenous Hydra,-0.2809,658
+16.5,2nd Item,3075,Thornmail,-0.1963,4384
+16.5,2nd Item,3078,Trinity Force,-0.4485,374
+16.5,2nd Item,3091,Wit's End,0.3145,539
+16.5,2nd Item,3110,Frozen Heart,1.4374,133
+16.5,2nd Item,3124,Guinsoo's Rageblade,-3.7617,248
+16.5,2nd Item,3143,Randuin's Omen,5.1027,415
+16.5,2nd Item,3153,Blade of The Ruined King,0.2442,19578
+16.5,2nd Item,3156,Maw of Malmortius,0.4744,236
+16.5,2nd Item,3302,Terminus,-0.4584,168
+16.5,2nd Item,3742,Dead Man's Plate,-0.2868,319
+16.5,2nd Item,3748,Titanic Hydra,1.3995,3353
+16.5,2nd Item,6333,Death's Dance,1.0324,1360
+16.5,2nd Item,6610,Sundered Sky,2.7044,121
+16.5,2nd Item,6631,Stridebreaker,0.0408,10613
+16.5,2nd Item,6662,Iceborn Gauntlet,-1.3517,221
+16.5,2nd Item,6665,"Jak'Sho, The Protean",-0.8401,364
+16.5,2nd Item,6672,Kraken Slayer,-0.5346,2101
+16.5,2nd Item,6695,Serpent's Fang,-1.2014,105
+16.5,2nd Item,6698,Profane Hydra,-3.3433,230
+16.5,3rd Item,2501,Overlord's Bloodmail,-2.6084,355
+16.5,3rd Item,2504,Kaenic Rookern,2.0121,281
+16.5,3rd Item,2510,Dusk and Dawn,-1.464,279
+16.5,3rd Item,2517,Endless Hunger,-5.0273,241
+16.5,3rd Item,3026,Guardian Angel,2.9554,534
+16.5,3rd Item,3050,Zeke's Convergence,-0.8091,1332
+16.5,3rd Item,3053,Sterak's Gage,-0.4209,2903
+16.5,3rd Item,3065,Spirit Visage,0.1804,9649
+16.5,3rd Item,3071,Black Cleaver,-4.4562,149
+16.5,3rd Item,3073,Experimental Hexplate,0.5047,705
+16.5,3rd Item,3074,Ravenous Hydra,2.1541,143
+16.5,3rd Item,3075,Thornmail,-0.3209,11440
+16.5,3rd Item,3078,Trinity Force,-2.7337,132
+16.5,3rd Item,3091,Wit's End,2.8613,619
+16.5,3rd Item,3110,Frozen Heart,2.4391,446
+16.5,3rd Item,3124,Guinsoo's Rageblade,-0.9875,161
+16.5,3rd Item,3143,Randuin's Omen,1.3305,1739
+16.5,3rd Item,3153,Blade of The Ruined King,0.6867,1728
+16.5,3rd Item,3156,Maw of Malmortius,-0.9317,561
+16.5,3rd Item,3302,Terminus,2.943,300
+16.5,3rd Item,3742,Dead Man's Plate,-1.4931,521
+16.5,3rd Item,3748,Titanic Hydra,-1.0525,676
+16.5,3rd Item,4401,Force of Nature,1.6494,202
+16.5,3rd Item,6333,Death's Dance,0.8573,2046
+16.5,3rd Item,6609,Chempunk Chainsword,-4.7063,131
+16.5,3rd Item,6610,Sundered Sky,-1.6779,128
+16.5,3rd Item,6631,Stridebreaker,0.0286,1166
+16.5,3rd Item,6662,Iceborn Gauntlet,7.7429,125
+16.5,3rd Item,6665,"Jak'Sho, The Protean",-0.3996,1381
+16.5,3rd Item,6672,Kraken Slayer,-1.9047,771
+16.5,3rd Item,6695,Serpent's Fang,3.1964,140
+16.5,4th+ Item,2501,Overlord's Bloodmail,-1.7094,130
+16.5,4th+ Item,2504,Kaenic Rookern,-1.2711,327
+16.5,4th+ Item,2517,Endless Hunger,-3.3486,243
+16.5,4th+ Item,3026,Guardian Angel,1.1899,964
+16.5,4th+ Item,3050,Zeke's Convergence,-1.1837,386
+16.5,4th+ Item,3053,Sterak's Gage,0.2923,3320
+16.5,4th+ Item,3065,Spirit Visage,-0.3122,6177
+16.5,4th+ Item,3071,Black Cleaver,3.1825,103
+16.5,4th+ Item,3073,Experimental Hexplate,-2.774,238
+16.5,4th+ Item,3075,Thornmail,0.2677,4787
+16.5,4th+ Item,3091,Wit's End,-0.1102,377
+16.5,4th+ Item,3110,Frozen Heart,-0.8279,437
+16.5,4th+ Item,3143,Randuin's Omen,1.3781,1707
+16.5,4th+ Item,3153,Blade of The Ruined King,-1.0455,482
+16.5,4th+ Item,3156,Maw of Malmortius,-1.834,363
+16.5,4th+ Item,3157,Zhonya's Hourglass,-0.2039,138
+16.5,4th+ Item,3302,Terminus,5.5069,243
+16.5,4th+ Item,3742,Dead Man's Plate,1.7508,381
+16.5,4th+ Item,3748,Titanic Hydra,2.7466,219
+16.5,4th+ Item,4401,Force of Nature,-1.4159,289
+16.5,4th+ Item,6333,Death's Dance,1.4473,1025
+16.5,4th+ Item,6609,Chempunk Chainsword,-3.2573,128
+16.5,4th+ Item,6631,Stridebreaker,-1.0115,444
+16.5,4th+ Item,6662,Iceborn Gauntlet,1.5699,139
+16.5,4th+ Item,6665,"Jak'Sho, The Protean",-0.5728,3476
+16.5,4th+ Item,6672,Kraken Slayer,-3.3528,297
+16.5,All Items,2501,Overlord's Bloodmail,-2.6019,532
+16.5,All Items,2502,Unending Despair,-3.2322,124
+16.5,All Items,2504,Kaenic Rookern,0.1117,695
+16.5,All Items,2510,Dusk and Dawn,-0.0698,1724
+16.5,All Items,2517,Endless Hunger,-3.9384,627
+16.5,All Items,2524,Bandlepipes,-5.4152,125
+16.5,All Items,2525,Protoplasm Harness,-0.3351,211
+16.5,All Items,3026,Guardian Angel,1.6922,1635
+16.5,All Items,3033,Mortal Reminder,-0.6666,177
+16.5,All Items,3050,Zeke's Convergence,-0.5753,3059
+16.5,All Items,3053,Sterak's Gage,-0.3376,7833
+16.5,All Items,3065,Spirit Visage,-0.1736,18863
+16.5,All Items,3068,Sunfire Aegis,-8.0519,118
+16.5,All Items,3071,Black Cleaver,-2.8809,460
+16.5,All Items,3072,Bloodthirster,-4.3566,133
+16.5,All Items,3073,Experimental Hexplate,-1.3553,2937
+16.5,All Items,3074,Ravenous Hydra,-1.1795,1245
+16.5,All Items,3075,Thornmail,-0.1583,20707
+16.5,All Items,3078,Trinity Force,-0.9349,912
+16.5,All Items,3084,Heartsteel,0.1671,104
+16.5,All Items,3087,Statikk Shiv,0.1784,247
+16.5,All Items,3091,Wit's End,1.0056,1583
+16.5,All Items,3110,Frozen Heart,0.7578,1024
+16.5,All Items,3124,Guinsoo's Rageblade,-1.2651,542
+16.5,All Items,3139,Mercurial Scimitar,0.6585,119
+16.5,All Items,3143,Randuin's Omen,1.7824,3882
+16.5,All Items,3146,Hextech Gunblade,1.3578,110
+16.5,All Items,3153,Blade of The Ruined King,0.5211,46886
+16.5,All Items,3156,Maw of Malmortius,-1.0118,1169
+16.5,All Items,3157,Zhonya's Hourglass,-0.3961,260
+16.5,All Items,3181,Hullbreaker,-0.0576,165
+16.5,All Items,3302,Terminus,2.4083,727
+16.5,All Items,3742,Dead Man's Plate,0.2031,1252
+16.5,All Items,3748,Titanic Hydra,0.2176,10550
+16.5,All Items,4401,Force of Nature,-0.4971,562
+16.5,All Items,6333,Death's Dance,0.9623,4467
+16.5,All Items,6609,Chempunk Chainsword,-4.2582,339
+16.5,All Items,6610,Sundered Sky,0.2965,351
+16.5,All Items,6631,Stridebreaker,-0.3936,33648
+16.5,All Items,6662,Iceborn Gauntlet,1.5749,497
+16.5,All Items,6665,"Jak'Sho, The Protean",-0.5228,5262
+16.5,All Items,6672,Kraken Slayer,-0.0743,8110
+16.5,All Items,6692,Eclipse,5.0371,195
+16.5,All Items,6695,Serpent's Fang,2.8415,358
+16.5,All Items,6698,Profane Hydra,-2.5376,633
+16.6,Keystone,8010,Conqueror,-0.6181,522
+16.6,Keystone,9923,Hail of Blades,-2.7628,247
+16.6,Keystone,8005,Press the Attack,-0.3644,11867
+16.6,Keystone,8008,Lethal Tempo,0.1422,51562
+16.6,Keystone,8128,Dark Harvest,-0.2184,139
+16.6,Spell,3,Exhaust,-1.3616,101
+16.6,Spell,4,Flash,0.0513,60516
+16.6,Spell,6,Ghost,-1.2611,3227
+16.6,Spell,11,Smite,0.0,64576
+16.6,Spell,14,Ignite,1.7894,677
+16.6,Starter,1101,Scorchclaw Pup,0.7367,13655
+16.6,Starter,1102,Gustwalker Hatchling,-0.2594,43191
+16.6,Starter,1103,Mosstomper Seedling,0.1506,7589
+16.6,Boots,3006,Berserker's Greaves,-3.3997,1059
+16.6,Boots,3009,Boots of Swiftness,0.1282,5123
+16.6,Boots,3020,Sorcerer's Shoes,-4.929,130
+16.6,Boots,3047,Plated Steelcaps,0.5917,27837
+16.6,Boots,3111,Mercury's Treads,-0.4619,24980
+16.6,Boots,3158,Ionian Boots of Lucidity,-3.5757,372
+16.6,1st Item,2510,Dusk and Dawn,-4.6608,126
+16.6,1st Item,3073,Experimental Hexplate,-4.9085,301
+16.6,1st Item,3074,Ravenous Hydra,-0.2031,410
+16.6,1st Item,3078,Trinity Force,0.2442,303
+16.6,1st Item,3087,Statikk Shiv,-2.9049,148
+16.6,1st Item,3153,Blade of The Ruined King,0.4182,26380
+16.6,1st Item,3748,Titanic Hydra,-0.0608,5784
+16.6,1st Item,6631,Stridebreaker,-0.7765,21682
+16.6,1st Item,6672,Kraken Slayer,1.9704,5741
+16.6,1st Item,6698,Profane Hydra,2.335,237
+16.6,2nd Item,2510,Dusk and Dawn,2.3856,1800
+16.6,2nd Item,2517,Endless Hunger,2.7304,142
+16.6,2nd Item,3050,Zeke's Convergence,-1.3003,762
+16.6,2nd Item,3053,Sterak's Gage,0.9674,1265
+16.6,2nd Item,3065,Spirit Visage,-0.7686,2936
+16.6,2nd Item,3071,Black Cleaver,-6.5151,165
+16.6,2nd Item,3073,Experimental Hexplate,-0.7464,1324
+16.6,2nd Item,3074,Ravenous Hydra,-0.0184,647
+16.6,2nd Item,3075,Thornmail,0.2652,4580
+16.6,2nd Item,3078,Trinity Force,-0.5575,356
+16.6,2nd Item,3091,Wit's End,-0.6864,492
+16.6,2nd Item,3110,Frozen Heart,3.5892,125
+16.6,2nd Item,3124,Guinsoo's Rageblade,-1.0902,291
+16.6,2nd Item,3143,Randuin's Omen,-1.469,395
+16.6,2nd Item,3153,Blade of The Ruined King,-0.1095,19149
+16.6,2nd Item,3156,Maw of Malmortius,3.3056,249
+16.6,2nd Item,3302,Terminus,-2.5364,158
+16.6,2nd Item,3742,Dead Man's Plate,1.5572,369
+16.6,2nd Item,3748,Titanic Hydra,0.2282,3590
+16.6,2nd Item,6333,Death's Dance,1.2358,1363
+16.6,2nd Item,6610,Sundered Sky,0.7887,124
+16.6,2nd Item,6631,Stridebreaker,0.0298,11510
+16.6,2nd Item,6662,Iceborn Gauntlet,0.2481,210
+16.6,2nd Item,6665,"Jak'Sho, The Protean",-0.2338,413
+16.6,2nd Item,6672,Kraken Slayer,0.1206,2364
+16.6,2nd Item,6698,Profane Hydra,1.1048,437
+16.6,3rd Item,2501,Overlord's Bloodmail,-1.5647,276
+16.6,3rd Item,2504,Kaenic Rookern,1.8997,251
+16.6,3rd Item,2510,Dusk and Dawn,0.3299,211
+16.6,3rd Item,2517,Endless Hunger,1.5266,206
+16.6,3rd Item,3026,Guardian Angel,3.2809,557
+16.6,3rd Item,3050,Zeke's Convergence,1.6806,1419
+16.6,3rd Item,3053,Sterak's Gage,-0.3239,3281
+16.6,3rd Item,3065,Spirit Visage,-0.3543,9313
+16.6,3rd Item,3071,Black Cleaver,-0.52,118
+16.6,3rd Item,3073,Experimental Hexplate,-4.5819,499
+16.6,3rd Item,3074,Ravenous Hydra,5.329,149
+16.6,3rd Item,3075,Thornmail,-0.4672,11890
+16.6,3rd Item,3078,Trinity Force,4.4237,166
+16.6,3rd Item,3091,Wit's End,-0.8264,610
+16.6,3rd Item,3110,Frozen Heart,3.3515,380
+16.6,3rd Item,3124,Guinsoo's Rageblade,-4.3544,187
+16.6,3rd Item,3143,Randuin's Omen,2.55,1654
+16.6,3rd Item,3153,Blade of The Ruined King,0.14,1643
+16.6,3rd Item,3156,Maw of Malmortius,2.1041,432
+16.6,3rd Item,3302,Terminus,1.8479,359
+16.6,3rd Item,3742,Dead Man's Plate,2.5267,478
+16.6,3rd Item,3748,Titanic Hydra,-0.2252,615
+16.6,3rd Item,4401,Force of Nature,1.6728,249
+16.6,3rd Item,6333,Death's Dance,1.9737,2691
+16.6,3rd Item,6609,Chempunk Chainsword,-2.6465,119
+16.6,3rd Item,6610,Sundered Sky,-2.8256,105
+16.6,3rd Item,6631,Stridebreaker,-1.2963,1088
+16.6,3rd Item,6662,Iceborn Gauntlet,0.4748,148
+16.6,3rd Item,6665,"Jak'Sho, The Protean",-2.0171,1311
+16.6,3rd Item,6672,Kraken Slayer,1.791,1126
+16.6,3rd Item,6695,Serpent's Fang,-0.7586,116
+16.6,4th+ Item,2501,Overlord's Bloodmail,1.6265,106
+16.6,4th+ Item,2504,Kaenic Rookern,1.4029,326
+16.6,4th+ Item,2517,Endless Hunger,3.1733,192
+16.6,4th+ Item,3026,Guardian Angel,2.4414,829
+16.6,4th+ Item,3050,Zeke's Convergence,-3.2912,262
+16.6,4th+ Item,3053,Sterak's Gage,-0.845,2826
+16.6,4th+ Item,3065,Spirit Visage,-0.5081,6423
+16.6,4th+ Item,3071,Black Cleaver,-3.4911,109
+16.6,4th+ Item,3073,Experimental Hexplate,1.5605,221
+16.6,4th+ Item,3075,Thornmail,0.1032,4737
+16.6,4th+ Item,3091,Wit's End,-0.5559,407
+16.6,4th+ Item,3110,Frozen Heart,-0.0027,416
+16.6,4th+ Item,3143,Randuin's Omen,1.2827,1580
+16.6,4th+ Item,3153,Blade of The Ruined King,1.4299,512
+16.6,4th+ Item,3156,Maw of Malmortius,0.5711,381
+16.6,4th+ Item,3157,Zhonya's Hourglass,0.3029,124
+16.6,4th+ Item,3302,Terminus,1.7176,293
+16.6,4th+ Item,3742,Dead Man's Plate,0.4587,290
+16.6,4th+ Item,3748,Titanic Hydra,3.7151,274
+16.6,4th+ Item,4401,Force of Nature,0.577,327
+16.6,4th+ Item,6333,Death's Dance,0.7392,1792
+16.6,4th+ Item,6609,Chempunk Chainsword,1.1994,128
+16.6,4th+ Item,6631,Stridebreaker,-0.6444,410
+16.6,4th+ Item,6665,"Jak'Sho, The Protean",-0.4178,3437
+16.6,4th+ Item,6672,Kraken Slayer,0.1481,619
+16.6,All Items,2501,Overlord's Bloodmail,-1.9298,438
+16.6,All Items,2502,Unending Despair,1.1008,109
+16.6,All Items,2504,Kaenic Rookern,0.9141,656
+16.6,All Items,2510,Dusk and Dawn,1.5331,2231
+16.6,All Items,2517,Endless Hunger,2.3805,555
+16.6,All Items,2524,Bandlepipes,-3.7347,108
+16.6,All Items,2525,Protoplasm Harness,-3.9405,234
+16.6,All Items,3026,Guardian Angel,2.463,1457
+16.6,All Items,3033,Mortal Reminder,3.3093,125
+16.6,All Items,3050,Zeke's Convergence,0.1796,2474
+16.6,All Items,3053,Sterak's Gage,-0.3168,7409
+16.6,All Items,3065,Spirit Visage,-0.4785,18726
+16.6,All Items,3068,Sunfire Aegis,-3.5731,133
+16.6,All Items,3071,Black Cleaver,-4.2311,403
+16.6,All Items,3073,Experimental Hexplate,-1.877,2348
+16.6,All Items,3074,Ravenous Hydra,0.4787,1274
+16.6,All Items,3075,Thornmail,-0.2172,21296
+16.6,All Items,3078,Trinity Force,0.7905,915
+16.6,All Items,3084,Heartsteel,-3.5179,120
+16.6,All Items,3087,Statikk Shiv,-4.0247,209
+16.6,All Items,3091,Wit's End,-0.6025,1573
+16.6,All Items,3110,Frozen Heart,1.9629,933
+16.6,All Items,3124,Guinsoo's Rageblade,-2.4911,622
+16.6,All Items,3139,Mercurial Scimitar,-9.1598,133
+16.6,All Items,3143,Randuin's Omen,1.5734,3649
+16.6,All Items,3153,Blade of The Ruined King,0.2076,47689
+16.6,All Items,3156,Maw of Malmortius,1.7628,1071
+16.6,All Items,3157,Zhonya's Hourglass,1.0746,223
+16.6,All Items,3181,Hullbreaker,3.6648,179
+16.6,All Items,3302,Terminus,0.6833,829
+16.6,All Items,3742,Dead Man's Plate,1.5067,1160
+16.6,All Items,3748,Titanic Hydra,0.1312,10272
+16.6,All Items,4401,Force of Nature,1.132,660
+16.6,All Items,6333,Death's Dance,1.4463,5896
+16.6,All Items,6609,Chempunk Chainsword,0.109,325
+16.6,All Items,6610,Sundered Sky,-1.6093,340
+16.6,All Items,6631,Stridebreaker,-0.5235,34700
+16.6,All Items,6662,Iceborn Gauntlet,-0.1116,443
+16.6,All Items,6665,"Jak'Sho, The Protean",-0.7792,5191
+16.6,All Items,6672,Kraken Slayer,1.3899,9861
+16.6,All Items,6675,Navori Flickerblade,-6.3614,152
+16.6,All Items,6692,Eclipse,-1.6439,220
+16.6,All Items,6695,Serpent's Fang,0.5113,289
+16.6,All Items,6697,Hubris,1.8079,114
+16.6,All Items,6698,Profane Hydra,1.4827,721
+16.7,Keystone,8010,Conqueror,-2.6744,532
+16.7,Keystone,9923,Hail of Blades,-11.8862,107
+16.7,Keystone,8005,Press the Attack,-1.3729,12146
+16.7,Keystone,8008,Lethal Tempo,0.3881,54840
+16.7,Keystone,8128,Dark Harvest,-3.829,123
+16.7,Spell,3,Exhaust,-3.9249,124
+16.7,Spell,4,Flash,-0.0197,63657
+16.7,Spell,6,Ghost,-0.2557,3507
+16.7,Spell,11,Smite,0.0,67994
+16.7,Spell,14,Ignite,4.7374,638
+16.7,Starter,1101,Scorchclaw Pup,0.0832,14043
+16.7,Starter,1102,Gustwalker Hatchling,-0.1977,45079
+16.7,Starter,1103,Mosstomper Seedling,0.8882,8720
+16.7,Boots,3006,Berserker's Greaves,-2.7135,1102
+16.7,Boots,3009,Boots of Swiftness,-0.279,5595
+16.7,Boots,3020,Sorcerer's Shoes,-5.8628,132
+16.7,Boots,3047,Plated Steelcaps,0.8177,29903
+16.7,Boots,3111,Mercury's Treads,-0.7721,25379
+16.7,Boots,3158,Ionian Boots of Lucidity,4.7853,463
+16.7,1st Item,2510,Dusk and Dawn,-0.1418,106
+16.7,1st Item,3073,Experimental Hexplate,3.9406,278
+16.7,1st Item,3074,Ravenous Hydra,-5.2843,540
+16.7,1st Item,3078,Trinity Force,4.1768,350
+16.7,1st Item,3153,Blade of The Ruined King,0.3619,27922
+16.7,1st Item,3748,Titanic Hydra,-0.003,6180
+16.7,1st Item,6631,Stridebreaker,-0.7861,22051
+16.7,1st Item,6672,Kraken Slayer,1.6065,6518
+16.7,1st Item,6692,Eclipse,-1.9689,116
+16.7,1st Item,6698,Profane Hydra,1.6762,244
+16.7,2nd Item,2510,Dusk and Dawn,1.6965,2235
+16.7,2nd Item,2517,Endless Hunger,-2.2566,102
+16.7,2nd Item,3050,Zeke's Convergence,-0.168,704
+16.7,2nd Item,3053,Sterak's Gage,-0.3169,1329
+16.7,2nd Item,3065,Spirit Visage,-1.6166,2548
+16.7,2nd Item,3071,Black Cleaver,-6.2357,167
+16.7,2nd Item,3073,Experimental Hexplate,-0.6108,1415
+16.7,2nd Item,3074,Ravenous Hydra,-2.3034,651
+16.7,2nd Item,3075,Thornmail,-0.8898,4481
+16.7,2nd Item,3078,Trinity Force,3.8945,420
+16.7,2nd Item,3091,Wit's End,-2.0577,475
+16.7,2nd Item,3110,Frozen Heart,3.9515,153
+16.7,2nd Item,3124,Guinsoo's Rageblade,1.0061,290
+16.7,2nd Item,3143,Randuin's Omen,7.7162,353
+16.7,2nd Item,3153,Blade of The Ruined King,0.2855,19951
+16.7,2nd Item,3156,Maw of Malmortius,-0.1978,231
+16.7,2nd Item,3302,Terminus,-3.788,175
+16.7,2nd Item,3742,Dead Man's Plate,4.0226,344
+16.7,2nd Item,3748,Titanic Hydra,1.2368,4106
+16.7,2nd Item,6333,Death's Dance,0.0352,1565
+16.7,2nd Item,6610,Sundered Sky,-5.4568,185
+16.7,2nd Item,6631,Stridebreaker,-0.3053,12153
+16.7,2nd Item,6662,Iceborn Gauntlet,1.6174,336
+16.7,2nd Item,6665,"Jak'Sho, The Protean",-1.144,402
+16.7,2nd Item,6672,Kraken Slayer,0.0028,2770
+16.7,2nd Item,6698,Profane Hydra,0.3736,507
+16.7,3rd Item,2501,Overlord's Bloodmail,0.801,259
+16.7,3rd Item,2504,Kaenic Rookern,1.1486,272
+16.7,3rd Item,2510,Dusk and Dawn,2.4416,240
+16.7,3rd Item,2517,Endless Hunger,-2.1403,148
+16.7,3rd Item,3026,Guardian Angel,2.3253,571
+16.7,3rd Item,3050,Zeke's Convergence,2.9771,1484
+16.7,3rd Item,3053,Sterak's Gage,1.1169,3604
+16.7,3rd Item,3065,Spirit Visage,-0.6891,9830
+16.7,3rd Item,3071,Black Cleaver,4.541,134
+16.7,3rd Item,3073,Experimental Hexplate,-1.6107,548
+16.7,3rd Item,3074,Ravenous Hydra,2.6844,174
+16.7,3rd Item,3075,Thornmail,-0.5758,11908
+16.7,3rd Item,3078,Trinity Force,-2.1943,119
+16.7,3rd Item,3091,Wit's End,-1.2975,625
+16.7,3rd Item,3110,Frozen Heart,1.5676,449
+16.7,3rd Item,3124,Guinsoo's Rageblade,-4.3504,194
+16.7,3rd Item,3143,Randuin's Omen,1.5031,1744
+16.7,3rd Item,3153,Blade of The Ruined King,-0.0746,1690
+16.7,3rd Item,3156,Maw of Malmortius,-0.4596,576
+16.7,3rd Item,3181,Hullbreaker,2.1677,110
+16.7,3rd Item,3302,Terminus,1.3763,332
+16.7,3rd Item,3742,Dead Man's Plate,0.6969,561
+16.7,3rd Item,3748,Titanic Hydra,0.4884,685
+16.7,3rd Item,4401,Force of Nature,0.6926,282
+16.7,3rd Item,6333,Death's Dance,1.2687,3053
+16.7,3rd Item,6609,Chempunk Chainsword,-3.918,154
+16.7,3rd Item,6610,Sundered Sky,-4.8089,103
+16.7,3rd Item,6631,Stridebreaker,-0.4889,1167
+16.7,3rd Item,6662,Iceborn Gauntlet,-2.4254,131
+16.7,3rd Item,6665,"Jak'Sho, The Protean",-0.0342,1512
+16.7,3rd Item,6672,Kraken Slayer,-0.2849,1164
+16.7,3rd Item,6695,Serpent's Fang,-0.1408,144
+16.7,4th+ Item,2501,Overlord's Bloodmail,1.0796,140
+16.7,4th+ Item,2504,Kaenic Rookern,-0.0542,332
+16.7,4th+ Item,2517,Endless Hunger,0.7386,166
+16.7,4th+ Item,3026,Guardian Angel,2.5559,1047
+16.7,4th+ Item,3050,Zeke's Convergence,-0.6545,353
+16.7,4th+ Item,3053,Sterak's Gage,1.0824,2710
+16.7,4th+ Item,3065,Spirit Visage,-0.4294,6985
+16.7,4th+ Item,3071,Black Cleaver,0.152,108
+16.7,4th+ Item,3073,Experimental Hexplate,-1.647,220
+16.7,4th+ Item,3075,Thornmail,-0.1297,5105
+16.7,4th+ Item,3091,Wit's End,-0.1387,441
+16.7,4th+ Item,3110,Frozen Heart,1.4696,463
+16.7,4th+ Item,3143,Randuin's Omen,0.583,1769
+16.7,4th+ Item,3153,Blade of The Ruined King,-1.0326,633
+16.7,4th+ Item,3156,Maw of Malmortius,2.4659,386
+16.7,4th+ Item,3157,Zhonya's Hourglass,-0.39,143
+16.7,4th+ Item,3302,Terminus,-3.8788,253
+16.7,4th+ Item,3742,Dead Man's Plate,0.6489,408
+16.7,4th+ Item,3748,Titanic Hydra,-1.1225,245
+16.7,4th+ Item,4401,Force of Nature,0.1057,376
+16.7,4th+ Item,6333,Death's Dance,1.305,2041
+16.7,4th+ Item,6609,Chempunk Chainsword,-0.9265,150
+16.7,4th+ Item,6631,Stridebreaker,-0.5494,416
+16.7,4th+ Item,6665,"Jak'Sho, The Protean",-0.9086,3158
+16.7,4th+ Item,6672,Kraken Slayer,-0.1879,743
+16.7,4th+ Item,6695,Serpent's Fang,-2.867,130
+16.7,All Items,2501,Overlord's Bloodmail,1.7014,445
+16.7,All Items,2502,Unending Despair,-1.7967,124
+16.7,All Items,2504,Kaenic Rookern,-0.0732,669
+16.7,All Items,2510,Dusk and Dawn,1.8743,2667
+16.7,All Items,2517,Endless Hunger,-1.2705,431
+16.7,All Items,2524,Bandlepipes,0.7383,113
+16.7,All Items,2525,Protoplasm Harness,1.2945,219
+16.7,All Items,3026,Guardian Angel,2.213,1716
+16.7,All Items,3033,Mortal Reminder,-2.2711,206
+16.7,All Items,3041,Mejai's Soulstealer,1.3136,140
+16.7,All Items,3050,Zeke's Convergence,1.5439,2559
+16.7,All Items,3053,Sterak's Gage,0.8559,7677
+16.7,All Items,3065,Spirit Visage,-0.7271,19423
+16.7,All Items,3068,Sunfire Aegis,-2.8585,116
+16.7,All Items,3071,Black Cleaver,-1.0887,424
+16.7,All Items,3072,Bloodthirster,0.1814,106
+16.7,All Items,3073,Experimental Hexplate,-0.388,2466
+16.7,All Items,3074,Ravenous Hydra,-2.7311,1437
+16.7,All Items,3075,Thornmail,-0.5445,21583
+16.7,All Items,3078,Trinity Force,2.5217,947
+16.7,All Items,3084,Heartsteel,-0.6333,163
+16.7,All Items,3087,Statikk Shiv,-2.8031,138
+16.7,All Items,3091,Wit's End,-1.3487,1603
+16.7,All Items,3109,Knight's Vow,0.198,128
+16.7,All Items,3110,Frozen Heart,1.8524,1076
+16.7,All Items,3124,Guinsoo's Rageblade,-1.4032,597
+16.7,All Items,3139,Mercurial Scimitar,0.2304,161
+16.7,All Items,3142,Youmuu's Ghostblade,-5.692,122
+16.7,All Items,3143,Randuin's Omen,1.6178,3892
+16.7,All Items,3146,Hextech Gunblade,-2.0873,125
+16.7,All Items,3153,Blade of The Ruined King,0.2987,50209
+16.7,All Items,3156,Maw of Malmortius,0.5571,1206
+16.7,All Items,3157,Zhonya's Hourglass,0.3298,270
+16.7,All Items,3181,Hullbreaker,-0.4261,210
+16.7,All Items,3302,Terminus,-2.0826,791
+16.7,All Items,3742,Dead Man's Plate,1.4886,1334
+16.7,All Items,3748,Titanic Hydra,0.4565,11224
+16.7,All Items,4401,Force of Nature,0.6743,759
+16.7,All Items,6333,Death's Dance,0.9531,6715
+16.7,All Items,6609,Chempunk Chainsword,-3.4375,375
+16.7,All Items,6610,Sundered Sky,-2.4648,440
+16.7,All Items,6631,Stridebreaker,-0.6103,35792
+16.7,All Items,6662,Iceborn Gauntlet,0.67,547
+16.7,All Items,6665,"Jak'Sho, The Protean",-0.6656,5116
+16.7,All Items,6672,Kraken Slayer,0.8983,11200
+16.7,All Items,6675,Navori Flickerblade,-2.686,109
+16.7,All Items,6692,Eclipse,-1.5879,277
+16.7,All Items,6695,Serpent's Fang,-1.5746,370
+16.7,All Items,6696,Axiom Arc,1.9985,138
+16.7,All Items,6697,Hubris,-3.3377,129
+16.7,All Items,6698,Profane Hydra,0.8772,798
+16.8,Keystone,8010,Conqueror,-4.0484,302
+16.8,Keystone,8005,Press the Attack,-2.1765,8124
+16.8,Keystone,8008,Lethal Tempo,0.5753,38457
+16.8,Spell,4,Flash,0.1589,44386
+16.8,Spell,6,Ghost,-2.067,2328
+16.8,Spell,11,Smite,0.0,47240
+16.8,Spell,14,Ignite,-2.2689,409
+16.8,Starter,1101,Scorchclaw Pup,0.1341,10315
+16.8,Starter,1102,Gustwalker Hatchling,-0.0945,30550
+16.8,Starter,1103,Mosstomper Seedling,0.2362,6368
+16.8,Boots,3006,Berserker's Greaves,-1.533,726
+16.8,Boots,3009,Boots of Swiftness,-0.1327,3973
+16.8,Boots,3047,Plated Steelcaps,0.4898,21729
+16.8,Boots,3111,Mercury's Treads,-0.3678,18099
+16.8,Boots,3158,Ionian Boots of Lucidity,-1.762,299
+16.8,1st Item,3073,Experimental Hexplate,1.6938,221
+16.8,1st Item,3074,Ravenous Hydra,-6.5636,312
+16.8,1st Item,3078,Trinity Force,-2.3266,203
+16.8,1st Item,3153,Blade of The Ruined King,1.1223,20910
+16.8,1st Item,3748,Titanic Hydra,-0.4134,4037
+16.8,1st Item,6631,Stridebreaker,-1.4353,15682
+16.8,1st Item,6672,Kraken Slayer,0.8267,4825
+16.8,1st Item,6692,Eclipse,0.545,110
+16.8,2nd Item,2510,Dusk and Dawn,0.2341,1519
+16.8,2nd Item,3050,Zeke's Convergence,2.0741,474
+16.8,2nd Item,3053,Sterak's Gage,-0.3378,765
+16.8,2nd Item,3065,Spirit Visage,-1.1694,1868
+16.8,2nd Item,3071,Black Cleaver,-5.5101,106
+16.8,2nd Item,3073,Experimental Hexplate,0.5182,977
+16.8,2nd Item,3074,Ravenous Hydra,2.4206,539
+16.8,2nd Item,3075,Thornmail,0.1802,3217
+16.8,2nd Item,3078,Trinity Force,-4.184,259
+16.8,2nd Item,3091,Wit's End,-2.7282,422
+16.8,2nd Item,3110,Frozen Heart,-3.9931,119
+16.8,2nd Item,3124,Guinsoo's Rageblade,3.8168,166
+16.8,2nd Item,3143,Randuin's Omen,3.0572,296
+16.8,2nd Item,3153,Blade of The Ruined King,-0.3489,14278
+16.8,2nd Item,3156,Maw of Malmortius,2.1758,177
+16.8,2nd Item,3302,Terminus,-5.7267,139
+16.8,2nd Item,3742,Dead Man's Plate,-0.3427,238
+16.8,2nd Item,3748,Titanic Hydra,1.0555,3106
+16.8,2nd Item,6333,Death's Dance,1.2369,1354
+16.8,2nd Item,6610,Sundered Sky,-0.4515,123
+16.8,2nd Item,6631,Stridebreaker,-0.0017,8736
+16.8,2nd Item,6662,Iceborn Gauntlet,2.2282,181
+16.8,2nd Item,6665,"Jak'Sho, The Protean",-0.1878,267
+16.8,2nd Item,6672,Kraken Slayer,0.6756,2101
+16.8,2nd Item,6698,Profane Hydra,2.3032,321
+16.8,3rd Item,2501,Overlord's Bloodmail,-2.6723,133
+16.8,3rd Item,2504,Kaenic Rookern,2.0193,187
+16.8,3rd Item,2510,Dusk and Dawn,-1.3828,160
+16.8,3rd Item,2517,Endless Hunger,0.4809,108
+16.8,3rd Item,3026,Guardian Angel,1.8608,489
+16.8,3rd Item,3050,Zeke's Convergence,0.3515,956
+16.8,3rd Item,3053,Sterak's Gage,0.4704,2856
+16.8,3rd Item,3065,Spirit Visage,0.3071,6727
+16.8,3rd Item,3073,Experimental Hexplate,-2.1259,396
+16.8,3rd Item,3074,Ravenous Hydra,-3.972,111
+16.8,3rd Item,3075,Thornmail,-0.4449,8567
+16.8,3rd Item,3091,Wit's End,-0.8848,401
+16.8,3rd Item,3110,Frozen Heart,3.4182,348
+16.8,3rd Item,3124,Guinsoo's Rageblade,-2.5293,115
+16.8,3rd Item,3143,Randuin's Omen,1.4101,1322
+16.8,3rd Item,3153,Blade of The Ruined King,-0.5419,1239
+16.8,3rd Item,3156,Maw of Malmortius,-0.4392,418
+16.8,3rd Item,3302,Terminus,1.0417,258
+16.8,3rd Item,3742,Dead Man's Plate,2.5031,313
+16.8,3rd Item,3748,Titanic Hydra,1.4332,511
+16.8,3rd Item,4401,Force of Nature,2.0953,210
+16.8,3rd Item,6333,Death's Dance,1.1688,2236
+16.8,3rd Item,6631,Stridebreaker,0.006,904
+16.8,3rd Item,6662,Iceborn Gauntlet,-4.1172,112
+16.8,3rd Item,6665,"Jak'Sho, The Protean",-2.1128,983
+16.8,3rd Item,6672,Kraken Slayer,-0.4605,935
+16.8,4th+ Item,2504,Kaenic Rookern,-0.8735,263
+16.8,4th+ Item,2517,Endless Hunger,-3.9268,104
+16.8,4th+ Item,3026,Guardian Angel,2.622,706
+16.8,4th+ Item,3050,Zeke's Convergence,-0.5311,212
+16.8,4th+ Item,3053,Sterak's Gage,1.4174,1957
+16.8,4th+ Item,3065,Spirit Visage,-0.2126,5177
+16.8,4th+ Item,3073,Experimental Hexplate,5.7811,170
+16.8,4th+ Item,3075,Thornmail,-0.7402,3507
+16.8,4th+ Item,3091,Wit's End,-4.0974,291
+16.8,4th+ Item,3110,Frozen Heart,-1.9111,386
+16.8,4th+ Item,3143,Randuin's Omen,1.4928,1275
+16.8,4th+ Item,3153,Blade of The Ruined King,-0.5236,406
+16.8,4th+ Item,3156,Maw of Malmortius,3.678,260
+16.8,4th+ Item,3157,Zhonya's Hourglass,2.0138,130
+16.8,4th+ Item,3302,Terminus,0.1157,216
+16.8,4th+ Item,3742,Dead Man's Plate,-0.6999,262
+16.8,4th+ Item,3748,Titanic Hydra,-2.4549,179
+16.8,4th+ Item,4401,Force of Nature,5.2319,226
+16.8,4th+ Item,6333,Death's Dance,1.3729,1527
+16.8,4th+ Item,6609,Chempunk Chainsword,-2.7135,110
+16.8,4th+ Item,6631,Stridebreaker,0.5524,300
+16.8,4th+ Item,6665,"Jak'Sho, The Protean",-1.0961,2401
+16.8,4th+ Item,6672,Kraken Slayer,-1.7547,579
+16.8,All Items,2501,Overlord's Bloodmail,0.2084,257
+16.8,All Items,2504,Kaenic Rookern,-1.3745,513
+16.8,All Items,2510,Dusk and Dawn,0.2419,1804
+16.8,All Items,2517,Endless Hunger,-2.9365,271
+16.8,All Items,2525,Protoplasm Harness,2.8497,176
+16.8,All Items,3026,Guardian Angel,2.4298,1269
+16.8,All Items,3033,Mortal Reminder,-1.122,120
+16.8,All Items,3050,Zeke's Convergence,0.7581,1652
+16.8,All Items,3053,Sterak's Gage,0.6663,5607
+16.8,All Items,3065,Spirit Visage,-0.0837,13805
+16.8,All Items,3071,Black Cleaver,-3.8304,270
+16.8,All Items,3073,Experimental Hexplate,0.5771,1770
+16.8,All Items,3074,Ravenous Hydra,-1.2468,1015
+16.8,All Items,3075,Thornmail,-0.3676,15350
+16.8,All Items,3078,Trinity Force,-2.5842,588
+16.8,All Items,3087,Statikk Shiv,4.9423,114
+16.8,All Items,3091,Wit's End,-2.3364,1147
+16.8,All Items,3110,Frozen Heart,-0.0539,860
+16.8,All Items,3124,Guinsoo's Rageblade,0.7128,368
+16.8,All Items,3143,Randuin's Omen,1.6055,2914
+16.8,All Items,3153,Blade of The Ruined King,0.4778,36841
+16.8,All Items,3156,Maw of Malmortius,1.4295,860
+16.8,All Items,3157,Zhonya's Hourglass,2.0517,194
+16.8,All Items,3181,Hullbreaker,-0.7321,146
+16.8,All Items,3302,Terminus,-1.1822,634
+16.8,All Items,3742,Dead Man's Plate,0.6301,824
+16.8,All Items,3748,Titanic Hydra,0.2389,7843
+16.8,All Items,4401,Force of Nature,2.6829,542
+16.8,All Items,6333,Death's Dance,1.2419,5153
+16.8,All Items,6609,Chempunk Chainsword,-3.6546,264
+16.8,All Items,6610,Sundered Sky,-3.7034,278
+16.8,All Items,6631,Stridebreaker,-0.8722,25627
+16.8,All Items,6662,Iceborn Gauntlet,0.1352,361
+16.8,All Items,6665,"Jak'Sho, The Protean",-1.2798,3680
+16.8,All Items,6672,Kraken Slayer,0.4768,8445
+16.8,All Items,6692,Eclipse,-0.6772,245
+16.8,All Items,6695,Serpent's Fang,0.5251,240
+16.8,All Items,6698,Profane Hydra,0.9645,472
+16.9,Keystone,8230,Stormraider's Surge,-5.6855,135
+16.9,Keystone,8010,Conqueror,-1.8888,482
+16.9,Keystone,9923,Hail of Blades,-3.5386,261
+16.9,Keystone,8005,Press the Attack,-0.6348,13937
+16.9,Keystone,8008,Lethal Tempo,0.1958,71588
+16.9,Keystone,8128,Dark Harvest,-8.2217,166
+16.9,Spell,3,Exhaust,0.7157,138
+16.9,Spell,4,Flash,0.0163,82204
+16.9,Spell,6,Ghost,-0.2984,3876
+16.9,Spell,11,Smite,0.0,86808
+16.9,Spell,14,Ignite,-0.823,502
+16.9,Starter,1101,Scorchclaw Pup,0.802,16749
+16.9,Starter,1102,Gustwalker Hatchling,-0.2565,60301
+16.9,Starter,1103,Mosstomper Seedling,0.2085,9750
+16.9,Boots,3006,Berserker's Greaves,-0.8167,1110
+16.9,Boots,3008,Gluttonous Greaves,-1.074,9546
+16.9,Boots,3009,Boots of Swiftness,0.7824,5579
+16.9,Boots,3020,Sorcerer's Shoes,-2.1186,117
+16.9,Boots,3047,Plated Steelcaps,0.5859,37365
+16.9,Boots,3111,Mercury's Treads,-0.3804,29601
+16.9,Boots,3158,Ionian Boots of Lucidity,-2.5251,212
+16.9,1st Item,2510,Dusk and Dawn,-5.1241,265
+16.9,1st Item,3073,Experimental Hexplate,1.1931,385
+16.9,1st Item,3074,Ravenous Hydra,-2.5259,478
+16.9,1st Item,3078,Trinity Force,2.5912,282
+16.9,1st Item,3087,Statikk Shiv,-1.2616,807
+16.9,1st Item,3153,Blade of The Ruined King,0.8379,34603
+16.9,1st Item,3748,Titanic Hydra,-0.0742,5940
+16.9,1st Item,6631,Stridebreaker,-0.9539,34474
+16.9,1st Item,6672,Kraken Slayer,1.2242,8018
+16.9,1st Item,6698,Profane Hydra,-1.7682,272
+16.9,2nd Item,2504,Kaenic Rookern,-3.9843,113
+16.9,2nd Item,2510,Dusk and Dawn,1.0652,3252
+16.9,2nd Item,2517,Endless Hunger,-0.5332,186
+16.9,2nd Item,3050,Zeke's Convergence,-1.1456,664
+16.9,2nd Item,3053,Sterak's Gage,0.2471,1419
+16.9,2nd Item,3065,Spirit Visage,-0.9231,3196
+16.9,2nd Item,3071,Black Cleaver,-0.801,156
+16.9,2nd Item,3073,Experimental Hexplate,-1.2696,1520
+16.9,2nd Item,3074,Ravenous Hydra,-3.6343,760
+16.9,2nd Item,3075,Thornmail,0.5432,4480
+16.9,2nd Item,3078,Trinity Force,-0.793,398
+16.9,2nd Item,3087,Statikk Shiv,0.4847,375
+16.9,2nd Item,3091,Wit's End,-2.0963,564
+16.9,2nd Item,3110,Frozen Heart,-0.4011,188
+16.9,2nd Item,3124,Guinsoo's Rageblade,-1.7208,304
+16.9,2nd Item,3143,Randuin's Omen,3.9121,435
+16.9,2nd Item,3153,Blade of The Ruined King,-0.0631,31241
+16.9,2nd Item,3156,Maw of Malmortius,-1.1883,288
+16.9,2nd Item,3302,Terminus,-0.3338,169
+16.9,2nd Item,3742,Dead Man's Plate,4.4792,369
+16.9,2nd Item,3748,Titanic Hydra,0.4285,4131
+16.9,2nd Item,4401,Force of Nature,2.2039,123
+16.9,2nd Item,6333,Death's Dance,0.6399,2425
+16.9,2nd Item,6610,Sundered Sky,-3.5414,145
+16.9,2nd Item,6631,Stridebreaker,0.0957,16141
+16.9,2nd Item,6662,Iceborn Gauntlet,0.4751,243
+16.9,2nd Item,6665,"Jak'Sho, The Protean",-1.4378,474
+16.9,2nd Item,6672,Kraken Slayer,0.2903,3424
+16.9,2nd Item,6698,Profane Hydra,1.2367,685
+16.9,3rd Item,2501,Overlord's Bloodmail,-2.9796,286
+16.9,3rd Item,2504,Kaenic Rookern,-1.4464,311
+16.9,3rd Item,2510,Dusk and Dawn,0.7849,461
+16.9,3rd Item,2517,Endless Hunger,-7.8599,223
+16.9,3rd Item,3026,Guardian Angel,3.3136,733
+16.9,3rd Item,3050,Zeke's Convergence,0.916,1560
+16.9,3rd Item,3053,Sterak's Gage,-0.3629,4679
+16.9,3rd Item,3065,Spirit Visage,-0.4947,13819
+16.9,3rd Item,3071,Black Cleaver,-3.2207,152
+16.9,3rd Item,3073,Experimental Hexplate,1.223,596
+16.9,3rd Item,3074,Ravenous Hydra,-1.5069,188
+16.9,3rd Item,3075,Thornmail,0.1234,16934
+16.9,3rd Item,3078,Trinity Force,2.1543,124
+16.9,3rd Item,3087,Statikk Shiv,1.0631,377
+16.9,3rd Item,3091,Wit's End,0.2141,724
+16.9,3rd Item,3110,Frozen Heart,2.1543,532
+16.9,3rd Item,3124,Guinsoo's Rageblade,-2.5439,258
+16.9,3rd Item,3143,Randuin's Omen,2.2344,1852
+16.9,3rd Item,3153,Blade of The Ruined King,-1.1165,2021
+16.9,3rd Item,3156,Maw of Malmortius,-0.9333,821
+16.9,3rd Item,3302,Terminus,0.9029,408
+16.9,3rd Item,3742,Dead Man's Plate,0.2082,566
+16.9,3rd Item,3748,Titanic Hydra,3.3163,841
+16.9,3rd Item,4401,Force of Nature,-0.5279,314
+16.9,3rd Item,6333,Death's Dance,1.3687,4631
+16.9,3rd Item,6609,Chempunk Chainsword,2.7953,173
+16.9,3rd Item,6610,Sundered Sky,-2.9839,129
+16.9,3rd Item,6631,Stridebreaker,-0.3589,1610
+16.9,3rd Item,6662,Iceborn Gauntlet,4.9049,116
+16.9,3rd Item,6665,"Jak'Sho, The Protean",-2.1849,1522
+16.9,3rd Item,6672,Kraken Slayer,-0.3435,2024
+16.9,3rd Item,6695,Serpent's Fang,-2.931,133
+16.9,3rd Item,6698,Profane Hydra,2.7231,107
+16.9,4th+ Item,2501,Overlord's Bloodmail,1.9937,181
+16.9,4th+ Item,2504,Kaenic Rookern,0.1191,477
+16.9,4th+ Item,2510,Dusk and Dawn,-1.665,182
+16.9,4th+ Item,2517,Endless Hunger,-5.1045,257
+16.9,4th+ Item,3026,Guardian Angel,2.1704,1357
+16.9,4th+ Item,3050,Zeke's Convergence,-0.5082,317
+16.9,4th+ Item,3053,Sterak's Gage,0.7286,4002
+16.9,4th+ Item,3065,Spirit Visage,0.0847,10159
+16.9,4th+ Item,3071,Black Cleaver,-0.9537,127
+16.9,4th+ Item,3073,Experimental Hexplate,-1.3275,267
+16.9,4th+ Item,3074,Ravenous Hydra,3.4475,119
+16.9,4th+ Item,3075,Thornmail,-0.6103,7366
+16.9,4th+ Item,3087,Statikk Shiv,-4.0352,128
+16.9,4th+ Item,3091,Wit's End,-0.2387,616
+16.9,4th+ Item,3110,Frozen Heart,-0.4734,597
+16.9,4th+ Item,3124,Guinsoo's Rageblade,2.2857,120
+16.9,4th+ Item,3143,Randuin's Omen,1.1914,2172
+16.9,4th+ Item,3153,Blade of The Ruined King,1.6711,706
+16.9,4th+ Item,3156,Maw of Malmortius,-1.0236,543
+16.9,4th+ Item,3157,Zhonya's Hourglass,-1.8416,192
+16.9,4th+ Item,3302,Terminus,-3.0679,326
+16.9,4th+ Item,3742,Dead Man's Plate,1.267,484
+16.9,4th+ Item,3748,Titanic Hydra,0.4945,306
+16.9,4th+ Item,4401,Force of Nature,0.3809,468
+16.9,4th+ Item,6333,Death's Dance,1.0777,3230
+16.9,4th+ Item,6609,Chempunk Chainsword,0.4468,191
+16.9,4th+ Item,6631,Stridebreaker,2.3144,548
+16.9,4th+ Item,6662,Iceborn Gauntlet,-1.138,111
+16.9,4th+ Item,6665,"Jak'Sho, The Protean",-0.7761,4301
+16.9,4th+ Item,6672,Kraken Slayer,-1.0739,1124
+16.9,4th+ Item,6695,Serpent's Fang,-2.6458,115
+16.9,All Items,2501,Overlord's Bloodmail,-1.5581,517
+16.9,All Items,2502,Unending Despair,-5.1728,148
+16.9,All Items,2504,Kaenic Rookern,-0.8689,918
+16.9,All Items,2510,Dusk and Dawn,0.5186,4164
+16.9,All Items,2517,Endless Hunger,-4.6887,682
+16.9,All Items,2524,Bandlepipes,-1.5345,108
+16.9,All Items,2525,Protoplasm Harness,3.2716,193
+16.9,All Items,3026,Guardian Angel,2.4484,2229
+16.9,All Items,3033,Mortal Reminder,-1.2263,209
+16.9,All Items,3041,Mejai's Soulstealer,-4.1248,118
+16.9,All Items,3050,Zeke's Convergence,0.1927,2558
+16.9,All Items,3053,Sterak's Gage,0.1414,10153
+16.9,All Items,3065,Spirit Visage,-0.3364,27236
+16.9,All Items,3068,Sunfire Aegis,3.2093,108
+16.9,All Items,3071,Black Cleaver,-1.0738,450
+16.9,All Items,3072,Bloodthirster,-0.5837,113
+16.9,All Items,3073,Experimental Hexplate,-0.3955,2771
+16.9,All Items,3074,Ravenous Hydra,-2.4854,1547
+16.9,All Items,3075,Thornmail,-0.0172,28872
+16.9,All Items,3078,Trinity Force,0.377,868
+16.9,All Items,3084,Heartsteel,4.2189,175
+16.9,All Items,3087,Statikk Shiv,-0.6009,1688
+16.9,All Items,3091,Wit's End,-0.7461,1979
+16.9,All Items,3110,Frozen Heart,0.748,1334
+16.9,All Items,3115,Nashor's Tooth,-7.6764,131
+16.9,All Items,3124,Guinsoo's Rageblade,-1.45,732
+16.9,All Items,3139,Mercurial Scimitar,0.7548,179
+16.9,All Items,3143,Randuin's Omen,1.8437,4489
+16.9,All Items,3146,Hextech Gunblade,-6.6062,130
+16.9,All Items,3153,Blade of The Ruined King,0.3784,68582
+16.9,All Items,3156,Maw of Malmortius,-1.0707,1662
+16.9,All Items,3157,Zhonya's Hourglass,-3.2395,285
+16.9,All Items,3181,Hullbreaker,3.89,150
+16.9,All Items,3302,Terminus,-0.532,936
+16.9,All Items,3742,Dead Man's Plate,1.6045,1445
+16.9,All Items,3748,Titanic Hydra,0.3798,11228
+16.9,All Items,4401,Force of Nature,0.2507,912
+16.9,All Items,6333,Death's Dance,1.1078,10342
+16.9,All Items,6609,Chempunk Chainsword,0.9056,454
+16.9,All Items,6610,Sundered Sky,-2.5299,386
+16.9,All Items,6631,Stridebreaker,-0.5822,52788
+16.9,All Items,6662,Iceborn Gauntlet,0.8381,480
+16.9,All Items,6665,"Jak'Sho, The Protean",-1.1414,6345
+16.9,All Items,6672,Kraken Slayer,0.6117,14600
+16.9,All Items,6673,Immortal Shieldbow,-4.4656,108
+16.9,All Items,6692,Eclipse,-0.5213,210
+16.9,All Items,6695,Serpent's Fang,-0.7826,355
+16.9,All Items,6697,Hubris,-2.6415,128
+16.9,All Items,6698,Profane Hydra,0.6989,1106
+16.10,Keystone,8230,Stormraider's Surge,-3.135,121
+16.10,Keystone,8010,Conqueror,-7.8726,577
+16.10,Keystone,9923,Hail of Blades,1.7635,335
+16.10,Keystone,8005,Press the Attack,-0.5874,17635
+16.10,Keystone,8008,Lethal Tempo,0.2327,78915
+16.10,Keystone,8128,Dark Harvest,-5.2498,248
+16.10,Spell,3,Exhaust,-8.6728,120
+16.10,Spell,4,Flash,0.019,92736
+16.10,Spell,6,Ghost,-0.5326,4409
+16.10,Spell,11,Smite,0.0,98120
+16.10,Spell,14,Ignite,0.2543,716
+16.10,Starter,1101,Scorchclaw Pup,0.2767,19534
+16.10,Starter,1102,Gustwalker Hatchling,-0.018,67417
+16.10,Starter,1103,Mosstomper Seedling,-0.376,11155
+16.10,Boots,3006,Berserker's Greaves,-3.0315,1482
+16.10,Boots,3008,Gluttonous Greaves,-2.0009,6570
+16.10,Boots,3009,Boots of Swiftness,0.1148,6758
+16.10,Boots,3020,Sorcerer's Shoes,-3.9568,206
+16.10,Boots,3047,Plated Steelcaps,0.4113,44808
+16.10,Boots,3111,Mercury's Treads,-0.1578,33511
+16.10,Boots,3158,Ionian Boots of Lucidity,-2.1479,338
+16.10,1st Item,2510,Dusk and Dawn,-3.3943,175
+16.10,1st Item,3073,Experimental Hexplate,-1.983,403
+16.10,1st Item,3074,Ravenous Hydra,-2.9444,594
+16.10,1st Item,3078,Trinity Force,-3.9426,381
+16.10,1st Item,3087,Statikk Shiv,-0.4008,450
+16.10,1st Item,3153,Blade of The Ruined King,0.6649,39418
+16.10,1st Item,3748,Titanic Hydra,-0.5785,6384
+16.10,1st Item,6631,Stridebreaker,-0.7549,38214
+16.10,1st Item,6672,Kraken Slayer,1.6103,10326
+16.10,1st Item,6698,Profane Hydra,-4.4267,208
+16.10,2nd Item,2510,Dusk and Dawn,1.6526,3110
+16.10,2nd Item,2517,Endless Hunger,-2.742,129
+16.10,2nd Item,3026,Guardian Angel,4.8049,114
+16.10,2nd Item,3050,Zeke's Convergence,1.9953,640
+16.10,2nd Item,3053,Sterak's Gage,0.0025,1384
+16.10,2nd Item,3065,Spirit Visage,-0.7452,3461
+16.10,2nd Item,3071,Black Cleaver,0.1803,219
+16.10,2nd Item,3073,Experimental Hexplate,-1.6223,1829
+16.10,2nd Item,3074,Ravenous Hydra,-2.3876,803
+16.10,2nd Item,3075,Thornmail,-1.0522,4862
+16.10,2nd Item,3078,Trinity Force,0.4171,424
+16.10,2nd Item,3084,Heartsteel,-3.8293,157
+16.10,2nd Item,3087,Statikk Shiv,-3.1904,312
+16.10,2nd Item,3091,Wit's End,-2.4292,627
+16.10,2nd Item,3110,Frozen Heart,-0.8824,245
+16.10,2nd Item,3124,Guinsoo's Rageblade,-0.6581,287
+16.10,2nd Item,3143,Randuin's Omen,-0.0853,463
+16.10,2nd Item,3153,Blade of The Ruined King,0.1518,34632
+16.10,2nd Item,3156,Maw of Malmortius,0.7237,369
+16.10,2nd Item,3302,Terminus,4.8131,299
+16.10,2nd Item,3742,Dead Man's Plate,-0.4355,423
+16.10,2nd Item,3748,Titanic Hydra,0.0546,5512
+16.10,2nd Item,4401,Force of Nature,4.0141,113
+16.10,2nd Item,6333,Death's Dance,1.0734,2977
+16.10,2nd Item,6610,Sundered Sky,-2.1043,188
+16.10,2nd Item,6631,Stridebreaker,0.1272,18594
+16.10,2nd Item,6662,Iceborn Gauntlet,1.072,196
+16.10,2nd Item,6665,"Jak'Sho, The Protean",-1.4592,507
+16.10,2nd Item,6672,Kraken Slayer,0.6835,4589
+16.10,2nd Item,6698,Profane Hydra,-0.1946,681
+16.10,3rd Item,2501,Overlord's Bloodmail,-1.1838,190
+16.10,3rd Item,2504,Kaenic Rookern,1.1681,351
+16.10,3rd Item,2510,Dusk and Dawn,1.6944,437
+16.10,3rd Item,2517,Endless Hunger,1.1542,222
+16.10,3rd Item,3026,Guardian Angel,1.0314,725
+16.10,3rd Item,3050,Zeke's Convergence,2.4056,1814
+16.10,3rd Item,3053,Sterak's Gage,1.1963,4974
+16.10,3rd Item,3065,Spirit Visage,0.1166,16105
+16.10,3rd Item,3071,Black Cleaver,-0.265,194
+16.10,3rd Item,3073,Experimental Hexplate,-0.1965,970
+16.10,3rd Item,3074,Ravenous Hydra,2.2083,216
+16.10,3rd Item,3075,Thornmail,-0.5744,18498
+16.10,3rd Item,3078,Trinity Force,-2.7206,167
+16.10,3rd Item,3087,Statikk Shiv,-1.1165,211
+16.10,3rd Item,3091,Wit's End,-2.234,776
+16.10,3rd Item,3110,Frozen Heart,-0.186,662
+16.10,3rd Item,3124,Guinsoo's Rageblade,-1.159,235
+16.10,3rd Item,3143,Randuin's Omen,1.8223,2303
+16.10,3rd Item,3153,Blade of The Ruined King,0.1787,2290
+16.10,3rd Item,3156,Maw of Malmortius,0.2079,959
+16.10,3rd Item,3302,Terminus,-3.3859,453
+16.10,3rd Item,3742,Dead Man's Plate,-0.9036,634
+16.10,3rd Item,3748,Titanic Hydra,-0.014,941
+16.10,3rd Item,4401,Force of Nature,-2.1169,386
+16.10,3rd Item,6333,Death's Dance,0.5213,6285
+16.10,3rd Item,6609,Chempunk Chainsword,2.0692,205
+16.10,3rd Item,6610,Sundered Sky,-2.7888,118
+16.10,3rd Item,6631,Stridebreaker,-0.1885,1787
+16.10,3rd Item,6662,Iceborn Gauntlet,-0.4721,165
+16.10,3rd Item,6665,"Jak'Sho, The Protean",0.3077,1765
+16.10,3rd Item,6672,Kraken Slayer,-0.2073,1977
+16.10,3rd Item,6695,Serpent's Fang,-4.7074,153
+16.10,4th+ Item,2501,Overlord's Bloodmail,-1.8674,153
+16.10,4th+ Item,2504,Kaenic Rookern,1.1501,523
+16.10,4th+ Item,2510,Dusk and Dawn,-1.8971,165
+16.10,4th+ Item,2517,Endless Hunger,-2.1222,270
+16.10,4th+ Item,3026,Guardian Angel,1.5197,1555
+16.10,4th+ Item,3033,Mortal Reminder,1.9755,122
+16.10,4th+ Item,3050,Zeke's Convergence,-2.0908,409
+16.10,4th+ Item,3053,Sterak's Gage,0.0468,4399
+16.10,4th+ Item,3065,Spirit Visage,-0.5228,11067
+16.10,4th+ Item,3071,Black Cleaver,-0.8542,113
+16.10,4th+ Item,3073,Experimental Hexplate,2.0848,294
+16.10,4th+ Item,3075,Thornmail,0.5565,8739
+16.10,4th+ Item,3087,Statikk Shiv,-4.136,107
+16.10,4th+ Item,3091,Wit's End,0.708,658
+16.10,4th+ Item,3110,Frozen Heart,3.2375,737
+16.10,4th+ Item,3124,Guinsoo's Rageblade,-5.8312,124
+16.10,4th+ Item,3143,Randuin's Omen,0.7334,2416
+16.10,4th+ Item,3153,Blade of The Ruined King,-0.6505,725
+16.10,4th+ Item,3156,Maw of Malmortius,0.1964,562
+16.10,4th+ Item,3157,Zhonya's Hourglass,-2.2959,209
+16.10,4th+ Item,3302,Terminus,-5.0494,333
+16.10,4th+ Item,3742,Dead Man's Plate,0.6135,606
+16.10,4th+ Item,3748,Titanic Hydra,1.6705,308
+16.10,4th+ Item,4401,Force of Nature,3.108,527
+16.10,4th+ Item,6333,Death's Dance,0.9211,3760
+16.10,4th+ Item,6609,Chempunk Chainsword,2.4498,213
+16.10,4th+ Item,6631,Stridebreaker,-2.5421,652
+16.10,4th+ Item,6662,Iceborn Gauntlet,-5.6219,121
+16.10,4th+ Item,6665,"Jak'Sho, The Protean",-0.9139,5011
+16.10,4th+ Item,6672,Kraken Slayer,0.9006,1215
+16.10,4th+ Item,6695,Serpent's Fang,4.3888,110
+16.10,All Items,2501,Overlord's Bloodmail,-1.2687,406
+16.10,All Items,2502,Unending Despair,-6.6226,189
+16.10,All Items,2504,Kaenic Rookern,1.3758,975
+16.10,All Items,2510,Dusk and Dawn,1.2784,3890
+16.10,All Items,2517,Endless Hunger,-1.3234,637
+16.10,All Items,2525,Protoplasm Harness,1.9418,201
+16.10,All Items,3026,Guardian Angel,1.4561,2453
+16.10,All Items,3033,Mortal Reminder,-1.4786,260
+16.10,All Items,3041,Mejai's Soulstealer,0.3325,132
+16.10,All Items,3050,Zeke's Convergence,1.6326,2874
+16.10,All Items,3053,Sterak's Gage,0.5773,10823
+16.10,All Items,3065,Spirit Visage,-0.2109,30700
+16.10,All Items,3068,Sunfire Aegis,-6.1889,130
+16.10,All Items,3071,Black Cleaver,-0.3627,545
+16.10,All Items,3072,Bloodthirster,-4.2511,129
+16.10,All Items,3073,Experimental Hexplate,-0.9587,3501
+16.10,All Items,3074,Ravenous Hydra,-1.8572,1695
+16.10,All Items,3075,Thornmail,-0.3431,32214
+16.10,All Items,3078,Trinity Force,-1.7247,1060
+16.10,All Items,3084,Heartsteel,-5.4059,271
+16.10,All Items,3087,Statikk Shiv,-1.7169,1082
+16.10,All Items,3091,Wit's End,-1.223,2122
+16.10,All Items,3109,Knight's Vow,-0.1772,119
+16.10,All Items,3110,Frozen Heart,1.1873,1662
+16.10,All Items,3115,Nashor's Tooth,-7.8017,122
+16.10,All Items,3124,Guinsoo's Rageblade,-1.1517,690
+16.10,All Items,3139,Mercurial Scimitar,-4.153,178
+16.10,All Items,3142,Youmuu's Ghostblade,-6.6683,118
+16.10,All Items,3143,Randuin's Omen,1.1493,5213
+16.10,All Items,3146,Hextech Gunblade,-6.8904,127
+16.10,All Items,3153,Blade of The Ruined King,0.4076,77077
+16.10,All Items,3156,Maw of Malmortius,0.2352,1901
+16.10,All Items,3157,Zhonya's Hourglass,-2.4925,326
+16.10,All Items,3181,Hullbreaker,1.5654,227
+16.10,All Items,3302,Terminus,-1.9783,1114
+16.10,All Items,3742,Dead Man's Plate,-0.0525,1694
+16.10,All Items,3748,Titanic Hydra,-0.2076,13156
+16.10,All Items,4401,Force of Nature,1.1342,1043
+16.10,All Items,6333,Death's Dance,0.7686,13095
+16.10,All Items,6609,Chempunk Chainsword,1.5447,504
+16.10,All Items,6610,Sundered Sky,-2.9753,431
+16.10,All Items,6631,Stridebreaker,-0.4823,59257
+16.10,All Items,6662,Iceborn Gauntlet,-1.263,496
+16.10,All Items,6665,"Jak'Sho, The Protean",-0.6439,7330
+16.10,All Items,6672,Kraken Slayer,1.1236,18122
+16.10,All Items,6676,The Collector,-2.1686,152
+16.10,All Items,6692,Eclipse,-1.9664,201
+16.10,All Items,6695,Serpent's Fang,-3.6546,375
+16.10,All Items,6697,Hubris,-5.283,173
+16.10,All Items,6698,Profane Hydra,-1.0415,987
+16.10,All Items,6699,Voltaic Cyclosword,-5.5062,106
+16.11,Keystone,8010,Conqueror,-6.1368,504
+16.11,Keystone,9923,Hail of Blades,-5.2204,226
+16.11,Keystone,8005,Press the Attack,-0.8458,15526
+16.11,Keystone,8008,Lethal Tempo,0.2766,71404
+16.11,Keystone,8128,Dark Harvest,-0.8629,237
+16.11,Spell,3,Exhaust,4.5874,136
+16.11,Spell,4,Flash,-0.0123,83684
+16.11,Spell,6,Ghost,0.6556,3739
+16.11,Spell,11,Smite,0.0,88265
+16.11,Spell,14,Ignite,-2.9612,608
+16.11,Starter,1101,Scorchclaw Pup,0.6294,18149
+16.11,Starter,1102,Gustwalker Hatchling,-0.1882,60589
+16.11,Starter,1103,Mosstomper Seedling,-0.0022,9512
+16.11,Boots,3006,Berserker's Greaves,-1.487,1401
+16.11,Boots,3008,Gluttonous Greaves,-1.886,4881
+16.11,Boots,3009,Boots of Swiftness,0.3572,6563
+16.11,Boots,3020,Sorcerer's Shoes,-1.9146,191
+16.11,Boots,3047,Plated Steelcaps,0.5802,38319
+16.11,Boots,3111,Mercury's Treads,-0.2031,32653
+16.11,Boots,3158,Ionian Boots of Lucidity,-2.72,298
+16.11,1st Item,2510,Dusk and Dawn,-4.0204,142
+16.11,1st Item,3073,Experimental Hexplate,-0.3695,281
+16.11,1st Item,3074,Ravenous Hydra,-2.402,483
+16.11,1st Item,3078,Trinity Force,-1.0986,291
+16.11,1st Item,3087,Statikk Shiv,2.0742,380
+16.11,1st Item,3153,Blade of The Ruined King,0.8637,34411
+16.11,1st Item,3748,Titanic Hydra,-0.8652,4799
+16.11,1st Item,6631,Stridebreaker,-0.9395,34642
+16.11,1st Item,6672,Kraken Slayer,0.9962,11364
+16.11,1st Item,6698,Profane Hydra,-3.3097,147
+16.11,2nd Item,2504,Kaenic Rookern,0.1533,113
+16.11,2nd Item,2510,Dusk and Dawn,-1.0243,2759
+16.11,2nd Item,3050,Zeke's Convergence,0.5301,547
+16.11,2nd Item,3053,Sterak's Gage,-0.3866,1018
+16.11,2nd Item,3065,Spirit Visage,-1.049,3098
+16.11,2nd Item,3071,Black Cleaver,-4.1886,269
+16.11,2nd Item,3073,Experimental Hexplate,-0.3795,1296
+16.11,2nd Item,3074,Ravenous Hydra,-2.1194,732
+16.11,2nd Item,3075,Thornmail,0.02,4260
+16.11,2nd Item,3078,Trinity Force,2.8344,306
+16.11,2nd Item,3087,Statikk Shiv,-3.3369,281
+16.11,2nd Item,3091,Wit's End,-0.7181,493
+16.11,2nd Item,3110,Frozen Heart,0.5914,164
+16.11,2nd Item,3124,Guinsoo's Rageblade,2.1353,222
+16.11,2nd Item,3143,Randuin's Omen,2.7603,472
+16.11,2nd Item,3153,Blade of The Ruined King,-0.1425,32350
+16.11,2nd Item,3156,Maw of Malmortius,3.2605,421
+16.11,2nd Item,3302,Terminus,3.6166,190
+16.11,2nd Item,3742,Dead Man's Plate,3.8487,439
+16.11,2nd Item,3748,Titanic Hydra,-0.4639,4211
+16.11,2nd Item,4401,Force of Nature,-4.2689,126
+16.11,2nd Item,6333,Death's Dance,0.6655,3524
+16.11,2nd Item,6610,Sundered Sky,-3.5889,171
+16.11,2nd Item,6631,Stridebreaker,0.3953,16081
+16.11,2nd Item,6662,Iceborn Gauntlet,0.3641,216
+16.11,2nd Item,6665,"Jak'Sho, The Protean",1.1387,410
+16.11,2nd Item,6672,Kraken Slayer,0.7158,4332
+16.11,2nd Item,6692,Eclipse,6.1535,104
+16.11,2nd Item,6695,Serpent's Fang,-5.1549,105
+16.11,2nd Item,6698,Profane Hydra,0.4183,424
+16.11,3rd Item,2501,Overlord's Bloodmail,0.482,101
+16.11,3rd Item,2504,Kaenic Rookern,-0.7039,330
+16.11,3rd Item,2510,Dusk and Dawn,-0.8331,361
+16.11,3rd Item,2517,Endless Hunger,-3.4697,179
+16.11,3rd Item,3026,Guardian Angel,3.1996,518
+16.11,3rd Item,3033,Mortal Reminder,-4.606,103
+16.11,3rd Item,3050,Zeke's Convergence,-0.8932,1461
+16.11,3rd Item,3053,Sterak's Gage,0.6095,3358
+16.11,3rd Item,3065,Spirit Visage,-0.1022,14401
+16.11,3rd Item,3071,Black Cleaver,-4.4934,145
+16.11,3rd Item,3073,Experimental Hexplate,-0.7232,869
+16.11,3rd Item,3074,Ravenous Hydra,0.2223,194
+16.11,3rd Item,3075,Thornmail,-0.2952,15851
+16.11,3rd Item,3078,Trinity Force,-9.4569,120
+16.11,3rd Item,3087,Statikk Shiv,1.4478,136
+16.11,3rd Item,3091,Wit's End,-0.2022,637
+16.11,3rd Item,3110,Frozen Heart,-1.7219,465
+16.11,3rd Item,3124,Guinsoo's Rageblade,-5.8545,262
+16.11,3rd Item,3143,Randuin's Omen,1.3076,1953
+16.11,3rd Item,3153,Blade of The Ruined King,2.059,2021
+16.11,3rd Item,3156,Maw of Malmortius,0.6901,1195
+16.11,3rd Item,3302,Terminus,0.2672,275
+16.11,3rd Item,3742,Dead Man's Plate,-0.3547,520
+16.11,3rd Item,3748,Titanic Hydra,-0.2322,831
+16.11,3rd Item,4401,Force of Nature,1.6166,332
+16.11,3rd Item,6333,Death's Dance,0.776,7458
+16.11,3rd Item,6609,Chempunk Chainsword,1.5911,185
+16.11,3rd Item,6610,Sundered Sky,4.7096,107
+16.11,3rd Item,6631,Stridebreaker,-0.6247,1864
+16.11,3rd Item,6662,Iceborn Gauntlet,-1.3453,137
+16.11,3rd Item,6665,"Jak'Sho, The Protean",-0.8323,1320
+16.11,3rd Item,6672,Kraken Slayer,-0.7109,1572
+16.11,3rd Item,6695,Serpent's Fang,-1.7656,127
+16.11,4th+ Item,2501,Overlord's Bloodmail,0.6948,110
+16.11,4th+ Item,2504,Kaenic Rookern,1.0896,416
+16.11,4th+ Item,2510,Dusk and Dawn,-1.2217,115
+16.11,4th+ Item,2517,Endless Hunger,0.1044,278
+16.11,4th+ Item,3026,Guardian Angel,1.7509,1385
+16.11,4th+ Item,3050,Zeke's Convergence,1.0441,433
+16.11,4th+ Item,3053,Sterak's Gage,2.024,3471
+16.11,4th+ Item,3065,Spirit Visage,0.049,9309
+16.11,4th+ Item,3071,Black Cleaver,8.9998,124
+16.11,4th+ Item,3073,Experimental Hexplate,-0.0852,257
+16.11,4th+ Item,3075,Thornmail,-0.7475,7899
+16.11,4th+ Item,3091,Wit's End,-2.0885,531
+16.11,4th+ Item,3110,Frozen Heart,-0.5631,525
+16.11,4th+ Item,3124,Guinsoo's Rageblade,-4.1182,135
+16.11,4th+ Item,3143,Randuin's Omen,0.7352,1958
+16.11,4th+ Item,3153,Blade of The Ruined King,-1.2619,697
+16.11,4th+ Item,3156,Maw of Malmortius,0.8276,514
+16.11,4th+ Item,3157,Zhonya's Hourglass,1.7652,155
+16.11,4th+ Item,3302,Terminus,0.4557,283
+16.11,4th+ Item,3742,Dead Man's Plate,3.0782,506
+16.11,4th+ Item,3748,Titanic Hydra,-0.3051,295
+16.11,4th+ Item,4401,Force of Nature,-0.3829,448
+16.11,4th+ Item,6333,Death's Dance,-0.2428,4110
+16.11,4th+ Item,6609,Chempunk Chainsword,1.1915,182
+16.11,4th+ Item,6631,Stridebreaker,0.6247,564
+16.11,4th+ Item,6665,"Jak'Sho, The Protean",-0.5021,3726
+16.11,4th+ Item,6672,Kraken Slayer,-2.6075,949
+16.11,4th+ Item,6695,Serpent's Fang,-4.1587,102
+16.11,All Items,2501,Overlord's Bloodmail,1.5388,234
+16.11,All Items,2502,Unending Despair,5.4799,125
+16.11,All Items,2504,Kaenic Rookern,0.2884,864
+16.11,All Items,2510,Dusk and Dawn,-1.1395,3379
+16.11,All Items,2517,Endless Hunger,-2.8159,549
+16.11,All Items,2525,Protoplasm Harness,2.5492,168
+16.11,All Items,3026,Guardian Angel,1.7591,2055
+16.11,All Items,3033,Mortal Reminder,-2.8855,220
+16.11,All Items,3041,Mejai's Soulstealer,1.4092,174
+16.11,All Items,3050,Zeke's Convergence,-0.2414,2466
+16.11,All Items,3053,Sterak's Gage,1.1035,7899
+16.11,All Items,3065,Spirit Visage,-0.1582,26881
+16.11,All Items,3071,Black Cleaver,-1.8679,557
+16.11,All Items,3072,Bloodthirster,-6.458,113
+16.11,All Items,3073,Experimental Hexplate,-0.444,2711
+16.11,All Items,3074,Ravenous Hydra,-1.9048,1499
+16.11,All Items,3075,Thornmail,-0.3596,28113
+16.11,All Items,3078,Trinity Force,-0.8759,813
+16.11,All Items,3084,Heartsteel,-1.0163,155
+16.11,All Items,3087,Statikk Shiv,-0.2092,858
+16.11,All Items,3091,Wit's End,-0.9255,1722
+16.11,All Items,3100,Lich Bane,1.4867,122
+16.11,All Items,3109,Knight's Vow,1.2566,147
+16.11,All Items,3110,Frozen Heart,-0.6218,1160
+16.11,All Items,3115,Nashor's Tooth,-5.3257,129
+16.11,All Items,3124,Guinsoo's Rageblade,-2.8366,667
+16.11,All Items,3139,Mercurial Scimitar,-1.5836,177
+16.11,All Items,3142,Youmuu's Ghostblade,0.7458,130
+16.11,All Items,3143,Randuin's Omen,1.1887,4420
+16.11,All Items,3153,Blade of The Ruined King,0.4071,69497
+16.11,All Items,3156,Maw of Malmortius,1.334,2145
+16.11,All Items,3157,Zhonya's Hourglass,-0.2553,231
+16.11,All Items,3181,Hullbreaker,2.4656,151
+16.11,All Items,3302,Terminus,1.3612,771
+16.11,All Items,3742,Dead Man's Plate,1.9292,1494
+16.11,All Items,3748,Titanic Hydra,-0.6273,10147
+16.11,All Items,4401,Force of Nature,-0.1948,920
+16.11,All Items,6333,Death's Dance,0.4561,15155
+16.11,All Items,6609,Chempunk Chainsword,1.4584,440
+16.11,All Items,6610,Sundered Sky,-1.6483,375
+16.11,All Items,6631,Stridebreaker,-0.5075,53160
+16.11,All Items,6662,Iceborn Gauntlet,-0.6591,464
+16.11,All Items,6665,"Jak'Sho, The Protean",-0.4193,5505
+16.11,All Items,6672,Kraken Slayer,0.5866,18227
+16.11,All Items,6692,Eclipse,3.6171,185
+16.11,All Items,6695,Serpent's Fang,-3.5999,342
+16.11,All Items,6697,Hubris,-0.5028,103
+16.11,All Items,6698,Profane Hydra,-0.3473,647
+16.12,Keystone,8010,Conqueror,-5.8851,545
+16.12,Keystone,9923,Hail of Blades,3.9636,231
+16.12,Keystone,8005,Press the Attack,-0.7772,16617
+16.12,Keystone,8008,Lethal Tempo,0.242,75268
+16.12,Keystone,8128,Dark Harvest,-1.1209,227
+16.12,Spell,3,Exhaust,-0.2772,220
+16.12,Spell,4,Flash,0.0626,88146
+16.12,Spell,6,Ghost,-0.7096,4041
+16.12,Spell,11,Smite,-0.0,93268
+16.12,Spell,14,Ignite,-3.0561,739
+16.12,Starter,1101,Scorchclaw Pup,0.3961,19858
+16.12,Starter,1102,Gustwalker Hatchling,-0.1452,62521
+16.12,Starter,1103,Mosstomper Seedling,0.1115,10870
+16.12,Boots,3006,Berserker's Greaves,-2.7691,1611
+16.12,Boots,3008,Gluttonous Greaves,-1.263,5467
+16.12,Boots,3009,Boots of Swiftness,-0.2895,6499
+16.12,Boots,3020,Sorcerer's Shoes,2.3317,145
+16.12,Boots,3047,Plated Steelcaps,0.1721,39848
+16.12,Boots,3111,Mercury's Treads,0.1935,34975
+16.12,Boots,3158,Ionian Boots of Lucidity,0.3555,319
+16.12,1st Item,2510,Dusk and Dawn,-0.8181,135
+16.12,1st Item,3073,Experimental Hexplate,2.3099,452
+16.12,1st Item,3074,Ravenous Hydra,-1.0946,505
+16.12,1st Item,3078,Trinity Force,0.296,302
+16.12,1st Item,3087,Statikk Shiv,-1.9234,316
+16.12,1st Item,3124,Guinsoo's Rageblade,-1.2354,106
+16.12,1st Item,3153,Blade of The Ruined King,0.5484,35508
+16.12,1st Item,3748,Titanic Hydra,0.3303,5360
+16.12,1st Item,6631,Stridebreaker,-0.9763,34590
+16.12,1st Item,6672,Kraken Slayer,1.1443,14309
+16.12,1st Item,6698,Profane Hydra,-1.0217,196
+16.12,2nd Item,2510,Dusk and Dawn,0.0297,1761
+16.12,2nd Item,2517,Endless Hunger,1.0982,153
+16.12,2nd Item,3026,Guardian Angel,2.4429,104
+16.12,2nd Item,3050,Zeke's Convergence,0.7893,725
+16.12,2nd Item,3053,Sterak's Gage,-0.4869,1660
+16.12,2nd Item,3065,Spirit Visage,-0.3593,3427
+16.12,2nd Item,3071,Black Cleaver,-2.2035,278
+16.12,2nd Item,3073,Experimental Hexplate,-1.5331,1578
+16.12,2nd Item,3074,Ravenous Hydra,-0.688,862
+16.12,2nd Item,3075,Thornmail,-0.3998,4254
+16.12,2nd Item,3078,Trinity Force,0.7996,260
+16.12,2nd Item,3084,Heartsteel,5.8312,103
+16.12,2nd Item,3087,Statikk Shiv,-0.215,238
+16.12,2nd Item,3091,Wit's End,-2.4339,615
+16.12,2nd Item,3110,Frozen Heart,2.0924,178
+16.12,2nd Item,3124,Guinsoo's Rageblade,0.5996,231
+16.12,2nd Item,3143,Randuin's Omen,0.825,551
+16.12,2nd Item,3153,Blade of The Ruined King,0.0772,34201
+16.12,2nd Item,3156,Maw of Malmortius,-2.3621,546
+16.12,2nd Item,3302,Terminus,1.7457,230
+16.12,2nd Item,3742,Dead Man's Plate,1.2869,459
+16.12,2nd Item,3748,Titanic Hydra,0.0689,4490
+16.12,2nd Item,4401,Force of Nature,-2.8338,136
+16.12,2nd Item,6333,Death's Dance,1.99,5055
+16.12,2nd Item,6610,Sundered Sky,-1.0256,164
+16.12,2nd Item,6631,Stridebreaker,-0.2955,15689
+16.12,2nd Item,6662,Iceborn Gauntlet,1.4735,268
+16.12,2nd Item,6665,"Jak'Sho, The Protean",-1.3347,432
+16.12,2nd Item,6672,Kraken Slayer,0.4484,4396
+16.12,2nd Item,6698,Profane Hydra,-2.0171,415
+16.12,3rd Item,2501,Overlord's Bloodmail,1.5826,118
+16.12,3rd Item,2504,Kaenic Rookern,-1.2328,359
+16.12,3rd Item,2510,Dusk and Dawn,-1.1778,338
+16.12,3rd Item,2517,Endless Hunger,1.0324,364
+16.12,3rd Item,3026,Guardian Angel,4.1183,568
+16.12,3rd Item,3050,Zeke's Convergence,-0.5812,1360
+16.12,3rd Item,3053,Sterak's Gage,0.1661,3287
+16.12,3rd Item,3065,Spirit Visage,0.084,14253
+16.12,3rd Item,3071,Black Cleaver,2.4404,127
+16.12,3rd Item,3073,Experimental Hexplate,-0.4147,876
+16.12,3rd Item,3074,Ravenous Hydra,-1.0558,220
+16.12,3rd Item,3075,Thornmail,-0.4368,15141
+16.12,3rd Item,3078,Trinity Force,-1.7258,162
+16.12,3rd Item,3087,Statikk Shiv,-2.4434,122
+16.12,3rd Item,3091,Wit's End,-1.47,778
+16.12,3rd Item,3110,Frozen Heart,-2.4185,525
+16.12,3rd Item,3124,Guinsoo's Rageblade,-0.7417,282
+16.12,3rd Item,3143,Randuin's Omen,1.7848,2125
+16.12,3rd Item,3153,Blade of The Ruined King,0.6258,2285
+16.12,3rd Item,3156,Maw of Malmortius,1.3986,1408
+16.12,3rd Item,3302,Terminus,-2.9123,305
+16.12,3rd Item,3742,Dead Man's Plate,-0.4125,517
+16.12,3rd Item,3748,Titanic Hydra,0.7535,797
+16.12,3rd Item,4401,Force of Nature,2.9861,385
+16.12,3rd Item,6333,Death's Dance,0.3366,9996
+16.12,3rd Item,6609,Chempunk Chainsword,-0.9567,206
+16.12,3rd Item,6631,Stridebreaker,-0.375,1991
+16.12,3rd Item,6662,Iceborn Gauntlet,-0.9573,167
+16.12,3rd Item,6665,"Jak'Sho, The Protean",0.4393,1482
+16.12,3rd Item,6672,Kraken Slayer,-2.0848,1516
+16.12,3rd Item,6695,Serpent's Fang,-2.001,136
+16.12,4th+ Item,2501,Overlord's Bloodmail,0.6778,143
+16.12,4th+ Item,2504,Kaenic Rookern,1.0268,394
+16.12,4th+ Item,2510,Dusk and Dawn,6.8084,120
+16.12,4th+ Item,2517,Endless Hunger,-0.9172,441
+16.12,4th+ Item,3026,Guardian Angel,2.683,1506
+16.12,4th+ Item,3033,Mortal Reminder,2.4856,121
+16.12,4th+ Item,3050,Zeke's Convergence,0.6508,451
+16.12,4th+ Item,3053,Sterak's Gage,1.1762,3148
+16.12,4th+ Item,3065,Spirit Visage,-0.2724,9394
+16.12,4th+ Item,3071,Black Cleaver,-3.8855,139
+16.12,4th+ Item,3073,Experimental Hexplate,-1.4423,345
+16.12,4th+ Item,3074,Ravenous Hydra,-4.8548,104
+16.12,4th+ Item,3075,Thornmail,0.1447,8128
+16.12,4th+ Item,3091,Wit's End,-0.9823,604
+16.12,4th+ Item,3110,Frozen Heart,0.0982,587
+16.12,4th+ Item,3124,Guinsoo's Rageblade,-1.9447,117
+16.12,4th+ Item,3139,Mercurial Scimitar,-1.4839,120
+16.12,4th+ Item,3143,Randuin's Omen,1.3014,2081
+16.12,4th+ Item,3153,Blade of The Ruined King,-1.7342,700
+16.12,4th+ Item,3156,Maw of Malmortius,1.9744,602
+16.12,4th+ Item,3157,Zhonya's Hourglass,-5.396,189
+16.12,4th+ Item,3302,Terminus,-1.7446,296
+16.12,4th+ Item,3742,Dead Man's Plate,-3.9986,485
+16.12,4th+ Item,3748,Titanic Hydra,-2.4074,316
+16.12,4th+ Item,4401,Force of Nature,-0.1842,479
+16.12,4th+ Item,6333,Death's Dance,0.4023,4972
+16.12,4th+ Item,6609,Chempunk Chainsword,2.2823,208
+16.12,4th+ Item,6631,Stridebreaker,0.4109,617
+16.12,4th+ Item,6665,"Jak'Sho, The Protean",-0.7628,3616
+16.12,4th+ Item,6672,Kraken Slayer,0.5,999
+16.12,All Items,2501,Overlord's Bloodmail,0.9675,312
+16.12,All Items,2502,Unending Despair,1.7383,154
+16.12,All Items,2504,Kaenic Rookern,-0.8656,856
+16.12,All Items,2510,Dusk and Dawn,0.1532,2355
+16.12,All Items,2517,Endless Hunger,0.0429,975
+16.12,All Items,2525,Protoplasm Harness,0.6426,214
+16.12,All Items,3026,Guardian Angel,2.9352,2261
+16.12,All Items,3032,Yun Tal Wildarrows,-1.4209,128
+16.12,All Items,3033,Mortal Reminder,2.3664,271
+16.12,All Items,3036,Lord Dominik's Regards,-0.0112,101
+16.12,All Items,3041,Mejai's Soulstealer,0.2977,117
+16.12,All Items,3050,Zeke's Convergence,0.0153,2596
+16.12,All Items,3053,Sterak's Gage,0.4358,8170
+16.12,All Items,3065,Spirit Visage,-0.0933,27138
+16.12,All Items,3071,Black Cleaver,-1.6305,563
+16.12,All Items,3072,Bloodthirster,-6.4023,116
+16.12,All Items,3073,Experimental Hexplate,-0.6859,3256
+16.12,All Items,3074,Ravenous Hydra,-1.082,1694
+16.12,All Items,3075,Thornmail,-0.2895,27644
+16.12,All Items,3078,Trinity Force,-0.2493,825
+16.12,All Items,3084,Heartsteel,2.32,209
+16.12,All Items,3087,Statikk Shiv,-1.7232,747
+16.12,All Items,3091,Wit's End,-1.4542,2065
+16.12,All Items,3100,Lich Bane,-1.2072,122
+16.12,All Items,3109,Knight's Vow,0.571,149
+16.12,All Items,3110,Frozen Heart,-0.6458,1307
+16.12,All Items,3115,Nashor's Tooth,-0.3893,157
+16.12,All Items,3124,Guinsoo's Rageblade,-0.5562,740
+16.12,All Items,3139,Mercurial Scimitar,-1.9708,208
+16.12,All Items,3142,Youmuu's Ghostblade,-1.3384,159
+16.12,All Items,3143,Randuin's Omen,1.4819,4780
+16.12,All Items,3153,Blade of The Ruined King,0.3064,72700
+16.12,All Items,3156,Maw of Malmortius,0.688,2567
+16.12,All Items,3157,Zhonya's Hourglass,-1.6472,294
+16.12,All Items,3181,Hullbreaker,-3.1939,151
+16.12,All Items,3302,Terminus,-1.2849,853
+16.12,All Items,3742,Dead Man's Plate,-0.9944,1483
+16.12,All Items,3748,Titanic Hydra,0.1741,10976
+16.12,All Items,4401,Force of Nature,0.6355,1007
+16.12,All Items,6333,Death's Dance,0.762,20126
+16.12,All Items,6609,Chempunk Chainsword,0.0866,505
+16.12,All Items,6610,Sundered Sky,-4.2124,358
+16.12,All Items,6631,Stridebreaker,-0.7355,52893
+16.12,All Items,6662,Iceborn Gauntlet,-0.254,542
+16.12,All Items,6665,"Jak'Sho, The Protean",-0.4986,5572
+16.12,All Items,6672,Kraken Slayer,0.7386,21231
+16.12,All Items,6673,Immortal Shieldbow,5.8666,113
+16.12,All Items,6675,Navori Flickerblade,-1.9359,110
+16.12,All Items,6676,The Collector,-6.4786,117
+16.12,All Items,6692,Eclipse,-2.8933,153
+16.12,All Items,6695,Serpent's Fang,-3.9672,324
+16.12,All Items,6697,Hubris,-5.3876,127
+16.12,All Items,6698,Profane Hydra,-2.3466,721
+16.13,Keystone,8230,Stormraider's Surge,-0.1496,145
+16.13,Keystone,8010,Conqueror,-3.7721,871
+16.13,Keystone,9923,Hail of Blades,-3.2354,381
+16.13,Keystone,8005,Press the Attack,-0.3779,25712
+16.13,Keystone,8008,Lethal Tempo,0.1684,110514
+16.13,Keystone,8128,Dark Harvest,-8.7916,346
+16.13,Spell,3,Exhaust,-5.1167,345
+16.13,Spell,4,Flash,0.045,130865
+16.13,Spell,6,Ghost,-0.1234,6097
+16.13,Spell,11,Smite,0.0,138413
+16.13,Spell,14,Ignite,-2.9634,933
+16.13,Spell,21,Barrier,-9.0752,114
+16.13,Starter,1101,Scorchclaw Pup,0.2713,31229
+16.13,Starter,1102,Gustwalker Hatchling,-0.096,90610
+16.13,Starter,1103,Mosstomper Seedling,0.0135,16551
+16.13,Boots,3006,Berserker's Greaves,-2.5866,2190
+16.13,Boots,3008,Gluttonous Greaves,-0.2137,7523
+16.13,Boots,3009,Boots of Swiftness,-0.2981,10039
+16.13,Boots,3020,Sorcerer's Shoes,-0.9677,206
+16.13,Boots,3047,Plated Steelcaps,0.3752,57845
+16.13,Boots,3111,Mercury's Treads,-0.1016,53387
+16.13,Boots,3158,Ionian Boots of Lucidity,0.5221,669
+16.13,1st Item,2510,Dusk and Dawn,-4.2594,131
+16.13,1st Item,3073,Experimental Hexplate,-2.338,712
+16.13,1st Item,3074,Ravenous Hydra,-2.7221,822
+16.13,1st Item,3075,Thornmail,1.1476,132
+16.13,1st Item,3078,Trinity Force,-4.8152,470
+16.13,1st Item,3087,Statikk Shiv,2.3493,415
+16.13,1st Item,3091,Wit's End,0.8741,110
+16.13,1st Item,3115,Nashor's Tooth,3.9936,111
+16.13,1st Item,3124,Guinsoo's Rageblade,-1.1565,130
+16.13,1st Item,3142,Youmuu's Ghostblade,-2.2984,129
+16.13,1st Item,3153,Blade of The Ruined King,1.0723,54417
+16.13,1st Item,3748,Titanic Hydra,-0.3832,9156
+16.13,1st Item,6333,Death's Dance,4.5239,104
+16.13,1st Item,6631,Stridebreaker,-1.3034,48225
+16.13,1st Item,6672,Kraken Slayer,0.83,21504
+16.13,1st Item,6697,Hubris,1.2628,172
+16.13,1st Item,6698,Profane Hydra,-4.6449,203
+16.13,2nd Item,2504,Kaenic Rookern,-1.2034,155
+16.13,2nd Item,2510,Dusk and Dawn,0.2091,2048
+16.13,2nd Item,2517,Endless Hunger,-0.1469,149
+16.13,2nd Item,3026,Guardian Angel,2.1242,149
+16.13,2nd Item,3050,Zeke's Convergence,1.9519,1243
+16.13,2nd Item,3053,Sterak's Gage,-2.0881,2198
+16.13,2nd Item,3065,Spirit Visage,-0.0771,5469
+16.13,2nd Item,3071,Black Cleaver,-2.4475,321
+16.13,2nd Item,3073,Experimental Hexplate,-1.6408,3622
+16.13,2nd Item,3074,Ravenous Hydra,-0.2249,1232
+16.13,2nd Item,3075,Thornmail,-0.7919,6211
+16.13,2nd Item,3078,Trinity Force,-2.5715,507
+16.13,2nd Item,3084,Heartsteel,2.186,221
+16.13,2nd Item,3087,Statikk Shiv,0.1998,336
+16.13,2nd Item,3091,Wit's End,-1.1084,971
+16.13,2nd Item,3110,Frozen Heart,2.1119,286
+16.13,2nd Item,3124,Guinsoo's Rageblade,1.5562,394
+16.13,2nd Item,3143,Randuin's Omen,1.1678,686
+16.13,2nd Item,3153,Blade of The Ruined King,-0.1071,48931
+16.13,2nd Item,3156,Maw of Malmortius,-0.0221,846
+16.13,2nd Item,3302,Terminus,-3.0009,332
+16.13,2nd Item,3742,Dead Man's Plate,0.3747,726
+16.13,2nd Item,3748,Titanic Hydra,1.144,6770
+16.13,2nd Item,4401,Force of Nature,2.9332,178
+16.13,2nd Item,6333,Death's Dance,1.1288,7471
+16.13,2nd Item,6609,Chempunk Chainsword,-2.198,117
+16.13,2nd Item,6610,Sundered Sky,-1.8611,287
+16.13,2nd Item,6631,Stridebreaker,0.243,24123
+16.13,2nd Item,6662,Iceborn Gauntlet,0.958,353
+16.13,2nd Item,6665,"Jak'Sho, The Protean",-3.6576,632
+16.13,2nd Item,6672,Kraken Slayer,0.6236,6572
+16.13,2nd Item,6675,Navori Flickerblade,-1.0681,103
+16.13,2nd Item,6695,Serpent's Fang,-6.1754,126
+16.13,2nd Item,6698,Profane Hydra,0.0891,522
+16.13,3rd Item,2501,Overlord's Bloodmail,0.3475,233
+16.13,3rd Item,2504,Kaenic Rookern,-0.009,462
+16.13,3rd Item,2510,Dusk and Dawn,-0.6984,457
+16.13,3rd Item,2517,Endless Hunger,-0.9681,389
+16.13,3rd Item,2525,Protoplasm Harness,2.7612,112
+16.13,3rd Item,3026,Guardian Angel,0.93,883
+16.13,3rd Item,3033,Mortal Reminder,-3.0161,188
+16.13,3rd Item,3050,Zeke's Convergence,0.4582,1994
+16.13,3rd Item,3053,Sterak's Gage,-0.4864,5209
+16.13,3rd Item,3065,Spirit Visage,0.2093,22784
+16.13,3rd Item,3071,Black Cleaver,2.7668,242
+16.13,3rd Item,3073,Experimental Hexplate,-0.2131,1199
+16.13,3rd Item,3074,Ravenous Hydra,-2.4425,392
+16.13,3rd Item,3075,Thornmail,-0.3067,19966
+16.13,3rd Item,3078,Trinity Force,0.5732,191
+16.13,3rd Item,3087,Statikk Shiv,-4.6214,123
+16.13,3rd Item,3091,Wit's End,-2.4885,1194
+16.13,3rd Item,3110,Frozen Heart,-1.4512,718
+16.13,3rd Item,3124,Guinsoo's Rageblade,1.8623,362
+16.13,3rd Item,3139,Mercurial Scimitar,-5.1389,105
+16.13,3rd Item,3143,Randuin's Omen,1.2618,2852
+16.13,3rd Item,3153,Blade of The Ruined King,-0.2943,2983
+16.13,3rd Item,3156,Maw of Malmortius,0.2588,2312
+16.13,3rd Item,3157,Zhonya's Hourglass,0.1155,133
+16.13,3rd Item,3302,Terminus,-0.0384,465
+16.13,3rd Item,3742,Dead Man's Plate,-0.0301,742
+16.13,3rd Item,3748,Titanic Hydra,-0.4542,1330
+16.13,3rd Item,4401,Force of Nature,0.9483,588
+16.13,3rd Item,6333,Death's Dance,0.7163,15836
+16.13,3rd Item,6609,Chempunk Chainsword,0.1032,304
+16.13,3rd Item,6610,Sundered Sky,1.5991,160
+16.13,3rd Item,6631,Stridebreaker,-0.0532,3037
+16.13,3rd Item,6662,Iceborn Gauntlet,1.202,279
+16.13,3rd Item,6665,"Jak'Sho, The Protean",-0.1218,2256
+16.13,3rd Item,6672,Kraken Slayer,-1.2403,2346
+16.13,3rd Item,6695,Serpent's Fang,-2.9233,208
+16.13,4th+ Item,2501,Overlord's Bloodmail,-2.4211,393
+16.13,4th+ Item,2504,Kaenic Rookern,-0.7229,637
+16.13,4th+ Item,2510,Dusk and Dawn,-4.1258,171
+16.13,4th+ Item,2517,Endless Hunger,-2.7471,529
+16.13,4th+ Item,2525,Protoplasm Harness,-0.8045,173
+16.13,4th+ Item,3026,Guardian Angel,2.3484,2257
+16.13,4th+ Item,3033,Mortal Reminder,0.0002,149
+16.13,4th+ Item,3050,Zeke's Convergence,-0.9362,633
+16.13,4th+ Item,3053,Sterak's Gage,0.7364,4493
+16.13,4th+ Item,3065,Spirit Visage,-0.4731,13924
+16.13,4th+ Item,3071,Black Cleaver,-0.5576,156
+16.13,4th+ Item,3073,Experimental Hexplate,-1.9727,395
+16.13,4th+ Item,3074,Ravenous Hydra,-1.5524,218
+16.13,4th+ Item,3075,Thornmail,-0.1688,11523
+16.13,4th+ Item,3078,Trinity Force,-4.1088,102
+16.13,4th+ Item,3091,Wit's End,0.4841,901
+16.13,4th+ Item,3110,Frozen Heart,-0.4566,716
+16.13,4th+ Item,3124,Guinsoo's Rageblade,0.4748,192
+16.13,4th+ Item,3139,Mercurial Scimitar,-2.3242,141
+16.13,4th+ Item,3143,Randuin's Omen,0.7668,3174
+16.13,4th+ Item,3153,Blade of The Ruined King,0.6256,1050
+16.13,4th+ Item,3156,Maw of Malmortius,0.9985,973
+16.13,4th+ Item,3157,Zhonya's Hourglass,1.3409,307
+16.13,4th+ Item,3181,Hullbreaker,-1.1164,102
+16.13,4th+ Item,3302,Terminus,0.8307,453
+16.13,4th+ Item,3742,Dead Man's Plate,-1.1208,602
+16.13,4th+ Item,3748,Titanic Hydra,-0.7412,532
+16.13,4th+ Item,4401,Force of Nature,2.7637,630
+16.13,4th+ Item,6333,Death's Dance,0.2945,8366
+16.13,4th+ Item,6609,Chempunk Chainsword,-0.9234,344
+16.13,4th+ Item,6610,Sundered Sky,-4.5502,111
+16.13,4th+ Item,6631,Stridebreaker,0.75,1014
+16.13,4th+ Item,6662,Iceborn Gauntlet,0.4852,179
+16.13,4th+ Item,6665,"Jak'Sho, The Protean",-0.2084,5343
+16.13,4th+ Item,6672,Kraken Slayer,0.6952,1296
+16.13,4th+ Item,6695,Serpent's Fang,1.6231,150
+16.13,All Items,2501,Overlord's Bloodmail,-2.134,672
+16.13,All Items,2502,Unending Despair,-0.6463,167
+16.13,All Items,2504,Kaenic Rookern,-0.5535,1269
+16.13,All Items,2510,Dusk and Dawn,-0.3965,2812
+16.13,All Items,2512,Fiendhunter Bolts,-6.2583,111
+16.13,All Items,2517,Endless Hunger,-1.6271,1095
+16.13,All Items,2525,Protoplasm Harness,1.3387,385
+16.13,All Items,3026,Guardian Angel,1.9071,3390
+16.13,All Items,3033,Mortal Reminder,-1.4054,416
+16.13,All Items,3036,Lord Dominik's Regards,-1.358,213
+16.13,All Items,3041,Mejai's Soulstealer,-4.2188,194
+16.13,All Items,3050,Zeke's Convergence,0.7784,3963
+16.13,All Items,3053,Sterak's Gage,-0.3225,11991
+16.13,All Items,3065,Spirit Visage,-0.053,42257
+16.13,All Items,3068,Sunfire Aegis,0.529,127
+16.13,All Items,3071,Black Cleaver,-0.3503,733
+16.13,All Items,3072,Bloodthirster,-5.0805,230
+16.13,All Items,3073,Experimental Hexplate,-1.468,5931
+16.13,All Items,3074,Ravenous Hydra,-1.4485,2669
+16.13,All Items,3075,Thornmail,-0.3375,37859
+16.13,All Items,3078,Trinity Force,-3.0708,1277
+16.13,All Items,3084,Heartsteel,-2.407,352
+16.13,All Items,3087,Statikk Shiv,0.6646,965
+16.13,All Items,3091,Wit's End,-1.1124,3188
+16.13,All Items,3100,Lich Bane,-3.0008,183
+16.13,All Items,3109,Knight's Vow,-0.0889,141
+16.13,All Items,3110,Frozen Heart,-0.5102,1739
+16.13,All Items,3115,Nashor's Tooth,2.3448,203
+16.13,All Items,3124,Guinsoo's Rageblade,1.2049,1082
+16.13,All Items,3139,Mercurial Scimitar,-1.5841,305
+16.13,All Items,3142,Youmuu's Ghostblade,-1.3691,261
+16.13,All Items,3143,Randuin's Omen,0.999,6760
+16.13,All Items,3146,Hextech Gunblade,-5.6115,137
+16.13,All Items,3153,Blade of The Ruined King,0.4913,107393
+16.13,All Items,3156,Maw of Malmortius,0.3443,4154
+16.13,All Items,3157,Zhonya's Hourglass,1.6149,492
+16.13,All Items,3181,Hullbreaker,2.3562,263
+16.13,All Items,3302,Terminus,-0.691,1295
+16.13,All Items,3742,Dead Man's Plate,-0.1789,2097
+16.13,All Items,3748,Titanic Hydra,0.1744,17798
+16.13,All Items,4401,Force of Nature,1.9501,1417
+16.13,All Items,6333,Death's Dance,0.7192,31818
+16.13,All Items,6609,Chempunk Chainsword,-0.7287,771
+16.13,All Items,6610,Sundered Sky,-1.5087,577
+16.13,All Items,6631,Stridebreaker,-0.7383,76414
+16.13,All Items,6662,Iceborn Gauntlet,0.6375,825
+16.13,All Items,6664,Hollow Radiance,1.2631,106
+16.13,All Items,6665,"Jak'Sho, The Protean",-0.4223,8306
+16.13,All Items,6672,Kraken Slayer,0.63,31734
+16.13,All Items,6675,Navori Flickerblade,-2.0549,185
+16.13,All Items,6692,Eclipse,-1.5926,252
+16.13,All Items,6695,Serpent's Fang,-3.0518,518
+16.13,All Items,6697,Hubris,-0.342,263
+16.13,All Items,6698,Profane Hydra,-1.5951,856
+16.13,All Items,8020,Abyssal Mask,-4.1136,161
+16.14,Keystone,8010,Conqueror,-7.2875,571
+16.14,Keystone,9923,Hail of Blades,-1.788,267
+16.14,Keystone,8005,Press the Attack,-0.7941,15536
+16.14,Keystone,8008,Lethal Tempo,0.3033,70705
+16.14,Keystone,8128,Dark Harvest,-7.8764,224
+16.14,Spell,3,Exhaust,1.3901,237
+16.14,Spell,4,Flash,0.1055,82780
+16.14,Spell,6,Ghost,-1.7988,3841
+16.14,Spell,11,Smite,0.0,87628
+16.14,Spell,14,Ignite,-3.4718,663
+16.14,Starter,1101,Scorchclaw Pup,-0.0824,19283
+16.14,Starter,1102,Gustwalker Hatchling,0.0681,57867
+16.14,Starter,1103,Mosstomper Seedling,-0.2249,10463
+16.14,Boots,3006,Berserker's Greaves,-2.9356,1398
+16.14,Boots,3008,Gluttonous Greaves,-0.4576,4403
+16.14,Boots,3009,Boots of Swiftness,0.1415,6074
+16.14,Boots,3020,Sorcerer's Shoes,1.1171,160
+16.14,Boots,3047,Plated Steelcaps,0.3243,35221
+16.14,Boots,3111,Mercury's Treads,0.0677,35772
+16.14,Boots,3158,Ionian Boots of Lucidity,-2.6817,395
+16.14,1st Item,3073,Experimental Hexplate,-0.5136,373
+16.14,1st Item,3074,Ravenous Hydra,-2.6495,552
+16.14,1st Item,3078,Trinity Force,3.0203,380
+16.14,1st Item,3087,Statikk Shiv,2.3337,162
+16.14,1st Item,3153,Blade of The Ruined King,0.7227,33529
+16.14,1st Item,3748,Titanic Hydra,-0.2868,5740
+16.14,1st Item,6631,Stridebreaker,-1.1536,30494
+16.14,1st Item,6672,Kraken Slayer,1.2819,14687
+16.14,1st Item,6697,Hubris,-2.023,117
+16.14,1st Item,6698,Profane Hydra,-13.9908,107
+16.14,2nd Item,2504,Kaenic Rookern,6.1633,107
+16.14,2nd Item,2510,Dusk and Dawn,0.5665,1116
+16.14,2nd Item,2517,Endless Hunger,-2.3614,135
+16.14,2nd Item,3026,Guardian Angel,-4.2972,103
+16.14,2nd Item,3050,Zeke's Convergence,0.1557,813
+16.14,2nd Item,3053,Sterak's Gage,-0.5496,1382
+16.14,2nd Item,3065,Spirit Visage,-0.7153,3666
+16.14,2nd Item,3071,Black Cleaver,-4.3123,124
+16.14,2nd Item,3073,Experimental Hexplate,-2.2714,2267
+16.14,2nd Item,3074,Ravenous Hydra,-0.9959,692
+16.14,2nd Item,3075,Thornmail,-1.3756,4378
+16.14,2nd Item,3078,Trinity Force,3.9594,373
+16.14,2nd Item,3087,Statikk Shiv,0.2851,172
+16.14,2nd Item,3091,Wit's End,-0.8173,649
+16.14,2nd Item,3110,Frozen Heart,3.1016,128
+16.14,2nd Item,3124,Guinsoo's Rageblade,-0.8777,204
+16.14,2nd Item,3143,Randuin's Omen,2.2515,474
+16.14,2nd Item,3153,Blade of The Ruined King,0.3814,31575
+16.14,2nd Item,3156,Maw of Malmortius,1.2989,485
+16.14,2nd Item,3302,Terminus,5.6377,231
+16.14,2nd Item,3742,Dead Man's Plate,1.1623,351
+16.14,2nd Item,3748,Titanic Hydra,-0.4597,4550
+16.14,2nd Item,4401,Force of Nature,-2.2806,107
+16.14,2nd Item,6333,Death's Dance,0.7818,4379
+16.14,2nd Item,6610,Sundered Sky,-8.8908,146
+16.14,2nd Item,6631,Stridebreaker,0.1363,14774
+16.14,2nd Item,6662,Iceborn Gauntlet,0.1653,244
+16.14,2nd Item,6665,"Jak'Sho, The Protean",0.3166,349
+16.14,2nd Item,6672,Kraken Slayer,-0.3418,4251
+16.14,2nd Item,6698,Profane Hydra,-5.7346,265
+16.14,3rd Item,2501,Overlord's Bloodmail,-6.0841,161
+16.14,3rd Item,2504,Kaenic Rookern,-0.512,332
+16.14,3rd Item,2510,Dusk and Dawn,1.1098,302
+16.14,3rd Item,2517,Endless Hunger,-0.0161,222
+16.14,3rd Item,3026,Guardian Angel,-0.4992,507
+16.14,3rd Item,3050,Zeke's Convergence,1.0322,1165
+16.14,3rd Item,3053,Sterak's Gage,-1.0901,3109
+16.14,3rd Item,3065,Spirit Visage,0.2525,15268
+16.14,3rd Item,3071,Black Cleaver,2.8642,119
+16.14,3rd Item,3073,Experimental Hexplate,-1.8603,758
+16.14,3rd Item,3074,Ravenous Hydra,-5.5252,223
+16.14,3rd Item,3075,Thornmail,-0.1929,12203
+16.14,3rd Item,3091,Wit's End,-0.7159,780
+16.14,3rd Item,3110,Frozen Heart,0.995,405
+16.14,3rd Item,3124,Guinsoo's Rageblade,1.2253,213
+16.14,3rd Item,3143,Randuin's Omen,0.9365,1654
+16.14,3rd Item,3153,Blade of The Ruined King,0.4832,2284
+16.14,3rd Item,3156,Maw of Malmortius,0.296,1464
+16.14,3rd Item,3302,Terminus,-3.2716,334
+16.14,3rd Item,3742,Dead Man's Plate,3.3992,453
+16.14,3rd Item,3748,Titanic Hydra,-1.1186,968
+16.14,3rd Item,4401,Force of Nature,-1.4344,332
+16.14,3rd Item,6333,Death's Dance,0.6189,10340
+16.14,3rd Item,6609,Chempunk Chainsword,3.2314,179
+16.14,3rd Item,6631,Stridebreaker,1.2787,1943
+16.14,3rd Item,6662,Iceborn Gauntlet,-7.6277,143
+16.14,3rd Item,6665,"Jak'Sho, The Protean",-0.2822,1384
+16.14,3rd Item,6672,Kraken Slayer,-1.8305,1379
+16.14,3rd Item,6695,Serpent's Fang,-0.0636,123
+16.14,4th+ Item,2501,Overlord's Bloodmail,-1.7895,201
+16.14,4th+ Item,2504,Kaenic Rookern,-1.2065,436
+16.14,4th+ Item,2510,Dusk and Dawn,0.2707,103
+16.14,4th+ Item,2517,Endless Hunger,1.1035,319
+16.14,4th+ Item,2525,Protoplasm Harness,-1.4902,105
+16.14,4th+ Item,3026,Guardian Angel,1.5521,1370
+16.14,4th+ Item,3050,Zeke's Convergence,-1.3987,369
+16.14,4th+ Item,3053,Sterak's Gage,1.2554,3006
+16.14,4th+ Item,3065,Spirit Visage,0.0464,9089
+16.14,4th+ Item,3071,Black Cleaver,-1.0973,102
+16.14,4th+ Item,3073,Experimental Hexplate,4.5856,272
+16.14,4th+ Item,3074,Ravenous Hydra,-4.5703,131
+16.14,4th+ Item,3075,Thornmail,-0.5534,7458
+16.14,4th+ Item,3091,Wit's End,0.0558,565
+16.14,4th+ Item,3110,Frozen Heart,0.9979,419
+16.14,4th+ Item,3124,Guinsoo's Rageblade,0.51,131
+16.14,4th+ Item,3139,Mercurial Scimitar,-0.8628,109
+16.14,4th+ Item,3143,Randuin's Omen,-0.0532,1927
+16.14,4th+ Item,3153,Blade of The Ruined King,-1.5694,691
+16.14,4th+ Item,3156,Maw of Malmortius,2.8246,643
+16.14,4th+ Item,3157,Zhonya's Hourglass,2.012,173
+16.14,4th+ Item,3302,Terminus,1.2819,308
+16.14,4th+ Item,3742,Dead Man's Plate,-1.1675,394
+16.14,4th+ Item,3748,Titanic Hydra,-0.4123,380
+16.14,4th+ Item,4401,Force of Nature,1.6642,502
+16.14,4th+ Item,6333,Death's Dance,0.539,5936
+16.14,4th+ Item,6609,Chempunk Chainsword,-3.1399,193
+16.14,4th+ Item,6631,Stridebreaker,1.0612,602
+16.14,4th+ Item,6662,Iceborn Gauntlet,1.3249,106
+16.14,4th+ Item,6665,"Jak'Sho, The Protean",-1.0538,3172
+16.14,4th+ Item,6672,Kraken Slayer,-0.3882,906
+16.14,4th+ Item,6695,Serpent's Fang,0.82,120
+16.14,All Items,2501,Overlord's Bloodmail,-4.4139,403
+16.14,All Items,2502,Unending Despair,-7.1181,115
+16.14,All Items,2504,Kaenic Rookern,-0.1108,884
+16.14,All Items,2510,Dusk and Dawn,0.7752,1586
+16.14,All Items,2512,Fiendhunter Bolts,-5.3612,130
+16.14,All Items,2517,Endless Hunger,-0.0824,685
+16.14,All Items,2525,Protoplasm Harness,-2.3112,243
+16.14,All Items,3026,Guardian Angel,0.7417,2053
+16.14,All Items,3033,Mortal Reminder,-4.3428,234
+16.14,All Items,3041,Mejai's Soulstealer,-1.3181,114
+16.14,All Items,3050,Zeke's Convergence,0.4836,2395
+16.14,All Items,3053,Sterak's Gage,-0.0544,7554
+16.14,All Items,3065,Spirit Visage,0.0487,28078
+16.14,All Items,3068,Sunfire Aegis,4.2259,104
+16.14,All Items,3071,Black Cleaver,-1.5114,367
+16.14,All Items,3072,Bloodthirster,-3.1679,128
+16.14,All Items,3073,Experimental Hexplate,-1.4622,3678
+16.14,All Items,3074,Ravenous Hydra,-2.4554,1602
+16.14,All Items,3075,Thornmail,-0.5304,24129
+16.14,All Items,3078,Trinity Force,2.4271,921
+16.14,All Items,3084,Heartsteel,-4.2609,195
+16.14,All Items,3087,Statikk Shiv,0.586,472
+16.14,All Items,3091,Wit's End,-0.6286,2086
+16.14,All Items,3100,Lich Bane,-1.3689,123
+16.14,All Items,3110,Frozen Heart,1.2979,958
+16.14,All Items,3115,Nashor's Tooth,1.9168,124
+16.14,All Items,3124,Guinsoo's Rageblade,-1.1881,634
+16.14,All Items,3139,Mercurial Scimitar,-0.776,205
+16.14,All Items,3142,Youmuu's Ghostblade,-3.521,171
+16.14,All Items,3143,Randuin's Omen,0.6386,4078
+16.14,All Items,3153,Blade of The Ruined King,0.5333,68088
+16.14,All Items,3156,Maw of Malmortius,1.0734,2605
+16.14,All Items,3157,Zhonya's Hourglass,-1.1558,252
+16.14,All Items,3181,Hullbreaker,-4.02,208
+16.14,All Items,3302,Terminus,0.7641,913
+16.14,All Items,3742,Dead Man's Plate,1.0985,1229
+16.14,All Items,3748,Titanic Hydra,-0.4239,11646
+16.14,All Items,4401,Force of Nature,0.0335,957
+16.14,All Items,6333,Death's Dance,0.6348,20740
+16.14,All Items,6609,Chempunk Chainsword,1.0892,458
+16.14,All Items,6610,Sundered Sky,-5.4888,307
+16.14,All Items,6631,Stridebreaker,-0.6278,47818
+16.14,All Items,6662,Iceborn Gauntlet,-1.9007,516
+16.14,All Items,6665,"Jak'Sho, The Protean",-0.7975,4945
+16.14,All Items,6672,Kraken Slayer,0.6878,21233
+16.14,All Items,6692,Eclipse,-1.5764,153
+16.14,All Items,6695,Serpent's Fang,0.6963,337
+16.14,All Items,6697,Hubris,-1.0268,159
+16.14,All Items,6698,Profane Hydra,-6.4666,443
+16.14,All Items,8020,Abyssal Mask,-0.4107,111
+16.15,Keystone,8010,Conqueror,-0.4438,389
+16.15,Keystone,9923,Hail of Blades,-5.6031,308
+16.15,Keystone,8005,Press the Attack,-1.2097,15384
+16.15,Keystone,8008,Lethal Tempo,0.3581,69820
+16.15,Keystone,8128,Dark Harvest,-12.0182,176
+16.15,Spell,3,Exhaust,-3.7168,224
+16.15,Spell,4,Flash,0.0698,82077
+16.15,Spell,6,Ghost,-1.5185,3223
+16.15,Spell,11,Smite,0.0,86428
+16.15,Spell,14,Ignite,0.8085,818
+16.15,Starter,1101,Scorchclaw Pup,-0.0972,18922
+16.15,Starter,1102,Gustwalker Hatchling,-0.0727,56208
+16.15,Starter,1103,Mosstomper Seedling,0.5246,11289
+16.15,Boots,3006,Berserker's Greaves,-5.6198,1298
+16.15,Boots,3008,Gluttonous Greaves,-1.0996,4425
+16.15,Boots,3009,Boots of Swiftness,0.1224,6133
+16.15,Boots,3020,Sorcerer's Shoes,1.353,147
+16.15,Boots,3047,Plated Steelcaps,0.1528,34817
+16.15,Boots,3111,Mercury's Treads,0.2732,35195
+16.15,Boots,3158,Ionian Boots of Lucidity,-1.6293,277
+16.15,1st Item,3073,Experimental Hexplate,-2.4552,307
+16.15,1st Item,3074,Ravenous Hydra,-3.8253,464
+16.15,1st Item,3078,Trinity Force,-2.3352,352
+16.15,1st Item,3087,Statikk Shiv,-4.0725,182
+16.15,1st Item,3124,Guinsoo's Rageblade,1.1834,148
+16.15,1st Item,3153,Blade of The Ruined King,0.7442,32178
+16.15,1st Item,3748,Titanic Hydra,0.0636,5762
+16.15,1st Item,6631,Stridebreaker,-0.9312,29868
+16.15,1st Item,6672,Kraken Slayer,0.5653,15797
+16.15,2nd Item,2510,Dusk and Dawn,0.0315,937
+16.15,2nd Item,2517,Endless Hunger,-1.1371,115
+16.15,2nd Item,3050,Zeke's Convergence,3.0288,739
+16.15,2nd Item,3053,Sterak's Gage,0.4328,1203
+16.15,2nd Item,3065,Spirit Visage,-0.3008,3525
+16.15,2nd Item,3071,Black Cleaver,-4.8825,112
+16.15,2nd Item,3073,Experimental Hexplate,-0.6848,2220
+16.15,2nd Item,3074,Ravenous Hydra,-1.5639,757
+16.15,2nd Item,3075,Thornmail,-0.0847,4537
+16.15,2nd Item,3078,Trinity Force,-0.3582,306
+16.15,2nd Item,3087,Statikk Shiv,0.353,240
+16.15,2nd Item,3091,Wit's End,0.5676,609
+16.15,2nd Item,3110,Frozen Heart,3.7509,127
+16.15,2nd Item,3124,Guinsoo's Rageblade,-0.4709,223
+16.15,2nd Item,3143,Randuin's Omen,0.0319,364
+16.15,2nd Item,3153,Blade of The Ruined King,0.221,31441
+16.15,2nd Item,3156,Maw of Malmortius,1.0271,467
+16.15,2nd Item,3302,Terminus,2.3629,455
+16.15,2nd Item,3742,Dead Man's Plate,-0.6586,343
+16.15,2nd Item,3748,Titanic Hydra,-0.2783,3999
+16.15,2nd Item,4401,Force of Nature,-0.8963,110
+16.15,2nd Item,6333,Death's Dance,0.2055,4366
+16.15,2nd Item,6610,Sundered Sky,-7.1712,112
+16.15,2nd Item,6631,Stridebreaker,-0.3407,14534
+16.15,2nd Item,6662,Iceborn Gauntlet,-2.0231,207
+16.15,2nd Item,6665,"Jak'Sho, The Protean",-4.5307,354
+16.15,2nd Item,6672,Kraken Slayer,0.8072,4680
+16.15,2nd Item,6698,Profane Hydra,1.572,217
+16.15,3rd Item,2501,Overlord's Bloodmail,3.2071,181
+16.15,3rd Item,2504,Kaenic Rookern,-0.3874,310
+16.15,3rd Item,2510,Dusk and Dawn,-0.6394,307
+16.15,3rd Item,2517,Endless Hunger,0.5938,213
+16.15,3rd Item,3026,Guardian Angel,2.4457,525
+16.15,3rd Item,3050,Zeke's Convergence,1.969,917
+16.15,3rd Item,3053,Sterak's Gage,0.0479,2573
+16.15,3rd Item,3065,Spirit Visage,-0.211,14367
+16.15,3rd Item,3071,Black Cleaver,-2.6007,122
+16.15,3rd Item,3073,Experimental Hexplate,-1.9774,736
+16.15,3rd Item,3074,Ravenous Hydra,2.4705,237
+16.15,3rd Item,3075,Thornmail,-0.2606,11580
+16.15,3rd Item,3078,Trinity Force,1.3386,143
+16.15,3rd Item,3091,Wit's End,-0.2351,790
+16.15,3rd Item,3110,Frozen Heart,-0.7853,456
+16.15,3rd Item,3124,Guinsoo's Rageblade,-2.2048,263
+16.15,3rd Item,3143,Randuin's Omen,-0.2728,1573
+16.15,3rd Item,3153,Blade of The Ruined King,-0.3892,2363
+16.15,3rd Item,3156,Maw of Malmortius,0.5701,1289
+16.15,3rd Item,3302,Terminus,-0.2877,588
+16.15,3rd Item,3742,Dead Man's Plate,-0.7582,457
+16.15,3rd Item,3748,Titanic Hydra,-1.2209,823
+16.15,3rd Item,4401,Force of Nature,-1.4301,348
+16.15,3rd Item,6333,Death's Dance,1.0748,11343
+16.15,3rd Item,6609,Chempunk Chainsword,-1.8262,191
+16.15,3rd Item,6631,Stridebreaker,1.0232,2303
+16.15,3rd Item,6662,Iceborn Gauntlet,-4.8011,110
+16.15,3rd Item,6665,"Jak'Sho, The Protean",-1.0106,1332
+16.15,3rd Item,6672,Kraken Slayer,-1.7094,1631
+16.15,3rd Item,6695,Serpent's Fang,-4.8501,105
+16.15,4th+ Item,2501,Overlord's Bloodmail,1.3747,168
+16.15,4th+ Item,2504,Kaenic Rookern,0.553,396
+16.15,4th+ Item,2510,Dusk and Dawn,1.1834,106
+16.15,4th+ Item,2517,Endless Hunger,0.6581,304
+16.15,4th+ Item,3026,Guardian Angel,1.9517,1269
+16.15,4th+ Item,3033,Mortal Reminder,-2.7023,103
+16.15,4th+ Item,3050,Zeke's Convergence,0.6657,366
+16.15,4th+ Item,3053,Sterak's Gage,0.8441,2797
+16.15,4th+ Item,3065,Spirit Visage,0.4912,8974
+16.15,4th+ Item,3073,Experimental Hexplate,-2.9678,234
+16.15,4th+ Item,3074,Ravenous Hydra,3.1956,139
+16.15,4th+ Item,3075,Thornmail,-1.0812,7177
+16.15,4th+ Item,3091,Wit's End,-0.5607,599
+16.15,4th+ Item,3110,Frozen Heart,0.8947,446
+16.15,4th+ Item,3124,Guinsoo's Rageblade,-3.5358,175
+16.15,4th+ Item,3139,Mercurial Scimitar,-1.3144,105
+16.15,4th+ Item,3143,Randuin's Omen,0.3526,1868
+16.15,4th+ Item,3153,Blade of The Ruined King,-1.48,700
+16.15,4th+ Item,3156,Maw of Malmortius,1.904,593
+16.15,4th+ Item,3157,Zhonya's Hourglass,-3.5394,159
+16.15,4th+ Item,3302,Terminus,0.724,462
+16.15,4th+ Item,3742,Dead Man's Plate,1.0419,401
+16.15,4th+ Item,3748,Titanic Hydra,-4.5773,317
+16.15,4th+ Item,4401,Force of Nature,-0.7522,469
+16.15,4th+ Item,6333,Death's Dance,0.6682,5698
+16.15,4th+ Item,6609,Chempunk Chainsword,4.6557,159
+16.15,4th+ Item,6631,Stridebreaker,-1.077,623
+16.15,4th+ Item,6662,Iceborn Gauntlet,-0.3575,115
+16.15,4th+ Item,6665,"Jak'Sho, The Protean",-0.8748,3096
+16.15,4th+ Item,6672,Kraken Slayer,-0.9034,830
+16.15,All Items,2501,Overlord's Bloodmail,2.0902,372
+16.15,All Items,2502,Unending Despair,3.8043,105
+16.15,All Items,2504,Kaenic Rookern,-0.1773,806
+16.15,All Items,2510,Dusk and Dawn,-0.0081,1410
+16.15,All Items,2512,Fiendhunter Bolts,-2.9584,120
+16.15,All Items,2517,Endless Hunger,0.2247,638
+16.15,All Items,2525,Protoplasm Harness,0.4164,171
+16.15,All Items,3026,Guardian Angel,2.2728,1966
+16.15,All Items,3033,Mortal Reminder,2.793,237
+16.15,All Items,3050,Zeke's Convergence,2.082,2036
+16.15,All Items,3053,Sterak's Gage,0.4788,6613
+16.15,All Items,3065,Spirit Visage,0.023,26908
+16.15,All Items,3071,Black Cleaver,-2.3177,331
+16.15,All Items,3072,Bloodthirster,2.2841,119
+16.15,All Items,3073,Experimental Hexplate,-1.2329,3506
+16.15,All Items,3074,Ravenous Hydra,-1.208,1597
+16.15,All Items,3075,Thornmail,-0.5113,23359
+16.15,All Items,3078,Trinity Force,-1.2793,874
+16.15,All Items,3084,Heartsteel,0.263,189
+16.15,All Items,3087,Statikk Shiv,-1.3302,544
+16.15,All Items,3091,Wit's End,-0.125,2068
+16.15,All Items,3110,Frozen Heart,0.4943,1042
+16.15,All Items,3124,Guinsoo's Rageblade,-1.39,812
+16.15,All Items,3139,Mercurial Scimitar,-0.9549,181
+16.15,All Items,3143,Randuin's Omen,0.043,3828
+16.15,All Items,3153,Blade of The Ruined King,0.4336,66698
+16.15,All Items,3156,Maw of Malmortius,0.8314,2369
+16.15,All Items,3157,Zhonya's Hourglass,-4.6741,228
+16.15,All Items,3181,Hullbreaker,-4.4251,161
+16.15,All Items,3302,Terminus,0.9316,1580
+16.15,All Items,3742,Dead Man's Plate,-0.0125,1235
+16.15,All Items,3748,Titanic Hydra,-0.2914,10911
+16.15,All Items,4401,Force of Nature,-1.1735,939
+16.15,All Items,6333,Death's Dance,0.7953,21503
+16.15,All Items,6609,Chempunk Chainsword,1.0212,435
+16.15,All Items,6610,Sundered Sky,-6.1629,262
+16.15,All Items,6631,Stridebreaker,-0.6556,47336
+16.15,All Items,6662,Iceborn Gauntlet,-2.2758,446
+16.15,All Items,6665,"Jak'Sho, The Protean",-1.1584,4832
+16.15,All Items,6672,Kraken Slayer,0.4,22954
+16.15,All Items,6675,Navori Flickerblade,-5.0322,103
+16.15,All Items,6692,Eclipse,-2.0784,203
+16.15,All Items,6695,Serpent's Fang,-1.1397,286
+16.15,All Items,6697,Hubris,-7.0291,108
+16.15,All Items,6698,Profane Hydra,1.9226,354
+16.15,All Items,8020,Abyssal Mask,-5.4351,123
+16.16,Keystone,8010,Conqueror,-4.2178,209
+16.16,Keystone,9923,Hail of Blades,-5.8063,131
+16.16,Keystone,8005,Press the Attack,-0.8267,5923
+16.16,Keystone,8008,Lethal Tempo,0.2476,28883
+16.16,Spell,4,Flash,0.0232,33528
+16.16,Spell,6,Ghost,-0.3664,1479
+16.16,Spell,11,Smite,0.0,35388
+16.16,Spell,14,Ignite,-0.4428,278
+16.16,Starter,1101,Scorchclaw Pup,0.5986,7218
+16.16,Starter,1102,Gustwalker Hatchling,-0.1909,23585
+16.16,Starter,1103,Mosstomper Seedling,0.0395,4583
+16.16,Boots,3006,Berserker's Greaves,-0.9243,648
+16.16,Boots,3008,Gluttonous Greaves,-0.7939,1623
+16.16,Boots,3009,Boots of Swiftness,0.8986,2724
+16.16,Boots,3047,Plated Steelcaps,0.2694,14901
+16.16,Boots,3111,Mercury's Treads,-0.2106,13632
+16.16,Boots,3158,Ionian Boots of Lucidity,-2.2411,115
+16.16,1st Item,3073,Experimental Hexplate,3.1999,128
+16.16,1st Item,3074,Ravenous Hydra,-2.4754,178
+16.16,1st Item,3078,Trinity Force,-1.2566,129
+16.16,1st Item,3153,Blade of The Ruined King,0.5298,12670
+16.16,1st Item,3748,Titanic Hydra,0.2359,2263
+16.16,1st Item,6631,Stridebreaker,-0.602,12774
+16.16,1st Item,6672,Kraken Slayer,0.2186,6565
+16.16,2nd Item,2510,Dusk and Dawn,-2.3935,337
+16.16,2nd Item,3050,Zeke's Convergence,-0.2458,227
+16.16,2nd Item,3053,Sterak's Gage,-0.5755,524
+16.16,2nd Item,3065,Spirit Visage,-0.4038,1264
+16.16,2nd Item,3073,Experimental Hexplate,0.5577,804
+16.16,2nd Item,3074,Ravenous Hydra,0.1156,338
+16.16,2nd Item,3075,Thornmail,-0.415,1810
+16.16,2nd Item,3078,Trinity Force,2.1612,165
+16.16,2nd Item,3087,Statikk Shiv,5.3483,149
+16.16,2nd Item,3091,Wit's End,1.6319,249
+16.16,2nd Item,3143,Randuin's Omen,2.4814,138
+16.16,2nd Item,3153,Blade of The Ruined King,0.1861,12982
+16.16,2nd Item,3156,Maw of Malmortius,2.9668,168
+16.16,2nd Item,3302,Terminus,-1.5122,412
+16.16,2nd Item,3742,Dead Man's Plate,-1.8842,149
+16.16,2nd Item,3748,Titanic Hydra,-0.5509,1500
+16.16,2nd Item,6333,Death's Dance,1.1676,1769
+16.16,2nd Item,6631,Stridebreaker,-0.6879,5964
+16.16,2nd Item,6665,"Jak'Sho, The Protean",4.1265,123
+16.16,2nd Item,6672,Kraken Slayer,0.7186,1969
+16.16,3rd Item,2504,Kaenic Rookern,0.5072,115
+16.16,3rd Item,2510,Dusk and Dawn,4.8823,109
+16.16,3rd Item,3026,Guardian Angel,3.9797,193
+16.16,3rd Item,3050,Zeke's Convergence,0.5634,311
+16.16,3rd Item,3053,Sterak's Gage,-0.0817,1126
+16.16,3rd Item,3065,Spirit Visage,0.0518,5464
+16.16,3rd Item,3073,Experimental Hexplate,1.2536,274
+16.16,3rd Item,3075,Thornmail,0.2301,4554
+16.16,3rd Item,3091,Wit's End,-1.5353,320
+16.16,3rd Item,3110,Frozen Heart,2.3853,185
+16.16,3rd Item,3124,Guinsoo's Rageblade,-5.2587,132
+16.16,3rd Item,3143,Randuin's Omen,0.9283,697
+16.16,3rd Item,3153,Blade of The Ruined King,-0.5063,941
+16.16,3rd Item,3156,Maw of Malmortius,-0.6888,492
+16.16,3rd Item,3302,Terminus,-0.8779,310
+16.16,3rd Item,3742,Dead Man's Plate,1.3861,181
+16.16,3rd Item,3748,Titanic Hydra,0.5312,350
+16.16,3rd Item,4401,Force of Nature,0.8599,132
+16.16,3rd Item,6333,Death's Dance,-0.2639,4951
+16.16,3rd Item,6631,Stridebreaker,0.0656,830
+16.16,3rd Item,6665,"Jak'Sho, The Protean",0.0312,578
+16.16,3rd Item,6672,Kraken Slayer,1.4612,668
+16.16,4th+ Item,2504,Kaenic Rookern,3.5844,143
+16.16,4th+ Item,2517,Endless Hunger,-6.2217,101
+16.16,4th+ Item,3026,Guardian Angel,4.4625,568
+16.16,4th+ Item,3050,Zeke's Convergence,-2.6697,146
+16.16,4th+ Item,3053,Sterak's Gage,1.5383,1120
+16.16,4th+ Item,3065,Spirit Visage,-0.2942,3639
+16.16,4th+ Item,3075,Thornmail,-1.2462,2581
+16.16,4th+ Item,3091,Wit's End,-0.5929,246
+16.16,4th+ Item,3110,Frozen Heart,-0.0921,183
+16.16,4th+ Item,3143,Randuin's Omen,1.8114,733
+16.16,4th+ Item,3153,Blade of The Ruined King,0.8461,279
+16.16,4th+ Item,3156,Maw of Malmortius,1.4346,238
+16.16,4th+ Item,3302,Terminus,-0.4013,206
+16.16,4th+ Item,3742,Dead Man's Plate,0.1845,156
+16.16,4th+ Item,3748,Titanic Hydra,-2.7787,152
+16.16,4th+ Item,4401,Force of Nature,-5.2668,176
+16.16,4th+ Item,6333,Death's Dance,-0.251,2307
+16.16,4th+ Item,6631,Stridebreaker,0.9014,246
+16.16,4th+ Item,6665,"Jak'Sho, The Protean",-0.9962,1026
+16.16,4th+ Item,6672,Kraken Slayer,-0.6782,284
+16.16,All Items,2501,Overlord's Bloodmail,-1.7045,143
+16.16,All Items,2504,Kaenic Rookern,3.2343,305
+16.16,All Items,2510,Dusk and Dawn,-1.4488,515
+16.16,All Items,2517,Endless Hunger,-7.2589,191
+16.16,All Items,3026,Guardian Angel,3.8755,817
+16.16,All Items,3050,Zeke's Convergence,-0.5194,689
+16.16,All Items,3053,Sterak's Gage,0.5077,2784
+16.16,All Items,3065,Spirit Visage,-0.1396,10389
+16.16,All Items,3071,Black Cleaver,-3.7479,189
+16.16,All Items,3073,Experimental Hexplate,1.1159,1285
+16.16,All Items,3074,Ravenous Hydra,-0.6674,662
+16.16,All Items,3075,Thornmail,-0.3349,8971
+16.16,All Items,3078,Trinity Force,0.4191,360
+16.16,All Items,3087,Statikk Shiv,4.5275,283
+16.16,All Items,3091,Wit's End,-0.8316,850
+16.16,All Items,3110,Frozen Heart,1.213,426
+16.16,All Items,3124,Guinsoo's Rageblade,-0.902,289
+16.16,All Items,3143,Randuin's Omen,1.4421,1574
+16.16,All Items,3153,Blade of The Ruined King,0.3307,26876
+16.16,All Items,3156,Maw of Malmortius,0.3788,901
+16.16,All Items,3157,Zhonya's Hourglass,5.9389,112
+16.16,All Items,3302,Terminus,-1.6979,960
+16.16,All Items,3742,Dead Man's Plate,0.0012,492
+16.16,All Items,3748,Titanic Hydra,-0.1239,4270
+16.16,All Items,4401,Force of Nature,-0.8407,369
+16.16,All Items,6333,Death's Dance,0.0463,9054
+16.16,All Items,6609,Chempunk Chainsword,4.9821,192
+16.16,All Items,6631,Stridebreaker,-0.5832,19817
+16.16,All Items,6662,Iceborn Gauntlet,-2.2948,162
+16.16,All Items,6665,"Jak'Sho, The Protean",-0.2919,1743
+16.16,All Items,6672,Kraken Slayer,0.3762,9493
+16.16,All Items,6692,Eclipse,-1.3067,173
+16.16,All Items,6695,Serpent's Fang,1.1972,115
+16.16,All Items,6698,Profane Hydra,-4.6084,146
+16.17,Keystone,8010,Conqueror,-6.53,253
+16.17,Keystone,8005,Press the Attack,-0.306,7861
+16.17,Keystone,8008,Lethal Tempo,0.1686,32969
+16.17,Spell,4,Flash,-0.0059,39326
+16.17,Spell,6,Ghost,-1.4657,1650
+16.17,Spell,11,Smite,0.0,41490
+16.17,Spell,14,Ignite,7.379,383
+16.17,Starter,1101,Scorchclaw Pup,0.4383,9075
+16.17,Starter,1102,Gustwalker Hatchling,-0.2454,26036
+16.17,Starter,1103,Mosstomper Seedling,0.3782,6377
+16.17,Boots,3006,Berserker's Greaves,-3.2654,747
+16.17,Boots,3008,Gluttonous Greaves,-2.3622,1786
+16.17,Boots,3009,Boots of Swiftness,-0.5415,3160
+16.17,Boots,3020,Sorcerer's Shoes,-0.2971,113
+16.17,Boots,3047,Plated Steelcaps,0.6926,17473
+16.17,Boots,3111,Mercury's Treads,0.1136,16033
+16.17,Boots,3158,Ionian Boots of Lucidity,-4.4556,194
+16.17,1st Item,3073,Experimental Hexplate,-0.6402,143
+16.17,1st Item,3074,Ravenous Hydra,-0.2037,248
+16.17,1st Item,3078,Trinity Force,6.391,165
+16.17,1st Item,3087,Statikk Shiv,-4.4504,106
+16.17,1st Item,3153,Blade of The Ruined King,0.8634,14463
+16.17,1st Item,3748,Titanic Hydra,-0.3041,2657
+16.17,1st Item,6631,Stridebreaker,-1.3529,14635
+16.17,1st Item,6672,Kraken Slayer,1.2565,7930
+16.17,1st Item,6698,Profane Hydra,-3.5157,384
+16.17,2nd Item,2510,Dusk and Dawn,-1.275,471
+16.17,2nd Item,3050,Zeke's Convergence,3.4749,365
+16.17,2nd Item,3053,Sterak's Gage,-0.8466,552
+16.17,2nd Item,3065,Spirit Visage,-0.7288,1738
+16.17,2nd Item,3073,Experimental Hexplate,-1.9367,1129
+16.17,2nd Item,3074,Ravenous Hydra,-2.3553,343
+16.17,2nd Item,3075,Thornmail,1.3668,2272
+16.17,2nd Item,3078,Trinity Force,-1.0181,211
+16.17,2nd Item,3091,Wit's End,0.3798,266
+16.17,2nd Item,3143,Randuin's Omen,1.22,192
+16.17,2nd Item,3153,Blade of The Ruined King,-0.053,15241
+16.17,2nd Item,3156,Maw of Malmortius,1.4433,193
+16.17,2nd Item,3302,Terminus,-3.2003,304
+16.17,2nd Item,3742,Dead Man's Plate,1.2553,152
+16.17,2nd Item,3748,Titanic Hydra,1.3565,1762
+16.17,2nd Item,6333,Death's Dance,1.422,2148
+16.17,2nd Item,6631,Stridebreaker,-0.0247,6679
+16.17,2nd Item,6665,"Jak'Sho, The Protean",0.6293,162
+16.17,2nd Item,6672,Kraken Slayer,0.2042,2287
+16.17,2nd Item,6698,Profane Hydra,-0.3401,199
+16.17,3rd Item,2504,Kaenic Rookern,-1.8563,133
+16.17,3rd Item,2510,Dusk and Dawn,0.9844,144
+16.17,3rd Item,3026,Guardian Angel,0.1398,254
+16.17,3rd Item,3050,Zeke's Convergence,2.3416,341
+16.17,3rd Item,3053,Sterak's Gage,0.3743,1387
+16.17,3rd Item,3065,Spirit Visage,-0.3971,6162
+16.17,3rd Item,3073,Experimental Hexplate,-0.0776,380
+16.17,3rd Item,3075,Thornmail,-0.3597,5142
+16.17,3rd Item,3091,Wit's End,-0.9204,304
+16.17,3rd Item,3110,Frozen Heart,2.7996,225
+16.17,3rd Item,3124,Guinsoo's Rageblade,-5.7096,104
+16.17,3rd Item,3143,Randuin's Omen,1.1017,811
+16.17,3rd Item,3153,Blade of The Ruined King,-0.5089,1131
+16.17,3rd Item,3156,Maw of Malmortius,-1.6217,590
+16.17,3rd Item,3302,Terminus,-0.5635,289
+16.17,3rd Item,3742,Dead Man's Plate,1.2727,185
+16.17,3rd Item,3748,Titanic Hydra,0.6686,397
+16.17,3rd Item,4401,Force of Nature,1.0104,147
+16.17,3rd Item,6333,Death's Dance,0.8469,6227
+16.17,3rd Item,6631,Stridebreaker,0.4769,905
+16.17,3rd Item,6665,"Jak'Sho, The Protean",-0.0695,659
+16.17,3rd Item,6672,Kraken Slayer,-0.5394,844
+16.17,4th+ Item,2501,Overlord's Bloodmail,-1.4105,102
+16.17,4th+ Item,2504,Kaenic Rookern,6.3228,182
+16.17,4th+ Item,2517,Endless Hunger,2.2175,117
+16.17,4th+ Item,3026,Guardian Angel,0.1019,580
+16.17,4th+ Item,3050,Zeke's Convergence,0.4658,162
+16.17,4th+ Item,3053,Sterak's Gage,0.6666,1431
+16.17,4th+ Item,3065,Spirit Visage,-0.1528,4022
+16.17,4th+ Item,3073,Experimental Hexplate,-4.9417,108
+16.17,4th+ Item,3075,Thornmail,-1.6135,3003
+16.17,4th+ Item,3091,Wit's End,-7.5062,211
+16.17,4th+ Item,3110,Frozen Heart,2.9433,220
+16.17,4th+ Item,3143,Randuin's Omen,1.7949,876
+16.17,4th+ Item,3153,Blade of The Ruined King,0.6143,359
+16.17,4th+ Item,3156,Maw of Malmortius,-0.1451,266
+16.17,4th+ Item,3302,Terminus,-1.5398,187
+16.17,4th+ Item,3742,Dead Man's Plate,2.405,170
+16.17,4th+ Item,3748,Titanic Hydra,1.3387,144
+16.17,4th+ Item,4401,Force of Nature,0.6334,188
+16.17,4th+ Item,6333,Death's Dance,0.6971,2811
+16.17,4th+ Item,6631,Stridebreaker,1.0492,272
+16.17,4th+ Item,6665,"Jak'Sho, The Protean",0.0693,1234
+16.17,4th+ Item,6672,Kraken Slayer,0.6175,391
+16.17,All Items,2501,Overlord's Bloodmail,1.6358,192
+16.17,All Items,2504,Kaenic Rookern,0.2638,374
+16.17,All Items,2510,Dusk and Dawn,-0.5872,704
+16.17,All Items,2512,Fiendhunter Bolts,-11.8684,107
+16.17,All Items,2517,Endless Hunger,1.1199,246
+16.17,All Items,3026,Guardian Angel,0.4438,907
+16.17,All Items,3050,Zeke's Convergence,2.3987,873
+16.17,All Items,3053,Sterak's Gage,0.2606,3395
+16.17,All Items,3065,Spirit Visage,-0.3462,11943
+16.17,All Items,3071,Black Cleaver,0.4609,186
+16.17,All Items,3073,Experimental Hexplate,-1.6135,1761
+16.17,All Items,3074,Ravenous Hydra,-1.3563,716
+16.17,All Items,3075,Thornmail,-0.3644,10445
+16.17,All Items,3078,Trinity Force,2.28,448
+16.17,All Items,3084,Heartsteel,7.8298,116
+16.17,All Items,3087,Statikk Shiv,-4.8802,205
+16.17,All Items,3091,Wit's End,-1.9501,822
+16.17,All Items,3110,Frozen Heart,1.0607,540
+16.17,All Items,3124,Guinsoo's Rageblade,-2.7124,236
+16.17,All Items,3143,Randuin's Omen,1.4127,1889
+16.17,All Items,3153,Blade of The Ruined King,0.363,31200
+16.17,All Items,3156,Maw of Malmortius,-0.6825,1056
+16.17,All Items,3157,Zhonya's Hourglass,-2.5065,129
+16.17,All Items,3302,Terminus,-1.9708,838
+16.17,All Items,3742,Dead Man's Plate,1.2072,516
+16.17,All Items,3748,Titanic Hydra,0.4217,4962
+16.17,All Items,4401,Force of Nature,0.7954,400
+16.17,All Items,6333,Death's Dance,0.8996,11259
+16.17,All Items,6609,Chempunk Chainsword,0.8701,177
+16.17,All Items,6610,Sundered Sky,-4.3711,104
+16.17,All Items,6631,Stridebreaker,-0.8557,22492
+16.17,All Items,6662,Iceborn Gauntlet,-3.5438,167
+16.17,All Items,6665,"Jak'Sho, The Protean",0.0615,2078
+16.17,All Items,6672,Kraken Slayer,0.8921,11453
+16.17,All Items,6692,Eclipse,0.6603,115
+16.17,All Items,6695,Serpent's Fang,-4.2453,105
+16.17,All Items,6698,Profane Hydra,-2.6058,631

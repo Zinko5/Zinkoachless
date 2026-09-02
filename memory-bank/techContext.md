@@ -6,7 +6,8 @@
 - **Runtime:** Python 3.x
 - **Environment Management:** `uv` (`source .venv/bin/activate` or `uv venv`)
 - **Core Libraries:**
-  - `requests`: Network requests to Coachless REST API.
+  - `requests`: Network requests to Coachless REST API (using persistent `Session` HTTP Keep-Alive).
+  - `concurrent.futures.ThreadPoolExecutor`: High-concurrency async parallel fetching for patches and item details (10 worker pool).
   - `json`, `os`, `time`, `csv`: Built-in utilities for I/O and caching.
   - `pandas` (optional): Dataframe processing for CSV exports.
 

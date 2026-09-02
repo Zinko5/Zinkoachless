@@ -15,6 +15,7 @@
   - Mode 2: `📚 Catálogo Completo (Incluye Nicho / OTP)` shows 100% of recorded items.
 - **League of Legends Item Set Exporter:**
   - Copies JSON payload directly to clipboard (`navigator.clipboard.writeText`).
+  - Sets custom title format: `Zinkoachless - <Campeón> - <Línea>` (e.g. `Zinkoachless - Ekko - Mid`).
   - Includes custom `"Todos por WPA"` block at the end with all positive WPA items unfiltered.
 
 ---

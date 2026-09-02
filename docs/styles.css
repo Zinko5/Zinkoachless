@@ -110,30 +110,29 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
-  opacity: 0.4;
 }
 
 .role-btn img {
   width: 16px;
   height: 16px;
-  opacity: 0.5;
-  filter: brightness(0.8) invert(1);
+  opacity: 0.85;
+  filter: brightness(0) invert(0.9);
   transition: all 0.2s ease;
 }
 
 .role-btn:not(.disabled):hover {
   background-color: var(--bg-card-hover);
+  border-color: var(--border-color);
 }
 
 .role-btn:not(.disabled):hover img {
-  opacity: 0.9;
-  filter: brightness(1) invert(1);
+  opacity: 1;
+  filter: brightness(0) invert(1);
 }
 
 .role-btn.active {
   background-color: rgba(59, 130, 246, 0.2);
-  opacity: 1;
-  border: 1px solid rgba(59, 130, 246, 0.5);
+  border: 1px solid rgba(59, 130, 246, 0.6);
 }
 
 .role-btn.active img {
@@ -142,12 +141,14 @@ body {
 }
 
 .role-btn.disabled {
-  opacity: 0.15;
   cursor: not-allowed;
+  background: transparent !important;
+  border-color: transparent !important;
 }
 
 .role-btn.disabled img {
-  filter: grayscale(100%) brightness(0.4);
+  opacity: 0.12;
+  filter: brightness(0) invert(0.3);
 }
 
 /* FILTROS / ACCIONES DE CABECERA */

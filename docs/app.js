@@ -408,7 +408,10 @@ const championNames = {
   901: "Smolder",
   245: "Ekko",
   887: "Gwen",
-  106: "Volibear"
+  106: "Volibear",
+  1: "Annie",
+  19: "Warwick",
+  9: "Fiddlesticks"
 };
 
 // Roles soportados por cada campeón (ID de rol de Coachless: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support)
@@ -416,8 +419,11 @@ const championRolesMap = {
   236: [3],    // Lucian (Bot)
   901: [3],    // Smolder (Bot)
   245: [1, 2], // Ekko (Jungle, Mid)
-  887: [1],    // Gwen (Jungle)
-  106: [1]     // Volibear (Jungle)
+  887: [1, 2], // Gwen (Jungle, Mid)
+  106: [1],    // Volibear (Jungle)
+  1: [2],      // Annie (Mid)
+  19: [0, 1],  // Warwick (Top, Jungle)
+  9: [1]       // Fiddlesticks (Jungle)
 };
 
 const roleNames = {
@@ -1128,8 +1134,17 @@ function exportLoLItemSet() {
 
   const finalBlocks = blocks.filter(b => b.items.length > 0);
 
+  const roleLabelsShort = {
+    0: "Top",
+    1: "Jungla",
+    2: "Mid",
+    3: "Bot",
+    4: "Support"
+  };
+  const roleNameShort = roleLabelsShort[selectedRole] || "General";
+
   const itemSetJson = {
-    "title": `Zinkoachless - ${championName}`,
+    "title": `Zinkoachless - ${championName} - ${roleNameShort}`,
     "associatedChampions": [parseInt(selectedChamp)],
     "associatedMaps": [],
     "blocks": finalBlocks
