@@ -1,0 +1,1479 @@
+[
+  {
+    "category": "Keystone",
+    "id": 8230,
+    "name": "Stormraider's Surge",
+    "wpa": 0.4153,
+    "sample_size": 662726
+  },
+  {
+    "category": "Keystone",
+    "id": 8010,
+    "name": "Conqueror",
+    "wpa": -0.0412,
+    "sample_size": 2705407
+  },
+  {
+    "category": "Keystone",
+    "id": 8021,
+    "name": "Fleet Footwork",
+    "wpa": -2.4401,
+    "sample_size": 3943
+  },
+  {
+    "category": "Keystone",
+    "id": 8360,
+    "name": "Unsealed Spellbook",
+    "wpa": 1.4568,
+    "sample_size": 7505
+  },
+  {
+    "category": "Keystone",
+    "id": 8437,
+    "name": "Grasp of the Undying",
+    "wpa": -1.9692,
+    "sample_size": 38601
+  },
+  {
+    "category": "Spell",
+    "id": 3,
+    "name": "Exhaust",
+    "wpa": -1.7636,
+    "sample_size": 29611
+  },
+  {
+    "category": "Spell",
+    "id": 4,
+    "name": "Flash",
+    "wpa": 0.0366,
+    "sample_size": 3392433
+  },
+  {
+    "category": "Spell",
+    "id": 6,
+    "name": "Ghost",
+    "wpa": -1.5144,
+    "sample_size": 98569
+  },
+  {
+    "category": "Spell",
+    "id": 12,
+    "name": "Teleport",
+    "wpa": -3.404,
+    "sample_size": 159042
+  },
+  {
+    "category": "Spell",
+    "id": 14,
+    "name": "Ignite",
+    "wpa": 0.1986,
+    "sample_size": 3176137
+  },
+  {
+    "category": "Starter",
+    "id": 1036,
+    "name": "Long Sword",
+    "wpa": -0.7752,
+    "sample_size": 10664
+  },
+  {
+    "category": "Starter",
+    "id": 1054,
+    "name": "Doran's Shield",
+    "wpa": -0.2786,
+    "sample_size": 2258060
+  },
+  {
+    "category": "Starter",
+    "id": 1055,
+    "name": "Doran's Blade",
+    "wpa": 0.6834,
+    "sample_size": 919793
+  },
+  {
+    "category": "Starter",
+    "id": 1083,
+    "name": "Cull",
+    "wpa": -2.0697,
+    "sample_size": 41249
+  },
+  {
+    "category": "Boots",
+    "id": 3006,
+    "name": "Berserker's Greaves",
+    "wpa": -0.1008,
+    "sample_size": 2208197
+  },
+  {
+    "category": "Boots",
+    "id": 3009,
+    "name": "Boots of Swiftness",
+    "wpa": 0.8687,
+    "sample_size": 567676
+  },
+  {
+    "category": "Boots",
+    "id": 3047,
+    "name": "Plated Steelcaps",
+    "wpa": 0.5341,
+    "sample_size": 411976
+  },
+  {
+    "category": "Boots",
+    "id": 3111,
+    "name": "Mercury's Treads",
+    "wpa": -0.2691,
+    "sample_size": 175513
+  },
+  {
+    "category": "Boots",
+    "id": 3158,
+    "name": "Ionian Boots of Lucidity",
+    "wpa": 0.6957,
+    "sample_size": 10843
+  },
+  {
+    "category": "1st Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -2.929,
+    "sample_size": 7676
+  },
+  {
+    "category": "1st Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -1.8851,
+    "sample_size": 10393
+  },
+  {
+    "category": "1st Item",
+    "id": 3068,
+    "name": "Sunfire Aegis",
+    "wpa": -3.1195,
+    "sample_size": 3628
+  },
+  {
+    "category": "1st Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": -1.3628,
+    "sample_size": 35394
+  },
+  {
+    "category": "1st Item",
+    "id": 3075,
+    "name": "Thornmail",
+    "wpa": -2.8582,
+    "sample_size": 3210
+  },
+  {
+    "category": "1st Item",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -0.9578,
+    "sample_size": 52579
+  },
+  {
+    "category": "1st Item",
+    "id": 3084,
+    "name": "Heartsteel",
+    "wpa": -8.2801,
+    "sample_size": 2490
+  },
+  {
+    "category": "1st Item",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -1.7042,
+    "sample_size": 3199
+  },
+  {
+    "category": "1st Item",
+    "id": 3181,
+    "name": "Hullbreaker",
+    "wpa": -0.8222,
+    "sample_size": 486
+  },
+  {
+    "category": "1st Item",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": -1.0996,
+    "sample_size": 5077
+  },
+  {
+    "category": "1st Item",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -1.236,
+    "sample_size": 4817
+  },
+  {
+    "category": "1st Item",
+    "id": 6631,
+    "name": "Stridebreaker",
+    "wpa": 0.092,
+    "sample_size": 3164378
+  },
+  {
+    "category": "1st Item",
+    "id": 6664,
+    "name": "Hollow Radiance",
+    "wpa": -3.9627,
+    "sample_size": 1876
+  },
+  {
+    "category": "1st Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.6272,
+    "sample_size": 10813
+  },
+  {
+    "category": "2nd Item",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.8453,
+    "sample_size": 1870
+  },
+  {
+    "category": "2nd Item",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -2.5871,
+    "sample_size": 2604
+  },
+  {
+    "category": "2nd Item",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.0653,
+    "sample_size": 282
+  },
+  {
+    "category": "2nd Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -3.5468,
+    "sample_size": 8679
+  },
+  {
+    "category": "2nd Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.8,
+    "sample_size": 343833
+  },
+  {
+    "category": "2nd Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": -0.6875,
+    "sample_size": 22019
+  },
+  {
+    "category": "2nd Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.2316,
+    "sample_size": 1818997
+  },
+  {
+    "category": "2nd Item",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 0.6429,
+    "sample_size": 18228
+  },
+  {
+    "category": "2nd Item",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -2.8191,
+    "sample_size": 742
+  },
+  {
+    "category": "2nd Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.1851,
+    "sample_size": 220536
+  },
+  {
+    "category": "2nd Item",
+    "id": 3075,
+    "name": "Thornmail",
+    "wpa": -0.9657,
+    "sample_size": 11610
+  },
+  {
+    "category": "2nd Item",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -0.5945,
+    "sample_size": 10322
+  },
+  {
+    "category": "2nd Item",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -2.8339,
+    "sample_size": 2223
+  },
+  {
+    "category": "2nd Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.3801,
+    "sample_size": 17926
+  },
+  {
+    "category": "2nd Item",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 0.3149,
+    "sample_size": 179700
+  },
+  {
+    "category": "2nd Item",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.4746,
+    "sample_size": 8540
+  },
+  {
+    "category": "2nd Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.4587,
+    "sample_size": 2518
+  },
+  {
+    "category": "2nd Item",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -0.8255,
+    "sample_size": 88094
+  },
+  {
+    "category": "2nd Item",
+    "id": 3181,
+    "name": "Hullbreaker",
+    "wpa": -1.0963,
+    "sample_size": 16271
+  },
+  {
+    "category": "2nd Item",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": 0.7142,
+    "sample_size": 86098
+  },
+  {
+    "category": "2nd Item",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -0.9482,
+    "sample_size": 37874
+  },
+  {
+    "category": "2nd Item",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.0127,
+    "sample_size": 5635
+  },
+  {
+    "category": "2nd Item",
+    "id": 6631,
+    "name": "Stridebreaker",
+    "wpa": -0.0767,
+    "sample_size": 63521
+  },
+  {
+    "category": "2nd Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -4.7812,
+    "sample_size": 1210
+  },
+  {
+    "category": "2nd Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.0967,
+    "sample_size": 54251
+  },
+  {
+    "category": "3rd Item",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.8578,
+    "sample_size": 4003
+  },
+  {
+    "category": "3rd Item",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -3.7585,
+    "sample_size": 827
+  },
+  {
+    "category": "3rd Item",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.1698,
+    "sample_size": 4207
+  },
+  {
+    "category": "3rd Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -1.7849,
+    "sample_size": 164038
+  },
+  {
+    "category": "3rd Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.1,
+    "sample_size": 771350
+  },
+  {
+    "category": "3rd Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.4206,
+    "sample_size": 44747
+  },
+  {
+    "category": "3rd Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.513,
+    "sample_size": 334394
+  },
+  {
+    "category": "3rd Item",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 1.2954,
+    "sample_size": 65871
+  },
+  {
+    "category": "3rd Item",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -0.0044,
+    "sample_size": 1861
+  },
+  {
+    "category": "3rd Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.7083,
+    "sample_size": 68476
+  },
+  {
+    "category": "3rd Item",
+    "id": 3075,
+    "name": "Thornmail",
+    "wpa": -0.3791,
+    "sample_size": 12992
+  },
+  {
+    "category": "3rd Item",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": 0.2232,
+    "sample_size": 4721
+  },
+  {
+    "category": "3rd Item",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -0.14,
+    "sample_size": 2319
+  },
+  {
+    "category": "3rd Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.6144,
+    "sample_size": 10029
+  },
+  {
+    "category": "3rd Item",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 0.0954,
+    "sample_size": 48707
+  },
+  {
+    "category": "3rd Item",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 1.2023,
+    "sample_size": 16029
+  },
+  {
+    "category": "3rd Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.9909,
+    "sample_size": 4105
+  },
+  {
+    "category": "3rd Item",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -0.1707,
+    "sample_size": 243336
+  },
+  {
+    "category": "3rd Item",
+    "id": 3181,
+    "name": "Hullbreaker",
+    "wpa": 0.676,
+    "sample_size": 16940
+  },
+  {
+    "category": "3rd Item",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": 0.4163,
+    "sample_size": 314778
+  },
+  {
+    "category": "3rd Item",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -0.3189,
+    "sample_size": 84918
+  },
+  {
+    "category": "3rd Item",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -0.1981,
+    "sample_size": 20634
+  },
+  {
+    "category": "3rd Item",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -0.8934,
+    "sample_size": 3940
+  },
+  {
+    "category": "3rd Item",
+    "id": 6631,
+    "name": "Stridebreaker",
+    "wpa": 0.1228,
+    "sample_size": 8735
+  },
+  {
+    "category": "3rd Item",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -0.8802,
+    "sample_size": 2856
+  },
+  {
+    "category": "3rd Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.3561,
+    "sample_size": 3968
+  },
+  {
+    "category": "3rd Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": 0.4561,
+    "sample_size": 49178
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.4231,
+    "sample_size": 9555
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -2.8035,
+    "sample_size": 903
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.3148,
+    "sample_size": 6690
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2525,
+    "name": "Protoplasm Harness",
+    "wpa": -2.5951,
+    "sample_size": 263
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.7826,
+    "sample_size": 28108
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -1.2495,
+    "sample_size": 221217
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0526,
+    "sample_size": 175733
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": -0.0026,
+    "sample_size": 31761
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.3905,
+    "sample_size": 62877
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 1.4775,
+    "sample_size": 176279
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -1.4045,
+    "sample_size": 3217
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.4362,
+    "sample_size": 33674
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3075,
+    "name": "Thornmail",
+    "wpa": -0.7275,
+    "sample_size": 15202
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -0.9977,
+    "sample_size": 5168
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -1.3079,
+    "sample_size": 3309
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.706,
+    "sample_size": 7842
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 0.7417,
+    "sample_size": 2660
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.502,
+    "sample_size": 3493
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 0.0614,
+    "sample_size": 28606
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.6842,
+    "sample_size": 43634
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.5214,
+    "sample_size": 7268
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": 0.0472,
+    "sample_size": 128140
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3181,
+    "name": "Hullbreaker",
+    "wpa": 0.2349,
+    "sample_size": 11639
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": 0.1503,
+    "sample_size": 403802
+  },
+  {
+    "category": "4th+ Item",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -0.5334,
+    "sample_size": 176632
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.4819,
+    "sample_size": 77961
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": 0.0561,
+    "sample_size": 6530
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6631,
+    "name": "Stridebreaker",
+    "wpa": -0.5169,
+    "sample_size": 2695
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.3809,
+    "sample_size": 10718
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.444,
+    "sample_size": 10989
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.2378,
+    "sample_size": 9556
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.0905,
+    "sample_size": 44737
+  },
+  {
+    "category": "All Items",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -2.0816,
+    "sample_size": 2391
+  },
+  {
+    "category": "All Items",
+    "id": 2502,
+    "name": "Unending Despair",
+    "wpa": -0.4625,
+    "sample_size": 1203
+  },
+  {
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.8883,
+    "sample_size": 17209
+  },
+  {
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -2.8596,
+    "sample_size": 5942
+  },
+  {
+    "category": "All Items",
+    "id": 2517,
+    "name": "Endless Hunger",
+    "wpa": 0.0672,
+    "sample_size": 12331
+  },
+  {
+    "category": "All Items",
+    "id": 2520,
+    "name": "Bastionbreaker",
+    "wpa": -1.732,
+    "sample_size": 1741
+  },
+  {
+    "category": "All Items",
+    "id": 2524,
+    "name": "Bandlepipes",
+    "wpa": -1.5609,
+    "sample_size": 122
+  },
+  {
+    "category": "All Items",
+    "id": 2525,
+    "name": "Protoplasm Harness",
+    "wpa": -0.8253,
+    "sample_size": 1204
+  },
+  {
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.6329,
+    "sample_size": 33007
+  },
+  {
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -1.5178,
+    "sample_size": 396698
+  },
+  {
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": -0.282,
+    "sample_size": 1299962
+  },
+  {
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.009,
+    "sample_size": 100005
+  },
+  {
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.2673,
+    "sample_size": 2227678
+  },
+  {
+    "category": "All Items",
+    "id": 3053,
+    "name": "Sterak's Gage",
+    "wpa": 1.369,
+    "sample_size": 263431
+  },
+  {
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -1.9153,
+    "sample_size": 8146
+  },
+  {
+    "category": "All Items",
+    "id": 3068,
+    "name": "Sunfire Aegis",
+    "wpa": -2.7228,
+    "sample_size": 5750
+  },
+  {
+    "category": "All Items",
+    "id": 3071,
+    "name": "Black Cleaver",
+    "wpa": 0.1544,
+    "sample_size": 358800
+  },
+  {
+    "category": "All Items",
+    "id": 3075,
+    "name": "Thornmail",
+    "wpa": -0.8591,
+    "sample_size": 43384
+  },
+  {
+    "category": "All Items",
+    "id": 3078,
+    "name": "Trinity Force",
+    "wpa": -0.8399,
+    "sample_size": 73268
+  },
+  {
+    "category": "All Items",
+    "id": 3084,
+    "name": "Heartsteel",
+    "wpa": -7.1372,
+    "sample_size": 3451
+  },
+  {
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -1.6678,
+    "sample_size": 8904
+  },
+  {
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -2.0372,
+    "sample_size": 37124
+  },
+  {
+    "category": "All Items",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": -0.7119,
+    "sample_size": 5925
+  },
+  {
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.6986,
+    "sample_size": 4699
+  },
+  {
+    "category": "All Items",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": 0.2228,
+    "sample_size": 264089
+  },
+  {
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": 0.7011,
+    "sample_size": 71760
+  },
+  {
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.9212,
+    "sample_size": 15526
+  },
+  {
+    "category": "All Items",
+    "id": 3161,
+    "name": "Spear of Shojin",
+    "wpa": -0.2444,
+    "sample_size": 464044
+  },
+  {
+    "category": "All Items",
+    "id": 3181,
+    "name": "Hullbreaker",
+    "wpa": -0.1487,
+    "sample_size": 46753
+  },
+  {
+    "category": "All Items",
+    "id": 3742,
+    "name": "Dead Man's Plate",
+    "wpa": 0.3051,
+    "sample_size": 812156
+  },
+  {
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.1612,
+    "sample_size": 7281
+  },
+  {
+    "category": "All Items",
+    "id": 4401,
+    "name": "Force of Nature",
+    "wpa": -0.534,
+    "sample_size": 306002
+  },
+  {
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": 0.3101,
+    "sample_size": 106464
+  },
+  {
+    "category": "All Items",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -0.4454,
+    "sample_size": 12601
+  },
+  {
+    "category": "All Items",
+    "id": 6610,
+    "name": "Sundered Sky",
+    "wpa": -2.7039,
+    "sample_size": 1879
+  },
+  {
+    "category": "All Items",
+    "id": 6631,
+    "name": "Stridebreaker",
+    "wpa": 0.0882,
+    "sample_size": 3239747
+  },
+  {
+    "category": "All Items",
+    "id": 6662,
+    "name": "Iceborn Gauntlet",
+    "wpa": -2.8126,
+    "sample_size": 1120
+  },
+  {
+    "category": "All Items",
+    "id": 6664,
+    "name": "Hollow Radiance",
+    "wpa": -3.4835,
+    "sample_size": 3598
+  },
+  {
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -1.3752,
+    "sample_size": 15062
+  },
+  {
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.5616,
+    "sample_size": 12877
+  },
+  {
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.304,
+    "sample_size": 16176
+  },
+  {
+    "category": "All Items",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -1.4246,
+    "sample_size": 2585
+  },
+  {
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -0.0281,
+    "sample_size": 159613
+  },
+  {
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -2.5857,
+    "sample_size": 1661
+  },
+  {
+    "category": "All Items",
+    "id": 6701,
+    "name": "Opportunity",
+    "wpa": -1.5185,
+    "sample_size": 4483
+  },
+  {
+    "category": "1st Item",
+    "id": 3142,
+    "name": "Youmuu's Ghostblade",
+    "wpa": -0.5203,
+    "sample_size": 6155
+  },
+  {
+    "category": "Keystone",
+    "id": 8005,
+    "name": "Press the Attack",
+    "wpa": -8.8899,
+    "sample_size": 700
+  },
+  {
+    "category": "Keystone",
+    "id": 8008,
+    "name": "Lethal Tempo",
+    "wpa": -13.5716,
+    "sample_size": 1322
+  },
+  {
+    "category": "Keystone",
+    "id": 8112,
+    "name": "Electrocute",
+    "wpa": -9.2563,
+    "sample_size": 1005
+  },
+  {
+    "category": "Spell",
+    "id": 21,
+    "name": "Barrier",
+    "wpa": -2.1843,
+    "sample_size": 2159
+  },
+  {
+    "category": "1st Item",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -1.2846,
+    "sample_size": 1948
+  },
+  {
+    "category": "2nd Item",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.4455,
+    "sample_size": 2019
+  },
+  {
+    "category": "2nd Item",
+    "id": 6609,
+    "name": "Chempunk Chainsword",
+    "wpa": -1.6399,
+    "sample_size": 1125
+  },
+  {
+    "category": "3rd Item",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 2.3958,
+    "sample_size": 535
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2501,
+    "name": "Overlord's Bloodmail",
+    "wpa": -2.162,
+    "sample_size": 975
+  },
+  {
+    "category": "All Items",
+    "id": 3073,
+    "name": "Experimental Hexplate",
+    "wpa": -2.1529,
+    "sample_size": 481
+  },
+  {
+    "category": "All Items",
+    "id": 3083,
+    "name": "Warmog's Armor",
+    "wpa": -1.9732,
+    "sample_size": 848
+  },
+  {
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": 0.2186,
+    "sample_size": 218
+  },
+  {
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -3.0333,
+    "sample_size": 2037
+  },
+  {
+    "category": "Keystone",
+    "id": 8214,
+    "name": "Summon Aery",
+    "wpa": -3.5968,
+    "sample_size": 1063
+  },
+  {
+    "category": "1st Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -4.0632,
+    "sample_size": 365
+  },
+  {
+    "category": "1st Item",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -4.269,
+    "sample_size": 144
+  },
+  {
+    "category": "2nd Item",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -4.087,
+    "sample_size": 367
+  },
+  {
+    "category": "3rd Item",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 0.64,
+    "sample_size": 1157
+  },
+  {
+    "category": "3rd Item",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -2.2694,
+    "sample_size": 703
+  },
+  {
+    "category": "3rd Item",
+    "id": 6701,
+    "name": "Opportunity",
+    "wpa": -1.1214,
+    "sample_size": 2586
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -0.6298,
+    "sample_size": 1741
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6701,
+    "name": "Opportunity",
+    "wpa": -2.7151,
+    "sample_size": 1438
+  },
+  {
+    "category": "All Items",
+    "id": 6692,
+    "name": "Eclipse",
+    "wpa": -0.1226,
+    "sample_size": 1583
+  },
+  {
+    "category": "All Items",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -0.3699,
+    "sample_size": 48322
+  },
+  {
+    "category": "Keystone",
+    "id": 8128,
+    "name": "Dark Harvest",
+    "wpa": -11.8938,
+    "sample_size": 213
+  },
+  {
+    "category": "1st Item",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": -1.3582,
+    "sample_size": 245
+  },
+  {
+    "category": "2nd Item",
+    "id": 3068,
+    "name": "Sunfire Aegis",
+    "wpa": -5.1374,
+    "sample_size": 343
+  },
+  {
+    "category": "2nd Item",
+    "id": 3110,
+    "name": "Frozen Heart",
+    "wpa": 2.0438,
+    "sample_size": 242
+  },
+  {
+    "category": "3rd Item",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 0.0491,
+    "sample_size": 1054
+  },
+  {
+    "category": "3rd Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.6919,
+    "sample_size": 371
+  },
+  {
+    "category": "3rd Item",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -0.4982,
+    "sample_size": 30351
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2520,
+    "name": "Bastionbreaker",
+    "wpa": -2.1446,
+    "sample_size": 125
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6694,
+    "name": "Serylda's Grudge",
+    "wpa": -5.2689,
+    "sample_size": 475
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": -0.3426,
+    "sample_size": 9599
+  },
+  {
+    "category": "Keystone",
+    "id": 8992,
+    "name": "Deathfire Touch",
+    "wpa": -6.5161,
+    "sample_size": 624
+  },
+  {
+    "category": "Starter",
+    "id": 1086,
+    "name": "Doran's Bow",
+    "wpa": 2.0154,
+    "sample_size": 42056
+  },
+  {
+    "category": "Starter",
+    "id": 1120,
+    "name": "Doran's Helm",
+    "wpa": 0.1126,
+    "sample_size": 149113
+  },
+  {
+    "category": "Boots",
+    "id": 3008,
+    "name": "Gluttonous Greaves",
+    "wpa": 0.0204,
+    "sample_size": 6653
+  },
+  {
+    "category": "1st Item",
+    "id": 6692,
+    "name": "Eclipse",
+    "wpa": -0.986,
+    "sample_size": 649
+  },
+  {
+    "category": "1st Item",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": 0.1816,
+    "sample_size": 274
+  },
+  {
+    "category": "2nd Item",
+    "id": 6699,
+    "name": "Voltaic Cyclosword",
+    "wpa": 0.0344,
+    "sample_size": 7281
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -5.5081,
+    "sample_size": 467
+  },
+  {
+    "category": "All Items",
+    "id": 6696,
+    "name": "Axiom Arc",
+    "wpa": -4.2999,
+    "sample_size": 814
+  },
+  {
+    "category": "Keystone",
+    "id": 8369,
+    "name": "First Strike",
+    "wpa": -3.7156,
+    "sample_size": 106
+  },
+  {
+    "category": "1st Item",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -4.4704,
+    "sample_size": 117
+  },
+  {
+    "category": "1st Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": -6.4831,
+    "sample_size": 104
+  },
+  {
+    "category": "2nd Item",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": 5.0908,
+    "sample_size": 150
+  },
+  {
+    "category": "3rd Item",
+    "id": 2520,
+    "name": "Bastionbreaker",
+    "wpa": -1.9958,
+    "sample_size": 154
+  }
+]

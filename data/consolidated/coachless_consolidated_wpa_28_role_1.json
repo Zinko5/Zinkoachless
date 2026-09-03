@@ -1,0 +1,506 @@
+[
+  {
+    "category": "Keystone",
+    "id": 8369,
+    "name": "First Strike",
+    "wpa": 2.392,
+    "sample_size": 25715
+  },
+  {
+    "category": "Keystone",
+    "id": 8010,
+    "name": "Conqueror",
+    "wpa": -0.2176,
+    "sample_size": 15176
+  },
+  {
+    "category": "Keystone",
+    "id": 8128,
+    "name": "Dark Harvest",
+    "wpa": -2.1956,
+    "sample_size": 86276
+  },
+  {
+    "category": "Keystone",
+    "id": 8112,
+    "name": "Electrocute",
+    "wpa": 0.1648,
+    "sample_size": 936390
+  },
+  {
+    "category": "Spell",
+    "id": 4,
+    "name": "Flash",
+    "wpa": 0.0209,
+    "sample_size": 1060808
+  },
+  {
+    "category": "Spell",
+    "id": 6,
+    "name": "Ghost",
+    "wpa": -1.7143,
+    "sample_size": 9008
+  },
+  {
+    "category": "Spell",
+    "id": 11,
+    "name": "Smite",
+    "wpa": 0.0,
+    "sample_size": 1070869
+  },
+  {
+    "category": "Starter",
+    "id": 1101,
+    "name": "Scorchclaw Pup",
+    "wpa": -0.4763,
+    "sample_size": 122280
+  },
+  {
+    "category": "Starter",
+    "id": 1102,
+    "name": "Gustwalker Hatchling",
+    "wpa": -0.1156,
+    "sample_size": 879898
+  },
+  {
+    "category": "Starter",
+    "id": 1103,
+    "name": "Mosstomper Seedling",
+    "wpa": 2.3607,
+    "sample_size": 67763
+  },
+  {
+    "category": "Boots",
+    "id": 3009,
+    "name": "Boots of Swiftness",
+    "wpa": -1.2167,
+    "sample_size": 7101
+  },
+  {
+    "category": "Boots",
+    "id": 3020,
+    "name": "Sorcerer's Shoes",
+    "wpa": 0.1548,
+    "sample_size": 998277
+  },
+  {
+    "category": "Boots",
+    "id": 3111,
+    "name": "Mercury's Treads",
+    "wpa": 0.4393,
+    "sample_size": 4059
+  },
+  {
+    "category": "1st Item",
+    "id": 2510,
+    "name": "Dusk and Dawn",
+    "wpa": -8.9187,
+    "sample_size": 251
+  },
+  {
+    "category": "1st Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": 0.9123,
+    "sample_size": 36151
+  },
+  {
+    "category": "1st Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": -1.476,
+    "sample_size": 3790
+  },
+  {
+    "category": "1st Item",
+    "id": 3100,
+    "name": "Lich Bane",
+    "wpa": 0.2191,
+    "sample_size": 879048
+  },
+  {
+    "category": "1st Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": -0.9469,
+    "sample_size": 21494
+  },
+  {
+    "category": "1st Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -2.4993,
+    "sample_size": 11924
+  },
+  {
+    "category": "1st Item",
+    "id": 4646,
+    "name": "Stormsurge",
+    "wpa": -1.6322,
+    "sample_size": 96239
+  },
+  {
+    "category": "2nd Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": 0.3351,
+    "sample_size": 195216
+  },
+  {
+    "category": "2nd Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": 0.1909,
+    "sample_size": 422481
+  },
+  {
+    "category": "2nd Item",
+    "id": 3100,
+    "name": "Lich Bane",
+    "wpa": 0.7564,
+    "sample_size": 66573
+  },
+  {
+    "category": "2nd Item",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 0.5892,
+    "sample_size": 12209
+  },
+  {
+    "category": "2nd Item",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": -0.9711,
+    "sample_size": 10845
+  },
+  {
+    "category": "2nd Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": -0.4802,
+    "sample_size": 15031
+  },
+  {
+    "category": "2nd Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -0.7219,
+    "sample_size": 5776
+  },
+  {
+    "category": "2nd Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.8059,
+    "sample_size": 190610
+  },
+  {
+    "category": "2nd Item",
+    "id": 4646,
+    "name": "Stormsurge",
+    "wpa": -0.4004,
+    "sample_size": 44878
+  },
+  {
+    "category": "3rd Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": -0.201,
+    "sample_size": 81676
+  },
+  {
+    "category": "3rd Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": 0.2824,
+    "sample_size": 241228
+  },
+  {
+    "category": "3rd Item",
+    "id": 3100,
+    "name": "Lich Bane",
+    "wpa": 0.0488,
+    "sample_size": 12441
+  },
+  {
+    "category": "3rd Item",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 0.8746,
+    "sample_size": 50454
+  },
+  {
+    "category": "3rd Item",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": 0.0924,
+    "sample_size": 142088
+  },
+  {
+    "category": "3rd Item",
+    "id": 3137,
+    "name": "Cryptbloom",
+    "wpa": -1.3137,
+    "sample_size": 3038
+  },
+  {
+    "category": "3rd Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": -0.3653,
+    "sample_size": 8559
+  },
+  {
+    "category": "3rd Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.3373,
+    "sample_size": 20857
+  },
+  {
+    "category": "3rd Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.4851,
+    "sample_size": 150039
+  },
+  {
+    "category": "3rd Item",
+    "id": 4646,
+    "name": "Stormsurge",
+    "wpa": 0.3212,
+    "sample_size": 19076
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": -0.2374,
+    "sample_size": 55012
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": -0.1552,
+    "sample_size": 66091
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3100,
+    "name": "Lich Bane",
+    "wpa": -0.4567,
+    "sample_size": 3620
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 0.2735,
+    "sample_size": 131529
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": 0.269,
+    "sample_size": 159517
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3137,
+    "name": "Cryptbloom",
+    "wpa": -0.9781,
+    "sample_size": 3542
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": -0.8171,
+    "sample_size": 9563
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.0524,
+    "sample_size": 34937
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": -0.0096,
+    "sample_size": 2606
+  },
+  {
+    "category": "4th+ Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.0052,
+    "sample_size": 88415
+  },
+  {
+    "category": "4th+ Item",
+    "id": 4646,
+    "name": "Stormsurge",
+    "wpa": 0.0779,
+    "sample_size": 18790
+  },
+  {
+    "category": "All Items",
+    "id": 4646,
+    "name": "Stormsurge",
+    "wpa": -0.933,
+    "sample_size": 180353
+  },
+  {
+    "category": "All Items",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.5794,
+    "sample_size": 442520
+  },
+  {
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -3.3377,
+    "sample_size": 344
+  },
+  {
+    "category": "All Items",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": 0.148,
+    "sample_size": 314166
+  },
+  {
+    "category": "All Items",
+    "id": 3100,
+    "name": "Lich Bane",
+    "wpa": 0.2514,
+    "sample_size": 962023
+  },
+  {
+    "category": "All Items",
+    "id": 3146,
+    "name": "Hextech Gunblade",
+    "wpa": -0.847,
+    "sample_size": 863
+  },
+  {
+    "category": "All Items",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": 0.1868,
+    "sample_size": 368134
+  },
+  {
+    "category": "All Items",
+    "id": 6655,
+    "name": "Luden's Echo",
+    "wpa": -2.8947,
+    "sample_size": 595
+  },
+  {
+    "category": "All Items",
+    "id": 3137,
+    "name": "Cryptbloom",
+    "wpa": -0.8704,
+    "sample_size": 7281
+  },
+  {
+    "category": "All Items",
+    "id": 2510,
+    "name": "Dusk and Dawn",
+    "wpa": -6.2687,
+    "sample_size": 312
+  },
+  {
+    "category": "All Items",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": -1.0223,
+    "sample_size": 4385
+  },
+  {
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.1012,
+    "sample_size": 62933
+  },
+  {
+    "category": "All Items",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": 0.1809,
+    "sample_size": 734147
+  },
+  {
+    "category": "All Items",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": -0.6986,
+    "sample_size": 55158
+  },
+  {
+    "category": "All Items",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 0.4446,
+    "sample_size": 196326
+  },
+  {
+    "category": "Keystone",
+    "id": 8230,
+    "name": "Stormraider's Surge",
+    "wpa": 0.7204,
+    "sample_size": 3947
+  },
+  {
+    "category": "Keystone",
+    "id": 8992,
+    "name": "Deathfire Touch",
+    "wpa": -5.0839,
+    "sample_size": 104
+  },
+  {
+    "category": "Boots",
+    "id": 3008,
+    "name": "Gluttonous Greaves",
+    "wpa": -9.5505,
+    "sample_size": 110
+  },
+  {
+    "category": "Boots",
+    "id": 3158,
+    "name": "Ionian Boots of Lucidity",
+    "wpa": -2.5304,
+    "sample_size": 550
+  },
+  {
+    "category": "All Items",
+    "id": 4629,
+    "name": "Cosmic Drive",
+    "wpa": -1.4888,
+    "sample_size": 210
+  },
+  {
+    "category": "Spell",
+    "id": 14,
+    "name": "Ignite",
+    "wpa": -5.1419,
+    "sample_size": 122
+  },
+  {
+    "category": "3rd Item",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": -2.0138,
+    "sample_size": 104
+  }
+]

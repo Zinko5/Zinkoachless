@@ -1,0 +1,632 @@
+[
+  {
+    "category": "Keystone",
+    "id": 8369,
+    "name": "First Strike",
+    "wpa": -1.5031,
+    "sample_size": 422
+  },
+  {
+    "category": "Keystone",
+    "id": 8229,
+    "name": "Arcane Comet",
+    "wpa": 0.2805,
+    "sample_size": 142513
+  },
+  {
+    "category": "Keystone",
+    "id": 8128,
+    "name": "Dark Harvest",
+    "wpa": -1.817,
+    "sample_size": 29561
+  },
+  {
+    "category": "Spell",
+    "id": 3,
+    "name": "Exhaust",
+    "wpa": 0.5518,
+    "sample_size": 35845
+  },
+  {
+    "category": "Spell",
+    "id": 4,
+    "name": "Flash",
+    "wpa": 0.0023,
+    "sample_size": 654884
+  },
+  {
+    "category": "Spell",
+    "id": 6,
+    "name": "Ghost",
+    "wpa": 0.8927,
+    "sample_size": 80396
+  },
+  {
+    "category": "Spell",
+    "id": 7,
+    "name": "Heal",
+    "wpa": 1.0558,
+    "sample_size": 6856
+  },
+  {
+    "category": "Spell",
+    "id": 12,
+    "name": "Teleport",
+    "wpa": -0.2401,
+    "sample_size": 317684
+  },
+  {
+    "category": "Spell",
+    "id": 14,
+    "name": "Ignite",
+    "wpa": -1.3826,
+    "sample_size": 56688
+  },
+  {
+    "category": "Spell",
+    "id": 21,
+    "name": "Barrier",
+    "wpa": 0.2507,
+    "sample_size": 149229
+  },
+  {
+    "category": "Starter",
+    "id": 1056,
+    "name": "Doran's Ring",
+    "wpa": 0.0221,
+    "sample_size": 649454
+  },
+  {
+    "category": "Boots",
+    "id": 3009,
+    "name": "Boots of Swiftness",
+    "wpa": 0.9564,
+    "sample_size": 16305
+  },
+  {
+    "category": "Boots",
+    "id": 3020,
+    "name": "Sorcerer's Shoes",
+    "wpa": -0.0593,
+    "sample_size": 550662
+  },
+  {
+    "category": "Boots",
+    "id": 3158,
+    "name": "Ionian Boots of Lucidity",
+    "wpa": 0.2823,
+    "sample_size": 30024
+  },
+  {
+    "category": "1st Item",
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "wpa": -0.0647,
+    "sample_size": 468928
+  },
+  {
+    "category": "1st Item",
+    "id": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "wpa": 0.5899,
+    "sample_size": 104542
+  },
+  {
+    "category": "1st Item",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": -0.1837,
+    "sample_size": 71983
+  },
+  {
+    "category": "2nd Item",
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "wpa": -0.2196,
+    "sample_size": 40825
+  },
+  {
+    "category": "2nd Item",
+    "id": 2526,
+    "name": "Whispering Circlet",
+    "wpa": -0.2564,
+    "sample_size": 129
+  },
+  {
+    "category": "2nd Item",
+    "id": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "wpa": 0.1667,
+    "sample_size": 327717
+  },
+  {
+    "category": "2nd Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -2.8739,
+    "sample_size": 9530
+  },
+  {
+    "category": "2nd Item",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": 0.0887,
+    "sample_size": 219933
+  },
+  {
+    "category": "3rd Item",
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "wpa": 0.1704,
+    "sample_size": 14676
+  },
+  {
+    "category": "3rd Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": -2.5438,
+    "sample_size": 9129
+  },
+  {
+    "category": "3rd Item",
+    "id": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "wpa": 0.6319,
+    "sample_size": 94984
+  },
+  {
+    "category": "3rd Item",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": -0.3314,
+    "sample_size": 6613
+  },
+  {
+    "category": "3rd Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -1.2104,
+    "sample_size": 43422
+  },
+  {
+    "category": "3rd Item",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": -2.2997,
+    "sample_size": 5242
+  },
+  {
+    "category": "3rd Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.952,
+    "sample_size": 71108
+  },
+  {
+    "category": "3rd Item",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": 0.4814,
+    "sample_size": 211342
+  },
+  {
+    "category": "3rd Item",
+    "id": 8010,
+    "name": "Bloodletter's Curse",
+    "wpa": 0.1907,
+    "sample_size": 25824
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "wpa": -0.4315,
+    "sample_size": 3302
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": -0.1304,
+    "sample_size": 7161
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": -0.9417,
+    "sample_size": 42181
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 0.8539,
+    "sample_size": 7573
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "wpa": 0.0629,
+    "sample_size": 12523
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": 0.5189,
+    "sample_size": 20359
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3137,
+    "name": "Cryptbloom",
+    "wpa": 0.088,
+    "sample_size": 4573
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -0.5168,
+    "sample_size": 86503
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": 0.1233,
+    "sample_size": 20726
+  },
+  {
+    "category": "4th+ Item",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.0694,
+    "sample_size": 81928
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": 0.0196,
+    "sample_size": 11901
+  },
+  {
+    "category": "4th+ Item",
+    "id": 8010,
+    "name": "Bloodletter's Curse",
+    "wpa": 1.3001,
+    "sample_size": 55854
+  },
+  {
+    "category": "All Items",
+    "id": 2503,
+    "name": "Blackfire Torch",
+    "wpa": -0.0722,
+    "sample_size": 527864
+  },
+  {
+    "category": "All Items",
+    "id": 2526,
+    "name": "Whispering Circlet",
+    "wpa": -2.2818,
+    "sample_size": 241
+  },
+  {
+    "category": "All Items",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": -0.6385,
+    "sample_size": 12988
+  },
+  {
+    "category": "All Items",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": -1.28,
+    "sample_size": 52986
+  },
+  {
+    "category": "All Items",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 0.8094,
+    "sample_size": 9993
+  },
+  {
+    "category": "All Items",
+    "id": 3116,
+    "name": "Rylai's Crystal Scepter",
+    "wpa": 0.328,
+    "sample_size": 539816
+  },
+  {
+    "category": "All Items",
+    "id": 3118,
+    "name": "Malignance",
+    "wpa": -2.5048,
+    "sample_size": 7104
+  },
+  {
+    "category": "All Items",
+    "id": 3135,
+    "name": "Void Staff",
+    "wpa": 0.237,
+    "sample_size": 27856
+  },
+  {
+    "category": "All Items",
+    "id": 3137,
+    "name": "Cryptbloom",
+    "wpa": -0.1311,
+    "sample_size": 6339
+  },
+  {
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -0.7979,
+    "sample_size": 134904
+  },
+  {
+    "category": "All Items",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": -0.4626,
+    "sample_size": 27442
+  },
+  {
+    "category": "All Items",
+    "id": 4645,
+    "name": "Shadowflame",
+    "wpa": -0.6259,
+    "sample_size": 163042
+  },
+  {
+    "category": "All Items",
+    "id": 6620,
+    "name": "Echoes of Helia",
+    "wpa": -2.2126,
+    "sample_size": 236
+  },
+  {
+    "category": "All Items",
+    "id": 6653,
+    "name": "Liandry's Torment",
+    "wpa": 0.2099,
+    "sample_size": 515190
+  },
+  {
+    "category": "All Items",
+    "id": 6655,
+    "name": "Luden's Echo",
+    "wpa": -3.4352,
+    "sample_size": 507
+  },
+  {
+    "category": "All Items",
+    "id": 8010,
+    "name": "Bloodletter's Curse",
+    "wpa": 0.8558,
+    "sample_size": 84985
+  },
+  {
+    "category": "Spell",
+    "id": 1,
+    "name": "Cleanse",
+    "wpa": 1.9153,
+    "sample_size": 8167
+  },
+  {
+    "category": "Boots",
+    "id": 3047,
+    "name": "Plated Steelcaps",
+    "wpa": 1.5818,
+    "sample_size": 7094
+  },
+  {
+    "category": "Boots",
+    "id": 3111,
+    "name": "Mercury's Treads",
+    "wpa": 1.0349,
+    "sample_size": 6249
+  },
+  {
+    "category": "2nd Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -2.4401,
+    "sample_size": 4254
+  },
+  {
+    "category": "2nd Item",
+    "id": 8010,
+    "name": "Bloodletter's Curse",
+    "wpa": -1.4691,
+    "sample_size": 2744
+  },
+  {
+    "category": "3rd Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": -0.9603,
+    "sample_size": 3575
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3118,
+    "name": "Malignance",
+    "wpa": -1.9352,
+    "sample_size": 2429
+  },
+  {
+    "category": "All Items",
+    "id": 3003,
+    "name": "Archangel's Staff",
+    "wpa": -0.2296,
+    "sample_size": 1312
+  },
+  {
+    "category": "Starter",
+    "id": 3070,
+    "name": "Tear of the Goddess",
+    "wpa": -4.2023,
+    "sample_size": 1489
+  },
+  {
+    "category": "3rd Item",
+    "id": 3102,
+    "name": "Banshee's Veil",
+    "wpa": 1.3826,
+    "sample_size": 1260
+  },
+  {
+    "category": "Keystone",
+    "id": 8112,
+    "name": "Electrocute",
+    "wpa": -1.0948,
+    "sample_size": 531
+  },
+  {
+    "category": "3rd Item",
+    "id": 3137,
+    "name": "Cryptbloom",
+    "wpa": -0.9682,
+    "sample_size": 953
+  },
+  {
+    "category": "Starter",
+    "id": 1082,
+    "name": "Dark Seal",
+    "wpa": -1.6304,
+    "sample_size": 841
+  },
+  {
+    "category": "Keystone",
+    "id": 8230,
+    "name": "Stormraider's Surge",
+    "wpa": -3.2808,
+    "sample_size": 386
+  },
+  {
+    "category": "Keystone",
+    "id": 8992,
+    "name": "Deathfire Touch",
+    "wpa": 0.0716,
+    "sample_size": 477124
+  },
+  {
+    "category": "Boots",
+    "id": 3008,
+    "name": "Gluttonous Greaves",
+    "wpa": 0.5713,
+    "sample_size": 9375
+  },
+  {
+    "category": "2nd Item",
+    "id": 3041,
+    "name": "Mejai's Soulstealer",
+    "wpa": -2.101,
+    "sample_size": 1094
+  },
+  {
+    "category": "2nd Item",
+    "id": 3118,
+    "name": "Malignance",
+    "wpa": -1.5079,
+    "sample_size": 592
+  },
+  {
+    "category": "3rd Item",
+    "id": 3118,
+    "name": "Malignance",
+    "wpa": -3.5468,
+    "sample_size": 1183
+  },
+  {
+    "category": "4th+ Item",
+    "id": 4633,
+    "name": "Riftmaker",
+    "wpa": 4.7932,
+    "sample_size": 104
+  },
+  {
+    "category": "All Items",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": 0.767,
+    "sample_size": 1821
+  },
+  {
+    "category": "All Items",
+    "id": 4629,
+    "name": "Cosmic Drive",
+    "wpa": 0.5478,
+    "sample_size": 328
+  },
+  {
+    "category": "All Items",
+    "id": 4633,
+    "name": "Riftmaker",
+    "wpa": -0.1241,
+    "sample_size": 595
+  },
+  {
+    "category": "All Items",
+    "id": 4646,
+    "name": "Stormsurge",
+    "wpa": -0.5665,
+    "sample_size": 798
+  },
+  {
+    "category": "1st Item",
+    "id": 3118,
+    "name": "Malignance",
+    "wpa": -3.2064,
+    "sample_size": 583
+  },
+  {
+    "category": "2nd Item",
+    "id": 3165,
+    "name": "Morellonomicon",
+    "wpa": -3.4078,
+    "sample_size": 401
+  },
+  {
+    "category": "3rd Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": 1.582,
+    "sample_size": 487
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": -0.6806,
+    "sample_size": 355
+  },
+  {
+    "category": "2nd Item",
+    "id": 3003,
+    "name": "Archangel's Staff",
+    "wpa": -0.7021,
+    "sample_size": 108
+  },
+  {
+    "category": "2nd Item",
+    "id": 3089,
+    "name": "Rabadon's Deathcap",
+    "wpa": -3.4991,
+    "sample_size": 126
+  },
+  {
+    "category": "2nd Item",
+    "id": 3152,
+    "name": "Hextech Rocketbelt",
+    "wpa": 3.6448,
+    "sample_size": 123
+  }
+]

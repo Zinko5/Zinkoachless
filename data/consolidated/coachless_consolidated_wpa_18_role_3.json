@@ -1,0 +1,968 @@
+[
+  {
+    "category": "Keystone",
+    "id": 9923,
+    "name": "Hail of Blades",
+    "wpa": -1.9142,
+    "sample_size": 25620
+  },
+  {
+    "category": "Keystone",
+    "id": 8021,
+    "name": "Fleet Footwork",
+    "wpa": -4.0334,
+    "sample_size": 1737
+  },
+  {
+    "category": "Keystone",
+    "id": 8005,
+    "name": "Press the Attack",
+    "wpa": -1.231,
+    "sample_size": 202453
+  },
+  {
+    "category": "Keystone",
+    "id": 8008,
+    "name": "Lethal Tempo",
+    "wpa": 0.1808,
+    "sample_size": 2009784
+  },
+  {
+    "category": "Spell",
+    "id": 1,
+    "name": "Cleanse",
+    "wpa": 0.4144,
+    "sample_size": 118259
+  },
+  {
+    "category": "Spell",
+    "id": 3,
+    "name": "Exhaust",
+    "wpa": -0.2419,
+    "sample_size": 109702
+  },
+  {
+    "category": "Spell",
+    "id": 4,
+    "name": "Flash",
+    "wpa": -0.0,
+    "sample_size": 2244254
+  },
+  {
+    "category": "Spell",
+    "id": 6,
+    "name": "Ghost",
+    "wpa": -0.9301,
+    "sample_size": 5264
+  },
+  {
+    "category": "Spell",
+    "id": 7,
+    "name": "Heal",
+    "wpa": -4.7896,
+    "sample_size": 14433
+  },
+  {
+    "category": "Spell",
+    "id": 12,
+    "name": "Teleport",
+    "wpa": -1.613,
+    "sample_size": 4407
+  },
+  {
+    "category": "Spell",
+    "id": 14,
+    "name": "Ignite",
+    "wpa": -3.6193,
+    "sample_size": 7693
+  },
+  {
+    "category": "Spell",
+    "id": 21,
+    "name": "Barrier",
+    "wpa": 0.0436,
+    "sample_size": 1986530
+  },
+  {
+    "category": "Starter",
+    "id": 1036,
+    "name": "Long Sword",
+    "wpa": -3.7938,
+    "sample_size": 3154
+  },
+  {
+    "category": "Starter",
+    "id": 1055,
+    "name": "Doran's Blade",
+    "wpa": -0.0715,
+    "sample_size": 1227196
+  },
+  {
+    "category": "Starter",
+    "id": 1083,
+    "name": "Cull",
+    "wpa": -3.3973,
+    "sample_size": 5165
+  },
+  {
+    "category": "Boots",
+    "id": 3006,
+    "name": "Berserker's Greaves",
+    "wpa": -0.3307,
+    "sample_size": 1819280
+  },
+  {
+    "category": "Boots",
+    "id": 3009,
+    "name": "Boots of Swiftness",
+    "wpa": -1.0039,
+    "sample_size": 3477
+  },
+  {
+    "category": "Boots",
+    "id": 3047,
+    "name": "Plated Steelcaps",
+    "wpa": 1.1828,
+    "sample_size": 122628
+  },
+  {
+    "category": "Boots",
+    "id": 3111,
+    "name": "Mercury's Treads",
+    "wpa": 0.206,
+    "sample_size": 35494
+  },
+  {
+    "category": "1st Item",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.5884,
+    "sample_size": 474830
+  },
+  {
+    "category": "1st Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.8726,
+    "sample_size": 12037
+  },
+  {
+    "category": "1st Item",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -0.0129,
+    "sample_size": 755061
+  },
+  {
+    "category": "1st Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 1.4937,
+    "sample_size": 16936
+  },
+  {
+    "category": "1st Item",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": 7.1303,
+    "sample_size": 132
+  },
+  {
+    "category": "1st Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -0.9445,
+    "sample_size": 60596
+  },
+  {
+    "category": "1st Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.2122,
+    "sample_size": 876874
+  },
+  {
+    "category": "2nd Item",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -5.4478,
+    "sample_size": 130
+  },
+  {
+    "category": "2nd Item",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.6958,
+    "sample_size": 27916
+  },
+  {
+    "category": "2nd Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.5353,
+    "sample_size": 1151284
+  },
+  {
+    "category": "2nd Item",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -1.7987,
+    "sample_size": 17265
+  },
+  {
+    "category": "2nd Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0391,
+    "sample_size": 7405
+  },
+  {
+    "category": "2nd Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": -0.0893,
+    "sample_size": 13369
+  },
+  {
+    "category": "2nd Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 1.2035,
+    "sample_size": 12094
+  },
+  {
+    "category": "2nd Item",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.4193,
+    "sample_size": 2494
+  },
+  {
+    "category": "2nd Item",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -5.6426,
+    "sample_size": 7016
+  },
+  {
+    "category": "2nd Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.5551,
+    "sample_size": 2784
+  },
+  {
+    "category": "2nd Item",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.0829,
+    "sample_size": 2589
+  },
+  {
+    "category": "2nd Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -2.8233,
+    "sample_size": 8628
+  },
+  {
+    "category": "2nd Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.6272,
+    "sample_size": 768207
+  },
+  {
+    "category": "2nd Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.2162,
+    "sample_size": 34692
+  },
+  {
+    "category": "3rd Item",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -2.5816,
+    "sample_size": 115
+  },
+  {
+    "category": "3rd Item",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -0.0479,
+    "sample_size": 31114
+  },
+  {
+    "category": "3rd Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.1619,
+    "sample_size": 581056
+  },
+  {
+    "category": "3rd Item",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -1.7064,
+    "sample_size": 4808
+  },
+  {
+    "category": "3rd Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.559,
+    "sample_size": 67146
+  },
+  {
+    "category": "3rd Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.7231,
+    "sample_size": 154107
+  },
+  {
+    "category": "3rd Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 1.2922,
+    "sample_size": 11033
+  },
+  {
+    "category": "3rd Item",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.2906,
+    "sample_size": 13517
+  },
+  {
+    "category": "3rd Item",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -3.2775,
+    "sample_size": 10029
+  },
+  {
+    "category": "3rd Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -4.0296,
+    "sample_size": 853
+  },
+  {
+    "category": "3rd Item",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.7084,
+    "sample_size": 4057
+  },
+  {
+    "category": "3rd Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.904,
+    "sample_size": 3885
+  },
+  {
+    "category": "3rd Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -3.5219,
+    "sample_size": 5005
+  },
+  {
+    "category": "3rd Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -0.5089,
+    "sample_size": 6229
+  },
+  {
+    "category": "3rd Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.137,
+    "sample_size": 806021
+  },
+  {
+    "category": "3rd Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -1.9145,
+    "sample_size": 9475
+  },
+  {
+    "category": "3rd Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.7885,
+    "sample_size": 2139
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.3886,
+    "sample_size": 4410
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -7.1038,
+    "sample_size": 127
+  },
+  {
+    "category": "4th+ Item",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": -1.0686,
+    "sample_size": 56462
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.0737,
+    "sample_size": 207570
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": -0.2713,
+    "sample_size": 70175
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -3.9417,
+    "sample_size": 5248
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.0507,
+    "sample_size": 206759
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.4357,
+    "sample_size": 557759
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": -0.4243,
+    "sample_size": 5813
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.0063,
+    "sample_size": 313305
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -2.2144,
+    "sample_size": 3946
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -4.254,
+    "sample_size": 17170
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": -1.6457,
+    "sample_size": 2167
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.2816,
+    "sample_size": 55835
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.681,
+    "sample_size": 10801
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -1.1438,
+    "sample_size": 25558
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.6535,
+    "sample_size": 45234
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 1.729,
+    "sample_size": 3526
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -3.7185,
+    "sample_size": 3817
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -3.1006,
+    "sample_size": 13686
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -1.5042,
+    "sample_size": 32535
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.2723,
+    "sample_size": 89207
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -2.7528,
+    "sample_size": 13710
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.3746,
+    "sample_size": 7357
+  },
+  {
+    "category": "All Items",
+    "id": 2504,
+    "name": "Kaenic Rookern",
+    "wpa": -0.51,
+    "sample_size": 5091
+  },
+  {
+    "category": "All Items",
+    "id": 2512,
+    "name": "Fiendhunter Bolts",
+    "wpa": -3.9089,
+    "sample_size": 1281
+  },
+  {
+    "category": "All Items",
+    "id": 2523,
+    "name": "Hexoptics C44",
+    "wpa": 0.3985,
+    "sample_size": 594497
+  },
+  {
+    "category": "All Items",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": 1.0762,
+    "sample_size": 221155
+  },
+  {
+    "category": "All Items",
+    "id": 3031,
+    "name": "Infinity Edge",
+    "wpa": 0.3754,
+    "sample_size": 1814941
+  },
+  {
+    "category": "All Items",
+    "id": 3032,
+    "name": "Yun Tal Wildarrows",
+    "wpa": -0.0893,
+    "sample_size": 783253
+  },
+  {
+    "category": "All Items",
+    "id": 3033,
+    "name": "Mortal Reminder",
+    "wpa": 0.1658,
+    "sample_size": 282754
+  },
+  {
+    "category": "All Items",
+    "id": 3036,
+    "name": "Lord Dominik's Regards",
+    "wpa": 0.491,
+    "sample_size": 727966
+  },
+  {
+    "category": "All Items",
+    "id": 3046,
+    "name": "Phantom Dancer",
+    "wpa": 0.9243,
+    "sample_size": 29425
+  },
+  {
+    "category": "All Items",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -0.0672,
+    "sample_size": 337401
+  },
+  {
+    "category": "All Items",
+    "id": 3085,
+    "name": "Runaan's Hurricane",
+    "wpa": 1.2,
+    "sample_size": 4899
+  },
+  {
+    "category": "All Items",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -2.3944,
+    "sample_size": 6536
+  },
+  {
+    "category": "All Items",
+    "id": 3094,
+    "name": "Rapid Firecannon",
+    "wpa": -4.2211,
+    "sample_size": 35697
+  },
+  {
+    "category": "All Items",
+    "id": 3097,
+    "name": "Stormrazor",
+    "wpa": 0.3721,
+    "sample_size": 24669
+  },
+  {
+    "category": "All Items",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -0.3941,
+    "sample_size": 60977
+  },
+  {
+    "category": "All Items",
+    "id": 3143,
+    "name": "Randuin's Omen",
+    "wpa": -0.7121,
+    "sample_size": 12862
+  },
+  {
+    "category": "All Items",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -1.4918,
+    "sample_size": 37298
+  },
+  {
+    "category": "All Items",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -0.7568,
+    "sample_size": 53276
+  },
+  {
+    "category": "All Items",
+    "id": 3508,
+    "name": "Essence Reaver",
+    "wpa": -1.2516,
+    "sample_size": 976
+  },
+  {
+    "category": "All Items",
+    "id": 3814,
+    "name": "Edge of Night",
+    "wpa": 0.8343,
+    "sample_size": 5016
+  },
+  {
+    "category": "All Items",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -0.5974,
+    "sample_size": 2544
+  },
+  {
+    "category": "All Items",
+    "id": 6665,
+    "name": "Jak'Sho, The Protean",
+    "wpa": -3.3664,
+    "sample_size": 4690
+  },
+  {
+    "category": "All Items",
+    "id": 6672,
+    "name": "Kraken Slayer",
+    "wpa": -1.6205,
+    "sample_size": 90223
+  },
+  {
+    "category": "All Items",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -1.2443,
+    "sample_size": 42439
+  },
+  {
+    "category": "All Items",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -0.3752,
+    "sample_size": 1666066
+  },
+  {
+    "category": "All Items",
+    "id": 6676,
+    "name": "The Collector",
+    "wpa": -0.3069,
+    "sample_size": 935549
+  },
+  {
+    "category": "All Items",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.7136,
+    "sample_size": 13874
+  },
+  {
+    "category": "1st Item",
+    "id": 3153,
+    "name": "Blade of The Ruined King",
+    "wpa": -2.0404,
+    "sample_size": 2108
+  },
+  {
+    "category": "3rd Item",
+    "id": 3026,
+    "name": "Guardian Angel",
+    "wpa": -1.4737,
+    "sample_size": 1953
+  },
+  {
+    "category": "Starter",
+    "id": 1054,
+    "name": "Doran's Shield",
+    "wpa": -6.1983,
+    "sample_size": 529
+  },
+  {
+    "category": "1st Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -2.7882,
+    "sample_size": 1498
+  },
+  {
+    "category": "1st Item",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.3495,
+    "sample_size": 4666
+  },
+  {
+    "category": "2nd Item",
+    "id": 6695,
+    "name": "Serpent's Fang",
+    "wpa": -1.7101,
+    "sample_size": 1314
+  },
+  {
+    "category": "All Items",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -5.5621,
+    "sample_size": 2125
+  },
+  {
+    "category": "All Items",
+    "id": 6697,
+    "name": "Hubris",
+    "wpa": -1.5147,
+    "sample_size": 5876
+  },
+  {
+    "category": "1st Item",
+    "id": 6675,
+    "name": "Navori Flickerblade",
+    "wpa": -4.3295,
+    "sample_size": 1600
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3085,
+    "name": "Runaan's Hurricane",
+    "wpa": 1.2096,
+    "sample_size": 989
+  },
+  {
+    "category": "4th+ Item",
+    "id": 6333,
+    "name": "Death's Dance",
+    "wpa": -1.9266,
+    "sample_size": 1319
+  },
+  {
+    "category": "Starter",
+    "id": 1086,
+    "name": "Doran's Bow",
+    "wpa": 0.1342,
+    "sample_size": 1000609
+  },
+  {
+    "category": "Boots",
+    "id": 3008,
+    "name": "Gluttonous Greaves",
+    "wpa": 1.5102,
+    "sample_size": 172191
+  },
+  {
+    "category": "1st Item",
+    "id": 3087,
+    "name": "Statikk Shiv",
+    "wpa": -5.122,
+    "sample_size": 158
+  },
+  {
+    "category": "All Items",
+    "id": 3087,
+    "name": "Statikk Shiv",
+    "wpa": -3.5622,
+    "sample_size": 617
+  },
+  {
+    "category": "2nd Item",
+    "id": 6673,
+    "name": "Immortal Shieldbow",
+    "wpa": -2.5032,
+    "sample_size": 742
+  },
+  {
+    "category": "3rd Item",
+    "id": 3139,
+    "name": "Mercurial Scimitar",
+    "wpa": -3.039,
+    "sample_size": 989
+  },
+  {
+    "category": "Keystone",
+    "id": 8010,
+    "name": "Conqueror",
+    "wpa": -8.291,
+    "sample_size": 274
+  },
+  {
+    "category": "Keystone",
+    "id": 8992,
+    "name": "Deathfire Touch",
+    "wpa": -12.9888,
+    "sample_size": 227
+  },
+  {
+    "category": "Keystone",
+    "id": 8128,
+    "name": "Dark Harvest",
+    "wpa": -1.0841,
+    "sample_size": 129
+  },
+  {
+    "category": "Starter",
+    "id": 1120,
+    "name": "Doran's Helm",
+    "wpa": -1.3424,
+    "sample_size": 4486
+  },
+  {
+    "category": "1st Item",
+    "id": 3072,
+    "name": "Bloodthirster",
+    "wpa": -1.0946,
+    "sample_size": 644
+  },
+  {
+    "category": "3rd Item",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -3.0802,
+    "sample_size": 560
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -1.5514,
+    "sample_size": 585
+  },
+  {
+    "category": "4th+ Item",
+    "id": 3157,
+    "name": "Zhonya's Hourglass",
+    "wpa": -4.7526,
+    "sample_size": 750
+  },
+  {
+    "category": "All Items",
+    "id": 3065,
+    "name": "Spirit Visage",
+    "wpa": -2.0194,
+    "sample_size": 683
+  },
+  {
+    "category": "2nd Item",
+    "id": 3091,
+    "name": "Wit's End",
+    "wpa": -0.0844,
+    "sample_size": 212
+  },
+  {
+    "category": "2nd Item",
+    "id": 3156,
+    "name": "Maw of Malmortius",
+    "wpa": -5.1643,
+    "sample_size": 397
+  },
+  {
+    "category": "3rd Item",
+    "id": 3085,
+    "name": "Runaan's Hurricane",
+    "wpa": 3.0005,
+    "sample_size": 630
+  },
+  {
+    "category": "2nd Item",
+    "id": 3085,
+    "name": "Runaan's Hurricane",
+    "wpa": 3.7571,
+    "sample_size": 749
+  }
+]

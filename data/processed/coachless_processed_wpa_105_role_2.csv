@@ -1,0 +1,1799 @@
+﻿patch,category,id,name,wpa,sample_size
+16.1,Keystone,8369,First Strike,3.1089,104
+16.1,Keystone,8010,Conqueror,1.1911,165
+16.1,Keystone,9923,Hail of Blades,-3.4177,153
+16.1,Keystone,8005,Press the Attack,-1.5338,901
+16.1,Keystone,8437,Grasp of the Undying,2.4436,140
+16.1,Keystone,8128,Dark Harvest,-1.0438,2548
+16.1,Keystone,8112,Electrocute,0.0481,97256
+16.1,Spell,4,Flash,0.0113,101314
+16.1,Spell,12,Teleport,-3.7339,3257
+16.1,Spell,14,Ignite,0.1389,98187
+16.1,Spell,21,Barrier,-12.468,112
+16.1,Starter,1054,Doran's Shield,0.5262,476
+16.1,Starter,1056,Doran's Ring,0.0738,96217
+16.1,Starter,1082,Dark Seal,-1.7825,4126
+16.1,Boots,3009,Boots of Swiftness,6.1958,149
+16.1,Boots,3020,Sorcerer's Shoes,0.0654,66050
+16.1,Boots,3047,Plated Steelcaps,4.4808,765
+16.1,Boots,3111,Mercury's Treads,1.2117,2560
+16.1,Boots,3158,Ionian Boots of Lucidity,0.7297,27918
+16.1,1st Item,2503,Blackfire Torch,-1.7651,3562
+16.1,1st Item,2510,Dusk and Dawn,1.2063,4434
+16.1,1st Item,3041,Mejai's Soulstealer,-0.111,235
+16.1,1st Item,3100,Lich Bane,0.6041,54940
+16.1,1st Item,3115,Nashor's Tooth,-1.6519,105
+16.1,1st Item,3146,Hextech Gunblade,-1.3175,1209
+16.1,1st Item,3152,Hextech Rocketbelt,1.7201,1121
+16.1,1st Item,3157,Zhonya's Hourglass,-1.3006,421
+16.1,1st Item,4645,Shadowflame,-0.9384,144
+16.1,1st Item,4646,Stormsurge,1.7634,2494
+16.1,1st Item,6653,Liandry's Torment,-2.1009,289
+16.1,1st Item,6655,Luden's Echo,-1.2494,29031
+16.1,1st Item,6657,Rod of Ages,3.0571,104
+16.1,2nd Item,2503,Blackfire Torch,3.6528,332
+16.1,2nd Item,2510,Dusk and Dawn,0.2786,1027
+16.1,2nd Item,3041,Mejai's Soulstealer,1.3671,4699
+16.1,2nd Item,3089,Rabadon's Deathcap,0.5323,2776
+16.1,2nd Item,3100,Lich Bane,-0.2525,20028
+16.1,2nd Item,3102,Banshee's Veil,-2.8089,266
+16.1,2nd Item,3115,Nashor's Tooth,0.7555,544
+16.1,2nd Item,3135,Void Staff,-1.9482,304
+16.1,2nd Item,3146,Hextech Gunblade,-0.5205,641
+16.1,2nd Item,3152,Hextech Rocketbelt,0.2041,407
+16.1,2nd Item,3157,Zhonya's Hourglass,0.0727,34364
+16.1,2nd Item,3165,Morellonomicon,-2.9279,105
+16.1,2nd Item,4645,Shadowflame,-0.495,16959
+16.1,2nd Item,4646,Stormsurge,1.5125,4007
+16.1,2nd Item,6653,Liandry's Torment,-0.6222,310
+16.1,2nd Item,6655,Luden's Echo,-0.7661,2698
+16.1,2nd Item,8010,Bloodletter's Curse,-2.1924,282
+16.1,3rd Item,2510,Dusk and Dawn,-0.8203,188
+16.1,3rd Item,3041,Mejai's Soulstealer,0.1072,3853
+16.1,3rd Item,3089,Rabadon's Deathcap,0.0792,17613
+16.1,3rd Item,3100,Lich Bane,0.0494,3186
+16.1,3rd Item,3102,Banshee's Veil,0.7585,429
+16.1,3rd Item,3135,Void Staff,-0.7784,1822
+16.1,3rd Item,3137,Cryptbloom,-0.529,537
+16.1,3rd Item,3146,Hextech Gunblade,-2.3158,248
+16.1,3rd Item,3152,Hextech Rocketbelt,-1.4012,222
+16.1,3rd Item,3157,Zhonya's Hourglass,-0.146,22156
+16.1,3rd Item,3165,Morellonomicon,1.5372,243
+16.1,3rd Item,4645,Shadowflame,0.3799,13562
+16.1,3rd Item,4646,Stormsurge,0.2196,1546
+16.1,3rd Item,6653,Liandry's Torment,-1.1257,187
+16.1,3rd Item,6655,Luden's Echo,-1.476,1267
+16.1,3rd Item,8010,Bloodletter's Curse,-0.9056,184
+16.1,4th+ Item,3041,Mejai's Soulstealer,0.4804,2917
+16.1,4th+ Item,3089,Rabadon's Deathcap,-0.2527,12517
+16.1,4th+ Item,3100,Lich Bane,-0.2739,809
+16.1,4th+ Item,3102,Banshee's Veil,1.1908,1265
+16.1,4th+ Item,3135,Void Staff,0.2248,6101
+16.1,4th+ Item,3137,Cryptbloom,0.1079,1157
+16.1,4th+ Item,3146,Hextech Gunblade,-1.4767,140
+16.1,4th+ Item,3152,Hextech Rocketbelt,-1.5913,269
+16.1,4th+ Item,3157,Zhonya's Hourglass,0.4577,6494
+16.1,4th+ Item,3165,Morellonomicon,1.722,434
+16.1,4th+ Item,4629,Cosmic Drive,6.8822,113
+16.1,4th+ Item,4645,Shadowflame,-0.6148,6940
+16.1,4th+ Item,4646,Stormsurge,0.113,3107
+16.1,4th+ Item,6653,Liandry's Torment,-1.595,157
+16.1,4th+ Item,6655,Luden's Echo,0.0409,641
+16.1,4th+ Item,8010,Bloodletter's Curse,5.1722,109
+16.1,All Items,2503,Blackfire Torch,-1.4411,4028
+16.1,All Items,2510,Dusk and Dawn,0.9146,5709
+16.1,All Items,2522,Actualizer,-4.1237,222
+16.1,All Items,3041,Mejai's Soulstealer,0.7016,11705
+16.1,All Items,3089,Rabadon's Deathcap,-0.0153,33005
+16.1,All Items,3100,Lich Bane,0.3565,78983
+16.1,All Items,3102,Banshee's Veil,0.4927,2017
+16.1,All Items,3115,Nashor's Tooth,0.4322,767
+16.1,All Items,3118,Malignance,0.0797,166
+16.1,All Items,3135,Void Staff,-0.0244,8335
+16.1,All Items,3137,Cryptbloom,-0.1458,1769
+16.1,All Items,3146,Hextech Gunblade,-1.2449,2246
+16.1,All Items,3152,Hextech Rocketbelt,0.671,2023
+16.1,All Items,3157,Zhonya's Hourglass,0.027,63493
+16.1,All Items,3165,Morellonomicon,1.3343,803
+16.1,All Items,4629,Cosmic Drive,5.7387,251
+16.1,All Items,4633,Riftmaker,0.5089,239
+16.1,All Items,4645,Shadowflame,-0.2024,37682
+16.1,All Items,4646,Stormsurge,0.9863,11208
+16.1,All Items,6653,Liandry's Torment,-1.3301,948
+16.1,All Items,6655,Luden's Echo,-1.1948,33653
+16.1,All Items,6657,Rod of Ages,2.4772,108
+16.1,All Items,8010,Bloodletter's Curse,-0.1562,589
+16.2,Keystone,8010,Conqueror,-7.1925,222
+16.2,Keystone,9923,Hail of Blades,-4.9289,140
+16.2,Keystone,8005,Press the Attack,-0.9942,1665
+16.2,Keystone,8437,Grasp of the Undying,2.0136,143
+16.2,Keystone,8128,Dark Harvest,-0.8416,2352
+16.2,Keystone,8112,Electrocute,0.0719,92311
+16.2,Spell,3,Exhaust,2.2578,111
+16.2,Spell,4,Flash,0.008,97042
+16.2,Spell,12,Teleport,-4.701,2244
+16.2,Spell,14,Ignite,0.1042,94774
+16.2,Starter,1054,Doran's Shield,0.6943,525
+16.2,Starter,1055,Doran's Blade,-12.0494,105
+16.2,Starter,1056,Doran's Ring,0.0537,92159
+16.2,Starter,1082,Dark Seal,-0.8346,3927
+16.2,Boots,3009,Boots of Swiftness,-1.0711,121
+16.2,Boots,3020,Sorcerer's Shoes,-0.2374,61521
+16.2,Boots,3047,Plated Steelcaps,3.9298,1143
+16.2,Boots,3111,Mercury's Treads,1.9803,3670
+16.2,Boots,3158,Ionian Boots of Lucidity,0.7088,27118
+16.2,1st Item,2503,Blackfire Torch,0.2515,2951
+16.2,1st Item,2510,Dusk and Dawn,1.3055,5966
+16.2,1st Item,3041,Mejai's Soulstealer,1.705,247
+16.2,1st Item,3100,Lich Bane,0.4904,55186
+16.2,1st Item,3118,Malignance,-5.5026,105
+16.2,1st Item,3146,Hextech Gunblade,1.6019,1352
+16.2,1st Item,3152,Hextech Rocketbelt,1.5608,933
+16.2,1st Item,3157,Zhonya's Hourglass,0.526,395
+16.2,1st Item,4645,Shadowflame,-0.5096,129
+16.2,1st Item,4646,Stormsurge,1.436,1820
+16.2,1st Item,6653,Liandry's Torment,-1.9705,293
+16.2,1st Item,6655,Luden's Echo,-1.6664,24620
+16.2,1st Item,6657,Rod of Ages,-1.6774,102
+16.2,2nd Item,2503,Blackfire Torch,2.5805,437
+16.2,2nd Item,2510,Dusk and Dawn,0.7507,1177
+16.2,2nd Item,3041,Mejai's Soulstealer,1.0108,4759
+16.2,2nd Item,3089,Rabadon's Deathcap,-1.3321,2228
+16.2,2nd Item,3100,Lich Bane,-0.3795,16590
+16.2,2nd Item,3102,Banshee's Veil,3.5779,202
+16.2,2nd Item,3115,Nashor's Tooth,1.3287,1058
+16.2,2nd Item,3135,Void Staff,0.8603,323
+16.2,2nd Item,3146,Hextech Gunblade,0.6413,712
+16.2,2nd Item,3152,Hextech Rocketbelt,-1.4199,360
+16.2,2nd Item,3157,Zhonya's Hourglass,0.2035,35023
+16.2,2nd Item,3165,Morellonomicon,0.5506,115
+16.2,2nd Item,4645,Shadowflame,-0.3376,15848
+16.2,2nd Item,4646,Stormsurge,0.2857,3236
+16.2,2nd Item,6653,Liandry's Torment,-3.165,356
+16.2,2nd Item,6655,Luden's Echo,-0.3157,3420
+16.2,2nd Item,8010,Bloodletter's Curse,-2.1728,186
+16.2,3rd Item,2503,Blackfire Torch,-8.2946,102
+16.2,3rd Item,2510,Dusk and Dawn,3.4439,221
+16.2,3rd Item,3041,Mejai's Soulstealer,1.1351,3761
+16.2,3rd Item,3089,Rabadon's Deathcap,0.1959,17701
+16.2,3rd Item,3100,Lich Bane,0.2351,2744
+16.2,3rd Item,3102,Banshee's Veil,-3.0195,471
+16.2,3rd Item,3115,Nashor's Tooth,1.5962,223
+16.2,3rd Item,3135,Void Staff,-1.9732,1764
+16.2,3rd Item,3137,Cryptbloom,-4.2157,557
+16.2,3rd Item,3146,Hextech Gunblade,-1.7163,366
+16.2,3rd Item,3152,Hextech Rocketbelt,6.05,163
+16.2,3rd Item,3157,Zhonya's Hourglass,-0.0764,21554
+16.2,3rd Item,3165,Morellonomicon,-2.6614,230
+16.2,3rd Item,4645,Shadowflame,0.0993,11843
+16.2,3rd Item,4646,Stormsurge,0.1747,1372
+16.2,3rd Item,6653,Liandry's Torment,0.5569,232
+16.2,3rd Item,6655,Luden's Echo,-0.8297,863
+16.2,3rd Item,8010,Bloodletter's Curse,-1.4823,125
+16.2,4th+ Item,3041,Mejai's Soulstealer,-0.8709,2803
+16.2,4th+ Item,3089,Rabadon's Deathcap,0.2686,12244
+16.2,4th+ Item,3100,Lich Bane,-3.0149,686
+16.2,4th+ Item,3102,Banshee's Veil,0.3177,1289
+16.2,4th+ Item,3135,Void Staff,0.342,5803
+16.2,4th+ Item,3137,Cryptbloom,-0.7264,1140
+16.2,4th+ Item,3146,Hextech Gunblade,1.2069,246
+16.2,4th+ Item,3152,Hextech Rocketbelt,-1.0878,254
+16.2,4th+ Item,3157,Zhonya's Hourglass,-0.3236,5441
+16.2,4th+ Item,3165,Morellonomicon,-0.3819,443
+16.2,4th+ Item,4645,Shadowflame,0.2227,6775
+16.2,4th+ Item,4646,Stormsurge,1.0403,2171
+16.2,4th+ Item,6653,Liandry's Torment,-5.6194,134
+16.2,4th+ Item,6655,Luden's Echo,-1.3164,434
+16.2,All Items,2503,Blackfire Torch,0.2647,3554
+16.2,All Items,2510,Dusk and Dawn,1.2776,7464
+16.2,All Items,3041,Mejai's Soulstealer,0.6103,11572
+16.2,All Items,3089,Rabadon's Deathcap,0.1185,32292
+16.2,All Items,3100,Lich Bane,0.2556,75225
+16.2,All Items,3102,Banshee's Veil,-0.0339,1999
+16.2,All Items,3115,Nashor's Tooth,1.0735,1384
+16.2,All Items,3118,Malignance,-1.4061,190
+16.2,All Items,3135,Void Staff,-0.1191,8000
+16.2,All Items,3137,Cryptbloom,-1.8209,1761
+16.2,All Items,3146,Hextech Gunblade,0.8544,2685
+16.2,All Items,3152,Hextech Rocketbelt,0.9933,1719
+16.2,All Items,3157,Zhonya's Hourglass,0.0643,62456
+16.2,All Items,3165,Morellonomicon,-1.192,812
+16.2,All Items,4629,Cosmic Drive,0.1294,201
+16.2,All Items,4633,Riftmaker,-2.6867,231
+16.2,All Items,4645,Shadowflame,-0.0763,34655
+16.2,All Items,4646,Stormsurge,0.7057,8642
+16.2,All Items,6653,Liandry's Torment,-2.2918,1019
+16.2,All Items,6655,Luden's Echo,-1.4821,29348
+16.2,All Items,6657,Rod of Ages,-0.678,115
+16.2,All Items,8010,Bloodletter's Curse,-1.5407,408
+16.3,Keystone,8010,Conqueror,-5.1585,188
+16.3,Keystone,9923,Hail of Blades,-0.0947,165
+16.3,Keystone,8005,Press the Attack,-1.7978,839
+16.3,Keystone,8437,Grasp of the Undying,-6.0312,203
+16.3,Keystone,8128,Dark Harvest,-1.8876,2391
+16.3,Keystone,8112,Electrocute,0.1004,100390
+16.3,Spell,3,Exhaust,-0.7954,133
+16.3,Spell,4,Flash,0.0001,104355
+16.3,Spell,12,Teleport,-2.6104,2213
+16.3,Spell,14,Ignite,0.0639,102146
+16.3,Spell,21,Barrier,-3.0941,120
+16.3,Starter,1054,Doran's Shield,-0.9773,595
+16.3,Starter,1055,Doran's Blade,-5.8665,101
+16.3,Starter,1056,Doran's Ring,0.0598,99009
+16.3,Starter,1082,Dark Seal,-0.9905,4304
+16.3,Boots,3009,Boots of Swiftness,0.8008,114
+16.3,Boots,3020,Sorcerer's Shoes,-0.0812,67506
+16.3,Boots,3047,Plated Steelcaps,3.3912,1366
+16.3,Boots,3111,Mercury's Treads,0.4046,4144
+16.3,Boots,3158,Ionian Boots of Lucidity,1.0317,26811
+16.3,1st Item,2503,Blackfire Torch,0.0157,2334
+16.3,1st Item,2510,Dusk and Dawn,1.8088,4386
+16.3,1st Item,3041,Mejai's Soulstealer,0.544,215
+16.3,1st Item,3100,Lich Bane,0.5132,61823
+16.3,1st Item,3146,Hextech Gunblade,0.3888,2603
+16.3,1st Item,3152,Hextech Rocketbelt,2.6073,819
+16.3,1st Item,3157,Zhonya's Hourglass,-2.9896,481
+16.3,1st Item,4645,Shadowflame,0.3981,171
+16.3,1st Item,4646,Stormsurge,-0.4914,2199
+16.3,1st Item,6653,Liandry's Torment,-5.1915,394
+16.3,1st Item,6655,Luden's Echo,-1.5116,24865
+16.3,2nd Item,2503,Blackfire Torch,-3.7408,251
+16.3,2nd Item,2510,Dusk and Dawn,0.7715,1003
+16.3,2nd Item,3041,Mejai's Soulstealer,0.9722,4938
+16.3,2nd Item,3089,Rabadon's Deathcap,0.5686,2371
+16.3,2nd Item,3100,Lich Bane,-0.4049,19334
+16.3,2nd Item,3102,Banshee's Veil,0.6884,286
+16.3,2nd Item,3115,Nashor's Tooth,0.1572,839
+16.3,2nd Item,3135,Void Staff,2.9079,338
+16.3,2nd Item,3146,Hextech Gunblade,1.6793,673
+16.3,2nd Item,3152,Hextech Rocketbelt,-0.864,266
+16.3,2nd Item,3157,Zhonya's Hourglass,0.1512,38006
+16.3,2nd Item,3165,Morellonomicon,-2.5939,120
+16.3,2nd Item,4645,Shadowflame,-0.2613,16245
+16.3,2nd Item,4646,Stormsurge,0.8046,3309
+16.3,2nd Item,6653,Liandry's Torment,-0.296,326
+16.3,2nd Item,6655,Luden's Echo,-1.3306,3602
+16.3,2nd Item,8010,Bloodletter's Curse,2.906,145
+16.3,3rd Item,2503,Blackfire Torch,2.5842,103
+16.3,3rd Item,2510,Dusk and Dawn,4.0468,186
+16.3,3rd Item,3041,Mejai's Soulstealer,-0.7593,4165
+16.3,3rd Item,3089,Rabadon's Deathcap,0.0637,20199
+16.3,3rd Item,3100,Lich Bane,-0.5833,2511
+16.3,3rd Item,3102,Banshee's Veil,1.4417,492
+16.3,3rd Item,3115,Nashor's Tooth,1.8247,144
+16.3,3rd Item,3135,Void Staff,-0.1679,1893
+16.3,3rd Item,3137,Cryptbloom,1.5631,540
+16.3,3rd Item,3146,Hextech Gunblade,-2.2979,349
+16.3,3rd Item,3152,Hextech Rocketbelt,-2.3051,125
+16.3,3rd Item,3157,Zhonya's Hourglass,0.3326,22826
+16.3,3rd Item,3165,Morellonomicon,2.2115,300
+16.3,3rd Item,4645,Shadowflame,-0.4285,12460
+16.3,3rd Item,4646,Stormsurge,-0.991,1717
+16.3,3rd Item,6653,Liandry's Torment,4.0909,202
+16.3,3rd Item,6655,Luden's Echo,1.027,691
+16.3,3rd Item,8010,Bloodletter's Curse,-3.5794,115
+16.3,4th+ Item,3041,Mejai's Soulstealer,0.3829,3164
+16.3,4th+ Item,3089,Rabadon's Deathcap,0.5651,12223
+16.3,4th+ Item,3100,Lich Bane,-1.1845,674
+16.3,4th+ Item,3102,Banshee's Veil,-0.9801,1425
+16.3,4th+ Item,3135,Void Staff,-0.3146,6282
+16.3,4th+ Item,3137,Cryptbloom,1.8881,1141
+16.3,4th+ Item,3146,Hextech Gunblade,-3.138,218
+16.3,4th+ Item,3152,Hextech Rocketbelt,-1.2795,138
+16.3,4th+ Item,3157,Zhonya's Hourglass,-0.196,5954
+16.3,4th+ Item,3165,Morellonomicon,-0.3737,547
+16.3,4th+ Item,4645,Shadowflame,0.0192,7855
+16.3,4th+ Item,4646,Stormsurge,-0.7681,3143
+16.3,4th+ Item,6653,Liandry's Torment,-2.8089,174
+16.3,4th+ Item,6655,Luden's Echo,-2.5516,596
+16.3,All Items,2503,Blackfire Torch,-0.2355,2773
+16.3,All Items,2510,Dusk and Dawn,1.6473,5648
+16.3,All Items,3041,Mejai's Soulstealer,0.2376,12482
+16.3,All Items,3089,Rabadon's Deathcap,0.273,34906
+16.3,All Items,3100,Lich Bane,0.2571,84353
+16.3,All Items,3102,Banshee's Veil,-0.2179,2253
+16.3,All Items,3115,Nashor's Tooth,0.226,1097
+16.3,All Items,3118,Malignance,0.2934,142
+16.3,All Items,3135,Void Staff,-0.1756,8624
+16.3,All Items,3137,Cryptbloom,1.8221,1777
+16.3,All Items,3146,Hextech Gunblade,0.1552,3854
+16.3,All Items,3152,Hextech Rocketbelt,1.0639,1352
+16.3,All Items,3157,Zhonya's Hourglass,0.1597,67310
+16.3,All Items,3165,Morellonomicon,0.3587,998
+16.3,All Items,4629,Cosmic Drive,2.7457,181
+16.3,All Items,4633,Riftmaker,-0.1973,213
+16.3,All Items,4645,Shadowflame,-0.2576,36800
+16.3,All Items,4646,Stormsurge,-0.2399,10417
+16.3,All Items,6653,Liandry's Torment,-1.6995,1100
+16.3,All Items,6655,Luden's Echo,-1.4515,29760
+16.3,All Items,8010,Bloodletter's Curse,-0.3091,337
+16.4,Keystone,8010,Conqueror,-2.8371,191
+16.4,Keystone,9923,Hail of Blades,0.6878,140
+16.4,Keystone,8005,Press the Attack,0.068,1050
+16.4,Keystone,8437,Grasp of the Undying,0.8428,196
+16.4,Keystone,8128,Dark Harvest,-1.6245,2886
+16.4,Keystone,8112,Electrocute,0.0508,104882
+16.4,Spell,4,Flash,0.0033,109333
+16.4,Spell,12,Teleport,-4.7311,2120
+16.4,Spell,14,Ignite,0.0849,107348
+16.4,Spell,21,Barrier,1.3941,138
+16.4,Starter,1054,Doran's Shield,-2.6941,616
+16.4,Starter,1055,Doran's Blade,-5.7526,119
+16.4,Starter,1056,Doran's Ring,0.0809,103892
+16.4,Starter,1082,Dark Seal,-1.1503,4425
+16.4,Boots,3009,Boots of Swiftness,-2.1443,186
+16.4,Boots,3020,Sorcerer's Shoes,0.0166,72398
+16.4,Boots,3047,Plated Steelcaps,4.8006,1356
+16.4,Boots,3111,Mercury's Treads,0.7449,4313
+16.4,Boots,3158,Ionian Boots of Lucidity,0.4699,26318
+16.4,1st Item,2503,Blackfire Torch,0.4445,2230
+16.4,1st Item,2510,Dusk and Dawn,1.0588,4372
+16.4,1st Item,3041,Mejai's Soulstealer,1.4302,237
+16.4,1st Item,3100,Lich Bane,0.4184,65110
+16.4,1st Item,3115,Nashor's Tooth,3.4987,137
+16.4,1st Item,3146,Hextech Gunblade,-0.1787,3717
+16.4,1st Item,3152,Hextech Rocketbelt,-0.0451,874
+16.4,1st Item,3157,Zhonya's Hourglass,-1.0232,424
+16.4,1st Item,4645,Shadowflame,1.8974,234
+16.4,1st Item,4646,Stormsurge,-0.1382,2828
+16.4,1st Item,6653,Liandry's Torment,-2.8077,363
+16.4,1st Item,6655,Luden's Echo,-1.2034,24686
+16.4,2nd Item,2503,Blackfire Torch,-3.1498,259
+16.4,2nd Item,2510,Dusk and Dawn,-1.019,1124
+16.4,2nd Item,3041,Mejai's Soulstealer,0.8343,4665
+16.4,2nd Item,3089,Rabadon's Deathcap,0.4235,2343
+16.4,2nd Item,3100,Lich Bane,-0.2371,20358
+16.4,2nd Item,3102,Banshee's Veil,2.1712,285
+16.4,2nd Item,3115,Nashor's Tooth,-2.8401,690
+16.4,2nd Item,3135,Void Staff,3.322,331
+16.4,2nd Item,3146,Hextech Gunblade,-1.3959,862
+16.4,2nd Item,3152,Hextech Rocketbelt,-1.4695,295
+16.4,2nd Item,3157,Zhonya's Hourglass,0.1451,38836
+16.4,2nd Item,3165,Morellonomicon,1.093,150
+16.4,2nd Item,4633,Riftmaker,8.3753,132
+16.4,2nd Item,4645,Shadowflame,-0.1021,18532
+16.4,2nd Item,4646,Stormsurge,1.7583,3639
+16.4,2nd Item,6653,Liandry's Torment,1.4454,353
+16.4,2nd Item,6655,Luden's Echo,-2.0126,3654
+16.4,3rd Item,2503,Blackfire Torch,3.4636,113
+16.4,3rd Item,2510,Dusk and Dawn,-1.2237,265
+16.4,3rd Item,3041,Mejai's Soulstealer,-0.9696,4162
+16.4,3rd Item,3089,Rabadon's Deathcap,0.4648,20873
+16.4,3rd Item,3100,Lich Bane,-0.7223,2542
+16.4,3rd Item,3102,Banshee's Veil,-1.0716,548
+16.4,3rd Item,3115,Nashor's Tooth,-1.6813,118
+16.4,3rd Item,3135,Void Staff,-1.1401,2015
+16.4,3rd Item,3137,Cryptbloom,2.2275,489
+16.4,3rd Item,3146,Hextech Gunblade,-0.5888,374
+16.4,3rd Item,3152,Hextech Rocketbelt,-1.9845,116
+16.4,3rd Item,3157,Zhonya's Hourglass,0.0879,23868
+16.4,3rd Item,3165,Morellonomicon,0.567,336
+16.4,3rd Item,4645,Shadowflame,-0.1237,13788
+16.4,3rd Item,4646,Stormsurge,0.1174,1890
+16.4,3rd Item,6653,Liandry's Torment,-3.7311,225
+16.4,3rd Item,6655,Luden's Echo,-1.0208,914
+16.4,3rd Item,8010,Bloodletter's Curse,0.1445,108
+16.4,4th+ Item,3041,Mejai's Soulstealer,0.1404,3052
+16.4,4th+ Item,3089,Rabadon's Deathcap,0.288,13215
+16.4,4th+ Item,3100,Lich Bane,-2.5712,646
+16.4,4th+ Item,3102,Banshee's Veil,0.1226,1593
+16.4,4th+ Item,3135,Void Staff,0.313,6402
+16.4,4th+ Item,3137,Cryptbloom,-0.0794,1057
+16.4,4th+ Item,3146,Hextech Gunblade,-1.1745,283
+16.4,4th+ Item,3152,Hextech Rocketbelt,5.0278,151
+16.4,4th+ Item,3157,Zhonya's Hourglass,-0.053,6707
+16.4,4th+ Item,3165,Morellonomicon,-0.6749,553
+16.4,4th+ Item,4629,Cosmic Drive,-2.9338,123
+16.4,4th+ Item,4645,Shadowflame,-0.3538,8371
+16.4,4th+ Item,4646,Stormsurge,-0.1543,3836
+16.4,4th+ Item,6653,Liandry's Torment,-0.5803,155
+16.4,4th+ Item,6655,Luden's Echo,0.579,559
+16.4,All Items,2503,Blackfire Torch,0.2746,2671
+16.4,All Items,2510,Dusk and Dawn,0.4509,5836
+16.4,All Items,3041,Mejai's Soulstealer,0.0507,12117
+16.4,All Items,3089,Rabadon's Deathcap,0.4003,36535
+16.4,All Items,3100,Lich Bane,0.2129,88671
+16.4,All Items,3102,Banshee's Veil,0.1612,2500
+16.4,All Items,3115,Nashor's Tooth,-1.6817,983
+16.4,All Items,3118,Malignance,-5.5891,146
+16.4,All Items,3135,Void Staff,0.0891,8895
+16.4,All Items,3137,Cryptbloom,0.6213,1629
+16.4,All Items,3146,Hextech Gunblade,-0.4615,5245
+16.4,All Items,3152,Hextech Rocketbelt,0.0809,1441
+16.4,All Items,3157,Zhonya's Hourglass,0.0981,69879
+16.4,All Items,3165,Morellonomicon,0.1169,1072
+16.4,All Items,4629,Cosmic Drive,-4.5041,240
+16.4,All Items,4633,Riftmaker,2.6392,277
+16.4,All Items,4645,Shadowflame,-0.1555,41009
+16.4,All Items,4646,Stormsurge,0.4643,12256
+16.4,All Items,6653,Liandry's Torment,-1.3077,1100
+16.4,All Items,6655,Luden's Echo,-1.2617,29829
+16.4,All Items,8010,Bloodletter's Curse,1.3109,277
+16.5,Keystone,8369,First Strike,-7.3033,106
+16.5,Keystone,8010,Conqueror,-0.8407,173
+16.5,Keystone,8005,Press the Attack,-0.725,1773
+16.5,Keystone,8437,Grasp of the Undying,1.7024,217
+16.5,Keystone,8128,Dark Harvest,-2.4182,3159
+16.5,Keystone,8112,Electrocute,0.1023,122799
+16.5,Spell,3,Exhaust,-4.0522,196
+16.5,Spell,4,Flash,-0.0015,128316
+16.5,Spell,12,Teleport,-3.3321,2453
+16.5,Spell,14,Ignite,0.0813,125951
+16.5,Spell,21,Barrier,-3.1761,151
+16.5,Starter,1054,Doran's Shield,-2.3004,665
+16.5,Starter,1056,Doran's Ring,0.0228,122398
+16.5,Starter,1082,Dark Seal,-0.3578,4845
+16.5,Boots,3009,Boots of Swiftness,-0.3097,238
+16.5,Boots,3020,Sorcerer's Shoes,-0.1068,85241
+16.5,Boots,3047,Plated Steelcaps,2.863,1617
+16.5,Boots,3111,Mercury's Treads,-0.2292,4711
+16.5,Boots,3158,Ionian Boots of Lucidity,0.7817,30692
+16.5,1st Item,2503,Blackfire Torch,1.2704,2903
+16.5,1st Item,2510,Dusk and Dawn,1.761,4708
+16.5,1st Item,3041,Mejai's Soulstealer,4.0429,295
+16.5,1st Item,3100,Lich Bane,0.3528,79124
+16.5,1st Item,3115,Nashor's Tooth,-6.2465,186
+16.5,1st Item,3146,Hextech Gunblade,0.8373,3487
+16.5,1st Item,3152,Hextech Rocketbelt,2.516,1509
+16.5,1st Item,3157,Zhonya's Hourglass,2.1347,583
+16.5,1st Item,4645,Shadowflame,-3.9399,273
+16.5,1st Item,4646,Stormsurge,-0.5302,3092
+16.5,1st Item,6653,Liandry's Torment,-3.6407,454
+16.5,1st Item,6655,Luden's Echo,-1.5808,26602
+16.5,2nd Item,2503,Blackfire Torch,-1.8236,293
+16.5,2nd Item,2510,Dusk and Dawn,1.8236,956
+16.5,2nd Item,3041,Mejai's Soulstealer,1.0816,6129
+16.5,2nd Item,3089,Rabadon's Deathcap,-0.5381,3399
+16.5,2nd Item,3100,Lich Bane,-0.2583,20077
+16.5,2nd Item,3102,Banshee's Veil,1.8811,336
+16.5,2nd Item,3115,Nashor's Tooth,4.5301,1375
+16.5,2nd Item,3135,Void Staff,-1.63,331
+16.5,2nd Item,3137,Cryptbloom,0.6539,106
+16.5,2nd Item,3146,Hextech Gunblade,0.203,535
+16.5,2nd Item,3152,Hextech Rocketbelt,-0.5671,567
+16.5,2nd Item,3157,Zhonya's Hourglass,-0.0689,47624
+16.5,2nd Item,3165,Morellonomicon,1.6009,151
+16.5,2nd Item,4633,Riftmaker,-2.38,165
+16.5,2nd Item,4645,Shadowflame,-0.2125,24010
+16.5,2nd Item,4646,Stormsurge,1.0665,4765
+16.5,2nd Item,6653,Liandry's Torment,1.4005,401
+16.5,2nd Item,6655,Luden's Echo,-1.8257,2064
+16.5,2nd Item,8010,Bloodletter's Curse,2.4147,124
+16.5,3rd Item,2503,Blackfire Torch,-0.4975,125
+16.5,3rd Item,2510,Dusk and Dawn,-3.2498,180
+16.5,3rd Item,3041,Mejai's Soulstealer,0.1086,4943
+16.5,3rd Item,3089,Rabadon's Deathcap,-0.413,22431
+16.5,3rd Item,3100,Lich Bane,-0.5247,3139
+16.5,3rd Item,3102,Banshee's Veil,0.89,586
+16.5,3rd Item,3115,Nashor's Tooth,-0.1515,162
+16.5,3rd Item,3135,Void Staff,-1.9934,2094
+16.5,3rd Item,3137,Cryptbloom,2.0145,590
+16.5,3rd Item,3146,Hextech Gunblade,-0.5218,183
+16.5,3rd Item,3152,Hextech Rocketbelt,4.2128,360
+16.5,3rd Item,3157,Zhonya's Hourglass,0.2641,27507
+16.5,3rd Item,3165,Morellonomicon,-0.7488,339
+16.5,3rd Item,4645,Shadowflame,0.1455,19060
+16.5,3rd Item,4646,Stormsurge,1.2498,2090
+16.5,3rd Item,6653,Liandry's Torment,-0.7607,249
+16.5,3rd Item,6655,Luden's Echo,0.2173,1282
+16.5,3rd Item,8010,Bloodletter's Curse,-6.779,110
+16.5,4th+ Item,3041,Mejai's Soulstealer,0.4027,3956
+16.5,4th+ Item,3089,Rabadon's Deathcap,0.2478,16766
+16.5,4th+ Item,3100,Lich Bane,-0.5244,853
+16.5,4th+ Item,3102,Banshee's Veil,-1.339,1885
+16.5,4th+ Item,3135,Void Staff,0.2404,7789
+16.5,4th+ Item,3137,Cryptbloom,1.5406,1402
+16.5,4th+ Item,3146,Hextech Gunblade,1.8593,115
+16.5,4th+ Item,3152,Hextech Rocketbelt,-0.0767,384
+16.5,4th+ Item,3157,Zhonya's Hourglass,0.0757,7734
+16.5,4th+ Item,3165,Morellonomicon,-1.0453,662
+16.5,4th+ Item,4629,Cosmic Drive,-1.2674,147
+16.5,4th+ Item,4645,Shadowflame,-0.6341,9100
+16.5,4th+ Item,4646,Stormsurge,-0.7063,4621
+16.5,4th+ Item,6653,Liandry's Torment,1.0126,246
+16.5,4th+ Item,6655,Luden's Echo,1.4505,698
+16.5,All Items,2503,Blackfire Torch,1.038,3412
+16.5,All Items,2510,Dusk and Dawn,1.6014,5898
+16.5,All Items,3041,Mejai's Soulstealer,0.6486,15324
+16.5,All Items,3089,Rabadon's Deathcap,-0.1656,42761
+16.5,All Items,3100,Lich Bane,0.1997,103217
+16.5,All Items,3102,Banshee's Veil,-0.3766,2885
+16.5,All Items,3115,Nashor's Tooth,3.0321,1758
+16.5,All Items,3118,Malignance,0.6543,176
+16.5,All Items,3135,Void Staff,-0.2873,10388
+16.5,All Items,3137,Cryptbloom,1.6206,2123
+16.5,All Items,3146,Hextech Gunblade,0.7254,4330
+16.5,All Items,3152,Hextech Rocketbelt,1.7163,2838
+16.5,All Items,3157,Zhonya's Hourglass,0.0688,83503
+16.5,All Items,3165,Morellonomicon,-0.5779,1180
+16.5,All Items,4629,Cosmic Drive,0.8583,268
+16.5,All Items,4633,Riftmaker,0.6172,338
+16.5,All Items,4645,Shadowflame,-0.1694,52528
+16.5,All Items,4646,Stormsurge,0.1872,14628
+16.5,All Items,6653,Liandry's Torment,-0.7567,1357
+16.5,All Items,6655,Luden's Echo,-1.4519,30664
+16.5,All Items,6657,Rod of Ages,-1.8333,113
+16.5,All Items,8010,Bloodletter's Curse,-1.5716,343
+16.6,Keystone,8369,First Strike,-5.9705,115
+16.6,Keystone,8010,Conqueror,-11.3754,151
+16.6,Keystone,9923,Hail of Blades,-7.6112,136
+16.6,Keystone,8005,Press the Attack,-1.0081,1973
+16.6,Keystone,8437,Grasp of the Undying,-5.2537,197
+16.6,Keystone,8229,Arcane Comet,-5.7016,102
+16.6,Keystone,8128,Dark Harvest,-2.1724,3623
+16.6,Keystone,8112,Electrocute,0.1308,131176
+16.6,Spell,3,Exhaust,-7.1265,145
+16.6,Spell,4,Flash,-0.0011,137321
+16.6,Spell,12,Teleport,-4.2668,2500
+16.6,Spell,14,Ignite,0.0942,135012
+16.6,Spell,21,Barrier,-0.0711,241
+16.6,Starter,1054,Doran's Shield,0.2033,686
+16.6,Starter,1055,Doran's Blade,-4.1746,105
+16.6,Starter,1056,Doran's Ring,0.0331,130443
+16.6,Starter,1082,Dark Seal,-0.546,5731
+16.6,Boots,3009,Boots of Swiftness,2.5083,235
+16.6,Boots,3020,Sorcerer's Shoes,-0.1887,91097
+16.6,Boots,3047,Plated Steelcaps,1.816,1871
+16.6,Boots,3111,Mercury's Treads,0.1689,5709
+16.6,Boots,3158,Ionian Boots of Lucidity,0.6274,32110
+16.6,1st Item,2503,Blackfire Torch,-1.2436,3669
+16.6,1st Item,2510,Dusk and Dawn,1.1348,4925
+16.6,1st Item,3041,Mejai's Soulstealer,3.5151,312
+16.6,1st Item,3100,Lich Bane,0.5518,84331
+16.6,1st Item,3115,Nashor's Tooth,-0.9207,193
+16.6,1st Item,3146,Hextech Gunblade,0.5874,3549
+16.6,1st Item,3152,Hextech Rocketbelt,1.8298,1316
+16.6,1st Item,3157,Zhonya's Hourglass,1.5881,545
+16.6,1st Item,4645,Shadowflame,-2.1447,212
+16.6,1st Item,4646,Stormsurge,1.4534,3823
+16.6,1st Item,6653,Liandry's Torment,-0.6307,483
+16.6,1st Item,6655,Luden's Echo,-2.076,28469
+16.6,1st Item,6657,Rod of Ages,5.3575,101
+16.6,2nd Item,2503,Blackfire Torch,2.7707,299
+16.6,2nd Item,2510,Dusk and Dawn,0.1043,1370
+16.6,2nd Item,3041,Mejai's Soulstealer,1.1758,6634
+16.6,2nd Item,3089,Rabadon's Deathcap,-0.4881,2669
+16.6,2nd Item,3100,Lich Bane,-0.4315,20854
+16.6,2nd Item,3102,Banshee's Veil,0.8276,371
+16.6,2nd Item,3115,Nashor's Tooth,1.5232,1363
+16.6,2nd Item,3135,Void Staff,0.3733,330
+16.6,2nd Item,3146,Hextech Gunblade,-1.1236,740
+16.6,2nd Item,3152,Hextech Rocketbelt,0.059,506
+16.6,2nd Item,3157,Zhonya's Hourglass,-0.0086,49485
+16.6,2nd Item,3165,Morellonomicon,-0.1288,179
+16.6,2nd Item,4633,Riftmaker,3.6793,207
+16.6,2nd Item,4645,Shadowflame,-0.0815,25113
+16.6,2nd Item,4646,Stormsurge,0.6711,8039
+16.6,2nd Item,6653,Liandry's Torment,-1.1228,437
+16.6,2nd Item,6655,Luden's Echo,-1.3119,2321
+16.6,2nd Item,8010,Bloodletter's Curse,-5.0105,128
+16.6,3rd Item,2503,Blackfire Torch,-3.455,123
+16.6,3rd Item,2510,Dusk and Dawn,-1.0333,287
+16.6,3rd Item,3041,Mejai's Soulstealer,-0.0899,5473
+16.6,3rd Item,3089,Rabadon's Deathcap,0.1551,21801
+16.6,3rd Item,3100,Lich Bane,-1.2337,3450
+16.6,3rd Item,3102,Banshee's Veil,-1.4676,657
+16.6,3rd Item,3115,Nashor's Tooth,-2.3014,156
+16.6,3rd Item,3135,Void Staff,0.0542,2151
+16.6,3rd Item,3137,Cryptbloom,1.2192,601
+16.6,3rd Item,3146,Hextech Gunblade,-1.4817,364
+16.6,3rd Item,3152,Hextech Rocketbelt,-2.6787,202
+16.6,3rd Item,3157,Zhonya's Hourglass,0.1235,29980
+16.6,3rd Item,3165,Morellonomicon,-0.1047,376
+16.6,3rd Item,4633,Riftmaker,0.4751,114
+16.6,3rd Item,4645,Shadowflame,-0.0275,21868
+16.6,3rd Item,4646,Stormsurge,0.275,2339
+16.6,3rd Item,6653,Liandry's Torment,-1.3592,253
+16.6,3rd Item,6655,Luden's Echo,0.123,969
+16.6,3rd Item,8010,Bloodletter's Curse,-3.3387,154
+16.6,4th+ Item,2503,Blackfire Torch,-9.8724,108
+16.6,4th+ Item,3041,Mejai's Soulstealer,0.0433,4286
+16.6,4th+ Item,3089,Rabadon's Deathcap,0.3015,18393
+16.6,4th+ Item,3100,Lich Bane,1.8607,978
+16.6,4th+ Item,3102,Banshee's Veil,0.9212,1991
+16.6,4th+ Item,3135,Void Staff,-0.2149,8096
+16.6,4th+ Item,3137,Cryptbloom,-0.1715,1536
+16.6,4th+ Item,3146,Hextech Gunblade,1.4898,273
+16.6,4th+ Item,3152,Hextech Rocketbelt,3.2493,227
+16.6,4th+ Item,3157,Zhonya's Hourglass,0.3679,8233
+16.6,4th+ Item,3165,Morellonomicon,0.2909,624
+16.6,4th+ Item,4629,Cosmic Drive,-3.9142,126
+16.6,4th+ Item,4645,Shadowflame,-0.5606,9479
+16.6,4th+ Item,4646,Stormsurge,-0.3633,4282
+16.6,4th+ Item,6653,Liandry's Torment,-3.8511,241
+16.6,4th+ Item,6655,Luden's Echo,-0.9779,650
+16.6,4th+ Item,8010,Bloodletter's Curse,-0.4526,105
+16.6,All Items,2503,Blackfire Torch,-1.2582,4203
+16.6,All Items,2510,Dusk and Dawn,0.8328,6659
+16.6,All Items,3041,Mejai's Soulstealer,0.5159,16708
+16.6,All Items,3089,Rabadon's Deathcap,0.1814,43045
+16.6,All Items,3100,Lich Bane,0.3199,109627
+16.6,All Items,3102,Banshee's Veil,0.2009,3105
+16.6,All Items,3115,Nashor's Tooth,0.8557,1754
+16.6,All Items,3118,Malignance,0.82,190
+16.6,All Items,3135,Void Staff,-0.1036,10761
+16.6,All Items,3137,Cryptbloom,0.0659,2259
+16.6,All Items,3146,Hextech Gunblade,0.2138,4938
+16.6,All Items,3152,Hextech Rocketbelt,1.1614,2256
+16.6,All Items,3157,Zhonya's Hourglass,0.0801,88305
+16.6,All Items,3165,Morellonomicon,-0.018,1217
+16.6,All Items,4629,Cosmic Drive,0.8515,245
+16.6,All Items,4633,Riftmaker,1.6432,432
+16.6,All Items,4645,Shadowflame,-0.1481,56781
+16.6,All Items,4646,Stormsurge,0.5562,18556
+16.6,All Items,6653,Liandry's Torment,-1.4183,1428
+16.6,All Items,6655,Luden's Echo,-1.934,32431
+16.6,All Items,6657,Rod of Ages,6.8492,121
+16.6,All Items,8010,Bloodletter's Curse,-3.2067,393
+16.7,Keystone,8010,Conqueror,-2.8842,168
+16.7,Keystone,9923,Hail of Blades,1.5953,169
+16.7,Keystone,8005,Press the Attack,-0.3515,2605
+16.7,Keystone,8437,Grasp of the Undying,-9.9586,144
+16.7,Keystone,8229,Arcane Comet,0.3576,106
+16.7,Keystone,8128,Dark Harvest,-2.1633,3665
+16.7,Keystone,8112,Electrocute,0.0863,138251
+16.7,Spell,3,Exhaust,-6.3213,164
+16.7,Spell,4,Flash,-0.0107,145101
+16.7,Spell,12,Teleport,-2.6871,2613
+16.7,Spell,14,Ignite,0.0632,142466
+16.7,Spell,21,Barrier,0.9409,250
+16.7,Starter,1054,Doran's Shield,-2.5054,739
+16.7,Starter,1056,Doran's Ring,0.0881,137756
+16.7,Starter,1082,Dark Seal,-1.6227,6007
+16.7,Boots,3009,Boots of Swiftness,-6.6263,222
+16.7,Boots,3020,Sorcerer's Shoes,-0.0579,93449
+16.7,Boots,3047,Plated Steelcaps,2.6369,1932
+16.7,Boots,3111,Mercury's Treads,0.5627,6171
+16.7,Boots,3158,Ionian Boots of Lucidity,0.7835,36352
+16.7,1st Item,2503,Blackfire Torch,-0.0236,6113
+16.7,1st Item,2510,Dusk and Dawn,1.6844,5266
+16.7,1st Item,3041,Mejai's Soulstealer,-3.606,313
+16.7,1st Item,3100,Lich Bane,0.2659,88343
+16.7,1st Item,3115,Nashor's Tooth,-1.9518,201
+16.7,1st Item,3118,Malignance,-0.7588,138
+16.7,1st Item,3146,Hextech Gunblade,-0.6474,3066
+16.7,1st Item,3152,Hextech Rocketbelt,1.3994,1760
+16.7,1st Item,3157,Zhonya's Hourglass,0.8516,602
+16.7,1st Item,4645,Shadowflame,-1.1908,259
+16.7,1st Item,4646,Stormsurge,0.8042,4253
+16.7,1st Item,6653,Liandry's Torment,-0.8981,482
+16.7,1st Item,6655,Luden's Echo,-1.148,28419
+16.7,2nd Item,2503,Blackfire Torch,0.4715,428
+16.7,2nd Item,2510,Dusk and Dawn,1.1792,1480
+16.7,2nd Item,3041,Mejai's Soulstealer,1.795,7324
+16.7,2nd Item,3089,Rabadon's Deathcap,-0.1484,2992
+16.7,2nd Item,3100,Lich Bane,-0.1939,23470
+16.7,2nd Item,3102,Banshee's Veil,-1.2517,379
+16.7,2nd Item,3115,Nashor's Tooth,0.4629,1515
+16.7,2nd Item,3135,Void Staff,-1.5387,350
+16.7,2nd Item,3137,Cryptbloom,-0.6199,110
+16.7,2nd Item,3146,Hextech Gunblade,-0.682,698
+16.7,2nd Item,3152,Hextech Rocketbelt,1.0427,779
+16.7,2nd Item,3157,Zhonya's Hourglass,-0.063,52567
+16.7,2nd Item,3165,Morellonomicon,-2.2937,178
+16.7,2nd Item,4633,Riftmaker,0.0341,197
+16.7,2nd Item,4645,Shadowflame,-0.4259,25440
+16.7,2nd Item,4646,Stormsurge,1.3821,6411
+16.7,2nd Item,6653,Liandry's Torment,0.4994,575
+16.7,2nd Item,6655,Luden's Echo,-1.761,2405
+16.7,2nd Item,8010,Bloodletter's Curse,1.105,234
+16.7,3rd Item,2503,Blackfire Torch,3.2135,138
+16.7,3rd Item,2510,Dusk and Dawn,0.7912,277
+16.7,3rd Item,3041,Mejai's Soulstealer,0.2622,5953
+16.7,3rd Item,3089,Rabadon's Deathcap,-0.2058,27539
+16.7,3rd Item,3100,Lich Bane,0.6437,3766
+16.7,3rd Item,3102,Banshee's Veil,-1.0625,630
+16.7,3rd Item,3115,Nashor's Tooth,0.2236,190
+16.7,3rd Item,3135,Void Staff,0.3224,2296
+16.7,3rd Item,3137,Cryptbloom,1.1137,711
+16.7,3rd Item,3146,Hextech Gunblade,-1.6194,375
+16.7,3rd Item,3152,Hextech Rocketbelt,3.5412,237
+16.7,3rd Item,3157,Zhonya's Hourglass,0.0551,30885
+16.7,3rd Item,3165,Morellonomicon,1.3975,391
+16.7,3rd Item,4633,Riftmaker,-0.2191,117
+16.7,3rd Item,4645,Shadowflame,-0.2448,18253
+16.7,3rd Item,4646,Stormsurge,0.5859,2472
+16.7,3rd Item,6653,Liandry's Torment,-2.2771,346
+16.7,3rd Item,6655,Luden's Echo,1.3688,1182
+16.7,3rd Item,8010,Bloodletter's Curse,-1.0817,159
+16.7,4th+ Item,2503,Blackfire Torch,0.7455,111
+16.7,4th+ Item,3041,Mejai's Soulstealer,-0.4118,4593
+16.7,4th+ Item,3089,Rabadon's Deathcap,-0.0448,17575
+16.7,4th+ Item,3100,Lich Bane,-1.0808,1048
+16.7,4th+ Item,3102,Banshee's Veil,-0.1392,2099
+16.7,4th+ Item,3135,Void Staff,-0.3185,8353
+16.7,4th+ Item,3137,Cryptbloom,1.1086,1689
+16.7,4th+ Item,3146,Hextech Gunblade,1.387,263
+16.7,4th+ Item,3152,Hextech Rocketbelt,4.4555,236
+16.7,4th+ Item,3157,Zhonya's Hourglass,0.0755,8883
+16.7,4th+ Item,3165,Morellonomicon,-0.0545,709
+16.7,4th+ Item,4629,Cosmic Drive,0.4808,152
+16.7,4th+ Item,4645,Shadowflame,0.5701,11027
+16.7,4th+ Item,4646,Stormsurge,-0.0839,4966
+16.7,4th+ Item,6653,Liandry's Torment,-5.7994,266
+16.7,4th+ Item,6655,Luden's Echo,-1.4609,714
+16.7,4th+ Item,8010,Bloodletter's Curse,-1.3497,143
+16.7,All Items,2503,Blackfire Torch,0.0859,6793
+16.7,All Items,2510,Dusk and Dawn,1.5264,7127
+16.7,All Items,3041,Mejai's Soulstealer,0.6429,18186
+16.7,All Items,3089,Rabadon's Deathcap,-0.1417,48287
+16.7,All Items,3100,Lich Bane,0.1732,116644
+16.7,All Items,3102,Banshee's Veil,-0.4436,3186
+16.7,All Items,3115,Nashor's Tooth,-0.0014,1958
+16.7,All Items,3118,Malignance,-2.3757,243
+16.7,All Items,3135,Void Staff,-0.2401,11187
+16.7,All Items,3137,Cryptbloom,0.9996,2543
+16.7,All Items,3146,Hextech Gunblade,-0.5936,4417
+16.7,All Items,3152,Hextech Rocketbelt,1.7397,3027
+16.7,All Items,3157,Zhonya's Hourglass,-0.0049,92991
+16.7,All Items,3165,Morellonomicon,0.0991,1311
+16.7,All Items,4629,Cosmic Drive,0.551,346
+16.7,All Items,4633,Riftmaker,-1.057,413
+16.7,All Items,4645,Shadowflame,-0.1677,55077
+16.7,All Items,4646,Stormsurge,0.7297,18171
+16.7,All Items,6653,Liandry's Torment,-1.4091,1675
+16.7,All Items,6655,Luden's Echo,-1.1073,32733
+16.7,All Items,8010,Bloodletter's Curse,-0.2397,543
+16.8,Keystone,8010,Conqueror,-10.7059,126
+16.8,Keystone,9923,Hail of Blades,0.3683,173
+16.8,Keystone,8005,Press the Attack,0.4958,1754
+16.8,Keystone,8437,Grasp of the Undying,3.8557,162
+16.8,Keystone,8128,Dark Harvest,0.4889,2675
+16.8,Keystone,8112,Electrocute,-0.0157,94838
+16.8,Spell,4,Flash,0.0068,99719
+16.8,Spell,12,Teleport,-2.3174,1823
+16.8,Spell,14,Ignite,0.047,98013
+16.8,Spell,21,Barrier,-1.6083,145
+16.8,Starter,1054,Doran's Shield,-3.8948,441
+16.8,Starter,1056,Doran's Ring,0.0646,94920
+16.8,Starter,1082,Dark Seal,-0.9246,4188
+16.8,Boots,3009,Boots of Swiftness,-2.3638,165
+16.8,Boots,3020,Sorcerer's Shoes,0.2122,65998
+16.8,Boots,3047,Plated Steelcaps,2.7536,1423
+16.8,Boots,3111,Mercury's Treads,-1.0456,4470
+16.8,Boots,3158,Ionian Boots of Lucidity,0.1693,26436
+16.8,1st Item,2503,Blackfire Torch,-1.1113,5920
+16.8,1st Item,2510,Dusk and Dawn,1.7763,3608
+16.8,1st Item,3041,Mejai's Soulstealer,1.8305,292
+16.8,1st Item,3100,Lich Bane,0.2438,61010
+16.8,1st Item,3115,Nashor's Tooth,4.3595,172
+16.8,1st Item,3146,Hextech Gunblade,-1.036,1908
+16.8,1st Item,3152,Hextech Rocketbelt,3.335,1786
+16.8,1st Item,3157,Zhonya's Hourglass,2.9614,487
+16.8,1st Item,4645,Shadowflame,-3.2037,122
+16.8,1st Item,4646,Stormsurge,0.9824,3037
+16.8,1st Item,6653,Liandry's Torment,-0.8531,359
+16.8,1st Item,6655,Luden's Echo,-1.1786,20440
+16.8,2nd Item,2503,Blackfire Torch,-0.2297,335
+16.8,2nd Item,2510,Dusk and Dawn,2.6147,1071
+16.8,2nd Item,3041,Mejai's Soulstealer,0.5693,5336
+16.8,2nd Item,3089,Rabadon's Deathcap,-0.5193,2179
+16.8,2nd Item,3100,Lich Bane,-0.5854,17624
+16.8,2nd Item,3102,Banshee's Veil,1.5202,259
+16.8,2nd Item,3115,Nashor's Tooth,1.0542,924
+16.8,2nd Item,3135,Void Staff,-1.2206,274
+16.8,2nd Item,3146,Hextech Gunblade,-1.7049,535
+16.8,2nd Item,3152,Hextech Rocketbelt,0.4742,774
+16.8,2nd Item,3157,Zhonya's Hourglass,0.0459,36298
+16.8,2nd Item,3165,Morellonomicon,-0.7601,162
+16.8,2nd Item,4633,Riftmaker,-1.159,184
+16.8,2nd Item,4645,Shadowflame,-0.0034,17844
+16.8,2nd Item,4646,Stormsurge,1.395,4798
+16.8,2nd Item,6653,Liandry's Torment,-1.4356,444
+16.8,2nd Item,6655,Luden's Echo,-1.013,1751
+16.8,2nd Item,8010,Bloodletter's Curse,-4.1681,164
+16.8,3rd Item,2510,Dusk and Dawn,-1.2849,192
+16.8,3rd Item,3041,Mejai's Soulstealer,-0.0336,4275
+16.8,3rd Item,3089,Rabadon's Deathcap,-0.041,19179
+16.8,3rd Item,3100,Lich Bane,1.0859,3111
+16.8,3rd Item,3102,Banshee's Veil,-2.5395,509
+16.8,3rd Item,3115,Nashor's Tooth,3.5671,131
+16.8,3rd Item,3135,Void Staff,0.0094,1597
+16.8,3rd Item,3137,Cryptbloom,-2.2403,543
+16.8,3rd Item,3146,Hextech Gunblade,1.8677,285
+16.8,3rd Item,3152,Hextech Rocketbelt,-0.0427,242
+16.8,3rd Item,3157,Zhonya's Hourglass,-0.0621,22370
+16.8,3rd Item,3165,Morellonomicon,-0.6612,298
+16.8,3rd Item,4633,Riftmaker,2.784,114
+16.8,3rd Item,4645,Shadowflame,0.0897,12628
+16.8,3rd Item,4646,Stormsurge,0.4127,1913
+16.8,3rd Item,6653,Liandry's Torment,0.4,297
+16.8,3rd Item,6655,Luden's Echo,-1.1599,844
+16.8,3rd Item,8010,Bloodletter's Curse,-0.9794,145
+16.8,4th+ Item,3041,Mejai's Soulstealer,-0.04,3357
+16.8,4th+ Item,3089,Rabadon's Deathcap,0.4125,12721
+16.8,4th+ Item,3100,Lich Bane,-1.5311,860
+16.8,4th+ Item,3102,Banshee's Veil,1.196,1475
+16.8,4th+ Item,3135,Void Staff,-0.0617,5835
+16.8,4th+ Item,3137,Cryptbloom,1.0802,1430
+16.8,4th+ Item,3146,Hextech Gunblade,-0.1543,207
+16.8,4th+ Item,3152,Hextech Rocketbelt,1.0249,185
+16.8,4th+ Item,3157,Zhonya's Hourglass,0.2321,6758
+16.8,4th+ Item,3165,Morellonomicon,-3.0391,506
+16.8,4th+ Item,4629,Cosmic Drive,0.8671,131
+16.8,4th+ Item,4645,Shadowflame,-1.0356,7765
+16.8,4th+ Item,4646,Stormsurge,0.6111,3523
+16.8,4th+ Item,6653,Liandry's Torment,-3.4188,235
+16.8,4th+ Item,6655,Luden's Echo,-0.6105,582
+16.8,4th+ Item,8010,Bloodletter's Curse,-0.2186,118
+16.8,All Items,2503,Blackfire Torch,-1.0913,6426
+16.8,All Items,2510,Dusk and Dawn,1.8509,4949
+16.8,All Items,3041,Mejai's Soulstealer,0.2457,13262
+16.8,All Items,3089,Rabadon's Deathcap,0.1036,34208
+16.8,All Items,3100,Lich Bane,0.0804,82622
+16.8,All Items,3102,Banshee's Veil,0.3625,2307
+16.8,All Items,3115,Nashor's Tooth,1.6967,1275
+16.8,All Items,3118,Malignance,-2.0142,123
+16.8,All Items,3135,Void Staff,-0.1008,7824
+16.8,All Items,3137,Cryptbloom,0.127,2077
+16.8,All Items,3146,Hextech Gunblade,-0.826,2942
+16.8,All Items,3152,Hextech Rocketbelt,2.1689,2995
+16.8,All Items,3157,Zhonya's Hourglass,0.0486,65956
+16.8,All Items,3165,Morellonomicon,-1.751,1003
+16.8,All Items,4629,Cosmic Drive,3.6145,251
+16.8,All Items,4633,Riftmaker,-0.7065,395
+16.8,All Items,4645,Shadowflame,-0.1875,38448
+16.8,All Items,4646,Stormsurge,0.9389,13342
+16.8,All Items,6653,Liandry's Torment,-1.2151,1341
+16.8,All Items,6655,Luden's Echo,-1.1477,23636
+16.8,All Items,8010,Bloodletter's Curse,-1.5148,439
+16.9,Keystone,8230,Stormraider's Surge,-5.19,183
+16.9,Keystone,8010,Conqueror,-7.7742,140
+16.9,Keystone,9923,Hail of Blades,2.9897,322
+16.9,Keystone,8005,Press the Attack,1.536,3357
+16.9,Keystone,8437,Grasp of the Undying,1.9242,120
+16.9,Keystone,8992,Deathfire Touch,0.3153,1466
+16.9,Keystone,8128,Dark Harvest,-1.1003,3494
+16.9,Keystone,8112,Electrocute,0.0127,113857
+16.9,Spell,3,Exhaust,-3.5413,168
+16.9,Spell,4,Flash,0.0041,122981
+16.9,Spell,12,Teleport,-1.8834,2011
+16.9,Spell,14,Ignite,0.0363,120865
+16.9,Spell,21,Barrier,-1.8674,180
+16.9,Starter,1054,Doran's Shield,3.7476,686
+16.9,Starter,1056,Doran's Ring,0.0766,117099
+16.9,Starter,1082,Dark Seal,-2.5272,4790
+16.9,Boots,3008,Gluttonous Greaves,1.4143,3580
+16.9,Boots,3009,Boots of Swiftness,6.7949,235
+16.9,Boots,3020,Sorcerer's Shoes,0.0667,77402
+16.9,Boots,3047,Plated Steelcaps,4.5908,1797
+16.9,Boots,3111,Mercury's Treads,0.1321,5222
+16.9,Boots,3158,Ionian Boots of Lucidity,0.6985,33300
+16.9,1st Item,2503,Blackfire Torch,-0.4455,9081
+16.9,1st Item,2510,Dusk and Dawn,2.0501,5003
+16.9,1st Item,3041,Mejai's Soulstealer,-1.5055,329
+16.9,1st Item,3087,Statikk Shiv,3.4516,193
+16.9,1st Item,3100,Lich Bane,0.3955,74332
+16.9,1st Item,3115,Nashor's Tooth,-2.521,282
+16.9,1st Item,3146,Hextech Gunblade,-0.1953,1745
+16.9,1st Item,3152,Hextech Rocketbelt,0.4184,2077
+16.9,1st Item,3157,Zhonya's Hourglass,-0.0129,628
+16.9,1st Item,4645,Shadowflame,-2.9677,196
+16.9,1st Item,4646,Stormsurge,1.3743,3518
+16.9,1st Item,6653,Liandry's Torment,1.2086,409
+16.9,1st Item,6655,Luden's Echo,-1.6476,24434
+16.9,2nd Item,2503,Blackfire Torch,-2.0972,533
+16.9,2nd Item,2510,Dusk and Dawn,1.1938,1586
+16.9,2nd Item,3041,Mejai's Soulstealer,1.6781,7127
+16.9,2nd Item,3087,Statikk Shiv,-0.3939,107
+16.9,2nd Item,3089,Rabadon's Deathcap,-0.4238,2667
+16.9,2nd Item,3100,Lich Bane,-0.8473,21099
+16.9,2nd Item,3102,Banshee's Veil,3.5723,269
+16.9,2nd Item,3115,Nashor's Tooth,4.5655,711
+16.9,2nd Item,3135,Void Staff,-4.7039,247
+16.9,2nd Item,3146,Hextech Gunblade,0.4514,516
+16.9,2nd Item,3152,Hextech Rocketbelt,1.9409,1004
+16.9,2nd Item,3157,Zhonya's Hourglass,0.0831,46216
+16.9,2nd Item,3165,Morellonomicon,-1.3594,174
+16.9,2nd Item,4633,Riftmaker,0.6111,271
+16.9,2nd Item,4645,Shadowflame,-0.1065,21838
+16.9,2nd Item,4646,Stormsurge,0.1026,4940
+16.9,2nd Item,6653,Liandry's Torment,-0.8927,484
+16.9,2nd Item,6655,Luden's Echo,-1.018,2289
+16.9,3rd Item,2503,Blackfire Torch,-1.7827,189
+16.9,3rd Item,2510,Dusk and Dawn,3.9776,298
+16.9,3rd Item,3041,Mejai's Soulstealer,0.3263,5592
+16.9,3rd Item,3089,Rabadon's Deathcap,0.1423,21331
+16.9,3rd Item,3100,Lich Bane,0.2087,4625
+16.9,3rd Item,3102,Banshee's Veil,2.5269,541
+16.9,3rd Item,3115,Nashor's Tooth,4.1004,147
+16.9,3rd Item,3135,Void Staff,-1.6524,1680
+16.9,3rd Item,3137,Cryptbloom,-1.0913,595
+16.9,3rd Item,3146,Hextech Gunblade,1.9893,308
+16.9,3rd Item,3152,Hextech Rocketbelt,-0.152,320
+16.9,3rd Item,3157,Zhonya's Hourglass,-0.1948,27500
+16.9,3rd Item,3165,Morellonomicon,-1.7517,403
+16.9,3rd Item,4633,Riftmaker,5.9072,176
+16.9,3rd Item,4645,Shadowflame,-0.007,18046
+16.9,3rd Item,4646,Stormsurge,-0.4868,2067
+16.9,3rd Item,6653,Liandry's Torment,-0.1002,342
+16.9,3rd Item,6655,Luden's Echo,0.0155,1280
+16.9,3rd Item,8010,Bloodletter's Curse,-0.3135,120
+16.9,4th+ Item,2503,Blackfire Torch,7.1692,109
+16.9,4th+ Item,3041,Mejai's Soulstealer,-0.328,4261
+16.9,4th+ Item,3089,Rabadon's Deathcap,0.0593,17188
+16.9,4th+ Item,3100,Lich Bane,-1.4467,1305
+16.9,4th+ Item,3102,Banshee's Veil,-0.773,1842
+16.9,4th+ Item,3135,Void Staff,0.5727,7311
+16.9,4th+ Item,3137,Cryptbloom,1.1489,2066
+16.9,4th+ Item,3146,Hextech Gunblade,-0.0449,227
+16.9,4th+ Item,3152,Hextech Rocketbelt,-1.8262,294
+16.9,4th+ Item,3157,Zhonya's Hourglass,-0.1824,8198
+16.9,4th+ Item,3165,Morellonomicon,0.0656,674
+16.9,4th+ Item,4629,Cosmic Drive,-0.2722,176
+16.9,4th+ Item,4633,Riftmaker,2.5557,114
+16.9,4th+ Item,4645,Shadowflame,-0.0569,9351
+16.9,4th+ Item,4646,Stormsurge,0.2468,4879
+16.9,4th+ Item,6653,Liandry's Torment,-0.7713,292
+16.9,4th+ Item,6655,Luden's Echo,-2.3528,695
+16.9,4th+ Item,8010,Bloodletter's Curse,-4.3537,145
+16.9,All Items,2503,Blackfire Torch,-0.4719,9916
+16.9,All Items,2510,Dusk and Dawn,1.8784,6985
+16.9,All Items,3041,Mejai's Soulstealer,0.6891,17313
+16.9,All Items,3087,Statikk Shiv,0.4576,371
+16.9,All Items,3089,Rabadon's Deathcap,0.0699,41358
+16.9,All Items,3100,Lich Bane,0.1058,101383
+16.9,All Items,3102,Banshee's Veil,0.151,2743
+16.9,All Items,3115,Nashor's Tooth,2.3608,1199
+16.9,All Items,3118,Malignance,-5.3736,133
+16.9,All Items,3135,Void Staff,0.0581,9405
+16.9,All Items,3137,Cryptbloom,0.9189,2797
+16.9,All Items,3146,Hextech Gunblade,0.1823,2810
+16.9,All Items,3152,Hextech Rocketbelt,0.612,3710
+16.9,All Items,3157,Zhonya's Hourglass,-0.0356,82611
+16.9,All Items,3165,Morellonomicon,-0.6966,1293
+16.9,All Items,4629,Cosmic Drive,2.211,305
+16.9,All Items,4633,Riftmaker,2.8155,610
+16.9,All Items,4645,Shadowflame,-0.0717,49576
+16.9,All Items,4646,Stormsurge,0.3626,15481
+16.9,All Items,6653,Liandry's Torment,-0.0899,1531
+16.9,All Items,6655,Luden's Echo,-1.5458,28717
+16.9,All Items,8010,Bloodletter's Curse,-1.7944,369
+16.10,Keystone,8230,Stormraider's Surge,-8.2055,139
+16.10,Keystone,8010,Conqueror,-7.9803,165
+16.10,Keystone,9923,Hail of Blades,0.665,339
+16.10,Keystone,8005,Press the Attack,-1.6292,2316
+16.10,Keystone,8437,Grasp of the Undying,-3.0395,132
+16.10,Keystone,8992,Deathfire Touch,-2.6682,830
+16.10,Keystone,8128,Dark Harvest,-0.5863,4422
+16.10,Keystone,8112,Electrocute,0.0763,168161
+16.10,Spell,1,Cleanse,2.1083,137
+16.10,Spell,3,Exhaust,-0.4031,202
+16.10,Spell,4,Flash,-0.0062,176473
+16.10,Spell,12,Teleport,-2.1986,2602
+16.10,Spell,14,Ignite,0.0393,173822
+16.10,Spell,21,Barrier,0.948,284
+16.10,Starter,1054,Doran's Shield,-4.0095,801
+16.10,Starter,1056,Doran's Ring,0.0659,168338
+16.10,Starter,1082,Dark Seal,-1.1844,6833
+16.10,Starter,1120,Doran's Helm,4.1852,128
+16.10,Boots,3008,Gluttonous Greaves,1.2385,2387
+16.10,Boots,3009,Boots of Swiftness,0.3274,313
+16.10,Boots,3020,Sorcerer's Shoes,0.2626,113286
+16.10,Boots,3047,Plated Steelcaps,3.3844,2387
+16.10,Boots,3111,Mercury's Treads,0.0837,6526
+16.10,Boots,3158,Ionian Boots of Lucidity,0.5027,49897
+16.10,1st Item,2503,Blackfire Torch,-0.5928,13880
+16.10,1st Item,2510,Dusk and Dawn,1.1025,3357
+16.10,1st Item,3041,Mejai's Soulstealer,0.4133,473
+16.10,1st Item,3100,Lich Bane,0.5168,121827
+16.10,1st Item,3115,Nashor's Tooth,2.7512,213
+16.10,1st Item,3146,Hextech Gunblade,-2.0348,1119
+16.10,1st Item,3152,Hextech Rocketbelt,0.7118,2475
+16.10,1st Item,3157,Zhonya's Hourglass,1.3533,608
+16.10,1st Item,4645,Shadowflame,-5.4551,205
+16.10,1st Item,4646,Stormsurge,0.3711,3422
+16.10,1st Item,6653,Liandry's Torment,-2.4592,349
+16.10,1st Item,6655,Luden's Echo,-2.04,27548
+16.10,2nd Item,2503,Blackfire Torch,-2.5582,761
+16.10,2nd Item,2510,Dusk and Dawn,-0.4757,992
+16.10,2nd Item,3041,Mejai's Soulstealer,1.3839,11113
+16.10,2nd Item,3089,Rabadon's Deathcap,-0.5032,3712
+16.10,2nd Item,3100,Lich Bane,0.2578,25717
+16.10,2nd Item,3102,Banshee's Veil,1.1536,392
+16.10,2nd Item,3115,Nashor's Tooth,0.4407,516
+16.10,2nd Item,3135,Void Staff,-3.101,428
+16.10,2nd Item,3137,Cryptbloom,3.7693,211
+16.10,2nd Item,3146,Hextech Gunblade,2.1331,651
+16.10,2nd Item,3152,Hextech Rocketbelt,0.9443,1333
+16.10,2nd Item,3157,Zhonya's Hourglass,-0.2212,73780
+16.10,2nd Item,3165,Morellonomicon,-4.9102,250
+16.10,2nd Item,4633,Riftmaker,-0.344,410
+16.10,2nd Item,4645,Shadowflame,-0.0829,31573
+16.10,2nd Item,4646,Stormsurge,0.797,6571
+16.10,2nd Item,6653,Liandry's Torment,-0.8937,504
+16.10,2nd Item,6655,Luden's Echo,-1.2703,2524
+16.10,2nd Item,8010,Bloodletter's Curse,-3.8497,140
+16.10,3rd Item,2503,Blackfire Torch,-2.7617,273
+16.10,3rd Item,2510,Dusk and Dawn,-0.6415,183
+16.10,3rd Item,3041,Mejai's Soulstealer,0.476,8709
+16.10,3rd Item,3089,Rabadon's Deathcap,0.2313,28070
+16.10,3rd Item,3100,Lich Bane,-0.4095,5950
+16.10,3rd Item,3102,Banshee's Veil,0.5116,750
+16.10,3rd Item,3115,Nashor's Tooth,-8.5245,125
+16.10,3rd Item,3135,Void Staff,-0.0356,2302
+16.10,3rd Item,3137,Cryptbloom,0.0639,1632
+16.10,3rd Item,3146,Hextech Gunblade,-2.7574,359
+16.10,3rd Item,3152,Hextech Rocketbelt,-0.7213,496
+16.10,3rd Item,3157,Zhonya's Hourglass,0.2068,38714
+16.10,3rd Item,3165,Morellonomicon,-0.267,504
+16.10,3rd Item,4633,Riftmaker,-3.8495,221
+16.10,3rd Item,4645,Shadowflame,-0.4385,30759
+16.10,3rd Item,4646,Stormsurge,0.8838,3398
+16.10,3rd Item,6653,Liandry's Torment,0.5263,408
+16.10,3rd Item,6655,Luden's Echo,-0.9598,1086
+16.10,3rd Item,8010,Bloodletter's Curse,0.8683,152
+16.10,4th+ Item,2503,Blackfire Torch,-3.7143,215
+16.10,4th+ Item,3041,Mejai's Soulstealer,0.3648,6653
+16.10,4th+ Item,3089,Rabadon's Deathcap,0.0988,26695
+16.10,4th+ Item,3100,Lich Bane,-0.6272,1851
+16.10,4th+ Item,3102,Banshee's Veil,0.9271,2668
+16.10,4th+ Item,3135,Void Staff,0.1059,10575
+16.10,4th+ Item,3137,Cryptbloom,0.8421,3252
+16.10,4th+ Item,3146,Hextech Gunblade,-0.7071,332
+16.10,4th+ Item,3152,Hextech Rocketbelt,1.5706,426
+16.10,4th+ Item,3157,Zhonya's Hourglass,0.0909,10921
+16.10,4th+ Item,3165,Morellonomicon,-1.1473,988
+16.10,4th+ Item,4629,Cosmic Drive,3.7747,203
+16.10,4th+ Item,4633,Riftmaker,-0.7791,104
+16.10,4th+ Item,4645,Shadowflame,-0.3321,13464
+16.10,4th+ Item,4646,Stormsurge,-0.48,7068
+16.10,4th+ Item,6653,Liandry's Torment,0.1159,334
+16.10,4th+ Item,6655,Luden's Echo,-3.0024,1089
+16.10,4th+ Item,8010,Bloodletter's Curse,1.8099,170
+16.10,All Items,2503,Blackfire Torch,-0.775,15140
+16.10,All Items,2510,Dusk and Dawn,0.7099,4605
+16.10,All Items,3026,Guardian Angel,3.2544,105
+16.10,All Items,3041,Mejai's Soulstealer,0.8212,26952
+16.10,All Items,3087,Statikk Shiv,-5.6855,176
+16.10,All Items,3089,Rabadon's Deathcap,0.1147,58734
+16.10,All Items,3100,Lich Bane,0.4241,155361
+16.10,All Items,3102,Banshee's Veil,0.8402,3922
+16.10,All Items,3115,Nashor's Tooth,-0.1624,926
+16.10,All Items,3118,Malignance,-6.7565,176
+16.10,All Items,3135,Void Staff,-0.0351,13582
+16.10,All Items,3137,Cryptbloom,0.7634,5154
+16.10,All Items,3146,Hextech Gunblade,-0.8603,2484
+16.10,All Items,3152,Hextech Rocketbelt,0.6535,4760
+16.10,All Items,3157,Zhonya's Hourglass,-0.0503,124123
+16.10,All Items,3165,Morellonomicon,-1.4623,1786
+16.10,All Items,4629,Cosmic Drive,2.197,329
+16.10,All Items,4633,Riftmaker,-1.7116,748
+16.10,All Items,4645,Shadowflame,-0.2817,76166
+16.10,All Items,4646,Stormsurge,0.3066,20560
+16.10,All Items,6653,Liandry's Torment,-0.7232,1601
+16.10,All Items,6655,Luden's Echo,-1.9756,32275
+16.10,All Items,6657,Rod of Ages,-3.4436,118
+16.10,All Items,8010,Bloodletter's Curse,0.0598,473
+16.11,Keystone,8010,Conqueror,-12.9515,147
+16.11,Keystone,9923,Hail of Blades,-8.7537,177
+16.11,Keystone,8005,Press the Attack,-0.0091,1596
+16.11,Keystone,8437,Grasp of the Undying,6.0847,148
+16.11,Keystone,8992,Deathfire Touch,-0.5368,456
+16.11,Keystone,8128,Dark Harvest,-0.005,4147
+16.11,Keystone,8112,Electrocute,0.0387,150225
+16.11,Spell,3,Exhaust,-5.2558,236
+16.11,Spell,4,Flash,0.0032,156810
+16.11,Spell,12,Teleport,-3.5861,2347
+16.11,Spell,14,Ignite,0.063,154599
+16.11,Spell,21,Barrier,0.6524,240
+16.11,Starter,1054,Doran's Shield,-3.5233,629
+16.11,Starter,1056,Doran's Ring,0.0954,149064
+16.11,Starter,1082,Dark Seal,-1.4151,6781
+16.11,Starter,1120,Doran's Helm,-9.614,177
+16.11,Boots,3008,Gluttonous Greaves,0.0,1547
+16.11,Boots,3009,Boots of Swiftness,-5.5344,208
+16.11,Boots,3020,Sorcerer's Shoes,0.3038,100087
+16.11,Boots,3047,Plated Steelcaps,0.417,2000
+16.11,Boots,3111,Mercury's Treads,-1.5876,5625
+16.11,Boots,3158,Ionian Boots of Lucidity,0.7342,45965
+16.11,1st Item,2503,Blackfire Torch,-0.755,14495
+16.11,1st Item,2510,Dusk and Dawn,0.818,2267
+16.11,1st Item,3041,Mejai's Soulstealer,0.5444,429
+16.11,1st Item,3100,Lich Bane,0.5905,106206
+16.11,1st Item,3118,Malignance,-7.1826,109
+16.11,1st Item,3146,Hextech Gunblade,1.0302,911
+16.11,1st Item,3152,Hextech Rocketbelt,0.3631,3682
+16.11,1st Item,3157,Zhonya's Hourglass,-2.4906,611
+16.11,1st Item,4645,Shadowflame,-2.6976,199
+16.11,1st Item,4646,Stormsurge,0.881,2543
+16.11,1st Item,6653,Liandry's Torment,-3.1123,310
+16.11,1st Item,6655,Luden's Echo,-2.2001,24214
+16.11,2nd Item,2503,Blackfire Torch,-0.1297,813
+16.11,2nd Item,2510,Dusk and Dawn,-0.745,633
+16.11,2nd Item,3041,Mejai's Soulstealer,0.9648,9752
+16.11,2nd Item,3089,Rabadon's Deathcap,-0.5078,3358
+16.11,2nd Item,3100,Lich Bane,-0.0697,25027
+16.11,2nd Item,3102,Banshee's Veil,0.7626,377
+16.11,2nd Item,3115,Nashor's Tooth,-3.5168,338
+16.11,2nd Item,3135,Void Staff,-4.0733,393
+16.11,2nd Item,3137,Cryptbloom,-0.1769,136
+16.11,2nd Item,3146,Hextech Gunblade,2.0364,343
+16.11,2nd Item,3152,Hextech Rocketbelt,0.1668,1685
+16.11,2nd Item,3157,Zhonya's Hourglass,-0.2159,61475
+16.11,2nd Item,3165,Morellonomicon,2.0205,255
+16.11,2nd Item,4633,Riftmaker,-2.3415,433
+16.11,2nd Item,4645,Shadowflame,0.1466,30381
+16.11,2nd Item,4646,Stormsurge,1.3594,5468
+16.11,2nd Item,6653,Liandry's Torment,1.1098,556
+16.11,2nd Item,6655,Luden's Echo,-1.4471,1988
+16.11,2nd Item,8010,Bloodletter's Curse,0.19,166
+16.11,3rd Item,2503,Blackfire Torch,-0.8974,250
+16.11,3rd Item,2510,Dusk and Dawn,-0.8591,139
+16.11,3rd Item,3041,Mejai's Soulstealer,-0.1668,7864
+16.11,3rd Item,3089,Rabadon's Deathcap,0.2184,22662
+16.11,3rd Item,3100,Lich Bane,-0.2211,5470
+16.11,3rd Item,3102,Banshee's Veil,0.8929,670
+16.11,3rd Item,3135,Void Staff,0.4818,2093
+16.11,3rd Item,3137,Cryptbloom,-0.1563,1134
+16.11,3rd Item,3146,Hextech Gunblade,-3.4014,242
+16.11,3rd Item,3152,Hextech Rocketbelt,1.7531,555
+16.11,3rd Item,3157,Zhonya's Hourglass,0.1307,36144
+16.11,3rd Item,3165,Morellonomicon,-2.7338,454
+16.11,3rd Item,4633,Riftmaker,-4.2913,264
+16.11,3rd Item,4645,Shadowflame,-0.2731,27605
+16.11,3rd Item,4646,Stormsurge,0.1581,2851
+16.11,3rd Item,6653,Liandry's Torment,1.5383,436
+16.11,3rd Item,6655,Luden's Echo,-0.2455,607
+16.11,3rd Item,8010,Bloodletter's Curse,2.08,118
+16.11,4th+ Item,2503,Blackfire Torch,1.0061,151
+16.11,4th+ Item,3041,Mejai's Soulstealer,-0.1805,5959
+16.11,4th+ Item,3089,Rabadon's Deathcap,-0.109,24714
+16.11,4th+ Item,3100,Lich Bane,-0.3735,1681
+16.11,4th+ Item,3102,Banshee's Veil,-0.2759,2484
+16.11,4th+ Item,3135,Void Staff,0.1388,9124
+16.11,4th+ Item,3137,Cryptbloom,0.9536,2620
+16.11,4th+ Item,3146,Hextech Gunblade,-2.8325,213
+16.11,4th+ Item,3152,Hextech Rocketbelt,-3.309,423
+16.11,4th+ Item,3157,Zhonya's Hourglass,-0.0358,10045
+16.11,4th+ Item,3165,Morellonomicon,1.3586,910
+16.11,4th+ Item,4629,Cosmic Drive,-4.0594,172
+16.11,4th+ Item,4633,Riftmaker,3.6449,184
+16.11,4th+ Item,4645,Shadowflame,0.2866,11052
+16.11,4th+ Item,4646,Stormsurge,0.2549,5378
+16.11,4th+ Item,6653,Liandry's Torment,0.2403,394
+16.11,4th+ Item,6655,Luden's Echo,-2.3246,756
+16.11,4th+ Item,8010,Bloodletter's Curse,-1.1433,165
+16.11,All Items,2503,Blackfire Torch,-0.7059,15713
+16.11,All Items,2510,Dusk and Dawn,0.4078,3101
+16.11,All Items,3041,Mejai's Soulstealer,0.3044,24007
+16.11,All Items,3089,Rabadon's Deathcap,-0.0033,50990
+16.11,All Items,3100,Lich Bane,0.4263,138407
+16.11,All Items,3102,Banshee's Veil,-0.0457,3648
+16.11,All Items,3115,Nashor's Tooth,-2.0091,595
+16.11,All Items,3118,Malignance,-2.3951,218
+16.11,All Items,3135,Void Staff,0.0576,11828
+16.11,All Items,3137,Cryptbloom,0.5924,3941
+16.11,All Items,3146,Hextech Gunblade,0.1835,1724
+16.11,All Items,3152,Hextech Rocketbelt,0.1942,6371
+16.11,All Items,3157,Zhonya's Hourglass,-0.0939,108366
+16.11,All Items,3165,Morellonomicon,0.2968,1666
+16.11,All Items,4629,Cosmic Drive,-2.0267,292
+16.11,All Items,4633,Riftmaker,-1.4428,903
+16.11,All Items,4645,Shadowflame,-0.0029,69371
+16.11,All Items,4646,Stormsurge,0.7055,16354
+16.11,All Items,6653,Liandry's Torment,0.2718,1708
+16.11,All Items,6655,Luden's Echo,-2.1158,27589
+16.11,All Items,8010,Bloodletter's Curse,-0.2327,457
+16.12,Keystone,8369,First Strike,-2.0727,117
+16.12,Keystone,8230,Stormraider's Surge,-1.9923,130
+16.12,Keystone,8010,Conqueror,-4.8055,168
+16.12,Keystone,9923,Hail of Blades,-3.2987,245
+16.12,Keystone,8005,Press the Attack,-1.6695,1705
+16.12,Keystone,8437,Grasp of the Undying,-1.2778,150
+16.12,Keystone,8992,Deathfire Touch,0.0158,398
+16.12,Keystone,8128,Dark Harvest,-0.0438,5049
+16.12,Keystone,8112,Electrocute,0.0492,155786
+16.12,Spell,3,Exhaust,-5.8442,201
+16.12,Spell,4,Flash,0.003,163730
+16.12,Spell,12,Teleport,-2.7293,2183
+16.12,Spell,14,Ignite,0.0427,161421
+16.12,Spell,21,Barrier,0.2363,225
+16.12,Starter,1054,Doran's Shield,-5.7461,619
+16.12,Starter,1056,Doran's Ring,0.132,155257
+16.12,Starter,1082,Dark Seal,-1.9743,7240
+16.12,Starter,1120,Doran's Helm,-1.0435,245
+16.12,Boots,3008,Gluttonous Greaves,-0.4218,1349
+16.12,Boots,3009,Boots of Swiftness,-1.807,302
+16.12,Boots,3020,Sorcerer's Shoes,0.2454,105309
+16.12,Boots,3047,Plated Steelcaps,2.0395,1882
+16.12,Boots,3111,Mercury's Treads,-0.4068,5944
+16.12,Boots,3158,Ionian Boots of Lucidity,0.7519,47402
+16.12,1st Item,2503,Blackfire Torch,-0.1158,16051
+16.12,1st Item,2510,Dusk and Dawn,1.5782,2217
+16.12,1st Item,3041,Mejai's Soulstealer,3.0554,398
+16.12,1st Item,3100,Lich Bane,0.5965,110639
+16.12,1st Item,3115,Nashor's Tooth,1.0514,146
+16.12,1st Item,3146,Hextech Gunblade,-0.3227,841
+16.12,1st Item,3152,Hextech Rocketbelt,0.5279,3524
+16.12,1st Item,3157,Zhonya's Hourglass,-0.5449,604
+16.12,1st Item,4645,Shadowflame,-4.6907,190
+16.12,1st Item,4646,Stormsurge,-2.1045,2786
+16.12,1st Item,6653,Liandry's Torment,-1.2383,294
+16.12,1st Item,6655,Luden's Echo,-2.4571,24980
+16.12,2nd Item,2503,Blackfire Torch,-1.438,922
+16.12,2nd Item,2510,Dusk and Dawn,-0.5531,535
+16.12,2nd Item,3041,Mejai's Soulstealer,1.9583,10237
+16.12,2nd Item,3089,Rabadon's Deathcap,-0.3784,3347
+16.12,2nd Item,3100,Lich Bane,-0.2033,25082
+16.12,2nd Item,3102,Banshee's Veil,2.7364,395
+16.12,2nd Item,3115,Nashor's Tooth,2.7145,427
+16.12,2nd Item,3135,Void Staff,0.6558,388
+16.12,2nd Item,3137,Cryptbloom,7.5414,128
+16.12,2nd Item,3146,Hextech Gunblade,-1.9196,252
+16.12,2nd Item,3152,Hextech Rocketbelt,-0.5525,1974
+16.12,2nd Item,3157,Zhonya's Hourglass,-0.1392,63429
+16.12,2nd Item,3165,Morellonomicon,-4.1361,249
+16.12,2nd Item,4633,Riftmaker,-0.6462,528
+16.12,2nd Item,4645,Shadowflame,-0.1156,33400
+16.12,2nd Item,4646,Stormsurge,1.1559,5327
+16.12,2nd Item,6653,Liandry's Torment,-0.1898,595
+16.12,2nd Item,6655,Luden's Echo,-1.8464,2141
+16.12,2nd Item,8010,Bloodletter's Curse,1.8999,165
+16.12,3rd Item,2503,Blackfire Torch,-1.9265,286
+16.12,3rd Item,2510,Dusk and Dawn,-2.2914,122
+16.12,3rd Item,3041,Mejai's Soulstealer,0.0703,8207
+16.12,3rd Item,3089,Rabadon's Deathcap,-0.1779,22907
+16.12,3rd Item,3100,Lich Bane,-0.1685,5930
+16.12,3rd Item,3102,Banshee's Veil,1.1103,727
+16.12,3rd Item,3135,Void Staff,-0.4791,2132
+16.12,3rd Item,3137,Cryptbloom,3.4874,1146
+16.12,3rd Item,3146,Hextech Gunblade,2.8372,103
+16.12,3rd Item,3152,Hextech Rocketbelt,-0.205,828
+16.12,3rd Item,3157,Zhonya's Hourglass,-0.0499,35651
+16.12,3rd Item,3165,Morellonomicon,-1.8643,486
+16.12,3rd Item,4633,Riftmaker,-1.9543,427
+16.12,3rd Item,4645,Shadowflame,0.1245,30890
+16.12,3rd Item,4646,Stormsurge,0.2557,2830
+16.12,3rd Item,6653,Liandry's Torment,0.456,516
+16.12,3rd Item,6655,Luden's Echo,-0.148,783
+16.12,3rd Item,8010,Bloodletter's Curse,3.6444,183
+16.12,4th+ Item,2503,Blackfire Torch,-0.2726,147
+16.12,4th+ Item,3041,Mejai's Soulstealer,-0.2788,6391
+16.12,4th+ Item,3089,Rabadon's Deathcap,0.2422,25787
+16.12,4th+ Item,3100,Lich Bane,0.3761,1774
+16.12,4th+ Item,3102,Banshee's Veil,0.2831,2443
+16.12,4th+ Item,3135,Void Staff,-0.3174,9440
+16.12,4th+ Item,3137,Cryptbloom,1.5189,2748
+16.12,4th+ Item,3146,Hextech Gunblade,6.8378,120
+16.12,4th+ Item,3152,Hextech Rocketbelt,1.0897,866
+16.12,4th+ Item,3157,Zhonya's Hourglass,-0.0511,11475
+16.12,4th+ Item,3165,Morellonomicon,-0.6463,887
+16.12,4th+ Item,4629,Cosmic Drive,1.297,195
+16.12,4th+ Item,4633,Riftmaker,2.1794,244
+16.12,4th+ Item,4645,Shadowflame,-0.5595,10833
+16.12,4th+ Item,4646,Stormsurge,-0.1703,5387
+16.12,4th+ Item,6653,Liandry's Torment,-2.6691,405
+16.12,4th+ Item,6655,Luden's Echo,0.1232,788
+16.12,4th+ Item,8010,Bloodletter's Curse,-1.0675,166
+16.12,All Items,2503,Blackfire Torch,-0.2135,17414
+16.12,All Items,2510,Dusk and Dawn,0.9108,2939
+16.12,All Items,3026,Guardian Angel,-3.1839,113
+16.12,All Items,3041,Mejai's Soulstealer,0.7985,25238
+16.12,All Items,3089,Rabadon's Deathcap,0.0113,52296
+16.12,All Items,3100,Lich Bane,0.4225,143456
+16.12,All Items,3102,Banshee's Veil,0.6222,3675
+16.12,All Items,3115,Nashor's Tooth,1.7384,711
+16.12,All Items,3118,Malignance,-4.3656,171
+16.12,All Items,3135,Void Staff,-0.2303,12228
+16.12,All Items,3137,Cryptbloom,2.2026,4077
+16.12,All Items,3146,Hextech Gunblade,0.2336,1324
+16.12,All Items,3152,Hextech Rocketbelt,0.2171,7229
+16.12,All Items,3157,Zhonya's Hourglass,-0.1047,111247
+16.12,All Items,3165,Morellonomicon,-1.7369,1680
+16.12,All Items,4629,Cosmic Drive,0.8979,332
+16.12,All Items,4633,Riftmaker,-0.475,1230
+16.12,All Items,4645,Shadowflame,-0.0947,75456
+16.12,All Items,4646,Stormsurge,-0.0215,16435
+16.12,All Items,6653,Liandry's Torment,-0.7624,1824
+16.12,All Items,6655,Luden's Echo,-2.2779,28716
+16.12,All Items,8010,Bloodletter's Curse,1.3353,530
+16.13,Keystone,8369,First Strike,-1.7427,107
+16.13,Keystone,8230,Stormraider's Surge,-1.0213,140
+16.13,Keystone,8010,Conqueror,-4.1434,190
+16.13,Keystone,9923,Hail of Blades,0.3247,409
+16.13,Keystone,8005,Press the Attack,-0.1549,2405
+16.13,Keystone,8437,Grasp of the Undying,2.2861,210
+16.13,Keystone,8992,Deathfire Touch,-2.457,435
+16.13,Keystone,8128,Dark Harvest,-0.7483,6810
+16.13,Keystone,8112,Electrocute,0.0481,211836
+16.13,Spell,3,Exhaust,-0.5462,300
+16.13,Spell,4,Flash,-0.0031,222532
+16.13,Spell,12,Teleport,-3.0421,2887
+16.13,Spell,14,Ignite,0.045,219399
+16.13,Spell,21,Barrier,-0.6902,308
+16.13,Starter,1054,Doran's Shield,-1.9202,807
+16.13,Starter,1056,Doran's Ring,0.0854,211859
+16.13,Starter,1082,Dark Seal,-1.8209,9137
+16.13,Starter,1120,Doran's Helm,3.1382,262
+16.13,Boots,3008,Gluttonous Greaves,2.3433,1502
+16.13,Boots,3009,Boots of Swiftness,-4.1216,365
+16.13,Boots,3020,Sorcerer's Shoes,0.2368,142173
+16.13,Boots,3047,Plated Steelcaps,3.1281,2637
+16.13,Boots,3111,Mercury's Treads,-0.0061,8905
+16.13,Boots,3158,Ionian Boots of Lucidity,0.615,64602
+16.13,1st Item,2503,Blackfire Torch,-0.5143,22504
+16.13,1st Item,2510,Dusk and Dawn,0.9638,3164
+16.13,1st Item,3041,Mejai's Soulstealer,-1.944,578
+16.13,1st Item,3100,Lich Bane,0.6153,153402
+16.13,1st Item,3115,Nashor's Tooth,-2.99,205
+16.13,1st Item,3146,Hextech Gunblade,2.9799,749
+16.13,1st Item,3152,Hextech Rocketbelt,-1.3842,3823
+16.13,1st Item,3157,Zhonya's Hourglass,0.0487,750
+16.13,1st Item,4645,Shadowflame,-1.3185,264
+16.13,1st Item,4646,Stormsurge,-2.3647,3288
+16.13,1st Item,6653,Liandry's Torment,-3.1003,403
+16.13,1st Item,6655,Luden's Echo,-2.1998,31906
+16.13,1st Item,6657,Rod of Ages,-7.6317,155
+16.13,2nd Item,2503,Blackfire Torch,-1.2211,1090
+16.13,2nd Item,2510,Dusk and Dawn,-0.7694,544
+16.13,2nd Item,3041,Mejai's Soulstealer,0.9165,15814
+16.13,2nd Item,3089,Rabadon's Deathcap,0.6962,4689
+16.13,2nd Item,3100,Lich Bane,-0.1997,31797
+16.13,2nd Item,3102,Banshee's Veil,-0.0253,541
+16.13,2nd Item,3115,Nashor's Tooth,1.9822,537
+16.13,2nd Item,3135,Void Staff,1.5646,503
+16.13,2nd Item,3137,Cryptbloom,-2.3637,208
+16.13,2nd Item,3146,Hextech Gunblade,-3.3255,268
+16.13,2nd Item,3152,Hextech Rocketbelt,-0.3523,2680
+16.13,2nd Item,3157,Zhonya's Hourglass,-0.1565,86351
+16.13,2nd Item,3165,Morellonomicon,-0.5363,277
+16.13,2nd Item,4633,Riftmaker,-0.5052,825
+16.13,2nd Item,4645,Shadowflame,0.0597,46089
+16.13,2nd Item,4646,Stormsurge,0.7925,6925
+16.13,2nd Item,6653,Liandry's Torment,0.775,753
+16.13,2nd Item,6655,Luden's Echo,-1.8067,2667
+16.13,2nd Item,8010,Bloodletter's Curse,-0.4915,314
+16.13,3rd Item,2503,Blackfire Torch,2.3252,286
+16.13,3rd Item,2510,Dusk and Dawn,0.0768,163
+16.13,3rd Item,3041,Mejai's Soulstealer,-0.261,11281
+16.13,3rd Item,3089,Rabadon's Deathcap,-0.1055,34096
+16.13,3rd Item,3100,Lich Bane,-0.5762,7720
+16.13,3rd Item,3102,Banshee's Veil,2.2157,1085
+16.13,3rd Item,3115,Nashor's Tooth,9.0071,107
+16.13,3rd Item,3135,Void Staff,-0.4695,3239
+16.13,3rd Item,3137,Cryptbloom,-0.5475,1481
+16.13,3rd Item,3146,Hextech Gunblade,-4.5779,103
+16.13,3rd Item,3152,Hextech Rocketbelt,-2.5329,1157
+16.13,3rd Item,3157,Zhonya's Hourglass,0.201,48124
+16.13,3rd Item,3165,Morellonomicon,-2.8169,593
+16.13,3rd Item,4633,Riftmaker,0.2653,893
+16.13,3rd Item,4645,Shadowflame,0.0654,38822
+16.13,3rd Item,4646,Stormsurge,0.8067,3922
+16.13,3rd Item,6653,Liandry's Torment,-2.5365,726
+16.13,3rd Item,6655,Luden's Echo,0.4575,802
+16.13,3rd Item,8010,Bloodletter's Curse,1.515,434
+16.13,4th+ Item,2503,Blackfire Torch,-2.3965,209
+16.13,4th+ Item,3041,Mejai's Soulstealer,-0.2876,8549
+16.13,4th+ Item,3089,Rabadon's Deathcap,0.1357,34402
+16.13,4th+ Item,3100,Lich Bane,-0.4867,2280
+16.13,4th+ Item,3102,Banshee's Veil,0.8458,3482
+16.13,4th+ Item,3135,Void Staff,0.6895,13440
+16.13,4th+ Item,3137,Cryptbloom,0.2874,3950
+16.13,4th+ Item,3152,Hextech Rocketbelt,-1.049,1195
+16.13,4th+ Item,3157,Zhonya's Hourglass,-0.1205,15814
+16.13,4th+ Item,3165,Morellonomicon,-1.8075,1121
+16.13,4th+ Item,4629,Cosmic Drive,-0.2449,235
+16.13,4th+ Item,4633,Riftmaker,-0.7257,531
+16.13,4th+ Item,4645,Shadowflame,-0.4197,15253
+16.13,4th+ Item,4646,Stormsurge,-0.0766,6805
+16.13,4th+ Item,6653,Liandry's Torment,-0.4782,650
+16.13,4th+ Item,6655,Luden's Echo,-0.9311,968
+16.13,4th+ Item,8010,Bloodletter's Curse,0.1302,427
+16.13,All Items,2503,Blackfire Torch,-0.5358,24102
+16.13,All Items,2510,Dusk and Dawn,0.7188,3949
+16.13,All Items,3041,Mejai's Soulstealer,0.2204,36231
+16.13,All Items,3089,Rabadon's Deathcap,0.0457,73558
+16.13,All Items,3100,Lich Bane,0.4229,195240
+16.13,All Items,3102,Banshee's Veil,1.101,5284
+16.13,All Items,3115,Nashor's Tooth,1.7455,909
+16.13,All Items,3118,Malignance,-1.0097,220
+16.13,All Items,3135,Void Staff,0.4872,17555
+16.13,All Items,3137,Cryptbloom,0.02,5709
+16.13,All Items,3146,Hextech Gunblade,0.6555,1229
+16.13,All Items,3152,Hextech Rocketbelt,-1.1665,8912
+16.13,All Items,3157,Zhonya's Hourglass,-0.0379,151183
+16.13,All Items,3165,Morellonomicon,-1.9423,2048
+16.13,All Items,4629,Cosmic Drive,-1.0422,421
+16.13,All Items,4633,Riftmaker,-0.1672,2292
+16.13,All Items,4645,Shadowflame,-0.0134,100632
+16.13,All Items,4646,Stormsurge,0.0193,21113
+16.13,All Items,6653,Liandry's Torment,-1.1126,2550
+16.13,All Items,6655,Luden's Echo,-2.0814,36374
+16.13,All Items,6657,Rod of Ages,-6.1067,177
+16.13,All Items,8010,Bloodletter's Curse,0.537,1187
+16.14,Keystone,8010,Conqueror,-4.5139,137
+16.14,Keystone,9923,Hail of Blades,1.6963,266
+16.14,Keystone,8005,Press the Attack,-0.6951,1270
+16.14,Keystone,8437,Grasp of the Undying,-6.0998,139
+16.14,Keystone,8992,Deathfire Touch,-4.9135,251
+16.14,Keystone,8128,Dark Harvest,-0.5002,3877
+16.14,Keystone,8112,Electrocute,0.0529,133952
+16.14,Spell,3,Exhaust,-12.3642,192
+16.14,Spell,4,Flash,0.0096,140073
+16.14,Spell,12,Teleport,-5.0447,1907
+16.14,Spell,14,Ignite,0.091,137959
+16.14,Spell,21,Barrier,-9.3635,168
+16.14,Starter,1054,Doran's Shield,-0.2164,586
+16.14,Starter,1056,Doran's Ring,0.0838,133278
+16.14,Starter,1082,Dark Seal,-1.5783,5712
+16.14,Starter,1120,Doran's Helm,-1.242,130
+16.14,Boots,3008,Gluttonous Greaves,1.7895,626
+16.14,Boots,3009,Boots of Swiftness,-4.0338,208
+16.14,Boots,3020,Sorcerer's Shoes,0.0645,87926
+16.14,Boots,3047,Plated Steelcaps,2.3426,1624
+16.14,Boots,3111,Mercury's Treads,0.3049,6317
+16.14,Boots,3158,Ionian Boots of Lucidity,0.1929,41994
+16.14,1st Item,2503,Blackfire Torch,-0.9015,16614
+16.14,1st Item,2510,Dusk and Dawn,0.7347,1782
+16.14,1st Item,3041,Mejai's Soulstealer,-1.1053,359
+16.14,1st Item,3100,Lich Bane,0.7247,95366
+16.14,1st Item,3115,Nashor's Tooth,-3.0525,104
+16.14,1st Item,3146,Hextech Gunblade,-1.2407,417
+16.14,1st Item,3152,Hextech Rocketbelt,-0.3963,1614
+16.14,1st Item,3157,Zhonya's Hourglass,-3.1231,542
+16.14,1st Item,4645,Shadowflame,0.8669,163
+16.14,1st Item,4646,Stormsurge,-0.1767,2024
+16.14,1st Item,6653,Liandry's Torment,0.1285,228
+16.14,1st Item,6655,Luden's Echo,-2.5541,19810
+16.14,2nd Item,2503,Blackfire Torch,-1.5525,731
+16.14,2nd Item,2510,Dusk and Dawn,3.5571,350
+16.14,2nd Item,3041,Mejai's Soulstealer,0.9896,9971
+16.14,2nd Item,3089,Rabadon's Deathcap,0.5134,2692
+16.14,2nd Item,3100,Lich Bane,-0.8222,19932
+16.14,2nd Item,3102,Banshee's Veil,-0.4009,310
+16.14,2nd Item,3115,Nashor's Tooth,-0.9717,239
+16.14,2nd Item,3135,Void Staff,-1.1031,307
+16.14,2nd Item,3137,Cryptbloom,4.8343,101
+16.14,2nd Item,3146,Hextech Gunblade,1.5521,130
+16.14,2nd Item,3152,Hextech Rocketbelt,0.5938,1465
+16.14,2nd Item,3157,Zhonya's Hourglass,0.0476,54919
+16.14,2nd Item,3165,Morellonomicon,0.1812,169
+16.14,2nd Item,4633,Riftmaker,0.2807,658
+16.14,2nd Item,4645,Shadowflame,-0.0734,29053
+16.14,2nd Item,4646,Stormsurge,1.8768,4195
+16.14,2nd Item,6653,Liandry's Torment,-0.8952,517
+16.14,2nd Item,6655,Luden's Echo,-0.7241,1729
+16.14,2nd Item,8010,Bloodletter's Curse,-3.5364,438
+16.14,3rd Item,2503,Blackfire Torch,-3.8779,216
+16.14,3rd Item,3041,Mejai's Soulstealer,-0.1322,7007
+16.14,3rd Item,3089,Rabadon's Deathcap,0.115,20986
+16.14,3rd Item,3100,Lich Bane,0.6255,5259
+16.14,3rd Item,3102,Banshee's Veil,0.7007,587
+16.14,3rd Item,3135,Void Staff,-1.5678,2084
+16.14,3rd Item,3137,Cryptbloom,-0.5274,947
+16.14,3rd Item,3152,Hextech Rocketbelt,0.8452,632
+16.14,3rd Item,3157,Zhonya's Hourglass,0.1651,29402
+16.14,3rd Item,3165,Morellonomicon,0.4981,391
+16.14,3rd Item,4633,Riftmaker,-0.1994,692
+16.14,3rd Item,4645,Shadowflame,-0.1853,26045
+16.14,3rd Item,4646,Stormsurge,0.6206,2101
+16.14,3rd Item,6653,Liandry's Torment,-3.9747,454
+16.14,3rd Item,6655,Luden's Echo,1.289,543
+16.14,3rd Item,8010,Bloodletter's Curse,0.2508,600
+16.14,4th+ Item,2503,Blackfire Torch,1.3341,171
+16.14,4th+ Item,3041,Mejai's Soulstealer,0.0214,5716
+16.14,4th+ Item,3089,Rabadon's Deathcap,0.1016,21756
+16.14,4th+ Item,3100,Lich Bane,-0.0876,1621
+16.14,4th+ Item,3102,Banshee's Veil,1.1663,2256
+16.14,4th+ Item,3135,Void Staff,0.5826,8594
+16.14,4th+ Item,3137,Cryptbloom,0.3487,2499
+16.14,4th+ Item,3152,Hextech Rocketbelt,-3.6355,719
+16.14,4th+ Item,3157,Zhonya's Hourglass,0.0034,10474
+16.14,4th+ Item,3165,Morellonomicon,-0.839,743
+16.14,4th+ Item,4629,Cosmic Drive,-4.2125,136
+16.14,4th+ Item,4633,Riftmaker,-0.776,577
+16.14,4th+ Item,4645,Shadowflame,0.1074,9491
+16.14,4th+ Item,4646,Stormsurge,-0.7014,3140
+16.14,4th+ Item,6653,Liandry's Torment,-3.4423,472
+16.14,4th+ Item,6655,Luden's Echo,-1.4662,724
+16.14,4th+ Item,8010,Bloodletter's Curse,-2.2407,515
+16.14,All Items,2503,Blackfire Torch,-0.9389,17737
+16.14,All Items,2510,Dusk and Dawn,0.7543,2265
+16.14,All Items,3041,Mejai's Soulstealer,0.3757,23057
+16.14,All Items,3089,Rabadon's Deathcap,0.1243,45670
+16.14,All Items,3100,Lich Bane,0.4581,122206
+16.14,All Items,3102,Banshee's Veil,0.9452,3275
+16.14,All Items,3115,Nashor's Tooth,-2.0538,448
+16.14,All Items,3118,Malignance,-5.4951,160
+16.14,All Items,3135,Void Staff,0.1203,11243
+16.14,All Items,3137,Cryptbloom,0.3519,3599
+16.14,All Items,3146,Hextech Gunblade,-0.5196,663
+16.14,All Items,3152,Hextech Rocketbelt,-0.3922,4461
+16.14,All Items,3157,Zhonya's Hourglass,0.0613,95420
+16.14,All Items,3165,Morellonomicon,-0.4192,1343
+16.14,All Items,4629,Cosmic Drive,-2.6739,270
+16.14,All Items,4633,Riftmaker,-0.0665,1961
+16.14,All Items,4645,Shadowflame,-0.0962,64893
+16.14,All Items,4646,Stormsurge,0.5051,11552
+16.14,All Items,6653,Liandry's Torment,-2.3008,1690
+16.14,All Items,6655,Luden's Echo,-2.2911,22831
+16.14,All Items,8010,Bloodletter's Curse,-1.5256,1571
+16.15,Keystone,8010,Conqueror,-3.4459,146
+16.15,Keystone,9923,Hail of Blades,-1.8203,249
+16.15,Keystone,8005,Press the Attack,-1.6948,1473
+16.15,Keystone,8437,Grasp of the Undying,-6.9696,128
+16.15,Keystone,8992,Deathfire Touch,1.2822,196
+16.15,Keystone,8128,Dark Harvest,-0.478,3966
+16.15,Keystone,8112,Electrocute,0.0538,138250
+16.15,Spell,3,Exhaust,-7.2368,216
+16.15,Spell,4,Flash,0.0037,144508
+16.15,Spell,12,Teleport,-5.0192,1898
+16.15,Spell,14,Ignite,0.0831,142470
+16.15,Spell,21,Barrier,-6.672,179
+16.15,Starter,1054,Doran's Shield,-0.0957,497
+16.15,Starter,1056,Doran's Ring,0.0581,137856
+16.15,Starter,1082,Dark Seal,-0.9005,5688
+16.15,Boots,3008,Gluttonous Greaves,-1.4952,501
+16.15,Boots,3009,Boots of Swiftness,-1.4385,246
+16.15,Boots,3020,Sorcerer's Shoes,0.313,90271
+16.15,Boots,3047,Plated Steelcaps,2.1293,1839
+16.15,Boots,3111,Mercury's Treads,1.0536,6707
+16.15,Boots,3158,Ionian Boots of Lucidity,0.5168,43350
+16.15,1st Item,2503,Blackfire Torch,-0.5076,17005
+16.15,1st Item,2510,Dusk and Dawn,-0.0614,1911
+16.15,1st Item,3041,Mejai's Soulstealer,2.3841,397
+16.15,1st Item,3100,Lich Bane,0.4866,99056
+16.15,1st Item,3115,Nashor's Tooth,-5.0651,106
+16.15,1st Item,3146,Hextech Gunblade,-2.1056,400
+16.15,1st Item,3152,Hextech Rocketbelt,-1.869,1300
+16.15,1st Item,3157,Zhonya's Hourglass,0.2307,510
+16.15,1st Item,4645,Shadowflame,-0.4667,182
+16.15,1st Item,4646,Stormsurge,-0.2632,1999
+16.15,1st Item,6653,Liandry's Torment,5.6992,244
+16.15,1st Item,6655,Luden's Echo,-1.7929,20421
+16.15,2nd Item,2503,Blackfire Torch,0.1554,700
+16.15,2nd Item,2510,Dusk and Dawn,3.7738,357
+16.15,2nd Item,3041,Mejai's Soulstealer,0.9144,10428
+16.15,2nd Item,3089,Rabadon's Deathcap,0.7554,2980
+16.15,2nd Item,3100,Lich Bane,-0.1962,20363
+16.15,2nd Item,3102,Banshee's Veil,2.9991,344
+16.15,2nd Item,3115,Nashor's Tooth,0.146,308
+16.15,2nd Item,3135,Void Staff,2.6882,359
+16.15,2nd Item,3137,Cryptbloom,1.3535,166
+16.15,2nd Item,3146,Hextech Gunblade,-0.8734,120
+16.15,2nd Item,3152,Hextech Rocketbelt,-0.6344,1260
+16.15,2nd Item,3157,Zhonya's Hourglass,-0.1768,55509
+16.15,2nd Item,3165,Morellonomicon,-2.5276,150
+16.15,2nd Item,4633,Riftmaker,-1.3069,570
+16.15,2nd Item,4645,Shadowflame,-0.0876,31579
+16.15,2nd Item,4646,Stormsurge,1.3161,4456
+16.15,2nd Item,6653,Liandry's Torment,-0.0652,454
+16.15,2nd Item,6655,Luden's Echo,-1.997,1744
+16.15,2nd Item,8010,Bloodletter's Curse,0.443,350
+16.15,3rd Item,2503,Blackfire Torch,0.1199,206
+16.15,3rd Item,3041,Mejai's Soulstealer,1.0093,7373
+16.15,3rd Item,3089,Rabadon's Deathcap,-0.3142,21145
+16.15,3rd Item,3100,Lich Bane,-0.0162,5342
+16.15,3rd Item,3102,Banshee's Veil,0.57,630
+16.15,3rd Item,3135,Void Staff,0.4275,2126
+16.15,3rd Item,3137,Cryptbloom,2.3945,1060
+16.15,3rd Item,3152,Hextech Rocketbelt,-1.8688,594
+16.15,3rd Item,3157,Zhonya's Hourglass,-0.0455,31424
+16.15,3rd Item,3165,Morellonomicon,-0.8264,390
+16.15,3rd Item,4633,Riftmaker,-0.5835,634
+16.15,3rd Item,4645,Shadowflame,-0.0105,26491
+16.15,3rd Item,4646,Stormsurge,0.6716,2398
+16.15,3rd Item,6653,Liandry's Torment,-0.5511,417
+16.15,3rd Item,6655,Luden's Echo,-1.1477,550
+16.15,3rd Item,8010,Bloodletter's Curse,-3.3216,491
+16.15,4th+ Item,2503,Blackfire Torch,-3.6347,127
+16.15,4th+ Item,3041,Mejai's Soulstealer,-0.3437,5699
+16.15,4th+ Item,3089,Rabadon's Deathcap,-0.2603,22640
+16.15,4th+ Item,3100,Lich Bane,0.0069,1786
+16.15,4th+ Item,3102,Banshee's Veil,0.8861,2438
+16.15,4th+ Item,3135,Void Staff,0.2074,8883
+16.15,4th+ Item,3137,Cryptbloom,0.7322,2571
+16.15,4th+ Item,3152,Hextech Rocketbelt,1.1306,608
+16.15,4th+ Item,3157,Zhonya's Hourglass,-0.1238,10816
+16.15,4th+ Item,3165,Morellonomicon,-2.6462,744
+16.15,4th+ Item,4629,Cosmic Drive,4.2253,159
+16.15,4th+ Item,4633,Riftmaker,2.0056,471
+16.15,4th+ Item,4645,Shadowflame,0.3407,9929
+16.15,4th+ Item,4646,Stormsurge,-0.0345,3108
+16.15,4th+ Item,6653,Liandry's Torment,-1.4074,424
+16.15,4th+ Item,6655,Luden's Echo,-0.8361,739
+16.15,4th+ Item,8010,Bloodletter's Curse,-0.5448,506
+16.15,All Items,2503,Blackfire Torch,-0.4974,18043
+16.15,All Items,2510,Dusk and Dawn,0.7566,2403
+16.15,All Items,3041,Mejai's Soulstealer,0.6661,23907
+16.15,All Items,3089,Rabadon's Deathcap,-0.2096,46999
+16.15,All Items,3100,Lich Bane,0.3499,126565
+16.15,All Items,3102,Banshee's Veil,1.027,3515
+16.15,All Items,3115,Nashor's Tooth,-1.3732,518
+16.15,All Items,3118,Malignance,-0.5319,149
+16.15,All Items,3135,Void Staff,0.3294,11606
+16.15,All Items,3137,Cryptbloom,1.1569,3839
+16.15,All Items,3146,Hextech Gunblade,-1.0112,635
+16.15,All Items,3152,Hextech Rocketbelt,-0.9693,3797
+16.15,All Items,3157,Zhonya's Hourglass,-0.1273,98332
+16.15,All Items,3165,Morellonomicon,-2.1376,1317
+16.15,All Items,4629,Cosmic Drive,3.3173,274
+16.15,All Items,4633,Riftmaker,-0.0386,1710
+16.15,All Items,4645,Shadowflame,0.0047,68295
+16.15,All Items,4646,Stormsurge,0.5463,12080
+16.15,All Items,6653,Liandry's Torment,0.3975,1548
+16.15,All Items,6655,Luden's Echo,-1.7557,23475
+16.15,All Items,8010,Bloodletter's Curse,-1.3787,1357
+16.16,Keystone,8005,Press the Attack,-1.6999,612
+16.16,Keystone,8128,Dark Harvest,-0.0329,1691
+16.16,Keystone,8112,Electrocute,0.0331,57679
+16.16,Spell,4,Flash,0.0017,60307
+16.16,Spell,12,Teleport,-3.005,777
+16.16,Spell,14,Ignite,0.0506,59482
+16.16,Starter,1054,Doran's Shield,-0.4973,246
+16.16,Starter,1056,Doran's Ring,0.1116,57295
+16.16,Starter,1082,Dark Seal,-2.3329,2579
+16.16,Boots,3008,Gluttonous Greaves,-0.1046,170
+16.16,Boots,3009,Boots of Swiftness,-1.446,106
+16.16,Boots,3020,Sorcerer's Shoes,0.5206,39247
+16.16,Boots,3047,Plated Steelcaps,1.4008,742
+16.16,Boots,3111,Mercury's Treads,0.0564,2454
+16.16,Boots,3158,Ionian Boots of Lucidity,-0.2491,16864
+16.16,1st Item,2503,Blackfire Torch,-0.8009,6938
+16.16,1st Item,2510,Dusk and Dawn,-0.5467,789
+16.16,1st Item,3041,Mejai's Soulstealer,-1.0048,173
+16.16,1st Item,3100,Lich Bane,0.6283,41545
+16.16,1st Item,3146,Hextech Gunblade,2.578,191
+16.16,1st Item,3152,Hextech Rocketbelt,0.2132,563
+16.16,1st Item,3157,Zhonya's Hourglass,-0.4868,225
+16.16,1st Item,4646,Stormsurge,-0.2986,952
+16.16,1st Item,6655,Luden's Echo,-2.4207,8263
+16.16,2nd Item,2503,Blackfire Torch,-3.5176,284
+16.16,2nd Item,2510,Dusk and Dawn,0.4195,176
+16.16,2nd Item,3041,Mejai's Soulstealer,1.1626,3851
+16.16,2nd Item,3089,Rabadon's Deathcap,1.3005,1206
+16.16,2nd Item,3100,Lich Bane,-0.8721,8610
+16.16,2nd Item,3102,Banshee's Veil,0.6744,155
+16.16,2nd Item,3115,Nashor's Tooth,5.0023,141
+16.16,2nd Item,3135,Void Staff,-2.9088,129
+16.16,2nd Item,3152,Hextech Rocketbelt,1.0415,511
+16.16,2nd Item,3157,Zhonya's Hourglass,-0.3697,22500
+16.16,2nd Item,4633,Riftmaker,0.1315,211
+16.16,2nd Item,4645,Shadowflame,-0.1241,12673
+16.16,2nd Item,4646,Stormsurge,2.4588,3188
+16.16,2nd Item,6653,Liandry's Torment,3.3682,244
+16.16,2nd Item,6655,Luden's Echo,2.8189,681
+16.16,2nd Item,8010,Bloodletter's Curse,0.6966,142
+16.16,3rd Item,3041,Mejai's Soulstealer,0.2363,3133
+16.16,3rd Item,3089,Rabadon's Deathcap,-0.0179,8675
+16.16,3rd Item,3100,Lich Bane,0.0189,2108
+16.16,3rd Item,3102,Banshee's Veil,2.386,268
+16.16,3rd Item,3135,Void Staff,0.3479,825
+16.16,3rd Item,3137,Cryptbloom,1.3546,438
+16.16,3rd Item,3152,Hextech Rocketbelt,-1.5416,250
+16.16,3rd Item,3157,Zhonya's Hourglass,-0.0798,12760
+16.16,3rd Item,3165,Morellonomicon,3.0929,158
+16.16,3rd Item,4633,Riftmaker,-4.0636,205
+16.16,3rd Item,4645,Shadowflame,-0.0652,11047
+16.16,3rd Item,4646,Stormsurge,0.9947,1032
+16.16,3rd Item,6653,Liandry's Torment,0.5652,147
+16.16,3rd Item,6655,Luden's Echo,-1.0047,234
+16.16,3rd Item,8010,Bloodletter's Curse,0.5878,174
+16.16,4th+ Item,3041,Mejai's Soulstealer,-1.127,2412
+16.16,4th+ Item,3089,Rabadon's Deathcap,0.0071,8976
+16.16,4th+ Item,3100,Lich Bane,-0.9044,669
+16.16,4th+ Item,3102,Banshee's Veil,0.6795,926
+16.16,4th+ Item,3135,Void Staff,0.0503,3470
+16.16,4th+ Item,3137,Cryptbloom,0.733,1036
+16.16,4th+ Item,3152,Hextech Rocketbelt,-1.0073,243
+16.16,4th+ Item,3157,Zhonya's Hourglass,0.1539,4452
+16.16,4th+ Item,3165,Morellonomicon,3.2313,301
+16.16,4th+ Item,4633,Riftmaker,-5.4066,142
+16.16,4th+ Item,4645,Shadowflame,0.6461,3984
+16.16,4th+ Item,4646,Stormsurge,-0.9703,1143
+16.16,4th+ Item,6653,Liandry's Torment,0.4567,148
+16.16,4th+ Item,6655,Luden's Echo,0.5614,278
+16.16,4th+ Item,8010,Bloodletter's Curse,-4.0521,175
+16.16,All Items,2503,Blackfire Torch,-0.9138,7367
+16.16,All Items,2510,Dusk and Dawn,-0.5789,1011
+16.16,All Items,3041,Mejai's Soulstealer,0.2425,9571
+16.16,All Items,3089,Rabadon's Deathcap,0.0732,18954
+16.16,All Items,3100,Lich Bane,0.3407,52942
+16.16,All Items,3102,Banshee's Veil,1.0534,1386
+16.16,All Items,3115,Nashor's Tooth,2.3599,244
+16.16,All Items,3135,Void Staff,0.0138,4499
+16.16,All Items,3137,Cryptbloom,1.1988,1544
+16.16,All Items,3146,Hextech Gunblade,1.3208,285
+16.16,All Items,3152,Hextech Rocketbelt,0.0208,1581
+16.16,All Items,3157,Zhonya's Hourglass,-0.2175,39970
+16.16,All Items,3165,Morellonomicon,3.7888,554
+16.16,All Items,4629,Cosmic Drive,0.6293,102
+16.16,All Items,4633,Riftmaker,-2.971,570
+16.16,All Items,4645,Shadowflame,0.0076,27808
+16.16,All Items,4646,Stormsurge,1.1745,6354
+16.16,All Items,6653,Liandry's Torment,0.7682,638
+16.16,All Items,6655,Luden's Echo,-1.9195,9467
+16.16,All Items,8010,Bloodletter's Curse,-1.134,497
+16.17,Keystone,8005,Press the Attack,-4.9308,840
+16.17,Keystone,8992,Deathfire Touch,-0.1971,115
+16.17,Keystone,8128,Dark Harvest,0.1547,1911
+16.17,Keystone,8112,Electrocute,0.0754,65550
+16.17,Spell,3,Exhaust,-6.268,107
+16.17,Spell,4,Flash,0.0038,68744
+16.17,Spell,12,Teleport,-3.0329,917
+16.17,Spell,14,Ignite,0.0505,67729
+16.17,Starter,1054,Doran's Shield,-4.4261,247
+16.17,Starter,1056,Doran's Ring,0.0716,65566
+16.17,Starter,1082,Dark Seal,-0.5292,2675
+16.17,Boots,3008,Gluttonous Greaves,-4.5081,200
+16.17,Boots,3020,Sorcerer's Shoes,0.5051,45338
+16.17,Boots,3047,Plated Steelcaps,1.9087,804
+16.17,Boots,3111,Mercury's Treads,-0.0309,2726
+16.17,Boots,3158,Ionian Boots of Lucidity,0.2964,18771
+16.17,1st Item,2503,Blackfire Torch,-0.9797,7809
+16.17,1st Item,2510,Dusk and Dawn,0.1143,986
+16.17,1st Item,3041,Mejai's Soulstealer,2.404,188
+16.17,1st Item,3100,Lich Bane,0.5965,47605
+16.17,1st Item,3146,Hextech Gunblade,5.1124,140
+16.17,1st Item,3152,Hextech Rocketbelt,0.1762,504
+16.17,1st Item,3157,Zhonya's Hourglass,-4.0428,254
+16.17,1st Item,4646,Stormsurge,-0.6118,979
+16.17,1st Item,6653,Liandry's Torment,-5.3069,111
+16.17,1st Item,6655,Luden's Echo,-1.8897,9487
+16.17,2nd Item,2503,Blackfire Torch,2.416,312
+16.17,2nd Item,2510,Dusk and Dawn,-6.9996,226
+16.17,2nd Item,3041,Mejai's Soulstealer,1.2814,4334
+16.17,2nd Item,3089,Rabadon's Deathcap,-0.7047,1398
+16.17,2nd Item,3100,Lich Bane,-0.6459,9344
+16.17,2nd Item,3102,Banshee's Veil,3.7079,159
+16.17,2nd Item,3115,Nashor's Tooth,-3.3964,189
+16.17,2nd Item,3135,Void Staff,-1.5506,149
+16.17,2nd Item,3152,Hextech Rocketbelt,1.8535,379
+16.17,2nd Item,3157,Zhonya's Hourglass,-0.1485,25835
+16.17,2nd Item,4633,Riftmaker,-2.3864,197
+16.17,2nd Item,4645,Shadowflame,0.225,14279
+16.17,2nd Item,4646,Stormsurge,0.9083,4604
+16.17,2nd Item,6653,Liandry's Torment,-2.6097,248
+16.17,2nd Item,6655,Luden's Echo,-0.0616,795
+16.17,2nd Item,8010,Bloodletter's Curse,1.1029,152
+16.17,3rd Item,3041,Mejai's Soulstealer,0.1551,3571
+16.17,3rd Item,3089,Rabadon's Deathcap,0.0892,10427
+16.17,3rd Item,3100,Lich Bane,0.0748,2326
+16.17,3rd Item,3102,Banshee's Veil,-0.1553,271
+16.17,3rd Item,3135,Void Staff,-0.5108,939
+16.17,3rd Item,3137,Cryptbloom,0.2748,470
+16.17,3rd Item,3152,Hextech Rocketbelt,2.256,221
+16.17,3rd Item,3157,Zhonya's Hourglass,0.1213,14320
+16.17,3rd Item,3165,Morellonomicon,-0.6625,169
+16.17,3rd Item,4633,Riftmaker,1.038,184
+16.17,3rd Item,4645,Shadowflame,-0.1524,12474
+16.17,3rd Item,4646,Stormsurge,0.5858,1158
+16.17,3rd Item,6653,Liandry's Torment,-4.7666,191
+16.17,3rd Item,6655,Luden's Echo,-0.2269,327
+16.17,3rd Item,8010,Bloodletter's Curse,-2.3393,192
+16.17,4th+ Item,3041,Mejai's Soulstealer,-1.7579,2573
+16.17,4th+ Item,3089,Rabadon's Deathcap,0.0976,10150
+16.17,4th+ Item,3100,Lich Bane,0.6509,755
+16.17,4th+ Item,3102,Banshee's Veil,1.8979,1037
+16.17,4th+ Item,3135,Void Staff,0.4741,3832
+16.17,4th+ Item,3137,Cryptbloom,0.9815,1105
+16.17,4th+ Item,3152,Hextech Rocketbelt,-2.144,251
+16.17,4th+ Item,3157,Zhonya's Hourglass,0.2165,4986
+16.17,4th+ Item,3165,Morellonomicon,0.7566,328
+16.17,4th+ Item,4633,Riftmaker,1.8004,122
+16.17,4th+ Item,4645,Shadowflame,-0.9021,4608
+16.17,4th+ Item,4646,Stormsurge,0.0076,1799
+16.17,4th+ Item,6653,Liandry's Torment,2.6759,157
+16.17,4th+ Item,6655,Luden's Echo,4.9466,295
+16.17,4th+ Item,8010,Bloodletter's Curse,-2.439,167
+16.17,All Items,2503,Blackfire Torch,-0.87,8290
+16.17,All Items,2510,Dusk and Dawn,-0.9096,1285
+16.17,All Items,3041,Mejai's Soulstealer,0.1909,10667
+16.17,All Items,3089,Rabadon's Deathcap,0.0404,22065
+16.17,All Items,3100,Lich Bane,0.3868,60044
+16.17,All Items,3102,Banshee's Veil,1.5604,1532
+16.17,All Items,3115,Nashor's Tooth,-3.1647,295
+16.17,All Items,3118,Malignance,-2.3908,121
+16.17,All Items,3135,Void Staff,0.2796,5035
+16.17,All Items,3137,Cryptbloom,0.9531,1660
+16.17,All Items,3146,Hextech Gunblade,1.4525,224
+16.17,All Items,3152,Hextech Rocketbelt,0.5141,1366
+16.17,All Items,3157,Zhonya's Hourglass,-0.0482,45427
+16.17,All Items,3165,Morellonomicon,-0.5011,587
+16.17,All Items,4633,Riftmaker,-0.5744,521
+16.17,All Items,4645,Shadowflame,-0.0816,31497
+16.17,All Items,4646,Stormsurge,0.5026,8574
+16.17,All Items,6653,Liandry's Torment,-2.4157,710
+16.17,All Items,6655,Luden's Echo,-1.5241,10916
+16.17,All Items,8010,Bloodletter's Curse,-1.6022,516

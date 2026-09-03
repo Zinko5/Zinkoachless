@@ -1,0 +1,1657 @@
+﻿patch,category,id,name,wpa,sample_size
+16.1,Keystone,8230,Stormraider's Surge,-8.767,296
+16.1,Keystone,9923,Hail of Blades,-1.5334,1607
+16.1,Keystone,8465,Guardian,-1.3743,10488
+16.1,Keystone,8008,Lethal Tempo,-8.1222,152
+16.1,Keystone,8360,Unsealed Spellbook,-1.2527,806
+16.1,Keystone,8437,Grasp of the Undying,0.819,31222
+16.1,Keystone,8229,Arcane Comet,-3.7603,196
+16.1,Keystone,8439,Aftershock,-2.2784,297
+16.1,Spell,3,Exhaust,-0.0944,9060
+16.1,Spell,4,Flash,0.0195,44721
+16.1,Spell,6,Ghost,-0.753,661
+16.1,Spell,7,Heal,-0.2683,4394
+16.1,Spell,12,Teleport,0.8407,188
+16.1,Spell,14,Ignite,0.0427,31492
+16.1,Starter,3865,World Atlas,0.0,45284
+16.1,Boots,3009,Boots of Swiftness,-0.0473,5302
+16.1,Boots,3047,Plated Steelcaps,0.045,22499
+16.1,Boots,3111,Mercury's Treads,0.0504,12781
+16.1,Boots,3158,Ionian Boots of Lucidity,-1.4838,409
+16.1,2nd Item,2502,Unending Despair,1.2269,513
+16.1,2nd Item,2510,Dusk and Dawn,-0.9809,1151
+16.1,2nd Item,2524,Bandlepipes,-0.1604,6542
+16.1,2nd Item,2525,Protoplasm Harness,-0.6416,682
+16.1,2nd Item,3065,Spirit Visage,2.9583,113
+16.1,2nd Item,3068,Sunfire Aegis,-4.5358,148
+16.1,2nd Item,3075,Thornmail,-2.2121,552
+16.1,2nd Item,3083,Warmog's Armor,2.6741,288
+16.1,2nd Item,3084,Heartsteel,0.3651,28864
+16.1,2nd Item,3109,Knight's Vow,5.7475,165
+16.1,2nd Item,3190,Locket of the Iron Solari,-2.2104,3673
+16.1,3rd Item,2502,Unending Despair,0.8306,5607
+16.1,3rd Item,2504,Kaenic Rookern,0.8127,386
+16.1,3rd Item,2510,Dusk and Dawn,0.3162,1017
+16.1,3rd Item,2524,Bandlepipes,1.1782,3927
+16.1,3rd Item,2525,Protoplasm Harness,1.4639,1696
+16.1,3rd Item,3050,Zeke's Convergence,-6.8395,138
+16.1,3rd Item,3065,Spirit Visage,-0.4127,3811
+16.1,3rd Item,3068,Sunfire Aegis,-1.228,454
+16.1,3rd Item,3075,Thornmail,-0.8013,7780
+16.1,3rd Item,3083,Warmog's Armor,2.1163,1018
+16.1,3rd Item,3084,Heartsteel,-0.9325,1536
+16.1,3rd Item,3107,Redemption,-2.3779,135
+16.1,3rd Item,3109,Knight's Vow,-1.8106,851
+16.1,3rd Item,3110,Frozen Heart,-0.0326,434
+16.1,3rd Item,3143,Randuin's Omen,0.8519,592
+16.1,3rd Item,3190,Locket of the Iron Solari,0.4552,2495
+16.1,3rd Item,3222,Mikael's Blessing,-3.8845,128
+16.1,3rd Item,3742,Dead Man's Plate,-3.7387,173
+16.1,3rd Item,4401,Force of Nature,-1.0034,170
+16.1,3rd Item,4633,Riftmaker,0.1524,370
+16.1,3rd Item,6664,Hollow Radiance,-4.0169,215
+16.1,3rd Item,6665,"Jak'Sho, The Protean",0.3439,235
+16.1,3rd Item,8020,Abyssal Mask,2.4095,110
+16.1,4th+ Item,2502,Unending Despair,-0.151,2150
+16.1,4th+ Item,2504,Kaenic Rookern,-1.9137,474
+16.1,4th+ Item,2510,Dusk and Dawn,-0.4792,210
+16.1,4th+ Item,2524,Bandlepipes,1.8492,641
+16.1,4th+ Item,2525,Protoplasm Harness,-0.8273,953
+16.1,4th+ Item,3065,Spirit Visage,0.1213,3745
+16.1,4th+ Item,3068,Sunfire Aegis,0.4359,348
+16.1,4th+ Item,3075,Thornmail,0.591,3541
+16.1,4th+ Item,3083,Warmog's Armor,0.3816,478
+16.1,4th+ Item,3107,Redemption,3.4084,114
+16.1,4th+ Item,3109,Knight's Vow,0.0034,783
+16.1,4th+ Item,3110,Frozen Heart,-0.2534,454
+16.1,4th+ Item,3143,Randuin's Omen,0.9677,698
+16.1,4th+ Item,3190,Locket of the Iron Solari,-0.8865,1228
+16.1,4th+ Item,4401,Force of Nature,0.2737,216
+16.1,4th+ Item,4633,Riftmaker,2.4571,298
+16.1,4th+ Item,6664,Hollow Radiance,-3.895,156
+16.1,4th+ Item,6665,"Jak'Sho, The Protean",-2.0584,381
+16.1,4th+ Item,8020,Abyssal Mask,-0.539,166
+16.1,All Items,2502,Unending Despair,0.5997,8274
+16.1,All Items,2504,Kaenic Rookern,-0.6489,899
+16.1,All Items,2510,Dusk and Dawn,-0.3815,2380
+16.1,All Items,2524,Bandlepipes,0.4286,11111
+16.1,All Items,2525,Protoplasm Harness,0.364,3336
+16.1,All Items,3002,Trailblazer,-4.9801,246
+16.1,All Items,3050,Zeke's Convergence,-1.9886,262
+16.1,All Items,3065,Spirit Visage,-0.0952,7676
+16.1,All Items,3068,Sunfire Aegis,-1.1338,950
+16.1,All Items,3075,Thornmail,-0.4512,11884
+16.1,All Items,3083,Warmog's Armor,1.7408,1792
+16.1,All Items,3084,Heartsteel,0.2856,30495
+16.1,All Items,3107,Redemption,-0.8878,293
+16.1,All Items,3109,Knight's Vow,-0.3277,1800
+16.1,All Items,3110,Frozen Heart,0.069,968
+16.1,All Items,3143,Randuin's Omen,0.9564,1376
+16.1,All Items,3190,Locket of the Iron Solari,-1.0913,7396
+16.1,All Items,3222,Mikael's Blessing,-2.6833,249
+16.1,All Items,3742,Dead Man's Plate,-1.1067,341
+16.1,All Items,3748,Titanic Hydra,-3.817,129
+16.1,All Items,4401,Force of Nature,0.2161,407
+16.1,All Items,4633,Riftmaker,0.9843,696
+16.1,All Items,6664,Hollow Radiance,-3.9511,423
+16.1,All Items,6665,"Jak'Sho, The Protean",-1.0285,645
+16.1,All Items,8020,Abyssal Mask,0.8462,293
+16.2,Keystone,8230,Stormraider's Surge,-3.5859,583
+16.2,Keystone,9923,Hail of Blades,-0.6698,1789
+16.2,Keystone,8465,Guardian,-0.9477,11653
+16.2,Keystone,8008,Lethal Tempo,-2.8269,195
+16.2,Keystone,8360,Unsealed Spellbook,-1.0166,1012
+16.2,Keystone,8437,Grasp of the Undying,0.6318,34762
+16.2,Keystone,8229,Arcane Comet,-4.6466,237
+16.2,Keystone,8439,Aftershock,-8.6899,299
+16.2,Spell,3,Exhaust,-0.664,10151
+16.2,Spell,4,Flash,-0.0066,50272
+16.2,Spell,6,Ghost,2.6685,675
+16.2,Spell,7,Heal,0.394,5139
+16.2,Spell,12,Teleport,-0.8501,103
+16.2,Spell,14,Ignite,0.1047,35184
+16.2,Starter,3865,World Atlas,0.0,50799
+16.2,Boots,3006,Berserker's Greaves,-1.6594,108
+16.2,Boots,3009,Boots of Swiftness,-0.3233,6406
+16.2,Boots,3047,Plated Steelcaps,0.1176,24760
+16.2,Boots,3111,Mercury's Treads,0.4439,14488
+16.2,Boots,3158,Ionian Boots of Lucidity,1.6421,358
+16.2,2nd Item,2502,Unending Despair,-0.4657,292
+16.2,2nd Item,2510,Dusk and Dawn,-0.366,2151
+16.2,2nd Item,2524,Bandlepipes,-0.865,9991
+16.2,2nd Item,2525,Protoplasm Harness,2.2899,748
+16.2,2nd Item,3065,Spirit Visage,0.6186,105
+16.2,2nd Item,3075,Thornmail,-3.3266,661
+16.2,2nd Item,3083,Warmog's Armor,-0.7046,446
+16.2,2nd Item,3084,Heartsteel,0.3892,31591
+16.2,2nd Item,3109,Knight's Vow,-1.3061,156
+16.2,2nd Item,3190,Locket of the Iron Solari,-0.3681,1744
+16.2,3rd Item,2502,Unending Despair,0.0882,4478
+16.2,3rd Item,2504,Kaenic Rookern,2.7894,422
+16.2,3rd Item,2510,Dusk and Dawn,0.5472,2656
+16.2,3rd Item,2524,Bandlepipes,-0.3443,5413
+16.2,3rd Item,2525,Protoplasm Harness,1.3845,2352
+16.2,3rd Item,3050,Zeke's Convergence,-0.3622,125
+16.2,3rd Item,3065,Spirit Visage,-0.0365,3949
+16.2,3rd Item,3068,Sunfire Aegis,-0.9291,178
+16.2,3rd Item,3075,Thornmail,0.1958,8432
+16.2,3rd Item,3083,Warmog's Armor,-0.2495,869
+16.2,3rd Item,3084,Heartsteel,-1.1613,1895
+16.2,3rd Item,3109,Knight's Vow,-1.7889,811
+16.2,3rd Item,3110,Frozen Heart,0.9468,449
+16.2,3rd Item,3143,Randuin's Omen,0.681,679
+16.2,3rd Item,3190,Locket of the Iron Solari,-0.4694,2729
+16.2,3rd Item,3222,Mikael's Blessing,4.1384,138
+16.2,3rd Item,3742,Dead Man's Plate,-0.2439,171
+16.2,3rd Item,4401,Force of Nature,0.0048,188
+16.2,3rd Item,4633,Riftmaker,-1.2378,351
+16.2,3rd Item,6664,Hollow Radiance,-2.9885,148
+16.2,3rd Item,6665,"Jak'Sho, The Protean",-1.4267,229
+16.2,3rd Item,8020,Abyssal Mask,-2.581,132
+16.2,4th+ Item,2502,Unending Despair,-0.1602,2197
+16.2,4th+ Item,2504,Kaenic Rookern,1.9919,478
+16.2,4th+ Item,2510,Dusk and Dawn,0.0072,532
+16.2,4th+ Item,2524,Bandlepipes,0.7633,961
+16.2,4th+ Item,2525,Protoplasm Harness,0.3498,1480
+16.2,4th+ Item,3065,Spirit Visage,-0.3805,3887
+16.2,4th+ Item,3075,Thornmail,-0.5803,3416
+16.2,4th+ Item,3083,Warmog's Armor,2.121,374
+16.2,4th+ Item,3084,Heartsteel,0.2477,122
+16.2,4th+ Item,3109,Knight's Vow,1.2291,679
+16.2,4th+ Item,3110,Frozen Heart,0.2655,407
+16.2,4th+ Item,3143,Randuin's Omen,2.4576,732
+16.2,4th+ Item,3190,Locket of the Iron Solari,0.6112,1141
+16.2,4th+ Item,4401,Force of Nature,-0.2923,234
+16.2,4th+ Item,4633,Riftmaker,-0.0688,450
+16.2,4th+ Item,6665,"Jak'Sho, The Protean",-3.4254,314
+16.2,4th+ Item,8020,Abyssal Mask,-1.4324,125
+16.2,All Items,2502,Unending Despair,-0.0067,6977
+16.2,All Items,2504,Kaenic Rookern,2.1118,944
+16.2,All Items,2510,Dusk and Dawn,0.1254,5344
+16.2,All Items,2524,Bandlepipes,-0.5971,16367
+16.2,All Items,2525,Protoplasm Harness,1.1972,4583
+16.2,All Items,3002,Trailblazer,-2.3104,199
+16.2,All Items,3050,Zeke's Convergence,0.5668,267
+16.2,All Items,3065,Spirit Visage,-0.2018,7951
+16.2,All Items,3068,Sunfire Aegis,-1.0928,348
+16.2,All Items,3075,Thornmail,-0.1979,12519
+16.2,All Items,3083,Warmog's Armor,0.1546,1696
+16.2,All Items,3084,Heartsteel,0.3012,33608
+16.2,All Items,3107,Redemption,-0.7065,148
+16.2,All Items,3109,Knight's Vow,-0.4982,1646
+16.2,All Items,3110,Frozen Heart,0.5816,936
+16.2,All Items,3143,Randuin's Omen,1.641,1496
+16.2,All Items,3190,Locket of the Iron Solari,-0.2182,5618
+16.2,All Items,3222,Mikael's Blessing,0.3356,265
+16.2,All Items,3742,Dead Man's Plate,-1.3527,306
+16.2,All Items,3748,Titanic Hydra,-1.5687,126
+16.2,All Items,4401,Force of Nature,-0.6289,448
+16.2,All Items,4633,Riftmaker,-0.6988,817
+16.2,All Items,6664,Hollow Radiance,-2.7241,261
+16.2,All Items,6665,"Jak'Sho, The Protean",-2.5248,565
+16.2,All Items,8020,Abyssal Mask,-0.5111,278
+16.3,Keystone,8230,Stormraider's Surge,-5.1638,437
+16.3,Keystone,9923,Hail of Blades,-1.3886,2201
+16.3,Keystone,8465,Guardian,-0.7061,12225
+16.3,Keystone,8008,Lethal Tempo,3.9397,174
+16.3,Keystone,8360,Unsealed Spellbook,-4.0353,768
+16.3,Keystone,8437,Grasp of the Undying,0.5386,37278
+16.3,Keystone,8229,Arcane Comet,-5.4053,301
+16.3,Keystone,8439,Aftershock,-3.8963,402
+16.3,Spell,3,Exhaust,-0.1479,12021
+16.3,Spell,4,Flash,-0.0432,53227
+16.3,Spell,6,Ghost,3.4713,804
+16.3,Spell,7,Heal,-0.1279,5425
+16.3,Spell,12,Teleport,5.1035,144
+16.3,Spell,14,Ignite,0.0441,36383
+16.3,Starter,3865,World Atlas,-0.0,54035
+16.3,Boots,3009,Boots of Swiftness,0.4197,6779
+16.3,Boots,3047,Plated Steelcaps,0.0551,27609
+16.3,Boots,3111,Mercury's Treads,-0.4328,14088
+16.3,Boots,3158,Ionian Boots of Lucidity,-1.8718,330
+16.3,2nd Item,2510,Dusk and Dawn,-0.1019,1862
+16.3,2nd Item,2524,Bandlepipes,-0.8855,9298
+16.3,2nd Item,2525,Protoplasm Harness,1.5768,769
+16.3,2nd Item,3050,Zeke's Convergence,1.6602,174
+16.3,2nd Item,3065,Spirit Visage,-1.2621,116
+16.3,2nd Item,3075,Thornmail,-2.266,771
+16.3,2nd Item,3083,Warmog's Armor,3.7393,288
+16.3,2nd Item,3084,Heartsteel,0.2338,35497
+16.3,2nd Item,3109,Knight's Vow,3.6432,255
+16.3,2nd Item,3190,Locket of the Iron Solari,-0.2217,1497
+16.3,3rd Item,2502,Unending Despair,0.4019,1556
+16.3,3rd Item,2504,Kaenic Rookern,0.8621,390
+16.3,3rd Item,2510,Dusk and Dawn,1.4609,3273
+16.3,3rd Item,2524,Bandlepipes,0.1992,7929
+16.3,3rd Item,2525,Protoplasm Harness,-0.4662,1910
+16.3,3rd Item,3050,Zeke's Convergence,-3.8953,195
+16.3,3rd Item,3065,Spirit Visage,0.3128,4788
+16.3,3rd Item,3068,Sunfire Aegis,-0.5253,193
+16.3,3rd Item,3075,Thornmail,-0.6139,10101
+16.3,3rd Item,3083,Warmog's Armor,0.1087,1028
+16.3,3rd Item,3084,Heartsteel,-0.5991,1873
+16.3,3rd Item,3109,Knight's Vow,0.4372,786
+16.3,3rd Item,3110,Frozen Heart,0.4594,505
+16.3,3rd Item,3143,Randuin's Omen,0.4008,752
+16.3,3rd Item,3190,Locket of the Iron Solari,-0.7134,2365
+16.3,3rd Item,3222,Mikael's Blessing,-0.2132,114
+16.3,3rd Item,3742,Dead Man's Plate,0.7333,146
+16.3,3rd Item,4401,Force of Nature,-2.1966,169
+16.3,3rd Item,4633,Riftmaker,0.659,281
+16.3,3rd Item,6664,Hollow Radiance,1.2393,187
+16.3,3rd Item,6665,"Jak'Sho, The Protean",0.1751,193
+16.3,3rd Item,8020,Abyssal Mask,3.8198,126
+16.3,4th+ Item,2502,Unending Despair,-0.032,2191
+16.3,4th+ Item,2504,Kaenic Rookern,3.6606,448
+16.3,4th+ Item,2510,Dusk and Dawn,1.5669,680
+16.3,4th+ Item,2524,Bandlepipes,-2.3993,1190
+16.3,4th+ Item,2525,Protoplasm Harness,0.6429,1310
+16.3,4th+ Item,3065,Spirit Visage,-0.4774,4436
+16.3,4th+ Item,3075,Thornmail,-0.1065,4039
+16.3,4th+ Item,3083,Warmog's Armor,2.2971,425
+16.3,4th+ Item,3084,Heartsteel,3.0534,129
+16.3,4th+ Item,3109,Knight's Vow,0.2483,585
+16.3,4th+ Item,3110,Frozen Heart,-3.1641,468
+16.3,4th+ Item,3143,Randuin's Omen,-0.6598,751
+16.3,4th+ Item,3190,Locket of the Iron Solari,-0.2908,948
+16.3,4th+ Item,4401,Force of Nature,0.8605,216
+16.3,4th+ Item,4633,Riftmaker,2.1904,343
+16.3,4th+ Item,6664,Hollow Radiance,3.3253,108
+16.3,4th+ Item,6665,"Jak'Sho, The Protean",1.0382,309
+16.3,4th+ Item,8020,Abyssal Mask,2.3778,143
+16.3,All Items,2502,Unending Despair,0.1353,3847
+16.3,All Items,2504,Kaenic Rookern,2.3518,901
+16.3,All Items,2510,Dusk and Dawn,0.9706,5825
+16.3,All Items,2524,Bandlepipes,-0.516,18422
+16.3,All Items,2525,Protoplasm Harness,0.2914,3996
+16.3,All Items,3002,Trailblazer,3.0934,172
+16.3,All Items,3041,Mejai's Soulstealer,2.9943,111
+16.3,All Items,3050,Zeke's Convergence,-1.3176,424
+16.3,All Items,3065,Spirit Visage,-0.0785,9351
+16.3,All Items,3068,Sunfire Aegis,-1.6326,353
+16.3,All Items,3075,Thornmail,-0.5617,14916
+16.3,All Items,3083,Warmog's Armor,1.2399,1746
+16.3,All Items,3084,Heartsteel,0.2019,37499
+16.3,All Items,3107,Redemption,-0.7306,113
+16.3,All Items,3109,Knight's Vow,0.8721,1626
+16.3,All Items,3110,Frozen Heart,-1.0996,1069
+16.3,All Items,3143,Randuin's Omen,0.0553,1604
+16.3,All Items,3190,Locket of the Iron Solari,-0.4767,4814
+16.3,All Items,3222,Mikael's Blessing,-0.4888,235
+16.3,All Items,3742,Dead Man's Plate,0.5085,318
+16.3,All Items,4401,Force of Nature,0.2705,410
+16.3,All Items,4633,Riftmaker,1.2441,641
+16.3,All Items,6664,Hollow Radiance,2.7295,322
+16.3,All Items,6665,"Jak'Sho, The Protean",0.6924,517
+16.3,All Items,8020,Abyssal Mask,2.3654,295
+16.4,Keystone,8230,Stormraider's Surge,-4.7652,336
+16.4,Keystone,9923,Hail of Blades,0.4243,2019
+16.4,Keystone,8465,Guardian,-1.0978,10921
+16.4,Keystone,8008,Lethal Tempo,-0.9641,152
+16.4,Keystone,8360,Unsealed Spellbook,0.2136,632
+16.4,Keystone,8437,Grasp of the Undying,0.49,37312
+16.4,Keystone,8229,Arcane Comet,-5.2171,190
+16.4,Keystone,8439,Aftershock,-6.6566,362
+16.4,Spell,3,Exhaust,0.203,11238
+16.4,Spell,4,Flash,-0.0514,51269
+16.4,Spell,6,Ghost,-0.7885,565
+16.4,Spell,7,Heal,0.0807,4815
+16.4,Spell,12,Teleport,1.3555,150
+16.4,Spell,14,Ignite,0.001,36262
+16.4,Starter,3865,World Atlas,0.0,52181
+16.4,Boots,3009,Boots of Swiftness,0.6264,6593
+16.4,Boots,3047,Plated Steelcaps,-0.0151,26552
+16.4,Boots,3111,Mercury's Treads,0.1054,13509
+16.4,Boots,3158,Ionian Boots of Lucidity,-1.1939,334
+16.4,2nd Item,2510,Dusk and Dawn,-0.603,1557
+16.4,2nd Item,2524,Bandlepipes,-1.1189,7358
+16.4,2nd Item,2525,Protoplasm Harness,1.485,728
+16.4,2nd Item,3065,Spirit Visage,-5.2104,156
+16.4,2nd Item,3075,Thornmail,-1.4584,821
+16.4,2nd Item,3083,Warmog's Armor,1.3618,339
+16.4,2nd Item,3084,Heartsteel,0.2899,36033
+16.4,2nd Item,3109,Knight's Vow,-6.3734,176
+16.4,2nd Item,3190,Locket of the Iron Solari,1.0036,1403
+16.4,3rd Item,2502,Unending Despair,-0.2832,1425
+16.4,3rd Item,2504,Kaenic Rookern,-0.1008,442
+16.4,3rd Item,2510,Dusk and Dawn,0.3375,3556
+16.4,3rd Item,2524,Bandlepipes,-0.2235,7453
+16.4,3rd Item,2525,Protoplasm Harness,0.2608,1593
+16.4,3rd Item,3050,Zeke's Convergence,1.3597,138
+16.4,3rd Item,3065,Spirit Visage,0.4071,4952
+16.4,3rd Item,3068,Sunfire Aegis,-1.9905,219
+16.4,3rd Item,3075,Thornmail,-0.7653,10306
+16.4,3rd Item,3083,Warmog's Armor,1.7979,986
+16.4,3rd Item,3084,Heartsteel,-0.3613,1509
+16.4,3rd Item,3109,Knight's Vow,-0.4426,744
+16.4,3rd Item,3110,Frozen Heart,4.367,561
+16.4,3rd Item,3143,Randuin's Omen,1.9702,766
+16.4,3rd Item,3190,Locket of the Iron Solari,-0.3233,1843
+16.4,3rd Item,3222,Mikael's Blessing,4.5263,116
+16.4,3rd Item,3742,Dead Man's Plate,6.157,177
+16.4,3rd Item,4401,Force of Nature,0.897,165
+16.4,3rd Item,4633,Riftmaker,2.5121,260
+16.4,3rd Item,6664,Hollow Radiance,-3.2501,156
+16.4,3rd Item,6665,"Jak'Sho, The Protean",-0.2297,172
+16.4,3rd Item,8020,Abyssal Mask,0.1635,151
+16.4,4th+ Item,2502,Unending Despair,0.5764,1378
+16.4,4th+ Item,2504,Kaenic Rookern,-1.4055,527
+16.4,4th+ Item,2510,Dusk and Dawn,1.2398,958
+16.4,4th+ Item,2524,Bandlepipes,0.7275,1296
+16.4,4th+ Item,2525,Protoplasm Harness,1.0222,1202
+16.4,4th+ Item,3065,Spirit Visage,-0.6289,4546
+16.4,4th+ Item,3068,Sunfire Aegis,0.2222,134
+16.4,4th+ Item,3075,Thornmail,0.1973,4071
+16.4,4th+ Item,3083,Warmog's Armor,-1.0107,491
+16.4,4th+ Item,3084,Heartsteel,-4.4928,110
+16.4,4th+ Item,3109,Knight's Vow,0.0479,533
+16.4,4th+ Item,3110,Frozen Heart,-0.4311,470
+16.4,4th+ Item,3143,Randuin's Omen,1.1014,907
+16.4,4th+ Item,3190,Locket of the Iron Solari,-1.1566,880
+16.4,4th+ Item,4401,Force of Nature,-1.5325,199
+16.4,4th+ Item,4633,Riftmaker,0.5923,312
+16.4,4th+ Item,6664,Hollow Radiance,-1.7726,117
+16.4,4th+ Item,6665,"Jak'Sho, The Protean",0.9266,357
+16.4,4th+ Item,8020,Abyssal Mask,0.7395,140
+16.4,All Items,2502,Unending Despair,0.2818,2901
+16.4,All Items,2504,Kaenic Rookern,-1.2514,1017
+16.4,All Items,2510,Dusk and Dawn,0.2385,6075
+16.4,All Items,2524,Bandlepipes,-0.5559,16110
+16.4,All Items,2525,Protoplasm Harness,0.7722,3529
+16.4,All Items,3002,Trailblazer,4.2304,187
+16.4,All Items,3041,Mejai's Soulstealer,0.4131,116
+16.4,All Items,3050,Zeke's Convergence,2.1627,268
+16.4,All Items,3065,Spirit Visage,-0.1714,9661
+16.4,All Items,3068,Sunfire Aegis,-1.3573,407
+16.4,All Items,3075,Thornmail,-0.5446,15208
+16.4,All Items,3083,Warmog's Armor,0.9555,1819
+16.4,All Items,3084,Heartsteel,0.2509,37654
+16.4,All Items,3109,Knight's Vow,-0.9804,1454
+16.4,All Items,3110,Frozen Heart,1.7357,1109
+16.4,All Items,3143,Randuin's Omen,1.3001,1775
+16.4,All Items,3190,Locket of the Iron Solari,-0.0499,4128
+16.4,All Items,3222,Mikael's Blessing,1.4905,228
+16.4,All Items,3742,Dead Man's Plate,4.2645,349
+16.4,All Items,4401,Force of Nature,-0.3387,395
+16.4,All Items,4633,Riftmaker,1.3282,578
+16.4,All Items,6664,Hollow Radiance,-3.3232,311
+16.4,All Items,6665,"Jak'Sho, The Protean",0.2228,575
+16.4,All Items,8020,Abyssal Mask,0.5633,306
+16.5,Keystone,8230,Stormraider's Surge,-2.5366,376
+16.5,Keystone,9923,Hail of Blades,0.4674,2280
+16.5,Keystone,8465,Guardian,-0.435,11942
+16.5,Keystone,8008,Lethal Tempo,1.3268,156
+16.5,Keystone,8360,Unsealed Spellbook,-3.6345,651
+16.5,Keystone,8437,Grasp of the Undying,0.2851,41730
+16.5,Keystone,8229,Arcane Comet,-2.0508,230
+16.5,Keystone,8439,Aftershock,-5.1079,400
+16.5,Spell,3,Exhaust,-0.2951,11902
+16.5,Spell,4,Flash,-0.0309,57026
+16.5,Spell,6,Ghost,-0.2866,786
+16.5,Spell,7,Heal,-0.2252,4831
+16.5,Spell,12,Teleport,-5.8577,144
+16.5,Spell,14,Ignite,0.1868,41337
+16.5,Starter,3865,World Atlas,0.0,58051
+16.5,Boots,3009,Boots of Swiftness,0.1901,7248
+16.5,Boots,3047,Plated Steelcaps,0.0799,29502
+16.5,Boots,3111,Mercury's Treads,-0.3784,15297
+16.5,Boots,3158,Ionian Boots of Lucidity,-1.1338,326
+16.5,2nd Item,2502,Unending Despair,-1.5071,612
+16.5,2nd Item,2510,Dusk and Dawn,1.7858,1243
+16.5,2nd Item,2524,Bandlepipes,-0.1659,3100
+16.5,2nd Item,2525,Protoplasm Harness,0.3919,1116
+16.5,2nd Item,3050,Zeke's Convergence,3.4008,133
+16.5,2nd Item,3065,Spirit Visage,-0.7017,242
+16.5,2nd Item,3068,Sunfire Aegis,1.2948,150
+16.5,2nd Item,3075,Thornmail,0.2819,810
+16.5,2nd Item,3083,Warmog's Armor,-1.7291,460
+16.5,2nd Item,3084,Heartsteel,0.0662,40875
+16.5,2nd Item,3109,Knight's Vow,-1.8809,266
+16.5,2nd Item,3110,Frozen Heart,2.4027,117
+16.5,2nd Item,3143,Randuin's Omen,-7.0641,149
+16.5,2nd Item,3190,Locket of the Iron Solari,-0.5558,5136
+16.5,3rd Item,2502,Unending Despair,-0.2013,6387
+16.5,3rd Item,2504,Kaenic Rookern,-0.9912,599
+16.5,3rd Item,2510,Dusk and Dawn,0.0772,3210
+16.5,3rd Item,2524,Bandlepipes,-0.0188,2816
+16.5,3rd Item,2525,Protoplasm Harness,1.0822,1054
+16.5,3rd Item,3002,Trailblazer,-2.2211,116
+16.5,3rd Item,3050,Zeke's Convergence,-5.1874,202
+16.5,3rd Item,3065,Spirit Visage,0.3087,6167
+16.5,3rd Item,3068,Sunfire Aegis,0.1617,461
+16.5,3rd Item,3075,Thornmail,-0.385,11629
+16.5,3rd Item,3083,Warmog's Armor,1.4457,1337
+16.5,3rd Item,3084,Heartsteel,1.6063,1356
+16.5,3rd Item,3109,Knight's Vow,0.8197,1020
+16.5,3rd Item,3110,Frozen Heart,1.2965,746
+16.5,3rd Item,3143,Randuin's Omen,0.4818,965
+16.5,3rd Item,3190,Locket of the Iron Solari,-0.5488,2111
+16.5,3rd Item,3222,Mikael's Blessing,1.3069,154
+16.5,3rd Item,3742,Dead Man's Plate,1.4502,228
+16.5,3rd Item,4401,Force of Nature,0.0724,280
+16.5,3rd Item,4633,Riftmaker,-1.9053,337
+16.5,3rd Item,6664,Hollow Radiance,0.6956,233
+16.5,3rd Item,6665,"Jak'Sho, The Protean",-0.0727,266
+16.5,3rd Item,8020,Abyssal Mask,2.6392,161
+16.5,4th+ Item,2502,Unending Despair,-0.5175,2731
+16.5,4th+ Item,2504,Kaenic Rookern,-1.3488,585
+16.5,4th+ Item,2510,Dusk and Dawn,-1.5063,539
+16.5,4th+ Item,2524,Bandlepipes,-2.7617,546
+16.5,4th+ Item,2525,Protoplasm Harness,-0.2387,594
+16.5,4th+ Item,3041,Mejai's Soulstealer,3.2984,104
+16.5,4th+ Item,3050,Zeke's Convergence,-2.4638,119
+16.5,4th+ Item,3065,Spirit Visage,0.4332,5007
+16.5,4th+ Item,3068,Sunfire Aegis,-1.0081,360
+16.5,4th+ Item,3075,Thornmail,0.2646,4384
+16.5,4th+ Item,3083,Warmog's Armor,-0.2241,657
+16.5,4th+ Item,3109,Knight's Vow,2.474,694
+16.5,4th+ Item,3110,Frozen Heart,0.8839,580
+16.5,4th+ Item,3143,Randuin's Omen,1.7936,1006
+16.5,4th+ Item,3190,Locket of the Iron Solari,0.2677,1249
+16.5,4th+ Item,3742,Dead Man's Plate,-1.4727,112
+16.5,4th+ Item,4401,Force of Nature,-3.3356,304
+16.5,4th+ Item,4633,Riftmaker,2.8266,473
+16.5,4th+ Item,6664,Hollow Radiance,-0.6664,153
+16.5,4th+ Item,6665,"Jak'Sho, The Protean",-2.2172,422
+16.5,4th+ Item,8020,Abyssal Mask,-1.1754,126
+16.5,All Items,2502,Unending Despair,-0.3724,9735
+16.5,All Items,2504,Kaenic Rookern,-0.6756,1254
+16.5,All Items,2510,Dusk and Dawn,0.3315,4994
+16.5,All Items,2524,Bandlepipes,-0.3211,6462
+16.5,All Items,2525,Protoplasm Harness,0.519,2767
+16.5,All Items,3002,Trailblazer,2.4154,289
+16.5,All Items,3041,Mejai's Soulstealer,2.6356,166
+16.5,All Items,3050,Zeke's Convergence,-1.9533,455
+16.5,All Items,3065,Spirit Visage,0.3409,11428
+16.5,All Items,3068,Sunfire Aegis,-0.0924,974
+16.5,All Items,3075,Thornmail,-0.1835,16832
+16.5,All Items,3083,Warmog's Armor,0.3978,2457
+16.5,All Items,3084,Heartsteel,0.1063,42329
+16.5,All Items,3107,Redemption,-4.257,146
+16.5,All Items,3109,Knight's Vow,1.0362,1981
+16.5,All Items,3110,Frozen Heart,1.2187,1445
+16.5,All Items,3143,Randuin's Omen,0.5752,2129
+16.5,All Items,3190,Locket of the Iron Solari,-0.4327,8502
+16.5,All Items,3222,Mikael's Blessing,0.6806,282
+16.5,All Items,3742,Dead Man's Plate,-1.9535,429
+16.5,All Items,3748,Titanic Hydra,-1.3214,103
+16.5,All Items,4401,Force of Nature,-1.7922,611
+16.5,All Items,4633,Riftmaker,1.0353,834
+16.5,All Items,6664,Hollow Radiance,0.556,443
+16.5,All Items,6665,"Jak'Sho, The Protean",-1.5813,728
+16.5,All Items,8020,Abyssal Mask,0.6207,305
+16.6,Keystone,8230,Stormraider's Surge,1.9313,335
+16.6,Keystone,9923,Hail of Blades,-0.2763,1915
+16.6,Keystone,8465,Guardian,-0.8605,12762
+16.6,Keystone,8360,Unsealed Spellbook,1.5416,771
+16.6,Keystone,8008,Lethal Tempo,2.0867,239
+16.6,Keystone,8437,Grasp of the Undying,0.2573,45277
+16.6,Keystone,8229,Arcane Comet,-0.9441,249
+16.6,Keystone,8439,Aftershock,-2.9983,466
+16.6,Spell,3,Exhaust,0.0205,12525
+16.6,Spell,4,Flash,-0.0764,61176
+16.6,Spell,6,Ghost,2.7065,792
+16.6,Spell,7,Heal,1.022,5574
+16.6,Spell,12,Teleport,-1.1551,193
+16.6,Spell,14,Ignite,-0.0704,44340
+16.6,Starter,3865,World Atlas,0.0,62349
+16.6,Boots,3006,Berserker's Greaves,-1.6733,103
+16.6,Boots,3009,Boots of Swiftness,0.4266,7492
+16.6,Boots,3047,Plated Steelcaps,0.038,31844
+16.6,Boots,3111,Mercury's Treads,-0.4216,16377
+16.6,Boots,3158,Ionian Boots of Lucidity,1.3035,365
+16.6,2nd Item,2502,Unending Despair,-3.041,175
+16.6,2nd Item,2510,Dusk and Dawn,-0.7565,1567
+16.6,2nd Item,2524,Bandlepipes,-0.0113,3077
+16.6,2nd Item,2525,Protoplasm Harness,0.2462,1497
+16.6,2nd Item,3065,Spirit Visage,1.1363,423
+16.6,2nd Item,3068,Sunfire Aegis,-4.7417,127
+16.6,2nd Item,3075,Thornmail,0.4841,1149
+16.6,2nd Item,3083,Warmog's Armor,-2.7505,317
+16.6,2nd Item,3084,Heartsteel,0.2628,43725
+16.6,2nd Item,3109,Knight's Vow,-0.1574,275
+16.6,2nd Item,3110,Frozen Heart,3.065,136
+16.6,2nd Item,3143,Randuin's Omen,-7.6147,121
+16.6,2nd Item,3190,Locket of the Iron Solari,-1.4977,5649
+16.6,3rd Item,2502,Unending Despair,0.5767,4649
+16.6,3rd Item,2504,Kaenic Rookern,2.8341,556
+16.6,3rd Item,2510,Dusk and Dawn,0.3971,4408
+16.6,3rd Item,2524,Bandlepipes,0.5291,3635
+16.6,3rd Item,2525,Protoplasm Harness,-0.3595,998
+16.6,3rd Item,3050,Zeke's Convergence,2.7996,135
+16.6,3rd Item,3065,Spirit Visage,-0.263,7882
+16.6,3rd Item,3068,Sunfire Aegis,-0.3367,415
+16.6,3rd Item,3075,Thornmail,-0.4919,13047
+16.6,3rd Item,3083,Warmog's Armor,0.5287,1260
+16.6,3rd Item,3084,Heartsteel,-0.1378,1509
+16.6,3rd Item,3109,Knight's Vow,-0.1287,1024
+16.6,3rd Item,3110,Frozen Heart,0.6387,750
+16.6,3rd Item,3143,Randuin's Omen,1.508,1066
+16.6,3rd Item,3190,Locket of the Iron Solari,0.8212,2006
+16.6,3rd Item,3222,Mikael's Blessing,2.9911,131
+16.6,3rd Item,3742,Dead Man's Plate,-1.7715,216
+16.6,3rd Item,4401,Force of Nature,-5.272,217
+16.6,3rd Item,4633,Riftmaker,0.5825,282
+16.6,3rd Item,6664,Hollow Radiance,-4.321,225
+16.6,3rd Item,6665,"Jak'Sho, The Protean",-4.3018,302
+16.6,3rd Item,8020,Abyssal Mask,-0.6975,155
+16.6,4th+ Item,2502,Unending Despair,-0.1784,3085
+16.6,4th+ Item,2504,Kaenic Rookern,-0.2102,615
+16.6,4th+ Item,2510,Dusk and Dawn,-0.1703,1118
+16.6,4th+ Item,2524,Bandlepipes,1.1253,1060
+16.6,4th+ Item,2525,Protoplasm Harness,1.1662,586
+16.6,4th+ Item,3002,Trailblazer,2.5882,112
+16.6,4th+ Item,3065,Spirit Visage,-0.2325,5246
+16.6,4th+ Item,3068,Sunfire Aegis,3.0405,357
+16.6,4th+ Item,3075,Thornmail,-0.75,4699
+16.6,4th+ Item,3083,Warmog's Armor,0.0449,644
+16.6,4th+ Item,3109,Knight's Vow,0.6312,659
+16.6,4th+ Item,3110,Frozen Heart,1.0143,609
+16.6,4th+ Item,3143,Randuin's Omen,1.136,1088
+16.6,4th+ Item,3190,Locket of the Iron Solari,-0.8216,852
+16.6,4th+ Item,3742,Dead Man's Plate,4.0843,105
+16.6,4th+ Item,4401,Force of Nature,-2.3457,254
+16.6,4th+ Item,4633,Riftmaker,0.6127,409
+16.6,4th+ Item,6664,Hollow Radiance,-0.0866,150
+16.6,4th+ Item,6665,"Jak'Sho, The Protean",-0.3113,420
+16.6,4th+ Item,8020,Abyssal Mask,2.8524,124
+16.6,All Items,2502,Unending Despair,0.1951,7917
+16.6,All Items,2504,Kaenic Rookern,1.3847,1254
+16.6,All Items,2510,Dusk and Dawn,0.0526,7103
+16.6,All Items,2524,Bandlepipes,0.3963,7779
+16.6,All Items,2525,Protoplasm Harness,0.2246,3086
+16.6,All Items,3002,Trailblazer,2.8343,294
+16.6,All Items,3041,Mejai's Soulstealer,-0.1802,152
+16.6,All Items,3050,Zeke's Convergence,1.87,306
+16.6,All Items,3065,Spirit Visage,-0.2073,13563
+16.6,All Items,3068,Sunfire Aegis,0.3931,904
+16.6,All Items,3075,Thornmail,-0.4954,18905
+16.6,All Items,3083,Warmog's Armor,-0.0752,2230
+16.6,All Items,3084,Heartsteel,0.2486,45334
+16.6,All Items,3107,Redemption,1.5427,129
+16.6,All Items,3109,Knight's Vow,0.1229,1960
+16.6,All Items,3110,Frozen Heart,0.9755,1506
+16.6,All Items,3143,Randuin's Omen,0.8166,2289
+16.6,All Items,3190,Locket of the Iron Solari,-0.8828,8510
+16.6,All Items,3222,Mikael's Blessing,0.3545,250
+16.6,All Items,3742,Dead Man's Plate,-1.1984,391
+16.6,All Items,3748,Titanic Hydra,-5.2227,118
+16.6,All Items,4401,Force of Nature,-3.9857,512
+16.6,All Items,4633,Riftmaker,0.51,709
+16.6,All Items,6664,Hollow Radiance,-2.7315,432
+16.6,All Items,6665,"Jak'Sho, The Protean",-1.7998,789
+16.6,All Items,8020,Abyssal Mask,0.728,315
+16.7,Keystone,8230,Stormraider's Surge,0.0457,314
+16.7,Keystone,9923,Hail of Blades,-0.0006,2161
+16.7,Keystone,8465,Guardian,-1.604,12991
+16.7,Keystone,8008,Lethal Tempo,1.861,280
+16.7,Keystone,8360,Unsealed Spellbook,-2.8798,648
+16.7,Keystone,8437,Grasp of the Undying,0.5702,48950
+16.7,Keystone,8229,Arcane Comet,-3.3257,231
+16.7,Keystone,8439,Aftershock,-4.7845,532
+16.7,Spell,3,Exhaust,-0.1983,13725
+16.7,Spell,4,Flash,0.0228,65139
+16.7,Spell,6,Ghost,-1.4595,790
+16.7,Spell,7,Heal,-0.3564,5583
+16.7,Spell,12,Teleport,-11.1576,149
+16.7,Spell,14,Ignite,0.1398,47522
+16.7,Starter,3865,World Atlas,0.0,66506
+16.7,Boots,3009,Boots of Swiftness,-0.8194,8278
+16.7,Boots,3047,Plated Steelcaps,0.1266,34141
+16.7,Boots,3111,Mercury's Treads,-0.1688,17321
+16.7,Boots,3158,Ionian Boots of Lucidity,-2.5062,422
+16.7,2nd Item,2502,Unending Despair,1.3559,188
+16.7,2nd Item,2510,Dusk and Dawn,-0.7811,1625
+16.7,2nd Item,2524,Bandlepipes,-1.3808,2842
+16.7,2nd Item,2525,Protoplasm Harness,0.7719,2030
+16.7,2nd Item,3050,Zeke's Convergence,1.5764,120
+16.7,2nd Item,3065,Spirit Visage,-0.9327,492
+16.7,2nd Item,3068,Sunfire Aegis,0.3136,137
+16.7,2nd Item,3075,Thornmail,-1.279,1155
+16.7,2nd Item,3083,Warmog's Armor,2.5036,274
+16.7,2nd Item,3084,Heartsteel,0.3294,47373
+16.7,2nd Item,3109,Knight's Vow,-0.5823,245
+16.7,2nd Item,3110,Frozen Heart,1.4484,159
+16.7,2nd Item,3143,Randuin's Omen,-3.4147,120
+16.7,2nd Item,3190,Locket of the Iron Solari,-1.7748,5634
+16.7,2nd Item,3742,Dead Man's Plate,-3.298,137
+16.7,3rd Item,2502,Unending Despair,0.3998,5196
+16.7,3rd Item,2504,Kaenic Rookern,-1.2779,539
+16.7,3rd Item,2510,Dusk and Dawn,1.269,5065
+16.7,3rd Item,2524,Bandlepipes,-0.2159,3899
+16.7,3rd Item,2525,Protoplasm Harness,-1.1088,931
+16.7,3rd Item,3002,Trailblazer,1.4895,103
+16.7,3rd Item,3050,Zeke's Convergence,4.8281,126
+16.7,3rd Item,3065,Spirit Visage,-0.5529,8540
+16.7,3rd Item,3068,Sunfire Aegis,-2.5158,464
+16.7,3rd Item,3075,Thornmail,-0.3163,13856
+16.7,3rd Item,3083,Warmog's Armor,1.6663,1263
+16.7,3rd Item,3084,Heartsteel,-1.2488,1501
+16.7,3rd Item,3109,Knight's Vow,-0.4781,933
+16.7,3rd Item,3110,Frozen Heart,1.6106,803
+16.7,3rd Item,3143,Randuin's Omen,1.938,1148
+16.7,3rd Item,3190,Locket of the Iron Solari,-0.0033,2097
+16.7,3rd Item,3222,Mikael's Blessing,0.2208,154
+16.7,3rd Item,3742,Dead Man's Plate,-2.5865,280
+16.7,3rd Item,4401,Force of Nature,4.316,221
+16.7,3rd Item,4633,Riftmaker,1.1918,315
+16.7,3rd Item,6664,Hollow Radiance,-0.6379,251
+16.7,3rd Item,6665,"Jak'Sho, The Protean",-1.8216,268
+16.7,3rd Item,8020,Abyssal Mask,0.4658,149
+16.7,4th+ Item,2502,Unending Despair,-0.71,3387
+16.7,4th+ Item,2504,Kaenic Rookern,0.4333,672
+16.7,4th+ Item,2510,Dusk and Dawn,0.2352,1168
+16.7,4th+ Item,2524,Bandlepipes,-0.4539,1115
+16.7,4th+ Item,2525,Protoplasm Harness,-0.5357,567
+16.7,4th+ Item,3002,Trailblazer,2.9412,101
+16.7,4th+ Item,3065,Spirit Visage,0.3169,5794
+16.7,4th+ Item,3068,Sunfire Aegis,-2.9476,335
+16.7,4th+ Item,3075,Thornmail,0.5057,4984
+16.7,4th+ Item,3083,Warmog's Armor,1.8691,699
+16.7,4th+ Item,3084,Heartsteel,-7.0632,128
+16.7,4th+ Item,3109,Knight's Vow,0.3109,710
+16.7,4th+ Item,3110,Frozen Heart,-1.5741,642
+16.7,4th+ Item,3143,Randuin's Omen,0.6893,1165
+16.7,4th+ Item,3190,Locket of the Iron Solari,0.4409,993
+16.7,4th+ Item,3742,Dead Man's Plate,-2.3188,132
+16.7,4th+ Item,4401,Force of Nature,0.4106,290
+16.7,4th+ Item,4633,Riftmaker,-1.636,488
+16.7,4th+ Item,6664,Hollow Radiance,-3.6415,160
+16.7,4th+ Item,6665,"Jak'Sho, The Protean",-0.1455,405
+16.7,4th+ Item,8020,Abyssal Mask,0.0199,147
+16.7,All Items,2502,Unending Despair,-0.0089,8780
+16.7,All Items,2504,Kaenic Rookern,-0.2234,1294
+16.7,All Items,2510,Dusk and Dawn,0.6855,7866
+16.7,All Items,2524,Bandlepipes,-0.6709,7858
+16.7,All Items,2525,Protoplasm Harness,0.0654,3534
+16.7,All Items,3002,Trailblazer,1.105,278
+16.7,All Items,3041,Mejai's Soulstealer,4.8564,147
+16.7,All Items,3050,Zeke's Convergence,2.0492,296
+16.7,All Items,3065,Spirit Visage,-0.2255,14830
+16.7,All Items,3068,Sunfire Aegis,-2.2514,938
+16.7,All Items,3075,Thornmail,-0.1649,19999
+16.7,All Items,3083,Warmog's Armor,1.825,2245
+16.7,All Items,3084,Heartsteel,0.2617,49002
+16.7,All Items,3107,Redemption,-4.0763,124
+16.7,All Items,3109,Knight's Vow,-0.1947,1890
+16.7,All Items,3110,Frozen Heart,0.3195,1606
+16.7,All Items,3143,Randuin's Omen,1.0962,2444
+16.7,All Items,3190,Locket of the Iron Solari,-1.0965,8726
+16.7,All Items,3222,Mikael's Blessing,0.0481,301
+16.7,All Items,3742,Dead Man's Plate,-2.6801,553
+16.7,All Items,3748,Titanic Hydra,1.2937,124
+16.7,All Items,4401,Force of Nature,1.9033,545
+16.7,All Items,4633,Riftmaker,-0.6158,814
+16.7,All Items,6664,Hollow Radiance,-1.7321,459
+16.7,All Items,6665,"Jak'Sho, The Protean",-1.3785,750
+16.7,All Items,8020,Abyssal Mask,0.9791,325
+16.8,Keystone,8230,Stormraider's Surge,-2.3741,262
+16.8,Keystone,9923,Hail of Blades,-0.9481,1611
+16.8,Keystone,8465,Guardian,-1.7792,9364
+16.8,Keystone,8008,Lethal Tempo,5.7091,166
+16.8,Keystone,8360,Unsealed Spellbook,1.2972,497
+16.8,Keystone,8437,Grasp of the Undying,0.6141,35043
+16.8,Keystone,8229,Arcane Comet,-5.5007,138
+16.8,Keystone,8439,Aftershock,-8.3976,312
+16.8,Spell,3,Exhaust,-0.0578,10445
+16.8,Spell,4,Flash,-0.0484,46658
+16.8,Spell,6,Ghost,2.6059,628
+16.8,Spell,7,Heal,-0.0262,4594
+16.8,Spell,14,Ignite,0.0593,32819
+16.8,Starter,3865,World Atlas,0.0,47657
+16.8,Boots,3009,Boots of Swiftness,-0.0402,6055
+16.8,Boots,3047,Plated Steelcaps,0.2313,25531
+16.8,Boots,3111,Mercury's Treads,-0.2953,12700
+16.8,Boots,3158,Ionian Boots of Lucidity,0.7184,286
+16.8,2nd Item,2502,Unending Despair,3.838,121
+16.8,2nd Item,2510,Dusk and Dawn,-1.6869,1110
+16.8,2nd Item,2524,Bandlepipes,-1.9182,1934
+16.8,2nd Item,2525,Protoplasm Harness,0.3184,1727
+16.8,2nd Item,3065,Spirit Visage,-3.8849,321
+16.8,2nd Item,3075,Thornmail,-1.4796,937
+16.8,2nd Item,3083,Warmog's Armor,-3.1742,215
+16.8,2nd Item,3084,Heartsteel,0.2929,35209
+16.8,2nd Item,3109,Knight's Vow,0.475,207
+16.8,2nd Item,3143,Randuin's Omen,2.1095,109
+16.8,2nd Item,3190,Locket of the Iron Solari,-0.5483,4241
+16.8,3rd Item,2502,Unending Despair,0.8485,3793
+16.8,3rd Item,2504,Kaenic Rookern,1.2221,351
+16.8,3rd Item,2510,Dusk and Dawn,0.8594,3625
+16.8,3rd Item,2524,Bandlepipes,-0.5361,2616
+16.8,3rd Item,2525,Protoplasm Harness,0.2977,1444
+16.8,3rd Item,3050,Zeke's Convergence,-4.6703,116
+16.8,3rd Item,3065,Spirit Visage,0.089,6025
+16.8,3rd Item,3068,Sunfire Aegis,1.7606,204
+16.8,3rd Item,3075,Thornmail,-0.0835,10499
+16.8,3rd Item,3083,Warmog's Armor,-0.568,791
+16.8,3rd Item,3084,Heartsteel,-1.6809,1069
+16.8,3rd Item,3109,Knight's Vow,-0.7434,725
+16.8,3rd Item,3110,Frozen Heart,1.3049,625
+16.8,3rd Item,3143,Randuin's Omen,0.9196,852
+16.8,3rd Item,3190,Locket of the Iron Solari,-1.1815,1548
+16.8,3rd Item,3222,Mikael's Blessing,-5.4604,109
+16.8,3rd Item,3742,Dead Man's Plate,1.6267,197
+16.8,3rd Item,4401,Force of Nature,-2.6686,151
+16.8,3rd Item,4633,Riftmaker,-3.1614,200
+16.8,3rd Item,6664,Hollow Radiance,-2.5402,153
+16.8,3rd Item,6665,"Jak'Sho, The Protean",-0.9475,204
+16.8,3rd Item,8020,Abyssal Mask,2.7619,122
+16.8,4th+ Item,2502,Unending Despair,-0.1788,2421
+16.8,4th+ Item,2504,Kaenic Rookern,-0.2812,446
+16.8,4th+ Item,2510,Dusk and Dawn,0.1796,891
+16.8,4th+ Item,2524,Bandlepipes,-0.6415,764
+16.8,4th+ Item,2525,Protoplasm Harness,1.8684,1024
+16.8,4th+ Item,3065,Spirit Visage,0.4879,4492
+16.8,4th+ Item,3075,Thornmail,-0.3596,3512
+16.8,4th+ Item,3083,Warmog's Armor,-3.4463,476
+16.8,4th+ Item,3109,Knight's Vow,1.6476,500
+16.8,4th+ Item,3110,Frozen Heart,-1.4422,453
+16.8,4th+ Item,3143,Randuin's Omen,0.1137,841
+16.8,4th+ Item,3190,Locket of the Iron Solari,-1.167,650
+16.8,4th+ Item,4401,Force of Nature,-0.6894,196
+16.8,4th+ Item,4633,Riftmaker,0.0131,304
+16.8,4th+ Item,6665,"Jak'Sho, The Protean",2.4716,324
+16.8,4th+ Item,8020,Abyssal Mask,-4.6215,106
+16.8,All Items,2502,Unending Despair,0.5057,6341
+16.8,All Items,2504,Kaenic Rookern,0.4202,854
+16.8,All Items,2510,Dusk and Dawn,0.249,5635
+16.8,All Items,2524,Bandlepipes,-1.0537,5317
+16.8,All Items,2525,Protoplasm Harness,0.6903,4205
+16.8,All Items,3002,Trailblazer,0.4047,141
+16.8,All Items,3050,Zeke's Convergence,-2.9481,228
+16.8,All Items,3065,Spirit Visage,0.1375,10844
+16.8,All Items,3068,Sunfire Aegis,0.4985,347
+16.8,All Items,3075,Thornmail,-0.237,14959
+16.8,All Items,3083,Warmog's Armor,-1.8263,1489
+16.8,All Items,3084,Heartsteel,0.2511,36360
+16.8,All Items,3109,Knight's Vow,0.2676,1432
+16.8,All Items,3110,Frozen Heart,-0.0499,1164
+16.8,All Items,3143,Randuin's Omen,0.5842,1808
+16.8,All Items,3190,Locket of the Iron Solari,-0.7623,6445
+16.8,All Items,3222,Mikael's Blessing,-2.7404,221
+16.8,All Items,3742,Dead Man's Plate,-1.1131,360
+16.8,All Items,4401,Force of Nature,-1.6983,367
+16.8,All Items,4633,Riftmaker,-1.4052,512
+16.8,All Items,6664,Hollow Radiance,-2.1697,278
+16.8,All Items,6665,"Jak'Sho, The Protean",1.4566,554
+16.8,All Items,8020,Abyssal Mask,-0.7507,249
+16.9,Keystone,9923,Hail of Blades,-0.0725,2100
+16.9,Keystone,8465,Guardian,-0.9982,13071
+16.9,Keystone,8008,Lethal Tempo,3.893,274
+16.9,Keystone,8360,Unsealed Spellbook,2.0224,515
+16.9,Keystone,8437,Grasp of the Undying,0.3253,45821
+16.9,Keystone,8229,Arcane Comet,-5.6068,189
+16.9,Keystone,8992,Deathfire Touch,-2.4009,132
+16.9,Keystone,8439,Aftershock,-0.7364,465
+16.9,Spell,3,Exhaust,0.1176,13996
+16.9,Spell,4,Flash,-0.0014,61786
+16.9,Spell,6,Ghost,-1.8225,734
+16.9,Spell,7,Heal,1.2022,6664
+16.9,Spell,12,Teleport,5.6131,108
+16.9,Spell,14,Ignite,-0.1963,42555
+16.9,Starter,3865,World Atlas,0.0,62977
+16.9,Boots,3008,Gluttonous Greaves,1.3064,470
+16.9,Boots,3009,Boots of Swiftness,0.6244,7771
+16.9,Boots,3047,Plated Steelcaps,0.097,32865
+16.9,Boots,3111,Mercury's Treads,-0.1032,17151
+16.9,Boots,3158,Ionian Boots of Lucidity,-1.3609,482
+16.9,2nd Item,2502,Unending Despair,7.721,236
+16.9,2nd Item,2510,Dusk and Dawn,0.8462,1885
+16.9,2nd Item,2524,Bandlepipes,-0.7321,2317
+16.9,2nd Item,2525,Protoplasm Harness,0.8422,2484
+16.9,2nd Item,3050,Zeke's Convergence,-4.3834,123
+16.9,2nd Item,3065,Spirit Visage,-1.503,450
+16.9,2nd Item,3075,Thornmail,-1.5092,1156
+16.9,2nd Item,3083,Warmog's Armor,-0.0055,145
+16.9,2nd Item,3084,Heartsteel,0.0558,45745
+16.9,2nd Item,3109,Knight's Vow,0.947,256
+16.9,2nd Item,3110,Frozen Heart,-1.2685,117
+16.9,2nd Item,3143,Randuin's Omen,1.5683,137
+16.9,2nd Item,3190,Locket of the Iron Solari,-0.5271,5943
+16.9,2nd Item,3742,Dead Man's Plate,0.05,136
+16.9,3rd Item,2502,Unending Despair,1.4199,2663
+16.9,3rd Item,2504,Kaenic Rookern,0.6344,460
+16.9,3rd Item,2510,Dusk and Dawn,0.7596,7693
+16.9,3rd Item,2524,Bandlepipes,0.6713,3075
+16.9,3rd Item,2525,Protoplasm Harness,0.5552,2125
+16.9,3rd Item,3050,Zeke's Convergence,0.3419,127
+16.9,3rd Item,3065,Spirit Visage,-0.0405,8475
+16.9,3rd Item,3068,Sunfire Aegis,-0.5184,211
+16.9,3rd Item,3075,Thornmail,-0.932,13123
+16.9,3rd Item,3083,Warmog's Armor,-0.1963,1033
+16.9,3rd Item,3084,Heartsteel,0.5437,1368
+16.9,3rd Item,3087,Statikk Shiv,-1.6011,145
+16.9,3rd Item,3109,Knight's Vow,-0.4215,965
+16.9,3rd Item,3110,Frozen Heart,0.3951,764
+16.9,3rd Item,3143,Randuin's Omen,1.3843,1040
+16.9,3rd Item,3190,Locket of the Iron Solari,-0.373,2107
+16.9,3rd Item,3222,Mikael's Blessing,-2.1353,145
+16.9,3rd Item,3742,Dead Man's Plate,-0.7051,282
+16.9,3rd Item,4401,Force of Nature,-0.4346,267
+16.9,3rd Item,4633,Riftmaker,2.8634,280
+16.9,3rd Item,6664,Hollow Radiance,-1.7929,158
+16.9,3rd Item,6665,"Jak'Sho, The Protean",-1.5958,244
+16.9,3rd Item,8020,Abyssal Mask,2.3149,129
+16.9,4th+ Item,2502,Unending Despair,-0.207,3024
+16.9,4th+ Item,2504,Kaenic Rookern,-0.9962,560
+16.9,4th+ Item,2510,Dusk and Dawn,0.794,1158
+16.9,4th+ Item,2524,Bandlepipes,-0.7843,980
+16.9,4th+ Item,2525,Protoplasm Harness,0.4351,1354
+16.9,4th+ Item,3065,Spirit Visage,-0.338,5764
+16.9,4th+ Item,3068,Sunfire Aegis,1.2458,103
+16.9,4th+ Item,3075,Thornmail,0.4888,4940
+16.9,4th+ Item,3083,Warmog's Armor,0.2775,542
+16.9,4th+ Item,3084,Heartsteel,1.4087,129
+16.9,4th+ Item,3109,Knight's Vow,0.3261,706
+16.9,4th+ Item,3110,Frozen Heart,-0.5767,603
+16.9,4th+ Item,3143,Randuin's Omen,0.3744,1097
+16.9,4th+ Item,3190,Locket of the Iron Solari,1.1717,897
+16.9,4th+ Item,3742,Dead Man's Plate,-0.8153,132
+16.9,4th+ Item,4401,Force of Nature,-0.2304,278
+16.9,4th+ Item,4633,Riftmaker,0.7299,372
+16.9,4th+ Item,6664,Hollow Radiance,1.7656,124
+16.9,4th+ Item,6665,"Jak'Sho, The Protean",-3.5079,421
+16.9,4th+ Item,8020,Abyssal Mask,3.0618,125
+16.9,All Items,2502,Unending Despair,0.8319,5932
+16.9,All Items,2504,Kaenic Rookern,-0.3403,1107
+16.9,All Items,2510,Dusk and Dawn,0.7767,10739
+16.9,All Items,2524,Bandlepipes,-0.0629,6375
+16.9,All Items,2525,Protoplasm Harness,0.6465,5972
+16.9,All Items,3041,Mejai's Soulstealer,-1.803,131
+16.9,All Items,3050,Zeke's Convergence,-1.5712,299
+16.9,All Items,3065,Spirit Visage,-0.2015,14700
+16.9,All Items,3068,Sunfire Aegis,-0.52,406
+16.9,All Items,3075,Thornmail,-0.5972,19235
+16.9,All Items,3083,Warmog's Armor,-0.067,1733
+16.9,All Items,3084,Heartsteel,0.0736,47242
+16.9,All Items,3087,Statikk Shiv,-0.1231,213
+16.9,All Items,3109,Knight's Vow,0.0341,1930
+16.9,All Items,3110,Frozen Heart,-0.1307,1487
+16.9,All Items,3143,Randuin's Omen,0.9143,2288
+16.9,All Items,3190,Locket of the Iron Solari,-0.3203,8950
+16.9,All Items,3222,Mikael's Blessing,-0.5261,300
+16.9,All Items,3742,Dead Man's Plate,-0.5152,552
+16.9,All Items,3748,Titanic Hydra,-5.7609,106
+16.9,All Items,4401,Force of Nature,-0.4877,584
+16.9,All Items,4633,Riftmaker,1.468,678
+16.9,All Items,6664,Hollow Radiance,-2.0218,323
+16.9,All Items,6665,"Jak'Sho, The Protean",-2.631,694
+16.9,All Items,8020,Abyssal Mask,2.9346,272
+16.10,Keystone,9923,Hail of Blades,0.3136,2238
+16.10,Keystone,8465,Guardian,-0.4031,15213
+16.10,Keystone,8360,Unsealed Spellbook,-1.8666,491
+16.10,Keystone,8008,Lethal Tempo,-2.0385,362
+16.10,Keystone,8437,Grasp of the Undying,0.1905,53282
+16.10,Keystone,8229,Arcane Comet,1.6743,151
+16.10,Keystone,8992,Deathfire Touch,-4.3572,125
+16.10,Keystone,8439,Aftershock,-1.7798,461
+16.10,Spell,3,Exhaust,0.1325,16180
+16.10,Spell,4,Flash,-0.0214,70944
+16.10,Spell,6,Ghost,-0.5687,759
+16.10,Spell,7,Heal,1.2341,8050
+16.10,Spell,12,Teleport,-6.1907,122
+16.10,Spell,14,Ignite,-0.1955,49435
+16.10,Starter,3865,World Atlas,-0.0,72792
+16.10,Boots,3006,Berserker's Greaves,-1.527,133
+16.10,Boots,3008,Gluttonous Greaves,-3.8514,223
+16.10,Boots,3009,Boots of Swiftness,0.2218,9254
+16.10,Boots,3047,Plated Steelcaps,-0.3021,39368
+16.10,Boots,3111,Mercury's Treads,0.3563,18826
+16.10,Boots,3158,Ionian Boots of Lucidity,-1.2351,382
+16.10,2nd Item,2502,Unending Despair,3.7752,204
+16.10,2nd Item,2510,Dusk and Dawn,-1.2807,1612
+16.10,2nd Item,2524,Bandlepipes,-0.7138,2257
+16.10,2nd Item,2525,Protoplasm Harness,1.9457,4488
+16.10,2nd Item,3065,Spirit Visage,-1.4937,555
+16.10,2nd Item,3075,Thornmail,-1.1014,1335
+16.10,2nd Item,3083,Warmog's Armor,-0.2228,224
+16.10,2nd Item,3084,Heartsteel,0.0523,52035
+16.10,2nd Item,3109,Knight's Vow,1.601,344
+16.10,2nd Item,3110,Frozen Heart,-1.2849,159
+16.10,2nd Item,3143,Randuin's Omen,0.5893,165
+16.10,2nd Item,3190,Locket of the Iron Solari,-0.6623,7120
+16.10,2nd Item,3222,Mikael's Blessing,-1.414,102
+16.10,2nd Item,3742,Dead Man's Plate,3.2036,170
+16.10,3rd Item,2502,Unending Despair,1.0622,2930
+16.10,3rd Item,2504,Kaenic Rookern,-0.6645,544
+16.10,3rd Item,2510,Dusk and Dawn,0.7055,8199
+16.10,3rd Item,2524,Bandlepipes,-0.9626,3368
+16.10,3rd Item,2525,Protoplasm Harness,0.4176,2597
+16.10,3rd Item,3050,Zeke's Convergence,0.8751,181
+16.10,3rd Item,3065,Spirit Visage,0.2574,9875
+16.10,3rd Item,3068,Sunfire Aegis,-1.0638,198
+16.10,3rd Item,3075,Thornmail,-0.7003,15896
+16.10,3rd Item,3083,Warmog's Armor,1.1767,1163
+16.10,3rd Item,3084,Heartsteel,-0.5728,1645
+16.10,3rd Item,3109,Knight's Vow,1.149,1465
+16.10,3rd Item,3110,Frozen Heart,1.0402,798
+16.10,3rd Item,3143,Randuin's Omen,1.5331,1319
+16.10,3rd Item,3190,Locket of the Iron Solari,-0.092,2590
+16.10,3rd Item,3222,Mikael's Blessing,-0.9728,142
+16.10,3rd Item,3742,Dead Man's Plate,-1.9644,301
+16.10,3rd Item,4401,Force of Nature,-0.408,304
+16.10,3rd Item,4633,Riftmaker,-1.0428,222
+16.10,3rd Item,6664,Hollow Radiance,-2.8445,172
+16.10,3rd Item,6665,"Jak'Sho, The Protean",0.0127,275
+16.10,3rd Item,8020,Abyssal Mask,1.8801,151
+16.10,4th+ Item,2502,Unending Despair,0.5522,3622
+16.10,4th+ Item,2504,Kaenic Rookern,1.5945,714
+16.10,4th+ Item,2510,Dusk and Dawn,0.9393,1385
+16.10,4th+ Item,2524,Bandlepipes,0.5276,1080
+16.10,4th+ Item,2525,Protoplasm Harness,1.0155,1600
+16.10,4th+ Item,3041,Mejai's Soulstealer,-1.7917,116
+16.10,4th+ Item,3065,Spirit Visage,-0.2697,6697
+16.10,4th+ Item,3068,Sunfire Aegis,-3.9222,124
+16.10,4th+ Item,3075,Thornmail,-0.6402,5698
+16.10,4th+ Item,3083,Warmog's Armor,0.9329,634
+16.10,4th+ Item,3084,Heartsteel,-3.4111,158
+16.10,4th+ Item,3109,Knight's Vow,0.1848,934
+16.10,4th+ Item,3110,Frozen Heart,-1.7932,683
+16.10,4th+ Item,3143,Randuin's Omen,0.648,1294
+16.10,4th+ Item,3190,Locket of the Iron Solari,-0.4678,1164
+16.10,4th+ Item,3222,Mikael's Blessing,0.4146,102
+16.10,4th+ Item,3742,Dead Man's Plate,2.6712,149
+16.10,4th+ Item,4401,Force of Nature,-1.3005,358
+16.10,4th+ Item,4633,Riftmaker,-0.4995,410
+16.10,4th+ Item,6664,Hollow Radiance,-2.3446,132
+16.10,4th+ Item,6665,"Jak'Sho, The Protean",1.8577,440
+16.10,4th+ Item,8020,Abyssal Mask,0.3891,179
+16.10,All Items,2502,Unending Despair,0.8697,6764
+16.10,All Items,2504,Kaenic Rookern,0.1335,1345
+16.10,All Items,2510,Dusk and Dawn,0.4464,11210
+16.10,All Items,2524,Bandlepipes,-0.6377,6711
+16.10,All Items,2525,Protoplasm Harness,1.3164,8694
+16.10,All Items,3041,Mejai's Soulstealer,-0.961,177
+16.10,All Items,3050,Zeke's Convergence,0.5846,331
+16.10,All Items,3065,Spirit Visage,-0.0075,17142
+16.10,All Items,3068,Sunfire Aegis,-2.4157,423
+16.10,All Items,3075,Thornmail,-0.7097,22951
+16.10,All Items,3083,Warmog's Armor,0.9403,2027
+16.10,All Items,3084,Heartsteel,0.023,53838
+16.10,All Items,3107,Redemption,1.366,104
+16.10,All Items,3109,Knight's Vow,0.8764,2746
+16.10,All Items,3110,Frozen Heart,-0.3639,1646
+16.10,All Items,3143,Randuin's Omen,1.0568,2799
+16.10,All Items,3190,Locket of the Iron Solari,-0.5007,10880
+16.10,All Items,3222,Mikael's Blessing,-0.6938,346
+16.10,All Items,3742,Dead Man's Plate,0.5561,625
+16.10,All Items,3748,Titanic Hydra,-0.2876,130
+16.10,All Items,4401,Force of Nature,-1.1036,706
+16.10,All Items,4633,Riftmaker,-0.8535,651
+16.10,All Items,6662,Iceborn Gauntlet,-2.3659,117
+16.10,All Items,6664,Hollow Radiance,-3.8813,352
+16.10,All Items,6665,"Jak'Sho, The Protean",1.0844,755
+16.10,All Items,8020,Abyssal Mask,1.3177,359
+16.11,Keystone,9923,Hail of Blades,0.9718,2148
+16.11,Keystone,8465,Guardian,-0.6687,15839
+16.11,Keystone,8008,Lethal Tempo,1.1662,359
+16.11,Keystone,8360,Unsealed Spellbook,1.7505,495
+16.11,Keystone,8437,Grasp of the Undying,0.2454,49545
+16.11,Keystone,8229,Arcane Comet,2.1879,153
+16.11,Keystone,8439,Aftershock,-4.2208,498
+16.11,Keystone,8351,Glacial Augment,-1.5445,171
+16.11,Spell,3,Exhaust,-0.0545,15331
+16.11,Spell,4,Flash,0.0107,67957
+16.11,Spell,6,Ghost,0.1938,687
+16.11,Spell,7,Heal,0.5287,8455
+16.11,Spell,12,Teleport,1.0715,140
+16.11,Spell,14,Ignite,-0.0817,46494
+16.11,Starter,3865,World Atlas,0.0,69591
+16.11,Boots,3006,Berserker's Greaves,-1.5236,106
+16.11,Boots,3008,Gluttonous Greaves,0.1378,164
+16.11,Boots,3009,Boots of Swiftness,0.3543,9295
+16.11,Boots,3047,Plated Steelcaps,-0.2041,36313
+16.11,Boots,3111,Mercury's Treads,-0.0222,18904
+16.11,Boots,3158,Ionian Boots of Lucidity,1.5262,406
+16.11,2nd Item,2502,Unending Despair,2.0818,152
+16.11,2nd Item,2504,Kaenic Rookern,6.8665,103
+16.11,2nd Item,2510,Dusk and Dawn,1.4383,1187
+16.11,2nd Item,2524,Bandlepipes,-0.2287,1932
+16.11,2nd Item,2525,Protoplasm Harness,1.036,3569
+16.11,2nd Item,3050,Zeke's Convergence,1.7216,134
+16.11,2nd Item,3065,Spirit Visage,-1.1807,528
+16.11,2nd Item,3075,Thornmail,-1.5731,1159
+16.11,2nd Item,3083,Warmog's Armor,0.4547,129
+16.11,2nd Item,3084,Heartsteel,-0.0415,50202
+16.11,2nd Item,3109,Knight's Vow,0.8374,724
+16.11,2nd Item,3110,Frozen Heart,3.2854,144
+16.11,2nd Item,3143,Randuin's Omen,2.9434,133
+16.11,2nd Item,3190,Locket of the Iron Solari,-0.2216,7555
+16.11,2nd Item,3742,Dead Man's Plate,-1.0205,144
+16.11,3rd Item,2502,Unending Despair,0.812,2566
+16.11,3rd Item,2504,Kaenic Rookern,-1.0362,506
+16.11,3rd Item,2510,Dusk and Dawn,0.7807,7316
+16.11,3rd Item,2524,Bandlepipes,0.4934,2856
+16.11,3rd Item,2525,Protoplasm Harness,0.3216,3107
+16.11,3rd Item,3050,Zeke's Convergence,-2.8156,213
+16.11,3rd Item,3065,Spirit Visage,0.9223,9300
+16.11,3rd Item,3068,Sunfire Aegis,-0.852,229
+16.11,3rd Item,3075,Thornmail,-1.0244,14513
+16.11,3rd Item,3083,Warmog's Armor,0.7336,1013
+16.11,3rd Item,3084,Heartsteel,-1.845,1462
+16.11,3rd Item,3109,Knight's Vow,-0.1937,2315
+16.11,3rd Item,3110,Frozen Heart,0.352,847
+16.11,3rd Item,3143,Randuin's Omen,-0.4941,1085
+16.11,3rd Item,3190,Locket of the Iron Solari,0.2358,2846
+16.11,3rd Item,3222,Mikael's Blessing,-0.3749,151
+16.11,3rd Item,3742,Dead Man's Plate,-1.6047,269
+16.11,3rd Item,4401,Force of Nature,0.3486,230
+16.11,3rd Item,4633,Riftmaker,-4.7254,176
+16.11,3rd Item,6664,Hollow Radiance,-0.7789,166
+16.11,3rd Item,6665,"Jak'Sho, The Protean",0.5318,237
+16.11,3rd Item,8020,Abyssal Mask,1.5167,142
+16.11,4th+ Item,2502,Unending Despair,-0.3514,3239
+16.11,4th+ Item,2504,Kaenic Rookern,-1.0008,635
+16.11,4th+ Item,2510,Dusk and Dawn,-0.9754,1190
+16.11,4th+ Item,2524,Bandlepipes,0.7407,1014
+16.11,4th+ Item,2525,Protoplasm Harness,0.9261,1616
+16.11,4th+ Item,3050,Zeke's Convergence,3.1622,114
+16.11,4th+ Item,3065,Spirit Visage,0.1536,6173
+16.11,4th+ Item,3068,Sunfire Aegis,3.3959,116
+16.11,4th+ Item,3075,Thornmail,0.4621,5330
+16.11,4th+ Item,3083,Warmog's Armor,0.7183,538
+16.11,4th+ Item,3084,Heartsteel,-2.5104,145
+16.11,4th+ Item,3109,Knight's Vow,-0.8083,1082
+16.11,4th+ Item,3110,Frozen Heart,-1.1998,670
+16.11,4th+ Item,3143,Randuin's Omen,0.2556,1197
+16.11,4th+ Item,3190,Locket of the Iron Solari,-1.0005,1150
+16.11,4th+ Item,3742,Dead Man's Plate,-2.4931,119
+16.11,4th+ Item,4401,Force of Nature,-2.7037,336
+16.11,4th+ Item,4633,Riftmaker,1.313,369
+16.11,4th+ Item,6664,Hollow Radiance,-0.5509,103
+16.11,4th+ Item,6665,"Jak'Sho, The Protean",-0.2112,408
+16.11,4th+ Item,8020,Abyssal Mask,4.6416,156
+16.11,All Items,2502,Unending Despair,0.2054,5968
+16.11,All Items,2504,Kaenic Rookern,-0.4092,1248
+16.11,All Items,2510,Dusk and Dawn,0.6439,9702
+16.11,All Items,2524,Bandlepipes,0.2961,5804
+16.11,All Items,2525,Protoplasm Harness,0.7455,8307
+16.11,All Items,3041,Mejai's Soulstealer,-4.16,185
+16.11,All Items,3050,Zeke's Convergence,-0.0185,461
+16.11,All Items,3065,Spirit Visage,0.5562,16012
+16.11,All Items,3068,Sunfire Aegis,0.6567,430
+16.11,All Items,3075,Thornmail,-0.6798,21018
+16.11,All Items,3083,Warmog's Armor,0.7336,1687
+16.11,All Items,3084,Heartsteel,-0.0993,51810
+16.11,All Items,3109,Knight's Vow,-0.1739,4121
+16.11,All Items,3110,Frozen Heart,-0.0166,1668
+16.11,All Items,3143,Randuin's Omen,0.0499,2430
+16.11,All Items,3190,Locket of the Iron Solari,-0.183,11555
+16.11,All Items,3222,Mikael's Blessing,-2.1522,337
+16.11,All Items,3742,Dead Man's Plate,-1.6422,533
+16.11,All Items,3748,Titanic Hydra,-0.5477,146
+16.11,All Items,4005,Imperial Mandate,-2.1102,111
+16.11,All Items,4401,Force of Nature,-1.5664,602
+16.11,All Items,4633,Riftmaker,-0.9147,557
+16.11,All Items,6662,Iceborn Gauntlet,3.362,108
+16.11,All Items,6664,Hollow Radiance,-1.7337,312
+16.11,All Items,6665,"Jak'Sho, The Protean",0.1172,672
+16.11,All Items,8020,Abyssal Mask,3.6887,324
+16.12,Keystone,9923,Hail of Blades,-0.132,2117
+16.12,Keystone,8465,Guardian,-0.857,17365
+16.12,Keystone,8008,Lethal Tempo,-0.3796,411
+16.12,Keystone,8360,Unsealed Spellbook,-0.2311,617
+16.12,Keystone,8437,Grasp of the Undying,0.2844,57112
+16.12,Keystone,8229,Arcane Comet,-0.8313,188
+16.12,Keystone,8439,Aftershock,-2.151,520
+16.12,Keystone,8351,Glacial Augment,5.6147,257
+16.12,Spell,3,Exhaust,-0.5285,17211
+16.12,Spell,4,Flash,0.004,77146
+16.12,Spell,6,Ghost,1.0509,810
+16.12,Spell,7,Heal,0.9505,10693
+16.12,Spell,12,Teleport,-0.7147,171
+16.12,Spell,14,Ignite,-0.0389,51830
+16.12,Starter,3865,World Atlas,0.0,78987
+16.12,Boots,3008,Gluttonous Greaves,-0.9506,112
+16.12,Boots,3009,Boots of Swiftness,0.0829,10072
+16.12,Boots,3047,Plated Steelcaps,-0.2324,41717
+16.12,Boots,3111,Mercury's Treads,0.1824,21482
+16.12,Boots,3158,Ionian Boots of Lucidity,-1.4344,437
+16.12,2nd Item,2502,Unending Despair,7.649,179
+16.12,2nd Item,2504,Kaenic Rookern,4.364,119
+16.12,2nd Item,2510,Dusk and Dawn,-1.2292,1259
+16.12,2nd Item,2524,Bandlepipes,0.6689,1980
+16.12,2nd Item,2525,Protoplasm Harness,2.251,3988
+16.12,2nd Item,3050,Zeke's Convergence,-3.908,128
+16.12,2nd Item,3065,Spirit Visage,1.316,551
+16.12,2nd Item,3075,Thornmail,-3.2987,1293
+16.12,2nd Item,3083,Warmog's Armor,0.6701,180
+16.12,2nd Item,3084,Heartsteel,-0.0507,57627
+16.12,2nd Item,3109,Knight's Vow,-0.8829,672
+16.12,2nd Item,3110,Frozen Heart,-2.9328,140
+16.12,2nd Item,3143,Randuin's Omen,0.8865,136
+16.12,2nd Item,3190,Locket of the Iron Solari,-0.1566,8460
+16.12,2nd Item,3222,Mikael's Blessing,-3.4095,106
+16.12,2nd Item,3742,Dead Man's Plate,-2.4349,101
+16.12,3rd Item,2502,Unending Despair,0.4888,2850
+16.12,3rd Item,2504,Kaenic Rookern,-0.5355,614
+16.12,3rd Item,2510,Dusk and Dawn,0.7894,8088
+16.12,3rd Item,2524,Bandlepipes,0.4708,2858
+16.12,3rd Item,2525,Protoplasm Harness,0.0602,3748
+16.12,3rd Item,3050,Zeke's Convergence,-0.6753,194
+16.12,3rd Item,3065,Spirit Visage,0.164,10488
+16.12,3rd Item,3068,Sunfire Aegis,-0.5246,220
+16.12,3rd Item,3075,Thornmail,-0.7972,16821
+16.12,3rd Item,3083,Warmog's Armor,-0.1922,1135
+16.12,3rd Item,3084,Heartsteel,-1.2239,1627
+16.12,3rd Item,3109,Knight's Vow,0.2209,2249
+16.12,3rd Item,3110,Frozen Heart,0.846,919
+16.12,3rd Item,3143,Randuin's Omen,2.3687,1279
+16.12,3rd Item,3190,Locket of the Iron Solari,0.311,2946
+16.12,3rd Item,3222,Mikael's Blessing,-0.9499,194
+16.12,3rd Item,3742,Dead Man's Plate,0.5714,342
+16.12,3rd Item,4401,Force of Nature,-0.0095,228
+16.12,3rd Item,4633,Riftmaker,-1.9282,199
+16.12,3rd Item,6664,Hollow Radiance,0.3872,182
+16.12,3rd Item,6665,"Jak'Sho, The Protean",-2.9301,252
+16.12,3rd Item,8020,Abyssal Mask,5.5552,164
+16.12,4th+ Item,2502,Unending Despair,-1.0581,3681
+16.12,4th+ Item,2504,Kaenic Rookern,-1.9489,723
+16.12,4th+ Item,2510,Dusk and Dawn,1.8613,1342
+16.12,4th+ Item,2524,Bandlepipes,0.4076,1145
+16.12,4th+ Item,2525,Protoplasm Harness,-0.3574,1761
+16.12,4th+ Item,3065,Spirit Visage,0.1853,6991
+16.12,4th+ Item,3068,Sunfire Aegis,-9.3104,125
+16.12,4th+ Item,3075,Thornmail,0.2464,5883
+16.12,4th+ Item,3083,Warmog's Armor,-1.3066,547
+16.12,4th+ Item,3084,Heartsteel,-4.4913,131
+16.12,4th+ Item,3109,Knight's Vow,1.2018,1114
+16.12,4th+ Item,3110,Frozen Heart,-0.6042,676
+16.12,4th+ Item,3143,Randuin's Omen,-1.4957,1295
+16.12,4th+ Item,3190,Locket of the Iron Solari,1.6561,1163
+16.12,4th+ Item,3222,Mikael's Blessing,-1.5777,110
+16.12,4th+ Item,3742,Dead Man's Plate,4.302,134
+16.12,4th+ Item,4401,Force of Nature,3.9078,353
+16.12,4th+ Item,4633,Riftmaker,0.7317,323
+16.12,4th+ Item,6664,Hollow Radiance,-2.9725,146
+16.12,4th+ Item,6665,"Jak'Sho, The Protean",0.5908,418
+16.12,4th+ Item,8020,Abyssal Mask,4.1259,145
+16.12,All Items,2502,Unending Despair,-0.1663,6720
+16.12,All Items,2504,Kaenic Rookern,-0.8735,1465
+16.12,All Items,2510,Dusk and Dawn,0.6898,10701
+16.12,All Items,2524,Bandlepipes,0.5227,5986
+16.12,All Items,2525,Protoplasm Harness,0.9051,9506
+16.12,All Items,3041,Mejai's Soulstealer,1.3577,186
+16.12,All Items,3050,Zeke's Convergence,-0.8251,416
+16.12,All Items,3065,Spirit Visage,0.2082,18044
+16.12,All Items,3068,Sunfire Aegis,-2.6054,439
+16.12,All Items,3075,Thornmail,-0.6768,24003
+16.12,All Items,3083,Warmog's Armor,-0.4006,1874
+16.12,All Items,3084,Heartsteel,-0.0935,59387
+16.12,All Items,3109,Knight's Vow,0.2983,4043
+16.12,All Items,3110,Frozen Heart,0.0092,1743
+16.12,All Items,3143,Randuin's Omen,0.4392,2724
+16.12,All Items,3190,Locket of the Iron Solari,0.121,12578
+16.12,All Items,3222,Mikael's Blessing,-1.7542,410
+16.12,All Items,3742,Dead Man's Plate,0.9139,580
+16.12,All Items,3748,Titanic Hydra,-2.3491,141
+16.12,All Items,4005,Imperial Mandate,2.812,108
+16.12,All Items,4401,Force of Nature,2.0029,632
+16.12,All Items,4633,Riftmaker,-0.2953,541
+16.12,All Items,6662,Iceborn Gauntlet,-2.3519,152
+16.12,All Items,6664,Hollow Radiance,-0.9758,366
+16.12,All Items,6665,"Jak'Sho, The Protean",-0.6148,701
+16.12,All Items,8020,Abyssal Mask,3.9218,337
+16.13,Keystone,9923,Hail of Blades,-1.7758,3250
+16.13,Keystone,8465,Guardian,-0.6094,23327
+16.13,Keystone,8360,Unsealed Spellbook,0.1358,743
+16.13,Keystone,8008,Lethal Tempo,-1.004,315
+16.13,Keystone,8437,Grasp of the Undying,0.3023,83922
+16.13,Keystone,8229,Arcane Comet,0.0697,251
+16.13,Keystone,8992,Deathfire Touch,-5.0673,112
+16.13,Keystone,8439,Aftershock,-1.9602,766
+16.13,Keystone,8351,Glacial Augment,-1.8371,126
+16.13,Spell,3,Exhaust,0.1466,25735
+16.13,Spell,4,Flash,-0.0313,110713
+16.13,Spell,6,Ghost,0.5642,1315
+16.13,Spell,7,Heal,0.5086,13699
+16.13,Spell,12,Teleport,-2.6194,258
+16.13,Spell,14,Ignite,-0.1023,74699
+16.13,Spell,21,Barrier,2.5988,116
+16.13,Starter,3865,World Atlas,-0.0,113282
+16.13,Boots,3006,Berserker's Greaves,-1.2709,134
+16.13,Boots,3008,Gluttonous Greaves,0.6233,258
+16.13,Boots,3009,Boots of Swiftness,-0.7926,13998
+16.13,Boots,3020,Sorcerer's Shoes,-0.3416,106
+16.13,Boots,3047,Plated Steelcaps,-0.2582,58031
+16.13,Boots,3111,Mercury's Treads,0.5623,32899
+16.13,Boots,3158,Ionian Boots of Lucidity,2.5463,640
+16.13,2nd Item,2502,Unending Despair,-0.779,393
+16.13,2nd Item,2504,Kaenic Rookern,1.0074,206
+16.13,2nd Item,2510,Dusk and Dawn,0.2979,1670
+16.13,2nd Item,2524,Bandlepipes,-1.1186,2293
+16.13,2nd Item,2525,Protoplasm Harness,1.1564,4967
+16.13,2nd Item,3050,Zeke's Convergence,-2.4051,159
+16.13,2nd Item,3065,Spirit Visage,0.2326,1008
+16.13,2nd Item,3068,Sunfire Aegis,-4.43,135
+16.13,2nd Item,3075,Thornmail,-2.3174,1773
+16.13,2nd Item,3083,Warmog's Armor,2.0096,174
+16.13,2nd Item,3084,Heartsteel,0.0806,84590
+16.13,2nd Item,3109,Knight's Vow,0.308,755
+16.13,2nd Item,3110,Frozen Heart,2.3859,246
+16.13,2nd Item,3143,Randuin's Omen,-3.3036,201
+16.13,2nd Item,3190,Locket of the Iron Solari,-0.5917,11514
+16.13,2nd Item,3222,Mikael's Blessing,1.3621,168
+16.13,2nd Item,3742,Dead Man's Plate,1.5642,170
+16.13,3rd Item,2502,Unending Despair,-0.2835,4243
+16.13,3rd Item,2504,Kaenic Rookern,0.8751,1037
+16.13,3rd Item,2510,Dusk and Dawn,0.7481,11337
+16.13,3rd Item,2524,Bandlepipes,0.7179,3802
+16.13,3rd Item,2525,Protoplasm Harness,0.2891,4630
+16.13,3rd Item,3041,Mejai's Soulstealer,3.4543,110
+16.13,3rd Item,3050,Zeke's Convergence,1.6996,272
+16.13,3rd Item,3065,Spirit Visage,0.1566,16849
+16.13,3rd Item,3068,Sunfire Aegis,-0.8385,289
+16.13,3rd Item,3075,Thornmail,-0.582,24044
+16.13,3rd Item,3083,Warmog's Armor,-0.074,1919
+16.13,3rd Item,3084,Heartsteel,-1.1309,2359
+16.13,3rd Item,3109,Knight's Vow,0.0951,2910
+16.13,3rd Item,3110,Frozen Heart,0.8429,1222
+16.13,3rd Item,3143,Randuin's Omen,1.9174,2025
+16.13,3rd Item,3190,Locket of the Iron Solari,-0.2851,4131
+16.13,3rd Item,3222,Mikael's Blessing,-0.64,300
+16.13,3rd Item,3742,Dead Man's Plate,-1.4508,355
+16.13,3rd Item,4005,Imperial Mandate,-6.1128,133
+16.13,3rd Item,4401,Force of Nature,5.1437,418
+16.13,3rd Item,4633,Riftmaker,-1.9403,290
+16.13,3rd Item,6664,Hollow Radiance,-2.3033,312
+16.13,3rd Item,6665,"Jak'Sho, The Protean",-1.9799,371
+16.13,3rd Item,8020,Abyssal Mask,0.1575,292
+16.13,4th+ Item,2502,Unending Despair,0.6545,5520
+16.13,4th+ Item,2504,Kaenic Rookern,-1.2301,1038
+16.13,4th+ Item,2510,Dusk and Dawn,0.8044,1909
+16.13,4th+ Item,2524,Bandlepipes,0.4175,1399
+16.13,4th+ Item,2525,Protoplasm Harness,0.068,2429
+16.13,4th+ Item,3041,Mejai's Soulstealer,-2.702,138
+16.13,4th+ Item,3050,Zeke's Convergence,-1.9492,111
+16.13,4th+ Item,3065,Spirit Visage,-0.2829,9997
+16.13,4th+ Item,3068,Sunfire Aegis,-3.8404,194
+16.13,4th+ Item,3075,Thornmail,-0.0674,8724
+16.13,4th+ Item,3083,Warmog's Armor,0.9757,904
+16.13,4th+ Item,3084,Heartsteel,4.7894,203
+16.13,4th+ Item,3109,Knight's Vow,0.6803,1517
+16.13,4th+ Item,3110,Frozen Heart,-1.1641,1021
+16.13,4th+ Item,3143,Randuin's Omen,0.7983,1886
+16.13,4th+ Item,3190,Locket of the Iron Solari,0.0282,1659
+16.13,4th+ Item,3222,Mikael's Blessing,0.9892,131
+16.13,4th+ Item,3742,Dead Man's Plate,-0.3438,181
+16.13,4th+ Item,4401,Force of Nature,-2.6106,479
+16.13,4th+ Item,4633,Riftmaker,0.4101,499
+16.13,4th+ Item,6664,Hollow Radiance,-3.4585,246
+16.13,4th+ Item,6665,"Jak'Sho, The Protean",-2.4818,655
+16.13,4th+ Item,8020,Abyssal Mask,1.1851,284
+16.13,All Items,2502,Unending Despair,0.2044,10170
+16.13,All Items,2504,Kaenic Rookern,-0.0457,2292
+16.13,All Items,2510,Dusk and Dawn,0.7057,14928
+16.13,All Items,2524,Bandlepipes,0.0936,7500
+16.13,All Items,2525,Protoplasm Harness,0.6039,12048
+16.13,All Items,3041,Mejai's Soulstealer,-0.2561,268
+16.13,All Items,3050,Zeke's Convergence,-0.2518,542
+16.13,All Items,3065,Spirit Visage,0.0016,27862
+16.13,All Items,3068,Sunfire Aegis,-2.5613,619
+16.13,All Items,3075,Thornmail,-0.541,34548
+16.13,All Items,3083,Warmog's Armor,0.3582,3008
+16.13,All Items,3084,Heartsteel,0.0588,87153
+16.13,All Items,3107,Redemption,4.1056,134
+16.13,All Items,3109,Knight's Vow,0.2962,5187
+16.13,All Items,3110,Frozen Heart,0.1864,2499
+16.13,All Items,3143,Randuin's Omen,1.1427,4130
+16.13,All Items,3190,Locket of the Iron Solari,-0.4586,17312
+16.13,All Items,3222,Mikael's Blessing,0.2774,600
+16.13,All Items,3742,Dead Man's Plate,-0.4477,707
+16.13,All Items,3748,Titanic Hydra,-4.2057,159
+16.13,All Items,4005,Imperial Mandate,-3.3322,220
+16.13,All Items,4401,Force of Nature,1.117,965
+16.13,All Items,4633,Riftmaker,-0.3103,816
+16.13,All Items,6662,Iceborn Gauntlet,-4.1134,162
+16.13,All Items,6664,Hollow Radiance,-2.8614,650
+16.13,All Items,6665,"Jak'Sho, The Protean",-2.3535,1066
+16.13,All Items,8020,Abyssal Mask,0.9899,656
+16.14,Keystone,9923,Hail of Blades,-0.1765,1977
+16.14,Keystone,8465,Guardian,0.0696,12347
+16.14,Keystone,8008,Lethal Tempo,-0.3258,256
+16.14,Keystone,8360,Unsealed Spellbook,-0.832,394
+16.14,Keystone,8437,Grasp of the Undying,0.0925,48884
+16.14,Keystone,8229,Arcane Comet,-9.1406,178
+16.14,Keystone,8439,Aftershock,-5.9877,369
+16.14,Spell,3,Exhaust,-0.0101,14479
+16.14,Spell,4,Flash,-0.0534,63101
+16.14,Spell,6,Ghost,-0.417,871
+16.14,Spell,7,Heal,1.5515,6503
+16.14,Spell,12,Teleport,-8.0343,151
+16.14,Spell,14,Ignite,-0.1041,44378
+16.14,Starter,3865,World Atlas,0.0,64785
+16.14,Boots,3006,Berserker's Greaves,-2.8479,108
+16.14,Boots,3008,Gluttonous Greaves,-1.6644,145
+16.14,Boots,3009,Boots of Swiftness,0.9878,8315
+16.14,Boots,3047,Plated Steelcaps,-0.3997,31115
+16.14,Boots,3111,Mercury's Treads,0.5769,20583
+16.14,Boots,3158,Ionian Boots of Lucidity,-0.8427,324
+16.14,2nd Item,2502,Unending Despair,0.3807,141
+16.14,2nd Item,2504,Kaenic Rookern,-3.7968,147
+16.14,2nd Item,2510,Dusk and Dawn,0.0892,1014
+16.14,2nd Item,2524,Bandlepipes,-2.2547,1205
+16.14,2nd Item,2525,Protoplasm Harness,1.3078,2246
+16.14,2nd Item,3065,Spirit Visage,-1.6748,749
+16.14,2nd Item,3075,Thornmail,-1.5973,865
+16.14,2nd Item,3083,Warmog's Armor,0.5161,176
+16.14,2nd Item,3084,Heartsteel,0.0111,49047
+16.14,2nd Item,3109,Knight's Vow,-1.5637,395
+16.14,2nd Item,3110,Frozen Heart,-0.0413,135
+16.14,2nd Item,3190,Locket of the Iron Solari,0.5057,6477
+16.14,2nd Item,3742,Dead Man's Plate,-1.6638,109
+16.14,3rd Item,2502,Unending Despair,0.4385,2393
+16.14,3rd Item,2504,Kaenic Rookern,0.0399,641
+16.14,3rd Item,2510,Dusk and Dawn,0.392,6751
+16.14,3rd Item,2524,Bandlepipes,0.5119,2141
+16.14,3rd Item,2525,Protoplasm Harness,-0.0534,2344
+16.14,3rd Item,3050,Zeke's Convergence,-4.9464,155
+16.14,3rd Item,3065,Spirit Visage,0.5243,10607
+16.14,3rd Item,3068,Sunfire Aegis,2.1246,182
+16.14,3rd Item,3075,Thornmail,-0.5703,13247
+16.14,3rd Item,3083,Warmog's Armor,-0.1807,1162
+16.14,3rd Item,3084,Heartsteel,0.1083,1305
+16.14,3rd Item,3109,Knight's Vow,0.8389,1472
+16.14,3rd Item,3110,Frozen Heart,-1.868,614
+16.14,3rd Item,3143,Randuin's Omen,-0.4703,1121
+16.14,3rd Item,3190,Locket of the Iron Solari,-0.2108,2113
+16.14,3rd Item,3222,Mikael's Blessing,-0.8432,160
+16.14,3rd Item,3742,Dead Man's Plate,-1.1499,261
+16.14,3rd Item,4401,Force of Nature,0.219,326
+16.14,3rd Item,4633,Riftmaker,2.4162,178
+16.14,3rd Item,6664,Hollow Radiance,1.5294,193
+16.14,3rd Item,6665,"Jak'Sho, The Protean",-0.7661,200
+16.14,3rd Item,8020,Abyssal Mask,1.2663,230
+16.14,4th+ Item,2502,Unending Despair,0.6493,3254
+16.14,4th+ Item,2504,Kaenic Rookern,-0.7457,659
+16.14,4th+ Item,2510,Dusk and Dawn,1.0187,1172
+16.14,4th+ Item,2524,Bandlepipes,-0.0441,792
+16.14,4th+ Item,2525,Protoplasm Harness,1.4451,1273
+16.14,4th+ Item,3065,Spirit Visage,-0.0607,5831
+16.14,4th+ Item,3075,Thornmail,-0.2849,5038
+16.14,4th+ Item,3083,Warmog's Armor,0.7978,537
+16.14,4th+ Item,3084,Heartsteel,-3.1107,111
+16.14,4th+ Item,3109,Knight's Vow,0.7713,830
+16.14,4th+ Item,3110,Frozen Heart,-0.444,519
+16.14,4th+ Item,3143,Randuin's Omen,1.8531,1106
+16.14,4th+ Item,3190,Locket of the Iron Solari,-1.6305,934
+16.14,4th+ Item,3742,Dead Man's Plate,-5.1536,109
+16.14,4th+ Item,4401,Force of Nature,1.5195,309
+16.14,4th+ Item,4633,Riftmaker,0.937,291
+16.14,4th+ Item,6664,Hollow Radiance,-2.365,140
+16.14,4th+ Item,6665,"Jak'Sho, The Protean",-4.1913,421
+16.14,4th+ Item,8020,Abyssal Mask,-0.2475,171
+16.14,All Items,2502,Unending Despair,0.5531,5802
+16.14,All Items,2504,Kaenic Rookern,-0.6639,1452
+16.14,All Items,2510,Dusk and Dawn,0.4423,8950
+16.14,All Items,2524,Bandlepipes,-0.3999,4140
+16.14,All Items,2525,Protoplasm Harness,0.7826,5868
+16.14,All Items,3041,Mejai's Soulstealer,-1.5249,121
+16.14,All Items,3050,Zeke's Convergence,-3.5576,314
+16.14,All Items,3065,Spirit Visage,0.2276,17197
+16.14,All Items,3068,Sunfire Aegis,0.0213,348
+16.14,All Items,3075,Thornmail,-0.5394,19161
+16.14,All Items,3083,Warmog's Armor,0.1833,1882
+16.14,All Items,3084,Heartsteel,0.0068,50463
+16.14,All Items,3109,Knight's Vow,0.4676,2698
+16.14,All Items,3110,Frozen Heart,-1.0898,1269
+16.14,All Items,3143,Randuin's Omen,0.8736,2335
+16.14,All Items,3190,Locket of the Iron Solari,0.1363,9526
+16.14,All Items,3222,Mikael's Blessing,-1.4897,316
+16.14,All Items,3742,Dead Man's Plate,-2.1734,480
+16.14,All Items,3748,Titanic Hydra,-0.1166,153
+16.14,All Items,4401,Force of Nature,0.4629,695
+16.14,All Items,4633,Riftmaker,1.4332,490
+16.14,All Items,6664,Hollow Radiance,-0.9825,387
+16.14,All Items,6665,"Jak'Sho, The Protean",-2.589,649
+16.14,All Items,8020,Abyssal Mask,1.8727,465
+16.15,Keystone,9923,Hail of Blades,-0.9323,2109
+16.15,Keystone,8465,Guardian,-0.7147,12758
+16.15,Keystone,8008,Lethal Tempo,6.1244,220
+16.15,Keystone,8360,Unsealed Spellbook,-2.7627,367
+16.15,Keystone,8437,Grasp of the Undying,0.2845,48935
+16.15,Keystone,8229,Arcane Comet,-3.221,207
+16.15,Keystone,8439,Aftershock,-4.5085,383
+16.15,Spell,3,Exhaust,-0.0245,15284
+16.15,Spell,4,Flash,0.028,63616
+16.15,Spell,6,Ghost,-0.8804,908
+16.15,Spell,7,Heal,0.5062,5726
+16.15,Spell,12,Teleport,-1.9922,137
+16.15,Spell,14,Ignite,-0.0706,45021
+16.15,Starter,3865,World Atlas,0.0,65385
+16.15,Boots,3008,Gluttonous Greaves,-2.6686,185
+16.15,Boots,3009,Boots of Swiftness,0.1556,8118
+16.15,Boots,3047,Plated Steelcaps,-0.4294,31787
+16.15,Boots,3111,Mercury's Treads,0.4824,20565
+16.15,Boots,3158,Ionian Boots of Lucidity,0.2716,357
+16.15,2nd Item,2502,Unending Despair,1.1551,144
+16.15,2nd Item,2504,Kaenic Rookern,0.5044,165
+16.15,2nd Item,2510,Dusk and Dawn,-0.7883,1053
+16.15,2nd Item,2524,Bandlepipes,0.7917,1003
+16.15,2nd Item,2525,Protoplasm Harness,-1.1381,2101
+16.15,2nd Item,3050,Zeke's Convergence,-5.0304,118
+16.15,2nd Item,3065,Spirit Visage,-2.7609,765
+16.15,2nd Item,3075,Thornmail,-3.2127,910
+16.15,2nd Item,3083,Warmog's Armor,-2.064,209
+16.15,2nd Item,3084,Heartsteel,0.3031,50071
+16.15,2nd Item,3109,Knight's Vow,3.2655,334
+16.15,2nd Item,3110,Frozen Heart,3.8414,112
+16.15,2nd Item,3143,Randuin's Omen,-2.0246,133
+16.15,2nd Item,3190,Locket of the Iron Solari,-1.0221,6328
+16.15,3rd Item,2502,Unending Despair,0.1367,2490
+16.15,3rd Item,2504,Kaenic Rookern,2.9786,628
+16.15,3rd Item,2510,Dusk and Dawn,0.9749,7233
+16.15,3rd Item,2524,Bandlepipes,-0.8479,1867
+16.15,3rd Item,2525,Protoplasm Harness,-0.44,2234
+16.15,3rd Item,3050,Zeke's Convergence,-4.7609,138
+16.15,3rd Item,3065,Spirit Visage,0.3107,10610
+16.15,3rd Item,3068,Sunfire Aegis,-0.6418,138
+16.15,3rd Item,3075,Thornmail,-0.5593,13592
+16.15,3rd Item,3083,Warmog's Armor,1.6998,1131
+16.15,3rd Item,3084,Heartsteel,-1.2714,1315
+16.15,3rd Item,3109,Knight's Vow,-0.1755,1452
+16.15,3rd Item,3110,Frozen Heart,-2.0649,735
+16.15,3rd Item,3143,Randuin's Omen,0.1908,1066
+16.15,3rd Item,3190,Locket of the Iron Solari,0.6347,2001
+16.15,3rd Item,3222,Mikael's Blessing,-0.0335,141
+16.15,3rd Item,3742,Dead Man's Plate,-1.2691,220
+16.15,3rd Item,4401,Force of Nature,-2.7564,287
+16.15,3rd Item,4633,Riftmaker,3.0585,193
+16.15,3rd Item,6664,Hollow Radiance,-2.6778,207
+16.15,3rd Item,6665,"Jak'Sho, The Protean",-3.6152,223
+16.15,3rd Item,8020,Abyssal Mask,2.9669,238
+16.15,4th+ Item,2502,Unending Despair,0.3893,3313
+16.15,4th+ Item,2504,Kaenic Rookern,-0.1166,641
+16.15,4th+ Item,2510,Dusk and Dawn,-0.8692,1100
+16.15,4th+ Item,2524,Bandlepipes,-0.3047,707
+16.15,4th+ Item,2525,Protoplasm Harness,1.5132,1265
+16.15,4th+ Item,3065,Spirit Visage,0.418,5868
+16.15,4th+ Item,3068,Sunfire Aegis,0.5071,104
+16.15,4th+ Item,3075,Thornmail,-0.1655,5103
+16.15,4th+ Item,3083,Warmog's Armor,-2.897,544
+16.15,4th+ Item,3084,Heartsteel,-6.9998,114
+16.15,4th+ Item,3109,Knight's Vow,-0.0142,717
+16.15,4th+ Item,3110,Frozen Heart,-2.3086,537
+16.15,4th+ Item,3143,Randuin's Omen,0.9923,1081
+16.15,4th+ Item,3190,Locket of the Iron Solari,-0.8596,905
+16.15,4th+ Item,3742,Dead Man's Plate,-1.7879,116
+16.15,4th+ Item,4401,Force of Nature,-0.2984,322
+16.15,4th+ Item,4633,Riftmaker,0.3615,306
+16.15,4th+ Item,6664,Hollow Radiance,1.9771,122
+16.15,4th+ Item,6665,"Jak'Sho, The Protean",-3.8734,387
+16.15,4th+ Item,8020,Abyssal Mask,0.0168,182
+16.15,All Items,2502,Unending Despair,0.304,5961
+16.15,All Items,2504,Kaenic Rookern,1.2993,1443
+16.15,All Items,2510,Dusk and Dawn,0.5605,9395
+16.15,All Items,2524,Bandlepipes,-0.2806,3580
+16.15,All Items,2525,Protoplasm Harness,-0.261,5617
+16.15,All Items,3041,Mejai's Soulstealer,3.2275,124
+16.15,All Items,3050,Zeke's Convergence,-3.0419,314
+16.15,All Items,3065,Spirit Visage,0.213,17255
+16.15,All Items,3068,Sunfire Aegis,-1.1794,305
+16.15,All Items,3075,Thornmail,-0.5793,19613
+16.15,All Items,3083,Warmog's Armor,-0.0287,1893
+16.15,All Items,3084,Heartsteel,0.2467,51500
+16.15,All Items,3109,Knight's Vow,0.3297,2504
+16.15,All Items,3110,Frozen Heart,-1.6754,1389
+16.15,All Items,3143,Randuin's Omen,0.4404,2286
+16.15,All Items,3190,Locket of the Iron Solari,-0.647,9237
+16.15,All Items,3222,Mikael's Blessing,0.2533,271
+16.15,All Items,3742,Dead Man's Plate,-1.646,431
+16.15,All Items,3748,Titanic Hydra,1.3063,140
+16.15,All Items,4401,Force of Nature,-1.1148,685
+16.15,All Items,4633,Riftmaker,1.686,511
+16.15,All Items,6664,Hollow Radiance,-1.9328,397
+16.15,All Items,6665,"Jak'Sho, The Protean",-4.1266,646
+16.15,All Items,8020,Abyssal Mask,1.3911,492
+16.16,Keystone,9923,Hail of Blades,-1.1501,686
+16.16,Keystone,8465,Guardian,-0.901,5219
+16.16,Keystone,8008,Lethal Tempo,-7.3178,117
+16.16,Keystone,8360,Unsealed Spellbook,5.9097,156
+16.16,Keystone,8437,Grasp of the Undying,0.4101,19224
+16.16,Keystone,8439,Aftershock,0.751,163
+16.16,Spell,3,Exhaust,-0.6878,6195
+16.16,Spell,4,Flash,0.0437,25218
+16.16,Spell,6,Ghost,1.0427,348
+16.16,Spell,7,Heal,1.7371,2080
+16.16,Spell,14,Ignite,-0.0081,17786
+16.16,Starter,3865,World Atlas,0.0,25851
+16.16,Boots,3009,Boots of Swiftness,-0.2513,3303
+16.16,Boots,3047,Plated Steelcaps,-0.1046,12944
+16.16,Boots,3111,Mercury's Treads,-0.2261,7591
+16.16,Boots,3158,Ionian Boots of Lucidity,1.491,177
+16.16,2nd Item,2510,Dusk and Dawn,2.9447,452
+16.16,2nd Item,2524,Bandlepipes,-3.0245,478
+16.16,2nd Item,2525,Protoplasm Harness,0.0399,769
+16.16,2nd Item,3065,Spirit Visage,3.1201,250
+16.16,2nd Item,3075,Thornmail,0.0678,391
+16.16,2nd Item,3083,Warmog's Armor,0.4367,103
+16.16,2nd Item,3084,Heartsteel,0.1255,19622
+16.16,2nd Item,3109,Knight's Vow,-4.1872,134
+16.16,2nd Item,3190,Locket of the Iron Solari,-0.6309,2563
+16.16,3rd Item,2502,Unending Despair,2.2722,1028
+16.16,3rd Item,2504,Kaenic Rookern,-2.2131,225
+16.16,3rd Item,2510,Dusk and Dawn,1.7987,2692
+16.16,3rd Item,2524,Bandlepipes,-1.6051,754
+16.16,3rd Item,2525,Protoplasm Harness,1.7395,946
+16.16,3rd Item,3065,Spirit Visage,0.106,3781
+16.16,3rd Item,3075,Thornmail,-1.4579,5412
+16.16,3rd Item,3083,Warmog's Armor,3.7664,411
+16.16,3rd Item,3084,Heartsteel,-2.0656,552
+16.16,3rd Item,3109,Knight's Vow,2.6114,559
+16.16,3rd Item,3110,Frozen Heart,1.7151,330
+16.16,3rd Item,3143,Randuin's Omen,2.8499,494
+16.16,3rd Item,3190,Locket of the Iron Solari,-1.7788,851
+16.16,3rd Item,4401,Force of Nature,3.7291,116
+16.16,4th+ Item,2502,Unending Despair,-0.3563,1249
+16.16,4th+ Item,2504,Kaenic Rookern,-2.2335,229
+16.16,4th+ Item,2510,Dusk and Dawn,2.4438,424
+16.16,4th+ Item,2524,Bandlepipes,2.5572,261
+16.16,4th+ Item,2525,Protoplasm Harness,-0.4076,436
+16.16,4th+ Item,3065,Spirit Visage,-0.5282,2181
+16.16,4th+ Item,3075,Thornmail,-1.0357,1761
+16.16,4th+ Item,3083,Warmog's Armor,1.5244,217
+16.16,4th+ Item,3109,Knight's Vow,4.7218,309
+16.16,4th+ Item,3110,Frozen Heart,4.4889,199
+16.16,4th+ Item,3143,Randuin's Omen,-0.393,431
+16.16,4th+ Item,3190,Locket of the Iron Solari,-1.4565,347
+16.16,4th+ Item,4401,Force of Nature,1.0827,127
+16.16,4th+ Item,4633,Riftmaker,-0.6909,142
+16.16,4th+ Item,6665,"Jak'Sho, The Protean",0.5613,158
+16.16,All Items,2525,Protoplasm Harness,0.6784,2155
+16.16,All Items,2502,Unending Despair,0.7828,2327
+16.16,All Items,3143,Randuin's Omen,0.9847,977
+16.16,All Items,3083,Warmog's Armor,2.6317,731
+16.16,All Items,2504,Kaenic Rookern,-2.2799,509
+16.16,All Items,3109,Knight's Vow,2.3483,1004
+16.16,All Items,2510,Dusk and Dawn,2.02,3569
+16.16,All Items,6664,Hollow Radiance,-6.6159,144
+16.16,All Items,3068,Sunfire Aegis,-0.3693,133
+16.16,All Items,3110,Frozen Heart,3.0464,599
+16.16,All Items,3222,Mikael's Blessing,-5.7538,124
+16.16,All Items,2524,Bandlepipes,-1.3301,1495
+16.16,All Items,3190,Locket of the Iron Solari,-0.9665,3762
+16.16,All Items,3075,Thornmail,-1.2804,7566
+16.16,All Items,3084,Heartsteel,0.0751,20209
+16.16,All Items,3050,Zeke's Convergence,-3.9143,147
+16.16,All Items,6665,"Jak'Sho, The Protean",-2.0492,239
+16.16,All Items,4401,Force of Nature,2.3556,263
+16.16,All Items,8020,Abyssal Mask,2.9716,151
+16.16,All Items,4633,Riftmaker,-0.9315,196
+16.16,All Items,3065,Spirit Visage,0.0105,6215
+16.16,All Items,3742,Dead Man's Plate,-0.1792,186
+16.17,Keystone,9923,Hail of Blades,-1.0945,657
+16.17,Keystone,8465,Guardian,-0.5076,5646
+16.17,Keystone,8360,Unsealed Spellbook,-5.2076,121
+16.17,Keystone,8437,Grasp of the Undying,0.2852,21643
+16.17,Keystone,8439,Aftershock,-7.16,183
+16.17,Spell,3,Exhaust,0.1323,6850
+16.17,Spell,4,Flash,-0.0217,27874
+16.17,Spell,6,Ghost,-1.3094,348
+16.17,Spell,7,Heal,0.9684,2153
+16.17,Spell,14,Ignite,-0.0885,19847
+16.17,Starter,3865,World Atlas,0.0,28583
+16.17,Boots,3009,Boots of Swiftness,0.1396,3520
+16.17,Boots,3047,Plated Steelcaps,-0.287,14819
+16.17,Boots,3111,Mercury's Treads,0.2608,8052
+16.17,Boots,3158,Ionian Boots of Lucidity,3.1368,190
+16.17,2nd Item,2510,Dusk and Dawn,3.6887,473
+16.17,2nd Item,2524,Bandlepipes,0.8259,557
+16.17,2nd Item,2525,Protoplasm Harness,0.9392,636
+16.17,2nd Item,3065,Spirit Visage,-0.4225,276
+16.17,2nd Item,3075,Thornmail,-5.2257,411
+16.17,2nd Item,3083,Warmog's Armor,0.1356,141
+16.17,2nd Item,3084,Heartsteel,0.1004,21804
+16.17,2nd Item,3109,Knight's Vow,-2.8527,143
+16.17,2nd Item,3190,Locket of the Iron Solari,-0.3876,3015
+16.17,3rd Item,2502,Unending Despair,-1.071,1103
+16.17,3rd Item,2504,Kaenic Rookern,1.5339,257
+16.17,3rd Item,2510,Dusk and Dawn,1.3419,2996
+16.17,3rd Item,2524,Bandlepipes,0.43,777
+16.17,3rd Item,2525,Protoplasm Harness,0.4117,836
+16.17,3rd Item,3065,Spirit Visage,-0.0674,4279
+16.17,3rd Item,3075,Thornmail,-0.6439,6107
+16.17,3rd Item,3083,Warmog's Armor,-2.9226,459
+16.17,3rd Item,3084,Heartsteel,-0.6685,564
+16.17,3rd Item,3109,Knight's Vow,1.9017,656
+16.17,3rd Item,3110,Frozen Heart,1.2328,300
+16.17,3rd Item,3143,Randuin's Omen,-0.9689,538
+16.17,3rd Item,3190,Locket of the Iron Solari,-0.9931,861
+16.17,3rd Item,4401,Force of Nature,5.5118,116
+16.17,4th+ Item,2502,Unending Despair,0.3835,1341
+16.17,4th+ Item,2504,Kaenic Rookern,1.7894,221
+16.17,4th+ Item,2510,Dusk and Dawn,-1.9294,494
+16.17,4th+ Item,2524,Bandlepipes,0.434,335
+16.17,4th+ Item,2525,Protoplasm Harness,-1.519,451
+16.17,4th+ Item,3065,Spirit Visage,0.0387,2422
+16.17,4th+ Item,3075,Thornmail,-0.1577,1969
+16.17,4th+ Item,3083,Warmog's Armor,1.7822,250
+16.17,4th+ Item,3109,Knight's Vow,1.9964,331
+16.17,4th+ Item,3110,Frozen Heart,0.3813,269
+16.17,4th+ Item,3143,Randuin's Omen,-2.1753,513
+16.17,4th+ Item,3190,Locket of the Iron Solari,0.8074,314
+16.17,4th+ Item,4401,Force of Nature,0.8241,130
+16.17,4th+ Item,4633,Riftmaker,-1.8353,109
+16.17,4th+ Item,6665,"Jak'Sho, The Protean",-2.4911,160
+16.17,All Items,2525,Protoplasm Harness,0.1332,1925
+16.17,All Items,2502,Unending Despair,-0.3336,2531
+16.17,All Items,3143,Randuin's Omen,-1.5079,1114
+16.17,All Items,3083,Warmog's Armor,-1.0255,855
+16.17,All Items,2504,Kaenic Rookern,1.4315,519
+16.17,All Items,3109,Knight's Vow,1.3266,1131
+16.17,All Items,2510,Dusk and Dawn,1.213,3967
+16.17,All Items,6664,Hollow Radiance,-3.4704,133
+16.17,All Items,3068,Sunfire Aegis,-1.2634,175
+16.17,All Items,3110,Frozen Heart,0.765,647
+16.17,All Items,3222,Mikael's Blessing,3.5305,141
+16.17,All Items,2524,Bandlepipes,0.5629,1669
+16.17,All Items,3190,Locket of the Iron Solari,-0.4225,4190
+16.17,All Items,3075,Thornmail,-0.7527,8490
+16.17,All Items,3084,Heartsteel,0.0979,22427
+16.17,All Items,3050,Zeke's Convergence,1.9006,152
+16.17,All Items,6665,"Jak'Sho, The Protean",-0.229,255
+16.17,All Items,4401,Force of Nature,2.8726,257
+16.17,All Items,8020,Abyssal Mask,4.949,135
+16.17,All Items,4633,Riftmaker,1.8003,197
+16.17,All Items,3065,Spirit Visage,-0.0496,6982
+16.17,All Items,3742,Dead Man's Plate,-0.5882,183

@@ -1,0 +1,2589 @@
+﻿patch,category,id,name,wpa,sample_size
+16.1,Keystone,8010,Conqueror,-8.3002,102
+16.1,Keystone,9923,Hail of Blades,-0.0431,36734
+16.1,Keystone,8021,Fleet Footwork,-0.6373,255
+16.1,Keystone,8008,Lethal Tempo,-0.0205,18798
+16.1,Keystone,8437,Grasp of the Undying,0.5412,9029
+16.1,Spell,1,Cleanse,6.561,240
+16.1,Spell,3,Exhaust,-7.8785,584
+16.1,Spell,4,Flash,0.0447,61042
+16.1,Spell,6,Ghost,-0.8581,27973
+16.1,Spell,12,Teleport,-5.3805,1522
+16.1,Spell,14,Ignite,0.8433,38888
+16.1,Starter,1036,Long Sword,1.2459,765
+16.1,Starter,1054,Doran's Shield,-0.6861,10594
+16.1,Starter,1055,Doran's Blade,0.1639,53427
+16.1,Starter,1083,Cull,-11.3447,156
+16.1,Boots,3006,Berserker's Greaves,0.0124,50414
+16.1,Boots,3009,Boots of Swiftness,0.3264,4421
+16.1,Boots,3047,Plated Steelcaps,-0.6257,1388
+16.1,Boots,3111,Mercury's Treads,-1.0693,2628
+16.1,Boots,3158,Ionian Boots of Lucidity,1.49,3196
+16.1,1st Item,2512,Fiendhunter Bolts,-3.3547,1460
+16.1,1st Item,3031,Infinity Edge,0.5416,445
+16.1,1st Item,3032,Yun Tal Wildarrows,0.5784,798
+16.1,1st Item,3033,Mortal Reminder,-2.9792,129
+16.1,1st Item,3036,Lord Dominik's Regards,1.1863,149
+16.1,1st Item,3046,Phantom Dancer,2.9919,351
+16.1,1st Item,3074,Ravenous Hydra,0.7086,18751
+16.1,1st Item,3097,Stormrazor,-0.8086,695
+16.1,1st Item,3153,Blade of The Ruined King,-0.1223,8625
+16.1,1st Item,3181,Hullbreaker,-4.5519,122
+16.1,1st Item,3508,Essence Reaver,1.4545,3932
+16.1,1st Item,3748,Titanic Hydra,-4.9505,318
+16.1,1st Item,6631,Stridebreaker,1.536,2090
+16.1,1st Item,6672,Kraken Slayer,-0.1273,1081
+16.1,1st Item,6675,Navori Flickerblade,-1.7324,254
+16.1,1st Item,6676,The Collector,-2.5195,400
+16.1,1st Item,6698,Profane Hydra,-0.6118,22401
+16.1,1st Item,6699,Voltaic Cyclosword,1.2719,157
+16.1,2nd Item,2512,Fiendhunter Bolts,-0.6875,1970
+16.1,2nd Item,2520,Bastionbreaker,-0.7408,259
+16.1,2nd Item,3031,Infinity Edge,-0.7465,5702
+16.1,2nd Item,3032,Yun Tal Wildarrows,-1.756,413
+16.1,2nd Item,3033,Mortal Reminder,-0.7093,2287
+16.1,2nd Item,3036,Lord Dominik's Regards,0.2664,4711
+16.1,2nd Item,3046,Phantom Dancer,1.2649,11763
+16.1,2nd Item,3074,Ravenous Hydra,-1.2694,1689
+16.1,2nd Item,3091,Wit's End,0.9067,221
+16.1,2nd Item,3097,Stormrazor,1.7345,405
+16.1,2nd Item,3153,Blade of The Ruined King,-0.0524,3093
+16.1,2nd Item,3181,Hullbreaker,-0.1844,673
+16.1,2nd Item,3508,Essence Reaver,2.1169,1348
+16.1,2nd Item,6610,Sundered Sky,-5.1067,121
+16.1,2nd Item,6631,Stridebreaker,1.0084,754
+16.1,2nd Item,6672,Kraken Slayer,0.1708,748
+16.1,2nd Item,6675,Navori Flickerblade,-0.0277,6605
+16.1,2nd Item,6676,The Collector,-0.6695,12017
+16.1,2nd Item,6695,Serpent's Fang,0.2157,222
+16.1,2nd Item,6698,Profane Hydra,-0.4052,856
+16.1,2nd Item,6699,Voltaic Cyclosword,0.8616,387
+16.1,3rd Item,2512,Fiendhunter Bolts,-0.0309,698
+16.1,3rd Item,2517,Endless Hunger,3.6023,176
+16.1,3rd Item,2520,Bastionbreaker,-0.4811,174
+16.1,3rd Item,3031,Infinity Edge,0.4282,16227
+16.1,3rd Item,3033,Mortal Reminder,-0.7877,3633
+16.1,3rd Item,3036,Lord Dominik's Regards,0.7883,7040
+16.1,3rd Item,3046,Phantom Dancer,0.3784,2756
+16.1,3rd Item,3074,Ravenous Hydra,-0.6427,441
+16.1,3rd Item,3091,Wit's End,0.9307,246
+16.1,3rd Item,3097,Stormrazor,-1.4743,218
+16.1,3rd Item,3139,Mercurial Scimitar,-0.9552,101
+16.1,3rd Item,3153,Blade of The Ruined King,0.0141,3053
+16.1,3rd Item,3181,Hullbreaker,0.6678,798
+16.1,3rd Item,3508,Essence Reaver,-0.3789,275
+16.1,3rd Item,6333,Death's Dance,-2.2527,131
+16.1,3rd Item,6631,Stridebreaker,0.6727,317
+16.1,3rd Item,6672,Kraken Slayer,-1.8645,687
+16.1,3rd Item,6675,Navori Flickerblade,-2.2255,1713
+16.1,3rd Item,6676,The Collector,-3.2297,1335
+16.1,3rd Item,6694,Serylda's Grudge,0.5291,1382
+16.1,3rd Item,6695,Serpent's Fang,-3.0821,342
+16.1,3rd Item,6698,Profane Hydra,-1.943,207
+16.1,3rd Item,6699,Voltaic Cyclosword,-0.7882,358
+16.1,3rd Item,6701,Opportunity,-6.5911,166
+16.1,4th+ Item,2512,Fiendhunter Bolts,-0.8287,691
+16.1,4th+ Item,2517,Endless Hunger,-0.3127,952
+16.1,4th+ Item,2520,Bastionbreaker,-0.8166,441
+16.1,4th+ Item,3026,Guardian Angel,0.3468,726
+16.1,4th+ Item,3031,Infinity Edge,-0.5816,5312
+16.1,4th+ Item,3033,Mortal Reminder,-0.272,2747
+16.1,4th+ Item,3036,Lord Dominik's Regards,0.0503,4160
+16.1,4th+ Item,3046,Phantom Dancer,0.4345,1454
+16.1,4th+ Item,3072,Bloodthirster,0.0322,379
+16.1,4th+ Item,3073,Experimental Hexplate,-0.9421,276
+16.1,4th+ Item,3074,Ravenous Hydra,-0.0186,291
+16.1,4th+ Item,3091,Wit's End,-0.1785,438
+16.1,4th+ Item,3097,Stormrazor,-0.3312,198
+16.1,4th+ Item,3139,Mercurial Scimitar,-0.8061,1094
+16.1,4th+ Item,3142,Youmuu's Ghostblade,-3.6939,331
+16.1,4th+ Item,3143,Randuin's Omen,3.5589,132
+16.1,4th+ Item,3153,Blade of The Ruined King,0.5833,2533
+16.1,4th+ Item,3156,Maw of Malmortius,-0.2664,150
+16.1,4th+ Item,3181,Hullbreaker,0.9611,899
+16.1,4th+ Item,3508,Essence Reaver,1.2926,155
+16.1,4th+ Item,3814,Edge of Night,1.3756,217
+16.1,4th+ Item,6333,Death's Dance,4.1582,585
+16.1,4th+ Item,6631,Stridebreaker,2.9352,354
+16.1,4th+ Item,6672,Kraken Slayer,1.7166,1050
+16.1,4th+ Item,6675,Navori Flickerblade,-0.1356,1280
+16.1,4th+ Item,6676,The Collector,-1.3597,595
+16.1,4th+ Item,6694,Serylda's Grudge,-0.6439,922
+16.1,4th+ Item,6695,Serpent's Fang,-0.3213,872
+16.1,4th+ Item,6696,Axiom Arc,-0.8432,106
+16.1,4th+ Item,6698,Profane Hydra,-0.5122,227
+16.1,4th+ Item,6699,Voltaic Cyclosword,0.7448,1890
+16.1,4th+ Item,6701,Opportunity,-1.08,1256
+16.1,All Items,2512,Fiendhunter Bolts,-1.3806,4836
+16.1,All Items,2517,Endless Hunger,0.5797,1216
+16.1,All Items,2520,Bastionbreaker,-0.7115,970
+16.1,All Items,3026,Guardian Angel,0.2357,833
+16.1,All Items,3031,Infinity Edge,-0.0034,27760
+16.1,All Items,3032,Yun Tal Wildarrows,-0.5536,1326
+16.1,All Items,3033,Mortal Reminder,-0.647,8824
+16.1,All Items,3036,Lord Dominik's Regards,0.4599,16119
+16.1,All Items,3046,Phantom Dancer,1.0731,16388
+16.1,All Items,3071,Black Cleaver,3.8373,132
+16.1,All Items,3072,Bloodthirster,0.0317,459
+16.1,All Items,3073,Experimental Hexplate,-0.9571,415
+16.1,All Items,3074,Ravenous Hydra,0.5077,21190
+16.1,All Items,3078,Trinity Force,4.1723,105
+16.1,All Items,3084,Heartsteel,-4.8898,106
+16.1,All Items,3091,Wit's End,0.7336,999
+16.1,All Items,3097,Stormrazor,-0.1036,1527
+16.1,All Items,3115,Nashor's Tooth,1.2292,123
+16.1,All Items,3124,Guinsoo's Rageblade,-1.1474,195
+16.1,All Items,3139,Mercurial Scimitar,-0.5504,1264
+16.1,All Items,3142,Youmuu's Ghostblade,-3.0626,467
+16.1,All Items,3143,Randuin's Omen,3.7041,181
+16.1,All Items,3153,Blade of The Ruined King,0.0285,17358
+16.1,All Items,3156,Maw of Malmortius,-0.9547,215
+16.1,All Items,3181,Hullbreaker,0.2871,2509
+16.1,All Items,3508,Essence Reaver,1.5188,5713
+16.1,All Items,3748,Titanic Hydra,-5.4938,419
+16.1,All Items,3814,Edge of Night,1.8151,269
+16.1,All Items,6333,Death's Dance,2.887,752
+16.1,All Items,6610,Sundered Sky,-6.7384,155
+16.1,All Items,6631,Stridebreaker,1.4831,3531
+16.1,All Items,6672,Kraken Slayer,0.133,3606
+16.1,All Items,6675,Navori Flickerblade,-0.4743,9888
+16.1,All Items,6676,The Collector,-0.9979,14362
+16.1,All Items,6694,Serylda's Grudge,-0.065,2419
+16.1,All Items,6695,Serpent's Fang,-0.734,1514
+16.1,All Items,6696,Axiom Arc,0.356,130
+16.1,All Items,6698,Profane Hydra,-0.6131,23698
+16.1,All Items,6699,Voltaic Cyclosword,0.5869,2813
+16.1,All Items,6701,Opportunity,-1.8701,1455
+16.2,Keystone,9923,Hail of Blades,-0.4595,32031
+16.2,Keystone,8021,Fleet Footwork,1.5121,333
+16.2,Keystone,8008,Lethal Tempo,-0.034,13682
+16.2,Keystone,8437,Grasp of the Undying,2.1155,7344
+16.2,Spell,1,Cleanse,-6.1177,175
+16.2,Spell,3,Exhaust,-5.0634,498
+16.2,Spell,4,Flash,-0.0023,50538
+16.2,Spell,6,Ghost,-1.0014,20016
+16.2,Spell,12,Teleport,-1.0275,1017
+16.2,Spell,14,Ignite,0.7245,35014
+16.2,Starter,1036,Long Sword,1.9666,583
+16.2,Starter,1054,Doran's Shield,-0.879,8403
+16.2,Starter,1055,Doran's Blade,0.1411,44350
+16.2,Starter,1083,Cull,-2.2847,164
+16.2,Boots,3006,Berserker's Greaves,-0.2424,41569
+16.2,Boots,3009,Boots of Swiftness,0.3537,4136
+16.2,Boots,3047,Plated Steelcaps,-0.0088,1225
+16.2,Boots,3111,Mercury's Treads,0.4403,2295
+16.2,Boots,3158,Ionian Boots of Lucidity,0.5872,2072
+16.2,1st Item,2512,Fiendhunter Bolts,-0.5054,443
+16.2,1st Item,3031,Infinity Edge,-3.4088,360
+16.2,1st Item,3032,Yun Tal Wildarrows,1.2302,420
+16.2,1st Item,3033,Mortal Reminder,-1.6278,108
+16.2,1st Item,3036,Lord Dominik's Regards,-6.4381,123
+16.2,1st Item,3046,Phantom Dancer,1.7996,259
+16.2,1st Item,3074,Ravenous Hydra,1.3785,14913
+16.2,1st Item,3097,Stormrazor,3.1331,259
+16.2,1st Item,3153,Blade of The Ruined King,0.469,7067
+16.2,1st Item,3508,Essence Reaver,-0.4116,6639
+16.2,1st Item,3748,Titanic Hydra,-0.3663,235
+16.2,1st Item,6631,Stridebreaker,0.0438,1592
+16.2,1st Item,6672,Kraken Slayer,0.7678,880
+16.2,1st Item,6675,Navori Flickerblade,-3.6788,178
+16.2,1st Item,6676,The Collector,-4.0212,280
+16.2,1st Item,6698,Profane Hydra,-1.1269,17194
+16.2,1st Item,6699,Voltaic Cyclosword,0.4536,184
+16.2,2nd Item,2512,Fiendhunter Bolts,0.4274,1676
+16.2,2nd Item,3031,Infinity Edge,-0.465,7709
+16.2,2nd Item,3032,Yun Tal Wildarrows,1.5,210
+16.2,2nd Item,3033,Mortal Reminder,0.2374,1764
+16.2,2nd Item,3036,Lord Dominik's Regards,0.0373,3364
+16.2,2nd Item,3046,Phantom Dancer,1.7904,8695
+16.2,2nd Item,3074,Ravenous Hydra,-1.0976,913
+16.2,2nd Item,3091,Wit's End,1.3508,195
+16.2,2nd Item,3097,Stormrazor,-1.188,154
+16.2,2nd Item,3153,Blade of The Ruined King,-0.0738,2414
+16.2,2nd Item,3181,Hullbreaker,2.2049,419
+16.2,2nd Item,3508,Essence Reaver,0.5326,1788
+16.2,2nd Item,6610,Sundered Sky,-1.8458,125
+16.2,2nd Item,6631,Stridebreaker,1.4864,555
+16.2,2nd Item,6672,Kraken Slayer,1.8082,505
+16.2,2nd Item,6675,Navori Flickerblade,-0.7002,4939
+16.2,2nd Item,6676,The Collector,-0.9853,9880
+16.2,2nd Item,6694,Serylda's Grudge,-12.2624,101
+16.2,2nd Item,6695,Serpent's Fang,-1.4354,191
+16.2,2nd Item,6698,Profane Hydra,0.8865,658
+16.2,2nd Item,6699,Voltaic Cyclosword,1.2437,158
+16.2,3rd Item,2512,Fiendhunter Bolts,-2.9395,925
+16.2,3rd Item,2517,Endless Hunger,0.6269,252
+16.2,3rd Item,3031,Infinity Edge,0.0782,12309
+16.2,3rd Item,3033,Mortal Reminder,1.3264,3662
+16.2,3rd Item,3036,Lord Dominik's Regards,0.1073,5614
+16.2,3rd Item,3046,Phantom Dancer,1.4454,1978
+16.2,3rd Item,3074,Ravenous Hydra,-0.1992,376
+16.2,3rd Item,3091,Wit's End,-0.5469,191
+16.2,3rd Item,3153,Blade of The Ruined King,-0.0679,2468
+16.2,3rd Item,3181,Hullbreaker,-0.7547,542
+16.2,3rd Item,3508,Essence Reaver,-0.3165,234
+16.2,3rd Item,6333,Death's Dance,3.1884,106
+16.2,3rd Item,6631,Stridebreaker,-3.545,233
+16.2,3rd Item,6672,Kraken Slayer,-0.6589,411
+16.2,3rd Item,6675,Navori Flickerblade,-0.5765,1259
+16.2,3rd Item,6676,The Collector,1.1283,1032
+16.2,3rd Item,6694,Serylda's Grudge,-0.8958,2716
+16.2,3rd Item,6695,Serpent's Fang,-5.9449,267
+16.2,3rd Item,6698,Profane Hydra,-0.3961,166
+16.2,3rd Item,6699,Voltaic Cyclosword,-0.8774,291
+16.2,4th+ Item,2512,Fiendhunter Bolts,-0.1476,1093
+16.2,4th+ Item,2517,Endless Hunger,-1.0791,1722
+16.2,4th+ Item,2520,Bastionbreaker,0.7752,208
+16.2,4th+ Item,3026,Guardian Angel,2.0101,531
+16.2,4th+ Item,3031,Infinity Edge,-0.3701,4188
+16.2,4th+ Item,3033,Mortal Reminder,0.5256,1898
+16.2,4th+ Item,3036,Lord Dominik's Regards,-0.1002,3281
+16.2,4th+ Item,3046,Phantom Dancer,0.2061,1227
+16.2,4th+ Item,3072,Bloodthirster,-0.2221,295
+16.2,4th+ Item,3073,Experimental Hexplate,0.7979,167
+16.2,4th+ Item,3074,Ravenous Hydra,0.5945,304
+16.2,4th+ Item,3091,Wit's End,0.9002,398
+16.2,4th+ Item,3097,Stormrazor,-4.5341,130
+16.2,4th+ Item,3139,Mercurial Scimitar,0.2043,1116
+16.2,4th+ Item,3142,Youmuu's Ghostblade,-0.1348,300
+16.2,4th+ Item,3143,Randuin's Omen,1.3354,129
+16.2,4th+ Item,3153,Blade of The Ruined King,0.2594,2151
+16.2,4th+ Item,3156,Maw of Malmortius,-0.9922,125
+16.2,4th+ Item,3181,Hullbreaker,-0.1529,622
+16.2,4th+ Item,3508,Essence Reaver,4.1174,128
+16.2,4th+ Item,3814,Edge of Night,3.157,148
+16.2,4th+ Item,6333,Death's Dance,-0.5468,755
+16.2,4th+ Item,6631,Stridebreaker,3.0755,229
+16.2,4th+ Item,6672,Kraken Slayer,2.7264,783
+16.2,4th+ Item,6675,Navori Flickerblade,-2.5097,919
+16.2,4th+ Item,6676,The Collector,-0.8647,540
+16.2,4th+ Item,6694,Serylda's Grudge,-0.0423,1100
+16.2,4th+ Item,6695,Serpent's Fang,-0.5828,676
+16.2,4th+ Item,6698,Profane Hydra,5.3815,224
+16.2,4th+ Item,6699,Voltaic Cyclosword,0.2087,1348
+16.2,4th+ Item,6701,Opportunity,0.0068,700
+16.2,All Items,3814,Edge of Night,2.5348,195
+16.2,All Items,3026,Guardian Angel,1.4767,607
+16.2,All Items,3181,Hullbreaker,0.0723,1666
+16.2,All Items,2517,Endless Hunger,-1.0783,2014
+16.2,All Items,3124,Guinsoo's Rageblade,-1.5461,169
+16.2,All Items,2520,Bastionbreaker,-1.6359,354
+16.2,All Items,6675,Navori Flickerblade,-0.9874,7314
+16.2,All Items,3142,Youmuu's Ghostblade,-0.4867,415
+16.2,All Items,6694,Serylda's Grudge,-0.9202,3929
+16.2,All Items,3031,Infinity Edge,-0.2058,24616
+16.2,All Items,3143,Randuin's Omen,0.2533,169
+16.2,All Items,6631,Stridebreaker,0.2869,2627
+16.2,All Items,6676,The Collector,-0.8549,11750
+16.2,All Items,3074,Ravenous Hydra,1.1893,16524
+16.2,All Items,3097,Stormrazor,-0.0232,650
+16.2,All Items,6701,Opportunity,0.12,810
+16.2,All Items,6695,Serpent's Fang,-1.2314,1208
+16.2,All Items,6610,Sundered Sky,-2.618,155
+16.2,All Items,3071,Black Cleaver,-2.8479,102
+16.2,All Items,6333,Death's Dance,-0.1984,904
+16.2,All Items,3033,Mortal Reminder,0.8032,7449
+16.2,All Items,3073,Experimental Hexplate,2.0206,281
+16.2,All Items,3748,Titanic Hydra,-1.7803,312
+16.2,All Items,6672,Kraken Slayer,1.2887,2610
+16.2,All Items,6698,Profane Hydra,-0.968,18251
+16.2,All Items,3032,Yun Tal Wildarrows,0.7225,711
+16.2,All Items,3139,Mercurial Scimitar,0.0685,1275
+16.2,All Items,3153,Blade of The Ruined King,0.2296,14153
+16.2,All Items,6699,Voltaic Cyclosword,0.1952,1995
+16.2,All Items,3072,Bloodthirster,-2.3558,385
+16.2,All Items,3508,Essence Reaver,-0.1569,8795
+16.2,All Items,3046,Phantom Dancer,1.5734,12210
+16.2,All Items,3156,Maw of Malmortius,-0.8567,204
+16.2,All Items,2512,Fiendhunter Bolts,-0.5815,4160
+16.2,All Items,3091,Wit's End,1.2143,861
+16.2,All Items,3036,Lord Dominik's Regards,-0.0185,12440
+16.3,Keystone,9923,Hail of Blades,-0.0279,36579
+16.3,Keystone,8021,Fleet Footwork,-0.5279,377
+16.3,Keystone,8005,Press the Attack,-6.903,101
+16.3,Keystone,8008,Lethal Tempo,-0.5125,14873
+16.3,Keystone,8437,Grasp of the Undying,1.1233,8678
+16.3,Spell,1,Cleanse,-0.0694,218
+16.3,Spell,3,Exhaust,-2.9688,680
+16.3,Spell,4,Flash,0.0526,57524
+16.3,Spell,6,Ghost,-0.5162,15306
+16.3,Spell,12,Teleport,-5.5262,1199
+16.3,Spell,14,Ignite,0.2821,46652
+16.3,Starter,1036,Long Sword,0.6456,731
+16.3,Starter,1054,Doran's Shield,-0.8866,9204
+16.3,Starter,1055,Doran's Blade,0.1589,50542
+16.3,Starter,1083,Cull,-3.8246,137
+16.3,Boots,3006,Berserker's Greaves,0.0335,47503
+16.3,Boots,3009,Boots of Swiftness,-0.4982,4450
+16.3,Boots,3047,Plated Steelcaps,-0.5465,1328
+16.3,Boots,3111,Mercury's Treads,0.1566,2736
+16.3,Boots,3158,Ionian Boots of Lucidity,-1.5975,1700
+16.3,1st Item,2512,Fiendhunter Bolts,1.7696,337
+16.3,1st Item,3031,Infinity Edge,-1.5871,341
+16.3,1st Item,3032,Yun Tal Wildarrows,0.5585,538
+16.3,1st Item,3033,Mortal Reminder,-7.6222,104
+16.3,1st Item,3036,Lord Dominik's Regards,0.4667,141
+16.3,1st Item,3046,Phantom Dancer,0.6769,343
+16.3,1st Item,3074,Ravenous Hydra,0.9793,18293
+16.3,1st Item,3097,Stormrazor,-9.8848,117
+16.3,1st Item,3153,Blade of The Ruined King,0.3015,9127
+16.3,1st Item,3508,Essence Reaver,-0.1934,8286
+16.3,1st Item,3748,Titanic Hydra,1.7834,240
+16.3,1st Item,6631,Stridebreaker,0.671,1644
+16.3,1st Item,6672,Kraken Slayer,1.0076,1004
+16.3,1st Item,6675,Navori Flickerblade,-5.5701,156
+16.3,1st Item,6676,The Collector,-5.8275,306
+16.3,1st Item,6698,Profane Hydra,-0.9792,16460
+16.3,1st Item,6699,Voltaic Cyclosword,-2.5073,148
+16.3,2nd Item,2512,Fiendhunter Bolts,0.5177,1747
+16.3,2nd Item,3031,Infinity Edge,-0.2796,9012
+16.3,2nd Item,3032,Yun Tal Wildarrows,2.3201,380
+16.3,2nd Item,3033,Mortal Reminder,0.1663,1841
+16.3,2nd Item,3036,Lord Dominik's Regards,0.0803,3573
+16.3,2nd Item,3046,Phantom Dancer,1.3653,9514
+16.3,2nd Item,3074,Ravenous Hydra,0.4348,1066
+16.3,2nd Item,3091,Wit's End,-1.2172,220
+16.3,2nd Item,3153,Blade of The Ruined King,-1.1862,2668
+16.3,2nd Item,3181,Hullbreaker,2.3325,459
+16.3,2nd Item,3508,Essence Reaver,1.9034,3592
+16.3,2nd Item,6631,Stridebreaker,0.5105,656
+16.3,2nd Item,6672,Kraken Slayer,1.2066,506
+16.3,2nd Item,6675,Navori Flickerblade,-0.5679,5917
+16.3,2nd Item,6676,The Collector,-1.2201,9615
+16.3,2nd Item,6694,Serylda's Grudge,-5.1818,113
+16.3,2nd Item,6695,Serpent's Fang,-2.1924,187
+16.3,2nd Item,6698,Profane Hydra,-2.3453,879
+16.3,2nd Item,6699,Voltaic Cyclosword,-2.019,115
+16.3,3rd Item,2512,Fiendhunter Bolts,0.0721,1036
+16.3,3rd Item,2517,Endless Hunger,-0.122,277
+16.3,3rd Item,3031,Infinity Edge,0.2007,14902
+16.3,3rd Item,3033,Mortal Reminder,0.4012,4080
+16.3,3rd Item,3036,Lord Dominik's Regards,0.7529,5543
+16.3,3rd Item,3046,Phantom Dancer,0.9954,2135
+16.3,3rd Item,3074,Ravenous Hydra,2.4749,449
+16.3,3rd Item,3091,Wit's End,-1.3663,245
+16.3,3rd Item,3139,Mercurial Scimitar,4.1884,106
+16.3,3rd Item,3153,Blade of The Ruined King,-1.1539,2446
+16.3,3rd Item,3181,Hullbreaker,1.8123,540
+16.3,3rd Item,3508,Essence Reaver,-1.6239,453
+16.3,3rd Item,6333,Death's Dance,2.5588,125
+16.3,3rd Item,6631,Stridebreaker,0.5732,248
+16.3,3rd Item,6672,Kraken Slayer,0.0033,398
+16.3,3rd Item,6675,Navori Flickerblade,-1.609,1436
+16.3,3rd Item,6676,The Collector,-1.4372,1137
+16.3,3rd Item,6694,Serylda's Grudge,-0.834,3165
+16.3,3rd Item,6695,Serpent's Fang,-1.1362,235
+16.3,3rd Item,6698,Profane Hydra,-4.219,237
+16.3,3rd Item,6699,Voltaic Cyclosword,-3.3789,232
+16.3,4th+ Item,2512,Fiendhunter Bolts,-0.8309,1356
+16.3,4th+ Item,2517,Endless Hunger,0.865,2296
+16.3,4th+ Item,2520,Bastionbreaker,-2.2375,138
+16.3,4th+ Item,3026,Guardian Angel,2.3718,716
+16.3,4th+ Item,3031,Infinity Edge,-1.7155,4482
+16.3,4th+ Item,3033,Mortal Reminder,0.111,2279
+16.3,4th+ Item,3036,Lord Dominik's Regards,1.7449,3704
+16.3,4th+ Item,3046,Phantom Dancer,-0.7493,1344
+16.3,4th+ Item,3072,Bloodthirster,0.8563,334
+16.3,4th+ Item,3073,Experimental Hexplate,1.1846,179
+16.3,4th+ Item,3074,Ravenous Hydra,0.8822,375
+16.3,4th+ Item,3091,Wit's End,1.0426,480
+16.3,4th+ Item,3097,Stormrazor,-1.8966,109
+16.3,4th+ Item,3139,Mercurial Scimitar,-1.352,1119
+16.3,4th+ Item,3142,Youmuu's Ghostblade,-0.1829,302
+16.3,4th+ Item,3143,Randuin's Omen,2.5822,160
+16.3,4th+ Item,3153,Blade of The Ruined King,0.0974,2274
+16.3,4th+ Item,3156,Maw of Malmortius,-4.2283,153
+16.3,4th+ Item,3181,Hullbreaker,3.4497,608
+16.3,4th+ Item,3508,Essence Reaver,-2.0476,238
+16.3,4th+ Item,3814,Edge of Night,-0.3913,137
+16.3,4th+ Item,6333,Death's Dance,0.2331,991
+16.3,4th+ Item,6631,Stridebreaker,4.4583,235
+16.3,4th+ Item,6672,Kraken Slayer,-0.1778,919
+16.3,4th+ Item,6675,Navori Flickerblade,-1.901,940
+16.3,4th+ Item,6676,The Collector,-2.8874,779
+16.3,4th+ Item,6694,Serylda's Grudge,0.1286,1538
+16.3,4th+ Item,6695,Serpent's Fang,-0.7041,623
+16.3,4th+ Item,6698,Profane Hydra,-0.5052,304
+16.3,4th+ Item,6699,Voltaic Cyclosword,1.149,1317
+16.3,4th+ Item,6701,Opportunity,0.5457,574
+16.3,All Items,2512,Fiendhunter Bolts,0.0729,4515
+16.3,All Items,2517,Endless Hunger,0.745,2653
+16.3,All Items,2520,Bastionbreaker,-4.2256,252
+16.3,All Items,3026,Guardian Angel,2.3,810
+16.3,All Items,3031,Infinity Edge,-0.2751,28784
+16.3,All Items,3032,Yun Tal Wildarrows,1.1711,982
+16.3,All Items,3033,Mortal Reminder,0.1645,8345
+16.3,All Items,3036,Lord Dominik's Regards,0.8448,13012
+16.3,All Items,3046,Phantom Dancer,1.1019,13393
+16.3,All Items,3071,Black Cleaver,-2.8267,140
+16.3,All Items,3072,Bloodthirster,-0.9741,423
+16.3,All Items,3073,Experimental Hexplate,1.5662,275
+16.3,All Items,3074,Ravenous Hydra,0.9846,20199
+16.3,All Items,3084,Heartsteel,-9.8259,109
+16.3,All Items,3091,Wit's End,0.03,1051
+16.3,All Items,3097,Stormrazor,-4.7271,419
+16.3,All Items,3124,Guinsoo's Rageblade,3.4124,216
+16.3,All Items,3139,Mercurial Scimitar,-0.6226,1304
+16.3,All Items,3142,Youmuu's Ghostblade,-1.2967,412
+16.3,All Items,3143,Randuin's Omen,1.3216,206
+16.3,All Items,3153,Blade of The Ruined King,-0.1905,16550
+16.3,All Items,3156,Maw of Malmortius,-3.2313,216
+16.3,All Items,3181,Hullbreaker,1.8673,1714
+16.3,All Items,3508,Essence Reaver,0.3236,12577
+16.3,All Items,3748,Titanic Hydra,0.4756,338
+16.3,All Items,3814,Edge of Night,1.6473,188
+16.3,All Items,6333,Death's Dance,0.3452,1171
+16.3,All Items,6610,Sundered Sky,-0.446,136
+16.3,All Items,6631,Stridebreaker,0.8931,2798
+16.3,All Items,6672,Kraken Slayer,0.5139,2852
+16.3,All Items,6675,Navori Flickerblade,-0.9835,8484
+16.3,All Items,6676,The Collector,-1.4699,11849
+16.3,All Items,6694,Serylda's Grudge,-0.6517,4840
+16.3,All Items,6695,Serpent's Fang,-0.956,1120
+16.3,All Items,6698,Profane Hydra,-1.083,17892
+16.3,All Items,6699,Voltaic Cyclosword,0.1114,1824
+16.3,All Items,6701,Opportunity,0.7625,675
+16.4,Keystone,8010,Conqueror,-9.4369,105
+16.4,Keystone,9923,Hail of Blades,-0.3751,32176
+16.4,Keystone,8021,Fleet Footwork,-0.9782,272
+16.4,Keystone,8008,Lethal Tempo,0.2025,14299
+16.4,Keystone,8437,Grasp of the Undying,1.4057,8868
+16.4,Spell,1,Cleanse,4.1277,199
+16.4,Spell,3,Exhaust,-1.731,699
+16.4,Spell,4,Flash,-0.0267,52679
+16.4,Spell,6,Ghost,-0.5417,13541
+16.4,Spell,12,Teleport,-4.1722,1185
+16.4,Spell,14,Ignite,0.3257,43492
+16.4,Starter,1036,Long Sword,-0.7665,744
+16.4,Starter,1054,Doran's Shield,-0.2294,8759
+16.4,Starter,1055,Doran's Blade,0.0849,46050
+16.4,Starter,1083,Cull,-5.9608,154
+16.4,Boots,3006,Berserker's Greaves,-0.0426,43623
+16.4,Boots,3009,Boots of Swiftness,-0.649,4338
+16.4,Boots,3047,Plated Steelcaps,1.2866,1275
+16.4,Boots,3111,Mercury's Treads,1.1156,2541
+16.4,Boots,3158,Ionian Boots of Lucidity,0.4952,1341
+16.4,1st Item,2512,Fiendhunter Bolts,-1.786,280
+16.4,1st Item,3031,Infinity Edge,-0.0834,284
+16.4,1st Item,3032,Yun Tal Wildarrows,1.5675,384
+16.4,1st Item,3033,Mortal Reminder,-4.8531,110
+16.4,1st Item,3036,Lord Dominik's Regards,-1.0207,129
+16.4,1st Item,3046,Phantom Dancer,1.3442,325
+16.4,1st Item,3074,Ravenous Hydra,0.7094,18147
+16.4,1st Item,3153,Blade of The Ruined King,-0.5397,9833
+16.4,1st Item,3508,Essence Reaver,0.583,6875
+16.4,1st Item,3748,Titanic Hydra,-2.0681,190
+16.4,1st Item,6631,Stridebreaker,0.7873,1675
+16.4,1st Item,6672,Kraken Slayer,2.3951,813
+16.4,1st Item,6675,Navori Flickerblade,3.583,144
+16.4,1st Item,6676,The Collector,-3.4558,322
+16.4,1st Item,6698,Profane Hydra,-0.9188,13022
+16.4,1st Item,6699,Voltaic Cyclosword,-5.9443,151
+16.4,2nd Item,2512,Fiendhunter Bolts,0.5276,1804
+16.4,2nd Item,3031,Infinity Edge,0.0921,7468
+16.4,2nd Item,3032,Yun Tal Wildarrows,1.9066,516
+16.4,2nd Item,3033,Mortal Reminder,-0.4449,1690
+16.4,2nd Item,3036,Lord Dominik's Regards,0.1478,3216
+16.4,2nd Item,3046,Phantom Dancer,1.4448,10289
+16.4,2nd Item,3074,Ravenous Hydra,-0.2095,1037
+16.4,2nd Item,3091,Wit's End,-1.965,240
+16.4,2nd Item,3097,Stormrazor,-0.7065,105
+16.4,2nd Item,3153,Blade of The Ruined King,1.4745,2122
+16.4,2nd Item,3181,Hullbreaker,-0.058,493
+16.4,2nd Item,3508,Essence Reaver,0.22,3060
+16.4,2nd Item,6631,Stridebreaker,1.8118,735
+16.4,2nd Item,6672,Kraken Slayer,3.27,425
+16.4,2nd Item,6675,Navori Flickerblade,-1.4642,5773
+16.4,2nd Item,6676,The Collector,-1.353,7676
+16.4,2nd Item,6694,Serylda's Grudge,-6.7158,208
+16.4,2nd Item,6695,Serpent's Fang,-1.332,179
+16.4,2nd Item,6698,Profane Hydra,-0.7937,759
+16.4,2nd Item,6699,Voltaic Cyclosword,2.1405,129
+16.4,3rd Item,2512,Fiendhunter Bolts,-2.1204,1008
+16.4,3rd Item,2517,Endless Hunger,-2.7618,229
+16.4,3rd Item,3031,Infinity Edge,-0.4212,13315
+16.4,3rd Item,3033,Mortal Reminder,0.9449,4065
+16.4,3rd Item,3036,Lord Dominik's Regards,1.0708,5267
+16.4,3rd Item,3046,Phantom Dancer,2.8528,2050
+16.4,3rd Item,3074,Ravenous Hydra,-0.6915,483
+16.4,3rd Item,3091,Wit's End,2.7316,203
+16.4,3rd Item,3139,Mercurial Scimitar,-1.2332,102
+16.4,3rd Item,3153,Blade of The Ruined King,-0.8255,2623
+16.4,3rd Item,3181,Hullbreaker,-2.4529,532
+16.4,3rd Item,3508,Essence Reaver,-0.4759,464
+16.4,3rd Item,6631,Stridebreaker,-0.4722,232
+16.4,3rd Item,6672,Kraken Slayer,-0.765,296
+16.4,3rd Item,6675,Navori Flickerblade,-1.5409,1212
+16.4,3rd Item,6676,The Collector,-0.8305,958
+16.4,3rd Item,6694,Serylda's Grudge,0.0047,2680
+16.4,3rd Item,6695,Serpent's Fang,2.4744,198
+16.4,3rd Item,6698,Profane Hydra,-0.8298,312
+16.4,3rd Item,6699,Voltaic Cyclosword,1.2915,138
+16.4,4th+ Item,2512,Fiendhunter Bolts,-0.2414,1322
+16.4,4th+ Item,2517,Endless Hunger,0.3142,1885
+16.4,4th+ Item,3026,Guardian Angel,3.1269,804
+16.4,4th+ Item,3031,Infinity Edge,-0.5651,4293
+16.4,4th+ Item,3033,Mortal Reminder,-0.2829,2013
+16.4,4th+ Item,3036,Lord Dominik's Regards,0.6259,3492
+16.4,4th+ Item,3046,Phantom Dancer,0.1386,1223
+16.4,4th+ Item,3072,Bloodthirster,-3.2559,305
+16.4,4th+ Item,3073,Experimental Hexplate,1.7632,208
+16.4,4th+ Item,3074,Ravenous Hydra,0.5564,378
+16.4,4th+ Item,3091,Wit's End,1.8665,448
+16.4,4th+ Item,3139,Mercurial Scimitar,-0.2206,994
+16.4,4th+ Item,3142,Youmuu's Ghostblade,-2.7454,225
+16.4,4th+ Item,3143,Randuin's Omen,0.4453,156
+16.4,4th+ Item,3153,Blade of The Ruined King,1.4964,2151
+16.4,4th+ Item,3156,Maw of Malmortius,4.2577,114
+16.4,4th+ Item,3181,Hullbreaker,0.1056,557
+16.4,4th+ Item,3508,Essence Reaver,-0.8229,304
+16.4,4th+ Item,3814,Edge of Night,7.4435,133
+16.4,4th+ Item,6333,Death's Dance,0.1534,846
+16.4,4th+ Item,6631,Stridebreaker,0.3542,208
+16.4,4th+ Item,6672,Kraken Slayer,0.0642,600
+16.4,4th+ Item,6675,Navori Flickerblade,-2.1095,842
+16.4,4th+ Item,6676,The Collector,-2.7766,775
+16.4,4th+ Item,6694,Serylda's Grudge,-0.5606,1617
+16.4,4th+ Item,6695,Serpent's Fang,0.1534,610
+16.4,4th+ Item,6698,Profane Hydra,1.5141,390
+16.4,4th+ Item,6699,Voltaic Cyclosword,-0.8418,1129
+16.4,4th+ Item,6701,Opportunity,-0.6048,488
+16.4,All Items,3814,Edge of Night,5.1289,196
+16.4,All Items,3026,Guardian Angel,3.1166,896
+16.4,All Items,3181,Hullbreaker,-0.6448,1684
+16.4,All Items,2517,Endless Hunger,0.1279,2172
+16.4,All Items,3124,Guinsoo's Rageblade,-3.4291,244
+16.4,All Items,2520,Bastionbreaker,0.4023,189
+16.4,All Items,6675,Navori Flickerblade,-1.4609,7998
+16.4,All Items,3142,Youmuu's Ghostblade,-0.0283,312
+16.4,All Items,6694,Serylda's Grudge,-0.5374,4518
+16.4,All Items,3031,Infinity Edge,-0.2877,25403
+16.4,All Items,3143,Randuin's Omen,0.0313,209
+16.4,All Items,6631,Stridebreaker,0.9051,2864
+16.4,All Items,6676,The Collector,-1.4846,9748
+16.4,All Items,3074,Ravenous Hydra,0.6381,20067
+16.4,All Items,3097,Stormrazor,-2.5766,336
+16.4,All Items,6701,Opportunity,-0.5087,567
+16.4,All Items,6695,Serpent's Fang,0.2149,1065
+16.4,All Items,3071,Black Cleaver,-6.5131,102
+16.4,All Items,6333,Death's Dance,-0.1664,968
+16.4,All Items,3033,Mortal Reminder,0.2579,7905
+16.4,All Items,3073,Experimental Hexplate,1.7046,298
+16.4,All Items,3748,Titanic Hydra,-2.4156,290
+16.4,All Items,6672,Kraken Slayer,1.4559,2148
+16.4,All Items,6698,Profane Hydra,-0.8426,14494
+16.4,All Items,3032,Yun Tal Wildarrows,1.6597,978
+16.4,All Items,3139,Mercurial Scimitar,-0.2939,1158
+16.4,All Items,3153,Blade of The Ruined King,-0.0732,16779
+16.4,All Items,3084,Heartsteel,-1.7957,120
+16.4,All Items,6699,Voltaic Cyclosword,-0.9511,1560
+16.4,All Items,3072,Bloodthirster,-2.8715,389
+16.4,All Items,3508,Essence Reaver,0.3891,10717
+16.4,All Items,3046,Phantom Dancer,1.517,13939
+16.4,All Items,3156,Maw of Malmortius,2.3738,188
+16.4,All Items,2512,Fiendhunter Bolts,-0.4644,4453
+16.4,All Items,3091,Wit's End,0.878,989
+16.4,All Items,3036,Lord Dominik's Regards,0.6518,12147
+16.5,Keystone,8010,Conqueror,-4.1743,123
+16.5,Keystone,9923,Hail of Blades,-0.3128,38045
+16.5,Keystone,8021,Fleet Footwork,-1.2835,284
+16.5,Keystone,8008,Lethal Tempo,0.1474,16916
+16.5,Keystone,8437,Grasp of the Undying,1.3046,8913
+16.5,Spell,1,Cleanse,1.6396,204
+16.5,Spell,3,Exhaust,1.4475,741
+16.5,Spell,4,Flash,0.0139,60853
+16.5,Spell,6,Ghost,-0.3435,14957
+16.5,Spell,12,Teleport,-6.475,1265
+16.5,Spell,14,Ignite,0.2225,50854
+16.5,Starter,1036,Long Sword,-0.4609,836
+16.5,Starter,1054,Doran's Shield,-0.5588,9550
+16.5,Starter,1055,Doran's Blade,0.1075,53654
+16.5,Starter,1083,Cull,-0.2982,169
+16.5,Boots,3006,Berserker's Greaves,0.0649,49913
+16.5,Boots,3009,Boots of Swiftness,-0.7384,4729
+16.5,Boots,3047,Plated Steelcaps,1.1032,1651
+16.5,Boots,3111,Mercury's Treads,0.7725,2843
+16.5,Boots,3158,Ionian Boots of Lucidity,-0.7956,1743
+16.5,1st Item,2512,Fiendhunter Bolts,-3.2904,261
+16.5,1st Item,3031,Infinity Edge,-0.0204,340
+16.5,1st Item,3032,Yun Tal Wildarrows,1.8428,518
+16.5,1st Item,3033,Mortal Reminder,-6.3408,159
+16.5,1st Item,3036,Lord Dominik's Regards,-10.3269,198
+16.5,1st Item,3046,Phantom Dancer,0.0678,432
+16.5,1st Item,3074,Ravenous Hydra,1.061,21176
+16.5,1st Item,3153,Blade of The Ruined King,-0.8799,11237
+16.5,1st Item,3508,Essence Reaver,0.0234,9905
+16.5,1st Item,3748,Titanic Hydra,0.9012,288
+16.5,1st Item,6631,Stridebreaker,-0.4454,1886
+16.5,1st Item,6672,Kraken Slayer,-1.0853,899
+16.5,1st Item,6675,Navori Flickerblade,-2.2684,235
+16.5,1st Item,6676,The Collector,0.4483,210
+16.5,1st Item,6697,Hubris,-3.1215,250
+16.5,1st Item,6698,Profane Hydra,-0.5591,12631
+16.5,1st Item,6699,Voltaic Cyclosword,2.5815,124
+16.5,2nd Item,2512,Fiendhunter Bolts,1.6767,1463
+16.5,2nd Item,3031,Infinity Edge,-0.8791,9849
+16.5,2nd Item,3032,Yun Tal Wildarrows,-0.5277,1615
+16.5,2nd Item,3033,Mortal Reminder,1.157,2127
+16.5,2nd Item,3036,Lord Dominik's Regards,-0.919,4238
+16.5,2nd Item,3046,Phantom Dancer,1.2479,12513
+16.5,2nd Item,3074,Ravenous Hydra,0.5103,1390
+16.5,2nd Item,3091,Wit's End,-4.7443,268
+16.5,2nd Item,3153,Blade of The Ruined King,0.4438,3328
+16.5,2nd Item,3181,Hullbreaker,1.476,512
+16.5,2nd Item,3508,Essence Reaver,0.2428,2420
+16.5,2nd Item,6610,Sundered Sky,-2.5344,123
+16.5,2nd Item,6631,Stridebreaker,-0.4586,817
+16.5,2nd Item,6672,Kraken Slayer,-0.9233,812
+16.5,2nd Item,6675,Navori Flickerblade,-0.7588,6463
+16.5,2nd Item,6676,The Collector,-0.5381,5667
+16.5,2nd Item,6694,Serylda's Grudge,-4.0399,259
+16.5,2nd Item,6695,Serpent's Fang,2.7924,197
+16.5,2nd Item,6698,Profane Hydra,1.2246,774
+16.5,2nd Item,6699,Voltaic Cyclosword,-1.3558,263
+16.5,3rd Item,2512,Fiendhunter Bolts,-1.7493,672
+16.5,3rd Item,2517,Endless Hunger,2.3809,381
+16.5,3rd Item,3031,Infinity Edge,-0.0413,15352
+16.5,3rd Item,3033,Mortal Reminder,0.1211,3878
+16.5,3rd Item,3036,Lord Dominik's Regards,0.2283,5724
+16.5,3rd Item,3046,Phantom Dancer,1.393,2836
+16.5,3rd Item,3074,Ravenous Hydra,-2.0617,541
+16.5,3rd Item,3091,Wit's End,-1.229,238
+16.5,3rd Item,3139,Mercurial Scimitar,-4.7316,131
+16.5,3rd Item,3142,Youmuu's Ghostblade,5.6197,114
+16.5,3rd Item,3153,Blade of The Ruined King,-0.0733,3146
+16.5,3rd Item,3181,Hullbreaker,-0.0348,598
+16.5,3rd Item,3508,Essence Reaver,-1.0666,378
+16.5,3rd Item,6333,Death's Dance,1.7714,143
+16.5,3rd Item,6631,Stridebreaker,-1.9748,406
+16.5,3rd Item,6672,Kraken Slayer,0.6397,634
+16.5,3rd Item,6675,Navori Flickerblade,-0.5778,1828
+16.5,3rd Item,6676,The Collector,0.9532,646
+16.5,3rd Item,6694,Serylda's Grudge,-0.7679,3732
+16.5,3rd Item,6695,Serpent's Fang,-0.0557,284
+16.5,3rd Item,6698,Profane Hydra,3.7628,268
+16.5,3rd Item,6699,Voltaic Cyclosword,0.8164,212
+16.5,4th+ Item,2512,Fiendhunter Bolts,1.5059,646
+16.5,4th+ Item,2517,Endless Hunger,-0.3944,2699
+16.5,4th+ Item,3026,Guardian Angel,-0.3615,940
+16.5,4th+ Item,3031,Infinity Edge,-1.0714,4830
+16.5,4th+ Item,3033,Mortal Reminder,0.2603,2363
+16.5,4th+ Item,3036,Lord Dominik's Regards,1.1655,3955
+16.5,4th+ Item,3046,Phantom Dancer,0.9255,1471
+16.5,4th+ Item,3072,Bloodthirster,-2.3286,334
+16.5,4th+ Item,3073,Experimental Hexplate,2.4536,239
+16.5,4th+ Item,3074,Ravenous Hydra,1.1422,461
+16.5,4th+ Item,3091,Wit's End,0.2505,555
+16.5,4th+ Item,3139,Mercurial Scimitar,1.4321,1201
+16.5,4th+ Item,3142,Youmuu's Ghostblade,-2.3388,336
+16.5,4th+ Item,3143,Randuin's Omen,2.7426,205
+16.5,4th+ Item,3153,Blade of The Ruined King,-0.4979,2693
+16.5,4th+ Item,3156,Maw of Malmortius,-1.7885,182
+16.5,4th+ Item,3181,Hullbreaker,-0.5178,621
+16.5,4th+ Item,3508,Essence Reaver,1.3409,171
+16.5,4th+ Item,3814,Edge of Night,2.7281,171
+16.5,4th+ Item,6333,Death's Dance,0.5598,1192
+16.5,4th+ Item,6631,Stridebreaker,1.2241,500
+16.5,4th+ Item,6672,Kraken Slayer,-0.3115,1227
+16.5,4th+ Item,6675,Navori Flickerblade,-1.367,1237
+16.5,4th+ Item,6676,The Collector,0.8172,335
+16.5,4th+ Item,6694,Serylda's Grudge,0.7198,1746
+16.5,4th+ Item,6695,Serpent's Fang,-1.347,676
+16.5,4th+ Item,6698,Profane Hydra,0.2384,326
+16.5,4th+ Item,6699,Voltaic Cyclosword,0.7439,1167
+16.5,4th+ Item,6701,Opportunity,1.3497,440
+16.5,All Items,2512,Fiendhunter Bolts,0.4526,3060
+16.5,All Items,2517,Endless Hunger,-0.1466,3171
+16.5,All Items,2520,Bastionbreaker,-2.7381,225
+16.5,All Items,3026,Guardian Angel,-0.0235,1041
+16.5,All Items,3031,Infinity Edge,-0.4726,30423
+16.5,All Items,3032,Yun Tal Wildarrows,-0.0792,2275
+16.5,All Items,3033,Mortal Reminder,0.2708,8553
+16.5,All Items,3036,Lord Dominik's Regards,0.0235,14177
+16.5,All Items,3046,Phantom Dancer,1.2103,17321
+16.5,All Items,3071,Black Cleaver,-5.8044,156
+16.5,All Items,3072,Bloodthirster,-2.1822,428
+16.5,All Items,3073,Experimental Hexplate,1.8849,357
+16.5,All Items,3074,Ravenous Hydra,0.9569,23587
+16.5,All Items,3091,Wit's End,-1.2572,1157
+16.5,All Items,3097,Stormrazor,1.862,311
+16.5,All Items,3124,Guinsoo's Rageblade,-3.5654,262
+16.5,All Items,3139,Mercurial Scimitar,0.6041,1418
+16.5,All Items,3142,Youmuu's Ghostblade,-0.1472,532
+16.5,All Items,3143,Randuin's Omen,1.6103,242
+16.5,All Items,3153,Blade of The Ruined King,-0.4902,20460
+16.5,All Items,3156,Maw of Malmortius,-0.2437,260
+16.5,All Items,3181,Hullbreaker,0.3201,1845
+16.5,All Items,3508,Essence Reaver,0.0552,12881
+16.5,All Items,3748,Titanic Hydra,-0.0871,392
+16.5,All Items,3814,Edge of Night,0.9922,242
+16.5,All Items,6333,Death's Dance,0.7309,1382
+16.5,All Items,6610,Sundered Sky,-1.1673,164
+16.5,All Items,6631,Stridebreaker,-0.3645,3629
+16.5,All Items,6672,Kraken Slayer,-0.5101,3610
+16.5,All Items,6675,Navori Flickerblade,-0.8146,9796
+16.5,All Items,6676,The Collector,-0.2928,6869
+16.5,All Items,6694,Serylda's Grudge,-0.5124,5762
+16.5,All Items,6695,Serpent's Fang,-0.5,1248
+16.5,All Items,6696,Axiom Arc,-3.7999,104
+16.5,All Items,6697,Hubris,-2.1119,372
+16.5,All Items,6698,Profane Hydra,-0.3588,14012
+16.5,All Items,6699,Voltaic Cyclosword,0.547,1772
+16.5,All Items,6701,Opportunity,1.7315,519
+16.6,Keystone,8010,Conqueror,-13.0982,120
+16.6,Keystone,9923,Hail of Blades,-0.4562,47815
+16.6,Keystone,8021,Fleet Footwork,0.3778,268
+16.6,Keystone,8005,Press the Attack,-10.3356,112
+16.6,Keystone,8008,Lethal Tempo,0.4406,20529
+16.6,Keystone,8437,Grasp of the Undying,1.6376,10322
+16.6,Spell,1,Cleanse,-1.8312,192
+16.6,Spell,3,Exhaust,-2.541,984
+16.6,Spell,4,Flash,-0.0378,75077
+16.6,Spell,6,Ghost,0.2233,17888
+16.6,Spell,12,Teleport,-3.9659,1539
+16.6,Spell,14,Ignite,0.1362,62867
+16.6,Starter,1036,Long Sword,-2.1756,1177
+16.6,Starter,1054,Doran's Shield,-0.6029,11441
+16.6,Starter,1055,Doran's Blade,0.1606,66086
+16.6,Starter,1083,Cull,-1.9112,222
+16.6,Boots,3006,Berserker's Greaves,0.0171,61834
+16.6,Boots,3009,Boots of Swiftness,-0.2049,6579
+16.6,Boots,3047,Plated Steelcaps,1.0388,2001
+16.6,Boots,3111,Mercury's Treads,-0.4927,3233
+16.6,Boots,3158,Ionian Boots of Lucidity,0.1856,1290
+16.6,1st Item,2512,Fiendhunter Bolts,-1.1988,210
+16.6,1st Item,3031,Infinity Edge,-2.7455,418
+16.6,1st Item,3032,Yun Tal Wildarrows,0.7693,601
+16.6,1st Item,3033,Mortal Reminder,6.188,161
+16.6,1st Item,3036,Lord Dominik's Regards,-4.627,234
+16.6,1st Item,3046,Phantom Dancer,2.7032,516
+16.6,1st Item,3074,Ravenous Hydra,0.8324,26923
+16.6,1st Item,3091,Wit's End,-4.2568,109
+16.6,1st Item,3153,Blade of The Ruined King,0.437,13915
+16.6,1st Item,3508,Essence Reaver,-0.994,13100
+16.6,1st Item,3748,Titanic Hydra,1.1596,296
+16.6,1st Item,6631,Stridebreaker,0.3778,2199
+16.6,1st Item,6672,Kraken Slayer,2.3715,1442
+16.6,1st Item,6675,Navori Flickerblade,-3.8521,223
+16.6,1st Item,6676,The Collector,-1.9085,355
+16.6,1st Item,6695,Serpent's Fang,-4.7095,101
+16.6,1st Item,6697,Hubris,-2.9359,137
+16.6,1st Item,6698,Profane Hydra,-1.1287,13702
+16.6,1st Item,6699,Voltaic Cyclosword,1.6572,142
+16.6,2nd Item,2512,Fiendhunter Bolts,2.3896,1334
+16.6,2nd Item,3031,Infinity Edge,-0.5106,12542
+16.6,2nd Item,3032,Yun Tal Wildarrows,-0.9027,3258
+16.6,2nd Item,3033,Mortal Reminder,0.1399,2433
+16.6,2nd Item,3036,Lord Dominik's Regards,1.1004,4679
+16.6,2nd Item,3046,Phantom Dancer,1.3616,16635
+16.6,2nd Item,3074,Ravenous Hydra,-0.5504,1641
+16.6,2nd Item,3091,Wit's End,-5.3985,262
+16.6,2nd Item,3153,Blade of The Ruined King,-0.4102,3740
+16.6,2nd Item,3181,Hullbreaker,0.5232,585
+16.6,2nd Item,3508,Essence Reaver,-0.2431,2260
+16.6,2nd Item,6610,Sundered Sky,3.2742,113
+16.6,2nd Item,6631,Stridebreaker,0.7043,1038
+16.6,2nd Item,6672,Kraken Slayer,-0.423,828
+16.6,2nd Item,6675,Navori Flickerblade,-0.788,7743
+16.6,2nd Item,6676,The Collector,-1.5447,7016
+16.6,2nd Item,6694,Serylda's Grudge,0.9941,293
+16.6,2nd Item,6695,Serpent's Fang,-3.4978,260
+16.6,2nd Item,6698,Profane Hydra,-0.1555,885
+16.6,2nd Item,6699,Voltaic Cyclosword,3.2796,201
+16.6,3rd Item,2512,Fiendhunter Bolts,2.484,522
+16.6,3rd Item,2517,Endless Hunger,0.4922,320
+16.6,3rd Item,3031,Infinity Edge,-0.1345,19135
+16.6,3rd Item,3032,Yun Tal Wildarrows,-1.4531,142
+16.6,3rd Item,3033,Mortal Reminder,0.2052,5585
+16.6,3rd Item,3036,Lord Dominik's Regards,0.0299,7113
+16.6,3rd Item,3046,Phantom Dancer,1.4808,3365
+16.6,3rd Item,3073,Experimental Hexplate,0.0239,121
+16.6,3rd Item,3074,Ravenous Hydra,1.0467,668
+16.6,3rd Item,3091,Wit's End,-0.345,253
+16.6,3rd Item,3139,Mercurial Scimitar,0.3068,155
+16.6,3rd Item,3142,Youmuu's Ghostblade,0.2796,151
+16.6,3rd Item,3153,Blade of The Ruined King,0.6155,3146
+16.6,3rd Item,3181,Hullbreaker,1.7513,735
+16.6,3rd Item,3508,Essence Reaver,0.6998,427
+16.6,3rd Item,6333,Death's Dance,1.7679,139
+16.6,3rd Item,6631,Stridebreaker,-2.5585,316
+16.6,3rd Item,6672,Kraken Slayer,0.2352,599
+16.6,3rd Item,6675,Navori Flickerblade,-0.2265,1825
+16.6,3rd Item,6676,The Collector,-2.2928,1029
+16.6,3rd Item,6694,Serylda's Grudge,-1.2007,5134
+16.6,3rd Item,6695,Serpent's Fang,4.0937,368
+16.6,3rd Item,6698,Profane Hydra,-2.3638,299
+16.6,3rd Item,6699,Voltaic Cyclosword,-1.0305,251
+16.6,4th+ Item,2512,Fiendhunter Bolts,-4.2446,642
+16.6,4th+ Item,2517,Endless Hunger,-1.0541,3568
+16.6,4th+ Item,2520,Bastionbreaker,-6.7932,138
+16.6,4th+ Item,3026,Guardian Angel,2.5628,1150
+16.6,4th+ Item,3031,Infinity Edge,0.6989,5861
+16.6,4th+ Item,3033,Mortal Reminder,0.2729,2656
+16.6,4th+ Item,3036,Lord Dominik's Regards,0.72,4874
+16.6,4th+ Item,3046,Phantom Dancer,0.8577,1751
+16.6,4th+ Item,3072,Bloodthirster,-2.2999,421
+16.6,4th+ Item,3073,Experimental Hexplate,1.0158,275
+16.6,4th+ Item,3074,Ravenous Hydra,2.3261,667
+16.6,4th+ Item,3091,Wit's End,1.5806,677
+16.6,4th+ Item,3124,Guinsoo's Rageblade,-6.0311,137
+16.6,4th+ Item,3139,Mercurial Scimitar,-0.2639,1459
+16.6,4th+ Item,3142,Youmuu's Ghostblade,-0.415,384
+16.6,4th+ Item,3143,Randuin's Omen,-0.4524,243
+16.6,4th+ Item,3153,Blade of The Ruined King,-0.117,3186
+16.6,4th+ Item,3156,Maw of Malmortius,-5.1861,228
+16.6,4th+ Item,3181,Hullbreaker,0.956,783
+16.6,4th+ Item,3508,Essence Reaver,0.9058,384
+16.6,4th+ Item,3814,Edge of Night,-2.4523,140
+16.6,4th+ Item,6333,Death's Dance,0.5608,1474
+16.6,4th+ Item,6631,Stridebreaker,-1.7631,445
+16.6,4th+ Item,6672,Kraken Slayer,1.6078,1471
+16.6,4th+ Item,6675,Navori Flickerblade,-2.4966,1447
+16.6,4th+ Item,6676,The Collector,-1.5878,692
+16.6,4th+ Item,6694,Serylda's Grudge,-0.0302,2434
+16.6,4th+ Item,6695,Serpent's Fang,-1.0255,901
+16.6,4th+ Item,6698,Profane Hydra,0.5177,404
+16.6,4th+ Item,6699,Voltaic Cyclosword,0.9685,1177
+16.6,4th+ Item,6701,Opportunity,-2.032,521
+16.6,All Items,2512,Fiendhunter Bolts,0.6434,2729
+16.6,All Items,2517,Endless Hunger,-1.0394,3961
+16.6,All Items,2520,Bastionbreaker,-4.4514,226
+16.6,All Items,3026,Guardian Angel,2.0017,1311
+16.6,All Items,3031,Infinity Edge,-0.1593,38018
+16.6,All Items,3032,Yun Tal Wildarrows,-0.6265,4085
+16.6,All Items,3033,Mortal Reminder,0.283,10872
+16.6,All Items,3036,Lord Dominik's Regards,0.4608,16947
+16.6,All Items,3046,Phantom Dancer,1.3707,22326
+16.6,All Items,3071,Black Cleaver,-1.5839,197
+16.6,All Items,3072,Bloodthirster,-1.4461,553
+16.6,All Items,3073,Experimental Hexplate,0.675,461
+16.6,All Items,3074,Ravenous Hydra,0.7851,29936
+16.6,All Items,3078,Trinity Force,-0.2313,115
+16.6,All Items,3084,Heartsteel,0.7796,154
+16.6,All Items,3091,Wit's End,-0.6861,1309
+16.6,All Items,3097,Stormrazor,0.5155,295
+16.6,All Items,3124,Guinsoo's Rageblade,-0.9974,315
+16.6,All Items,3139,Mercurial Scimitar,-0.5279,1720
+16.6,All Items,3142,Youmuu's Ghostblade,-0.4293,716
+16.6,All Items,3143,Randuin's Omen,-1.6072,315
+16.6,All Items,3153,Blade of The Ruined King,0.2526,24043
+16.6,All Items,3156,Maw of Malmortius,-2.1978,349
+16.6,All Items,3181,Hullbreaker,0.998,2219
+16.6,All Items,3302,Terminus,5.7645,117
+16.6,All Items,3508,Essence Reaver,-0.7969,16190
+16.6,All Items,3748,Titanic Hydra,0.2436,427
+16.6,All Items,3814,Edge of Night,-0.4571,214
+16.6,All Items,6333,Death's Dance,0.5494,1689
+16.6,All Items,6610,Sundered Sky,-0.1013,148
+16.6,All Items,6631,Stridebreaker,-0.0278,4021
+16.6,All Items,6672,Kraken Slayer,1.2999,4371
+16.6,All Items,6673,Immortal Shieldbow,2.2824,143
+16.6,All Items,6675,Navori Flickerblade,-0.9647,11283
+16.6,All Items,6676,The Collector,-1.6145,9109
+16.6,All Items,6694,Serylda's Grudge,-0.7751,7880
+16.6,All Items,6695,Serpent's Fang,-0.4706,1645
+16.6,All Items,6696,Axiom Arc,-6.5556,103
+16.6,All Items,6697,Hubris,-1.7557,308
+16.6,All Items,6698,Profane Hydra,-1.0563,15300
+16.6,All Items,6699,Voltaic Cyclosword,0.964,1781
+16.6,All Items,6701,Opportunity,-3.6618,708
+16.7,Keystone,8010,Conqueror,-11.0073,157
+16.7,Keystone,9923,Hail of Blades,-0.2404,51586
+16.7,Keystone,8021,Fleet Footwork,-0.0942,205
+16.7,Keystone,8005,Press the Attack,1.9299,159
+16.7,Keystone,8008,Lethal Tempo,0.3136,21178
+16.7,Keystone,8437,Grasp of the Undying,0.7711,10432
+16.7,Spell,1,Cleanse,3.1497,325
+16.7,Spell,3,Exhaust,-1.0172,1102
+16.7,Spell,4,Flash,0.0517,79505
+16.7,Spell,6,Ghost,-0.0934,17967
+16.7,Spell,12,Teleport,-4.0579,1545
+16.7,Spell,14,Ignite,0.0594,67259
+16.7,Starter,1036,Long Sword,0.4364,1372
+16.7,Starter,1054,Doran's Shield,-0.9387,11224
+16.7,Starter,1055,Doran's Blade,0.1736,70697
+16.7,Starter,1083,Cull,-7.9549,239
+16.7,Boots,3006,Berserker's Greaves,-0.0022,65298
+16.7,Boots,3009,Boots of Swiftness,-1.2681,7032
+16.7,Boots,3047,Plated Steelcaps,1.7376,2009
+16.7,Boots,3111,Mercury's Treads,-0.0115,3794
+16.7,Boots,3158,Ionian Boots of Lucidity,-0.7289,1013
+16.7,1st Item,2512,Fiendhunter Bolts,1.2905,163
+16.7,1st Item,3031,Infinity Edge,0.6014,421
+16.7,1st Item,3032,Yun Tal Wildarrows,2.4733,641
+16.7,1st Item,3033,Mortal Reminder,0.1188,238
+16.7,1st Item,3036,Lord Dominik's Regards,-0.6478,333
+16.7,1st Item,3046,Phantom Dancer,2.3146,657
+16.7,1st Item,3074,Ravenous Hydra,0.9861,27377
+16.7,1st Item,3091,Wit's End,-8.7911,136
+16.7,1st Item,3153,Blade of The Ruined King,0.1806,14604
+16.7,1st Item,3181,Hullbreaker,-0.7694,103
+16.7,1st Item,3508,Essence Reaver,-0.9369,14992
+16.7,1st Item,3748,Titanic Hydra,-1.7637,284
+16.7,1st Item,6631,Stridebreaker,-0.9032,1905
+16.7,1st Item,6672,Kraken Slayer,1.2871,1638
+16.7,1st Item,6675,Navori Flickerblade,-3.8707,213
+16.7,1st Item,6676,The Collector,-8.4976,320
+16.7,1st Item,6695,Serpent's Fang,1.2802,124
+16.7,1st Item,6697,Hubris,4.2256,141
+16.7,1st Item,6698,Profane Hydra,-0.8144,14853
+16.7,1st Item,6699,Voltaic Cyclosword,-3.0875,154
+16.7,2nd Item,2512,Fiendhunter Bolts,0.055,1385
+16.7,2nd Item,3031,Infinity Edge,0.1141,13636
+16.7,2nd Item,3032,Yun Tal Wildarrows,-0.4605,3343
+16.7,2nd Item,3033,Mortal Reminder,-0.3019,2861
+16.7,2nd Item,3036,Lord Dominik's Regards,0.1426,5457
+16.7,2nd Item,3046,Phantom Dancer,1.766,16474
+16.7,2nd Item,3074,Ravenous Hydra,-0.2653,1730
+16.7,2nd Item,3091,Wit's End,-0.6631,286
+16.7,2nd Item,3124,Guinsoo's Rageblade,-5.6841,116
+16.7,2nd Item,3153,Blade of The Ruined King,-0.3739,3233
+16.7,2nd Item,3181,Hullbreaker,-0.4218,613
+16.7,2nd Item,3508,Essence Reaver,-0.0397,2312
+16.7,2nd Item,6610,Sundered Sky,-4.83,126
+16.7,2nd Item,6631,Stridebreaker,-1.3221,907
+16.7,2nd Item,6672,Kraken Slayer,0.8518,1032
+16.7,2nd Item,6675,Navori Flickerblade,-1.1049,8641
+16.7,2nd Item,6676,The Collector,-1.4839,7900
+16.7,2nd Item,6694,Serylda's Grudge,-1.6877,386
+16.7,2nd Item,6695,Serpent's Fang,0.5069,294
+16.7,2nd Item,6698,Profane Hydra,-1.8906,995
+16.7,2nd Item,6699,Voltaic Cyclosword,0.9174,203
+16.7,3rd Item,2512,Fiendhunter Bolts,-1.2037,545
+16.7,3rd Item,2517,Endless Hunger,2.5184,352
+16.7,3rd Item,3031,Infinity Edge,-0.1836,19507
+16.7,3rd Item,3032,Yun Tal Wildarrows,-0.1628,177
+16.7,3rd Item,3033,Mortal Reminder,1.1522,6290
+16.7,3rd Item,3036,Lord Dominik's Regards,0.6731,8316
+16.7,3rd Item,3046,Phantom Dancer,0.8914,3325
+16.7,3rd Item,3074,Ravenous Hydra,-1.2898,740
+16.7,3rd Item,3091,Wit's End,1.1454,301
+16.7,3rd Item,3124,Guinsoo's Rageblade,-1.1208,123
+16.7,3rd Item,3139,Mercurial Scimitar,1.6082,183
+16.7,3rd Item,3142,Youmuu's Ghostblade,4.3059,104
+16.7,3rd Item,3153,Blade of The Ruined King,-0.9395,3266
+16.7,3rd Item,3181,Hullbreaker,-2.3219,873
+16.7,3rd Item,3508,Essence Reaver,0.7823,461
+16.7,3rd Item,6333,Death's Dance,0.5701,138
+16.7,3rd Item,6631,Stridebreaker,2.6214,304
+16.7,3rd Item,6672,Kraken Slayer,-0.2358,686
+16.7,3rd Item,6675,Navori Flickerblade,-0.7133,1876
+16.7,3rd Item,6676,The Collector,-2.3703,1362
+16.7,3rd Item,6694,Serylda's Grudge,-0.4902,5197
+16.7,3rd Item,6695,Serpent's Fang,-3.3877,449
+16.7,3rd Item,6698,Profane Hydra,-0.1238,353
+16.7,3rd Item,6699,Voltaic Cyclosword,0.4366,288
+16.7,3rd Item,6701,Opportunity,2.1178,118
+16.7,4th+ Item,2512,Fiendhunter Bolts,0.0998,568
+16.7,4th+ Item,2517,Endless Hunger,-0.2496,3711
+16.7,4th+ Item,2520,Bastionbreaker,-1.0766,104
+16.7,4th+ Item,3026,Guardian Angel,1.6241,1247
+16.7,4th+ Item,3031,Infinity Edge,-0.9823,6586
+16.7,4th+ Item,3033,Mortal Reminder,1.6182,2645
+16.7,4th+ Item,3036,Lord Dominik's Regards,-0.1788,4849
+16.7,4th+ Item,3046,Phantom Dancer,-0.8255,1958
+16.7,4th+ Item,3072,Bloodthirster,0.2102,420
+16.7,4th+ Item,3073,Experimental Hexplate,0.7868,275
+16.7,4th+ Item,3074,Ravenous Hydra,0.682,763
+16.7,4th+ Item,3091,Wit's End,0.1648,708
+16.7,4th+ Item,3124,Guinsoo's Rageblade,-3.2299,108
+16.7,4th+ Item,3139,Mercurial Scimitar,-0.6975,1578
+16.7,4th+ Item,3142,Youmuu's Ghostblade,2.1529,437
+16.7,4th+ Item,3143,Randuin's Omen,-2.0127,249
+16.7,4th+ Item,3153,Blade of The Ruined King,0.3842,3530
+16.7,4th+ Item,3156,Maw of Malmortius,-0.5681,205
+16.7,4th+ Item,3181,Hullbreaker,3.1967,871
+16.7,4th+ Item,3508,Essence Reaver,-1.8068,503
+16.7,4th+ Item,3814,Edge of Night,-4.1022,177
+16.7,4th+ Item,6333,Death's Dance,1.5806,1524
+16.7,4th+ Item,6631,Stridebreaker,0.9119,347
+16.7,4th+ Item,6672,Kraken Slayer,0.334,1430
+16.7,4th+ Item,6675,Navori Flickerblade,-0.8448,1362
+16.7,4th+ Item,6676,The Collector,-0.5804,837
+16.7,4th+ Item,6694,Serylda's Grudge,0.9926,2748
+16.7,4th+ Item,6695,Serpent's Fang,0.3251,1049
+16.7,4th+ Item,6698,Profane Hydra,-1.8474,425
+16.7,4th+ Item,6699,Voltaic Cyclosword,-0.7582,1335
+16.7,4th+ Item,6701,Opportunity,-0.3851,532
+16.7,All Items,2512,Fiendhunter Bolts,-0.1281,2683
+16.7,All Items,2517,Endless Hunger,-0.0822,4147
+16.7,All Items,2520,Bastionbreaker,-1.4265,171
+16.7,All Items,3026,Guardian Angel,1.7434,1402
+16.7,All Items,3031,Infinity Edge,-0.2048,40210
+16.7,All Items,3032,Yun Tal Wildarrows,0.0611,4240
+16.7,All Items,3033,Mortal Reminder,0.8673,12068
+16.7,All Items,3036,Lord Dominik's Regards,0.2813,19007
+16.7,All Items,3046,Phantom Dancer,1.4139,22480
+16.7,All Items,3071,Black Cleaver,-1.0397,177
+16.7,All Items,3072,Bloodthirster,-0.2412,527
+16.7,All Items,3073,Experimental Hexplate,2.1975,440
+16.7,All Items,3074,Ravenous Hydra,0.8439,30648
+16.7,All Items,3078,Trinity Force,1.6756,126
+16.7,All Items,3084,Heartsteel,-11.0732,125
+16.7,All Items,3091,Wit's End,-0.6236,1441
+16.7,All Items,3097,Stormrazor,1.3319,334
+16.7,All Items,3124,Guinsoo's Rageblade,-3.0411,356
+16.7,All Items,3139,Mercurial Scimitar,-0.464,1867
+16.7,All Items,3142,Youmuu's Ghostblade,-0.1925,705
+16.7,All Items,3143,Randuin's Omen,-0.332,309
+16.7,All Items,3153,Blade of The Ruined King,-0.0118,24683
+16.7,All Items,3156,Maw of Malmortius,0.0257,333
+16.7,All Items,3181,Hullbreaker,0.1367,2492
+16.7,All Items,3302,Terminus,-1.2954,114
+16.7,All Items,3508,Essence Reaver,-0.8095,18295
+16.7,All Items,3748,Titanic Hydra,-2.3101,385
+16.7,All Items,3814,Edge of Night,-3.4527,257
+16.7,All Items,6333,Death's Dance,1.5483,1725
+16.7,All Items,6609,Chempunk Chainsword,-4.0105,104
+16.7,All Items,6610,Sundered Sky,-1.8709,179
+16.7,All Items,6631,Stridebreaker,-0.55,3485
+16.7,All Items,6672,Kraken Slayer,0.7208,4828
+16.7,All Items,6673,Immortal Shieldbow,0.2653,144
+16.7,All Items,6675,Navori Flickerblade,-1.0753,12137
+16.7,All Items,6676,The Collector,-1.7346,10438
+16.7,All Items,6694,Serylda's Grudge,-0.0507,8364
+16.7,All Items,6695,Serpent's Fang,-0.4458,1940
+16.7,All Items,6696,Axiom Arc,-1.2674,106
+16.7,All Items,6697,Hubris,1.2488,247
+16.7,All Items,6698,Profane Hydra,-0.8875,16644
+16.7,All Items,6699,Voltaic Cyclosword,-0.531,1999
+16.7,All Items,6701,Opportunity,-0.0308,743
+16.8,Keystone,9923,Hail of Blades,-0.1245,37457
+16.8,Keystone,8021,Fleet Footwork,-5.1176,226
+16.8,Keystone,8008,Lethal Tempo,0.4203,14815
+16.8,Keystone,8437,Grasp of the Undying,0.0497,6991
+16.8,Spell,1,Cleanse,-2.6694,238
+16.8,Spell,3,Exhaust,-3.7591,889
+16.8,Spell,4,Flash,0.1122,56951
+16.8,Spell,6,Ghost,-0.1744,12843
+16.8,Spell,12,Teleport,-3.7915,1145
+16.8,Spell,14,Ignite,0.088,47431
+16.8,Starter,1036,Long Sword,-0.3722,869
+16.8,Starter,1054,Doran's Shield,-0.7576,8600
+16.8,Starter,1055,Doran's Blade,0.1519,50013
+16.8,Starter,1083,Cull,-4.9175,184
+16.8,Boots,3006,Berserker's Greaves,0.0725,48295
+16.8,Boots,3009,Boots of Swiftness,-0.957,5370
+16.8,Boots,3047,Plated Steelcaps,-0.9143,1495
+16.8,Boots,3111,Mercury's Treads,-0.1407,2754
+16.8,Boots,3158,Ionian Boots of Lucidity,1.6001,641
+16.8,1st Item,2512,Fiendhunter Bolts,-1.4676,126
+16.8,1st Item,3031,Infinity Edge,0.6017,377
+16.8,1st Item,3032,Yun Tal Wildarrows,0.3132,400
+16.8,1st Item,3033,Mortal Reminder,-2.7074,184
+16.8,1st Item,3036,Lord Dominik's Regards,-0.0607,216
+16.8,1st Item,3046,Phantom Dancer,0.8613,519
+16.8,1st Item,3074,Ravenous Hydra,0.719,21383
+16.8,1st Item,3153,Blade of The Ruined King,0.9404,7771
+16.8,1st Item,3508,Essence Reaver,-1.2312,12110
+16.8,1st Item,3748,Titanic Hydra,-6.6129,251
+16.8,1st Item,6631,Stridebreaker,-0.7425,1660
+16.8,1st Item,6672,Kraken Slayer,0.3948,1217
+16.8,1st Item,6675,Navori Flickerblade,-0.2631,173
+16.8,1st Item,6676,The Collector,-1.9583,238
+16.8,1st Item,6698,Profane Hydra,-0.1236,11471
+16.8,1st Item,6699,Voltaic Cyclosword,3.5354,118
+16.8,2nd Item,2512,Fiendhunter Bolts,-0.6382,904
+16.8,2nd Item,3031,Infinity Edge,-0.6008,9311
+16.8,2nd Item,3032,Yun Tal Wildarrows,-0.5638,2255
+16.8,2nd Item,3033,Mortal Reminder,0.773,2168
+16.8,2nd Item,3036,Lord Dominik's Regards,-0.2862,4445
+16.8,2nd Item,3046,Phantom Dancer,1.7078,13356
+16.8,2nd Item,3074,Ravenous Hydra,-0.6102,1228
+16.8,2nd Item,3091,Wit's End,0.8031,229
+16.8,2nd Item,3153,Blade of The Ruined King,-0.6463,2994
+16.8,2nd Item,3181,Hullbreaker,-1.1773,434
+16.8,2nd Item,3508,Essence Reaver,1.166,1571
+16.8,2nd Item,6631,Stridebreaker,-2.7715,483
+16.8,2nd Item,6672,Kraken Slayer,-0.4015,595
+16.8,2nd Item,6675,Navori Flickerblade,-1.9262,5536
+16.8,2nd Item,6676,The Collector,-0.1404,6162
+16.8,2nd Item,6694,Serylda's Grudge,0.2942,233
+16.8,2nd Item,6695,Serpent's Fang,-2.4056,231
+16.8,2nd Item,6698,Profane Hydra,-0.5228,695
+16.8,2nd Item,6699,Voltaic Cyclosword,5.1483,152
+16.8,3rd Item,2512,Fiendhunter Bolts,1.7202,348
+16.8,3rd Item,2517,Endless Hunger,-0.106,256
+16.8,3rd Item,3031,Infinity Edge,-0.1336,14511
+16.8,3rd Item,3033,Mortal Reminder,0.9552,4474
+16.8,3rd Item,3036,Lord Dominik's Regards,0.3134,7012
+16.8,3rd Item,3046,Phantom Dancer,0.0232,2398
+16.8,3rd Item,3074,Ravenous Hydra,-2.7048,550
+16.8,3rd Item,3091,Wit's End,0.8875,219
+16.8,3rd Item,3139,Mercurial Scimitar,1.767,159
+16.8,3rd Item,3153,Blade of The Ruined King,-0.7586,2087
+16.8,3rd Item,3181,Hullbreaker,-1.2858,602
+16.8,3rd Item,3508,Essence Reaver,-0.2762,274
+16.8,3rd Item,6333,Death's Dance,-2.1307,104
+16.8,3rd Item,6631,Stridebreaker,-1.2864,210
+16.8,3rd Item,6672,Kraken Slayer,2.2369,515
+16.8,3rd Item,6675,Navori Flickerblade,-1.176,1306
+16.8,3rd Item,6676,The Collector,-0.3117,1127
+16.8,3rd Item,6694,Serylda's Grudge,-0.4421,3312
+16.8,3rd Item,6695,Serpent's Fang,-0.5729,320
+16.8,3rd Item,6698,Profane Hydra,-0.8088,288
+16.8,3rd Item,6699,Voltaic Cyclosword,2.6784,287
+16.8,4th+ Item,2512,Fiendhunter Bolts,-0.0076,373
+16.8,4th+ Item,2517,Endless Hunger,0.0456,2687
+16.8,4th+ Item,3026,Guardian Angel,1.6184,969
+16.8,4th+ Item,3031,Infinity Edge,0.5443,4759
+16.8,4th+ Item,3033,Mortal Reminder,-1.4969,1761
+16.8,4th+ Item,3036,Lord Dominik's Regards,0.6366,3639
+16.8,4th+ Item,3046,Phantom Dancer,0.1491,1395
+16.8,4th+ Item,3072,Bloodthirster,0.9401,316
+16.8,4th+ Item,3073,Experimental Hexplate,0.4057,188
+16.8,4th+ Item,3074,Ravenous Hydra,-0.9594,610
+16.8,4th+ Item,3091,Wit's End,-0.6068,496
+16.8,4th+ Item,3124,Guinsoo's Rageblade,4.3822,113
+16.8,4th+ Item,3139,Mercurial Scimitar,-1.8493,1208
+16.8,4th+ Item,3142,Youmuu's Ghostblade,-0.4662,298
+16.8,4th+ Item,3143,Randuin's Omen,-1.3964,175
+16.8,4th+ Item,3153,Blade of The Ruined King,-0.3063,2970
+16.8,4th+ Item,3156,Maw of Malmortius,2.7692,167
+16.8,4th+ Item,3181,Hullbreaker,2.212,619
+16.8,4th+ Item,3508,Essence Reaver,-1.0136,332
+16.8,4th+ Item,3814,Edge of Night,-5.0906,169
+16.8,4th+ Item,6333,Death's Dance,0.4467,1157
+16.8,4th+ Item,6631,Stridebreaker,3.1532,243
+16.8,4th+ Item,6672,Kraken Slayer,0.2393,1009
+16.8,4th+ Item,6675,Navori Flickerblade,-2.5299,1013
+16.8,4th+ Item,6676,The Collector,-0.9012,604
+16.8,4th+ Item,6694,Serylda's Grudge,-0.1208,1820
+16.8,4th+ Item,6695,Serpent's Fang,-0.2815,783
+16.8,4th+ Item,6698,Profane Hydra,3.9127,287
+16.8,4th+ Item,6699,Voltaic Cyclosword,0.0929,925
+16.8,4th+ Item,6701,Opportunity,0.7356,512
+16.8,All Items,2512,Fiendhunter Bolts,-0.0527,1769
+16.8,All Items,2517,Endless Hunger,0.0772,2990
+16.8,All Items,3026,Guardian Angel,1.2522,1114
+16.8,All Items,3031,Infinity Edge,-0.1637,29020
+16.8,All Items,3032,Yun Tal Wildarrows,-0.3818,2799
+16.8,All Items,3033,Mortal Reminder,0.3356,8615
+16.8,All Items,3036,Lord Dominik's Regards,0.1948,15357
+16.8,All Items,3046,Phantom Dancer,1.3362,17718
+16.8,All Items,3071,Black Cleaver,3.5011,113
+16.8,All Items,3072,Bloodthirster,-0.0235,409
+16.8,All Items,3073,Experimental Hexplate,0.6639,313
+16.8,All Items,3074,Ravenous Hydra,0.5213,23794
+16.8,All Items,3084,Heartsteel,-7.2233,120
+16.8,All Items,3091,Wit's End,-0.1001,1037
+16.8,All Items,3097,Stormrazor,-0.6685,213
+16.8,All Items,3124,Guinsoo's Rageblade,2.1788,227
+16.8,All Items,3139,Mercurial Scimitar,-1.5268,1474
+16.8,All Items,3142,Youmuu's Ghostblade,0.6978,476
+16.8,All Items,3143,Randuin's Omen,0.5358,213
+16.8,All Items,3153,Blade of The Ruined King,0.1967,15881
+16.8,All Items,3156,Maw of Malmortius,1.818,275
+16.8,All Items,3181,Hullbreaker,-0.2142,1744
+16.8,All Items,3508,Essence Reaver,-0.9442,14302
+16.8,All Items,3748,Titanic Hydra,-5.6382,350
+16.8,All Items,3814,Edge of Night,-4.1155,229
+16.8,All Items,6333,Death's Dance,0.2242,1298
+16.8,All Items,6610,Sundered Sky,-6.8815,123
+16.8,All Items,6631,Stridebreaker,-0.8057,2605
+16.8,All Items,6672,Kraken Slayer,0.4912,3364
+16.8,All Items,6673,Immortal Shieldbow,0.9672,111
+16.8,All Items,6675,Navori Flickerblade,-1.8297,8061
+16.8,All Items,6676,The Collector,-0.2668,8148
+16.8,All Items,6694,Serylda's Grudge,-0.3953,5387
+16.8,All Items,6695,Serpent's Fang,-0.7085,1429
+16.8,All Items,6697,Hubris,-7.4404,135
+16.8,All Items,6698,Profane Hydra,-0.0693,12753
+16.8,All Items,6699,Voltaic Cyclosword,1.442,1498
+16.8,All Items,6701,Opportunity,0.646,628
+16.9,Keystone,8010,Conqueror,-3.3706,110
+16.9,Keystone,9923,Hail of Blades,0.3225,52847
+16.9,Keystone,8021,Fleet Footwork,-0.5593,337
+16.9,Keystone,8008,Lethal Tempo,-0.9089,17903
+16.9,Keystone,8437,Grasp of the Undying,0.2473,8469
+16.9,Spell,1,Cleanse,2.9335,476
+16.9,Spell,3,Exhaust,0.732,1082
+16.9,Spell,4,Flash,0.0413,76434
+16.9,Spell,6,Ghost,-0.6792,15667
+16.9,Spell,12,Teleport,-5.5795,1437
+16.9,Spell,14,Ignite,0.2126,64655
+16.9,Starter,1036,Long Sword,-1.8332,752
+16.9,Starter,1054,Doran's Shield,0.0386,9460
+16.9,Starter,1055,Doran's Blade,0.2257,49313
+16.9,Starter,1083,Cull,-10.4782,108
+16.9,Starter,1086,Doran's Bow,-0.4212,19997
+16.9,Starter,1120,Doran's Helm,-2.3521,154
+16.9,Boots,3006,Berserker's Greaves,-0.1369,58735
+16.9,Boots,3008,Gluttonous Greaves,0.3355,7237
+16.9,Boots,3009,Boots of Swiftness,-0.8211,6560
+16.9,Boots,3047,Plated Steelcaps,0.7196,1692
+16.9,Boots,3111,Mercury's Treads,0.941,3533
+16.9,Boots,3158,Ionian Boots of Lucidity,1.4322,823
+16.9,1st Item,2512,Fiendhunter Bolts,2.086,132
+16.9,1st Item,3031,Infinity Edge,-5.4518,473
+16.9,1st Item,3032,Yun Tal Wildarrows,3.1875,476
+16.9,1st Item,3033,Mortal Reminder,1.591,223
+16.9,1st Item,3036,Lord Dominik's Regards,-1.7279,305
+16.9,1st Item,3046,Phantom Dancer,1.1191,734
+16.9,1st Item,3074,Ravenous Hydra,0.4383,30629
+16.9,1st Item,3087,Statikk Shiv,-4.5688,207
+16.9,1st Item,3153,Blade of The Ruined King,-0.334,9345
+16.9,1st Item,3181,Hullbreaker,1.0067,169
+16.9,1st Item,3508,Essence Reaver,0.5212,13697
+16.9,1st Item,3748,Titanic Hydra,0.2441,259
+16.9,1st Item,6631,Stridebreaker,0.0822,2302
+16.9,1st Item,6672,Kraken Slayer,-0.0368,1520
+16.9,1st Item,6675,Navori Flickerblade,-8.7693,193
+16.9,1st Item,6676,The Collector,-2.9982,395
+16.9,1st Item,6695,Serpent's Fang,-3.7841,102
+16.9,1st Item,6697,Hubris,0.3011,231
+16.9,1st Item,6698,Profane Hydra,-0.6822,16603
+16.9,1st Item,6699,Voltaic Cyclosword,0.3507,412
+16.9,2nd Item,2512,Fiendhunter Bolts,0.2595,1267
+16.9,2nd Item,2517,Endless Hunger,1.9336,165
+16.9,2nd Item,3031,Infinity Edge,0.2133,9531
+16.9,2nd Item,3032,Yun Tal Wildarrows,0.0249,3026
+16.9,2nd Item,3033,Mortal Reminder,0.1608,3014
+16.9,2nd Item,3036,Lord Dominik's Regards,0.5823,6755
+16.9,2nd Item,3046,Phantom Dancer,0.8589,19171
+16.9,2nd Item,3074,Ravenous Hydra,0.9116,1458
+16.9,2nd Item,3087,Statikk Shiv,3.3263,121
+16.9,2nd Item,3091,Wit's End,0.0997,309
+16.9,2nd Item,3097,Stormrazor,-2.0581,172
+16.9,2nd Item,3153,Blade of The Ruined King,-0.3972,3463
+16.9,2nd Item,3181,Hullbreaker,-0.6514,607
+16.9,2nd Item,3508,Essence Reaver,0.6214,2170
+16.9,2nd Item,6631,Stridebreaker,-2.7569,607
+16.9,2nd Item,6672,Kraken Slayer,-1.6364,632
+16.9,2nd Item,6675,Navori Flickerblade,-1.7089,6886
+16.9,2nd Item,6676,The Collector,-0.7678,10158
+16.9,2nd Item,6694,Serylda's Grudge,2.2545,284
+16.9,2nd Item,6695,Serpent's Fang,-1.8965,254
+16.9,2nd Item,6697,Hubris,2.5123,132
+16.9,2nd Item,6698,Profane Hydra,-1.7221,776
+16.9,2nd Item,6699,Voltaic Cyclosword,-1.312,400
+16.9,3rd Item,2512,Fiendhunter Bolts,3.3461,494
+16.9,3rd Item,2517,Endless Hunger,2.4635,917
+16.9,3rd Item,3031,Infinity Edge,-0.3443,20420
+16.9,3rd Item,3032,Yun Tal Wildarrows,8.7933,146
+16.9,3rd Item,3033,Mortal Reminder,0.0289,5990
+16.9,3rd Item,3036,Lord Dominik's Regards,0.6208,10006
+16.9,3rd Item,3046,Phantom Dancer,1.3063,3093
+16.9,3rd Item,3074,Ravenous Hydra,-0.3272,698
+16.9,3rd Item,3091,Wit's End,1.6323,301
+16.9,3rd Item,3139,Mercurial Scimitar,0.9867,194
+16.9,3rd Item,3142,Youmuu's Ghostblade,1.2676,105
+16.9,3rd Item,3153,Blade of The Ruined King,0.1177,3132
+16.9,3rd Item,3181,Hullbreaker,-0.7001,736
+16.9,3rd Item,3508,Essence Reaver,-2.6323,525
+16.9,3rd Item,6333,Death's Dance,2.1871,120
+16.9,3rd Item,6631,Stridebreaker,-3.1666,275
+16.9,3rd Item,6672,Kraken Slayer,-1.5574,532
+16.9,3rd Item,6675,Navori Flickerblade,-2.0303,1559
+16.9,3rd Item,6676,The Collector,-1.3021,1658
+16.9,3rd Item,6694,Serylda's Grudge,0.1344,2972
+16.9,3rd Item,6695,Serpent's Fang,2.4716,398
+16.9,3rd Item,6698,Profane Hydra,1.1179,308
+16.9,3rd Item,6699,Voltaic Cyclosword,-4.0166,463
+16.9,4th+ Item,2512,Fiendhunter Bolts,0.4239,489
+16.9,4th+ Item,2517,Endless Hunger,1.0045,3648
+16.9,4th+ Item,2520,Bastionbreaker,-5.353,112
+16.9,4th+ Item,3026,Guardian Angel,1.2257,1412
+16.9,4th+ Item,3031,Infinity Edge,-0.3749,7365
+16.9,4th+ Item,3033,Mortal Reminder,0.3381,2713
+16.9,4th+ Item,3036,Lord Dominik's Regards,-0.3892,4943
+16.9,4th+ Item,3046,Phantom Dancer,-0.5859,1934
+16.9,4th+ Item,3072,Bloodthirster,-1.5381,456
+16.9,4th+ Item,3073,Experimental Hexplate,0.8528,291
+16.9,4th+ Item,3074,Ravenous Hydra,0.7342,664
+16.9,4th+ Item,3091,Wit's End,2.1209,671
+16.9,4th+ Item,3124,Guinsoo's Rageblade,-1.584,115
+16.9,4th+ Item,3139,Mercurial Scimitar,0.3484,1737
+16.9,4th+ Item,3142,Youmuu's Ghostblade,1.7884,497
+16.9,4th+ Item,3143,Randuin's Omen,-4.2774,225
+16.9,4th+ Item,3153,Blade of The Ruined King,0.2664,3855
+16.9,4th+ Item,3156,Maw of Malmortius,2.7044,216
+16.9,4th+ Item,3181,Hullbreaker,2.393,846
+16.9,4th+ Item,3508,Essence Reaver,0.2511,536
+16.9,4th+ Item,3814,Edge of Night,-0.2967,304
+16.9,4th+ Item,6333,Death's Dance,0.5457,1564
+16.9,4th+ Item,6631,Stridebreaker,1.791,285
+16.9,4th+ Item,6672,Kraken Slayer,1.9233,1346
+16.9,4th+ Item,6675,Navori Flickerblade,-2.3231,1319
+16.9,4th+ Item,6676,The Collector,-3.7811,834
+16.9,4th+ Item,6694,Serylda's Grudge,1.0077,2570
+16.9,4th+ Item,6695,Serpent's Fang,-3.1748,952
+16.9,4th+ Item,6698,Profane Hydra,-0.6619,356
+16.9,4th+ Item,6699,Voltaic Cyclosword,-1.0337,1964
+16.9,All Items,2512,Fiendhunter Bolts,0.9784,2407
+16.9,All Items,2517,Endless Hunger,1.2877,4777
+16.9,All Items,2520,Bastionbreaker,-7.099,172
+16.9,All Items,3026,Guardian Angel,1.0862,1588
+16.9,All Items,3031,Infinity Edge,-0.2797,37854
+16.9,All Items,3032,Yun Tal Wildarrows,0.7037,3702
+16.9,All Items,3033,Mortal Reminder,0.1615,11976
+16.9,All Items,3036,Lord Dominik's Regards,0.3464,22066
+16.9,All Items,3046,Phantom Dancer,0.7975,25021
+16.9,All Items,3071,Black Cleaver,-5.8114,148
+16.9,All Items,3072,Bloodthirster,-1.1937,592
+16.9,All Items,3073,Experimental Hexplate,-0.5861,456
+16.9,All Items,3074,Ravenous Hydra,0.4452,33482
+16.9,All Items,3078,Trinity Force,-5.9065,102
+16.9,All Items,3084,Heartsteel,-5.4902,134
+16.9,All Items,3087,Statikk Shiv,-1.3352,428
+16.9,All Items,3091,Wit's End,1.5095,1383
+16.9,All Items,3097,Stormrazor,-3.203,386
+16.9,All Items,3124,Guinsoo's Rageblade,1.8321,259
+16.9,All Items,3139,Mercurial Scimitar,0.8378,2085
+16.9,All Items,3142,Youmuu's Ghostblade,1.0562,717
+16.9,All Items,3143,Randuin's Omen,-3.5475,284
+16.9,All Items,3153,Blade of The Ruined King,-0.1666,19867
+16.9,All Items,3156,Maw of Malmortius,2.2009,353
+16.9,All Items,3181,Hullbreaker,0.5448,2393
+16.9,All Items,3508,Essence Reaver,0.4373,16953
+16.9,All Items,3748,Titanic Hydra,1.4217,407
+16.9,All Items,3814,Edge of Night,-0.457,401
+16.9,All Items,6333,Death's Dance,0.8446,1741
+16.9,All Items,6609,Chempunk Chainsword,1.7051,101
+16.9,All Items,6631,Stridebreaker,-0.5603,3502
+16.9,All Items,6672,Kraken Slayer,0.1217,4059
+16.9,All Items,6673,Immortal Shieldbow,-1.4359,159
+16.9,All Items,6675,Navori Flickerblade,-1.975,10008
+16.9,All Items,6676,The Collector,-1.1026,13068
+16.9,All Items,6694,Serylda's Grudge,0.6282,5844
+16.9,All Items,6695,Serpent's Fang,-1.7422,1728
+16.9,All Items,6696,Axiom Arc,0.8124,102
+16.9,All Items,6697,Hubris,-0.2985,444
+16.9,All Items,6698,Profane Hydra,-0.6862,18060
+16.9,All Items,6699,Voltaic Cyclosword,-1.2624,3265
+16.10,Keystone,8010,Conqueror,1.5211,122
+16.10,Keystone,9923,Hail of Blades,0.1798,64866
+16.10,Keystone,8021,Fleet Footwork,0.217,257
+16.10,Keystone,8005,Press the Attack,-7.7282,105
+16.10,Keystone,8008,Lethal Tempo,-0.7427,18866
+16.10,Keystone,8437,Grasp of the Undying,0.3422,8520
+16.10,Spell,1,Cleanse,-0.5157,692
+16.10,Spell,3,Exhaust,-3.9914,1477
+16.10,Spell,4,Flash,0.0471,88919
+16.10,Spell,6,Ghost,-0.6558,16864
+16.10,Spell,12,Teleport,-4.9947,1527
+16.10,Spell,14,Ignite,0.2707,76144
+16.10,Starter,1036,Long Sword,0.0224,923
+16.10,Starter,1054,Doran's Shield,-1.2358,9791
+16.10,Starter,1055,Doran's Blade,-0.2536,48275
+16.10,Starter,1083,Cull,-5.73,120
+16.10,Starter,1086,Doran's Bow,0.7633,33402
+16.10,Starter,1120,Doran's Helm,-1.0479,263
+16.10,Boots,3006,Berserker's Greaves,-0.3278,64385
+16.10,Boots,3008,Gluttonous Greaves,0.7916,11953
+16.10,Boots,3009,Boots of Swiftness,0.4122,7705
+16.10,Boots,3047,Plated Steelcaps,-0.5918,1923
+16.10,Boots,3111,Mercury's Treads,0.6472,4366
+16.10,Boots,3158,Ionian Boots of Lucidity,0.3832,883
+16.10,1st Item,2512,Fiendhunter Bolts,-1.1262,186
+16.10,1st Item,3031,Infinity Edge,-3.4799,494
+16.10,1st Item,3032,Yun Tal Wildarrows,4.7751,437
+16.10,1st Item,3033,Mortal Reminder,-1.0773,274
+16.10,1st Item,3036,Lord Dominik's Regards,2.8322,344
+16.10,1st Item,3046,Phantom Dancer,1.9277,741
+16.10,1st Item,3074,Ravenous Hydra,0.5198,36215
+16.10,1st Item,3084,Heartsteel,-5.2198,106
+16.10,1st Item,3087,Statikk Shiv,-4.2442,108
+16.10,1st Item,3091,Wit's End,0.668,104
+16.10,1st Item,3153,Blade of The Ruined King,-0.179,10217
+16.10,1st Item,3181,Hullbreaker,1.6541,154
+16.10,1st Item,3508,Essence Reaver,0.511,17749
+16.10,1st Item,3748,Titanic Hydra,-0.9442,306
+16.10,1st Item,6631,Stridebreaker,-0.6786,2612
+16.10,1st Item,6672,Kraken Slayer,0.1728,1865
+16.10,1st Item,6675,Navori Flickerblade,-6.375,216
+16.10,1st Item,6676,The Collector,-4.387,485
+16.10,1st Item,6695,Serpent's Fang,0.0389,122
+16.10,1st Item,6697,Hubris,2.6866,205
+16.10,1st Item,6698,Profane Hydra,-1.0165,18112
+16.10,1st Item,6699,Voltaic Cyclosword,-7.3287,240
+16.10,2nd Item,2512,Fiendhunter Bolts,0.6487,1265
+16.10,2nd Item,2517,Endless Hunger,1.171,577
+16.10,2nd Item,3031,Infinity Edge,-0.3553,7980
+16.10,2nd Item,3032,Yun Tal Wildarrows,-0.148,2732
+16.10,2nd Item,3033,Mortal Reminder,-0.0598,4311
+16.10,2nd Item,3036,Lord Dominik's Regards,0.5058,11017
+16.10,2nd Item,3046,Phantom Dancer,1.2967,22216
+16.10,2nd Item,3074,Ravenous Hydra,-0.3209,1549
+16.10,2nd Item,3087,Statikk Shiv,6.6496,174
+16.10,2nd Item,3091,Wit's End,1.661,395
+16.10,2nd Item,3097,Stormrazor,-3.4232,162
+16.10,2nd Item,3153,Blade of The Ruined King,-0.0407,3847
+16.10,2nd Item,3181,Hullbreaker,-0.9469,661
+16.10,2nd Item,3508,Essence Reaver,0.0797,2586
+16.10,2nd Item,6631,Stridebreaker,-2.1651,657
+16.10,2nd Item,6672,Kraken Slayer,-0.5411,814
+16.10,2nd Item,6675,Navori Flickerblade,-1.7449,8577
+16.10,2nd Item,6676,The Collector,-1.0572,11292
+16.10,2nd Item,6694,Serylda's Grudge,-0.6437,391
+16.10,2nd Item,6695,Serpent's Fang,-1.4874,307
+16.10,2nd Item,6698,Profane Hydra,-0.5367,1031
+16.10,2nd Item,6699,Voltaic Cyclosword,-0.9137,268
+16.10,3rd Item,2512,Fiendhunter Bolts,0.7629,420
+16.10,3rd Item,2517,Endless Hunger,1.6081,4129
+16.10,3rd Item,3031,Infinity Edge,-0.3402,22604
+16.10,3rd Item,3032,Yun Tal Wildarrows,-4.4348,126
+16.10,3rd Item,3033,Mortal Reminder,0.682,6284
+16.10,3rd Item,3036,Lord Dominik's Regards,0.3473,11298
+16.10,3rd Item,3046,Phantom Dancer,0.3424,3687
+16.10,3rd Item,3074,Ravenous Hydra,-0.5177,676
+16.10,3rd Item,3091,Wit's End,-1.9768,355
+16.10,3rd Item,3139,Mercurial Scimitar,0.7816,265
+16.10,3rd Item,3142,Youmuu's Ghostblade,5.0996,147
+16.10,3rd Item,3153,Blade of The Ruined King,-0.0444,3644
+16.10,3rd Item,3181,Hullbreaker,2.2157,916
+16.10,3rd Item,3508,Essence Reaver,-0.2344,701
+16.10,3rd Item,6333,Death's Dance,-2.1542,340
+16.10,3rd Item,6631,Stridebreaker,-2.4734,341
+16.10,3rd Item,6672,Kraken Slayer,-0.2428,707
+16.10,3rd Item,6675,Navori Flickerblade,-0.7776,1982
+16.10,3rd Item,6676,The Collector,-2.3423,1944
+16.10,3rd Item,6694,Serylda's Grudge,0.5718,2075
+16.10,3rd Item,6695,Serpent's Fang,-1.8164,460
+16.10,3rd Item,6698,Profane Hydra,-1.0022,371
+16.10,3rd Item,6699,Voltaic Cyclosword,0.3258,524
+16.10,4th+ Item,2512,Fiendhunter Bolts,0.173,485
+16.10,4th+ Item,2517,Endless Hunger,0.3535,3613
+16.10,4th+ Item,2520,Bastionbreaker,-2.6525,152
+16.10,4th+ Item,3026,Guardian Angel,1.5656,1737
+16.10,4th+ Item,3031,Infinity Edge,-0.3585,8817
+16.10,4th+ Item,3033,Mortal Reminder,-0.0454,3047
+16.10,4th+ Item,3036,Lord Dominik's Regards,0.1998,5897
+16.10,4th+ Item,3046,Phantom Dancer,-1.1595,2190
+16.10,4th+ Item,3072,Bloodthirster,-0.4917,473
+16.10,4th+ Item,3073,Experimental Hexplate,1.2321,313
+16.10,4th+ Item,3074,Ravenous Hydra,-0.0638,720
+16.10,4th+ Item,3091,Wit's End,-0.9594,692
+16.10,4th+ Item,3097,Stormrazor,1.2184,103
+16.10,4th+ Item,3124,Guinsoo's Rageblade,-1.1483,139
+16.10,4th+ Item,3139,Mercurial Scimitar,0.2336,2051
+16.10,4th+ Item,3142,Youmuu's Ghostblade,-1.7373,545
+16.10,4th+ Item,3143,Randuin's Omen,5.7755,289
+16.10,4th+ Item,3153,Blade of The Ruined King,0.68,4416
+16.10,4th+ Item,3156,Maw of Malmortius,-0.6446,343
+16.10,4th+ Item,3181,Hullbreaker,1.9219,964
+16.10,4th+ Item,3508,Essence Reaver,-1.9167,625
+16.10,4th+ Item,3814,Edge of Night,-2.5166,228
+16.10,4th+ Item,6333,Death's Dance,1.65,2652
+16.10,4th+ Item,6631,Stridebreaker,0.8235,316
+16.10,4th+ Item,6672,Kraken Slayer,1.1128,1541
+16.10,4th+ Item,6673,Immortal Shieldbow,2.1991,128
+16.10,4th+ Item,6675,Navori Flickerblade,-0.8459,1517
+16.10,4th+ Item,6676,The Collector,-0.645,1070
+16.10,4th+ Item,6694,Serylda's Grudge,-0.3187,2731
+16.10,4th+ Item,6695,Serpent's Fang,-1.0046,1046
+16.10,4th+ Item,6698,Profane Hydra,0.5576,412
+16.10,4th+ Item,6699,Voltaic Cyclosword,-1.3835,2008
+16.10,All Items,2512,Fiendhunter Bolts,0.4668,2383
+16.10,All Items,2517,Endless Hunger,0.9998,8368
+16.10,All Items,2520,Bastionbreaker,-4.1904,219
+16.10,All Items,3026,Guardian Angel,1.5597,1993
+16.10,All Items,3031,Infinity Edge,-0.3937,39978
+16.10,All Items,3032,Yun Tal Wildarrows,0.2263,3384
+16.10,All Items,3033,Mortal Reminder,0.2417,13950
+16.10,All Items,3036,Lord Dominik's Regards,0.4136,28620
+16.10,All Items,3046,Phantom Dancer,1.0068,28922
+16.10,All Items,3071,Black Cleaver,-3.3855,181
+16.10,All Items,3072,Bloodthirster,-0.902,625
+16.10,All Items,3073,Experimental Hexplate,0.7649,484
+16.10,All Items,3074,Ravenous Hydra,0.4543,39200
+16.10,All Items,3084,Heartsteel,-2.1669,154
+16.10,All Items,3087,Statikk Shiv,2.3314,378
+16.10,All Items,3091,Wit's End,-0.2689,1570
+16.10,All Items,3097,Stormrazor,-4.6343,387
+16.10,All Items,3124,Guinsoo's Rageblade,-2.8434,348
+16.10,All Items,3139,Mercurial Scimitar,0.009,2480
+16.10,All Items,3142,Youmuu's Ghostblade,-0.6745,821
+16.10,All Items,3143,Randuin's Omen,3.213,370
+16.10,All Items,3153,Blade of The Ruined King,0.0403,22198
+16.10,All Items,3156,Maw of Malmortius,0.7151,518
+16.10,All Items,3181,Hullbreaker,1.3878,2725
+16.10,All Items,3508,Essence Reaver,0.3506,21680
+16.10,All Items,3748,Titanic Hydra,-1.0894,428
+16.10,All Items,3814,Edge of Night,-2.6538,347
+16.10,All Items,6333,Death's Dance,1.2658,3091
+16.10,All Items,6609,Chempunk Chainsword,0.641,122
+16.10,All Items,6610,Sundered Sky,-3.7719,101
+16.10,All Items,6631,Stridebreaker,-1.0014,3953
+16.10,All Items,6672,Kraken Slayer,0.2961,4971
+16.10,All Items,6673,Immortal Shieldbow,0.2547,231
+16.10,All Items,6675,Navori Flickerblade,-1.5211,12348
+16.10,All Items,6676,The Collector,-1.3158,14813
+16.10,All Items,6694,Serylda's Grudge,-0.0328,5230
+16.10,All Items,6695,Serpent's Fang,-1.2407,1949
+16.10,All Items,6696,Axiom Arc,-4.4008,141
+16.10,All Items,6697,Hubris,0.8418,402
+16.10,All Items,6698,Profane Hydra,-0.968,19952
+16.10,All Items,6699,Voltaic Cyclosword,-1.5401,3064
+16.11,Keystone,8010,Conqueror,-1.9088,116
+16.11,Keystone,9923,Hail of Blades,0.4804,58680
+16.11,Keystone,8021,Fleet Footwork,-8.7077,169
+16.11,Keystone,8005,Press the Attack,1.3412,107
+16.11,Keystone,8008,Lethal Tempo,-1.3628,16144
+16.11,Keystone,8437,Grasp of the Undying,-0.4562,7112
+16.11,Spell,1,Cleanse,-0.7474,562
+16.11,Spell,3,Exhaust,-1.9105,1434
+16.11,Spell,4,Flash,0.1161,78976
+16.11,Spell,6,Ghost,-0.682,14652
+16.11,Spell,12,Teleport,-5.3368,1465
+16.11,Spell,14,Ignite,0.1759,67783
+16.11,Starter,1036,Long Sword,-0.3765,775
+16.11,Starter,1054,Doran's Shield,-1.0509,7651
+16.11,Starter,1055,Doran's Blade,-0.215,38793
+16.11,Starter,1083,Cull,-6.3118,155
+16.11,Starter,1086,Doran's Bow,0.5463,34527
+16.11,Starter,1120,Doran's Helm,-2.5862,453
+16.11,Boots,3006,Berserker's Greaves,0.1825,57037
+16.11,Boots,3008,Gluttonous Greaves,0.2694,10800
+16.11,Boots,3009,Boots of Swiftness,-0.7929,6627
+16.11,Boots,3047,Plated Steelcaps,-0.3184,1975
+16.11,Boots,3111,Mercury's Treads,-0.2173,3754
+16.11,Boots,3158,Ionian Boots of Lucidity,-0.4799,770
+16.11,1st Item,3031,Infinity Edge,-1.8227,427
+16.11,1st Item,3032,Yun Tal Wildarrows,2.8489,395
+16.11,1st Item,3033,Mortal Reminder,1.0219,265
+16.11,1st Item,3036,Lord Dominik's Regards,-0.7263,403
+16.11,1st Item,3046,Phantom Dancer,0.0209,786
+16.11,1st Item,3074,Ravenous Hydra,0.1743,34476
+16.11,1st Item,3084,Heartsteel,-5.3646,132
+16.11,1st Item,3115,Nashor's Tooth,-0.5371,127
+16.11,1st Item,3153,Blade of The Ruined King,0.4739,9438
+16.11,1st Item,3181,Hullbreaker,-4.6159,124
+16.11,1st Item,3508,Essence Reaver,0.227,16497
+16.11,1st Item,3748,Titanic Hydra,-0.6782,233
+16.11,1st Item,6631,Stridebreaker,0.1239,2206
+16.11,1st Item,6672,Kraken Slayer,-0.6982,1349
+16.11,1st Item,6675,Navori Flickerblade,0.8694,187
+16.11,1st Item,6676,The Collector,-4.0802,414
+16.11,1st Item,6695,Serpent's Fang,-0.953,121
+16.11,1st Item,6697,Hubris,-2.5825,142
+16.11,1st Item,6698,Profane Hydra,-0.6093,13022
+16.11,1st Item,6699,Voltaic Cyclosword,-2.9876,156
+16.11,2nd Item,2512,Fiendhunter Bolts,-0.9631,914
+16.11,2nd Item,2517,Endless Hunger,0.8523,408
+16.11,2nd Item,3031,Infinity Edge,-0.6511,5977
+16.11,2nd Item,3032,Yun Tal Wildarrows,0.9424,1822
+16.11,2nd Item,3033,Mortal Reminder,0.6024,3611
+16.11,2nd Item,3036,Lord Dominik's Regards,0.5563,11854
+16.11,2nd Item,3046,Phantom Dancer,1.0669,21549
+16.11,2nd Item,3074,Ravenous Hydra,-0.863,1407
+16.11,2nd Item,3091,Wit's End,2.3847,270
+16.11,2nd Item,3124,Guinsoo's Rageblade,-0.8892,101
+16.11,2nd Item,3153,Blade of The Ruined King,-0.3647,3463
+16.11,2nd Item,3181,Hullbreaker,0.909,560
+16.11,2nd Item,3508,Essence Reaver,0.5083,2385
+16.11,2nd Item,6631,Stridebreaker,2.5493,505
+16.11,2nd Item,6672,Kraken Slayer,-0.2011,721
+16.11,2nd Item,6675,Navori Flickerblade,-2.0894,8743
+16.11,2nd Item,6676,The Collector,-1.0801,7764
+16.11,2nd Item,6694,Serylda's Grudge,-5.2886,191
+16.11,2nd Item,6695,Serpent's Fang,-0.7031,294
+16.11,2nd Item,6698,Profane Hydra,0.4262,766
+16.11,2nd Item,6699,Voltaic Cyclosword,-4.2984,162
+16.11,3rd Item,2512,Fiendhunter Bolts,-1.3455,405
+16.11,3rd Item,2517,Endless Hunger,1.0551,5076
+16.11,3rd Item,3031,Infinity Edge,-0.3739,18481
+16.11,3rd Item,3032,Yun Tal Wildarrows,-3.1423,133
+16.11,3rd Item,3033,Mortal Reminder,-0.1748,5834
+16.11,3rd Item,3036,Lord Dominik's Regards,0.0217,10961
+16.11,3rd Item,3046,Phantom Dancer,1.1046,3369
+16.11,3rd Item,3074,Ravenous Hydra,-0.2066,599
+16.11,3rd Item,3091,Wit's End,2.4978,243
+16.11,3rd Item,3139,Mercurial Scimitar,-1.5134,237
+16.11,3rd Item,3153,Blade of The Ruined King,0.4362,3152
+16.11,3rd Item,3181,Hullbreaker,0.7761,663
+16.11,3rd Item,3508,Essence Reaver,-0.7292,522
+16.11,3rd Item,6333,Death's Dance,4.1967,258
+16.11,3rd Item,6631,Stridebreaker,5.796,291
+16.11,3rd Item,6672,Kraken Slayer,2.3842,569
+16.11,3rd Item,6675,Navori Flickerblade,-1.1162,1813
+16.11,3rd Item,6676,The Collector,-0.6461,1306
+16.11,3rd Item,6694,Serylda's Grudge,-0.4089,1245
+16.11,3rd Item,6695,Serpent's Fang,-0.6973,420
+16.11,3rd Item,6698,Profane Hydra,0.8189,298
+16.11,3rd Item,6699,Voltaic Cyclosword,0.1118,416
+16.11,4th+ Item,2512,Fiendhunter Bolts,0.2323,401
+16.11,4th+ Item,2517,Endless Hunger,0.5138,4132
+16.11,4th+ Item,2520,Bastionbreaker,-7.1029,127
+16.11,4th+ Item,3026,Guardian Angel,2.3541,1370
+16.11,4th+ Item,3031,Infinity Edge,-0.7069,8042
+16.11,4th+ Item,3033,Mortal Reminder,-0.508,2519
+16.11,4th+ Item,3036,Lord Dominik's Regards,1.3384,5040
+16.11,4th+ Item,3046,Phantom Dancer,-0.9485,1722
+16.11,4th+ Item,3072,Bloodthirster,0.0343,360
+16.11,4th+ Item,3073,Experimental Hexplate,-4.8534,225
+16.11,4th+ Item,3074,Ravenous Hydra,4.5325,599
+16.11,4th+ Item,3091,Wit's End,-0.347,593
+16.11,4th+ Item,3139,Mercurial Scimitar,-0.2512,1645
+16.11,4th+ Item,3142,Youmuu's Ghostblade,-2.5701,443
+16.11,4th+ Item,3143,Randuin's Omen,1.0364,260
+16.11,4th+ Item,3153,Blade of The Ruined King,0.1347,3956
+16.11,4th+ Item,3156,Maw of Malmortius,0.9806,319
+16.11,4th+ Item,3181,Hullbreaker,2.7375,817
+16.11,4th+ Item,3508,Essence Reaver,-1.0144,499
+16.11,4th+ Item,3814,Edge of Night,-1.8372,168
+16.11,4th+ Item,6333,Death's Dance,1.0929,2587
+16.11,4th+ Item,6631,Stridebreaker,-0.6706,287
+16.11,4th+ Item,6672,Kraken Slayer,0.8377,1359
+16.11,4th+ Item,6675,Navori Flickerblade,-0.371,1219
+16.11,4th+ Item,6676,The Collector,-1.4398,952
+16.11,4th+ Item,6694,Serylda's Grudge,-0.4538,1663
+16.11,4th+ Item,6695,Serpent's Fang,-1.8263,899
+16.11,4th+ Item,6698,Profane Hydra,-2.0653,331
+16.11,4th+ Item,6699,Voltaic Cyclosword,-1.4678,1386
+16.11,All Items,2512,Fiendhunter Bolts,-0.9,1817
+16.11,All Items,2517,Endless Hunger,0.8205,9692
+16.11,All Items,2520,Bastionbreaker,-6.6575,184
+16.11,All Items,3026,Guardian Angel,2.3054,1579
+16.11,All Items,3031,Infinity Edge,-0.5239,33003
+16.11,All Items,3032,Yun Tal Wildarrows,0.898,2420
+16.11,All Items,3033,Mortal Reminder,0.0179,12256
+16.11,All Items,3036,Lord Dominik's Regards,0.4613,28322
+16.11,All Items,3046,Phantom Dancer,0.9103,27495
+16.11,All Items,3071,Black Cleaver,0.0048,120
+16.11,All Items,3072,Bloodthirster,0.1606,485
+16.11,All Items,3073,Experimental Hexplate,-3.3189,369
+16.11,All Items,3074,Ravenous Hydra,0.2048,37115
+16.11,All Items,3078,Trinity Force,-6.4552,121
+16.11,All Items,3084,Heartsteel,-5.9208,177
+16.11,All Items,3087,Statikk Shiv,-3.3582,171
+16.11,All Items,3091,Wit's End,0.6386,1217
+16.11,All Items,3097,Stormrazor,-2.9255,237
+16.11,All Items,3115,Nashor's Tooth,0.1643,169
+16.11,All Items,3124,Guinsoo's Rageblade,-3.7801,264
+16.11,All Items,3139,Mercurial Scimitar,-0.3037,2011
+16.11,All Items,3142,Youmuu's Ghostblade,-2.5954,647
+16.11,All Items,3143,Randuin's Omen,-1.2233,327
+16.11,All Items,3153,Blade of The Ruined King,0.2508,20101
+16.11,All Items,3156,Maw of Malmortius,-0.5886,472
+16.11,All Items,3181,Hullbreaker,1.2833,2193
+16.11,All Items,3508,Essence Reaver,0.2087,19922
+16.11,All Items,3748,Titanic Hydra,0.6682,400
+16.11,All Items,3814,Edge of Night,-1.3836,242
+16.11,All Items,6333,Death's Dance,1.4397,2926
+16.11,All Items,6609,Chempunk Chainsword,2.1186,118
+16.11,All Items,6631,Stridebreaker,0.8942,3302
+16.11,All Items,6672,Kraken Slayer,0.3765,4034
+16.11,All Items,6673,Immortal Shieldbow,-4.1505,149
+16.11,All Items,6675,Navori Flickerblade,-1.7369,12002
+16.11,All Items,6676,The Collector,-1.1802,10477
+16.11,All Items,6694,Serylda's Grudge,-0.7826,3111
+16.11,All Items,6695,Serpent's Fang,-1.2594,1751
+16.11,All Items,6697,Hubris,-3.8937,254
+16.11,All Items,6698,Profane Hydra,-0.555,14430
+16.11,All Items,6699,Voltaic Cyclosword,-1.5769,2136
+16.12,Keystone,8010,Conqueror,-6.4978,139
+16.12,Keystone,9923,Hail of Blades,0.3478,66467
+16.12,Keystone,8021,Fleet Footwork,-2.1395,215
+16.12,Keystone,8008,Lethal Tempo,-0.8567,17248
+16.12,Keystone,8437,Grasp of the Undying,-0.6588,8418
+16.12,Spell,1,Cleanse,-0.09,501
+16.12,Spell,3,Exhaust,-1.6447,1695
+16.12,Spell,4,Flash,0.0923,89104
+16.12,Spell,6,Ghost,-0.9863,15111
+16.12,Spell,12,Teleport,-4.1196,1826
+16.12,Spell,14,Ignite,0.2277,77112
+16.12,Starter,1036,Long Sword,-0.8898,866
+16.12,Starter,1054,Doran's Shield,-1.5567,8041
+16.12,Starter,1055,Doran's Blade,-0.5235,41270
+16.12,Starter,1083,Cull,-2.791,173
+16.12,Starter,1086,Doran's Bow,0.8907,41660
+16.12,Starter,1120,Doran's Helm,-3.1544,596
+16.12,Boots,3006,Berserker's Greaves,-0.1864,65963
+16.12,Boots,3008,Gluttonous Greaves,0.3066,10638
+16.12,Boots,3009,Boots of Swiftness,0.0587,7482
+16.12,Boots,3047,Plated Steelcaps,-0.9808,2166
+16.12,Boots,3111,Mercury's Treads,0.4832,3995
+16.12,Boots,3158,Ionian Boots of Lucidity,0.4934,745
+16.12,1st Item,2512,Fiendhunter Bolts,1.0238,102
+16.12,1st Item,3031,Infinity Edge,-2.2693,447
+16.12,1st Item,3032,Yun Tal Wildarrows,-1.3358,384
+16.12,1st Item,3033,Mortal Reminder,1.1512,293
+16.12,1st Item,3036,Lord Dominik's Regards,-2.7355,351
+16.12,1st Item,3046,Phantom Dancer,-2.2413,927
+16.12,1st Item,3074,Ravenous Hydra,0.4595,44141
+16.12,1st Item,3084,Heartsteel,-3.4938,253
+16.12,1st Item,3153,Blade of The Ruined King,0.2428,10206
+16.12,1st Item,3181,Hullbreaker,-0.6479,123
+16.12,1st Item,3508,Essence Reaver,0.2803,15309
+16.12,1st Item,3748,Titanic Hydra,-1.232,294
+16.12,1st Item,6631,Stridebreaker,1.168,2450
+16.12,1st Item,6672,Kraken Slayer,0.7874,1568
+16.12,1st Item,6675,Navori Flickerblade,-1.5441,220
+16.12,1st Item,6676,The Collector,-3.5329,361
+16.12,1st Item,6695,Serpent's Fang,-3.6957,101
+16.12,1st Item,6697,Hubris,1.8683,153
+16.12,1st Item,6698,Profane Hydra,-1.6341,13084
+16.12,1st Item,6699,Voltaic Cyclosword,-1.0304,135
+16.12,2nd Item,2512,Fiendhunter Bolts,0.2858,745
+16.12,2nd Item,2517,Endless Hunger,-0.2397,508
+16.12,2nd Item,3031,Infinity Edge,-0.7555,5781
+16.12,2nd Item,3032,Yun Tal Wildarrows,-0.0843,1947
+16.12,2nd Item,3033,Mortal Reminder,0.7467,4156
+16.12,2nd Item,3036,Lord Dominik's Regards,0.568,11283
+16.12,2nd Item,3046,Phantom Dancer,1.1514,28220
+16.12,2nd Item,3074,Ravenous Hydra,-0.272,1678
+16.12,2nd Item,3091,Wit's End,-0.8745,330
+16.12,2nd Item,3153,Blade of The Ruined King,-1.1522,3492
+16.12,2nd Item,3181,Hullbreaker,2.069,594
+16.12,2nd Item,3508,Essence Reaver,-0.9402,2434
+16.12,2nd Item,3748,Titanic Hydra,-4.5654,196
+16.12,2nd Item,6631,Stridebreaker,0.5683,610
+16.12,2nd Item,6672,Kraken Slayer,1.3549,696
+16.12,2nd Item,6675,Navori Flickerblade,-1.5075,11117
+16.12,2nd Item,6676,The Collector,-1.4223,7550
+16.12,2nd Item,6694,Serylda's Grudge,-2.5061,167
+16.12,2nd Item,6695,Serpent's Fang,-4.7858,280
+16.12,2nd Item,6698,Profane Hydra,-0.5259,852
+16.12,2nd Item,6699,Voltaic Cyclosword,-4.622,184
+16.12,3rd Item,2512,Fiendhunter Bolts,0.5914,359
+16.12,3rd Item,2517,Endless Hunger,1.2788,5022
+16.12,3rd Item,3031,Infinity Edge,-0.1571,20856
+16.12,3rd Item,3032,Yun Tal Wildarrows,-1.031,164
+16.12,3rd Item,3033,Mortal Reminder,-1.0087,7131
+16.12,3rd Item,3036,Lord Dominik's Regards,0.1345,13292
+16.12,3rd Item,3046,Phantom Dancer,1.2732,4071
+16.12,3rd Item,3074,Ravenous Hydra,-2.0332,687
+16.12,3rd Item,3091,Wit's End,0.2675,299
+16.12,3rd Item,3139,Mercurial Scimitar,-1.1274,229
+16.12,3rd Item,3153,Blade of The Ruined King,0.7609,3394
+16.12,3rd Item,3181,Hullbreaker,1.5258,887
+16.12,3rd Item,3508,Essence Reaver,1.1373,501
+16.12,3rd Item,6333,Death's Dance,2.2799,296
+16.12,3rd Item,6631,Stridebreaker,-1.2505,323
+16.12,3rd Item,6672,Kraken Slayer,-1.4873,570
+16.12,3rd Item,6675,Navori Flickerblade,-1.5955,2209
+16.12,3rd Item,6676,The Collector,-0.0571,1346
+16.12,3rd Item,6694,Serylda's Grudge,-0.2017,990
+16.12,3rd Item,6695,Serpent's Fang,-1.5168,402
+16.12,3rd Item,6698,Profane Hydra,-2.7311,294
+16.12,3rd Item,6699,Voltaic Cyclosword,3.4517,412
+16.12,4th+ Item,2512,Fiendhunter Bolts,0.2524,376
+16.12,4th+ Item,2517,Endless Hunger,1.097,4950
+16.12,4th+ Item,3026,Guardian Angel,1.4708,1591
+16.12,4th+ Item,3031,Infinity Edge,-0.8178,9178
+16.12,4th+ Item,3033,Mortal Reminder,0.1838,2972
+16.12,4th+ Item,3036,Lord Dominik's Regards,0.7518,5878
+16.12,4th+ Item,3046,Phantom Dancer,-1.0285,2033
+16.12,4th+ Item,3072,Bloodthirster,0.1731,398
+16.12,4th+ Item,3073,Experimental Hexplate,0.8104,201
+16.12,4th+ Item,3074,Ravenous Hydra,-0.0893,690
+16.12,4th+ Item,3091,Wit's End,5.1767,692
+16.12,4th+ Item,3097,Stormrazor,-7.9084,102
+16.12,4th+ Item,3124,Guinsoo's Rageblade,1.0948,108
+16.12,4th+ Item,3139,Mercurial Scimitar,1.0974,1876
+16.12,4th+ Item,3142,Youmuu's Ghostblade,-0.2637,414
+16.12,4th+ Item,3143,Randuin's Omen,2.3511,294
+16.12,4th+ Item,3153,Blade of The Ruined King,-0.7988,4659
+16.12,4th+ Item,3156,Maw of Malmortius,1.7668,394
+16.12,4th+ Item,3181,Hullbreaker,0.9059,903
+16.12,4th+ Item,3508,Essence Reaver,0.6362,529
+16.12,4th+ Item,3814,Edge of Night,1.5614,161
+16.12,4th+ Item,6333,Death's Dance,1.1003,2735
+16.12,4th+ Item,6631,Stridebreaker,2.9267,266
+16.12,4th+ Item,6672,Kraken Slayer,0.6719,1494
+16.12,4th+ Item,6675,Navori Flickerblade,-2.2916,1471
+16.12,4th+ Item,6676,The Collector,-3.3373,925
+16.12,4th+ Item,6694,Serylda's Grudge,-1.3406,1768
+16.12,4th+ Item,6695,Serpent's Fang,-1.4331,891
+16.12,4th+ Item,6698,Profane Hydra,-2.5641,336
+16.12,4th+ Item,6699,Voltaic Cyclosword,-0.3082,1250
+16.12,All Items,2501,Overlord's Bloodmail,-2.3821,147
+16.12,All Items,2512,Fiendhunter Bolts,0.4987,1606
+16.12,All Items,2517,Endless Hunger,1.08,10566
+16.12,All Items,2520,Bastionbreaker,3.6413,126
+16.12,All Items,3026,Guardian Angel,1.0253,1792
+16.12,All Items,3031,Infinity Edge,-0.4525,36324
+16.12,All Items,3032,Yun Tal Wildarrows,-0.3039,2573
+16.12,All Items,3033,Mortal Reminder,-0.2265,14576
+16.12,All Items,3036,Lord Dominik's Regards,0.385,30885
+16.12,All Items,3046,Phantom Dancer,0.9475,35333
+16.12,All Items,3071,Black Cleaver,-5.6942,148
+16.12,All Items,3072,Bloodthirster,-1.388,508
+16.12,All Items,3073,Experimental Hexplate,0.7004,353
+16.12,All Items,3074,Ravenous Hydra,0.3836,47239
+16.12,All Items,3078,Trinity Force,3.8187,166
+16.12,All Items,3084,Heartsteel,-4.1514,326
+16.12,All Items,3087,Statikk Shiv,-1.6343,220
+16.12,All Items,3091,Wit's End,2.3632,1420
+16.12,All Items,3097,Stormrazor,-2.2471,273
+16.12,All Items,3124,Guinsoo's Rageblade,3.019,256
+16.12,All Items,3139,Mercurial Scimitar,0.6861,2246
+16.12,All Items,3142,Youmuu's Ghostblade,0.3166,596
+16.12,All Items,3143,Randuin's Omen,1.1762,376
+16.12,All Items,3153,Blade of The Ruined King,-0.1241,21840
+16.12,All Items,3156,Maw of Malmortius,0.9685,559
+16.12,All Items,3181,Hullbreaker,1.4083,2538
+16.12,All Items,3302,Terminus,-0.4746,101
+16.12,All Items,3508,Essence Reaver,0.1484,18797
+16.12,All Items,3748,Titanic Hydra,-1.9494,540
+16.12,All Items,3814,Edge of Night,-0.9961,245
+16.12,All Items,6333,Death's Dance,1.0788,3130
+16.12,All Items,6609,Chempunk Chainsword,-5.6987,118
+16.12,All Items,6631,Stridebreaker,1.0053,3664
+16.12,All Items,6672,Kraken Slayer,0.54,4371
+16.12,All Items,6673,Immortal Shieldbow,-2.7176,178
+16.12,All Items,6675,Navori Flickerblade,-1.5834,15061
+16.12,All Items,6676,The Collector,-1.4709,10217
+16.12,All Items,6694,Serylda's Grudge,-1.0276,2938
+16.12,All Items,6695,Serpent's Fang,-2.1717,1688
+16.12,All Items,6696,Axiom Arc,-1.8227,104
+16.12,All Items,6697,Hubris,0.1487,284
+16.12,All Items,6698,Profane Hydra,-1.6108,14580
+16.12,All Items,6699,Voltaic Cyclosword,0.0073,2000
+16.13,Keystone,8010,Conqueror,-8.9529,172
+16.13,Keystone,9923,Hail of Blades,0.1211,108550
+16.13,Keystone,8021,Fleet Footwork,-3.8317,316
+16.13,Keystone,8008,Lethal Tempo,-0.6737,24962
+16.13,Keystone,8437,Grasp of the Undying,0.8161,12696
+16.13,Spell,1,Cleanse,0.0015,828
+16.13,Spell,3,Exhaust,-3.1797,2746
+16.13,Spell,4,Flash,0.0544,141582
+16.13,Spell,6,Ghost,-0.4786,22348
+16.13,Spell,12,Teleport,-4.8565,2587
+16.13,Spell,14,Ignite,0.1947,123888
+16.13,Starter,1036,Long Sword,-0.7638,1169
+16.13,Starter,1054,Doran's Shield,-1.0627,12235
+16.13,Starter,1055,Doran's Blade,-0.5405,54197
+16.13,Starter,1083,Cull,0.0876,249
+16.13,Starter,1086,Doran's Bow,0.5834,78335
+16.13,Starter,1120,Doran's Helm,-2.9687,669
+16.13,Boots,3006,Berserker's Greaves,-0.28,100655
+16.13,Boots,3008,Gluttonous Greaves,0.7054,19866
+16.13,Boots,3009,Boots of Swiftness,-0.2483,12602
+16.13,Boots,3047,Plated Steelcaps,1.3129,3555
+16.13,Boots,3111,Mercury's Treads,0.1812,6499
+16.13,Boots,3158,Ionian Boots of Lucidity,-0.997,1103
+16.13,1st Item,2512,Fiendhunter Bolts,-4.0838,164
+16.13,1st Item,3031,Infinity Edge,-1.4874,629
+16.13,1st Item,3032,Yun Tal Wildarrows,-1.5958,677
+16.13,1st Item,3033,Mortal Reminder,1.2115,411
+16.13,1st Item,3036,Lord Dominik's Regards,-3.2506,587
+16.13,1st Item,3046,Phantom Dancer,0.7439,1347
+16.13,1st Item,3074,Ravenous Hydra,0.4736,76779
+16.13,1st Item,3084,Heartsteel,-3.3725,352
+16.13,1st Item,3091,Wit's End,-0.5039,155
+16.13,1st Item,3153,Blade of The Ruined King,0.193,14343
+16.13,1st Item,3181,Hullbreaker,-1.1216,163
+16.13,1st Item,3508,Essence Reaver,-0.0017,21817
+16.13,1st Item,3748,Titanic Hydra,1.3283,384
+16.13,1st Item,6631,Stridebreaker,-0.8581,3615
+16.13,1st Item,6672,Kraken Slayer,1.1559,3158
+16.13,1st Item,6675,Navori Flickerblade,-3.7577,336
+16.13,1st Item,6676,The Collector,-1.1308,468
+16.13,1st Item,6695,Serpent's Fang,-8.6651,188
+16.13,1st Item,6697,Hubris,0.5261,153
+16.13,1st Item,6698,Profane Hydra,-1.4956,18653
+16.13,1st Item,6699,Voltaic Cyclosword,-6.6376,128
+16.13,2nd Item,2512,Fiendhunter Bolts,0.0073,986
+16.13,2nd Item,2517,Endless Hunger,-0.2081,1342
+16.13,2nd Item,3031,Infinity Edge,-1.9621,7804
+16.13,2nd Item,3032,Yun Tal Wildarrows,0.9044,4325
+16.13,2nd Item,3033,Mortal Reminder,0.643,6518
+16.13,2nd Item,3036,Lord Dominik's Regards,0.5732,16651
+16.13,2nd Item,3046,Phantom Dancer,1.0861,45926
+16.13,2nd Item,3074,Ravenous Hydra,0.3639,2881
+16.13,2nd Item,3091,Wit's End,-0.4162,480
+16.13,2nd Item,3153,Blade of The Ruined King,-0.234,5464
+16.13,2nd Item,3181,Hullbreaker,-1.3662,796
+16.13,2nd Item,3508,Essence Reaver,0.1596,3211
+16.13,2nd Item,3748,Titanic Hydra,1.1118,229
+16.13,2nd Item,6631,Stridebreaker,-0.7694,910
+16.13,2nd Item,6672,Kraken Slayer,0.1524,1274
+16.13,2nd Item,6675,Navori Flickerblade,-1.4389,19570
+16.13,2nd Item,6676,The Collector,-1.3908,10858
+16.13,2nd Item,6694,Serylda's Grudge,0.3796,293
+16.13,2nd Item,6695,Serpent's Fang,0.3023,440
+16.13,2nd Item,6698,Profane Hydra,-2.9196,1144
+16.13,2nd Item,6699,Voltaic Cyclosword,-1.8727,257
+16.13,3rd Item,2512,Fiendhunter Bolts,-1.3988,464
+16.13,3rd Item,2517,Endless Hunger,1.349,7555
+16.13,3rd Item,3031,Infinity Edge,-0.2227,32993
+16.13,3rd Item,3032,Yun Tal Wildarrows,-0.703,249
+16.13,3rd Item,3033,Mortal Reminder,-0.1481,12095
+16.13,3rd Item,3036,Lord Dominik's Regards,0.5502,21610
+16.13,3rd Item,3046,Phantom Dancer,0.4717,6247
+16.13,3rd Item,3073,Experimental Hexplate,1.0366,114
+16.13,3rd Item,3074,Ravenous Hydra,-0.2275,1121
+16.13,3rd Item,3091,Wit's End,-1.7181,477
+16.13,3rd Item,3139,Mercurial Scimitar,-2.9958,327
+16.13,3rd Item,3142,Youmuu's Ghostblade,0.3749,101
+16.13,3rd Item,3153,Blade of The Ruined King,0.1521,4762
+16.13,3rd Item,3156,Maw of Malmortius,2.4924,210
+16.13,3rd Item,3181,Hullbreaker,0.756,1535
+16.13,3rd Item,3508,Essence Reaver,0.3332,748
+16.13,3rd Item,6333,Death's Dance,0.3682,542
+16.13,3rd Item,6631,Stridebreaker,-2.4097,452
+16.13,3rd Item,6672,Kraken Slayer,-0.4659,891
+16.13,3rd Item,6675,Navori Flickerblade,-1.4932,4283
+16.13,3rd Item,6676,The Collector,-0.0784,2007
+16.13,3rd Item,6694,Serylda's Grudge,-1.5699,1365
+16.13,3rd Item,6695,Serpent's Fang,-2.3912,639
+16.13,3rd Item,6698,Profane Hydra,-2.8732,441
+16.13,3rd Item,6699,Voltaic Cyclosword,-2.0096,511
+16.13,4th+ Item,2512,Fiendhunter Bolts,-0.8649,545
+16.13,4th+ Item,2517,Endless Hunger,0.1034,8919
+16.13,4th+ Item,2520,Bastionbreaker,-0.9062,125
+16.13,4th+ Item,3026,Guardian Angel,0.8747,2467
+16.13,4th+ Item,3031,Infinity Edge,-0.1357,14883
+16.13,4th+ Item,3032,Yun Tal Wildarrows,2.913,118
+16.13,4th+ Item,3033,Mortal Reminder,-0.7028,4953
+16.13,4th+ Item,3036,Lord Dominik's Regards,0.2569,9742
+16.13,4th+ Item,3046,Phantom Dancer,0.0516,3040
+16.13,4th+ Item,3072,Bloodthirster,-4.9024,573
+16.13,4th+ Item,3073,Experimental Hexplate,-0.1032,331
+16.13,4th+ Item,3074,Ravenous Hydra,-1.6211,1063
+16.13,4th+ Item,3078,Trinity Force,-1.9098,119
+16.13,4th+ Item,3091,Wit's End,-0.7353,1109
+16.13,4th+ Item,3097,Stormrazor,1.7862,128
+16.13,4th+ Item,3124,Guinsoo's Rageblade,2.1802,112
+16.13,4th+ Item,3139,Mercurial Scimitar,-0.2458,2873
+16.13,4th+ Item,3142,Youmuu's Ghostblade,-3.9993,635
+16.13,4th+ Item,3143,Randuin's Omen,-0.6859,451
+16.13,4th+ Item,3153,Blade of The Ruined King,0.9373,7032
+16.13,4th+ Item,3156,Maw of Malmortius,-0.0889,748
+16.13,4th+ Item,3181,Hullbreaker,0.0695,1474
+16.13,4th+ Item,3508,Essence Reaver,-1.0058,815
+16.13,4th+ Item,3814,Edge of Night,-1.6134,234
+16.13,4th+ Item,6333,Death's Dance,1.4094,4402
+16.13,4th+ Item,6609,Chempunk Chainsword,1.1055,170
+16.13,4th+ Item,6631,Stridebreaker,0.9233,460
+16.13,4th+ Item,6672,Kraken Slayer,-0.5991,2394
+16.13,4th+ Item,6673,Immortal Shieldbow,-2.9725,164
+16.13,4th+ Item,6675,Navori Flickerblade,-1.5292,2569
+16.13,4th+ Item,6676,The Collector,-3.009,1486
+16.13,4th+ Item,6694,Serylda's Grudge,0.9121,2292
+16.13,4th+ Item,6695,Serpent's Fang,3.0997,1496
+16.13,4th+ Item,6696,Axiom Arc,1.4876,162
+16.13,4th+ Item,6698,Profane Hydra,1.3998,505
+16.13,4th+ Item,6699,Voltaic Cyclosword,-0.411,1702
+16.13,All Items,2501,Overlord's Bloodmail,-1.1862,152
+16.13,All Items,2504,Kaenic Rookern,-4.065,155
+16.13,All Items,2512,Fiendhunter Bolts,-0.7744,2191
+16.13,All Items,2517,Endless Hunger,0.6394,17975
+16.13,All Items,2520,Bastionbreaker,-1.2067,179
+16.13,All Items,3026,Guardian Angel,1.0529,2782
+16.13,All Items,3031,Infinity Edge,-0.4532,56457
+16.13,All Items,3032,Yun Tal Wildarrows,0.5587,5372
+16.13,All Items,3033,Mortal Reminder,-0.0297,24046
+16.13,All Items,3036,Lord Dominik's Regards,0.4555,48716
+16.13,All Items,3046,Phantom Dancer,0.9468,56692
+16.13,All Items,3065,Spirit Visage,3.0934,101
+16.13,All Items,3071,Black Cleaver,2.2678,270
+16.13,All Items,3072,Bloodthirster,-3.4298,735
+16.13,All Items,3073,Experimental Hexplate,-1.9931,539
+16.13,All Items,3074,Ravenous Hydra,0.4285,81916
+16.13,All Items,3078,Trinity Force,-4.2083,197
+16.13,All Items,3084,Heartsteel,-1.9324,431
+16.13,All Items,3087,Statikk Shiv,-6.1822,222
+16.13,All Items,3091,Wit's End,-0.8145,2245
+16.13,All Items,3097,Stormrazor,-2.2206,359
+16.13,All Items,3115,Nashor's Tooth,-5.3594,105
+16.13,All Items,3124,Guinsoo's Rageblade,-0.4807,293
+16.13,All Items,3139,Mercurial Scimitar,-0.6144,3397
+16.13,All Items,3142,Youmuu's Ghostblade,-3.6412,914
+16.13,All Items,3143,Randuin's Omen,-0.1938,561
+16.13,All Items,3153,Blade of The Ruined King,0.2746,31727
+16.13,All Items,3156,Maw of Malmortius,-0.2181,1105
+16.13,All Items,3181,Hullbreaker,-0.0114,4006
+16.13,All Items,3302,Terminus,3.8699,123
+16.13,All Items,3508,Essence Reaver,0.0,26635
+16.13,All Items,3742,Dead Man's Plate,-3.8602,107
+16.13,All Items,3748,Titanic Hydra,0.1353,677
+16.13,All Items,3814,Edge of Night,-3.1977,382
+16.13,All Items,4401,Force of Nature,1.1447,121
+16.13,All Items,6333,Death's Dance,1.2829,5100
+16.13,All Items,6609,Chempunk Chainsword,0.509,213
+16.13,All Items,6610,Sundered Sky,-2.4593,119
+16.13,All Items,6631,Stridebreaker,-0.8508,5464
+16.13,All Items,6665,"Jak'Sho, The Protean",-2.2112,112
+16.13,All Items,6672,Kraken Slayer,0.2224,7785
+16.13,All Items,6673,Immortal Shieldbow,-1.7141,274
+16.13,All Items,6675,Navori Flickerblade,-1.4912,26828
+16.13,All Items,6676,The Collector,-1.3671,14865
+16.13,All Items,6694,Serylda's Grudge,0.0208,3991
+16.13,All Items,6695,Serpent's Fang,0.5165,2792
+16.13,All Items,6696,Axiom Arc,0.2659,180
+16.13,All Items,6697,Hubris,0.1961,340
+16.13,All Items,6698,Profane Hydra,-1.5323,20768
+16.13,All Items,6699,Voltaic Cyclosword,-1.0591,2626
+16.14,Keystone,8010,Conqueror,-7.3864,120
+16.14,Keystone,9923,Hail of Blades,0.2421,66516
+16.14,Keystone,8021,Fleet Footwork,-9.6251,143
+16.14,Keystone,8008,Lethal Tempo,-0.552,15682
+16.14,Keystone,8437,Grasp of the Undying,-0.3204,6962
+16.14,Spell,1,Cleanse,-0.9686,484
+16.14,Spell,3,Exhaust,-1.8752,1693
+16.14,Spell,4,Flash,0.1095,86448
+16.14,Spell,6,Ghost,-0.823,13098
+16.14,Spell,12,Teleport,-4.9104,1520
+16.14,Spell,14,Ignite,0.1678,76028
+16.14,Starter,1036,Long Sword,-5.4797,617
+16.14,Starter,1054,Doran's Shield,-1.2623,7292
+16.14,Starter,1055,Doran's Blade,0.0678,29377
+16.14,Starter,1083,Cull,-4.6564,149
+16.14,Starter,1086,Doran's Bow,0.223,51661
+16.14,Starter,1120,Doran's Helm,1.0066,449
+16.14,Boots,3006,Berserker's Greaves,-0.0507,62738
+16.14,Boots,3008,Gluttonous Greaves,0.7829,10267
+16.14,Boots,3009,Boots of Swiftness,-0.7409,7876
+16.14,Boots,3047,Plated Steelcaps,0.3901,2209
+16.14,Boots,3111,Mercury's Treads,1.1884,4050
+16.14,Boots,3158,Ionian Boots of Lucidity,-2.6808,713
+16.14,1st Item,3031,Infinity Edge,-4.1104,394
+16.14,1st Item,3032,Yun Tal Wildarrows,5.2241,656
+16.14,1st Item,3033,Mortal Reminder,-5.6467,301
+16.14,1st Item,3036,Lord Dominik's Regards,-2.1987,394
+16.14,1st Item,3046,Phantom Dancer,-0.2855,694
+16.14,1st Item,3074,Ravenous Hydra,0.5204,48701
+16.14,1st Item,3084,Heartsteel,0.9957,219
+16.14,1st Item,3091,Wit's End,-0.0893,103
+16.14,1st Item,3153,Blade of The Ruined King,0.1736,8688
+16.14,1st Item,3181,Hullbreaker,-0.9834,109
+16.14,1st Item,3508,Essence Reaver,-0.4657,11192
+16.14,1st Item,3748,Titanic Hydra,-3.3365,262
+16.14,1st Item,6631,Stridebreaker,-1.4163,2040
+16.14,1st Item,6672,Kraken Slayer,-1.1671,1763
+16.14,1st Item,6675,Navori Flickerblade,-6.1101,297
+16.14,1st Item,6676,The Collector,-3.8785,353
+16.14,1st Item,6695,Serpent's Fang,-7.0956,174
+16.14,1st Item,6697,Hubris,7.113,126
+16.14,1st Item,6698,Profane Hydra,-0.9358,11477
+16.14,2nd Item,2512,Fiendhunter Bolts,0.8986,562
+16.14,2nd Item,2517,Endless Hunger,-1.6601,540
+16.14,2nd Item,3031,Infinity Edge,0.0464,4066
+16.14,2nd Item,3032,Yun Tal Wildarrows,0.7017,3653
+16.14,2nd Item,3033,Mortal Reminder,1.3885,4369
+16.14,2nd Item,3036,Lord Dominik's Regards,-0.0701,9760
+16.14,2nd Item,3046,Phantom Dancer,0.9744,27060
+16.14,2nd Item,3074,Ravenous Hydra,-0.6856,1736
+16.14,2nd Item,3091,Wit's End,-1.25,321
+16.14,2nd Item,3153,Blade of The Ruined King,-0.8583,3670
+16.14,2nd Item,3181,Hullbreaker,-3.1924,490
+16.14,2nd Item,3508,Essence Reaver,0.0754,1753
+16.14,2nd Item,3748,Titanic Hydra,2.5709,161
+16.14,2nd Item,6631,Stridebreaker,-3.9834,528
+16.14,2nd Item,6672,Kraken Slayer,-2.2493,657
+16.14,2nd Item,6675,Navori Flickerblade,-0.767,12784
+16.14,2nd Item,6676,The Collector,-1.2809,6823
+16.14,2nd Item,6694,Serylda's Grudge,-6.0219,149
+16.14,2nd Item,6695,Serpent's Fang,1.4602,368
+16.14,2nd Item,6698,Profane Hydra,-2.6256,691
+16.14,2nd Item,6699,Voltaic Cyclosword,-4.1498,157
+16.14,3rd Item,2512,Fiendhunter Bolts,-1.6227,288
+16.14,3rd Item,2517,Endless Hunger,1.0748,4014
+16.14,3rd Item,3031,Infinity Edge,-0.0619,20691
+16.14,3rd Item,3032,Yun Tal Wildarrows,-1.5281,153
+16.14,3rd Item,3033,Mortal Reminder,-0.144,7178
+16.14,3rd Item,3036,Lord Dominik's Regards,0.5915,13773
+16.14,3rd Item,3046,Phantom Dancer,0.7382,3819
+16.14,3rd Item,3074,Ravenous Hydra,-0.7005,714
+16.14,3rd Item,3091,Wit's End,-1.4572,267
+16.14,3rd Item,3139,Mercurial Scimitar,-2.5689,205
+16.14,3rd Item,3153,Blade of The Ruined King,-0.2624,2841
+16.14,3rd Item,3181,Hullbreaker,2.7208,910
+16.14,3rd Item,3508,Essence Reaver,-2.3142,463
+16.14,3rd Item,6333,Death's Dance,-1.1844,274
+16.14,3rd Item,6631,Stridebreaker,-1.6911,273
+16.14,3rd Item,6672,Kraken Slayer,-2.9144,588
+16.14,3rd Item,6675,Navori Flickerblade,-1.3242,2867
+16.14,3rd Item,6676,The Collector,0.2345,1200
+16.14,3rd Item,6694,Serylda's Grudge,-0.3105,611
+16.14,3rd Item,6695,Serpent's Fang,0.415,425
+16.14,3rd Item,6698,Profane Hydra,-4.8938,266
+16.14,3rd Item,6699,Voltaic Cyclosword,-5.1101,367
+16.14,4th+ Item,2512,Fiendhunter Bolts,0.358,311
+16.14,4th+ Item,2517,Endless Hunger,0.5652,5936
+16.14,4th+ Item,3026,Guardian Angel,2.2279,1602
+16.14,4th+ Item,3031,Infinity Edge,-0.3262,8776
+16.14,4th+ Item,3033,Mortal Reminder,0.0168,2905
+16.14,4th+ Item,3036,Lord Dominik's Regards,0.4386,6072
+16.14,4th+ Item,3046,Phantom Dancer,0.531,1915
+16.14,4th+ Item,3072,Bloodthirster,-2.0505,316
+16.14,4th+ Item,3073,Experimental Hexplate,2.1815,211
+16.14,4th+ Item,3074,Ravenous Hydra,-0.4551,629
+16.14,4th+ Item,3091,Wit's End,-1.0122,713
+16.14,4th+ Item,3139,Mercurial Scimitar,-0.2101,1825
+16.14,4th+ Item,3142,Youmuu's Ghostblade,-1.8984,410
+16.14,4th+ Item,3143,Randuin's Omen,-3.0009,268
+16.14,4th+ Item,3153,Blade of The Ruined King,-0.5892,4452
+16.14,4th+ Item,3156,Maw of Malmortius,1.7267,479
+16.14,4th+ Item,3181,Hullbreaker,0.0304,820
+16.14,4th+ Item,3508,Essence Reaver,-2.9679,476
+16.14,4th+ Item,3814,Edge of Night,-4.6775,162
+16.14,4th+ Item,6333,Death's Dance,1.3684,2623
+16.14,4th+ Item,6631,Stridebreaker,-3.6951,272
+16.14,4th+ Item,6672,Kraken Slayer,0.3574,1465
+16.14,4th+ Item,6673,Immortal Shieldbow,-5.0624,105
+16.14,4th+ Item,6675,Navori Flickerblade,-1.6626,1647
+16.14,4th+ Item,6676,The Collector,-2.5286,908
+16.14,4th+ Item,6694,Serylda's Grudge,1.0979,1493
+16.14,4th+ Item,6695,Serpent's Fang,-1.3403,867
+16.14,4th+ Item,6698,Profane Hydra,2.0879,290
+16.14,4th+ Item,6699,Voltaic Cyclosword,0.2606,1039
+16.14,All Items,2501,Overlord's Bloodmail,1.8012,112
+16.14,All Items,2512,Fiendhunter Bolts,-0.4126,1260
+16.14,All Items,2517,Endless Hunger,0.6355,10580
+16.14,All Items,2520,Bastionbreaker,-1.8846,156
+16.14,All Items,3026,Guardian Angel,1.8985,1827
+16.14,All Items,3031,Infinity Edge,-0.1605,34011
+16.14,All Items,3032,Yun Tal Wildarrows,1.3321,4542
+16.14,All Items,3033,Mortal Reminder,0.2309,14778
+16.14,All Items,3036,Lord Dominik's Regards,0.3096,30063
+16.14,All Items,3046,Phantom Dancer,0.9042,33567
+16.14,All Items,3071,Black Cleaver,-3.4656,149
+16.14,All Items,3072,Bloodthirster,-2.3764,392
+16.14,All Items,3073,Experimental Hexplate,0.6104,326
+16.14,All Items,3074,Ravenous Hydra,0.4434,51824
+16.14,All Items,3078,Trinity Force,-2.1401,118
+16.14,All Items,3084,Heartsteel,-1.1043,280
+16.14,All Items,3087,Statikk Shiv,3.4795,101
+16.14,All Items,3091,Wit's End,-1.1179,1420
+16.14,All Items,3097,Stormrazor,-1.9007,195
+16.14,All Items,3124,Guinsoo's Rageblade,2.1044,209
+16.14,All Items,3139,Mercurial Scimitar,-0.4694,2163
+16.14,All Items,3142,Youmuu's Ghostblade,-2.1005,584
+16.14,All Items,3143,Randuin's Omen,-2.6524,320
+16.14,All Items,3153,Blade of The Ruined King,-0.2574,19720
+16.14,All Items,3156,Maw of Malmortius,1.5107,680
+16.14,All Items,3181,Hullbreaker,0.3744,2364
+16.14,All Items,3508,Essence Reaver,-0.5362,13910
+16.14,All Items,3748,Titanic Hydra,-0.9265,456
+16.14,All Items,3814,Edge of Night,-1.9792,246
+16.14,All Items,6333,Death's Dance,1.146,3004
+16.14,All Items,6609,Chempunk Chainsword,-4.7032,107
+16.14,All Items,6631,Stridebreaker,-2.0035,3138
+16.14,All Items,6672,Kraken Slayer,-1.0528,4524
+16.14,All Items,6673,Immortal Shieldbow,-4.1517,200
+16.14,All Items,6675,Navori Flickerblade,-1.0435,17637
+16.14,All Items,6676,The Collector,-1.2706,9325
+16.14,All Items,6694,Serylda's Grudge,0.2764,2261
+16.14,All Items,6695,Serpent's Fang,-0.9954,1854
+16.14,All Items,6697,Hubris,3.2625,218
+16.14,All Items,6698,Profane Hydra,-1.0534,12742
+16.14,All Items,6699,Voltaic Cyclosword,-1.7727,1664
+16.15,Keystone,8010,Conqueror,-9.6673,109
+16.15,Keystone,9923,Hail of Blades,0.2178,71810
+16.15,Keystone,8021,Fleet Footwork,-1.9956,186
+16.15,Keystone,8008,Lethal Tempo,-0.4267,16673
+16.15,Keystone,8437,Grasp of the Undying,-0.7792,7144
+16.15,Spell,1,Cleanse,1.1998,433
+16.15,Spell,3,Exhaust,-3.173,2002
+16.15,Spell,4,Flash,0.0597,92893
+16.15,Spell,6,Ghost,-0.6368,13911
+16.15,Spell,12,Teleport,-4.3503,1540
+16.15,Spell,14,Ignite,0.2007,81496
+16.15,Starter,1036,Long Sword,1.8241,642
+16.15,Starter,1054,Doran's Shield,-1.195,7341
+16.15,Starter,1055,Doran's Blade,-0.108,31040
+16.15,Starter,1083,Cull,-1.604,163
+16.15,Starter,1086,Doran's Bow,0.2004,56203
+16.15,Starter,1120,Doran's Helm,-0.2441,661
+16.15,Boots,3006,Berserker's Greaves,-0.2,69613
+16.15,Boots,3008,Gluttonous Greaves,0.9733,8113
+16.15,Boots,3009,Boots of Swiftness,-1.0688,8748
+16.15,Boots,3047,Plated Steelcaps,-0.6262,2535
+16.15,Boots,3111,Mercury's Treads,0.887,4453
+16.15,Boots,3158,Ionian Boots of Lucidity,-2.3306,821
+16.15,1st Item,3031,Infinity Edge,-2.4397,472
+16.15,1st Item,3032,Yun Tal Wildarrows,0.547,799
+16.15,1st Item,3033,Mortal Reminder,-3.5183,235
+16.15,1st Item,3036,Lord Dominik's Regards,-0.7775,443
+16.15,1st Item,3046,Phantom Dancer,4.2046,803
+16.15,1st Item,3074,Ravenous Hydra,0.6179,51937
+16.15,1st Item,3084,Heartsteel,-5.9854,527
+16.15,1st Item,3091,Wit's End,2.9983,105
+16.15,1st Item,3153,Blade of The Ruined King,0.0083,9108
+16.15,1st Item,3181,Hullbreaker,-3.4734,112
+16.15,1st Item,3508,Essence Reaver,0.3055,10079
+16.15,1st Item,3748,Titanic Hydra,1.9408,267
+16.15,1st Item,6631,Stridebreaker,-0.8453,2113
+16.15,1st Item,6672,Kraken Slayer,0.0425,1826
+16.15,1st Item,6675,Navori Flickerblade,-3.627,368
+16.15,1st Item,6676,The Collector,-0.6108,370
+16.15,1st Item,6695,Serpent's Fang,-3.5612,171
+16.15,1st Item,6697,Hubris,-1.7778,109
+16.15,1st Item,6698,Profane Hydra,-1.905,14465
+16.15,2nd Item,2512,Fiendhunter Bolts,0.5492,669
+16.15,2nd Item,2517,Endless Hunger,0.2375,459
+16.15,2nd Item,3031,Infinity Edge,-0.591,4484
+16.15,2nd Item,3032,Yun Tal Wildarrows,0.2784,4387
+16.15,2nd Item,3033,Mortal Reminder,0.6115,4221
+16.15,2nd Item,3036,Lord Dominik's Regards,0.1265,9447
+16.15,2nd Item,3046,Phantom Dancer,1.3019,30512
+16.15,2nd Item,3074,Ravenous Hydra,-0.7331,1724
+16.15,2nd Item,3084,Heartsteel,1.3621,113
+16.15,2nd Item,3091,Wit's End,0.9049,301
+16.15,2nd Item,3153,Blade of The Ruined King,-0.043,3541
+16.15,2nd Item,3181,Hullbreaker,2.3426,535
+16.15,2nd Item,3508,Essence Reaver,0.032,1643
+16.15,2nd Item,3748,Titanic Hydra,-3.8311,389
+16.15,2nd Item,6631,Stridebreaker,-0.4707,500
+16.15,2nd Item,6672,Kraken Slayer,-1.4809,783
+16.15,2nd Item,6675,Navori Flickerblade,-1.8218,12278
+16.15,2nd Item,6676,The Collector,-1.4239,8745
+16.15,2nd Item,6694,Serylda's Grudge,2.0376,131
+16.15,2nd Item,6695,Serpent's Fang,0.0835,310
+16.15,2nd Item,6698,Profane Hydra,-2.7023,740
+16.15,2nd Item,6699,Voltaic Cyclosword,-5.3795,143
+16.15,3rd Item,2501,Overlord's Bloodmail,0.8879,122
+16.15,3rd Item,2512,Fiendhunter Bolts,1.048,305
+16.15,3rd Item,2517,Endless Hunger,1.8746,3214
+16.15,3rd Item,3031,Infinity Edge,-0.0623,23031
+16.15,3rd Item,3032,Yun Tal Wildarrows,-6.0844,199
+16.15,3rd Item,3033,Mortal Reminder,1.0161,7512
+16.15,3rd Item,3036,Lord Dominik's Regards,0.0801,15266
+16.15,3rd Item,3046,Phantom Dancer,-0.4998,3974
+16.15,3rd Item,3074,Ravenous Hydra,-0.7735,708
+16.15,3rd Item,3091,Wit's End,1.831,313
+16.15,3rd Item,3139,Mercurial Scimitar,-0.8466,194
+16.15,3rd Item,3153,Blade of The Ruined King,-0.9089,2831
+16.15,3rd Item,3156,Maw of Malmortius,-2.1283,111
+16.15,3rd Item,3181,Hullbreaker,-1.0051,873
+16.15,3rd Item,3508,Essence Reaver,0.2322,455
+16.15,3rd Item,6333,Death's Dance,3.4425,273
+16.15,3rd Item,6631,Stridebreaker,2.6722,256
+16.15,3rd Item,6672,Kraken Slayer,-1.6732,596
+16.15,3rd Item,6675,Navori Flickerblade,-1.0825,2771
+16.15,3rd Item,6676,The Collector,-2.3676,1431
+16.15,3rd Item,6694,Serylda's Grudge,-0.3985,756
+16.15,3rd Item,6695,Serpent's Fang,1.6737,446
+16.15,3rd Item,6698,Profane Hydra,-1.246,288
+16.15,3rd Item,6699,Voltaic Cyclosword,1.4336,232
+16.15,4th+ Item,2512,Fiendhunter Bolts,-3.4546,325
+16.15,4th+ Item,2517,Endless Hunger,0.3988,6038
+16.15,4th+ Item,2520,Bastionbreaker,-2.7474,178
+16.15,4th+ Item,3026,Guardian Angel,0.5787,1920
+16.15,4th+ Item,3031,Infinity Edge,-0.3247,9685
+16.15,4th+ Item,3033,Mortal Reminder,0.5585,3057
+16.15,4th+ Item,3036,Lord Dominik's Regards,0.4545,6524
+16.15,4th+ Item,3046,Phantom Dancer,-0.2144,2013
+16.15,4th+ Item,3072,Bloodthirster,-2.4492,382
+16.15,4th+ Item,3073,Experimental Hexplate,1.9672,219
+16.15,4th+ Item,3074,Ravenous Hydra,1.1091,676
+16.15,4th+ Item,3091,Wit's End,2.3544,710
+16.15,4th+ Item,3139,Mercurial Scimitar,-1.2426,1820
+16.15,4th+ Item,3142,Youmuu's Ghostblade,0.8955,448
+16.15,4th+ Item,3143,Randuin's Omen,-1.4291,274
+16.15,4th+ Item,3153,Blade of The Ruined King,0.1982,4575
+16.15,4th+ Item,3156,Maw of Malmortius,-0.0226,436
+16.15,4th+ Item,3181,Hullbreaker,0.3291,844
+16.15,4th+ Item,3508,Essence Reaver,-2.1214,362
+16.15,4th+ Item,3814,Edge of Night,1.3147,163
+16.15,4th+ Item,6333,Death's Dance,1.3172,2291
+16.15,4th+ Item,6609,Chempunk Chainsword,1.1166,102
+16.15,4th+ Item,6631,Stridebreaker,-1.8047,236
+16.15,4th+ Item,6672,Kraken Slayer,1.0732,1477
+16.15,4th+ Item,6673,Immortal Shieldbow,-4.1588,104
+16.15,4th+ Item,6675,Navori Flickerblade,-1.4792,1951
+16.15,4th+ Item,6676,The Collector,-2.9989,1046
+16.15,4th+ Item,6694,Serylda's Grudge,1.4305,1668
+16.15,4th+ Item,6695,Serpent's Fang,-0.8443,1045
+16.15,4th+ Item,6698,Profane Hydra,-2.1469,273
+16.15,4th+ Item,6699,Voltaic Cyclosword,-0.6159,1286
+16.15,All Items,2501,Overlord's Bloodmail,-0.2107,187
+16.15,All Items,2504,Kaenic Rookern,-4.0925,109
+16.15,All Items,2512,Fiendhunter Bolts,-0.3815,1408
+16.15,All Items,2517,Endless Hunger,0.8886,9786
+16.15,All Items,2520,Bastionbreaker,-3.0404,325
+16.15,All Items,3026,Guardian Angel,0.484,2132
+16.15,All Items,3031,Infinity Edge,-0.222,37762
+16.15,All Items,3032,Yun Tal Wildarrows,0.1259,5469
+16.15,All Items,3033,Mortal Reminder,0.7314,15058
+16.15,All Items,3036,Lord Dominik's Regards,0.163,31756
+16.15,All Items,3046,Phantom Dancer,1.0944,37388
+16.15,All Items,3071,Black Cleaver,-3.7076,189
+16.15,All Items,3072,Bloodthirster,-3.2804,516
+16.15,All Items,3073,Experimental Hexplate,-0.0621,347
+16.15,All Items,3074,Ravenous Hydra,0.5618,55084
+16.15,All Items,3078,Trinity Force,-2.6528,118
+16.15,All Items,3084,Heartsteel,-4.4465,655
+16.15,All Items,3091,Wit's End,2.0115,1443
+16.15,All Items,3097,Stormrazor,-2.8047,223
+16.15,All Items,3124,Guinsoo's Rageblade,-0.9711,213
+16.15,All Items,3139,Mercurial Scimitar,-1.084,2143
+16.15,All Items,3142,Youmuu's Ghostblade,0.9304,646
+16.15,All Items,3143,Randuin's Omen,-0.8518,348
+16.15,All Items,3153,Blade of The Ruined King,-0.0762,20150
+16.15,All Items,3156,Maw of Malmortius,-0.7042,656
+16.15,All Items,3181,Hullbreaker,0.0334,2394
+16.15,All Items,3302,Terminus,-4.2146,130
+16.15,All Items,3508,Essence Reaver,0.2023,12562
+16.15,All Items,3748,Titanic Hydra,-1.3436,711
+16.15,All Items,3814,Edge of Night,0.6298,270
+16.15,All Items,4401,Force of Nature,0.8364,103
+16.15,All Items,6333,Death's Dance,1.1524,2655
+16.15,All Items,6609,Chempunk Chainsword,2.3767,121
+16.15,All Items,6610,Sundered Sky,-3.0414,174
+16.15,All Items,6631,Stridebreaker,-0.5766,3125
+16.15,All Items,6672,Kraken Slayer,-0.1331,4728
+16.15,All Items,6673,Immortal Shieldbow,0.0338,181
+16.15,All Items,6675,Navori Flickerblade,-1.7032,17418
+16.15,All Items,6676,The Collector,-1.6545,11617
+16.15,All Items,6694,Serylda's Grudge,0.9073,2575
+16.15,All Items,6695,Serpent's Fang,-0.2801,1985
+16.15,All Items,6696,Axiom Arc,0.2613,122
+16.15,All Items,6697,Hubris,-3.4548,198
+16.15,All Items,6698,Profane Hydra,-1.9169,15788
+16.15,All Items,6699,Voltaic Cyclosword,-0.6316,1770
+16.16,Keystone,9923,Hail of Blades,-0.1011,23507
+16.16,Keystone,8021,Fleet Footwork,6.1508,328
+16.16,Keystone,8008,Lethal Tempo,-0.5422,8622
+16.16,Keystone,8437,Grasp of the Undying,1.2651,4421
+16.16,Spell,1,Cleanse,-1.2128,188
+16.16,Spell,3,Exhaust,-3.0466,901
+16.16,Spell,4,Flash,-0.0139,35597
+16.16,Spell,6,Ghost,-0.8399,6564
+16.16,Spell,12,Teleport,-3.4927,634
+16.16,Spell,14,Ignite,0.377,30133
+16.16,Starter,1036,Long Sword,-0.1276,263
+16.16,Starter,1054,Doran's Shield,-1.8594,3107
+16.16,Starter,1055,Doran's Blade,-0.2613,10864
+16.16,Starter,1086,Doran's Bow,0.4529,22347
+16.16,Starter,1120,Doran's Helm,-2.1871,351
+16.16,Boots,3006,Berserker's Greaves,0.0785,28459
+16.16,Boots,3008,Gluttonous Greaves,-2.1842,1904
+16.16,Boots,3009,Boots of Swiftness,-0.133,3117
+16.16,Boots,3047,Plated Steelcaps,1.1647,914
+16.16,Boots,3111,Mercury's Treads,-1.9218,1700
+16.16,Boots,3158,Ionian Boots of Lucidity,-3.8299,218
+16.16,1st Item,3031,Infinity Edge,-1.3224,149
+16.16,1st Item,3032,Yun Tal Wildarrows,1.5831,862
+16.16,1st Item,3033,Mortal Reminder,-3.9374,126
+16.16,1st Item,3036,Lord Dominik's Regards,0.5654,158
+16.16,1st Item,3046,Phantom Dancer,-2.3857,318
+16.16,1st Item,3074,Ravenous Hydra,0.7622,20978
+16.16,1st Item,3084,Heartsteel,-2.077,121
+16.16,1st Item,3153,Blade of The Ruined King,0.4721,3515
+16.16,1st Item,3508,Essence Reaver,-0.4755,2977
+16.16,1st Item,6631,Stridebreaker,-1.3761,1033
+16.16,1st Item,6672,Kraken Slayer,1.2058,774
+16.16,1st Item,6675,Navori Flickerblade,-3.8063,144
+16.16,1st Item,6676,The Collector,-5.802,145
+16.16,1st Item,6692,Eclipse,0.1756,126
+16.16,1st Item,6698,Profane Hydra,-3.0287,4632
+16.16,2nd Item,2512,Fiendhunter Bolts,-0.4599,292
+16.16,2nd Item,2517,Endless Hunger,2.1336,149
+16.16,2nd Item,3031,Infinity Edge,-1.3743,1645
+16.16,2nd Item,3032,Yun Tal Wildarrows,0.3077,2168
+16.16,2nd Item,3033,Mortal Reminder,-0.1107,1520
+16.16,2nd Item,3036,Lord Dominik's Regards,-0.2754,3208
+16.16,2nd Item,3046,Phantom Dancer,1.6445,11933
+16.16,2nd Item,3074,Ravenous Hydra,-1.4368,780
+16.16,2nd Item,3091,Wit's End,2.2156,130
+16.16,2nd Item,3153,Blade of The Ruined King,0.4505,1361
+16.16,2nd Item,3181,Hullbreaker,-4.6703,236
+16.16,2nd Item,3508,Essence Reaver,-1.1016,637
+16.16,2nd Item,6631,Stridebreaker,-1.2253,279
+16.16,2nd Item,6672,Kraken Slayer,-0.2451,298
+16.16,2nd Item,6675,Navori Flickerblade,-1.3355,5003
+16.16,2nd Item,6676,The Collector,-2.6777,2777
+16.16,2nd Item,6695,Serpent's Fang,2.1032,114
+16.16,2nd Item,6698,Profane Hydra,-3.2892,263
+16.16,3rd Item,2512,Fiendhunter Bolts,-7.4012,114
+16.16,3rd Item,2517,Endless Hunger,1.6153,858
+16.16,3rd Item,3031,Infinity Edge,0.1774,8728
+16.16,3rd Item,3032,Yun Tal Wildarrows,1.109,134
+16.16,3rd Item,3033,Mortal Reminder,0.0376,2984
+16.16,3rd Item,3036,Lord Dominik's Regards,-0.3478,5755
+16.16,3rd Item,3046,Phantom Dancer,0.7274,1564
+16.16,3rd Item,3074,Ravenous Hydra,1.6559,331
+16.16,3rd Item,3091,Wit's End,-0.2069,114
+16.16,3rd Item,3153,Blade of The Ruined King,0.6331,1236
+16.16,3rd Item,3181,Hullbreaker,0.207,351
+16.16,3rd Item,3508,Essence Reaver,-2.6203,176
+16.16,3rd Item,6631,Stridebreaker,0.5792,140
+16.16,3rd Item,6672,Kraken Slayer,-2.2368,219
+16.16,3rd Item,6675,Navori Flickerblade,-1.7514,1100
+16.16,3rd Item,6676,The Collector,-1.7453,524
+16.16,3rd Item,6694,Serylda's Grudge,-0.061,261
+16.16,3rd Item,6695,Serpent's Fang,5.3134,173
+16.16,3rd Item,6699,Voltaic Cyclosword,-0.1993,112
+16.16,4th+ Item,2512,Fiendhunter Bolts,-0.1556,112
+16.16,4th+ Item,2517,Endless Hunger,1.0198,2143
+16.16,4th+ Item,3026,Guardian Angel,-0.3694,690
+16.16,4th+ Item,3031,Infinity Edge,-0.6273,3418
+16.16,4th+ Item,3033,Mortal Reminder,0.7591,1242
+16.16,4th+ Item,3036,Lord Dominik's Regards,1.399,2570
+16.16,4th+ Item,3046,Phantom Dancer,0.0527,776
+16.16,4th+ Item,3072,Bloodthirster,-4.1725,134
+16.16,4th+ Item,3074,Ravenous Hydra,-1.5447,249
+16.16,4th+ Item,3091,Wit's End,2.1566,255
+16.16,4th+ Item,3139,Mercurial Scimitar,-2.6975,666
+16.16,4th+ Item,3142,Youmuu's Ghostblade,0.8992,154
+16.16,4th+ Item,3153,Blade of The Ruined King,0.4118,1733
+16.16,4th+ Item,3156,Maw of Malmortius,-0.2067,120
+16.16,4th+ Item,3181,Hullbreaker,1.2456,306
+16.16,4th+ Item,3508,Essence Reaver,3.7947,158
+16.16,4th+ Item,6333,Death's Dance,2.739,746
+16.16,4th+ Item,6631,Stridebreaker,4.4389,126
+16.16,4th+ Item,6672,Kraken Slayer,-1.4281,567
+16.16,4th+ Item,6675,Navori Flickerblade,-1.7239,717
+16.16,4th+ Item,6676,The Collector,-2.9406,357
+16.16,4th+ Item,6694,Serylda's Grudge,0.3102,703
+16.16,4th+ Item,6695,Serpent's Fang,-3.8908,337
+16.16,4th+ Item,6699,Voltaic Cyclosword,-3.9536,434
+16.16,All Items,3026,Guardian Angel,0.0735,770
+16.16,All Items,3181,Hullbreaker,-0.6101,962
+16.16,All Items,2517,Endless Hunger,1.2247,3180
+16.16,All Items,2520,Bastionbreaker,-4.0424,105
+16.16,All Items,6675,Navori Flickerblade,-1.4913,6987
+16.16,All Items,3142,Youmuu's Ghostblade,0.6361,219
+16.16,All Items,6694,Serylda's Grudge,0.1604,1009
+16.16,All Items,3031,Infinity Edge,-0.2266,13974
+16.16,All Items,3143,Randuin's Omen,3.3303,123
+16.16,All Items,6631,Stridebreaker,-0.726,1588
+16.16,All Items,6676,The Collector,-2.7065,3810
+16.16,All Items,3074,Ravenous Hydra,0.6698,22351
+16.16,All Items,6695,Serpent's Fang,-0.5935,673
+16.16,All Items,6333,Death's Dance,2.9695,884
+16.16,All Items,3033,Mortal Reminder,0.0552,5882
+16.16,All Items,3073,Experimental Hexplate,-4.5063,117
+16.16,All Items,3748,Titanic Hydra,-0.297,195
+16.16,All Items,6672,Kraken Slayer,-0.2234,1878
+16.16,All Items,6698,Profane Hydra,-2.9496,5092
+16.16,All Items,3032,Yun Tal Wildarrows,0.7414,3203
+16.16,All Items,3139,Mercurial Scimitar,-1.6562,791
+16.16,All Items,3153,Blade of The Ruined King,0.4891,7875
+16.16,All Items,3084,Heartsteel,-1.8471,157
+16.16,All Items,6699,Voltaic Cyclosword,-2.3712,648
+16.16,All Items,3072,Bloodthirster,-4.3535,178
+16.16,All Items,3508,Essence Reaver,-0.5012,3949
+16.16,All Items,3046,Phantom Dancer,1.3662,14619
+16.16,All Items,3156,Maw of Malmortius,-3.379,207
+16.16,All Items,6692,Eclipse,-2.2666,157
+16.16,All Items,2512,Fiendhunter Bolts,-1.3375,552
+16.16,All Items,3091,Wit's End,1.4186,545
+16.16,All Items,3036,Lord Dominik's Regards,0.0747,11711
+16.17,Keystone,8230,Stormraider's Surge,-1.3315,108
+16.17,Keystone,9923,Hail of Blades,-0.1239,24637
+16.17,Keystone,8021,Fleet Footwork,0.5841,207
+16.17,Keystone,8008,Lethal Tempo,0.0647,12429
+16.17,Keystone,8437,Grasp of the Undying,0.8534,4169
+16.17,Spell,1,Cleanse,0.8365,254
+16.17,Spell,3,Exhaust,-0.2514,3440
+16.17,Spell,4,Flash,0.0998,39231
+16.17,Spell,6,Ghost,-0.9493,7909
+16.17,Spell,12,Teleport,-7.8826,638
+16.17,Spell,14,Ignite,0.3058,31847
+16.17,Starter,1036,Long Sword,-0.5534,264
+16.17,Starter,1054,Doran's Shield,-0.4173,3560
+16.17,Starter,1055,Doran's Blade,-0.0097,10919
+16.17,Starter,1086,Doran's Bow,0.0099,26397
+16.17,Starter,1120,Doran's Helm,3.2543,431
+16.17,Boots,3006,Berserker's Greaves,0.2112,34009
+16.17,Boots,3008,Gluttonous Greaves,-0.3013,1004
+16.17,Boots,3009,Boots of Swiftness,-2.2349,3187
+16.17,Boots,3047,Plated Steelcaps,-0.986,925
+16.17,Boots,3111,Mercury's Treads,-2.2288,1694
+16.17,Boots,3158,Ionian Boots of Lucidity,2.1739,213
+16.17,1st Item,3031,Infinity Edge,-4.4284,166
+16.17,1st Item,3032,Yun Tal Wildarrows,2.0314,3763
+16.17,1st Item,3036,Lord Dominik's Regards,-4.3248,149
+16.17,1st Item,3046,Phantom Dancer,-0.7161,369
+16.17,1st Item,3074,Ravenous Hydra,0.2532,23444
+16.17,1st Item,3153,Blade of The Ruined King,-0.22,3874
+16.17,1st Item,3508,Essence Reaver,-1.3168,2431
+16.17,1st Item,3748,Titanic Hydra,-3.6574,107
+16.17,1st Item,6631,Stridebreaker,-0.0033,977
+16.17,1st Item,6672,Kraken Slayer,0.7332,832
+16.17,1st Item,6675,Navori Flickerblade,-3.5237,115
+16.17,1st Item,6676,The Collector,-2.9348,145
+16.17,1st Item,6698,Profane Hydra,-1.2146,4080
+16.17,2nd Item,2512,Fiendhunter Bolts,0.8759,224
+16.17,2nd Item,3031,Infinity Edge,-1.6077,1838
+16.17,2nd Item,3032,Yun Tal Wildarrows,1.0551,4484
+16.17,2nd Item,3033,Mortal Reminder,0.5502,1903
+16.17,2nd Item,3036,Lord Dominik's Regards,0.7177,4114
+16.17,2nd Item,3046,Phantom Dancer,1.073,12518
+16.17,2nd Item,3074,Ravenous Hydra,0.8803,923
+16.17,2nd Item,3091,Wit's End,-1.5482,129
+16.17,2nd Item,3153,Blade of The Ruined King,-2.0929,1477
+16.17,2nd Item,3181,Hullbreaker,2.4436,216
+16.17,2nd Item,3508,Essence Reaver,-2.6998,504
+16.17,2nd Item,6631,Stridebreaker,-0.2323,271
+16.17,2nd Item,6672,Kraken Slayer,-1.4386,284
+16.17,2nd Item,6675,Navori Flickerblade,-1.9554,4982
+16.17,2nd Item,6676,The Collector,-1.4466,2534
+16.17,2nd Item,6695,Serpent's Fang,-6.3373,110
+16.17,2nd Item,6698,Profane Hydra,-1.5859,269
+16.17,3rd Item,2512,Fiendhunter Bolts,0.9492,111
+16.17,3rd Item,2517,Endless Hunger,2.4486,1380
+16.17,3rd Item,3031,Infinity Edge,-0.3486,10334
+16.17,3rd Item,3032,Yun Tal Wildarrows,1.7114,179
+16.17,3rd Item,3033,Mortal Reminder,0.4654,3113
+16.17,3rd Item,3036,Lord Dominik's Regards,0.2766,5724
+16.17,3rd Item,3046,Phantom Dancer,0.4777,1614
+16.17,3rd Item,3074,Ravenous Hydra,2.1309,463
+16.17,3rd Item,3091,Wit's End,-0.264,111
+16.17,3rd Item,3139,Mercurial Scimitar,3.9642,105
+16.17,3rd Item,3153,Blade of The Ruined King,-0.5991,1380
+16.17,3rd Item,3181,Hullbreaker,-1.5589,323
+16.17,3rd Item,3508,Essence Reaver,-3.7743,160
+16.17,3rd Item,6333,Death's Dance,0.7596,520
+16.17,3rd Item,6631,Stridebreaker,-2.129,125
+16.17,3rd Item,6672,Kraken Slayer,-2.4634,288
+16.17,3rd Item,6675,Navori Flickerblade,-1.2479,1067
+16.17,3rd Item,6676,The Collector,-1.9104,430
+16.17,3rd Item,6694,Serylda's Grudge,-2.0395,345
+16.17,3rd Item,6695,Serpent's Fang,-0.0022,151
+16.17,3rd Item,6699,Voltaic Cyclosword,-2.0475,106
+16.17,4th+ Item,2512,Fiendhunter Bolts,0.2598,118
+16.17,4th+ Item,2517,Endless Hunger,-0.099,2617
+16.17,4th+ Item,3026,Guardian Angel,0.7133,734
+16.17,4th+ Item,3031,Infinity Edge,0.6052,3478
+16.17,4th+ Item,3033,Mortal Reminder,-0.9113,1251
+16.17,4th+ Item,3036,Lord Dominik's Regards,-0.4574,2763
+16.17,4th+ Item,3046,Phantom Dancer,0.5898,857
+16.17,4th+ Item,3072,Bloodthirster,-3.3057,136
+16.17,4th+ Item,3073,Experimental Hexplate,-0.8534,106
+16.17,4th+ Item,3074,Ravenous Hydra,2.3597,326
+16.17,4th+ Item,3091,Wit's End,-0.4209,241
+16.17,4th+ Item,3139,Mercurial Scimitar,-1.3221,868
+16.17,4th+ Item,3142,Youmuu's Ghostblade,0.669,142
+16.17,4th+ Item,3143,Randuin's Omen,0.0641,108
+16.17,4th+ Item,3153,Blade of The Ruined King,-0.4297,1850
+16.17,4th+ Item,3156,Maw of Malmortius,0.5903,146
+16.17,4th+ Item,3181,Hullbreaker,4.3337,375
+16.17,4th+ Item,3508,Essence Reaver,-1.9257,146
+16.17,4th+ Item,6333,Death's Dance,2.4422,1097
+16.17,4th+ Item,6631,Stridebreaker,0.1384,120
+16.17,4th+ Item,6672,Kraken Slayer,-1.5934,586
+16.17,4th+ Item,6675,Navori Flickerblade,-0.0547,675
+16.17,4th+ Item,6676,The Collector,-3.1654,376
+16.17,4th+ Item,6694,Serylda's Grudge,1.5738,1138
+16.17,4th+ Item,6695,Serpent's Fang,0.2262,330
+16.17,4th+ Item,6699,Voltaic Cyclosword,-1.3359,332
+16.17,All Items,3026,Guardian Angel,1.1861,841
+16.17,All Items,3181,Hullbreaker,1.2915,984
+16.17,All Items,2517,Endless Hunger,0.6724,4116
+16.17,All Items,3124,Guinsoo's Rageblade,-3.3275,120
+16.17,All Items,6675,Navori Flickerblade,-1.6808,6865
+16.17,All Items,3142,Youmuu's Ghostblade,-0.1957,200
+16.17,All Items,6694,Serylda's Grudge,0.7577,1532
+16.17,All Items,3031,Infinity Edge,-0.3278,15843
+16.17,All Items,3143,Randuin's Omen,-0.9879,146
+16.17,All Items,6631,Stridebreaker,-0.2352,1505
+16.17,All Items,6676,The Collector,-1.7419,3498
+16.17,All Items,3074,Ravenous Hydra,0.3393,25175
+16.17,All Items,3097,Stormrazor,9.8823,194
+16.17,All Items,6695,Serpent's Fang,-1.6891,650
+16.17,All Items,3071,Black Cleaver,-0.9182,178
+16.17,All Items,6333,Death's Dance,1.6906,1675
+16.17,All Items,3033,Mortal Reminder,0.1881,6380
+16.17,All Items,3073,Experimental Hexplate,-0.7223,160
+16.17,All Items,3748,Titanic Hydra,-3.2158,201
+16.17,All Items,6672,Kraken Slayer,-0.7585,2014
+16.17,All Items,6698,Profane Hydra,-1.3447,4549
+16.17,All Items,3032,Yun Tal Wildarrows,1.4919,8501
+16.17,All Items,3139,Mercurial Scimitar,-0.92,1043
+16.17,All Items,3153,Blade of The Ruined King,-0.6376,8611
+16.17,All Items,3084,Heartsteel,-1.0086,120
+16.17,All Items,6699,Voltaic Cyclosword,-1.773,503
+16.17,All Items,3072,Bloodthirster,-1.6259,206
+16.17,All Items,3508,Essence Reaver,-1.6945,3246
+16.17,All Items,3046,Phantom Dancer,0.9465,15380
+16.17,All Items,3156,Maw of Malmortius,-0.6066,216
+16.17,All Items,2512,Fiendhunter Bolts,0.4823,490
+16.17,All Items,3091,Wit's End,-2.751,522
+16.17,All Items,3036,Lord Dominik's Regards,0.2066,12775

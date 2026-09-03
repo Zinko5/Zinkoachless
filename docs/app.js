@@ -418,7 +418,24 @@ const championNames = {
   35: "Shaco",
   104: "Graves",
   84: "Akali",
-  99: "Lux"
+  99: "Lux",
+  86: "Garen",
+  36: "DrMundo",
+  147: "Seraphine",
+  105: "Fizz",
+  26: "Zilean",
+  895: "Nilah",
+  518: "Neeko",
+  28: "Evelynn",
+  45: "Veigar",
+  63: "Brand",
+  223: "TahmKench",
+  17: "Teemo",
+  23: "Tryndamere",
+  8: "Vladimir",
+  50: "Swain",
+  119: "Draven",
+  18: "Tristana"
 };
 
 // Roles soportados por cada campeón (ID de rol de Coachless: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support)
@@ -427,8 +444,8 @@ const championRolesMap = {
   901: [3],       // Smolder (Bot)
   245: [1, 2],    // Ekko (Jungle, Mid)
   887: [1, 2],    // Gwen (Jungle, Mid)
-  106: [1],       // Volibear (Jungle)
-  1: [2],         // Annie (Mid)
+  106: [0, 1],    // Volibear (Top, Jungle)
+  1: [2, 4],      // Annie (Mid, Support)
   19: [0, 1],     // Warwick (Top, Jungle)
   9: [1],         // Fiddlesticks (Jungle)
   234: [1],       // Viego (Jungle)
@@ -437,7 +454,24 @@ const championRolesMap = {
   35: [1],        // Shaco (Jungle)
   104: [1],       // Graves (Jungle)
   84: [0, 2],     // Akali (Top, Mid)
-  99: [2, 3, 4]   // Lux (Mid, Bot, Support)
+  99: [2, 3, 4],  // Lux (Mid, Bot, Support)
+  86: [0],        // Garen (Top)
+  36: [0, 1],     // Dr. Mundo (Top, Jungle)
+  147: [2, 3, 4], // Seraphine (Mid, Bot, Support)
+  105: [2],       // Fizz (Mid)
+  26: [4],        // Zilean (Support)
+  895: [3],       // Nilah (Bot)
+  518: [4],       // Neeko (Support)
+  28: [1],        // Evelynn (Jungle)
+  45: [2],        // Veigar (Mid)
+  63: [3, 4],     // Brand (Bot, Support)
+  223: [0, 4],    // Tahm Kench (Top, Support)
+  17: [0],        // Teemo (Top)
+  23: [0],        // Tryndamere (Top)
+  8: [2],         // Vladimir (Mid)
+  50: [3],        // Swain (Bot)
+  119: [3],       // Draven (Bot)
+  18: [3]         // Tristana (Bot)
 };
 
 const roleNames = {
@@ -533,9 +567,10 @@ async function loadData() {
   }
 
   // Actualizar cabecera del campeón y botones de roles
-  const champName = championNames[selectedChamp] || "Ekko";
+  const champName = championNames[selectedChamp] || "Lucian";
   document.getElementById("champion-avatar").src = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
   updateRoleSelector();
+  updateCustomChampionSelectLabel();
 
   // Clave del archivo según campeón y rol si es diferente al por defecto
   const dataKey = `${selectedChamp}_role_${selectedRole}`;
@@ -575,15 +610,119 @@ function sortChampionSelectOptions() {
   select.value = selectedValue;
 }
 
+function updateCustomChampionSelectLabel() {
+  const select = document.getElementById("champion-select");
+  const label = document.getElementById("selected-champion-label");
+  if (select && label && select.selectedOptions.length > 0) {
+    label.innerText = select.selectedOptions[0].text;
+  }
+}
+
+function initCustomChampionSelect() {
+  const select = document.getElementById("champion-select");
+  const trigger = document.getElementById("champion-select-trigger");
+  const dropdown = document.getElementById("champion-select-dropdown");
+  const searchInput = document.getElementById("champion-search-input");
+  const optionsContainer = document.getElementById("champion-select-options");
+
+  if (!select || !trigger || !dropdown || !optionsContainer) return;
+
+  function renderOptions(filterText = "") {
+    optionsContainer.innerHTML = "";
+    const options = Array.from(select.options);
+    const query = filterText.toLowerCase().trim();
+
+    const filtered = options.filter(opt => opt.text.toLowerCase().includes(query));
+
+    if (filtered.length === 0) {
+      optionsContainer.innerHTML = `<div style="padding: 0.75rem; text-align: center; color: var(--text-secondary); font-size: 0.85rem;">Sin resultados</div>`;
+      return;
+    }
+
+    filtered.forEach(opt => {
+      const optionEl = document.createElement("div");
+      optionEl.className = `custom-select-option ${opt.value === select.value ? 'selected' : ''}`;
+      
+      const champName = championNames[opt.value] || opt.text;
+      const avatarUrl = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
+
+      optionEl.innerHTML = `
+        <img src="${avatarUrl}" alt="${opt.text}" onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png';">
+        <span>${opt.text}</span>
+      `;
+
+      optionEl.addEventListener("click", () => {
+        select.value = opt.value;
+        selectedChamp = opt.value;
+        updateCustomChampionSelectLabel();
+        closeDropdown();
+        loadData();
+      });
+
+      optionsContainer.appendChild(optionEl);
+    });
+  }
+
+  function openDropdown() {
+    dropdown.style.display = "block";
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
+    renderOptions("");
+  }
+
+  function closeDropdown() {
+    dropdown.style.display = "none";
+  }
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (dropdown.style.display === "none" || !dropdown.style.display) {
+      openDropdown();
+    } else {
+      closeDropdown();
+    }
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener("input", (e) => {
+      renderOptions(e.target.value);
+    });
+
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeDropdown();
+        trigger.focus();
+      } else if (e.key === "Enter") {
+        const firstOption = optionsContainer.querySelector(".custom-select-option");
+        if (firstOption) {
+          firstOption.click();
+        }
+      }
+    });
+  }
+
+  document.addEventListener("click", (e) => {
+    if (!trigger.contains(e.target) && !dropdown.contains(e.target)) {
+      closeDropdown();
+    }
+  });
+
+  updateCustomChampionSelectLabel();
+}
+
 // Configurar controladores de eventos
 window.addEventListener("DOMContentLoaded", () => {
   sortChampionSelectOptions();
+  initCustomChampionSelect();
   loadData();
   lucide.createIcons();
 
   // Selector de Campeón
   document.getElementById("champion-select").addEventListener("change", (e) => {
     selectedChamp = e.target.value;
+    updateCustomChampionSelectLabel();
     loadData();
   });
 

@@ -52,25 +52,55 @@
             onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png'">
         </div>
         <div class="champion-meta">
-          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.2rem;">
-            <select id="champion-select"
-              style="background-color: var(--bg-main); border: 1.5px solid var(--border-color); color: var(--text-primary); font-size: 1.35rem; font-weight: 700; border-radius: var(--radius); padding: 0.25rem 0.5rem; outline: none; cursor: pointer; letter-spacing: -0.04em;">
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.2rem; position: relative;">
+            <select id="champion-select" style="display: none;">
               <option value="84">Akali</option>
               <option value="1">Annie</option>
+              <option value="63">Brand</option>
               <option value="233">Briar</option>
+              <option value="36">Dr. Mundo</option>
+              <option value="119">Draven</option>
               <option value="245">Ekko</option>
+              <option value="28">Evelynn</option>
               <option value="9">Fiddlesticks</option>
+              <option value="105">Fizz</option>
+              <option value="86">Garen</option>
               <option value="104">Graves</option>
               <option value="887">Gwen</option>
               <option value="236" selected>Lucian</option>
               <option value="99">Lux</option>
+              <option value="518">Neeko</option>
+              <option value="895">Nilah</option>
               <option value="360">Samira</option>
+              <option value="147">Seraphine</option>
               <option value="35">Shaco</option>
               <option value="901">Smolder</option>
+              <option value="50">Swain</option>
+              <option value="223">Tahm Kench</option>
+              <option value="17">Teemo</option>
+              <option value="18">Tristana</option>
+              <option value="23">Tryndamere</option>
+              <option value="45">Veigar</option>
               <option value="234">Viego</option>
+              <option value="8">Vladimir</option>
               <option value="106">Volibear</option>
               <option value="19">Warwick</option>
+              <option value="26">Zilean</option>
             </select>
+            
+            <div class="custom-select-wrapper" id="custom-champion-select">
+              <button type="button" class="custom-select-trigger" id="champion-select-trigger">
+                <span id="selected-champion-label">Lucian</span>
+                <i data-lucide="chevron-down" style="width: 18px; height: 18px; color: var(--text-secondary);"></i>
+              </button>
+              <div class="custom-select-dropdown" id="champion-select-dropdown" style="display: none;">
+                <div class="custom-select-search-box">
+                  <i data-lucide="search" style="width: 14px; height: 14px; color: var(--text-secondary);"></i>
+                  <input type="text" id="champion-search-input" placeholder="Buscar campeón..." autocomplete="off">
+                </div>
+                <div class="custom-select-options" id="champion-select-options"></div>
+              </div>
+            </div>
           </div>
           <div class="role-selector" id="role-selector" style="display: flex; align-items: center; gap: 0.35rem; margin-top: 0.3rem;">
             <button class="role-btn" data-role="0" title="Top (Carril Superior)">

@@ -1,0 +1,1513 @@
+﻿patch,category,id,name,wpa,sample_size
+16.1,Keystone,8369,First Strike,-8.6723,205
+16.1,Keystone,8214,Summon Aery,0.0682,290
+16.1,Keystone,8360,Unsealed Spellbook,-1.6071,288
+16.1,Keystone,8229,Arcane Comet,0.2017,60610
+16.1,Keystone,8128,Dark Harvest,0.9442,665
+16.1,Keystone,8112,Electrocute,-2.3833,4789
+16.1,Keystone,8351,Glacial Augment,2.3364,162
+16.1,Spell,3,Exhaust,-1.4757,4043
+16.1,Spell,4,Flash,0.0031,67368
+16.1,Spell,7,Heal,1.3838,37027
+16.1,Spell,14,Ignite,-1.704,26146
+16.1,Starter,3865,World Atlas,0.0,67378
+16.1,Boots,3009,Boots of Swiftness,1.274,1714
+16.1,Boots,3020,Sorcerer's Shoes,-0.7276,17111
+16.1,Boots,3047,Plated Steelcaps,0.8134,594
+16.1,Boots,3111,Mercury's Treads,3.3766,884
+16.1,Boots,3158,Ionian Boots of Lucidity,0.3218,42966
+16.1,2nd Item,3118,Malignance,-2.0756,477
+16.1,2nd Item,3152,Hextech Rocketbelt,0.213,60712
+16.1,2nd Item,3157,Zhonya's Hourglass,-0.6484,344
+16.1,2nd Item,4646,Stormsurge,-2.6365,629
+16.1,2nd Item,6655,Luden's Echo,-5.2734,1693
+16.1,3rd Item,2065,Shurelya's Battlesong,0.2642,376
+16.1,3rd Item,2524,Bandlepipes,1.5924,1060
+16.1,3rd Item,3002,Trailblazer,3.3521,142
+16.1,3rd Item,3041,Mejai's Soulstealer,-0.8048,151
+16.1,3rd Item,3050,Zeke's Convergence,1.9293,131
+16.1,3rd Item,3089,Rabadon's Deathcap,1.4703,143
+16.1,3rd Item,3102,Banshee's Veil,0.8451,282
+16.1,3rd Item,3107,Redemption,1.2394,568
+16.1,3rd Item,3110,Frozen Heart,1.2548,4911
+16.1,3rd Item,3118,Malignance,-0.3236,787
+16.1,3rd Item,3152,Hextech Rocketbelt,-0.4391,803
+16.1,3rd Item,3157,Zhonya's Hourglass,-0.1497,27827
+16.1,3rd Item,3165,Morellonomicon,0.5883,1164
+16.1,3rd Item,3190,Locket of the Iron Solari,-4.8378,182
+16.1,3rd Item,3222,Mikael's Blessing,1.7653,147
+16.1,3rd Item,4645,Shadowflame,-3.0473,989
+16.1,3rd Item,4646,Stormsurge,0.5549,3311
+16.1,3rd Item,6655,Luden's Echo,-2.3031,1855
+16.1,3rd Item,8020,Abyssal Mask,1.6033,526
+16.1,4th+ Item,2065,Shurelya's Battlesong,1.2461,245
+16.1,4th+ Item,2524,Bandlepipes,0.7169,694
+16.1,4th+ Item,2525,Protoplasm Harness,2.9377,124
+16.1,4th+ Item,3041,Mejai's Soulstealer,3.7754,206
+16.1,4th+ Item,3089,Rabadon's Deathcap,0.632,531
+16.1,4th+ Item,3102,Banshee's Veil,0.6537,523
+16.1,4th+ Item,3107,Redemption,-0.1643,498
+16.1,4th+ Item,3110,Frozen Heart,0.1061,1605
+16.1,4th+ Item,3118,Malignance,-0.2037,585
+16.1,4th+ Item,3135,Void Staff,0.4093,178
+16.1,4th+ Item,3137,Cryptbloom,-1.3375,223
+16.1,4th+ Item,3152,Hextech Rocketbelt,0.6114,146
+16.1,4th+ Item,3157,Zhonya's Hourglass,0.2268,2761
+16.1,4th+ Item,3165,Morellonomicon,-0.2771,3208
+16.1,4th+ Item,3190,Locket of the Iron Solari,-0.1421,235
+16.1,4th+ Item,3222,Mikael's Blessing,-3.5258,121
+16.1,4th+ Item,4645,Shadowflame,-0.4913,2097
+16.1,4th+ Item,4646,Stormsurge,-1.1813,1940
+16.1,4th+ Item,6655,Luden's Echo,-0.7471,813
+16.1,4th+ Item,8020,Abyssal Mask,2.9623,552
+16.1,All Items,4646,Stormsurge,-0.3591,5884
+16.1,All Items,4645,Shadowflame,-1.4537,3146
+16.1,All Items,6653,Liandry's Torment,-2.271,191
+16.1,All Items,2525,Protoplasm Harness,3.8728,211
+16.1,All Items,8010,Bloodletter's Curse,-0.1946,132
+16.1,All Items,3135,Void Staff,-0.6497,214
+16.1,All Items,3143,Randuin's Omen,-3.7831,118
+16.1,All Items,3041,Mejai's Soulstealer,1.5416,378
+16.1,All Items,3118,Malignance,-0.7356,1854
+16.1,All Items,6655,Luden's Echo,-3.1647,4363
+16.1,All Items,3107,Redemption,0.3554,1122
+16.1,All Items,3137,Cryptbloom,-1.911,310
+16.1,All Items,2065,Shurelya's Battlesong,1.3137,688
+16.1,All Items,2504,Kaenic Rookern,9.3562,136
+16.1,All Items,3165,Morellonomicon,-0.0707,4425
+16.1,All Items,3110,Frozen Heart,1.0155,6588
+16.1,All Items,3002,Trailblazer,4.7111,212
+16.1,All Items,3222,Mikael's Blessing,-0.2845,280
+16.1,All Items,3157,Zhonya's Hourglass,-0.1216,30939
+16.1,All Items,2524,Bandlepipes,0.9822,1850
+16.1,All Items,3190,Locket of the Iron Solari,-2.2845,463
+16.1,All Items,3116,Rylai's Crystal Scepter,-4.0015,110
+16.1,All Items,3050,Zeke's Convergence,0.058,241
+16.1,All Items,4005,Imperial Mandate,1.4165,117
+16.1,All Items,8020,Abyssal Mask,2.1895,1082
+16.1,All Items,3089,Rabadon's Deathcap,0.7997,699
+16.1,All Items,3152,Hextech Rocketbelt,0.2055,61662
+16.1,All Items,3102,Banshee's Veil,0.6956,819
+16.2,Keystone,8369,First Strike,-2.7682,320
+16.2,Keystone,8214,Summon Aery,-5.8337,324
+16.2,Keystone,8360,Unsealed Spellbook,1.912,323
+16.2,Keystone,8229,Arcane Comet,0.18,73474
+16.2,Keystone,8128,Dark Harvest,-0.2031,838
+16.2,Keystone,8112,Electrocute,-2.4207,5221
+16.2,Keystone,8439,Aftershock,3.2704,101
+16.2,Keystone,8351,Glacial Augment,6.5845,269
+16.2,Spell,3,Exhaust,-1.3001,4643
+16.2,Spell,4,Flash,0.0007,81071
+16.2,Spell,7,Heal,1.243,46433
+16.2,Spell,14,Ignite,-1.7086,29871
+16.2,Starter,3865,World Atlas,0.0,81083
+16.2,Boots,3009,Boots of Swiftness,0.0489,2532
+16.2,Boots,3020,Sorcerer's Shoes,-1.0357,19651
+16.2,Boots,3047,Plated Steelcaps,2.0381,785
+16.2,Boots,3111,Mercury's Treads,0.2021,1169
+16.2,Boots,3158,Ionian Boots of Lucidity,0.3802,52445
+16.2,2nd Item,3118,Malignance,-2.8308,461
+16.2,2nd Item,3152,Hextech Rocketbelt,0.0871,74153
+16.2,2nd Item,3157,Zhonya's Hourglass,-0.4788,326
+16.2,2nd Item,4645,Shadowflame,9.9213,118
+16.2,2nd Item,4646,Stormsurge,-4.7865,666
+16.2,2nd Item,6655,Luden's Echo,-2.5607,1623
+16.2,3rd Item,2065,Shurelya's Battlesong,4.3322,409
+16.2,3rd Item,2524,Bandlepipes,0.7448,809
+16.2,3rd Item,2525,Protoplasm Harness,4.171,108
+16.2,3rd Item,3002,Trailblazer,-1.0323,285
+16.2,3rd Item,3041,Mejai's Soulstealer,0.6558,224
+16.2,3rd Item,3050,Zeke's Convergence,-0.2505,252
+16.2,3rd Item,3089,Rabadon's Deathcap,-5.2018,270
+16.2,3rd Item,3102,Banshee's Veil,1.7971,356
+16.2,3rd Item,3107,Redemption,-0.625,459
+16.2,3rd Item,3110,Frozen Heart,1.6645,6090
+16.2,3rd Item,3118,Malignance,-0.2086,831
+16.2,3rd Item,3137,Cryptbloom,2.9923,121
+16.2,3rd Item,3152,Hextech Rocketbelt,0.8791,860
+16.2,3rd Item,3157,Zhonya's Hourglass,-0.1725,35024
+16.2,3rd Item,3165,Morellonomicon,1.5168,1459
+16.2,3rd Item,3190,Locket of the Iron Solari,-0.7758,240
+16.2,3rd Item,3222,Mikael's Blessing,-3.3744,304
+16.2,3rd Item,4645,Shadowflame,-1.3049,1054
+16.2,3rd Item,4646,Stormsurge,-1.1168,3578
+16.2,3rd Item,6653,Liandry's Torment,2.5799,105
+16.2,3rd Item,6655,Luden's Echo,-2.1923,1641
+16.2,3rd Item,8020,Abyssal Mask,1.3605,881
+16.2,4th+ Item,2065,Shurelya's Battlesong,1.8844,290
+16.2,4th+ Item,2504,Kaenic Rookern,6.5828,116
+16.2,4th+ Item,2524,Bandlepipes,0.74,551
+16.2,4th+ Item,2525,Protoplasm Harness,-1.1876,122
+16.2,4th+ Item,3041,Mejai's Soulstealer,1.1357,285
+16.2,4th+ Item,3050,Zeke's Convergence,-1.68,214
+16.2,4th+ Item,3089,Rabadon's Deathcap,-1.3564,723
+16.2,4th+ Item,3102,Banshee's Veil,6.4476,663
+16.2,4th+ Item,3107,Redemption,1.5323,475
+16.2,4th+ Item,3109,Knight's Vow,-3.1459,103
+16.2,4th+ Item,3110,Frozen Heart,1.7445,2262
+16.2,4th+ Item,3118,Malignance,1.3845,525
+16.2,4th+ Item,3135,Void Staff,-0.8857,213
+16.2,4th+ Item,3137,Cryptbloom,1.279,274
+16.2,4th+ Item,3143,Randuin's Omen,-2.5502,138
+16.2,4th+ Item,3152,Hextech Rocketbelt,2.8939,132
+16.2,4th+ Item,3157,Zhonya's Hourglass,-0.772,3130
+16.2,4th+ Item,3165,Morellonomicon,-0.3647,3958
+16.2,4th+ Item,3190,Locket of the Iron Solari,3.2007,260
+16.2,4th+ Item,3222,Mikael's Blessing,-3.1154,166
+16.2,4th+ Item,4645,Shadowflame,-1.8817,2468
+16.2,4th+ Item,4646,Stormsurge,-0.3539,2163
+16.2,4th+ Item,6655,Luden's Echo,-1.7892,663
+16.2,4th+ Item,8020,Abyssal Mask,1.674,904
+16.2,All Items,4646,Stormsurge,-1.2405,6408
+16.2,All Items,4645,Shadowflame,-1.3288,3649
+16.2,All Items,6653,Liandry's Torment,-1.6664,280
+16.2,All Items,2525,Protoplasm Harness,1.5409,237
+16.2,All Items,8010,Bloodletter's Curse,0.2511,171
+16.2,All Items,3135,Void Staff,-2.0528,265
+16.2,All Items,3143,Randuin's Omen,-1.854,219
+16.2,All Items,3041,Mejai's Soulstealer,1.6174,545
+16.2,All Items,3118,Malignance,-0.4131,1819
+16.2,All Items,6655,Luden's Echo,-2.2759,3928
+16.2,All Items,3107,Redemption,0.1515,960
+16.2,All Items,3137,Cryptbloom,1.7165,400
+16.2,All Items,2065,Shurelya's Battlesong,3.2313,742
+16.2,All Items,2504,Kaenic Rookern,4.958,189
+16.2,All Items,3109,Knight's Vow,-3.4578,136
+16.2,All Items,3165,Morellonomicon,0.1449,5469
+16.2,All Items,3110,Frozen Heart,1.7033,8398
+16.2,All Items,3002,Trailblazer,-0.9283,373
+16.2,All Items,3222,Mikael's Blessing,-3.4335,483
+16.2,All Items,3157,Zhonya's Hourglass,-0.2238,38491
+16.2,All Items,2524,Bandlepipes,0.7641,1444
+16.2,All Items,3190,Locket of the Iron Solari,1.867,557
+16.2,All Items,3116,Rylai's Crystal Scepter,-1.5006,209
+16.2,All Items,3050,Zeke's Convergence,0.1583,520
+16.2,All Items,4005,Imperial Mandate,2.8817,132
+16.2,All Items,8020,Abyssal Mask,1.5387,1789
+16.2,All Items,3089,Rabadon's Deathcap,-2.4386,1025
+16.2,All Items,3152,Hextech Rocketbelt,0.1017,75147
+16.2,All Items,3102,Banshee's Veil,4.6279,1033
+16.3,Keystone,8369,First Strike,2.1826,247
+16.3,Keystone,8214,Summon Aery,-4.8707,364
+16.3,Keystone,8360,Unsealed Spellbook,-2.5475,273
+16.3,Keystone,8229,Arcane Comet,0.1991,80890
+16.3,Keystone,8128,Dark Harvest,2.1225,912
+16.3,Keystone,8112,Electrocute,-2.2924,6070
+16.3,Keystone,8351,Glacial Augment,-0.5459,171
+16.3,Spell,3,Exhaust,-1.422,5046
+16.3,Spell,4,Flash,0.0029,89279
+16.3,Spell,7,Heal,1.2248,51248
+16.3,Spell,14,Ignite,-1.6589,32805
+16.3,Starter,3865,World Atlas,0.0,89286
+16.3,Boots,3009,Boots of Swiftness,0.4406,2541
+16.3,Boots,3020,Sorcerer's Shoes,-1.5234,20995
+16.3,Boots,3047,Plated Steelcaps,1.1456,941
+16.3,Boots,3111,Mercury's Treads,1.402,1193
+16.3,Boots,3158,Ionian Boots of Lucidity,0.5001,57797
+16.3,2nd Item,2524,Bandlepipes,3.5947,143
+16.3,2nd Item,3118,Malignance,-3.0804,547
+16.3,2nd Item,3152,Hextech Rocketbelt,0.1517,81023
+16.3,2nd Item,3157,Zhonya's Hourglass,-5.2647,392
+16.3,2nd Item,4645,Shadowflame,-5.1747,121
+16.3,2nd Item,4646,Stormsurge,-2.134,699
+16.3,2nd Item,6655,Luden's Echo,-3.2762,1787
+16.3,3rd Item,2065,Shurelya's Battlesong,1.3174,466
+16.3,3rd Item,2524,Bandlepipes,-1.2704,649
+16.3,3rd Item,3002,Trailblazer,-0.1179,239
+16.3,3rd Item,3041,Mejai's Soulstealer,1.3045,226
+16.3,3rd Item,3050,Zeke's Convergence,-0.2479,305
+16.3,3rd Item,3089,Rabadon's Deathcap,-2.7037,222
+16.3,3rd Item,3102,Banshee's Veil,0.8379,298
+16.3,3rd Item,3107,Redemption,-1.8844,332
+16.3,3rd Item,3110,Frozen Heart,1.301,6913
+16.3,3rd Item,3118,Malignance,-1.793,933
+16.3,3rd Item,3152,Hextech Rocketbelt,-0.4153,878
+16.3,3rd Item,3157,Zhonya's Hourglass,-0.0713,38636
+16.3,3rd Item,3165,Morellonomicon,1.0111,1500
+16.3,3rd Item,3190,Locket of the Iron Solari,2.9685,283
+16.3,3rd Item,3222,Mikael's Blessing,0.437,270
+16.3,3rd Item,4645,Shadowflame,-0.8911,1191
+16.3,3rd Item,4646,Stormsurge,-1.3569,4029
+16.3,3rd Item,6655,Luden's Echo,-1.9925,1571
+16.3,3rd Item,8020,Abyssal Mask,2.5122,1075
+16.3,4th+ Item,2065,Shurelya's Battlesong,1.5357,329
+16.3,4th+ Item,2504,Kaenic Rookern,7.0607,114
+16.3,4th+ Item,2524,Bandlepipes,-1.917,412
+16.3,4th+ Item,2525,Protoplasm Harness,-3.161,131
+16.3,4th+ Item,3041,Mejai's Soulstealer,-0.2098,283
+16.3,4th+ Item,3050,Zeke's Convergence,3.3863,258
+16.3,4th+ Item,3089,Rabadon's Deathcap,0.6215,815
+16.3,4th+ Item,3102,Banshee's Veil,-0.7131,687
+16.3,4th+ Item,3107,Redemption,0.9596,434
+16.3,4th+ Item,3110,Frozen Heart,0.1316,2651
+16.3,4th+ Item,3118,Malignance,-0.6064,628
+16.3,4th+ Item,3135,Void Staff,0.8191,237
+16.3,4th+ Item,3137,Cryptbloom,1.3994,258
+16.3,4th+ Item,3143,Randuin's Omen,-2.0786,186
+16.3,4th+ Item,3152,Hextech Rocketbelt,-0.6981,167
+16.3,4th+ Item,3157,Zhonya's Hourglass,-0.3584,3395
+16.3,4th+ Item,3165,Morellonomicon,0.6858,4543
+16.3,4th+ Item,3190,Locket of the Iron Solari,0.4847,283
+16.3,4th+ Item,3222,Mikael's Blessing,-4.1324,186
+16.3,4th+ Item,4645,Shadowflame,-1.3482,2579
+16.3,4th+ Item,4646,Stormsurge,0.0895,2301
+16.3,4th+ Item,6655,Luden's Echo,-3.5671,794
+16.3,4th+ Item,8020,Abyssal Mask,3.1779,1024
+16.3,All Items,2065,Shurelya's Battlesong,1.2881,840
+16.3,All Items,2504,Kaenic Rookern,4.3834,180
+16.3,All Items,2524,Bandlepipes,-0.9123,1206
+16.3,All Items,2525,Protoplasm Harness,-1.0206,225
+16.3,All Items,3002,Trailblazer,2.0953,332
+16.3,All Items,3041,Mejai's Soulstealer,-0.3872,541
+16.3,All Items,3050,Zeke's Convergence,1.1199,601
+16.3,All Items,3089,Rabadon's Deathcap,-0.0592,1061
+16.3,All Items,3102,Banshee's Veil,-0.2234,994
+16.3,All Items,3107,Redemption,-0.037,778
+16.3,All Items,3109,Knight's Vow,3.0853,144
+16.3,All Items,3110,Frozen Heart,0.9528,9619
+16.3,All Items,3116,Rylai's Crystal Scepter,-6.2738,129
+16.3,All Items,3118,Malignance,-1.7739,2110
+16.3,All Items,3135,Void Staff,2.2002,274
+16.3,All Items,3137,Cryptbloom,1.1197,331
+16.3,All Items,3143,Randuin's Omen,1.6674,276
+16.3,All Items,3152,Hextech Rocketbelt,0.144,82070
+16.3,All Items,3157,Zhonya's Hourglass,-0.1422,42429
+16.3,All Items,3165,Morellonomicon,0.7472,6118
+16.3,All Items,3190,Locket of the Iron Solari,1.4124,603
+16.3,All Items,3222,Mikael's Blessing,-1.663,477
+16.3,All Items,4005,Imperial Mandate,-1.644,135
+16.3,All Items,4645,Shadowflame,-1.3249,3898
+16.3,All Items,4646,Stormsurge,-0.9611,7033
+16.3,All Items,6653,Liandry's Torment,4.9298,247
+16.3,All Items,6655,Luden's Echo,-2.843,4155
+16.3,All Items,8010,Bloodletter's Curse,-1.13,163
+16.3,All Items,8020,Abyssal Mask,2.8826,2113
+16.4,Keystone,8369,First Strike,6.6182,157
+16.4,Keystone,8214,Summon Aery,4.0617,355
+16.4,Keystone,8360,Unsealed Spellbook,1.3806,241
+16.4,Keystone,8229,Arcane Comet,0.2293,71648
+16.4,Keystone,8128,Dark Harvest,0.7064,1026
+16.4,Keystone,8112,Electrocute,-3.2854,5963
+16.4,Keystone,8351,Glacial Augment,7.3231,274
+16.4,Spell,3,Exhaust,-0.519,4571
+16.4,Spell,4,Flash,0.0031,79968
+16.4,Spell,7,Heal,1.3106,43902
+16.4,Spell,14,Ignite,-1.7275,31349
+16.4,Starter,3865,World Atlas,0.0,79977
+16.4,Boots,3009,Boots of Swiftness,0.7213,2115
+16.4,Boots,3020,Sorcerer's Shoes,-1.307,17313
+16.4,Boots,3047,Plated Steelcaps,5.2944,826
+16.4,Boots,3111,Mercury's Treads,2.2779,1114
+16.4,Boots,3158,Ionian Boots of Lucidity,0.4058,53232
+16.4,2nd Item,3118,Malignance,-5.4965,570
+16.4,2nd Item,3152,Hextech Rocketbelt,0.1811,71972
+16.4,2nd Item,3157,Zhonya's Hourglass,-3.1016,515
+16.4,2nd Item,4646,Stormsurge,-2.421,646
+16.4,2nd Item,6655,Luden's Echo,-3.4899,1753
+16.4,3rd Item,2065,Shurelya's Battlesong,-0.0879,347
+16.4,3rd Item,2524,Bandlepipes,-0.7236,421
+16.4,3rd Item,3002,Trailblazer,6.7477,317
+16.4,3rd Item,3041,Mejai's Soulstealer,1.0845,213
+16.4,3rd Item,3050,Zeke's Convergence,2.3905,457
+16.4,3rd Item,3089,Rabadon's Deathcap,-1.5959,212
+16.4,3rd Item,3102,Banshee's Veil,2.8535,242
+16.4,3rd Item,3107,Redemption,-0.3107,230
+16.4,3rd Item,3110,Frozen Heart,1.6592,5618
+16.4,3rd Item,3118,Malignance,-1.1915,904
+16.4,3rd Item,3152,Hextech Rocketbelt,-0.5431,926
+16.4,3rd Item,3157,Zhonya's Hourglass,-0.1779,35107
+16.4,3rd Item,3165,Morellonomicon,-0.702,1403
+16.4,3rd Item,3190,Locket of the Iron Solari,2.1844,235
+16.4,3rd Item,3222,Mikael's Blessing,1.862,243
+16.4,3rd Item,4645,Shadowflame,-0.8576,1195
+16.4,3rd Item,4646,Stormsurge,-0.6509,3825
+16.4,3rd Item,6653,Liandry's Torment,-5.1897,115
+16.4,3rd Item,6655,Luden's Echo,-2.5346,1494
+16.4,3rd Item,8020,Abyssal Mask,2.6049,970
+16.4,4th+ Item,2065,Shurelya's Battlesong,3.3382,273
+16.4,4th+ Item,2524,Bandlepipes,4.7495,300
+16.4,4th+ Item,3041,Mejai's Soulstealer,-1.6559,280
+16.4,4th+ Item,3050,Zeke's Convergence,3.3575,219
+16.4,4th+ Item,3089,Rabadon's Deathcap,-0.3562,781
+16.4,4th+ Item,3102,Banshee's Veil,0.779,625
+16.4,4th+ Item,3107,Redemption,-2.6417,314
+16.4,4th+ Item,3110,Frozen Heart,1.7602,2482
+16.4,4th+ Item,3118,Malignance,-2.0279,618
+16.4,4th+ Item,3135,Void Staff,-4.599,157
+16.4,4th+ Item,3137,Cryptbloom,-0.2951,312
+16.4,4th+ Item,3143,Randuin's Omen,2.9337,136
+16.4,4th+ Item,3152,Hextech Rocketbelt,1.7037,168
+16.4,4th+ Item,3157,Zhonya's Hourglass,0.4122,3047
+16.4,4th+ Item,3165,Morellonomicon,-1.3144,3760
+16.4,4th+ Item,3190,Locket of the Iron Solari,2.5456,285
+16.4,4th+ Item,3222,Mikael's Blessing,-4.3068,155
+16.4,4th+ Item,4645,Shadowflame,-1.567,2623
+16.4,4th+ Item,4646,Stormsurge,-0.1179,2346
+16.4,4th+ Item,6655,Luden's Echo,-0.27,704
+16.4,4th+ Item,8020,Abyssal Mask,2.4996,999
+16.4,All Items,2065,Shurelya's Battlesong,1.1515,666
+16.4,All Items,2504,Kaenic Rookern,3.9238,138
+16.4,All Items,2524,Bandlepipes,1.4295,771
+16.4,All Items,2525,Protoplasm Harness,2.9929,162
+16.4,All Items,3002,Trailblazer,5.8058,460
+16.4,All Items,3041,Mejai's Soulstealer,-0.3068,525
+16.4,All Items,3050,Zeke's Convergence,3.0413,715
+16.4,All Items,3089,Rabadon's Deathcap,-0.6725,1012
+16.4,All Items,3102,Banshee's Veil,1.5232,875
+16.4,All Items,3107,Redemption,-2.1014,564
+16.4,All Items,3110,Frozen Heart,1.6842,8157
+16.4,All Items,3115,Nashor's Tooth,-5.3011,103
+16.4,All Items,3116,Rylai's Crystal Scepter,-1.1836,150
+16.4,All Items,3118,Malignance,-2.6053,2097
+16.4,All Items,3135,Void Staff,-3.7969,188
+16.4,All Items,3137,Cryptbloom,-0.4729,385
+16.4,All Items,3143,Randuin's Omen,4.553,201
+16.4,All Items,3152,Hextech Rocketbelt,0.1754,73067
+16.4,All Items,3157,Zhonya's Hourglass,-0.1703,38683
+16.4,All Items,3165,Morellonomicon,-1.1715,5246
+16.4,All Items,3190,Locket of the Iron Solari,2.3337,565
+16.4,All Items,3222,Mikael's Blessing,-1.1513,419
+16.4,All Items,4005,Imperial Mandate,-3.9521,104
+16.4,All Items,4645,Shadowflame,-1.3524,3897
+16.4,All Items,4646,Stormsurge,-0.6346,6824
+16.4,All Items,6653,Liandry's Torment,-2.8969,272
+16.4,All Items,6655,Luden's Echo,-2.553,3954
+16.4,All Items,8010,Bloodletter's Curse,0.8468,175
+16.4,All Items,8020,Abyssal Mask,2.5479,1983
+16.5,Keystone,8369,First Strike,-5.3802,196
+16.5,Keystone,8214,Summon Aery,1.3688,267
+16.5,Keystone,8360,Unsealed Spellbook,-1.1874,201
+16.5,Keystone,8229,Arcane Comet,0.2584,60789
+16.5,Keystone,8128,Dark Harvest,1.4099,1113
+16.5,Keystone,8112,Electrocute,-2.3805,7051
+16.5,Keystone,8439,Aftershock,1.1658,112
+16.5,Keystone,8351,Glacial Augment,2.2863,266
+16.5,Spell,3,Exhaust,-1.5437,4387
+16.5,Spell,4,Flash,0.0013,70237
+16.5,Spell,7,Heal,1.398,34948
+16.5,Spell,14,Ignite,-1.3451,30723
+16.5,Starter,3865,World Atlas,-0.0,70249
+16.5,Boots,3009,Boots of Swiftness,-1.2424,1669
+16.5,Boots,3020,Sorcerer's Shoes,-0.9654,19195
+16.5,Boots,3047,Plated Steelcaps,4.5537,772
+16.5,Boots,3111,Mercury's Treads,0.9259,945
+16.5,Boots,3158,Ionian Boots of Lucidity,0.2895,42769
+16.5,2nd Item,3118,Malignance,0.9276,646
+16.5,2nd Item,3152,Hextech Rocketbelt,0.1745,62546
+16.5,2nd Item,3157,Zhonya's Hourglass,-2.1988,441
+16.5,2nd Item,4646,Stormsurge,0.463,607
+16.5,2nd Item,6655,Luden's Echo,-4.9497,1829
+16.5,3rd Item,2065,Shurelya's Battlesong,0.2625,295
+16.5,3rd Item,2524,Bandlepipes,3.2383,225
+16.5,3rd Item,3002,Trailblazer,1.7437,207
+16.5,3rd Item,3041,Mejai's Soulstealer,2.4403,210
+16.5,3rd Item,3050,Zeke's Convergence,2.5614,354
+16.5,3rd Item,3089,Rabadon's Deathcap,1.5506,206
+16.5,3rd Item,3102,Banshee's Veil,3.538,229
+16.5,3rd Item,3107,Redemption,-0.9886,178
+16.5,3rd Item,3110,Frozen Heart,1.6202,4801
+16.5,3rd Item,3118,Malignance,-0.3295,1100
+16.5,3rd Item,3152,Hextech Rocketbelt,-1.2527,908
+16.5,3rd Item,3157,Zhonya's Hourglass,-0.1799,30015
+16.5,3rd Item,3165,Morellonomicon,0.725,1211
+16.5,3rd Item,3190,Locket of the Iron Solari,-1.4207,332
+16.5,3rd Item,3222,Mikael's Blessing,-4.4596,255
+16.5,3rd Item,4645,Shadowflame,0.6912,1144
+16.5,3rd Item,4646,Stormsurge,-0.499,4155
+16.5,3rd Item,6653,Liandry's Torment,-0.581,114
+16.5,3rd Item,6655,Luden's Echo,-3.4151,1586
+16.5,3rd Item,8020,Abyssal Mask,3.3207,776
+16.5,4th+ Item,2065,Shurelya's Battlesong,2.731,244
+16.5,4th+ Item,2504,Kaenic Rookern,-0.5786,107
+16.5,4th+ Item,2524,Bandlepipes,0.761,218
+16.5,4th+ Item,2525,Protoplasm Harness,6.7466,129
+16.5,4th+ Item,3041,Mejai's Soulstealer,-1.8198,264
+16.5,4th+ Item,3050,Zeke's Convergence,0.1154,232
+16.5,4th+ Item,3089,Rabadon's Deathcap,-0.5852,682
+16.5,4th+ Item,3102,Banshee's Veil,-0.4429,587
+16.5,4th+ Item,3107,Redemption,1.312,278
+16.5,4th+ Item,3110,Frozen Heart,1.6523,2083
+16.5,4th+ Item,3118,Malignance,-0.9268,772
+16.5,4th+ Item,3135,Void Staff,-2.1581,193
+16.5,4th+ Item,3137,Cryptbloom,4.1814,256
+16.5,4th+ Item,3143,Randuin's Omen,1.1543,150
+16.5,4th+ Item,3152,Hextech Rocketbelt,-1.6122,144
+16.5,4th+ Item,3157,Zhonya's Hourglass,0.8539,3099
+16.5,4th+ Item,3165,Morellonomicon,-0.2487,3219
+16.5,4th+ Item,3190,Locket of the Iron Solari,-2.3192,303
+16.5,4th+ Item,3222,Mikael's Blessing,-0.9602,154
+16.5,4th+ Item,4645,Shadowflame,-1.2763,2890
+16.5,4th+ Item,4646,Stormsurge,-1.5756,2321
+16.5,4th+ Item,6655,Luden's Echo,-0.4607,673
+16.5,4th+ Item,8020,Abyssal Mask,2.0478,836
+16.5,All Items,4646,Stormsurge,-0.7693,7092
+16.5,All Items,4645,Shadowflame,-0.7637,4132
+16.5,All Items,6653,Liandry's Torment,-0.1714,278
+16.5,All Items,2525,Protoplasm Harness,5.8748,214
+16.5,All Items,8010,Bloodletter's Curse,-0.2952,159
+16.5,All Items,3135,Void Staff,-1.356,229
+16.5,All Items,3143,Randuin's Omen,2.0754,238
+16.5,All Items,3041,Mejai's Soulstealer,-0.3939,527
+16.5,All Items,3118,Malignance,-0.19,2520
+16.5,All Items,6655,Luden's Echo,-3.6145,4089
+16.5,All Items,3107,Redemption,0.1448,476
+16.5,All Items,3137,Cryptbloom,2.1481,333
+16.5,All Items,2065,Shurelya's Battlesong,0.9322,592
+16.5,All Items,3115,Nashor's Tooth,-5.1346,106
+16.5,All Items,2504,Kaenic Rookern,1.0747,154
+16.5,All Items,3109,Knight's Vow,-0.1075,144
+16.5,All Items,3165,Morellonomicon,-0.114,4487
+16.5,All Items,3110,Frozen Heart,1.6703,6941
+16.5,All Items,3002,Trailblazer,1.6919,375
+16.5,All Items,3222,Mikael's Blessing,-3.119,433
+16.5,All Items,3157,Zhonya's Hourglass,-0.1124,33562
+16.5,All Items,2524,Bandlepipes,1.7652,469
+16.5,All Items,3190,Locket of the Iron Solari,-1.093,672
+16.5,All Items,3116,Rylai's Crystal Scepter,2.1484,185
+16.5,All Items,3050,Zeke's Convergence,1.4216,607
+16.5,All Items,4005,Imperial Mandate,-0.536,150
+16.5,All Items,8020,Abyssal Mask,2.6846,1623
+16.5,All Items,3089,Rabadon's Deathcap,-0.0712,915
+16.5,All Items,3152,Hextech Rocketbelt,0.15,63599
+16.5,All Items,3102,Banshee's Veil,0.7399,828
+16.6,Keystone,8369,First Strike,5.5889,227
+16.6,Keystone,8214,Summon Aery,1.6659,228
+16.6,Keystone,8360,Unsealed Spellbook,2.7291,250
+16.6,Keystone,8229,Arcane Comet,0.2169,56896
+16.6,Keystone,8128,Dark Harvest,1.6803,1447
+16.6,Keystone,8112,Electrocute,-2.2721,7173
+16.6,Keystone,8351,Glacial Augment,1.5998,222
+16.6,Spell,3,Exhaust,-0.3751,4550
+16.6,Spell,4,Flash,-0.0018,66699
+16.6,Spell,7,Heal,1.0864,31557
+16.6,Spell,14,Ignite,-1.0673,30398
+16.6,Starter,3865,World Atlas,0.0,66709
+16.6,Boots,3009,Boots of Swiftness,0.6516,1647
+16.6,Boots,3020,Sorcerer's Shoes,-0.8295,19582
+16.6,Boots,3047,Plated Steelcaps,2.1871,718
+16.6,Boots,3111,Mercury's Treads,0.5126,836
+16.6,Boots,3158,Ionian Boots of Lucidity,0.2395,39150
+16.6,2nd Item,3041,Mejai's Soulstealer,-1.2742,102
+16.6,2nd Item,3118,Malignance,-2.4318,734
+16.6,2nd Item,3152,Hextech Rocketbelt,0.1728,58938
+16.6,2nd Item,3157,Zhonya's Hourglass,-2.0356,362
+16.6,2nd Item,4646,Stormsurge,-3.2484,630
+16.6,2nd Item,6655,Luden's Echo,-1.8144,2001
+16.6,3rd Item,2065,Shurelya's Battlesong,-1.2271,334
+16.6,3rd Item,2524,Bandlepipes,-0.0848,250
+16.6,3rd Item,2525,Protoplasm Harness,3.5686,114
+16.6,3rd Item,3002,Trailblazer,4.123,133
+16.6,3rd Item,3041,Mejai's Soulstealer,2.5489,204
+16.6,3rd Item,3050,Zeke's Convergence,5.3793,269
+16.6,3rd Item,3089,Rabadon's Deathcap,-4.7529,244
+16.6,3rd Item,3102,Banshee's Veil,-0.6924,220
+16.6,3rd Item,3107,Redemption,0.6651,156
+16.6,3rd Item,3110,Frozen Heart,2.1216,4147
+16.6,3rd Item,3118,Malignance,-0.1845,1028
+16.6,3rd Item,3152,Hextech Rocketbelt,-0.8449,954
+16.6,3rd Item,3157,Zhonya's Hourglass,-0.0788,28186
+16.6,3rd Item,3165,Morellonomicon,-1.881,1041
+16.6,3rd Item,3190,Locket of the Iron Solari,1.1521,265
+16.6,3rd Item,3222,Mikael's Blessing,2.8952,212
+16.6,3rd Item,4645,Shadowflame,-0.6483,1294
+16.6,3rd Item,4646,Stormsurge,-0.3617,4495
+16.6,3rd Item,6653,Liandry's Torment,-2.1694,101
+16.6,3rd Item,6655,Luden's Echo,-1.9799,1622
+16.6,3rd Item,8020,Abyssal Mask,1.4536,612
+16.6,4th+ Item,2065,Shurelya's Battlesong,-1.4549,190
+16.6,4th+ Item,2504,Kaenic Rookern,0.6299,102
+16.6,4th+ Item,2524,Bandlepipes,0.3485,204
+16.6,4th+ Item,2525,Protoplasm Harness,-0.9677,118
+16.6,4th+ Item,3041,Mejai's Soulstealer,2.7059,244
+16.6,4th+ Item,3050,Zeke's Convergence,1.0656,190
+16.6,4th+ Item,3089,Rabadon's Deathcap,-0.9588,914
+16.6,4th+ Item,3102,Banshee's Veil,2.0113,538
+16.6,4th+ Item,3107,Redemption,-1.9527,243
+16.6,4th+ Item,3110,Frozen Heart,0.7348,1794
+16.6,4th+ Item,3118,Malignance,-2.4804,598
+16.6,4th+ Item,3135,Void Staff,1.1144,201
+16.6,4th+ Item,3137,Cryptbloom,3.0487,268
+16.6,4th+ Item,3143,Randuin's Omen,1.7733,128
+16.6,4th+ Item,3152,Hextech Rocketbelt,2.3729,170
+16.6,4th+ Item,3157,Zhonya's Hourglass,0.4099,3097
+16.6,4th+ Item,3165,Morellonomicon,0.2513,3007
+16.6,4th+ Item,3190,Locket of the Iron Solari,1.9189,285
+16.6,4th+ Item,3222,Mikael's Blessing,-4.3589,143
+16.6,4th+ Item,4645,Shadowflame,-0.8014,2906
+16.6,4th+ Item,4646,Stormsurge,-1.2937,2351
+16.6,4th+ Item,6653,Liandry's Torment,-1.2915,110
+16.6,4th+ Item,6655,Luden's Echo,-1.3893,672
+16.6,4th+ Item,8020,Abyssal Mask,1.4241,647
+16.6,All Items,4646,Stormsurge,-0.8962,7482
+16.6,All Items,4645,Shadowflame,-0.8646,4274
+16.6,All Items,6653,Liandry's Torment,-2.4743,288
+16.6,All Items,2525,Protoplasm Harness,1.9872,239
+16.6,All Items,8010,Bloodletter's Curse,-1.7693,165
+16.6,All Items,3135,Void Staff,0.3358,262
+16.6,All Items,3143,Randuin's Omen,2.8485,212
+16.6,All Items,3041,Mejai's Soulstealer,1.9095,550
+16.6,All Items,3118,Malignance,-1.4448,2364
+16.6,All Items,6655,Luden's Echo,-1.81,4296
+16.6,All Items,3107,Redemption,-0.9211,419
+16.6,All Items,3137,Cryptbloom,2.9345,339
+16.6,All Items,2065,Shurelya's Battlesong,-0.8379,585
+16.6,All Items,2504,Kaenic Rookern,2.9936,159
+16.6,All Items,3109,Knight's Vow,0.0629,116
+16.6,All Items,3165,Morellonomicon,-0.3817,4119
+16.6,All Items,3110,Frozen Heart,1.7197,5980
+16.6,All Items,3002,Trailblazer,1.4808,222
+16.6,All Items,3222,Mikael's Blessing,1.1219,377
+16.6,All Items,3157,Zhonya's Hourglass,-0.0546,31658
+16.6,All Items,2524,Bandlepipes,-0.0524,470
+16.6,All Items,3190,Locket of the Iron Solari,1.606,575
+16.6,All Items,3116,Rylai's Crystal Scepter,-2.2103,129
+16.6,All Items,3050,Zeke's Convergence,3.4143,474
+16.6,All Items,4005,Imperial Mandate,3.0499,129
+16.6,All Items,8020,Abyssal Mask,1.393,1274
+16.6,All Items,3089,Rabadon's Deathcap,-1.6336,1179
+16.6,All Items,3152,Hextech Rocketbelt,0.1629,60064
+16.6,All Items,3102,Banshee's Veil,1.2939,770
+16.7,Keystone,8369,First Strike,1.8919,281
+16.7,Keystone,8214,Summon Aery,-0.6673,253
+16.7,Keystone,8360,Unsealed Spellbook,4.8338,240
+16.7,Keystone,8229,Arcane Comet,0.2587,54963
+16.7,Keystone,8128,Dark Harvest,-0.613,1427
+16.7,Keystone,8112,Electrocute,-1.8846,7019
+16.7,Keystone,8351,Glacial Augment,-3.0651,267
+16.7,Spell,3,Exhaust,-1.1881,4100
+16.7,Spell,4,Flash,0.0,64710
+16.7,Spell,7,Heal,1.5368,31230
+16.7,Spell,14,Ignite,-1.4595,29194
+16.7,Starter,3865,World Atlas,-0.0,64716
+16.7,Boots,3009,Boots of Swiftness,0.2976,1679
+16.7,Boots,3020,Sorcerer's Shoes,-1.2241,20368
+16.7,Boots,3047,Plated Steelcaps,1.2522,737
+16.7,Boots,3111,Mercury's Treads,-1.0106,914
+16.7,Boots,3158,Ionian Boots of Lucidity,0.4105,36289
+16.7,2nd Item,3118,Malignance,-5.4788,677
+16.7,2nd Item,3152,Hextech Rocketbelt,0.1771,57022
+16.7,2nd Item,3157,Zhonya's Hourglass,-1.922,435
+16.7,2nd Item,4646,Stormsurge,1.228,906
+16.7,2nd Item,6655,Luden's Echo,-3.2617,1846
+16.7,3rd Item,2065,Shurelya's Battlesong,-0.6111,239
+16.7,3rd Item,2524,Bandlepipes,1.7658,195
+16.7,3rd Item,3002,Trailblazer,3.1593,106
+16.7,3rd Item,3041,Mejai's Soulstealer,1.6979,198
+16.7,3rd Item,3050,Zeke's Convergence,2.4224,174
+16.7,3rd Item,3089,Rabadon's Deathcap,1.4888,292
+16.7,3rd Item,3102,Banshee's Veil,-2.2931,239
+16.7,3rd Item,3107,Redemption,1.7464,150
+16.7,3rd Item,3110,Frozen Heart,1.6984,4601
+16.7,3rd Item,3118,Malignance,-2.0227,918
+16.7,3rd Item,3152,Hextech Rocketbelt,-3.1427,898
+16.7,3rd Item,3157,Zhonya's Hourglass,0.0161,27553
+16.7,3rd Item,3165,Morellonomicon,1.6571,1033
+16.7,3rd Item,3190,Locket of the Iron Solari,0.1049,252
+16.7,3rd Item,3222,Mikael's Blessing,3.5059,290
+16.7,3rd Item,4645,Shadowflame,-1.4921,1234
+16.7,3rd Item,4646,Stormsurge,-0.9669,4220
+16.7,3rd Item,6653,Liandry's Torment,3.2055,130
+16.7,3rd Item,6655,Luden's Echo,-1.9557,1520
+16.7,3rd Item,8020,Abyssal Mask,2.7673,600
+16.7,4th+ Item,2065,Shurelya's Battlesong,-2.0976,169
+16.7,4th+ Item,2524,Bandlepipes,3.8362,165
+16.7,4th+ Item,2525,Protoplasm Harness,2.5963,110
+16.7,4th+ Item,3041,Mejai's Soulstealer,0.1156,263
+16.7,4th+ Item,3050,Zeke's Convergence,-0.265,174
+16.7,4th+ Item,3089,Rabadon's Deathcap,-2.1178,848
+16.7,4th+ Item,3102,Banshee's Veil,1.2274,551
+16.7,4th+ Item,3107,Redemption,1.1985,239
+16.7,4th+ Item,3110,Frozen Heart,0.6443,2080
+16.7,4th+ Item,3118,Malignance,-1.0852,591
+16.7,4th+ Item,3135,Void Staff,0.9437,189
+16.7,4th+ Item,3137,Cryptbloom,1.6725,219
+16.7,4th+ Item,3143,Randuin's Omen,-3.0637,153
+16.7,4th+ Item,3152,Hextech Rocketbelt,1.9493,173
+16.7,4th+ Item,3157,Zhonya's Hourglass,0.1881,3083
+16.7,4th+ Item,3165,Morellonomicon,0.2717,2998
+16.7,4th+ Item,3190,Locket of the Iron Solari,0.9753,266
+16.7,4th+ Item,3222,Mikael's Blessing,0.8685,162
+16.7,4th+ Item,4645,Shadowflame,-1.4094,2795
+16.7,4th+ Item,4646,Stormsurge,0.2681,2202
+16.7,4th+ Item,6655,Luden's Echo,-0.389,669
+16.7,4th+ Item,8020,Abyssal Mask,1.9657,644
+16.7,All Items,4646,Stormsurge,-0.3243,7332
+16.7,All Items,4645,Shadowflame,-1.2994,4130
+16.7,All Items,6653,Liandry's Torment,-0.2633,282
+16.7,All Items,2525,Protoplasm Harness,0.7774,197
+16.7,All Items,8010,Bloodletter's Curse,-3.1759,105
+16.7,All Items,3135,Void Staff,-0.8025,248
+16.7,All Items,3143,Randuin's Omen,-3.1604,237
+16.7,All Items,3041,Mejai's Soulstealer,-0.2996,529
+16.7,All Items,3118,Malignance,-2.8349,2191
+16.7,All Items,6655,Luden's Echo,-2.3039,4040
+16.7,All Items,3107,Redemption,0.9045,399
+16.7,All Items,3137,Cryptbloom,1.5396,290
+16.7,All Items,2065,Shurelya's Battlesong,-1.3912,441
+16.7,All Items,2504,Kaenic Rookern,0.1648,171
+16.7,All Items,3109,Knight's Vow,4.7205,112
+16.7,All Items,3165,Morellonomicon,0.594,4099
+16.7,All Items,3110,Frozen Heart,1.3469,6756
+16.7,All Items,3002,Trailblazer,5.4347,194
+16.7,All Items,3222,Mikael's Blessing,1.8962,466
+16.7,All Items,3157,Zhonya's Hourglass,0.006,31084
+16.7,All Items,2503,Blackfire Torch,3.014,108
+16.7,All Items,2524,Bandlepipes,2.9723,385
+16.7,All Items,3190,Locket of the Iron Solari,0.5685,546
+16.7,All Items,3116,Rylai's Crystal Scepter,-1.2032,127
+16.7,All Items,3050,Zeke's Convergence,1.2225,368
+16.7,All Items,4005,Imperial Mandate,3.408,115
+16.7,All Items,8020,Abyssal Mask,2.301,1251
+16.7,All Items,3089,Rabadon's Deathcap,-1.1614,1170
+16.7,All Items,3152,Hextech Rocketbelt,0.1321,58096
+16.7,All Items,3102,Banshee's Veil,0.2445,807
+16.8,Keystone,8369,First Strike,3.8058,201
+16.8,Keystone,8214,Summon Aery,0.5495,172
+16.8,Keystone,8360,Unsealed Spellbook,0.4482,130
+16.8,Keystone,8229,Arcane Comet,0.1219,37951
+16.8,Keystone,8128,Dark Harvest,1.9471,971
+16.8,Keystone,8112,Electrocute,-1.3026,5011
+16.8,Keystone,8351,Glacial Augment,1.7353,169
+16.8,Spell,3,Exhaust,-0.8938,2850
+16.8,Spell,4,Flash,-0.0039,44796
+16.8,Spell,7,Heal,1.5148,21926
+16.8,Spell,14,Ignite,-1.5393,19896
+16.8,Starter,3865,World Atlas,-0.0,44802
+16.8,Boots,3009,Boots of Swiftness,1.9585,1213
+16.8,Boots,3020,Sorcerer's Shoes,-0.2608,14270
+16.8,Boots,3047,Plated Steelcaps,1.0172,534
+16.8,Boots,3111,Mercury's Treads,1.3252,679
+16.8,Boots,3158,Ionian Boots of Lucidity,0.0448,25996
+16.8,2nd Item,3116,Rylai's Crystal Scepter,5.8554,132
+16.8,2nd Item,3118,Malignance,-2.9478,439
+16.8,2nd Item,3152,Hextech Rocketbelt,0.0186,40660
+16.8,2nd Item,3157,Zhonya's Hourglass,-2.2249,275
+16.8,2nd Item,4646,Stormsurge,2.2878,584
+16.8,2nd Item,6655,Luden's Echo,-1.228,1381
+16.8,3rd Item,2065,Shurelya's Battlesong,0.907,247
+16.8,3rd Item,2524,Bandlepipes,1.3529,214
+16.8,3rd Item,3041,Mejai's Soulstealer,2.526,139
+16.8,3rd Item,3050,Zeke's Convergence,2.4054,110
+16.8,3rd Item,3089,Rabadon's Deathcap,-2.1128,220
+16.8,3rd Item,3102,Banshee's Veil,2.7562,168
+16.8,3rd Item,3107,Redemption,-9.0389,102
+16.8,3rd Item,3110,Frozen Heart,2.2709,3379
+16.8,3rd Item,3118,Malignance,-1.7328,686
+16.8,3rd Item,3152,Hextech Rocketbelt,1.287,670
+16.8,3rd Item,3157,Zhonya's Hourglass,-0.2968,19428
+16.8,3rd Item,3165,Morellonomicon,-0.0465,777
+16.8,3rd Item,3190,Locket of the Iron Solari,0.8101,208
+16.8,3rd Item,3222,Mikael's Blessing,-1.6988,227
+16.8,3rd Item,4645,Shadowflame,2.4644,1028
+16.8,3rd Item,4646,Stormsurge,-0.5018,3026
+16.8,3rd Item,6655,Luden's Echo,-1.6752,1055
+16.8,3rd Item,8020,Abyssal Mask,-0.2178,364
+16.8,4th+ Item,2065,Shurelya's Battlesong,-0.9375,173
+16.8,4th+ Item,2524,Bandlepipes,1.7789,150
+16.8,4th+ Item,3041,Mejai's Soulstealer,-3.2329,163
+16.8,4th+ Item,3089,Rabadon's Deathcap,2.813,712
+16.8,4th+ Item,3102,Banshee's Veil,-2.6585,373
+16.8,4th+ Item,3107,Redemption,-0.1513,155
+16.8,4th+ Item,3110,Frozen Heart,-0.1365,1486
+16.8,4th+ Item,3118,Malignance,-1.1284,459
+16.8,4th+ Item,3135,Void Staff,4.2686,138
+16.8,4th+ Item,3137,Cryptbloom,1.7476,171
+16.8,4th+ Item,3143,Randuin's Omen,2.0411,110
+16.8,4th+ Item,3152,Hextech Rocketbelt,-0.9505,108
+16.8,4th+ Item,3157,Zhonya's Hourglass,0.5617,2225
+16.8,4th+ Item,3165,Morellonomicon,-0.511,2014
+16.8,4th+ Item,3190,Locket of the Iron Solari,-0.5021,192
+16.8,4th+ Item,3222,Mikael's Blessing,2.4047,123
+16.8,4th+ Item,4645,Shadowflame,-0.4194,1968
+16.8,4th+ Item,4646,Stormsurge,-0.6636,1628
+16.8,4th+ Item,6655,Luden's Echo,-2.2704,480
+16.8,4th+ Item,8020,Abyssal Mask,0.9744,434
+16.8,All Items,4646,Stormsurge,-0.2408,5244
+16.8,All Items,4645,Shadowflame,0.6535,3062
+16.8,All Items,6653,Liandry's Torment,-1.268,177
+16.8,All Items,2525,Protoplasm Harness,0.6645,126
+16.8,All Items,3135,Void Staff,4.9472,202
+16.8,All Items,3143,Randuin's Omen,-0.9025,158
+16.8,All Items,3041,Mejai's Soulstealer,-1.6326,342
+16.8,All Items,3118,Malignance,-1.8908,1587
+16.8,All Items,6655,Luden's Echo,-1.5603,2918
+16.8,All Items,3107,Redemption,-3.7623,263
+16.8,All Items,3137,Cryptbloom,0.9616,209
+16.8,All Items,2065,Shurelya's Battlesong,0.9175,472
+16.8,All Items,2504,Kaenic Rookern,2.8939,149
+16.8,All Items,3165,Morellonomicon,-0.3527,2840
+16.8,All Items,3110,Frozen Heart,1.5584,4908
+16.8,All Items,3002,Trailblazer,4.309,106
+16.8,All Items,3222,Mikael's Blessing,-0.4664,358
+16.8,All Items,3157,Zhonya's Hourglass,-0.2316,21934
+16.8,All Items,2524,Bandlepipes,1.8514,374
+16.8,All Items,3190,Locket of the Iron Solari,-0.0254,422
+16.8,All Items,3116,Rylai's Crystal Scepter,2.4125,207
+16.8,All Items,3050,Zeke's Convergence,3.999,229
+16.8,All Items,4005,Imperial Mandate,-0.8446,116
+16.8,All Items,8020,Abyssal Mask,0.5232,806
+16.8,All Items,3089,Rabadon's Deathcap,1.5301,951
+16.8,All Items,3152,Hextech Rocketbelt,0.0366,41439
+16.8,All Items,3102,Banshee's Veil,-0.7552,548
+16.9,Keystone,8369,First Strike,2.8869,198
+16.9,Keystone,8230,Stormraider's Surge,-2.2636,110
+16.9,Keystone,8214,Summon Aery,-0.1705,257
+16.9,Keystone,8360,Unsealed Spellbook,-2.0674,138
+16.9,Keystone,8229,Arcane Comet,0.4277,44431
+16.9,Keystone,8992,Deathfire Touch,-0.8402,1502
+16.9,Keystone,8128,Dark Harvest,1.2813,1121
+16.9,Keystone,8112,Electrocute,-2.6928,6133
+16.9,Keystone,8351,Glacial Augment,-2.2499,209
+16.9,Spell,3,Exhaust,-0.901,3239
+16.9,Spell,4,Flash,0.001,54350
+16.9,Spell,7,Heal,1.6425,26714
+16.9,Spell,12,Teleport,1.5267,101
+16.9,Spell,14,Ignite,-1.708,24224
+16.9,Starter,3865,World Atlas,0.0,54369
+16.9,Boots,3009,Boots of Swiftness,0.7433,1489
+16.9,Boots,3020,Sorcerer's Shoes,-1.0535,17244
+16.9,Boots,3047,Plated Steelcaps,2.1401,643
+16.9,Boots,3111,Mercury's Treads,0.7017,865
+16.9,Boots,3158,Ionian Boots of Lucidity,0.5019,31784
+16.9,2nd Item,3118,Malignance,2.1823,619
+16.9,2nd Item,3152,Hextech Rocketbelt,0.1509,49523
+16.9,2nd Item,3157,Zhonya's Hourglass,-2.6621,314
+16.9,2nd Item,4646,Stormsurge,1.472,770
+16.9,2nd Item,6655,Luden's Echo,-4.3157,1533
+16.9,3rd Item,2065,Shurelya's Battlesong,-2.1022,251
+16.9,3rd Item,2524,Bandlepipes,-5.0513,179
+16.9,3rd Item,2525,Protoplasm Harness,3.2608,103
+16.9,3rd Item,3041,Mejai's Soulstealer,-1.3445,172
+16.9,3rd Item,3050,Zeke's Convergence,1.218,170
+16.9,3rd Item,3089,Rabadon's Deathcap,1.2007,336
+16.9,3rd Item,3102,Banshee's Veil,-0.3081,246
+16.9,3rd Item,3107,Redemption,-3.8917,121
+16.9,3rd Item,3110,Frozen Heart,1.0821,3882
+16.9,3rd Item,3118,Malignance,-0.9332,871
+16.9,3rd Item,3152,Hextech Rocketbelt,-1.556,845
+16.9,3rd Item,3157,Zhonya's Hourglass,0.2412,23652
+16.9,3rd Item,3165,Morellonomicon,0.4823,953
+16.9,3rd Item,3190,Locket of the Iron Solari,2.0526,227
+16.9,3rd Item,3222,Mikael's Blessing,1.6247,260
+16.9,3rd Item,4645,Shadowflame,-0.2527,1150
+16.9,3rd Item,4646,Stormsurge,-1.0556,3575
+16.9,3rd Item,6655,Luden's Echo,-3.546,1377
+16.9,3rd Item,8020,Abyssal Mask,2.6173,426
+16.9,4th+ Item,2065,Shurelya's Battlesong,1.8163,195
+16.9,4th+ Item,2504,Kaenic Rookern,4.0243,117
+16.9,4th+ Item,2524,Bandlepipes,-1.3609,163
+16.9,4th+ Item,3041,Mejai's Soulstealer,1.5647,206
+16.9,4th+ Item,3050,Zeke's Convergence,1.274,138
+16.9,4th+ Item,3089,Rabadon's Deathcap,1.5079,748
+16.9,4th+ Item,3102,Banshee's Veil,2.5723,521
+16.9,4th+ Item,3107,Redemption,1.2282,161
+16.9,4th+ Item,3110,Frozen Heart,0.6972,1713
+16.9,4th+ Item,3118,Malignance,-1.3466,533
+16.9,4th+ Item,3135,Void Staff,-1.1421,177
+16.9,4th+ Item,3137,Cryptbloom,1.8836,220
+16.9,4th+ Item,3143,Randuin's Omen,4.0528,140
+16.9,4th+ Item,3152,Hextech Rocketbelt,-0.7246,136
+16.9,4th+ Item,3157,Zhonya's Hourglass,-0.165,2797
+16.9,4th+ Item,3165,Morellonomicon,-0.3717,2706
+16.9,4th+ Item,3190,Locket of the Iron Solari,-2.7305,226
+16.9,4th+ Item,3222,Mikael's Blessing,-4.511,133
+16.9,4th+ Item,4645,Shadowflame,-0.6393,2513
+16.9,4th+ Item,4646,Stormsurge,-0.1486,1970
+16.9,4th+ Item,6655,Luden's Echo,-1.012,604
+16.9,4th+ Item,8020,Abyssal Mask,1.9888,520
+16.9,All Items,4646,Stormsurge,-0.464,6321
+16.9,All Items,4645,Shadowflame,-0.6035,3721
+16.9,All Items,6653,Liandry's Torment,-2.4751,225
+16.9,All Items,2525,Protoplasm Harness,1.7351,194
+16.9,All Items,3135,Void Staff,0.5254,209
+16.9,All Items,3143,Randuin's Omen,1.6446,203
+16.9,All Items,3041,Mejai's Soulstealer,0.6657,416
+16.9,All Items,3118,Malignance,-0.0885,2030
+16.9,All Items,6655,Luden's Echo,-3.4453,3515
+16.9,All Items,3107,Redemption,-0.6909,291
+16.9,All Items,3137,Cryptbloom,1.8812,291
+16.9,All Items,2065,Shurelya's Battlesong,-0.3085,480
+16.9,All Items,2504,Kaenic Rookern,4.8725,159
+16.9,All Items,3109,Knight's Vow,0.9847,133
+16.9,All Items,3165,Morellonomicon,-0.1457,3713
+16.9,All Items,3110,Frozen Heart,0.9594,5629
+16.9,All Items,3222,Mikael's Blessing,-1.0799,417
+16.9,All Items,3157,Zhonya's Hourglass,0.1647,26770
+16.9,All Items,2524,Bandlepipes,-3.5083,366
+16.9,All Items,3190,Locket of the Iron Solari,-0.036,478
+16.9,All Items,3116,Rylai's Crystal Scepter,-4.0472,171
+16.9,All Items,3050,Zeke's Convergence,0.2017,336
+16.9,All Items,4005,Imperial Mandate,-0.303,114
+16.9,All Items,8020,Abyssal Mask,2.1595,952
+16.9,All Items,3089,Rabadon's Deathcap,1.4723,1096
+16.9,All Items,3152,Hextech Rocketbelt,0.12,50505
+16.9,All Items,3102,Banshee's Veil,1.6277,776
+16.10,Keystone,8369,First Strike,0.085,205
+16.10,Keystone,8214,Summon Aery,2.8283,256
+16.10,Keystone,9923,Hail of Blades,7.388,120
+16.10,Keystone,8360,Unsealed Spellbook,3.1614,139
+16.10,Keystone,8229,Arcane Comet,0.3765,50235
+16.10,Keystone,8992,Deathfire Touch,-4.1291,833
+16.10,Keystone,8128,Dark Harvest,1.9207,1335
+16.10,Keystone,8112,Electrocute,-3.0133,6712
+16.10,Keystone,8351,Glacial Augment,4.4607,192
+16.10,Spell,3,Exhaust,-1.5834,3702
+16.10,Spell,4,Flash,0.0025,60270
+16.10,Spell,7,Heal,1.4009,29683
+16.10,Spell,14,Ignite,-1.3304,26747
+16.10,Starter,3865,World Atlas,0.0,60300
+16.10,Boots,3009,Boots of Swiftness,0.0635,2163
+16.10,Boots,3020,Sorcerer's Shoes,-1.0862,20037
+16.10,Boots,3047,Plated Steelcaps,-0.1515,739
+16.10,Boots,3111,Mercury's Treads,2.3347,1003
+16.10,Boots,3158,Ionian Boots of Lucidity,0.3724,33752
+16.10,2nd Item,3041,Mejai's Soulstealer,2.2356,103
+16.10,2nd Item,3116,Rylai's Crystal Scepter,8.3412,105
+16.10,2nd Item,3118,Malignance,-3.167,603
+16.10,2nd Item,3152,Hextech Rocketbelt,0.0632,54986
+16.10,2nd Item,3157,Zhonya's Hourglass,-2.1298,403
+16.10,2nd Item,4646,Stormsurge,2.8849,869
+16.10,2nd Item,6655,Luden's Echo,-1.5379,1684
+16.10,3rd Item,2065,Shurelya's Battlesong,0.3559,243
+16.10,3rd Item,2524,Bandlepipes,-0.039,176
+16.10,3rd Item,2525,Protoplasm Harness,-0.0281,184
+16.10,3rd Item,3041,Mejai's Soulstealer,-3.2672,203
+16.10,3rd Item,3050,Zeke's Convergence,2.3785,151
+16.10,3rd Item,3089,Rabadon's Deathcap,-1.5801,408
+16.10,3rd Item,3102,Banshee's Veil,2.3302,195
+16.10,3rd Item,3110,Frozen Heart,1.1499,4366
+16.10,3rd Item,3118,Malignance,-0.3405,1023
+16.10,3rd Item,3152,Hextech Rocketbelt,1.2409,873
+16.10,3rd Item,3157,Zhonya's Hourglass,-0.1803,26305
+16.10,3rd Item,3165,Morellonomicon,1.2426,1024
+16.10,3rd Item,3190,Locket of the Iron Solari,2.7172,277
+16.10,3rd Item,3222,Mikael's Blessing,-3.9729,311
+16.10,3rd Item,4645,Shadowflame,0.0924,1279
+16.10,3rd Item,4646,Stormsurge,-0.5175,4354
+16.10,3rd Item,6655,Luden's Echo,-1.436,1492
+16.10,3rd Item,8020,Abyssal Mask,3.5245,538
+16.10,4th+ Item,2065,Shurelya's Battlesong,-1.7764,224
+16.10,4th+ Item,2504,Kaenic Rookern,4.9277,150
+16.10,4th+ Item,2524,Bandlepipes,5.0554,173
+16.10,4th+ Item,2525,Protoplasm Harness,1.7668,111
+16.10,4th+ Item,3041,Mejai's Soulstealer,1.1579,281
+16.10,4th+ Item,3050,Zeke's Convergence,6.2785,148
+16.10,4th+ Item,3089,Rabadon's Deathcap,-1.4616,875
+16.10,4th+ Item,3102,Banshee's Veil,-0.7839,553
+16.10,4th+ Item,3107,Redemption,1.3555,192
+16.10,4th+ Item,3109,Knight's Vow,-0.4725,118
+16.10,4th+ Item,3110,Frozen Heart,0.871,1984
+16.10,4th+ Item,3118,Malignance,-1.8311,575
+16.10,4th+ Item,3135,Void Staff,-1.1341,174
+16.10,4th+ Item,3137,Cryptbloom,2.2589,244
+16.10,4th+ Item,3143,Randuin's Omen,5.5059,139
+16.10,4th+ Item,3152,Hextech Rocketbelt,-4.6615,174
+16.10,4th+ Item,3157,Zhonya's Hourglass,-1.2518,3186
+16.10,4th+ Item,3165,Morellonomicon,0.2072,3019
+16.10,4th+ Item,3190,Locket of the Iron Solari,5.7516,221
+16.10,4th+ Item,3222,Mikael's Blessing,2.4661,168
+16.10,4th+ Item,4645,Shadowflame,-0.1903,2891
+16.10,4th+ Item,4646,Stormsurge,-0.2217,2237
+16.10,4th+ Item,6655,Luden's Echo,-0.1388,620
+16.10,4th+ Item,8020,Abyssal Mask,1.2449,596
+16.10,All Items,4646,Stormsurge,-0.0325,7464
+16.10,All Items,4645,Shadowflame,-0.0906,4246
+16.10,All Items,6653,Liandry's Torment,1.3239,241
+16.10,All Items,2525,Protoplasm Harness,0.656,297
+16.10,All Items,8010,Bloodletter's Curse,3.486,102
+16.10,All Items,3135,Void Staff,-0.0719,230
+16.10,All Items,3143,Randuin's Omen,2.9456,211
+16.10,All Items,3041,Mejai's Soulstealer,-0.1833,587
+16.10,All Items,3118,Malignance,-1.5071,2213
+16.10,All Items,6655,Luden's Echo,-1.2516,3805
+16.10,All Items,3107,Redemption,0.8832,298
+16.10,All Items,3137,Cryptbloom,2.1022,313
+16.10,All Items,2065,Shurelya's Battlesong,-1.3669,520
+16.10,All Items,2504,Kaenic Rookern,5.1746,228
+16.10,All Items,3109,Knight's Vow,0.3759,177
+16.10,All Items,3165,Morellonomicon,0.5227,4109
+16.10,All Items,3110,Frozen Heart,1.0637,6383
+16.10,All Items,3222,Mikael's Blessing,-1.9583,513
+16.10,All Items,3157,Zhonya's Hourglass,-0.3227,29904
+16.10,All Items,2524,Bandlepipes,1.3705,372
+16.10,All Items,3190,Locket of the Iron Solari,3.4168,548
+16.10,All Items,3116,Rylai's Crystal Scepter,7.2286,199
+16.10,All Items,3050,Zeke's Convergence,4.6232,314
+16.10,All Items,4005,Imperial Mandate,-0.8804,149
+16.10,All Items,8020,Abyssal Mask,2.3664,1142
+16.10,All Items,3089,Rabadon's Deathcap,-1.4981,1308
+16.10,All Items,3152,Hextech Rocketbelt,0.0677,56037
+16.10,All Items,3102,Banshee's Veil,-0.005,755
+16.11,Keystone,8369,First Strike,0.1842,182
+16.11,Keystone,8214,Summon Aery,-4.0465,158
+16.11,Keystone,8360,Unsealed Spellbook,-1.7614,135
+16.11,Keystone,8229,Arcane Comet,0.2723,40172
+16.11,Keystone,8992,Deathfire Touch,3.95,390
+16.11,Keystone,8128,Dark Harvest,-0.3078,843
+16.11,Keystone,8112,Electrocute,-2.3018,5694
+16.11,Keystone,8439,Aftershock,6.1131,121
+16.11,Keystone,8351,Glacial Augment,4.1366,305
+16.11,Spell,3,Exhaust,-0.8875,3100
+16.11,Spell,4,Flash,0.0083,48212
+16.11,Spell,7,Heal,1.3181,22434
+16.11,Spell,14,Ignite,-1.1437,22544
+16.11,Starter,3865,World Atlas,-0.0,48242
+16.11,Boots,3009,Boots of Swiftness,1.0206,1725
+16.11,Boots,3020,Sorcerer's Shoes,-1.0237,15925
+16.11,Boots,3047,Plated Steelcaps,1.3289,631
+16.11,Boots,3111,Mercury's Treads,1.3231,822
+16.11,Boots,3158,Ionian Boots of Lucidity,0.4998,26959
+16.11,2nd Item,3118,Malignance,0.0099,585
+16.11,2nd Item,3152,Hextech Rocketbelt,0.1682,42995
+16.11,2nd Item,3157,Zhonya's Hourglass,1.1999,362
+16.11,2nd Item,4005,Imperial Mandate,-0.5397,821
+16.11,2nd Item,4646,Stormsurge,1.2899,684
+16.11,2nd Item,6655,Luden's Echo,-4.4051,1393
+16.11,3rd Item,2065,Shurelya's Battlesong,-1.4939,227
+16.11,3rd Item,2524,Bandlepipes,0.4031,117
+16.11,3rd Item,2525,Protoplasm Harness,1.6654,123
+16.11,3rd Item,3041,Mejai's Soulstealer,0.2166,180
+16.11,3rd Item,3050,Zeke's Convergence,0.6023,119
+16.11,3rd Item,3089,Rabadon's Deathcap,2.2419,358
+16.11,3rd Item,3102,Banshee's Veil,1.1384,174
+16.11,3rd Item,3110,Frozen Heart,1.4496,2828
+16.11,3rd Item,3118,Malignance,-0.4788,882
+16.11,3rd Item,3152,Hextech Rocketbelt,0.0836,1180
+16.11,3rd Item,3157,Zhonya's Hourglass,-0.0971,20338
+16.11,3rd Item,3165,Morellonomicon,-1.2719,788
+16.11,3rd Item,3190,Locket of the Iron Solari,3.0051,266
+16.11,3rd Item,3222,Mikael's Blessing,-0.9975,226
+16.11,3rd Item,4005,Imperial Mandate,0.5758,1456
+16.11,3rd Item,4645,Shadowflame,1.6425,853
+16.11,3rd Item,4646,Stormsurge,-1.1757,3369
+16.11,3rd Item,6655,Luden's Echo,-3.3264,1085
+16.11,3rd Item,8020,Abyssal Mask,3.9732,336
+16.11,4th+ Item,2065,Shurelya's Battlesong,-3.3347,191
+16.11,4th+ Item,2504,Kaenic Rookern,0.2089,104
+16.11,4th+ Item,2524,Bandlepipes,-2.0073,138
+16.11,4th+ Item,3041,Mejai's Soulstealer,0.0686,215
+16.11,4th+ Item,3050,Zeke's Convergence,0.0199,120
+16.11,4th+ Item,3089,Rabadon's Deathcap,1.8386,726
+16.11,4th+ Item,3102,Banshee's Veil,0.5716,499
+16.11,4th+ Item,3107,Redemption,-4.3303,113
+16.11,4th+ Item,3109,Knight's Vow,0.6262,129
+16.11,4th+ Item,3110,Frozen Heart,1.6288,1415
+16.11,4th+ Item,3118,Malignance,0.3059,464
+16.11,4th+ Item,3135,Void Staff,2.2696,114
+16.11,4th+ Item,3137,Cryptbloom,-3.0155,195
+16.11,4th+ Item,3143,Randuin's Omen,2.8769,113
+16.11,4th+ Item,3152,Hextech Rocketbelt,-4.5001,165
+16.11,4th+ Item,3157,Zhonya's Hourglass,-0.2186,2565
+16.11,4th+ Item,3165,Morellonomicon,0.3373,2384
+16.11,4th+ Item,3190,Locket of the Iron Solari,-1.4679,187
+16.11,4th+ Item,3222,Mikael's Blessing,-5.3518,127
+16.11,4th+ Item,4005,Imperial Mandate,-1.4563,411
+16.11,4th+ Item,4645,Shadowflame,0.897,2327
+16.11,4th+ Item,4646,Stormsurge,0.2145,1797
+16.11,4th+ Item,6655,Luden's Echo,-5.1638,553
+16.11,4th+ Item,8020,Abyssal Mask,-0.3097,392
+16.11,All Items,4646,Stormsurge,-0.4602,5853
+16.11,All Items,4645,Shadowflame,1.0237,3247
+16.11,All Items,6653,Liandry's Torment,-3.1252,201
+16.11,All Items,2525,Protoplasm Harness,0.894,219
+16.11,All Items,3135,Void Staff,2.8691,155
+16.11,All Items,3143,Randuin's Omen,4.1071,189
+16.11,All Items,3041,Mejai's Soulstealer,-0.7987,441
+16.11,All Items,3118,Malignance,-0.1421,1933
+16.11,All Items,6655,Luden's Echo,-4.1533,3034
+16.11,All Items,3107,Redemption,-0.2222,191
+16.11,All Items,3137,Cryptbloom,-2.3421,234
+16.11,All Items,2065,Shurelya's Battlesong,-2.5303,462
+16.11,All Items,2504,Kaenic Rookern,2.806,166
+16.11,All Items,3109,Knight's Vow,-0.2369,226
+16.11,All Items,3165,Morellonomicon,-0.0317,3207
+16.11,All Items,3110,Frozen Heart,1.5025,4306
+16.11,All Items,3222,Mikael's Blessing,-2.7964,372
+16.11,All Items,3157,Zhonya's Hourglass,-0.0916,23275
+16.11,All Items,2524,Bandlepipes,-0.7329,273
+16.11,All Items,3190,Locket of the Iron Solari,0.8598,492
+16.11,All Items,3116,Rylai's Crystal Scepter,-0.8865,114
+16.11,All Items,3050,Zeke's Convergence,-0.0764,258
+16.11,All Items,4005,Imperial Mandate,-0.0741,2689
+16.11,All Items,8020,Abyssal Mask,1.6381,733
+16.11,All Items,3089,Rabadon's Deathcap,2.0004,1105
+16.11,All Items,3152,Hextech Rocketbelt,0.1486,44343
+16.11,All Items,3102,Banshee's Veil,0.7341,687
+16.12,Keystone,8369,First Strike,-0.6075,134
+16.12,Keystone,8214,Summon Aery,-6.2207,180
+16.12,Keystone,8360,Unsealed Spellbook,-2.6483,188
+16.12,Keystone,8229,Arcane Comet,0.4093,43031
+16.12,Keystone,8992,Deathfire Touch,-5.878,356
+16.12,Keystone,8128,Dark Harvest,0.0307,1098
+16.12,Keystone,8112,Electrocute,-2.2663,6334
+16.12,Keystone,8351,Glacial Augment,3.25,352
+16.12,Spell,3,Exhaust,0.4583,3789
+16.12,Spell,4,Flash,0.0042,51968
+16.12,Spell,7,Heal,1.0706,23508
+16.12,Spell,14,Ignite,-1.0732,24517
+16.12,Starter,3865,World Atlas,-0.0,51996
+16.12,Boots,3009,Boots of Swiftness,1.6453,1429
+16.12,Boots,3020,Sorcerer's Shoes,-1.2941,17684
+16.12,Boots,3047,Plated Steelcaps,-0.3969,753
+16.12,Boots,3111,Mercury's Treads,2.3202,863
+16.12,Boots,3158,Ionian Boots of Lucidity,0.5718,28864
+16.12,2nd Item,3118,Malignance,-3.0462,541
+16.12,2nd Item,3152,Hextech Rocketbelt,0.1392,46629
+16.12,2nd Item,3157,Zhonya's Hourglass,-3.1512,345
+16.12,2nd Item,4005,Imperial Mandate,3.1419,663
+16.12,2nd Item,4646,Stormsurge,-0.0536,803
+16.12,2nd Item,6655,Luden's Echo,-3.7098,1491
+16.12,3rd Item,2065,Shurelya's Battlesong,-0.9647,208
+16.12,3rd Item,2524,Bandlepipes,0.2906,104
+16.12,3rd Item,3041,Mejai's Soulstealer,3.562,185
+16.12,3rd Item,3050,Zeke's Convergence,4.787,113
+16.12,3rd Item,3089,Rabadon's Deathcap,-2.2418,375
+16.12,3rd Item,3102,Banshee's Veil,0.8149,183
+16.12,3rd Item,3110,Frozen Heart,0.8503,2432
+16.12,3rd Item,3118,Malignance,-0.5354,796
+16.12,3rd Item,3152,Hextech Rocketbelt,-1.068,1020
+16.12,3rd Item,3157,Zhonya's Hourglass,-0.0359,22262
+16.12,3rd Item,3165,Morellonomicon,-0.0471,865
+16.12,3rd Item,3190,Locket of the Iron Solari,6.0743,254
+16.12,3rd Item,3222,Mikael's Blessing,1.7556,286
+16.12,3rd Item,4005,Imperial Mandate,1.1187,2423
+16.12,3rd Item,4645,Shadowflame,-0.2096,913
+16.12,3rd Item,4646,Stormsurge,-0.9855,3470
+16.12,3rd Item,6655,Luden's Echo,-2.51,1218
+16.12,3rd Item,8020,Abyssal Mask,0.6076,316
+16.12,4th+ Item,2065,Shurelya's Battlesong,4.0626,179
+16.12,4th+ Item,2504,Kaenic Rookern,2.1178,121
+16.12,4th+ Item,2524,Bandlepipes,5.9506,119
+16.12,4th+ Item,2525,Protoplasm Harness,2.0175,107
+16.12,4th+ Item,3041,Mejai's Soulstealer,0.6392,226
+16.12,4th+ Item,3050,Zeke's Convergence,0.323,108
+16.12,4th+ Item,3089,Rabadon's Deathcap,-0.1475,745
+16.12,4th+ Item,3102,Banshee's Veil,3.9989,421
+16.12,4th+ Item,3107,Redemption,-6.0938,110
+16.12,4th+ Item,3109,Knight's Vow,2.5965,140
+16.12,4th+ Item,3110,Frozen Heart,0.607,1331
+16.12,4th+ Item,3118,Malignance,-0.3806,480
+16.12,4th+ Item,3135,Void Staff,2.3976,156
+16.12,4th+ Item,3137,Cryptbloom,-3.5384,186
+16.12,4th+ Item,3143,Randuin's Omen,-2.9025,104
+16.12,4th+ Item,3152,Hextech Rocketbelt,2.6712,127
+16.12,4th+ Item,3157,Zhonya's Hourglass,0.2548,2757
+16.12,4th+ Item,3165,Morellonomicon,0.021,2413
+16.12,4th+ Item,3190,Locket of the Iron Solari,2.0466,178
+16.12,4th+ Item,3222,Mikael's Blessing,-6.7927,125
+16.12,4th+ Item,4005,Imperial Mandate,-0.7618,1259
+16.12,4th+ Item,4645,Shadowflame,-1.0268,2432
+16.12,4th+ Item,4646,Stormsurge,-1.0058,1944
+16.12,4th+ Item,6655,Luden's Echo,1.2895,603
+16.12,4th+ Item,8020,Abyssal Mask,2.401,389
+16.12,All Items,4646,Stormsurge,-0.8777,6225
+16.12,All Items,4645,Shadowflame,-0.8512,3405
+16.12,All Items,6653,Liandry's Torment,4.0976,218
+16.12,All Items,2525,Protoplasm Harness,2.1659,186
+16.12,All Items,3135,Void Staff,3.7121,181
+16.12,All Items,3143,Randuin's Omen,-1.8581,158
+16.12,All Items,3041,Mejai's Soulstealer,1.259,474
+16.12,All Items,3118,Malignance,-1.2405,1825
+16.12,All Items,6655,Luden's Echo,-2.3562,3315
+16.12,All Items,3107,Redemption,-2.462,245
+16.12,All Items,3137,Cryptbloom,-2.5534,233
+16.12,All Items,2065,Shurelya's Battlesong,1.5572,447
+16.12,All Items,2504,Kaenic Rookern,5.1612,165
+16.12,All Items,3109,Knight's Vow,2.7477,231
+16.12,All Items,3165,Morellonomicon,0.0196,3336
+16.12,All Items,3110,Frozen Heart,0.6979,3797
+16.12,All Items,3222,Mikael's Blessing,-0.3202,426
+16.12,All Items,3157,Zhonya's Hourglass,-0.0493,25380
+16.12,All Items,2524,Bandlepipes,2.3975,233
+16.12,All Items,3190,Locket of the Iron Solari,4.6182,449
+16.12,All Items,3116,Rylai's Crystal Scepter,-3.6888,135
+16.12,All Items,3050,Zeke's Convergence,2.9048,234
+16.12,All Items,4005,Imperial Mandate,0.8813,4351
+16.12,All Items,8020,Abyssal Mask,1.5215,709
+16.12,All Items,3089,Rabadon's Deathcap,-0.7372,1140
+16.12,All Items,3152,Hextech Rocketbelt,0.1201,47776
+16.12,All Items,3102,Banshee's Veil,3.0598,611
+16.13,Keystone,8369,First Strike,-1.7357,192
+16.13,Keystone,8214,Summon Aery,-3.2355,290
+16.13,Keystone,8360,Unsealed Spellbook,-5.7827,167
+16.13,Keystone,8229,Arcane Comet,0.3245,61315
+16.13,Keystone,8992,Deathfire Touch,-4.6307,405
+16.13,Keystone,8128,Dark Harvest,0.9056,1709
+16.13,Keystone,8112,Electrocute,-2.0021,9503
+16.13,Keystone,8351,Glacial Augment,4.267,430
+16.13,Spell,3,Exhaust,-0.6281,5564
+16.13,Spell,4,Flash,-0.0023,74299
+16.13,Spell,7,Heal,1.6523,33033
+16.13,Spell,12,Teleport,-9.2948,127
+16.13,Spell,14,Ignite,-1.3668,35487
+16.13,Starter,3865,World Atlas,0.0,74332
+16.13,Boots,3009,Boots of Swiftness,0.3523,2015
+16.13,Boots,3020,Sorcerer's Shoes,-1.2865,25088
+16.13,Boots,3047,Plated Steelcaps,1.5971,869
+16.13,Boots,3111,Mercury's Treads,0.8986,1212
+16.13,Boots,3158,Ionian Boots of Lucidity,0.698,41931
+16.13,2nd Item,3118,Malignance,-3.8319,857
+16.13,2nd Item,3152,Hextech Rocketbelt,0.234,66825
+16.13,2nd Item,3157,Zhonya's Hourglass,-2.5186,549
+16.13,2nd Item,4005,Imperial Mandate,-2.1231,859
+16.13,2nd Item,4645,Shadowflame,-0.2938,138
+16.13,2nd Item,4646,Stormsurge,-0.3545,904
+16.13,2nd Item,6653,Liandry's Torment,-1.386,109
+16.13,2nd Item,6655,Luden's Echo,-3.5339,2289
+16.13,3rd Item,2065,Shurelya's Battlesong,2.0964,362
+16.13,3rd Item,2524,Bandlepipes,-0.4879,141
+16.13,3rd Item,3041,Mejai's Soulstealer,0.9259,289
+16.13,3rd Item,3050,Zeke's Convergence,0.3907,136
+16.13,3rd Item,3089,Rabadon's Deathcap,-3.038,327
+16.13,3rd Item,3102,Banshee's Veil,5.9175,284
+16.13,3rd Item,3109,Knight's Vow,1.6412,162
+16.13,3rd Item,3110,Frozen Heart,1.7495,2924
+16.13,3rd Item,3118,Malignance,-0.1468,1113
+16.13,3rd Item,3152,Hextech Rocketbelt,-1.0979,1619
+16.13,3rd Item,3157,Zhonya's Hourglass,-0.3054,31597
+16.13,3rd Item,3165,Morellonomicon,0.8533,1088
+16.13,3rd Item,3190,Locket of the Iron Solari,2.1175,331
+16.13,3rd Item,3222,Mikael's Blessing,2.9407,354
+16.13,3rd Item,4005,Imperial Mandate,2.1986,4155
+16.13,3rd Item,4645,Shadowflame,-1.6783,1425
+16.13,3rd Item,4646,Stormsurge,-0.8755,5232
+16.13,3rd Item,6655,Luden's Echo,-0.9358,1717
+16.13,3rd Item,8020,Abyssal Mask,1.5539,550
+16.13,4th+ Item,2065,Shurelya's Battlesong,-1.561,283
+16.13,4th+ Item,2504,Kaenic Rookern,7.7239,136
+16.13,4th+ Item,2524,Bandlepipes,-0.533,167
+16.13,4th+ Item,2525,Protoplasm Harness,1.8487,136
+16.13,4th+ Item,3041,Mejai's Soulstealer,0.6345,338
+16.13,4th+ Item,3050,Zeke's Convergence,6.6114,152
+16.13,4th+ Item,3089,Rabadon's Deathcap,-0.4404,1134
+16.13,4th+ Item,3102,Banshee's Veil,-0.562,644
+16.13,4th+ Item,3107,Redemption,2.4956,145
+16.13,4th+ Item,3109,Knight's Vow,2.9211,138
+16.13,4th+ Item,3110,Frozen Heart,1.1396,1724
+16.13,4th+ Item,3118,Malignance,-1.7843,721
+16.13,4th+ Item,3135,Void Staff,-3.1776,213
+16.13,4th+ Item,3137,Cryptbloom,5.1707,239
+16.13,4th+ Item,3143,Randuin's Omen,1.0047,150
+16.13,4th+ Item,3152,Hextech Rocketbelt,-4.8632,217
+16.13,4th+ Item,3157,Zhonya's Hourglass,-0.1321,4121
+16.13,4th+ Item,3165,Morellonomicon,0.119,3340
+16.13,4th+ Item,3190,Locket of the Iron Solari,1.1954,286
+16.13,4th+ Item,3222,Mikael's Blessing,-5.4344,193
+16.13,4th+ Item,4005,Imperial Mandate,-0.3191,2358
+16.13,4th+ Item,4645,Shadowflame,-0.1523,3460
+16.13,4th+ Item,4646,Stormsurge,0.4723,2759
+16.13,4th+ Item,6655,Luden's Echo,-2.5846,842
+16.13,4th+ Item,8020,Abyssal Mask,0.8515,529
+16.13,All Items,2065,Shurelya's Battlesong,-0.3033,703
+16.13,All Items,2503,Blackfire Torch,-5.5762,102
+16.13,All Items,2504,Kaenic Rookern,3.2936,221
+16.13,All Items,2524,Bandlepipes,-0.3695,313
+16.13,All Items,2525,Protoplasm Harness,2.2049,212
+16.13,All Items,3041,Mejai's Soulstealer,1.0125,702
+16.13,All Items,3050,Zeke's Convergence,3.6763,306
+16.13,All Items,3089,Rabadon's Deathcap,-0.8369,1511
+16.13,All Items,3102,Banshee's Veil,1.2637,945
+16.13,All Items,3107,Redemption,0.8872,237
+16.13,All Items,3109,Knight's Vow,1.6809,310
+16.13,All Items,3110,Frozen Heart,1.4738,4685
+16.13,All Items,3115,Nashor's Tooth,-4.722,141
+16.13,All Items,3116,Rylai's Crystal Scepter,3.9419,183
+16.13,All Items,3118,Malignance,-1.7698,2699
+16.13,All Items,3135,Void Staff,-2.5472,259
+16.13,All Items,3137,Cryptbloom,3.7484,306
+16.13,All Items,3143,Randuin's Omen,1.7332,221
+16.13,All Items,3152,Hextech Rocketbelt,0.1865,68663
+16.13,All Items,3157,Zhonya's Hourglass,-0.319,36282
+16.13,All Items,3165,Morellonomicon,0.353,4492
+16.13,All Items,3190,Locket of the Iron Solari,2.0487,650
+16.13,All Items,3222,Mikael's Blessing,-0.0405,575
+16.13,All Items,4005,Imperial Mandate,0.8949,7377
+16.13,All Items,4645,Shadowflame,-0.5892,5039
+16.13,All Items,4646,Stormsurge,-0.4041,8902
+16.13,All Items,6653,Liandry's Torment,3.6068,274
+16.13,All Items,6655,Luden's Echo,-2.4483,4849
+16.13,All Items,8010,Bloodletter's Curse,-0.6239,131
+16.13,All Items,8020,Abyssal Mask,1.2403,1084
+16.14,Keystone,8214,Summon Aery,-1.7165,189
+16.14,Keystone,8360,Unsealed Spellbook,-7.741,105
+16.14,Keystone,8229,Arcane Comet,0.3505,32089
+16.14,Keystone,8992,Deathfire Touch,-3.3002,185
+16.14,Keystone,8128,Dark Harvest,2.5256,1013
+16.14,Keystone,8112,Electrocute,-2.2486,5525
+16.14,Keystone,8351,Glacial Augment,5.8941,330
+16.14,Spell,3,Exhaust,-0.2452,3302
+16.14,Spell,4,Flash,0.0054,39741
+16.14,Spell,7,Heal,1.4668,15529
+16.14,Spell,14,Ignite,-1.0269,20769
+16.14,Starter,3865,World Atlas,0.0,39750
+16.14,Boots,3009,Boots of Swiftness,1.5066,1262
+16.14,Boots,3020,Sorcerer's Shoes,-0.248,14122
+16.14,Boots,3047,Plated Steelcaps,-2.6467,506
+16.14,Boots,3111,Mercury's Treads,1.1434,897
+16.14,Boots,3158,Ionian Boots of Lucidity,0.1467,21279
+16.14,2nd Item,3118,Malignance,1.0482,436
+16.14,2nd Item,3152,Hextech Rocketbelt,0.1879,34937
+16.14,2nd Item,3157,Zhonya's Hourglass,0.6607,368
+16.14,2nd Item,4005,Imperial Mandate,-1.0882,579
+16.14,2nd Item,4645,Shadowflame,7.3292,126
+16.14,2nd Item,4646,Stormsurge,-0.9384,644
+16.14,2nd Item,6655,Luden's Echo,-4.6625,1563
+16.14,3rd Item,2065,Shurelya's Battlesong,2.3766,147
+16.14,3rd Item,3041,Mejai's Soulstealer,1.0149,156
+16.14,3rd Item,3050,Zeke's Convergence,-0.1797,134
+16.14,3rd Item,3089,Rabadon's Deathcap,2.4328,220
+16.14,3rd Item,3102,Banshee's Veil,-0.3799,132
+16.14,3rd Item,3110,Frozen Heart,0.9777,1300
+16.14,3rd Item,3118,Malignance,1.2938,568
+16.14,3rd Item,3152,Hextech Rocketbelt,-0.0769,1012
+16.14,3rd Item,3157,Zhonya's Hourglass,-0.1053,17012
+16.14,3rd Item,3165,Morellonomicon,1.4897,588
+16.14,3rd Item,3190,Locket of the Iron Solari,4.6739,282
+16.14,3rd Item,3222,Mikael's Blessing,1.466,149
+16.14,3rd Item,4005,Imperial Mandate,0.1229,1952
+16.14,3rd Item,4645,Shadowflame,-0.9417,755
+16.14,3rd Item,4646,Stormsurge,-0.8778,2910
+16.14,3rd Item,6655,Luden's Echo,-1.597,1093
+16.14,3rd Item,8020,Abyssal Mask,1.403,325
+16.14,4th+ Item,2065,Shurelya's Battlesong,-1.1968,134
+16.14,4th+ Item,3041,Mejai's Soulstealer,1.4766,175
+16.14,4th+ Item,3089,Rabadon's Deathcap,-4.8779,559
+16.14,4th+ Item,3102,Banshee's Veil,2.616,321
+16.14,4th+ Item,3110,Frozen Heart,-0.8072,821
+16.14,4th+ Item,3118,Malignance,-3.6255,387
+16.14,4th+ Item,3135,Void Staff,2.977,151
+16.14,4th+ Item,3137,Cryptbloom,-1.0474,189
+16.14,4th+ Item,3152,Hextech Rocketbelt,1.3867,175
+16.14,4th+ Item,3157,Zhonya's Hourglass,0.7483,2138
+16.14,4th+ Item,3165,Morellonomicon,-0.1011,1685
+16.14,4th+ Item,3190,Locket of the Iron Solari,1.1079,151
+16.14,4th+ Item,4005,Imperial Mandate,0.7661,1376
+16.14,4th+ Item,4645,Shadowflame,0.8741,1941
+16.14,4th+ Item,4646,Stormsurge,-1.4668,1474
+16.14,4th+ Item,6655,Luden's Echo,3.4676,502
+16.14,4th+ Item,8020,Abyssal Mask,-2.9747,248
+16.14,All Items,4646,Stormsurge,-1.057,5034
+16.14,All Items,4645,Shadowflame,0.6753,2831
+16.14,All Items,6653,Liandry's Torment,-2.3312,151
+16.14,All Items,2525,Protoplasm Harness,0.3043,102
+16.14,All Items,3135,Void Staff,0.5996,190
+16.14,All Items,3143,Randuin's Omen,5.9591,109
+16.14,All Items,3041,Mejai's Soulstealer,1.189,361
+16.14,All Items,3118,Malignance,-0.1535,1394
+16.14,All Items,6655,Luden's Echo,-2.3084,3159
+16.14,All Items,3107,Redemption,6.8634,138
+16.14,All Items,3137,Cryptbloom,-0.5358,242
+16.14,All Items,2065,Shurelya's Battlesong,1.7248,320
+16.14,All Items,2504,Kaenic Rookern,1.471,128
+16.14,All Items,3109,Knight's Vow,0.481,122
+16.14,All Items,3165,Morellonomicon,0.2903,2306
+16.14,All Items,3110,Frozen Heart,0.2767,2147
+16.14,All Items,3222,Mikael's Blessing,0.79,256
+16.14,All Items,3157,Zhonya's Hourglass,0.0026,19525
+16.14,All Items,2524,Bandlepipes,-1.798,130
+16.14,All Items,3190,Locket of the Iron Solari,4.1179,454
+16.14,All Items,3116,Rylai's Crystal Scepter,2.6645,138
+16.14,All Items,3050,Zeke's Convergence,0.6377,230
+16.14,All Items,4005,Imperial Mandate,0.1698,3910
+16.14,All Items,8020,Abyssal Mask,-0.4152,578
+16.14,All Items,3089,Rabadon's Deathcap,-2.7483,798
+16.14,All Items,3152,Hextech Rocketbelt,0.1863,36127
+16.14,All Items,3102,Banshee's Veil,1.6224,461
+16.15,Keystone,8369,First Strike,4.9762,223
+16.15,Keystone,8214,Summon Aery,-8.0374,181
+16.15,Keystone,8229,Arcane Comet,0.2358,31730
+16.15,Keystone,8992,Deathfire Touch,2.7009,285
+16.15,Keystone,8128,Dark Harvest,2.3679,1056
+16.15,Keystone,8112,Electrocute,-1.4375,5798
+16.15,Keystone,8351,Glacial Augment,-0.4634,162
+16.15,Spell,3,Exhaust,0.3171,3623
+16.15,Spell,4,Flash,0.0041,39733
+16.15,Spell,7,Heal,1.8855,14483
+16.15,Spell,14,Ignite,-1.2991,21484
+16.15,Starter,3865,World Atlas,-0.0,39746
+16.15,Boots,3009,Boots of Swiftness,1.8197,1254
+16.15,Boots,3020,Sorcerer's Shoes,-1.2817,14610
+16.15,Boots,3047,Plated Steelcaps,-0.0358,484
+16.15,Boots,3111,Mercury's Treads,2.8892,795
+16.15,Boots,3158,Ionian Boots of Lucidity,0.8556,20739
+16.15,2nd Item,3118,Malignance,-3.3644,530
+16.15,2nd Item,3152,Hextech Rocketbelt,0.2004,34499
+16.15,2nd Item,3157,Zhonya's Hourglass,-0.1785,343
+16.15,2nd Item,4005,Imperial Mandate,-1.6681,521
+16.15,2nd Item,4645,Shadowflame,-1.6408,123
+16.15,2nd Item,4646,Stormsurge,1.3413,792
+16.15,2nd Item,6655,Luden's Echo,-2.7428,1721
+16.15,3rd Item,2065,Shurelya's Battlesong,0.899,153
+16.15,3rd Item,3041,Mejai's Soulstealer,4.1275,169
+16.15,3rd Item,3050,Zeke's Convergence,2.5116,142
+16.15,3rd Item,3089,Rabadon's Deathcap,0.894,362
+16.15,3rd Item,3102,Banshee's Veil,5.5101,162
+16.15,3rd Item,3110,Frozen Heart,1.821,1268
+16.15,3rd Item,3118,Malignance,-2.3447,576
+16.15,3rd Item,3152,Hextech Rocketbelt,-1.9536,1009
+16.15,3rd Item,3157,Zhonya's Hourglass,0.3084,16555
+16.15,3rd Item,3165,Morellonomicon,-2.9988,649
+16.15,3rd Item,3190,Locket of the Iron Solari,3.6067,257
+16.15,3rd Item,3222,Mikael's Blessing,-1.7902,113
+16.15,3rd Item,4005,Imperial Mandate,-0.5084,1940
+16.15,3rd Item,4645,Shadowflame,-0.6301,879
+16.15,3rd Item,4646,Stormsurge,-1.3333,3201
+16.15,3rd Item,6655,Luden's Echo,-2.2434,1080
+16.15,3rd Item,8020,Abyssal Mask,6.8722,322
+16.15,4th+ Item,2065,Shurelya's Battlesong,-5.0303,130
+16.15,4th+ Item,3041,Mejai's Soulstealer,0.0224,170
+16.15,4th+ Item,3089,Rabadon's Deathcap,2.5386,670
+16.15,4th+ Item,3102,Banshee's Veil,4.9422,355
+16.15,4th+ Item,3110,Frozen Heart,0.8919,782
+16.15,4th+ Item,3118,Malignance,-0.781,384
+16.15,4th+ Item,3135,Void Staff,-1.5714,148
+16.15,4th+ Item,3137,Cryptbloom,3.9567,157
+16.15,4th+ Item,3152,Hextech Rocketbelt,-6.0873,179
+16.15,4th+ Item,3157,Zhonya's Hourglass,-0.3399,2214
+16.15,4th+ Item,3165,Morellonomicon,-0.2894,1759
+16.15,4th+ Item,3190,Locket of the Iron Solari,-1.2882,132
+16.15,4th+ Item,4005,Imperial Mandate,1.6399,1260
+16.15,4th+ Item,4645,Shadowflame,-0.2723,2171
+16.15,4th+ Item,4646,Stormsurge,-2.1188,1509
+16.15,4th+ Item,6655,Luden's Echo,0.4973,468
+16.15,4th+ Item,8020,Abyssal Mask,4.8511,300
+16.15,All Items,4646,Stormsurge,-1.1613,5506
+16.15,All Items,4645,Shadowflame,-0.4238,3178
+16.15,All Items,6653,Liandry's Torment,-0.5596,165
+16.15,All Items,3135,Void Staff,-2.1367,185
+16.15,All Items,3041,Mejai's Soulstealer,1.1045,377
+16.15,All Items,3118,Malignance,-2.3029,1491
+16.15,All Items,6655,Luden's Echo,-2.1127,3271
+16.15,All Items,3107,Redemption,-0.8289,122
+16.15,All Items,3137,Cryptbloom,2.5175,205
+16.15,All Items,2065,Shurelya's Battlesong,-0.361,357
+16.15,All Items,2504,Kaenic Rookern,2.2028,139
+16.15,All Items,3109,Knight's Vow,3.4314,139
+16.15,All Items,3165,Morellonomicon,-1.0056,2444
+16.15,All Items,3110,Frozen Heart,1.4003,2065
+16.15,All Items,3222,Mikael's Blessing,-2.4079,228
+16.15,All Items,3157,Zhonya's Hourglass,0.224,19122
+16.15,All Items,2524,Bandlepipes,2.5509,152
+16.15,All Items,3190,Locket of the Iron Solari,1.2142,433
+16.15,All Items,3116,Rylai's Crystal Scepter,-1.9097,187
+16.15,All Items,3050,Zeke's Convergence,3.8725,258
+16.15,All Items,4005,Imperial Mandate,0.0685,3724
+16.15,All Items,8020,Abyssal Mask,6.1619,630
+16.15,All Items,3089,Rabadon's Deathcap,1.7479,1053
+16.15,All Items,3152,Hextech Rocketbelt,0.108,35688
+16.15,All Items,3102,Banshee's Veil,5.0718,522
+16.16,Keystone,8229,Arcane Comet,0.2824,13255
+16.16,Keystone,8992,Deathfire Touch,4.6885,126
+16.16,Keystone,8128,Dark Harvest,-0.6059,290
+16.16,Keystone,8112,Electrocute,-2.2602,2309
+16.16,Spell,3,Exhaust,-0.4767,1395
+16.16,Spell,4,Flash,-0.0041,16313
+16.16,Spell,7,Heal,1.5727,6334
+16.16,Spell,14,Ignite,-0.986,8513
+16.16,Starter,3865,World Atlas,-0.0,16316
+16.16,Boots,3009,Boots of Swiftness,0.3819,557
+16.16,Boots,3020,Sorcerer's Shoes,-0.5577,5820
+16.16,Boots,3047,Plated Steelcaps,2.5694,215
+16.16,Boots,3111,Mercury's Treads,0.4911,308
+16.16,Boots,3158,Ionian Boots of Lucidity,0.156,8713
+16.16,2nd Item,3118,Malignance,-6.3313,174
+16.16,2nd Item,3152,Hextech Rocketbelt,0.3113,14344
+16.16,2nd Item,3157,Zhonya's Hourglass,-2.8306,105
+16.16,2nd Item,4005,Imperial Mandate,-0.6122,227
+16.16,2nd Item,4646,Stormsurge,-1.8447,286
+16.16,2nd Item,6655,Luden's Echo,-2.5773,689
+16.16,3rd Item,3089,Rabadon's Deathcap,-2.5049,145
+16.16,3rd Item,3110,Frozen Heart,1.1838,622
+16.16,3rd Item,3118,Malignance,-1.6715,244
+16.16,3rd Item,3152,Hextech Rocketbelt,-1.2651,324
+16.16,3rd Item,3157,Zhonya's Hourglass,0.2272,6803
+16.16,3rd Item,3165,Morellonomicon,-3.8955,263
+16.16,3rd Item,4005,Imperial Mandate,-0.5743,854
+16.16,3rd Item,4645,Shadowflame,-1.0826,323
+16.16,3rd Item,4646,Stormsurge,1.0976,1170
+16.16,3rd Item,6655,Luden's Echo,-1.0242,458
+16.16,4th+ Item,3089,Rabadon's Deathcap,0.2124,223
+16.16,4th+ Item,3102,Banshee's Veil,3.2028,123
+16.16,4th+ Item,3110,Frozen Heart,-2.6257,294
+16.16,4th+ Item,3118,Malignance,1.8249,140
+16.16,4th+ Item,3157,Zhonya's Hourglass,1.6972,889
+16.16,4th+ Item,3165,Morellonomicon,0.5355,686
+16.16,4th+ Item,4005,Imperial Mandate,-0.5507,575
+16.16,4th+ Item,4645,Shadowflame,-1.2306,709
+16.16,4th+ Item,4646,Stormsurge,0.9055,589
+16.16,4th+ Item,6655,Luden's Echo,-4.0952,158
+16.16,All Items,4646,Stormsurge,0.6301,2047
+16.16,All Items,4645,Shadowflame,-1.3609,1091
+16.16,All Items,3041,Mejai's Soulstealer,4.5572,142
+16.16,All Items,3118,Malignance,-2.2393,560
+16.16,All Items,6655,Luden's Echo,-2.216,1305
+16.16,All Items,2065,Shurelya's Battlesong,1.3013,155
+16.16,All Items,3165,Morellonomicon,-0.8737,961
+16.16,All Items,3110,Frozen Heart,0.0472,926
+16.16,All Items,3222,Mikael's Blessing,-4.0649,106
+16.16,All Items,3157,Zhonya's Hourglass,0.3536,7797
+16.16,All Items,3190,Locket of the Iron Solari,2.8345,161
+16.16,All Items,4005,Imperial Mandate,-0.571,1657
+16.16,All Items,8020,Abyssal Mask,0.7223,163
+16.16,All Items,3089,Rabadon's Deathcap,-0.8513,371
+16.16,All Items,3152,Hextech Rocketbelt,0.257,14738
+16.16,All Items,3102,Banshee's Veil,3.3692,182
+16.17,Keystone,8229,Arcane Comet,0.0847,15955
+16.17,Keystone,8128,Dark Harvest,2.6691,390
+16.17,Keystone,8112,Electrocute,-1.4503,2718
+16.17,Spell,3,Exhaust,-0.3053,1830
+16.17,Spell,4,Flash,-0.0027,19601
+16.17,Spell,7,Heal,0.8244,7653
+16.17,Spell,14,Ignite,-0.5774,10063
+16.17,Starter,3865,World Atlas,-0.0,19607
+16.17,Boots,3009,Boots of Swiftness,-1.2538,743
+16.17,Boots,3020,Sorcerer's Shoes,-0.6291,6760
+16.17,Boots,3047,Plated Steelcaps,1.0941,221
+16.17,Boots,3111,Mercury's Treads,5.812,321
+16.17,Boots,3158,Ionian Boots of Lucidity,0.058,10615
+16.17,2nd Item,3118,Malignance,-1.1687,195
+16.17,2nd Item,3152,Hextech Rocketbelt,0.0929,17081
+16.17,2nd Item,3157,Zhonya's Hourglass,-2.3853,133
+16.17,2nd Item,4005,Imperial Mandate,3.626,280
+16.17,2nd Item,4646,Stormsurge,1.1929,337
+16.17,2nd Item,6655,Luden's Echo,-2.3953,960
+16.17,3rd Item,2065,Shurelya's Battlesong,0.7066,119
+16.17,3rd Item,3110,Frozen Heart,-0.0233,723
+16.17,3rd Item,3118,Malignance,1.9581,261
+16.17,3rd Item,3152,Hextech Rocketbelt,-0.2895,531
+16.17,3rd Item,3157,Zhonya's Hourglass,0.1221,7903
+16.17,3rd Item,3165,Morellonomicon,-1.7678,279
+16.17,3rd Item,3222,Mikael's Blessing,-1.0056,121
+16.17,3rd Item,4005,Imperial Mandate,0.9727,1237
+16.17,3rd Item,4645,Shadowflame,-3.2331,408
+16.17,3rd Item,4646,Stormsurge,0.5714,1431
+16.17,3rd Item,6655,Luden's Echo,-1.2311,500
+16.17,3rd Item,8020,Abyssal Mask,0.9513,114
+16.17,4th+ Item,3089,Rabadon's Deathcap,-0.0226,278
+16.17,4th+ Item,3102,Banshee's Veil,-2.3334,151
+16.17,4th+ Item,3110,Frozen Heart,1.5312,342
+16.17,4th+ Item,3118,Malignance,1.2553,186
+16.17,4th+ Item,3157,Zhonya's Hourglass,-0.2663,1065
+16.17,4th+ Item,3165,Morellonomicon,0.2045,738
+16.17,4th+ Item,3190,Locket of the Iron Solari,0.4797,103
+16.17,4th+ Item,4005,Imperial Mandate,0.1882,749
+16.17,4th+ Item,4645,Shadowflame,-1.064,858
+16.17,4th+ Item,4646,Stormsurge,0.7906,747
+16.17,4th+ Item,6655,Luden's Echo,2.6376,226
+16.17,4th+ Item,8020,Abyssal Mask,-2.1696,114
+16.17,All Items,4646,Stormsurge,0.7192,2517
+16.17,All Items,4645,Shadowflame,-1.762,1293
+16.17,All Items,3041,Mejai's Soulstealer,-1.7267,198
+16.17,All Items,3118,Malignance,0.8035,643
+16.17,All Items,6655,Luden's Echo,-1.3746,1687
+16.17,All Items,2065,Shurelya's Battlesong,-0.0247,233
+16.17,All Items,3165,Morellonomicon,-0.4357,1034
+16.17,All Items,3110,Frozen Heart,0.5631,1076
+16.17,All Items,3222,Mikael's Blessing,-2.859,187
+16.17,All Items,3157,Zhonya's Hourglass,0.0399,9106
+16.17,All Items,3190,Locket of the Iron Solari,-2.1223,203
+16.17,All Items,4005,Imperial Mandate,1.0403,2268
+16.17,All Items,8020,Abyssal Mask,-0.2718,231
+16.17,All Items,3089,Rabadon's Deathcap,0.5428,357
+16.17,All Items,3152,Hextech Rocketbelt,0.0968,17698
+16.17,All Items,3102,Banshee's Veil,-3.9014,241
