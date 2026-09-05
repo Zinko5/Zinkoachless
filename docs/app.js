@@ -471,7 +471,8 @@ const championRolesMap = {
   8: [2],         // Vladimir (Mid)
   50: [3],        // Swain (Bot)
   119: [3],       // Draven (Bot)
-  18: [3]         // Tristana (Bot)
+  18: [3],      // Tristana (Bot)
+  222: [3]         // Jinx (Bot)
 };
 
 const roleNames = {
