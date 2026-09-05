@@ -2,6 +2,7 @@
 
 ## Current State & Focus
 - **Full Multi-Entity DDragon Patch Tracker:** [`patch_history.py`](file:///home/zinko/publico/zinkoachless/patch_history.py) diffs items, runes (`runesReforged.json`), and summoner spells (`summoner.json`) across 17 parches.
+- **Documentation Upgrade:** Completely updated [`README.md`](file:///home/zinko/publico/zinkoachless/README.md) with accurate paths, math formulas, clean formatting without emoji excess, complete script pipeline guide, environment setup with `uv`, and champion addition instructions.
 - **Time-Decay Exponential Weighting ($\lambda = 0.75$):** Aggregates WPA with a 2.4-patch half-life, ensuring recent patch performance dominates while preserving historical depth.
 - **Smart Composite Ranking (`smart_rank`):** Default sorting algorithm combining recency-weighted WPA and log-sample confidence.
 - **Statistical Role Badges & Compact UX:**
@@ -30,7 +31,7 @@
   2. Map champion name and supported roles in `championNames` and `championRolesMap` in [`docs/app.js`](file:///home/zinko/publico/zinkoachless/docs/app.js).
   3. Add `<option>` with unique champion name to `#champion-select` in [`docs/index.html`](file:///home/zinko/publico/zinkoachless/docs/index.html).
   4. Run `source .venv/bin/activate && python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py`.
-- **Supported Champions:** Lucian, Smolder, Ekko, Gwen, Volibear, Annie, Warwick, Fiddlesticks, Viego, Samira, Briar, Shaco, Graves, Akali, Lux, Garen, Dr. Mundo, Seraphine, Fizz, Zilean, Nilah, Neeko, Evelynn, Veigar, Brand, Tahm Kench, Teemo, Tryndamere, Vladimir, Swain, Draven, Tristana.
+- **Supported Champions:** Lucian, Smolder, Ekko, Gwen, Volibear, Annie, Warwick, Fiddlesticks, Viego, Samira, Briar, Shaco, Graves, Akali, Lux, Garen, Dr. Mundo, Seraphine, Fizz, Zilean, Nilah, Neeko, Evelynn, Veigar, Brand, Tahm Kench, Teemo, Tryndamere, Vladimir, Swain, Draven, Tristana, Jinx
 
 ---
 
