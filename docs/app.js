@@ -483,8 +483,8 @@ const roleNames = {
   4: "Soporte (Support)"
 };
 
-let selectedChamp = "236";
-let selectedRole = 3;
+let selectedChamp = "84";
+let selectedRole = 0;
 
 function updateRoleSelector() {
   const supportedRoles = championRolesMap[selectedChamp] || [3];
@@ -568,7 +568,7 @@ async function loadData() {
   }
 
   // Actualizar cabecera del campeón y botones de roles
-  const champName = championNames[selectedChamp] || "Lucian";
+  const champName = championNames[selectedChamp] || "Akali";
   document.getElementById("champion-avatar").src = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
   updateRoleSelector();
   updateCustomChampionSelectLabel();
@@ -603,12 +603,17 @@ async function loadData() {
 function sortChampionSelectOptions() {
   const select = document.getElementById("champion-select");
   if (!select) return;
-  const selectedValue = select.value;
   const options = Array.from(select.options);
   options.sort((a, b) => a.text.localeCompare(b.text));
   select.innerHTML = "";
   options.forEach(opt => select.add(opt));
-  select.value = selectedValue;
+  
+  if (options.length > 0) {
+    select.value = options[0].value;
+    selectedChamp = options[0].value;
+    const supportedRoles = championRolesMap[selectedChamp] || [0];
+    selectedRole = supportedRoles[0];
+  }
 }
 
 function updateCustomChampionSelectLabel() {
@@ -1063,20 +1068,88 @@ function onAdvancedSortChange() {
   applyFilters();
 }
 
-function exportLoLItemSet() {
-  const selectedChamp = document.getElementById("champion-select").value;
-  const championName = championNames[selectedChamp] || "Champion";
+function getChampionDisplayName(champId) {
+  if (championNames && championNames[champId]) {
+    return championNames[champId];
+  }
+  const select = document.getElementById("champion-select");
+  if (select) {
+    const opt = Array.from(select.options).find(o => o.value === String(champId));
+    if (opt) return opt.text;
+  }
+  return `Champion_${champId}`;
+}
 
-  // 1. Filtrado predeterminado: 16.1 a parche actual con filtro Post-Ajuste (⚡)
-  const startPatch = availablePatches[0] || "16.1";
-  const endPatch = availablePatches[availablePatches.length - 1] || "16.16";
-  const granularFiltered = wpaData.filter(d => {
-    // Filtro Post-Ajuste por defecto
+function downloadJsonFile(filename, dataObj) {
+  const jsonStr = JSON.stringify(dataObj, null, 2);
+  const blob = new Blob([jsonStr], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function toggleExportDropdown(event) {
+  if (event) event.stopPropagation();
+  const dropdown = document.getElementById("export-dropdown");
+  if (!dropdown) return;
+  const isHidden = dropdown.style.display === "none" || !dropdown.style.display;
+  dropdown.style.display = isHidden ? "block" : "none";
+  if (isHidden && window.lucide) {
+    window.lucide.createIcons();
+  }
+}
+
+document.addEventListener("click", function(event) {
+  const container = document.getElementById("export-split-btn");
+  const dropdown = document.getElementById("export-dropdown");
+  if (dropdown && dropdown.style.display !== "none") {
+    if (container && !container.contains(event.target)) {
+      dropdown.style.display = "none";
+    }
+  }
+});
+
+async function getChampionRoleData(champId, roleId) {
+  const dataKey = `${champId}_role_${roleId}`;
+  const offlineData = (window.fallbackGranularDataMap && (window.fallbackGranularDataMap[dataKey] || window.fallbackGranularDataMap[champId])) || window[`fallbackGranularData${champId}`];
+  if (offlineData && offlineData.length > 0) {
+    return offlineData;
+  }
+  try {
+    let response = await fetch(`../data/granular/coachless_granular_wpa_${champId}_role_${roleId}.json`);
+    if (!response.ok) {
+      response = await fetch(`../data/granular/coachless_granular_wpa_${champId}.json`);
+    }
+    if (response.ok) {
+      return await response.json();
+    }
+  } catch (err) {
+    console.warn(`Error al recuperar datos para ${champId}_${roleId}:`, err);
+  }
+  return offlineData || [];
+}
+
+function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "global") {
+  if (!rawData || rawData.length === 0) return null;
+
+  const patchesSet = new Set(rawData.map(d => d.patch));
+  const patchesList = (patches && patches.length > 0) ? patches : Array.from(patchesSet).sort(comparePatches);
+  const startPatch = patchesList[0] || "16.1";
+  const endPatch = patchesList[patchesList.length - 1] || "16.16";
+
+  const granularFiltered = rawData.filter(d => {
     if (d.last_changed_patch && comparePatches(d.patch, d.last_changed_patch) < 0) {
       return false;
     }
     return comparePatches(d.patch, startPatch) >= 0 && comparePatches(d.patch, endPatch) <= 0;
   });
+
+  if (granularFiltered.length === 0) return null;
 
   const aggregated = {};
   granularFiltered.forEach(r => {
@@ -1097,7 +1170,6 @@ function exportLoLItemSet() {
     aggregated[key].records.push(r);
   });
 
-  // Calcular la muestra total sumada por categoría para respetar la cuota de mercado en vista Populares & Solidez
   const totalSampleByCategory = {};
   for (const key in aggregated) {
     const item = aggregated[key];
@@ -1105,14 +1177,13 @@ function exportLoLItemSet() {
   }
 
   const list = [];
-  const maxPatchIdx = availablePatches.length > 0 ? (availablePatches.length - 1) : 15;
+  const maxPatchIdx = patchesList.length > 0 ? (patchesList.length - 1) : 15;
   const lambda = 0.75;
 
   for (const key in aggregated) {
     const item = aggregated[key];
     
-    // Aplicar filtro de cuota de mercado si está en vista Populares & Solidez
-    if (currentView === "global") {
+    if (viewMode === "global") {
       const totalCategoryVolume = totalSampleByCategory[item.category] || 1000;
       const minMarketShareSample = Math.max(50, Math.round(totalCategoryVolume * 0.005));
       if (item.total_sample < minMarketShareSample) {
@@ -1128,7 +1199,7 @@ function exportLoLItemSet() {
     let recencyWeightedSampleSum = 0;
     
     item.records.forEach(r => {
-      const patchIdx = availablePatches.indexOf(r.patch);
+      const patchIdx = patchesList.indexOf(r.patch);
       const patchDist = patchIdx >= 0 ? (maxPatchIdx - patchIdx) : 0;
       const decayWeight = Math.pow(lambda, patchDist);
       const effectiveWeight = r.sample_size * decayWeight;
@@ -1153,7 +1224,6 @@ function exportLoLItemSet() {
     });
   }
 
-  // 2. Filtrar y ordenar bloques
   const starterItems = list.filter(item => item.category === "Starter" && item.wpa > 0);
   starterItems.sort((a, b) => b.wpa - a.wpa);
   
@@ -1162,7 +1232,7 @@ function exportLoLItemSet() {
 
   const basicLoL = [
     ...starterItems.map(item => ({ id: String(item.id), count: 1 })),
-    { id: "2003", count: 1 }, // Poción de curación
+    { id: "2003", count: 1 },
     ...bootsItems.map(item => ({ id: String(item.id), count: 1 }))
   ];
 
@@ -1262,7 +1332,6 @@ function exportLoLItemSet() {
   blocks.push(makeAdvancedBlock("Con Ventaja (Ahead)", "deltaWhenGoldAhead"));
   blocks.push(makeAdvancedBlock("Con Desventaja (Behind)", "deltaWhenGoldBehind"));
 
-  // Bloque final: "Todos por WPA" (Todos los ítems con WPA > 0 sin filtro de muestra mínima)
   const allItemsUnfilteredList = [];
   for (const key in aggregated) {
     const item = aggregated[key];
@@ -1271,7 +1340,7 @@ function exportLoLItemSet() {
       let recencyWeightedWpaSum = 0;
       let recencyWeightedSampleSum = 0;
       item.records.forEach(r => {
-        const patchIdx = availablePatches.indexOf(r.patch);
+        const patchIdx = patchesList.indexOf(r.patch);
         const patchDist = patchIdx >= 0 ? (maxPatchIdx - patchIdx) : 0;
         const decayWeight = Math.pow(lambda, patchDist);
         const effectiveWeight = r.sample_size * decayWeight;
@@ -1299,7 +1368,32 @@ function exportLoLItemSet() {
   }
 
   const finalBlocks = blocks.filter(b => b.items.length > 0);
+  if (finalBlocks.length === 0) return null;
 
+  const roleLabelsShort = {
+    0: "Top",
+    1: "Jungla",
+    2: "Mid",
+    3: "Bot",
+    4: "Support"
+  };
+  const roleNameShort = roleLabelsShort[roleId] || "General";
+  const championDisplayName = getChampionDisplayName(champId);
+
+  return {
+    "title": `Zinkoachless - ${championDisplayName} - ${roleNameShort}`,
+    "associatedChampions": [parseInt(champId)],
+    "associatedMaps": [],
+    "blocks": finalBlocks
+  };
+}
+
+function exportLoLItemSet() {
+  const dropdown = document.getElementById("export-dropdown");
+  if (dropdown) dropdown.style.display = "none";
+
+  const selectedChamp = document.getElementById("champion-select").value;
+  const championDisplayName = getChampionDisplayName(selectedChamp);
   const roleLabelsShort = {
     0: "Top",
     1: "Jungla",
@@ -1309,18 +1403,17 @@ function exportLoLItemSet() {
   };
   const roleNameShort = roleLabelsShort[selectedRole] || "General";
 
-  const itemSetJson = {
-    "title": `Zinkoachless - ${championName} - ${roleNameShort}`,
-    "associatedChampions": [parseInt(selectedChamp)],
-    "associatedMaps": [],
-    "blocks": finalBlocks
-  };
+  const itemSetJson = buildItemSetFromData(selectedChamp, selectedRole, wpaData, availablePatches, currentView);
+  if (!itemSetJson) {
+    alert("No hay suficientes datos procesados para exportar el set de este campeón.");
+    return;
+  }
 
   const jsonStr = JSON.stringify(itemSetJson, null, 2);
 
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(jsonStr).then(() => {
-      alert(`¡Set de items de LoL para ${championName} copiado al portapapeles con éxito!`);
+      alert(`Set de items de LoL para ${championDisplayName} (${roleNameShort}) copiado al portapapeles con éxito.`);
     }).catch(err => {
       console.error("Error al copiar al portapapeles: ", err);
       alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
@@ -1329,5 +1422,105 @@ function exportLoLItemSet() {
   } else {
     alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
     console.log(jsonStr);
+  }
+}
+
+function exportCurrentLoLItemSetFile() {
+  const dropdown = document.getElementById("export-dropdown");
+  if (dropdown) dropdown.style.display = "none";
+
+  const selectedChamp = document.getElementById("champion-select").value;
+  const championDisplayName = getChampionDisplayName(selectedChamp);
+  const roleLabelsShort = {
+    0: "Top",
+    1: "Jungla",
+    2: "Mid",
+    3: "Bot",
+    4: "Support"
+  };
+  const roleNameShort = roleLabelsShort[selectedRole] || "General";
+
+  const itemSetJson = buildItemSetFromData(selectedChamp, selectedRole, wpaData, availablePatches, currentView);
+  if (!itemSetJson) {
+    alert("No hay suficientes datos procesados para exportar el set de este campeón.");
+    return;
+  }
+
+  const filename = `Zinkoachless_${championDisplayName}_${roleNameShort}.json`;
+  downloadJsonFile(filename, itemSetJson);
+}
+
+async function exportAllLoLItemSets(mode = 'clipboard') {
+  const dropdown = document.getElementById("export-dropdown");
+  if (dropdown) dropdown.style.display = "none";
+
+  const btnMain = document.getElementById("btn-export-set");
+  const originalHtml = btnMain ? btnMain.innerHTML : "";
+  if (btnMain) {
+    btnMain.innerHTML = `<i data-lucide="loader" style="width: 16px; height: 16px;"></i> <span>Exportando...</span>`;
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  try {
+    const allItemSets = [];
+    
+    // Orden canónico de roles de LoL: Top (0) -> Jungle (1) -> Mid (2) -> ADC/Bot (3) -> Support (4)
+    const roleOrder = { 0: 0, 1: 1, 2: 2, 3: 3, 4: 4 };
+
+    // Ordenar alfabéticamente por nombre de campeón y ordenar sus roles de Top a Support
+    const champEntries = Object.entries(championRolesMap).map(([champId, roles]) => {
+      const name = getChampionDisplayName(champId);
+      const sortedRoles = [...roles].sort((a, b) => (roleOrder[a] ?? a) - (roleOrder[b] ?? b));
+      return {
+        champId,
+        name,
+        roles: sortedRoles
+      };
+    });
+
+    champEntries.sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
+
+    for (const champ of champEntries) {
+      for (const roleId of champ.roles) {
+        const rawData = await getChampionRoleData(champ.champId, roleId);
+        if (rawData && rawData.length > 0) {
+          const itemSet = buildItemSetFromData(champ.champId, roleId, rawData, availablePatches, "global");
+          if (itemSet && itemSet.blocks && itemSet.blocks.length > 0) {
+            allItemSets.push(itemSet);
+          }
+        }
+      }
+    }
+
+    if (allItemSets.length === 0) {
+      alert("No se encontraron sets de objetos disponibles para exportar.");
+      return;
+    }
+
+    const payload = {
+      "itemSets": allItemSets
+    };
+    const jsonStr = JSON.stringify(payload, null, 2);
+
+    if (mode === 'download') {
+      downloadJsonFile("Zinkoachless_All_Item_Sets.json", payload);
+      alert(`Archivo Zinkoachless_All_Item_Sets.json descargado con éxito.\n\nContiene ${allItemSets.length} sets de items de todos los campeones y roles listos para importar en el cliente de LoL.`);
+    } else {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(jsonStr);
+        alert(`Se han copiado al portapapeles ${allItemSets.length} sets de items de todos los campeones y roles con éxito.\n\nEn el cliente de League of Legends ve a:\nColección > Objetos > Importar conjuntos de objetos > Pegar conjunto copiado.`);
+      } else {
+        downloadJsonFile("Zinkoachless_All_Item_Sets.json", payload);
+        alert(`No se pudo acceder al portapapeles, por lo que se descargó automáticamente el archivo Zinkoachless_All_Item_Sets.json con ${allItemSets.length} sets.`);
+      }
+    }
+  } catch (err) {
+    console.error("Error al exportar todos los sets:", err);
+    alert("Ocurrió un error al generar los sets de items: " + err.message);
+  } finally {
+    if (btnMain) {
+      btnMain.innerHTML = originalHtml;
+      if (window.lucide) window.lucide.createIcons();
+    }
   }
 }

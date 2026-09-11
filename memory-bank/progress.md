@@ -22,7 +22,7 @@
   - **"⭐ Recomendado (Smart Rank)"** default composite sorting: combines recency WPA and log-sample confidence.
   - **Statistical Role Badges & Compact UX:** `⭐ Meta`, `🎯 Situacional / Hidden OP`, `📈 Emergente`, `⚡ Ajustado`.
   - **Dynamic Market Share Filter:** Mode 1 (`⭐ Populares & Solidez` - $0.5\%$ category sample cutoff) vs Mode 2 (`📚 Catálogo Completo` - 100% un-filtered).
-  - **LoL Item Set Exporter:** Copies JSON payload directly to clipboard with custom `"Todos por WPA"` block.
+  - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y exportación masiva multi-set de todos los campeones y roles en un único archivo/copiado compatible con el cliente de Riot Games. Incluye bloque custom "Todos por WPA".
   - Dynamic champion selector con buscador integrado (Lucian, Smolder, Ekko, Gwen, Volibear, Annie, Warwick, Fiddlesticks, Viego, Samira, Briar, Shaco, Graves, Akali, Lux, Garen, Dr. Mundo, Seraphine, Fizz, Zilean, Nilah, Neeko, Evelynn, Veigar, Brand, Tahm Kench, Teemo, Tryndamere, Vladimir, Swain, Draven, Tristana, Jinx) con barra de selección de línea por icono oficial.
   - Dark mode aesthetic with glassmorphic cards and crisp layout.
 - [x] **Memory Bank:**

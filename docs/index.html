@@ -47,14 +47,14 @@
     <header class="champion-header">
       <div class="champion-info">
         <div class="champion-icon-wrapper">
-          <img id="champion-avatar" src="https://ddragon.leagueoflegends.com/cdn/16.16.1/img/champion/Lucian.png"
+          <img id="champion-avatar" src="https://ddragon.leagueoflegends.com/cdn/16.16.1/img/champion/Akali.png"
             alt="Champion Avatar"
-            onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png'">
+            onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Akali.png'">
         </div>
         <div class="champion-meta">
           <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.2rem; position: relative;">
             <select id="champion-select" style="display: none;">
-              <option value="84">Akali</option>
+              <option value="84" selected>Akali</option>
               <option value="1">Annie</option>
               <option value="63">Brand</option>
               <option value="233">Briar</option>
@@ -67,7 +67,8 @@
               <option value="86">Garen</option>
               <option value="104">Graves</option>
               <option value="887">Gwen</option>
-              <option value="236" selected>Lucian</option>
+              <option value="222">Jinx</option>
+              <option value="236">Lucian</option>
               <option value="99">Lux</option>
               <option value="518">Neeko</option>
               <option value="895">Nilah</option>
@@ -86,12 +87,11 @@
               <option value="106">Volibear</option>
               <option value="19">Warwick</option>
               <option value="26">Zilean</option>
-              <option value="222">Jinx</option>
             </select>
             
             <div class="custom-select-wrapper" id="custom-champion-select">
               <button type="button" class="custom-select-trigger" id="champion-select-trigger">
-                <span id="selected-champion-label">Lucian</span>
+                <span id="selected-champion-label">Akali</span>
                 <i data-lucide="chevron-down" style="width: 18px; height: 18px; color: var(--text-secondary);"></i>
               </button>
               <div class="custom-select-dropdown" id="champion-select-dropdown" style="display: none;">
@@ -104,7 +104,7 @@
             </div>
           </div>
           <div class="role-selector" id="role-selector" style="display: flex; align-items: center; gap: 0.35rem; margin-top: 0.3rem;">
-            <button class="role-btn" data-role="0" title="Top (Carril Superior)">
+            <button class="role-btn active" data-role="0" title="Top (Carril Superior)">
               <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png" width="16" height="16" alt="Top">
             </button>
             <button class="role-btn" data-role="1" title="Jungle (Jungla)">
@@ -120,7 +120,7 @@
               <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png" width="16" height="16" alt="Support">
             </button>
           </div>
-          <p id="champion-role" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">Tirador / ADC (Bot)</p>
+          <p id="champion-role" style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">Superior (Top)</p>
         </div>
       </div>
       <div class="header-actions">
@@ -134,11 +134,42 @@
         </button>
         <button class="btn" id="btn-filters"><i data-lucide="sliders-horizontal" style="width: 16px; height: 16px;"></i>
           Filtros</button>
-        <button class="btn" id="btn-export-set"
-          style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; border: none; font-weight: 600;"
-          onclick="exportLoLItemSet()">
-          <i data-lucide="download" style="width: 16px; height: 16px;"></i> Exportar Set
-        </button>
+        <div class="split-btn-container" id="export-split-btn">
+          <button class="split-btn-main" id="btn-export-set" onclick="exportLoLItemSet()" title="Copiar set actual al portapapeles">
+            <i data-lucide="download" style="width: 16px; height: 16px;"></i>
+            <span>Exportar Set</span>
+          </button>
+          <button class="split-btn-arrow" id="btn-export-arrow" onclick="toggleExportDropdown(event)" title="Opciones de exportación">
+            <i data-lucide="chevron-down" style="width: 14px; height: 14px;"></i>
+          </button>
+          
+          <div class="split-dropdown" id="export-dropdown" style="display: none;">
+            <div class="split-dropdown-section-title">Todos los Campeones y Roles</div>
+            <button class="split-dropdown-item" onclick="exportAllLoLItemSets('clipboard')">
+              <i data-lucide="copy" style="width: 15px; height: 15px; color: #10b981;"></i>
+              <div class="item-text">
+                <span class="item-title">Copiar todos los sets</span>
+                <span class="item-sub">Portapapeles (formato multi-set de LoL)</span>
+              </div>
+            </button>
+            <button class="split-dropdown-item" onclick="exportAllLoLItemSets('download')">
+              <i data-lucide="folder-down" style="width: 15px; height: 15px; color: #3b82f6;"></i>
+              <div class="item-text">
+                <span class="item-title">Descargar archivo .json</span>
+                <span class="item-sub">Todos los campeones listos para importar</span>
+              </div>
+            </button>
+            <div class="split-dropdown-divider"></div>
+            <div class="split-dropdown-section-title">Campeón Seleccionado</div>
+            <button class="split-dropdown-item" onclick="exportCurrentLoLItemSetFile()">
+              <i data-lucide="file-code" style="width: 15px; height: 15px; color: #ec4899;"></i>
+              <div class="item-text">
+                <span class="item-title">Descargar set actual (.json)</span>
+                <span class="item-sub">Solo campeón y rol actual</span>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
     </header>
 

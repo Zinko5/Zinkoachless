@@ -1,91 +1,129 @@
 # Zinkoachless
 
-**Zinkoachless** es un agregador dinámico y visualizador de estadísticas multiparche de **Win Probability Added (WPA)** para League of Legends, diseñado para analizar el impacto real de objetos, runas y hechizos de invocador a lo largo del tiempo.
+Dashboard analítico y motor de agregación multiparche de **Win Probability Added (WPA)** para League of Legends. Diseñado para theorycrafters, analistas y jugadores competitivos que buscan identificar el rendimiento estadístico real de objetos, runas y hechizos de invocador a lo largo de múltiples parches consecutivos.
 
-El nombre del proyecto rinde homenaje a la API de origen de las estadísticas (*Coachless*) combinada con el motor de procesamiento personalizado de Zinko.
+El proyecto combina la extracción directa de datos de la API de *Coachless* con modelos matemáticos de decaimiento temporal y un exportador masivo de conjuntos de objetos directamente compatibles con el cliente de Riot Games.
+
+---
+
+## Tabla de Contenidos
+
+- [Resumen del Proyecto](#resumen-del-proyecto)
+- [Funcionalidades Principales](#funcionalidades-principales)
+- [Exportador de Conjuntos para League of Legends](#exportador-de-conjuntos-para-league-of-legends)
+- [Metodología Matemática](#metodología-matemática)
+- [Estructura del Repositorio](#estructura-del-repositorio)
+- [Instalación y Configuración](#instalación-y-configuración)
+- [Pipeline de Actualización de Datos](#pipeline-de-actualización-de-datos)
+- [Cómo Añadir un Nuevo Campeón](#cómo-añadir-un-nuevo-campeón)
+- [Despliegue](#despliegue)
 
 ---
 
 ## Resumen del Proyecto
 
-### Objetivo
-Construir una base de datos local y un dashboard analítico con estadísticas de rendimiento (**WPA**) consolidadas a lo largo de múltiples parches (versiones 16.1 a 16.17+) para descubrir *builds off-meta*, optimizar elecciones de objetos y encontrar estrategias competitivas ocultas.
-
 ### El Problema
-* **Muestra insuficiente en parches individuales:** Los objetos y runas poco convencionales o de nicho se juegan con menor frecuencia en un solo parche. Su WPA no es estadísticamente fiable y las plataformas habituales los descartan como ruido o los muestran en gris.
-* **Muros de pago:** El filtrado y la agregación multiparche (*Multi-Patch Analytics*) suelen ser funciones exclusivas de suscripciones de pago.
+- **Muestra insuficiente en parches individuales:** En análisis competitivos, los objetos o elecciones de nicho no alcanzan volumen estadístico suficiente en una sola versión ($N < \text{umbral}$), por lo que las plataformas habituales suelen descartarlos o mostrarlos en gris como ruido.
+- **Muros de pago:** Las plataformas comerciales restringen la agregación multiparche (*Multi-Patch Analytics*) a planes de suscripción de pago.
 
-### Solución Implementada
-1. **Extracción directa de la API de Coachless:** Automatización de descargas parche a parche mediante peticiones `POST` parametrizadas a los endpoints globales (`GetGlobalItemStatistics`, `GetKeystoneData`, `GetGlobalSummonerSpellStatistics`).
-2. **Ponderación Exponencial por Reciente ($\lambda = 0.75$):** Se aplica un modelo de decaimiento temporal con una vida media aproximada de 2.4 parches, garantizando que el rendimiento de las versiones más recientes tenga mayor peso sin perder la solidez de la muestra acumulada.
-   $$\text{WPA}_{\text{recency}} = \frac{\sum_{i=1}^N \text{WPA}(P_i) \times \text{Muestra}(P_i) \times 0.75^{(N - i)}}{\sum_{i=1}^N \text{Muestra}(P_i) \times 0.75^{(N - i)}}$$
-3. **Seguimiento Histórico de Ajustes por Parche:** Rastreo automático de cambios de coste, estadísticas y descripciones mediante la API Data Dragon de Riot Games para identificar la versión exacta del último ajuste (`last_changed_patch`).
-4. **Mapeo de Metadatos y Despliegue Offline:** Cruce dinámico con CDN oficial (DDragon) para asociar IDs con nombres en inglés e iconos oficiales, generando un bundle de datos local (`docs/data.js`) para funcionamiento 100% autónomo.
-
----
-
-## Características Clave
-
-* **Soporte Multicampeón Extensible:** Selector interactivo y buscador en tiempo real con más de 30 campeones soportados y filtrado por línea (Top, Jungla, Mid, Bot, Soporte).
-* **Descargador Inteligente con Caché (`get-wpa.py`):**
-  * Almacena datos crudos en `data/raw/` para evitar peticiones duplicadas a parches pasados.
-  * Actualiza dinámicamente el parche en curso o los nuevos parches configurados.
-  * Manejo robusto de red con reintentos exponenciales.
-* **Rastreador de Cambios en Parches (`patch_history.py`):**
-  * Descarga y compara la base de datos de objetos, runas clave y hechizos entre versiones consecutivas.
-  * Determina qué elementos recibieron ajustes recientes para aplicar filtros precisos en la interfaz.
-* **Procesador y Agregador Multidimensional (`process_wpa.py`):**
-  * Normaliza y categoriza los datos en 8 secciones (Keystones, Invocador, Iniciales, Botas, 1º, 2º, 3º y 4º+ Objeto).
-  * Exporta resúmenes en CSV (`data/processed/`) y el bundle integrado `docs/data.js`.
-* **Filtros en Tiempo Real en la Web:**
-  * **Rango de Parches:** Permite delimitar dinámicamente el periodo de análisis.
-  * **Filtrar Post-Ajuste:** Excluye parches previos al último cambio de un objeto/runa para evaluar estrictamente su rendimiento tras el ajuste.
-  * **Filtro de Cuota de Mercado:** Alterna entre `Populares & Solidez` (mínimo 0.5% del volumen de compras de la categoría) y `Catálogo Completo` (100% de la muestra registrada).
-* **Algoritmo Smart Rank e Insignias Estadísticas:**
-  * Ranking combinado de WPA ponderado y confianza de muestra logarítmica.
-  * Etiquetas visuales: `Meta` (alto volumen y WPA positivo), `Situacional / Hidden OP` (alta eficiencia en nicho), `Emergente` (tendencia al alza) y `Ajustado` (cambio en el último parche).
-* **Exportador de Conjuntos de Objetos para LoL:**
-  * Copia al portapapeles en un clic el JSON estructurado para importar directamente en el cliente de League of Legends.
-  * Incluye bloque personalizado *"Todos por WPA"* con opciones de valor positivo.
+### La Solución
+1. **Extracción y Caché Local:** Descarga estructurada de datos parche a parche desde los endpoints de Coachless sin peticiones redundantes.
+2. **Ponderación Temporal Reciente:** Aplicación de un factor de decaimiento exponencial ($\lambda = 0.75$) para priorizar los parches recientes sin sacrificar la muestra acumulada.
+3. **Filtro Post-Ajuste:** Rastreo de cambios de balance mediante la API de Riot Data Dragon para excluir parches anteriores a la última modificación de cada elemento.
+4. **Arquitectura 100% Offline (SPA):** Generación de bundles de datos estáticos en JavaScript que permiten utilizar el dashboard localmente o en GitHub Pages con latencia cero.
 
 ---
 
-## Estructura del Proyecto
+## Funcionalidades Principales
+
+- **Selector y Buscador Dinámico de Campeones:** Catálogo con más de 30 campeones ordenados alfabéticamente de forma predeterminada, con filtro por rol canónico (Top, Jungla, Mid, Bot/ADC y Soporte).
+- **Control de Rango de Parches en Tiempo Real:** Ajuste interactivo del intervalo temporal (parches 16.1 a 16.17+) que recalcula dinámicamente las métricas en el navegador.
+- **Filtro de Cuota de Mercado:**
+  - *Populares & Solidez:* Excluye opciones con menos del 0.5% del volumen de compras de su categoría para eliminar picks hiper-raros.
+  - *Catálogo Completo:* Muestra el 100% de las opciones registradas para análisis de nicho y OTPs.
+- **Algoritmo Smart Rank:** Clasificación compuesta que equilibra el valor de WPA con la confianza logarítmica del tamaño de muestra:
+  $$\text{SmartScore} = \text{WPA}_{\text{recency}} \times (1 + 0.15 \times \log_{10}(\text{Muestra}))$$
+- **Insignias Estadísticas Contextuales:**
+  - `Meta`: Alto volumen de muestra con WPA positivo comprobado (excluye estrictamente WPA negativo).
+  - `Situacional / Hidden OP`: Elevada tasa de victoria en condiciones o muestras específicas.
+  - `Emergente`: Tendencia reciente al alza ($\Delta \text{WPA} > 0$).
+  - `Ajustado`: Identifica cambios en la última versión analizada.
+- **Vistas Especializadas:**
+  - *Vista por Slots (Builds):* Desglose ordenado por Iniciales, Botas, 1º, 2º, 3º y 4º+ Objeto.
+  - *Catálogo General:* Catálogo consolidado de todos los objetos sin restricción de slot.
+  - *Bloques Situacionales:* Recomendaciones automáticas vs Daño Mágico, vs Daño Físico, vs Tanques, vs Squishies, vs Alto CC, con Ventaja y con Desventaja.
+
+---
+
+## Exportador de Conjuntos para League of Legends
+
+El dashboard cuenta con un botón dividido (*split button*) que genera conjuntos de objetos listos para usar en partida:
+
+### Opciones de Exportación
+1. **Exportar Set Individual:** Copia al portapapeles o descarga en `.json` el set optimizado del campeón y rol seleccionado.
+2. **Exportación Masiva Multi-Set:** Genera y procesa en un único paso todos los campeones y roles soportados en la estructura oficial multi-set de Riot Games:
+   - **Orden Alfabético:** Los campeones se organizan de la A a la Z.
+   - **Orden Canónico de Roles:** Para cada campeón, sus roles se ordenan estrictamente: **Top** $\to$ **Jungla** $\to$ **Mid** $\to$ **Bot/ADC** $\to$ **Support**.
+   - Compatible tanto al **Copiar todos los sets** al portapapeles como al **Descargar archivo .json** consolidado.
+
+### Cómo Importar en el Cliente de LoL
+1. Abre el cliente de League of Legends.
+2. Dirígete a **Colección** > **Objetos**.
+3. Haz clic en **Importar conjuntos de objetos**.
+4. Selecciona **Pegar conjunto copiado** (si usaste el portapapeles) o **Seleccionar un archivo** (si descargaste el `.json`).
+5. ¡Todos tus sets quedarán guardados y asignados automáticamente a cada campeón en partida!
+
+---
+
+## Metodología Matemática
+
+Para resolver el equilibrio entre solidez muestral y vigencia del meta, se implementa una media ponderada con decaimiento exponencial:
+
+$$\text{WPA}_{\text{recency}} = \frac{\sum_{i=1}^N \text{WPA}(P_i) \times \text{Muestra}(P_i) \times \lambda^{(N - i)}}{\sum_{i=1}^N \text{Muestra}(P_i) \times \lambda^{(N - i)}}$$
+
+Donde:
+- $N$ es el índice del parche más reciente analizado.
+- $i$ es el índice del parche del registro ($i \le N$).
+- $\lambda = 0.75$ es la tasa de retención (vida media $\approx 2.41$ parches).
+
+---
+
+## Estructura del Repositorio
 
 ```
 zinkoachless/
 ├── get-wpa.py                 # Extracción y almacenamiento en caché de estadísticas desde Coachless
-├── process_wpa.py             # Agregación, mapeo con DDragon y generación de docs/data.js
-├── patch_history.py           # Rastreador de cambios e historial de parches (objetos, runas, hechizos)
-├── README.md                  # Documentación principal del proyecto
-├── data/                      # Base de datos local organizada
-│   ├── raw/                   # JSONs brutos en caché por parche y campeón
-│   ├── processed/             # CSVs procesados e historial de ajustes (item_patch_history.json)
-│   ├── consolidated/          # JSONs agregados globales anuales
-│   └── granular/              # JSONs de desglose por parche para el cliente web
-└── docs/                      # Aplicación Web Monopágina (SPA) y despliegue en GitHub Pages
-    ├── index.html             # Marcado semántico y panel de control de filtros
-    ├── styles.css             # Estilos de diseño, Badging y modo oscuro
-    ├── app.js                 # Lógica del cliente, filtrado ponderado y exportador de conjuntos
-    └── data.js                # Bundle de datos estáticos para ejecución offline
+├── patch_history.py           # Rastreador de cambios e historial de parches (DDragon)
+├── process_wpa.py             # Agregación, ponderación y generación de docs/data.js
+├── README.md                  # Documentación del proyecto
+├── data/
+│   ├── raw/                   # Datos brutos descargados en formato JSON
+│   ├── processed/             # CSVs procesados e historial de ajustes
+│   ├── consolidated/          # JSONs agregados globales
+│   └── granular/              # JSONs de desglose por parche para el frontend
+└── docs/                      # Aplicación Web Monopágina (SPA para GitHub Pages)
+    ├── index.html             # Interfaz semántica y panel de control
+    ├── styles.css             # Sistema de diseño, Glassmorphism y modo oscuro
+    ├── app.js                 # Lógica interactiva, filtros y exportador
+    └── data.js                # Bundle estático offline de datos
 ```
 
 ---
 
-## Requisitos e Instalación
+## Instalación y Configuración
 
 ### Requisitos Previos
-* **Python 3.10+**
-* Entorno gestionado con **`uv`**
+- Python 3.10 o superior
+- Administrador de paquetes `uv` (recomendado) o `pip`
 
 ### Configuración del Entorno Virtual
 
-Para activar el entorno virtual ya creado:
+Activar el entorno existente con `uv`:
 ```bash
 source .venv/bin/activate
 ```
 
-En caso de requerir la creación de un nuevo entorno desde cero:
+O crear uno nuevo desde cero:
 ```bash
 uv venv
 source .venv/bin/activate
@@ -94,62 +132,67 @@ uv pip install requests pandas
 
 ---
 
-## Flujo de Ejecución del Pipeline
+## Pipeline de Actualización de Datos
 
-Para actualizar las estadísticas e integrar nuevos parches o campeones:
+Para actualizar las estadísticas ante nuevos parches de League of Legends:
 
-1. **Activar el entorno virtual:**
-   ```bash
-   source .venv/bin/activate
-   ```
-2. **Ejecutar el rastreador de parches DDragon:**
-   ```bash
-   python3 patch_history.py
-   ```
-3. **Descargar / actualizar datos de la API:**
-   ```bash
-   python3 get-wpa.py
-   ```
-4. **Procesar y generar el bundle web:**
-   ```bash
-   python3 process_wpa.py
-   ```
+```bash
+# 1. Activar entorno virtual
+source .venv/bin/activate
+
+# 2. Descargar y auditar cambios de balance desde Riot DDragon
+python3 patch_history.py
+
+# 3. Descargar estadísticas de la API de Coachless (usa caché local)
+python3 get-wpa.py
+
+# 4. Procesar métricas y compilar el bundle docs/data.js
+python3 process_wpa.py
+```
 
 ---
 
-## ¿Cómo añadir un nuevo campeón?
+## Cómo Añadir un Nuevo Campeón
 
-Para incorporar un nuevo campeón (por ejemplo, **Ezreal** con ID `81` en la línea Bot/Carril Central):
-
-1. **En [`get-wpa.py`](get-wpa.py):** Agrega la tupla de ID y rol a la lista `CHAMPIONS`:
+1. **En `get-wpa.py`:** Añade la tupla de ID y rol a la lista `CHAMPIONS`:
    ```python
-   # Formato: (champion_id, role_id)
    # Roles: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support
-   CHAMPIONS.append((81, 3))
+   CHAMPIONS.append((81, 3))  # Ejemplo: Ezreal Bot
    ```
-2. **En [`docs/app.js`](docs/app.js):** Registra el nombre y los roles soportados en los diccionarios de mapeo:
+2. **En `docs/app.js`:** Registra el nombre y los roles soportados en los mapeos:
    ```javascript
    championNames[81] = "Ezreal";
    championRolesMap[81] = [3, 2]; // Bot y Mid
    ```
-3. **En [`docs/index.html`](docs/index.html):** Agrega la opción al menú desplegable `#champion-select`:
+3. **En `docs/index.html`:** Añade la opción correspondiente en el `<select id="champion-select">` respetando el orden alfabético:
    ```html
-   <option value="81" data-roles="3,2">Ezreal</option>
+   <option value="81">Ezreal</option>
    ```
-4. **Re-ejecutar el pipeline:**
+4. **Ejecutar el pipeline:**
    ```bash
-   source .venv/bin/activate
-   python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py
+   source .venv/bin/activate && python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py
    ```
 
 ---
 
-## Notas de Control de Versiones (Git)
+## Despliegue
 
-Si deseas subir o registrar cambios en el repositorio Git, ejecuta los siguientes comandos en tu terminal local:
+La carpeta `docs/` contiene una aplicación web cliente estática y autosuficiente. Para desplegarla:
+- **GitHub Pages:** Configura la fuente de publicación en la rama principal seleccionando la carpeta `/docs`.
+- **Localmente:** Puedes abrir directamente `docs/index.html` en tu navegador o servirla con cualquier servidor HTTP local:
+  ```bash
+  python3 -m http.server 8000 --directory docs
+  ```
+
+---
+
+## Comandos Git para Publicar Cambios
+
+Para guardar y subir las modificaciones al repositorio remoto, ejecuta en tu consola:
 
 ```bash
-git add README.md
-git commit -m "docs: mejorar y actualizar README con arquitectura multiparche y guías de uso"
+git add docs/ README.md memory-bank/
+git commit -m "feat: split button de exportacion masiva y mejoras en dashboard"
 git push origin main
 ```
+

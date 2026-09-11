@@ -14,10 +14,12 @@
 - **Dynamic Market Share Sample Filtering:**
   - Mode 1: `⭐ Populares & Solidez` filters out items below $0.5\%$ of total category purchase volume.
   - Mode 2: `📚 Catálogo Completo (Incluye Nicho / OTP)` shows 100% of recorded items.
-- **League of Legends Item Set Exporter:**
-  - Copies JSON payload directly to clipboard (`navigator.clipboard.writeText`).
-  - Sets custom title format: `Zinkoachless - <Campeón> - <Línea>` (e.g. `Zinkoachless - Ekko - Mid`).
-  - Includes custom `"Todos por WPA"` block at the end with all positive WPA items unfiltered.
+- **League of Legends Item Set Exporter (Botón Dividido y Exportación Masiva):**
+  - Botón dividido (split button) en cabecera con botón principal "Exportar Set" y flecha mini para opciones adicionales.
+  - Exportación individual: copia el set del campeón y rol actual al portapapeles o permite descargarlo en archivo `.json`.
+  - Exportación masiva (Bulk): procesa todos los campeones y roles configurados en `championRolesMap` y consolida los sets en una sola estructura oficial de Riot Games (`{ "itemSets": [ ... ] }`), ordenados estrictamente en orden alfabético por campeón (A-Z) y por posición canónica (Top -> Jungla -> Mid -> Bot/ADC -> Support).
+  - Permite copiar todos los sets al portapapeles o descargar `Zinkoachless_All_Item_Sets.json` para importar en un solo paso en el cliente de League of Legends (Colección > Objetos > Importar).
+  - Incluye bloque especial "Todos por WPA" con todos los objetos de WPA positivo.
 
 ---
 
@@ -26,6 +28,7 @@
   - Default patch range: `16.1` to `16.17` (Full Season).
   - Default filter state: `⚡ Post-Ajuste` checked by default.
   - Default sort order: `⭐ Recomendado (Smart Rank)`.
+  - Default champion: Akali (ID: 84, Top) por orden alfabético inicial.
 - **Champion Scalability Workflow:**
   1. Add Champion ID and role (0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support) to `CHAMPIONS` list in [`get-wpa.py`](file:///home/zinko/publico/zinkoachless/get-wpa.py).
   2. Map champion name and supported roles in `championNames` and `championRolesMap` in [`docs/app.js`](file:///home/zinko/publico/zinkoachless/docs/app.js).
