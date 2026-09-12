@@ -184,15 +184,3 @@ La carpeta `docs/` contiene una aplicación web cliente estática y autosuficien
   python3 -m http.server 8000 --directory docs
   ```
 
----
-
-## Comandos Git para Publicar Cambios
-
-Para guardar y subir las modificaciones al repositorio remoto, ejecuta en tu consola:
-
-```bash
-git add docs/ README.md memory-bank/
-git commit -m "feat: split button de exportacion masiva y mejoras en dashboard"
-git push origin main
-```
-
