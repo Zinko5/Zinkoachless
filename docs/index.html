@@ -207,55 +207,16 @@
               <input type="checkbox" id="wpa-trending-up" onchange="applyFilters()"> 📈 Alternativas Emergentes
               (Trending Up)
             </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaAgainstMagicDamage" onchange="applyFilters()"> Positivo: Daño
-              Mágico
-            </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaAgainstPhysicalDamage" onchange="applyFilters()"> Positivo:
-              Daño Físico
-            </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaWhenTanky" onchange="applyFilters()"> Positivo: Tanques
-            </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaWhenSquishy" onchange="applyFilters()"> Positivo: Blandos
-              (Squishy)
-            </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaWhenHighCC" onchange="applyFilters()"> Positivo: Alto CC
-            </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaWhenGoldAhead" onchange="applyFilters()"> Positivo: Ventaja Oro
-            </label>
-            <label
-              style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; color: var(--text-primary);">
-              <input type="checkbox" data-wpa-stat="deltaWhenGoldBehind" onchange="applyFilters()"> Positivo: Desventaja
-              Oro
-            </label>
           </div>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span style="font-size: 0.85rem; color: var(--text-secondary);">Sort By:</span>
           <select id="sort-by"
             style="background-color: var(--bg-main); border: 1px solid var(--border-color); color: var(--text-primary); padding: 0.5rem; border-radius: var(--radius); outline: none; cursor: pointer;"
-            onchange="onAdvancedSortChange()">
-            <option value="smart_rank" selected>⭐ Recomendado (Smart Rank)</option>
-            <option value="wpa">WPA General</option>
+            onchange="applyFilters()">
+            <option value="smart_rank">⭐ Recomendado (Smart Rank)</option>
+            <option value="wpa" selected>WPA General</option>
             <option value="sample_size">Popularidad (Compras)</option>
-            <option value="deltaAgainstMagicDamage">Daño Mágico Enemigo</option>
-            <option value="deltaAgainstPhysicalDamage">Daño Físico Enemigo</option>
-            <option value="deltaWhenTanky">Tanques Enemigos</option>
-            <option value="deltaWhenSquishy">Campeones Blandos (Squishy)</option>
-            <option value="deltaWhenHighCC">Alto CC Enemigo</option>
-            <option value="deltaWhenGoldAhead">Ventaja de Oro</option>
-            <option value="deltaWhenGoldBehind">Desventaja de Oro</option>
           </select>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem;">

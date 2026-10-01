@@ -33,10 +33,11 @@ flowchart TD
 - Executes the 3-step pipeline (`patch_history.py` -> `get-wpa.py` -> `process_wpa.py`) sequentially with error traps and runtime reporting.
 
 ### 3. Data Extraction & Intelligent Caching (`get-wpa.py`)
-- Iterates over configured champions and patches from `config.json`.
-- Skips historical patches already present in `data/raw/coachless_champ_{id}_role_{role}_full_stats.json`.
-- Forces re-download for the current active/latest patch to maintain up-to-date stats.
-- Two-tier exception handling (`safe_fetch`) with backoff delays to manage API rate limits.
+- **Rigor Multiparche Completo en Categorías Principales:** La extracción de las 9 categorías esenciales (Keystones, Spells, Starters, Boots, Slot 1, Slot 2, Slot 3, 4th+ Items y All Items) se ejecuta y conserva a lo largo de TODOS los parches configurados (16.1 a 16.x). La ponderación temporal exponencial ($\lambda = 0.75$) prioriza los parches recientes preservando profundidad histórica.
+- **Decisión Arquitectónica (ADR) - Deprecación de `GetItemDetailed`:** Se eliminó la llamada a `GetItemDetailed` y las métricas situacionales condicionales (daño mágico/físico, tanques, ventaja de oro, CC). El análisis empírico de los sets generados demostró que estos filtros meramente reordenaban los mismos 5-6 objetos con WPA general positivo ($WPA > 0$), produciendo redundancia estadística. Su eliminación redujo las peticiones por campeón de ~1,360 a 153 (reducción del 90%), eliminando de raíz las saturaciones HTTP 429.
+- **Filosofía Off-Meta:** La optimización no asume sesgos semánticos; se reconoce que sinergias contraintuitivas (como un objeto sin MR rindiendo alto contra magos por movilidad o tempo) son el núcleo de Zinkoachless. La eliminación de métricas situacionales responde a economía de red y redundancia matemática, respetando el descubrimiento libre de builds.
+- **Manejo Resiliente de Límites de Tasa (HTTP 429):** Concurrencia moderada (2 hilos), espaciado preventivo global (`throttling` de 0.35s con bloqueo de hilo) y auto-cooldown inteligente basado en `retryAt` o espera mínima de 70s.
+- **Caché Granular Atómica:** Cada parche completado se escribe inmediatamente en `data/raw/` de forma atómica, protegiendo contra pérdida de progreso ante interrupciones.
 
 ### 4. Multi-Entity DDragon Patch Diffing (`patch_history.py`)
 - Download & local cache of `item.json`, `runesReforged.json`, and `summoner.json` per patch from DDragon CDN.

@@ -20,11 +20,11 @@
   - **Ultra-fast Lazy Loading:** Replaced 78MB monolithic bundle with instantaneous on-demand fetching per champion.
   - Real-time client-side patch range filtering (From Patch 16.1 / To Patch 16.16).
   - **"Filtrar Post-Ajuste (⚡)"** checked by default: excludes pre-adjustment patches per item/rune to evaluate strictly post-change WPA.
-  - **"⭐ Recomendado (Smart Rank)"** default composite sorting: combines recency WPA and log-sample confidence.
+  - **Ordenamiento por defecto:** `WPA General` (conmutable a Smart Rank o Popularidad).
   - **Statistical Role Badges & Compact UX:** `⭐ Meta`, `🎯 Situacional / Hidden OP`, `📈 Emergente`, `⚡ Ajustado`.
   - **Dynamic Market Share Filter:** Mode 1 (`⭐ Populares & Solidez` - $0.5\%$ category sample cutoff) vs Mode 2 (`📚 Catálogo Completo` - 100% un-filtered).
-  - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y **Modal Interactivo de Selección Múltiple** para personalizar qué campeones y roles incluir antes de generar el archivo o copiar al portapapeles. Incluye bloque custom "Todos por WPA".
-  - Dynamic champion selector con buscador integrado (33+ campeones soportados).
+  - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y **Modal Interactivo de Selección Múltiple** para personalizar qué campeones y roles incluir. Exportación accionable en 6 bloques: Básicos, Primer item, Segundo item, Tercer item, Items por WPA y Todos (catálogo completo positivo).
+  - Dynamic champion selector con buscador integrado (83 campeones y múltiples roles configurados).
   - **Soporte Multilingüe Dinámico (i18n ES / EN):** Español de Latinoamérica (`es_MX`) por defecto en interfaz, objetos, runas y hechizos; alternador instantáneo `ES` / `EN` en la cabecera con persistencia y búsqueda universal bilingüe.
   - **Visualización Dinámica de Nombres:** Al pasar el cursor (hover en escritorio) o tocar el nombre del ítem (tap en móvil), se ocultan las insignias para mostrar el nombre completo sin cortes ni puntos suspensivos; tocar fuera restaura las insignias.
   - Dark mode aesthetic with glassmorphic cards and crisp layout.
@@ -39,7 +39,6 @@
 
 ## What's Left to Build ⌛
 - [ ] Add more ADC, midlane, and jungle champions to `config.json`.
-- [ ] Implement an Item Details Modal using `GetItemDetailed` endpoint data.
 - [ ] Create automated daily/weekly patch check runner.
 
 ---

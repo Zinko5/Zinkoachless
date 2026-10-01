@@ -33,16 +33,18 @@
 - **Default Page Configuration:**
   - Default patch range: `16.1` to `16.17` (Full Season).
   - Default filter state: `⚡ Post-Ajuste` checked by default.
-  - Default sort order: `⭐ Recomendado (Smart Rank)`.
-  - Default champion: Akali (ID: 84, Top) por orden alfabético inicial.
+  - Default sort order: `WPA General` (con soporte para Smart Rank y Popularidad).
+  - Default champion: Primer campeón en orden alfabético según el catálogo configurado (dinámico en carga).
 - **Champion Scalability Workflow (Centralized via config.json):**
   1. Add Champion ID, name, and roles (0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support) to `"champions"` list in [`config.json`](file:///home/zinko/publico/zinkoachless/config.json).
   2. Run `source .venv/bin/activate && python3 pipeline.py`.
   3. The website and all components update automatically without touching HTML or JS.
-- **Supported Champions (33):** Lucian, Smolder, Ekko, Gwen, Volibear, Annie, Warwick, Fiddlesticks, Viego, Samira, Briar, Shaco, Graves, Akali, Lux, Garen, Dr. Mundo, Seraphine, Fizz, Zilean, Nilah, Neeko, Evelynn, Veigar, Brand, Tahm Kench, Teemo, Tryndamere, Vladimir, Swain, Draven, Tristana, Jinx
+- **Rigor Multiparche en 9 Categorías Principales:** Todo el pipeline extrae y consolida datos históricos en los 17 parches completos con ponderación temporal $\lambda = 0.75$. Se deprecó `GetItemDetailed` al comprobar empíricamente que sus métricas situacionales sólo reordenaban los mismos ítems con WPA positivo general, reduciendo la carga de red en un 90% (de ~1,360 a 153 peticiones por campeón) y previniendo los límites de tasa (HTTP 429).
+- **Exportador LoL Compacto en 6 Bloques:** Estructura limpia y accionable: Básicos, Primer item, Segundo item, Tercer item, Items por WPA (filtrados por cuota de mercado) y **Todos** (catálogo completo no filtrado con $WPA > 0$ y muestra $\ge 50$).
+- **Optimización y Limpieza de Datos:** Eliminación de campos obsoletos `details` en `docs/data/granular/` (ahorro de ~18 MB en Git) y de `item_details` en `data/raw/` (ahorro de ~8 MB en disco local).
 
 ---
 
 ## Next Steps
-- Add more ADC, midlane, and jungle champions (e.g. Ezreal ID: 81, Kai'Sa ID: 145, Lee Sin ID: 64) via `config.json`.
+- Ejecutar `pipeline.py` para completar la descarga limpia y procesamiento de los nuevos campeones agregados en `config.json`.
 - Create automated CI/Cron runner to execute `pipeline.py` whenever Riot releases a new patch.

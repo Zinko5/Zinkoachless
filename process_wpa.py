@@ -131,26 +131,11 @@ def process_coachless_json(input_file, output_granular_json, item_map, rune_map,
         "items_no_slot": "All Items"
     }
 
-    # Claves esenciales de detalles utilizadas por la interfaz web
-    DETAIL_KEYS = {
-        "deltaAgainstPhysicalDamage", "deltaAgainstMagicDamage", "deltaAgainstBalancedDamage",
-        "deltaWhenHighRange", "deltaWhenLowRange", "deltaWhenBalancedRange",
-        "deltaWhenTanky", "deltaWhenSquishy", "deltaWhenBalancedTankiness",
-        "deltaWhenHighCC", "deltaWhenLowCC", "deltaWhenNormalCC",
-        "deltaWhenGoldAhead", "deltaWhenGoldBehind", "deltaWhenGoldBalanced",
-        "physicalDamageOccurrence", "magicDamageOccurrence", "balancedDamageOccurrence",
-        "highRangeOccurrence", "lowRangeOccurrence", "balancedRangeOccurrence",
-        "tankyOccurrence", "squishyOccurrence", "balancedTankinessOccurrence",
-        "highCCOccurrence", "lowCCOccurrence", "normalCCOccurrence",
-        "goldAheadOccurrence", "goldBehindOccurrence", "goldBalancedOccurrence"
-    }
-
     records = []
 
     for patch, sections in raw_data.items():
         if not sections:
             continue
-        item_details_map = sections.get("item_details", {})
         for section_key, cat_name in category_mapping.items():
             section_content = sections.get(section_key)
             if not section_content:
@@ -170,21 +155,13 @@ def process_coachless_json(input_file, output_granular_json, item_map, rune_map,
                     else:
                         parsed["last_changed_patch"] = "16.1"
 
-                if cat_name == "All Items" and item_details_map:
-                    item_id_str = str(parsed["id"])
-                    if item_id_str in item_details_map:
-                        raw_details = item_details_map[item_id_str].get("detailed")
-                        if isinstance(raw_details, dict):
-                            filtered_details = {
-                                k: round(float(v), 4) if isinstance(v, float) else int(v) if isinstance(v, int) else v
-                                for k, v in raw_details.items()
-                                if k in DETAIL_KEYS and v is not None
-                            }
-                            if filtered_details:
-                                parsed["details"] = filtered_details
                 records.append(parsed)
 
     # Exportar registros individuales a JSON Granular compacto en docs/data/granular/
+    if not records:
+        print(f"Omitiendo exportación: 0 registros válidos en '{input_file}' (se preservan datos previos en '{output_granular_json}').")
+        return
+
     os.makedirs(os.path.dirname(output_granular_json), exist_ok=True)
     with open(output_granular_json, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, separators=(',', ':'))

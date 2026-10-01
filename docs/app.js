@@ -167,6 +167,7 @@ const i18n = {
     blockVsHighCC: "Vs. Alto CC",
     blockGoldAhead: "Con Ventaja (Ahead)",
     blockGoldBehind: "Con Desventaja (Behind)",
+    blockAll: "Todos",
     blockAllWpa: "Todos por WPA"
   },
   en: {
@@ -299,6 +300,7 @@ const i18n = {
     blockVsHighCC: "Vs. High CC",
     blockGoldAhead: "When Ahead",
     blockGoldBehind: "When Behind",
+    blockAll: "All",
     blockAllWpa: "All Positive WPA Items"
   }
 };
@@ -343,7 +345,7 @@ const roleLabelsShort = {
 let latestVersion = "16.16.1";
 let wpaData = []; // Esto guardará los registros granulares (por parche)
 let currentView = "global"; // "global" o "all-items"
-let currentSort = "smart_rank"; // "smart_rank", "wpa" o "sample_size"
+let currentSort = "wpa"; // "wpa", "smart_rank" o "sample_size"
 let currentTab = "builds";    // "builds" o "items"
 let availablePatches = [];
 
@@ -430,22 +432,19 @@ function renderCategory(containerId, items) {
     return;
   }
 
-  // Ordenar por selección activa (Smart Rank, WPA, Compras o métricas avanzadas) y orden (ascendente/descendente)
+  // Ordenar por selección activa (Smart Rank, WPA, Compras) y orden (ascendente/descendente)
   const sortOrder = document.getElementById("sort-order") ? document.getElementById("sort-order").value : "desc";
   items.sort((a, b) => {
     let valA, valB;
-    if (currentSort === 'smart_rank' || !currentSort) {
-      valA = a.smart_score !== undefined ? a.smart_score : a.wpa;
-      valB = b.smart_score !== undefined ? b.smart_score : b.wpa;
-    } else if (currentSort === 'sample_size') {
+    if (currentSort === 'sample_size') {
       valA = a.sample_size;
       valB = b.sample_size;
     } else if (currentSort === 'wpa') {
       valA = a.wpa;
       valB = b.wpa;
     } else {
-      valA = (a.details && a.details[currentSort] !== undefined && a.details[currentSort] !== null) ? a.details[currentSort] : -999;
-      valB = (b.details && b.details[currentSort] !== undefined && b.details[currentSort] !== null) ? b.details[currentSort] : -999;
+      valA = a.smart_score !== undefined ? a.smart_score : a.wpa;
+      valB = b.smart_score !== undefined ? b.smart_score : b.wpa;
     }
     return sortOrder === "asc" ? valA - valB : valB - valA;
   });
@@ -458,9 +457,6 @@ function renderCategory(containerId, items) {
     
     const row = document.createElement("div");
     row.className = "item-row";
-    if (item.category === "All Items") {
-      row.classList.add("expandable");
-    }
     
     // Generar insignias compactas según el rol estadístico del elemento
     let roleBadgeHtml = "";
@@ -492,10 +488,6 @@ function renderCategory(containerId, items) {
         <div class="wpa-value ${wpaClass}">${sign}${item.wpa.toFixed(2)}%</div>
         <div class="buys-count">${formatNumber(item.sample_size)}</div>
       </div>
-      ${item.category === "All Items" ? `
-      <div class="item-expand-trigger">
-        <i data-lucide="chevron-down" style="width: 18px; height: 18px; color: var(--text-secondary);"></i>
-      </div>` : ""}
     `;
 
     // Manejar toque en móvil para alternar nombre completo vs insignias
@@ -511,19 +503,17 @@ function renderCategory(containerId, items) {
       });
     }
 
-    if (item.category === "All Items") {
-      row.addEventListener("click", (e) => {
-        if (e.target.closest(".item-details-expanded") || e.target.closest(".item-name-text")) return;
-        toggleItemDetails(row, item);
-      });
-    }
-
     container.appendChild(row);
   });
   lucide.createIcons();
 }
 
 function applyFilters() {
+  const sortByEl = document.getElementById("sort-by");
+  if (sortByEl && sortByEl.value) {
+    currentSort = sortByEl.value;
+  }
+
   const searchQuery = document.getElementById("search-input").value.toLowerCase().trim();
   const fromSelect = document.getElementById("patch-from");
   const toSelect = document.getElementById("patch-to");
@@ -582,11 +572,6 @@ function applyFilters() {
   for (const key in aggregated) {
     const item = aggregated[key];
     if (item.total_sample > 0) {
-      let details = null;
-      if (item.records.length > 0 && item.records.some(r => r.details)) {
-        details = aggregateLocalDetails(item.records);
-      }
-      
       // Ordenar registros de este objeto por parche
       item.records.sort((a, b) => comparePatches(a.patch, b.patch));
       const latestRecord = item.records[item.records.length - 1];
@@ -651,8 +636,7 @@ function applyFilters() {
         is_meta: isMeta,
         is_situational: isSituational,
         is_nerfed: isNerfed,
-        smart_score: smartScore,
-        details: details
+        smart_score: smartScore
       });
     }
   }
@@ -685,21 +669,6 @@ function applyFilters() {
     const checkNegGen = document.getElementById("wpa-neg-gen").checked;
     if (checkPosGen && item.wpa < 0) return false;
     if (checkNegGen && item.wpa > 0) return false;
-
-    // Filtros de WPA Avanzados (Solo si es item del catálogo general)
-    if (item.category === "All Items") {
-      const checkedAdvanced = document.querySelectorAll("#filter-panel input[data-wpa-stat]:checked");
-      if (checkedAdvanced.length > 0) {
-        if (!item.details) return false;
-        for (const cb of checkedAdvanced) {
-          const key = cb.getAttribute("data-wpa-stat");
-          const val = item.details[key];
-          if (val === undefined || val === null || val < 0) {
-            return false;
-          }
-        }
-      }
-    }
 
     // Filtro de cuota de mercado mínima (0.5% del volumen total de la categoría en vista Populares & Solidez)
     if (currentView === "global") {
@@ -793,11 +762,11 @@ const roleNames = {
   4: "Soporte (Support)"
 };
 
-let selectedChamp = "84";
+let selectedChamp = null;
 let selectedRole = 0;
 
 function updateRoleSelector() {
-  const supportedRoles = championRolesMap[selectedChamp] || [3];
+  const supportedRoles = (selectedChamp && championRolesMap[selectedChamp]) ? championRolesMap[selectedChamp] : [0];
   
   // Si el rol seleccionado actual no está entre los soportados del campeón, cambiar al primero disponible
   if (!supportedRoles.includes(selectedRole)) {
@@ -928,7 +897,7 @@ async function loadData() {
   await initDDragon();
 
   // Actualizar cabecera del campeón y botones de roles
-  const champName = championNames[selectedChamp] || "Akali";
+  const champName = (selectedChamp && championNames[selectedChamp]) || "Aatrox";
   document.getElementById("champion-avatar").src = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
   updateRoleSelector();
   updateCustomChampionSelectLabel();
@@ -1192,229 +1161,6 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   });
 });
-
-
-function toggleItemDetails(row, item) {
-  const nextEl = row.nextElementSibling;
-  const isExpanded = nextEl && nextEl.classList.contains("item-details-expanded");
-
-  if (isExpanded) {
-    nextEl.remove();
-    row.classList.remove("expanded");
-    const icon = row.querySelector(".item-expand-trigger i");
-    if (icon) icon.setAttribute("data-lucide", "chevron-down");
-    lucide.createIcons();
-    return;
-  }
-
-  // Cerrar otros abiertos en la misma lista para una experiencia limpia
-  const container = row.parentNode;
-  container.querySelectorAll(".item-details-expanded").forEach(el => el.remove());
-  container.querySelectorAll(".item-row.expanded").forEach(el => {
-    el.classList.remove("expanded");
-    const icon = el.querySelector(".item-expand-trigger i");
-    if (icon) icon.setAttribute("data-lucide", "chevron-down");
-  });
-
-  row.classList.add("expanded");
-  const icon = row.querySelector(".item-expand-trigger i");
-  if (icon) icon.setAttribute("data-lucide", "chevron-up");
-  lucide.createIcons();
-
-  // Crear contenedor de detalles
-  const detailContainer = document.createElement("div");
-  detailContainer.className = "item-details-expanded";
-  
-  const loading = document.createElement("div");
-  loading.className = "loading-spinner";
-  loading.textContent = "Cargando estadísticas avanzadas...";
-  detailContainer.appendChild(loading);
-  
-  row.after(detailContainer);
-
-  // Obtener los datos (del item local)
-  loadDetailedStats(item, detailContainer);
-}
-
-function loadDetailedStats(item, container) {
-  try {
-    const fromVal = document.getElementById("patch-from").value;
-    const toVal = document.getElementById("patch-to").value;
-    const itemRecords = wpaData.filter(d => 
-      d.id === item.id && 
-      d.category === "All Items" && 
-      comparePatches(d.patch, fromVal) >= 0 && 
-      comparePatches(d.patch, toVal) <= 0
-    );
-
-    if (itemRecords.length > 0 && itemRecords.some(r => r.details)) {
-      const details = aggregateLocalDetails(itemRecords);
-      renderExpandedPanel(container, details);
-    } else {
-      container.replaceChildren();
-      const infoMsg = document.createElement("div");
-      infoMsg.className = "error-message";
-      infoMsg.style.color = "var(--text-secondary)";
-      infoMsg.textContent = "Estadísticas detalladas no disponibles localmente. Ejecuta 'get-wpa.py' y 'process_wpa.py' para descargar y procesar los datos de este ítem.";
-      container.appendChild(infoMsg);
-    }
-  } catch (err) {
-    console.error("Error cargando detalles del ítem:", err);
-    container.replaceChildren();
-    const errMsg = document.createElement("div");
-    errMsg.className = "error-message";
-    errMsg.textContent = "No se pudieron cargar las estadísticas avanzadas.";
-    container.appendChild(errMsg);
-  }
-}
-
-function aggregateLocalDetails(records) {
-  const keysToAggregate = [
-    'deltaAgainstMagicDamage', 'deltaAgainstPhysicalDamage', 'deltaAgainstBalancedDamage',
-    'deltaWhenHighRange', 'deltaWhenLowRange', 'deltaWhenBalancedRange',
-    'deltaWhenTanky', 'deltaWhenSquishy', 'deltaWhenBalancedTankiness',
-    'deltaWhenHighCC', 'deltaWhenLowCC', 'deltaWhenNormalCC',
-    'deltaWhenGoldAhead', 'deltaWhenGoldBehind', 'deltaWhenGoldBalanced'
-  ];
-  
-  const occurrenceMap = {
-    'deltaAgainstMagicDamage': 'magicDamageOccurrence',
-    'deltaAgainstPhysicalDamage': 'physicalDamageOccurrence',
-    'deltaAgainstBalancedDamage': 'balancedDamageOccurrence',
-    'deltaWhenHighRange': 'highRangeOccurrence',
-    'deltaWhenLowRange': 'lowRangeOccurrence',
-    'deltaWhenBalancedRange': 'balancedRangeOccurrence',
-    'deltaWhenTanky': 'tankyOccurrence',
-    'deltaWhenSquishy': 'squishyOccurrence',
-    'deltaWhenBalancedTankiness': 'balancedTankinessOccurrence',
-    'deltaWhenHighCC': 'highCCOccurrence',
-    'deltaWhenLowCC': 'lowCCOccurrence',
-    'deltaWhenNormalCC': 'normalCCOccurrence',
-    'deltaWhenGoldAhead': 'goldAheadOccurrence',
-    'deltaWhenGoldBehind': 'goldBehindOccurrence',
-    'deltaWhenGoldBalanced': 'goldBalancedOccurrence'
-  };
-
-  const result = {};
-  keysToAggregate.forEach(key => {
-    let weightedSum = 0;
-    let totalOccur = 0;
-    const occurKey = occurrenceMap[key];
-
-    records.forEach(r => {
-      if (r.details) {
-        const val = r.details[key];
-        const occur = r.details[occurKey] || r.sample_size || 0;
-        if (val !== undefined && val !== null) {
-          weightedSum += val * occur;
-          totalOccur += occur;
-        }
-      }
-    });
-
-    result[key] = totalOccur > 0 ? (weightedSum / totalOccur) : 0;
-  });
-
-  return result;
-}
-
-function renderExpandedPanel(container, details) {
-  container.replaceChildren();
-
-  const title = document.createElement("h4");
-  title.textContent = t("advancedPerfTitle");
-  title.style.marginBottom = "1rem";
-  container.appendChild(title);
-
-  const grid = document.createElement("div");
-  grid.className = "expanded-grid-full";
-
-  const groups = [
-    {
-      title: t("dmgTitle"),
-      metrics: [
-        { label: t("metricPhysical"), val: details.deltaAgainstPhysicalDamage || 0 },
-        { label: t("metricMagic"), val: details.deltaAgainstMagicDamage || 0 },
-        { label: t("metricBalanced"), val: details.deltaAgainstBalancedDamage || 0 }
-      ]
-    },
-    {
-      title: t("rangeTitle"),
-      metrics: [
-        { label: t("metricHighRange"), val: details.deltaWhenHighRange || 0 },
-        { label: t("metricLowRange"), val: details.deltaWhenLowRange || 0 },
-        { label: t("metricBalanced"), val: details.deltaWhenBalancedRange || 0 }
-      ]
-    },
-    {
-      title: t("tankinessTitle"),
-      metrics: [
-        { label: t("metricTanky"), val: details.deltaWhenTanky || 0 },
-        { label: t("metricSquishy"), val: details.deltaWhenSquishy || 0 },
-        { label: t("metricBalanced"), val: details.deltaWhenBalancedTankiness || 0 }
-      ]
-    },
-    {
-      title: t("ccTitle"),
-      metrics: [
-        { label: t("metricHighCC"), val: details.deltaWhenHighCC || 0 },
-        { label: t("metricLowCC"), val: details.deltaWhenLowCC || 0 },
-        { label: t("metricNormalCC"), val: details.deltaWhenNormalCC || 0 }
-      ]
-    },
-    {
-      title: t("goldTitle"),
-      metrics: [
-        { label: t("metricGoldAhead"), val: details.deltaWhenGoldAhead || 0 },
-        { label: t("metricGoldBehind"), val: details.deltaWhenGoldBehind || 0 },
-        { label: t("metricGoldBalanced"), val: details.deltaWhenGoldBalanced || 0 }
-      ]
-    }
-  ];
-
-  groups.forEach(g => {
-    const groupDiv = document.createElement("div");
-    groupDiv.className = "metric-group";
-
-    const groupTitle = document.createElement("div");
-    groupTitle.className = "metric-group-title";
-    groupTitle.textContent = g.title;
-    groupDiv.appendChild(groupTitle);
-
-    g.metrics.forEach(m => {
-      const row = document.createElement("div");
-      row.className = "metric-bar-row";
-
-      const labelSpan = document.createElement("span");
-      labelSpan.className = "metric-label";
-      labelSpan.textContent = m.label;
-
-      const barWrapper = document.createElement("div");
-      barWrapper.className = "metric-bar-wrapper";
-
-      const bar = document.createElement("div");
-      bar.className = `metric-bar ${m.val >= 0 ? 'pos' : 'neg'}`;
-      
-      const percentage = Math.min(Math.abs(m.val) / 5 * 100, 100);
-      bar.style.width = `${percentage}%`;
-
-      const valSpan = document.createElement("span");
-      valSpan.className = `metric-value ${m.val >= 0 ? 'pos' : 'neg'}`;
-      valSpan.textContent = `${m.val >= 0 ? '+' : ''}${m.val.toFixed(2)}%`;
-
-      barWrapper.appendChild(bar);
-      row.appendChild(labelSpan);
-      row.appendChild(barWrapper);
-      row.appendChild(valSpan);
-      groupDiv.appendChild(row);
-    });
-
-    grid.appendChild(groupDiv);
-  });
-
-  container.appendChild(grid);
-}
-
 function onAdvancedSortChange() {
   const select = document.getElementById("sort-by");
   if (!select) return;
@@ -1585,17 +1331,12 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
     
     const overallWpa = recencyWeightedSampleSum > 0 ? (recencyWeightedWpaSum / recencyWeightedSampleSum) : (item.weighted_wpa_sum / item.total_sample);
 
-    let details = null;
-    if (item.records.length > 0 && item.records.some(r => r.details)) {
-      details = aggregateLocalDetails(item.records);
-    }
     list.push({
       category: item.category,
       id: item.id,
       name: item.name,
       wpa: overallWpa,
-      sample_size: item.total_sample,
-      details: details
+      sample_size: item.total_sample
     });
   }
 
@@ -1626,21 +1367,6 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
   const itemsPorWpa = list.filter(item => item.category === "All Items" && item.wpa > 0);
   itemsPorWpa.sort((a, b) => b.wpa - a.wpa);
   const itemsPorWpaLoL = itemsPorWpa.map(item => ({ id: String(item.id), count: 1 }));
-
-  const allItemsWpaPos = list.filter(item => item.category === "All Items" && item.wpa > 0);
-
-  const makeAdvancedBlock = (typeLabel, detailKey) => {
-    const valid = allItemsWpaPos.filter(item => item.details && item.details[detailKey] !== undefined && item.details[detailKey] > 0);
-    valid.sort((a, b) => b.details[detailKey] - a.details[detailKey]);
-    return {
-      "type": typeLabel,
-      "items": valid.map(item => ({ id: String(item.id), count: 1 })),
-      "showIfSummonerSpell": "",
-      "hideIfSummonerSpell": "",
-      "minSummonerLevel": -1,
-      "maxSummonerLevel": -1
-    };
-  };
 
   const blocks = [];
   
@@ -1699,14 +1425,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
     });
   }
 
-  blocks.push(makeAdvancedBlock(t("blockVsMagic"), "deltaAgainstMagicDamage"));
-  blocks.push(makeAdvancedBlock(t("blockVsPhysical"), "deltaAgainstPhysicalDamage"));
-  blocks.push(makeAdvancedBlock(t("blockVsTanky"), "deltaWhenTanky"));
-  blocks.push(makeAdvancedBlock(t("blockVsSquishy"), "deltaWhenSquishy"));
-  blocks.push(makeAdvancedBlock(t("blockVsHighCC"), "deltaWhenHighCC"));
-  blocks.push(makeAdvancedBlock(t("blockGoldAhead"), "deltaWhenGoldAhead"));
-  blocks.push(makeAdvancedBlock(t("blockGoldBehind"), "deltaWhenGoldBehind"));
-
+  // Sección "Todos": contiene el catálogo completo de objetos con WPA > 0 sin filtro de cuota de mercado
   const allItemsUnfilteredList = [];
   for (const key in aggregated) {
     const item = aggregated[key];
@@ -1729,12 +1448,12 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
     }
   }
   allItemsUnfilteredList.sort((a, b) => b.wpa - a.wpa);
-  const todosPorWpaLoL = allItemsUnfilteredList.map(item => ({ id: item.id, count: 1 }));
+  const todosLoL = allItemsUnfilteredList.map(item => ({ id: item.id, count: 1 }));
 
-  if (todosPorWpaLoL.length > 0) {
+  if (todosLoL.length > 0) {
     blocks.push({
-      "type": t("blockAllWpa"),
-      "items": todosPorWpaLoL,
+      "type": t("blockAll"),
+      "items": todosLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
       "minSummonerLevel": -1,
@@ -2168,13 +1887,6 @@ function updateStaticDOMTexts() {
     if (opts[0]) opts[0].text = t("sortSmartRank");
     if (opts[1]) opts[1].text = t("sortWpa");
     if (opts[2]) opts[2].text = t("sortSample");
-    if (opts[3]) opts[3].text = t("sortMagic");
-    if (opts[4]) opts[4].text = t("sortPhysical");
-    if (opts[5]) opts[5].text = t("sortTanky");
-    if (opts[6]) opts[6].text = t("sortSquishy");
-    if (opts[7]) opts[7].text = t("sortHighCC");
-    if (opts[8]) opts[8].text = t("sortGoldAhead");
-    if (opts[9]) opts[9].text = t("sortGoldBehind");
   }
 
   const sortOrderSelect = document.getElementById("sort-order");

@@ -27,9 +27,8 @@
 - Endpoints:
   - `/api/Rune/GetKeystoneData`
   - `/api/ChampionWinprob/GetGlobalSummonerSpellStatistics`
-  - `/api/ChampionWinprob/GetGlobalItemStatistics`
-  - `/api/ChampionWinprob/GetItemDetailed`
-  - `/api/ChampionWinprob/GetItemUsers`
+  - `/api/ChampionWinprob/GetGlobalItemStatistics` (Core categories)
+  - `/api/ChampionWinprob/GetItemDetailed` *(Deprecado por redundancia estadística empírica)*
 
 ### Payload Filters Standard (`commonFilters`)
 ```json

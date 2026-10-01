@@ -1,39 +1,696 @@
 {
   "season": 16,
-  "patches": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+  "patches": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
   "champions": [
-    { "id": 84, "name": "Akali", "roles": [0, 2] },
-    { "id": 1, "name": "Annie", "roles": [2, 4] },
-    { "id": 63, "name": "Brand", "roles": [3, 4] },
-    { "id": 233, "name": "Briar", "roles": [1] },
-    { "id": 36, "name": "Dr. Mundo", "roles": [0, 1] },
-    { "id": 119, "name": "Draven", "roles": [3] },
-    { "id": 245, "name": "Ekko", "roles": [1, 2] },
-    { "id": 28, "name": "Evelynn", "roles": [1] },
-    { "id": 9, "name": "Fiddlesticks", "roles": [1] },
-    { "id": 105, "name": "Fizz", "roles": [2] },
-    { "id": 86, "name": "Garen", "roles": [0] },
-    { "id": 104, "name": "Graves", "roles": [1] },
-    { "id": 887, "name": "Gwen", "roles": [1, 2] },
-    { "id": 222, "name": "Jinx", "roles": [3] },
-    { "id": 236, "name": "Lucian", "roles": [3] },
-    { "id": 99, "name": "Lux", "roles": [2, 3, 4] },
-    { "id": 518, "name": "Neeko", "roles": [4] },
-    { "id": 895, "name": "Nilah", "roles": [3] },
-    { "id": 360, "name": "Samira", "roles": [3] },
-    { "id": 147, "name": "Seraphine", "roles": [2, 3, 4] },
-    { "id": 35, "name": "Shaco", "roles": [1] },
-    { "id": 901, "name": "Smolder", "roles": [3] },
-    { "id": 50, "name": "Swain", "roles": [3] },
-    { "id": 223, "name": "Tahm Kench", "roles": [0, 4] },
-    { "id": 17, "name": "Teemo", "roles": [0] },
-    { "id": 18, "name": "Tristana", "roles": [3] },
-    { "id": 23, "name": "Tryndamere", "roles": [0] },
-    { "id": 45, "name": "Veigar", "roles": [2] },
-    { "id": 234, "name": "Viego", "roles": [1] },
-    { "id": 8, "name": "Vladimir", "roles": [2] },
-    { "id": 106, "name": "Volibear", "roles": [0, 1] },
-    { "id": 19, "name": "Warwick", "roles": [0, 1] },
-    { "id": 26, "name": "Zilean", "roles": [4] }
+    {
+      "name": "Aatrox",
+      "id": 266,
+      "roles": [
+        0
+      ]
+    },
+    {
+      "name": "Ahri",
+      "id": 103,
+      "roles": [
+        2
+      ]
+    },
+    {
+      "name": "Akali",
+      "id": 84,
+      "roles": [
+        2
+      ]
+    },
+    {
+      "name": "Akshan",
+      "id": 166,
+      "roles": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Alistar",
+      "id": 12,
+      "roles": [
+        0,
+        4
+      ]
+    },
+    {
+      "name": "Ambessa",
+      "id": 799,
+      "roles": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Amumu",
+      "id": 32,
+      "roles": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Anivia",
+      "id": 34,
+      "roles": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Annie",
+      "id": 1,
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Aphelios",
+      "id": 523,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Ashe",
+      "id": 22,
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Aurelion Sol",
+      "id": 136,
+      "roles": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Aurora",
+      "id": 893,
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Azir",
+      "id": 268,
+      "roles": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Bard",
+      "id": 432,
+      "roles": [
+        4
+      ]
+    },
+    {
+      "name": "Bel'Veth",
+      "id": 200,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Blitzcrank",
+      "id": 53,
+      "roles": [
+        4
+      ]
+    },
+    {
+      "name": "Brand",
+      "id": 63,
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Briar",
+      "id": 233,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Camille",
+      "id": 164,
+      "roles": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Cho'Gath",
+      "id": 31,
+      "roles": [
+        0,
+        4
+      ]
+    },
+    {
+      "name": "Corki",
+      "id": 42,
+      "roles": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Darius",
+      "id": 122,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Dr. Mundo",
+      "id": 36,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Draven",
+      "id": 119,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Ekko",
+      "id": 245,
+      "roles": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Evelynn",
+      "id": 28,
+      "roles": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Ezreal",
+      "id": 81,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Fiddlesticks",
+      "id": 9,
+      "roles": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Fiora",
+      "id": 114,
+      "roles": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "Fizz",
+      "id": 105,
+      "roles": [
+        2
+      ]
+    },
+    {
+      "name": "Garen",
+      "id": 86,
+      "roles": [
+        0
+      ]
+    },
+    {
+      "name": "Graves",
+      "id": 104,
+      "roles": [
+        1
+      ]
+    },
+    {
+      "name": "Gwen",
+      "id": 887,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Hecarim",
+      "id": 120,
+      "roles": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Hwei",
+      "id": 910,
+      "roles": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Jayce",
+      "id": 126,
+      "roles": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Jhin",
+      "id": 202,
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Jinx",
+      "id": 222,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "K'Sante",
+      "id": 897,
+      "roles": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Kai'Sa",
+      "id": 145,
+      "roles": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": "Kayn",
+      "id": 141,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Kha'Zix",
+      "id": 121,
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Lee Sin",
+      "id": 64,
+      "roles": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Lillia",
+      "id": 876,
+      "roles": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Locke",
+      "id": 805,
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Lucian",
+      "id": 236,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Lux",
+      "id": 99,
+      "roles": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Master Yi",
+      "id": 11,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Mel",
+      "id": 800,
+      "roles": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Miss Fortune",
+      "id": 21,
+      "roles": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "id": 82,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Morgana",
+      "id": 25,
+      "roles": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Naafiri",
+      "id": 950,
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Neeko",
+      "id": 518,
+      "roles": [
+        4
+      ]
+    },
+    {
+      "name": "Nilah",
+      "id": 895,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Pantheon",
+      "id": 80,
+      "roles": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Poppy",
+      "id": 78,
+      "roles": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Pyke",
+      "id": 555,
+      "roles": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Qiyana",
+      "id": 246,
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Ryze",
+      "id": 13,
+      "roles": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Samira",
+      "id": 360,
+      "roles": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": "Seraphine",
+      "id": 147,
+      "roles": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Sett",
+      "id": 875,
+      "roles": [
+        0,
+        4
+      ]
+    },
+    {
+      "name": "Shaco",
+      "id": 35,
+      "roles": [
+        1
+      ]
+    },
+    {
+      "name": "Shen",
+      "id": 98,
+      "roles": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "Smolder",
+      "id": 901,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Swain",
+      "id": 50,
+      "roles": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Tahm Kench",
+      "id": 223,
+      "roles": [
+        0,
+        4
+      ]
+    },
+    {
+      "name": "Teemo",
+      "id": 17,
+      "roles": [
+        0
+      ]
+    },
+    {
+      "name": "Tristana",
+      "id": 18,
+      "roles": [
+        3
+      ]
+    },
+    {
+      "name": "Tryndamere",
+      "id": 23,
+      "roles": [
+        0
+      ]
+    },
+    {
+      "name": "Veigar",
+      "id": 45,
+      "roles": [
+        2
+      ]
+    },
+    {
+      "name": "Vel'Koz",
+      "id": 161,
+      "roles": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Viego",
+      "id": 234,
+      "roles": [
+        1
+      ]
+    },
+    {
+      "name": "Vladimir",
+      "id": 8,
+      "roles": [
+        2
+      ]
+    },
+    {
+      "name": "Volibear",
+      "id": 106,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Warwick",
+      "id": 19,
+      "roles": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Wukong",
+      "id": 62,
+      "roles": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "Yasuo",
+      "id": 157,
+      "roles": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Yone",
+      "id": 777,
+      "roles": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Zed",
+      "id": 238,
+      "roles": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Zilean",
+      "id": 26,
+      "roles": [
+        4
+      ]
+    }
   ]
 }
