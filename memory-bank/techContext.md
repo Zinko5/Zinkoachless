@@ -58,3 +58,4 @@
 1. **Python Environment Rule:** Always execute python scripts using the virtualenv managed by `uv` (`source .venv/bin/activate`).
 2. **No Git Execution Rule:** Do not execute `git` commands directly via shell tools; provide exact console instructions for the user if needed.
 3. **No Realtime Web Browser Rule:** Web application testing should be done statically without real-time browser preview loops.
+4. **Gitignore Scope Rule:** Always anchor `/data/` with leading slash so root cache directory is ignored without ignoring `docs/data/` needed for GitHub Pages.

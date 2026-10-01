@@ -20,7 +20,7 @@ Thumbs.db
 *.sublime-workspace
 
 # Zinkoachless local cache and data outputs
-data/
+/data/
 
 # Local design plans
 plan.md
