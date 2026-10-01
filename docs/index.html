@@ -110,28 +110,28 @@
           </button>
           
           <div class="split-dropdown" id="export-dropdown" style="display: none;">
-            <div class="split-dropdown-section-title">Todos los Campeones y Roles</div>
-            <button class="split-dropdown-item" onclick="exportAllLoLItemSets('clipboard')">
-              <i data-lucide="copy" style="width: 15px; height: 15px; color: #10b981;"></i>
+            <div class="split-dropdown-section-title">Exportación de Sets</div>
+            <button class="split-dropdown-item" onclick="openBulkExportModal()">
+              <i data-lucide="layers" style="width: 15px; height: 15px; color: #3b82f6;"></i>
               <div class="item-text">
-                <span class="item-title">Copiar todos los sets</span>
-                <span class="item-sub">Portapapeles (formato multi-set de LoL)</span>
-              </div>
-            </button>
-            <button class="split-dropdown-item" onclick="exportAllLoLItemSets('download')">
-              <i data-lucide="folder-down" style="width: 15px; height: 15px; color: #3b82f6;"></i>
-              <div class="item-text">
-                <span class="item-title">Descargar archivo .json</span>
-                <span class="item-sub">Todos los campeones listos para importar</span>
+                <span class="item-title">Personalizar y exportar varios...</span>
+                <span class="item-sub">Elige los campeones y roles deseados</span>
               </div>
             </button>
             <div class="split-dropdown-divider"></div>
-            <div class="split-dropdown-section-title">Campeón Seleccionado</div>
+            <div class="split-dropdown-section-title">Campeón Actual</div>
+            <button class="split-dropdown-item" onclick="exportLoLItemSet()">
+              <i data-lucide="copy" style="width: 15px; height: 15px; color: #10b981;"></i>
+              <div class="item-text">
+                <span class="item-title">Copiar set actual</span>
+                <span class="item-sub">Portapapeles (campeón y rol actual)</span>
+              </div>
+            </button>
             <button class="split-dropdown-item" onclick="exportCurrentLoLItemSetFile()">
               <i data-lucide="file-code" style="width: 15px; height: 15px; color: #ec4899;"></i>
               <div class="item-text">
                 <span class="item-title">Descargar set actual (.json)</span>
-                <span class="item-sub">Solo campeón y rol actual</span>
+                <span class="item-sub">Archivo listo para importar</span>
               </div>
             </button>
           </div>
@@ -444,6 +444,58 @@
         </div>
       </div>
     </main>
+
+    <!-- MODAL DE EXPORTACIÓN PERSONALIZADA DE CAMPEONES -->
+    <div class="modal-overlay" id="bulk-export-modal" style="display: none;">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 8px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;">
+              <i data-lucide="layers" style="width: 20px; height: 20px; color: #3b82f6;"></i>
+            </div>
+            <div>
+              <h3 style="font-size: 1.15rem; font-weight: 700; color: #ffffff;">Exportar Sets de Objetos</h3>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;">Selecciona los campeones que deseas incluir en el paquete de importación de LoL.</p>
+            </div>
+          </div>
+          <button class="modal-close-btn" onclick="closeBulkExportModal()" title="Cerrar ventana">
+            <i data-lucide="x" style="width: 18px; height: 18px;"></i>
+          </button>
+        </div>
+
+        <div class="modal-controls">
+          <div class="modal-search-wrapper">
+            <i data-lucide="search" style="width: 16px; height: 16px; color: var(--text-secondary);"></i>
+            <input type="text" id="modal-search-input" placeholder="Buscar campeón..." oninput="filterModalChampions()">
+          </div>
+          
+          <div class="modal-quick-actions">
+            <button type="button" class="modal-chip-btn" onclick="setModalSelection('all')">Todos</button>
+            <button type="button" class="modal-chip-btn" onclick="setModalSelection('none')">Ninguno</button>
+            <button type="button" class="modal-chip-btn" onclick="setModalSelection('current')">Solo Actual</button>
+          </div>
+        </div>
+
+        <div class="modal-champions-grid" id="modal-champions-list"></div>
+
+        <div class="modal-footer">
+          <div class="modal-selection-count" id="modal-selection-summary">
+            0 campeones seleccionados
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+            <button type="button" class="btn" style="background: transparent;" onclick="closeBulkExportModal()">Cancelar</button>
+            <button type="button" class="btn btn-primary" id="btn-modal-copy" onclick="executeCustomExport('clipboard')">
+              <i data-lucide="copy" style="width: 15px; height: 15px;"></i>
+              <span>Copiar al Portapapeles</span>
+            </button>
+            <button type="button" class="btn" style="background: rgba(59, 130, 246, 0.2); border: 1px solid rgba(59, 130, 246, 0.4); color: #93c5fd;" id="btn-modal-download" onclick="executeCustomExport('download')">
+              <i data-lucide="download" style="width: 15px; height: 15px;"></i>
+              <span>Descargar .json</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 

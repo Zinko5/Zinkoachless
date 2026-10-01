@@ -16,11 +16,11 @@
 - **Dynamic Market Share Sample Filtering:**
   - Mode 1: `⭐ Populares & Solidez` filters out items below $0.5\%$ of total category purchase volume.
   - Mode 2: `📚 Catálogo Completo (Incluye Nicho / OTP)` shows 100% of recorded items.
-- **League of Legends Item Set Exporter (Botón Dividido y Exportación Masiva):**
+- **League of Legends Item Set Exporter (Botón Dividido y Modal de Selección Personalizable):**
   - Botón dividido (split button) en cabecera con botón principal "Exportar Set" y flecha mini para opciones adicionales.
   - Exportación individual: copia el set del campeón y rol actual al portapapeles o permite descargarlo en archivo `.json`.
-  - Exportación masiva (Bulk): procesa todos los campeones y roles configurados en `championRolesMap` y consolida los sets en una sola estructura oficial de Riot Games (`{ "itemSets": [ ... ] }`), ordenados estrictamente en orden alfabético por campeón (A-Z) y por posición canónica (Top -> Jungla -> Mid -> Bot/ADC -> Support) con contador de progreso interactivo.
-  - Permite copiar todos los sets al portapapeles o descargar `Zinkoachless_All_Item_Sets.json` para importar en un solo paso en el cliente de League of Legends (Colección > Objetos > Importar).
+  - **Modal Interactivo de Selección Múltiple:** Permite filtrar y seleccionar qué campeones y roles incluir antes de exportar, con buscador en vivo, botones rápidos ("Todos", "Ninguno", "Solo Actual"), resumen dinámico de sets y opciones para copiar al portapapeles o descargar `Zinkoachless_Custom_Item_Sets.json`.
+  - Orden canónico por campeón (A-Z) y por posición (Top -> Jungla -> Mid -> Bot/ADC -> Support).
   - Incluye bloque especial "Todos por WPA" con todos los objetos de WPA positivo.
 
 ---

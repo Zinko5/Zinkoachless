@@ -22,6 +22,14 @@ const runeImages = {
 };
 
 
+const roleLabelsShort = {
+  0: "Top",
+  1: "Jungla",
+  2: "Mid",
+  3: "Bot",
+  4: "Support"
+};
+
 let latestVersion = "16.16.1";
 let wpaData = []; // Esto guardará los registros granulares (por parche)
 let currentView = "global"; // "global" o "all-items"
@@ -1440,43 +1448,198 @@ function exportCurrentLoLItemSetFile() {
   downloadJsonFile(filename, itemSetJson);
 }
 
-async function exportAllLoLItemSets(mode = 'clipboard') {
+let modalSelectedChampIds = new Set();
+
+function openBulkExportModal() {
   const dropdown = document.getElementById("export-dropdown");
   if (dropdown) dropdown.style.display = "none";
 
-  const btnMain = document.getElementById("btn-export-set");
-  const originalHtml = btnMain ? btnMain.innerHTML : "";
-  if (btnMain) {
-    btnMain.innerHTML = `<i data-lucide="loader" style="width: 16px; height: 16px;"></i> <span>Exportando...</span>`;
+  const modal = document.getElementById("bulk-export-modal");
+  if (!modal) return;
+
+  // Por defecto, si está vacío, inicializar con todos los campeones configurados
+  if (modalSelectedChampIds.size === 0) {
+    const allIds = appConfig && appConfig.champions 
+      ? appConfig.champions.map(c => String(c.id))
+      : Object.keys(championRolesMap).map(String);
+    allIds.forEach(id => modalSelectedChampIds.add(id));
+  }
+
+  const searchInput = document.getElementById("modal-search-input");
+  if (searchInput) searchInput.value = "";
+
+  renderModalChampionCards();
+  updateModalSummary();
+
+  modal.style.display = "flex";
+  if (window.lucide) window.lucide.createIcons();
+}
+
+function closeBulkExportModal() {
+  const modal = document.getElementById("bulk-export-modal");
+  if (modal) modal.style.display = "none";
+}
+
+function renderModalChampionCards(filterText = "") {
+  const container = document.getElementById("modal-champions-list");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  let champList = [];
+  if (appConfig && appConfig.champions && appConfig.champions.length > 0) {
+    champList = appConfig.champions.map(c => ({
+      id: String(c.id),
+      name: c.name || championNames[c.id] || `ID_${c.id}`,
+      roles: c.roles || championRolesMap[c.id] || [0]
+    }));
+  } else {
+    champList = Object.keys(championRolesMap).map(id => ({
+      id: String(id),
+      name: championNames[id] || `ID_${id}`,
+      roles: championRolesMap[id] || [0]
+    }));
+  }
+
+  champList.sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
+
+  const query = filterText.toLowerCase().trim();
+  const filtered = champList.filter(c => c.name.toLowerCase().includes(query));
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="grid-column: 1 / -1; padding: 2rem; text-align: center; color: var(--text-secondary);">No se encontraron campeones para "${filterText}".</div>`;
+    return;
+  }
+
+  filtered.forEach(c => {
+    const isSelected = modalSelectedChampIds.has(c.id);
+    const card = document.createElement("div");
+    card.className = `modal-champ-card ${isSelected ? 'selected' : ''}`;
+    card.setAttribute("data-champ-id", c.id);
+
+    const champName = championNames[c.id] || c.name;
+    const avatarUrl = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
+
+    const rolesHtml = c.roles.map(r => `<span class="modal-role-badge">${roleLabelsShort[r] || r}</span>`).join("");
+
+    card.innerHTML = `
+      <input type="checkbox" class="modal-champ-checkbox" ${isSelected ? 'checked' : ''}>
+      <img src="${avatarUrl}" class="modal-champ-avatar" alt="${c.name}" onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png';">
+      <div class="modal-champ-info">
+        <span class="modal-champ-name">${c.name}</span>
+        <div class="modal-champ-roles">${rolesHtml}</div>
+      </div>
+    `;
+
+    card.addEventListener("click", () => {
+      toggleModalChampion(c.id);
+    });
+
+    container.appendChild(card);
+  });
+}
+
+function filterModalChampions() {
+  const searchInput = document.getElementById("modal-search-input");
+  const query = searchInput ? searchInput.value : "";
+  renderModalChampionCards(query);
+}
+
+function toggleModalChampion(champId) {
+  champId = String(champId);
+  if (modalSelectedChampIds.has(champId)) {
+    modalSelectedChampIds.delete(champId);
+  } else {
+    modalSelectedChampIds.add(champId);
+  }
+
+  const card = document.querySelector(`.modal-champ-card[data-champ-id="${champId}"]`);
+  if (card) {
+    const isSelected = modalSelectedChampIds.has(champId);
+    card.classList.toggle("selected", isSelected);
+    const cb = card.querySelector(".modal-champ-checkbox");
+    if (cb) cb.checked = isSelected;
+  }
+
+  updateModalSummary();
+}
+
+function setModalSelection(type) {
+  const allIds = appConfig && appConfig.champions 
+    ? appConfig.champions.map(c => String(c.id))
+    : Object.keys(championRolesMap).map(String);
+
+  if (type === 'all') {
+    allIds.forEach(id => modalSelectedChampIds.add(id));
+  } else if (type === 'none') {
+    modalSelectedChampIds.clear();
+  } else if (type === 'current') {
+    modalSelectedChampIds.clear();
+    modalSelectedChampIds.add(String(selectedChamp));
+  }
+
+  const searchInput = document.getElementById("modal-search-input");
+  const query = searchInput ? searchInput.value : "";
+  renderModalChampionCards(query);
+  updateModalSummary();
+}
+
+function updateModalSummary() {
+  const summaryEl = document.getElementById("modal-selection-summary");
+  if (!summaryEl) return;
+
+  const selectedCount = modalSelectedChampIds.size;
+  let totalSets = 0;
+  modalSelectedChampIds.forEach(id => {
+    const roles = championRolesMap[id] || [0];
+    totalSets += roles.length;
+  });
+
+  summaryEl.innerText = `${selectedCount} campeón(es) seleccionado(s) — ${totalSets} set(s) en total`;
+}
+
+async function executeCustomExport(mode = 'clipboard') {
+  if (modalSelectedChampIds.size === 0) {
+    alert("Por favor selecciona al menos un campeón para exportar.");
+    return;
+  }
+
+  const btnCopy = document.getElementById("btn-modal-copy");
+  const btnDownload = document.getElementById("btn-modal-download");
+  const activeBtn = mode === 'download' ? btnDownload : btnCopy;
+  const originalHtml = activeBtn ? activeBtn.innerHTML : "";
+
+  if (activeBtn) {
+    activeBtn.innerHTML = `<i data-lucide="loader" style="width: 15px; height: 15px;"></i> <span>Procesando...</span>`;
     if (window.lucide) window.lucide.createIcons();
   }
 
   try {
     const allItemSets = [];
-    
-    // Orden canónico de roles de LoL: Top (0) -> Jungle (1) -> Mid (2) -> ADC/Bot (3) -> Support (4)
     const roleOrder = { 0: 0, 1: 1, 2: 2, 3: 3, 4: 4 };
 
-    // Ordenar alfabéticamente por nombre de campeón y ordenar sus roles de Top a Support
-    const champEntries = Object.entries(championRolesMap).map(([champId, roles]) => {
-      const name = getChampionDisplayName(champId);
-      const sortedRoles = [...roles].sort((a, b) => (roleOrder[a] ?? a) - (roleOrder[b] ?? b));
-      return {
-        champId,
-        name,
-        roles: sortedRoles
-      };
-    });
+    // Filtrar los campeones seleccionados
+    const selectedEntries = Object.entries(championRolesMap)
+      .filter(([champId]) => modalSelectedChampIds.has(String(champId)))
+      .map(([champId, roles]) => {
+        const name = getChampionDisplayName(champId);
+        const sortedRoles = [...roles].sort((a, b) => (roleOrder[a] ?? a) - (roleOrder[b] ?? b));
+        return {
+          champId,
+          name,
+          roles: sortedRoles
+        };
+      });
 
-    champEntries.sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
+    selectedEntries.sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
 
     let completed = 0;
-    const totalCount = champEntries.reduce((acc, c) => acc + c.roles.length, 0);
+    const totalCount = selectedEntries.reduce((acc, c) => acc + c.roles.length, 0);
 
-    for (const champ of champEntries) {
+    for (const champ of selectedEntries) {
       for (const roleId of champ.roles) {
-        if (btnMain) {
-          btnMain.innerHTML = `<i data-lucide="loader" style="width: 16px; height: 16px;"></i> <span>Generando (${completed}/${totalCount})...</span>`;
+        if (activeBtn) {
+          activeBtn.innerHTML = `<i data-lucide="loader" style="width: 15px; height: 15px;"></i> <span>Generando (${completed}/${totalCount})...</span>`;
           if (window.lucide) window.lucide.createIcons();
         }
         const rawData = await getChampionRoleData(champ.champId, roleId);
@@ -1491,7 +1654,7 @@ async function exportAllLoLItemSets(mode = 'clipboard') {
     }
 
     if (allItemSets.length === 0) {
-      alert("No se encontraron sets de objetos disponibles para exportar.");
+      alert("No se pudieron generar sets de objetos para los campeones seleccionados.");
       return;
     }
 
@@ -1501,24 +1664,54 @@ async function exportAllLoLItemSets(mode = 'clipboard') {
     const jsonStr = JSON.stringify(payload, null, 2);
 
     if (mode === 'download') {
-      downloadJsonFile("Zinkoachless_All_Item_Sets.json", payload);
-      alert(`Archivo Zinkoachless_All_Item_Sets.json descargado con éxito.\n\nContiene ${allItemSets.length} sets de items de todos los campeones y roles listos para importar en el cliente de LoL.`);
+      downloadJsonFile("Zinkoachless_Custom_Item_Sets.json", payload);
+      alert(`Archivo Zinkoachless_Custom_Item_Sets.json descargado con éxito.\n\nContiene ${allItemSets.length} sets de ${selectedEntries.length} campeones seleccionados listos para importar en el cliente de LoL.`);
+      closeBulkExportModal();
     } else {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         await navigator.clipboard.writeText(jsonStr);
-        alert(`Se han copiado al portapapeles ${allItemSets.length} sets de items de todos los campeones y roles con éxito.\n\nEn el cliente de League of Legends ve a:\nColección > Objetos > Importar conjuntos de objetos > Pegar conjunto copiado.`);
+        alert(`Se han copiado al portapapeles ${allItemSets.length} sets de ${selectedEntries.length} campeones seleccionados con éxito.\n\nEn el cliente de League of Legends ve a:\nColección > Objetos > Importar conjuntos de objetos > Pegar conjunto copiado.`);
+        closeBulkExportModal();
       } else {
-        downloadJsonFile("Zinkoachless_All_Item_Sets.json", payload);
-        alert(`No se pudo acceder al portapapeles, por lo que se descargó automáticamente el archivo Zinkoachless_All_Item_Sets.json con ${allItemSets.length} sets.`);
+        downloadJsonFile("Zinkoachless_Custom_Item_Sets.json", payload);
+        alert(`No se pudo acceder al portapapeles, por lo que se descargó automáticamente el archivo Zinkoachless_Custom_Item_Sets.json con ${allItemSets.length} sets.`);
+        closeBulkExportModal();
       }
     }
   } catch (err) {
-    console.error("Error al exportar todos los sets:", err);
+    console.error("Error al exportar sets personalizados:", err);
     alert("Ocurrió un error al generar los sets de items: " + err.message);
   } finally {
-    if (btnMain) {
-      btnMain.innerHTML = originalHtml;
+    if (activeBtn) {
+      activeBtn.innerHTML = originalHtml;
       if (window.lucide) window.lucide.createIcons();
     }
   }
 }
+
+document.addEventListener("click", function(event) {
+  const modal = document.getElementById("bulk-export-modal");
+  if (modal && event.target === modal) {
+    closeBulkExportModal();
+  }
+});
+
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    closeBulkExportModal();
+    const dropdown = document.getElementById("export-dropdown");
+    if (dropdown) dropdown.style.display = "none";
+  }
+});
+
+// Exponer funciones globales para interacción con HTML
+window.openBulkExportModal = openBulkExportModal;
+window.closeBulkExportModal = closeBulkExportModal;
+window.filterModalChampions = filterModalChampions;
+window.setModalSelection = setModalSelection;
+window.toggleModalChampion = toggleModalChampion;
+window.executeCustomExport = executeCustomExport;
+window.toggleExportDropdown = toggleExportDropdown;
+window.exportLoLItemSet = exportLoLItemSet;
+window.exportCurrentLoLItemSetFile = exportCurrentLoLItemSetFile;
+

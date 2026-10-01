@@ -23,7 +23,7 @@
   - **"⭐ Recomendado (Smart Rank)"** default composite sorting: combines recency WPA and log-sample confidence.
   - **Statistical Role Badges & Compact UX:** `⭐ Meta`, `🎯 Situacional / Hidden OP`, `📈 Emergente`, `⚡ Ajustado`.
   - **Dynamic Market Share Filter:** Mode 1 (`⭐ Populares & Solidez` - $0.5\%$ category sample cutoff) vs Mode 2 (`📚 Catálogo Completo` - 100% un-filtered).
-  - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y exportación masiva multi-set de todos los campeones y roles en un único archivo/copiado compatible con el cliente de Riot Games con feedback de progreso. Incluye bloque custom "Todos por WPA".
+  - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y **Modal Interactivo de Selección Múltiple** para personalizar qué campeones y roles incluir antes de generar el archivo o copiar al portapapeles. Incluye bloque custom "Todos por WPA".
   - Dynamic champion selector con buscador integrado (33+ campeones soportados).
   - Dark mode aesthetic with glassmorphic cards and crisp layout.
 - [x] **Configuración Centralizada & Pipeline Maestro (`config.json` & `pipeline.py`):**
