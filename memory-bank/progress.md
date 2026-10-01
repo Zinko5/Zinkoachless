@@ -26,17 +26,21 @@
   - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y exportación masiva multi-set de todos los campeones y roles en un único archivo/copiado compatible con el cliente de Riot Games con feedback de progreso. Incluye bloque custom "Todos por WPA".
   - Dynamic champion selector con buscador integrado (33+ campeones soportados).
   - Dark mode aesthetic with glassmorphic cards and crisp layout.
+- [x] **Configuración Centralizada & Pipeline Maestro (`config.json` & `pipeline.py`):**
+  - Archivo único `config.json` como *Single Source of Truth* para temporadas, parches, campeones y roles.
+  - Script maestro `pipeline.py` que orquesta la ejecución secuencial completa con un solo comando.
+  - Sincronización automática con `docs/data/config.json` para poblar dinámicamente la web sin tocar HTML/JS.
 - [x] **Memory Bank:**
   - Standard Memory Bank system fully maintained (`projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`, `activeContext.md`, `progress.md`).
 
 ---
 
 ## What's Left to Build ⌛
-- [ ] Add more ADC, midlane, and jungle champions to `get-wpa.py` and `docs/index.html`.
+- [ ] Add more ADC, midlane, and jungle champions to `config.json`.
 - [ ] Implement an Item Details Modal using `GetItemDetailed` endpoint data.
-- [ ] Create automated daily/weekly patch check script.
+- [ ] Create automated daily/weekly patch check runner.
 
 ---
 
 ## Known Issues & Technical Debts
-- **Hardcoded Patch Arrays:** Currently `PATCHES` array in `get-wpa.py` is hardcoded up to 16; auto-discovery of available patches from Riot/Coachless APIs would streamline maintenance.
+- **Automated Patch Auto-Discovery:** Option to automatically append newly released patches to `config.json` by pinging Riot API.

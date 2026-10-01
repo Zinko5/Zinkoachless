@@ -1897,84 +1897,10 @@
 16.16,All Items,3089,Rabadon's Deathcap,-2.5223,159
 16.16,All Items,4633,Riftmaker,0.292,1102
 16.16,All Items,3065,Spirit Visage,-1.4019,1702
-16.17,Keystone,8010,Conqueror,0.2982,7948
-16.17,Keystone,8214,Summon Aery,2.5916,494
-16.17,Keystone,8992,Deathfire Touch,-0.9362,1561
-16.17,Keystone,8128,Dark Harvest,-0.3375,207
-16.17,Keystone,8112,Electrocute,-4.4768,433
-16.17,Spell,3,Exhaust,0.1048,2794
-16.17,Spell,4,Flash,0.0304,10714
-16.17,Spell,6,Ghost,0.3994,6120
-16.17,Spell,12,Teleport,-0.0601,847
-16.17,Spell,14,Ignite,-3.2429,440
-16.17,Spell,21,Barrier,-1.229,521
-16.17,Starter,1056,Doran's Ring,0.0919,8727
-16.17,Starter,1120,Doran's Helm,0.3462,1739
-16.17,Starter,3070,Tear of the Goddess,-2.8454,138
-16.17,Boots,3008,Gluttonous Greaves,0.7535,702
-16.17,Boots,3009,Boots of Swiftness,0.4605,638
-16.17,Boots,3020,Sorcerer's Shoes,0.489,1758
-16.17,Boots,3047,Plated Steelcaps,-0.0197,4414
-16.17,Boots,3111,Mercury's Treads,-0.0629,2681
-16.17,Boots,3158,Ionian Boots of Lucidity,-8.1888,179
-16.17,1st Item,2503,Blackfire Torch,-0.1233,2694
-16.17,1st Item,3110,Frozen Heart,4.8509,228
-16.17,1st Item,3116,Rylai's Crystal Scepter,-0.5733,1726
-16.17,1st Item,3118,Malignance,0.6416,5229
-16.17,1st Item,6653,Liandry's Torment,-4.5604,218
-16.17,1st Item,6657,Rod of Ages,-0.2969,235
-16.17,2nd Item,2503,Blackfire Torch,2.3769,204
-16.17,2nd Item,3041,Mejai's Soulstealer,-3.9628,103
-16.17,2nd Item,3065,Spirit Visage,3.1658,123
-16.17,2nd Item,3110,Frozen Heart,1.5112,288
-16.17,2nd Item,3116,Rylai's Crystal Scepter,-0.2909,5338
-16.17,2nd Item,3118,Malignance,-0.0158,455
-16.17,2nd Item,3119,Winter's Approach,-3.0106,210
-16.17,2nd Item,3157,Zhonya's Hourglass,0.3326,1141
-16.17,2nd Item,4633,Riftmaker,4.7809,223
-16.17,2nd Item,6653,Liandry's Torment,1.0159,1235
-16.17,2nd Item,8010,Bloodletter's Curse,-4.7531,110
-16.17,3rd Item,3041,Mejai's Soulstealer,-4.9205,162
-16.17,3rd Item,3065,Spirit Visage,-1.6498,400
-16.17,3rd Item,3110,Frozen Heart,-1.5463,242
-16.17,3rd Item,3116,Rylai's Crystal Scepter,2.1279,582
-16.17,3rd Item,3119,Winter's Approach,-1.1973,112
-16.17,3rd Item,3157,Zhonya's Hourglass,-0.3628,3813
-16.17,3rd Item,4633,Riftmaker,1.732,280
-16.17,3rd Item,6653,Liandry's Torment,1.1856,1050
-16.17,3rd Item,8010,Bloodletter's Curse,2.21,207
-16.17,4th+ Item,3041,Mejai's Soulstealer,0.0777,150
-16.17,4th+ Item,3065,Spirit Visage,1.2915,740
-16.17,4th+ Item,3089,Rabadon's Deathcap,-4.0901,129
-16.17,4th+ Item,3110,Frozen Heart,0.9011,311
-16.17,4th+ Item,3116,Rylai's Crystal Scepter,1.1536,242
-16.17,4th+ Item,3143,Randuin's Omen,2.927,182
-16.17,4th+ Item,3157,Zhonya's Hourglass,-1.0995,776
-16.17,4th+ Item,3165,Morellonomicon,0.6692,174
-16.17,4th+ Item,4633,Riftmaker,-0.2203,522
-16.17,4th+ Item,6653,Liandry's Torment,0.2867,1125
-16.17,4th+ Item,6665,"Jak'Sho, The Protean",1.41,177
-16.17,4th+ Item,8010,Bloodletter's Curse,-0.6833,369
-16.17,All Items,2503,Blackfire Torch,-0.0243,2999
-16.17,All Items,2504,Kaenic Rookern,-0.5638,157
-16.17,All Items,2522,Actualizer,-4.3133,119
-16.17,All Items,3003,Archangel's Staff,-0.7011,135
-16.17,All Items,3041,Mejai's Soulstealer,-2.383,431
-16.17,All Items,3050,Zeke's Convergence,-4.2109,119
-16.17,All Items,3065,Spirit Visage,0.4797,1280
-16.17,All Items,3089,Rabadon's Deathcap,-3.0368,196
-16.17,All Items,3110,Frozen Heart,1.3513,1071
-16.17,All Items,3116,Rylai's Crystal Scepter,-0.1299,7890
-16.17,All Items,3118,Malignance,0.6308,5835
-16.17,All Items,3119,Winter's Approach,-1.38,375
-16.17,All Items,3143,Randuin's Omen,-0.1464,326
-16.17,All Items,3157,Zhonya's Hourglass,-0.3124,5752
-16.17,All Items,3165,Morellonomicon,1.1399,206
-16.17,All Items,4401,Force of Nature,1.18,222
-16.17,All Items,4633,Riftmaker,1.156,1046
-16.17,All Items,4645,Shadowflame,-3.3439,195
-16.17,All Items,6653,Liandry's Torment,0.5045,3635
-16.17,All Items,6657,Rod of Ages,-1.2037,267
-16.17,All Items,6665,"Jak'Sho, The Protean",0.2229,256
-16.17,All Items,8010,Bloodletter's Curse,-0.5306,696
-16.17,All Items,8020,Abyssal Mask,2.114,187
+16.17,Spell,3,Exhaust,0.4102,6222
+16.17,Spell,4,Flash,0.0261,24386
+16.17,Spell,6,Ghost,0.2601,14320
+16.17,Spell,7,Heal,-5.8155,181
+16.17,Spell,12,Teleport,-0.6414,1861
+16.17,Spell,14,Ignite,-3.0428,881
+16.17,Spell,21,Barrier,-1.3259,1113

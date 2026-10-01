@@ -1987,122 +1987,29 @@
 16.16,All Items,6676,The Collector,-1.9524,8435
 16.16,All Items,6695,Serpent's Fang,-1.3598,1431
 16.16,All Items,6697,Hubris,-0.6311,908
-16.17,Keystone,8010,Conqueror,0.3319,243
-16.17,Keystone,8021,Fleet Footwork,-3.6264,5516
-16.17,Keystone,8005,Press the Attack,-3.7361,679
-16.17,Keystone,8008,Lethal Tempo,0.0839,328707
-16.17,Keystone,8992,Deathfire Touch,-6.5827,130
-16.17,Keystone,8128,Dark Harvest,-7.4224,155
-16.17,Spell,1,Cleanse,-0.1056,19832
-16.17,Spell,3,Exhaust,0.3852,8415
-16.17,Spell,4,Flash,0.0008,335868
-16.17,Spell,6,Ghost,-0.0418,19098
-16.17,Spell,7,Heal,-2.6019,2179
-16.17,Spell,12,Teleport,-4.2948,373
-16.17,Spell,14,Ignite,-6.1082,246
-16.17,Spell,21,Barrier,0.0285,285815
-16.17,Starter,1036,Long Sword,-4.7786,186
-16.17,Starter,1054,Doran's Shield,-4.243,173
-16.17,Starter,1055,Doran's Blade,-0.2104,36513
-16.17,Starter,1083,Cull,-2.103,940
-16.17,Starter,1086,Doran's Bow,0.0389,296756
-16.17,Starter,1120,Doran's Helm,-0.1849,1129
-16.17,Boots,3006,Berserker's Greaves,-0.139,307537
-16.17,Boots,3008,Gluttonous Greaves,0.1548,16931
-16.17,Boots,3009,Boots of Swiftness,-1.0951,1417
-16.17,Boots,3047,Plated Steelcaps,0.0555,3360
-16.17,Boots,3111,Mercury's Treads,-0.8424,1565
-16.17,1st Item,2523,Hexoptics C44,0.1796,249047
-16.17,1st Item,3031,Infinity Edge,-0.9879,953
-16.17,1st Item,3032,Yun Tal Wildarrows,0.4123,38446
-16.17,1st Item,3072,Bloodthirster,-8.2231,111
-16.17,1st Item,3085,Runaan's Hurricane,-2.372,573
-16.17,1st Item,3097,Stormrazor,-0.3575,1759
-16.17,1st Item,6672,Kraken Slayer,-1.2618,36724
-16.17,1st Item,6676,The Collector,-1.2086,5341
-16.17,1st Item,6697,Hubris,-3.918,531
-16.17,2nd Item,2523,Hexoptics C44,-1.341,5309
-16.17,2nd Item,3031,Infinity Edge,-0.4282,41198
-16.17,2nd Item,3032,Yun Tal Wildarrows,-2.6761,1279
-16.17,2nd Item,3033,Mortal Reminder,-1.9587,723
-16.17,2nd Item,3036,Lord Dominik's Regards,-2.1138,1698
-16.17,2nd Item,3046,Phantom Dancer,-0.6365,45017
-16.17,2nd Item,3085,Runaan's Hurricane,0.3629,214900
-16.17,2nd Item,3091,Wit's End,-0.2866,121
-16.17,2nd Item,3094,Rapid Firecannon,-4.8336,1492
-16.17,2nd Item,3097,Stormrazor,-1.0059,314
-16.17,2nd Item,3153,Blade of The Ruined King,-5.32,103
-16.17,2nd Item,6672,Kraken Slayer,-3.5213,930
-16.17,2nd Item,6673,Immortal Shieldbow,-1.561,118
-16.17,2nd Item,6676,The Collector,-2.7517,951
-16.17,2nd Item,6695,Serpent's Fang,-3.7668,112
-16.17,3rd Item,2523,Hexoptics C44,-0.5445,2994
-16.17,3rd Item,3026,Guardian Angel,-0.985,307
-16.17,3rd Item,3031,Infinity Edge,-0.0677,172050
-16.17,3rd Item,3032,Yun Tal Wildarrows,-2.1857,320
-16.17,3rd Item,3033,Mortal Reminder,0.3026,11226
-16.17,3rd Item,3036,Lord Dominik's Regards,0.6798,32941
-16.17,3rd Item,3046,Phantom Dancer,-0.7106,5662
-16.17,3rd Item,3072,Bloodthirster,-3.7832,539
-16.17,3rd Item,3085,Runaan's Hurricane,0.1247,22677
-16.17,3rd Item,3094,Rapid Firecannon,-3.6289,986
-16.17,3rd Item,3097,Stormrazor,-2.1044,130
-16.17,3rd Item,3139,Mercurial Scimitar,-4.9393,179
-16.17,3rd Item,3153,Blade of The Ruined King,-3.4499,124
-16.17,3rd Item,3156,Maw of Malmortius,-0.2887,210
-16.17,3rd Item,6672,Kraken Slayer,-5.8424,320
-16.17,3rd Item,6673,Immortal Shieldbow,1.7055,467
-16.17,3rd Item,6676,The Collector,-2.3308,464
-16.17,3rd Item,6695,Serpent's Fang,1.2742,211
-16.17,4th+ Item,2504,Kaenic Rookern,2.297,312
-16.17,4th+ Item,2523,Hexoptics C44,-0.9547,4780
-16.17,4th+ Item,3026,Guardian Angel,1.0151,29325
-16.17,4th+ Item,3031,Infinity Edge,0.4286,22088
-16.17,4th+ Item,3032,Yun Tal Wildarrows,-3.4124,618
-16.17,4th+ Item,3033,Mortal Reminder,-0.1668,29785
-16.17,4th+ Item,3036,Lord Dominik's Regards,0.4292,70930
-16.17,4th+ Item,3046,Phantom Dancer,-0.8951,3866
-16.17,4th+ Item,3072,Bloodthirster,-0.5888,23722
-16.17,4th+ Item,3085,Runaan's Hurricane,-0.7765,5247
-16.17,4th+ Item,3091,Wit's End,-2.1351,364
-16.17,4th+ Item,3094,Rapid Firecannon,-3.6214,2290
-16.17,4th+ Item,3097,Stormrazor,-3.552,382
-16.17,4th+ Item,3139,Mercurial Scimitar,0.0527,7827
-16.17,4th+ Item,3143,Randuin's Omen,0.3174,704
-16.17,4th+ Item,3153,Blade of The Ruined King,-1.547,1178
-16.17,4th+ Item,3156,Maw of Malmortius,-2.4403,2179
-16.17,4th+ Item,3157,Zhonya's Hourglass,-7.5191,209
-16.17,4th+ Item,3814,Edge of Night,4.6738,384
-16.17,4th+ Item,6333,Death's Dance,-2.0095,130
-16.17,4th+ Item,6665,"Jak'Sho, The Protean",-4.8892,257
-16.17,4th+ Item,6672,Kraken Slayer,-2.8141,1342
-16.17,4th+ Item,6673,Immortal Shieldbow,-3.7181,2909
-16.17,4th+ Item,6676,The Collector,-2.7693,1081
-16.17,4th+ Item,6695,Serpent's Fang,-0.5971,672
-16.17,All Items,2504,Kaenic Rookern,0.9413,363
-16.17,All Items,2523,Hexoptics C44,0.1197,262216
-16.17,All Items,3026,Guardian Angel,1.039,30458
-16.17,All Items,3031,Infinity Edge,-0.0877,236315
-16.17,All Items,3032,Yun Tal Wildarrows,0.2433,40746
-16.17,All Items,3033,Mortal Reminder,-0.0709,41855
-16.17,All Items,3036,Lord Dominik's Regards,0.4673,105760
-16.17,All Items,3046,Phantom Dancer,-0.6346,54860
-16.17,All Items,3072,Bloodthirster,-0.6773,25135
-16.17,All Items,3085,Runaan's Hurricane,0.3115,243598
-16.17,All Items,3091,Wit's End,-2.8911,639
-16.17,All Items,3094,Rapid Firecannon,-4.0406,4966
-16.17,All Items,3097,Stormrazor,-1.0784,2628
-16.17,All Items,3139,Mercurial Scimitar,-0.2694,8490
-16.17,All Items,3143,Randuin's Omen,-0.6552,827
-16.17,All Items,3153,Blade of The Ruined King,-2.4225,1635
-16.17,All Items,3156,Maw of Malmortius,-2.1113,2591
-16.17,All Items,3157,Zhonya's Hourglass,-5.5406,286
-16.17,All Items,3302,Terminus,-1.6477,126
-16.17,All Items,3814,Edge of Night,3.2266,471
-16.17,All Items,6333,Death's Dance,-3.1444,177
-16.17,All Items,6665,"Jak'Sho, The Protean",-2.789,324
-16.17,All Items,6672,Kraken Slayer,-1.417,39532
-16.17,All Items,6673,Immortal Shieldbow,-2.6909,3674
-16.17,All Items,6676,The Collector,-1.7749,7927
-16.17,All Items,6695,Serpent's Fang,-0.3314,1085
-16.17,All Items,6697,Hubris,-4.2401,627
+16.17,Keystone,8369,First Strike,-7.2836,138
+16.17,Keystone,8010,Conqueror,-1.4339,345
+16.17,Keystone,9923,Hail of Blades,-0.7872,128
+16.17,Keystone,8021,Fleet Footwork,-3.7737,8431
+16.17,Keystone,8005,Press the Attack,-3.6142,1013
+16.17,Keystone,8008,Lethal Tempo,0.0872,499315
+16.17,Keystone,8229,Arcane Comet,1.5898,123
+16.17,Keystone,8992,Deathfire Touch,-5.7962,184
+16.17,Keystone,8128,Dark Harvest,-7.9611,214
+16.17,Keystone,8112,Electrocute,-11.9686,139
+16.17,2nd Item,2523,Hexoptics C44,-1.2262,7863
+16.17,2nd Item,3031,Infinity Edge,-0.3952,62609
+16.17,2nd Item,3032,Yun Tal Wildarrows,-1.6205,1932
+16.17,2nd Item,3033,Mortal Reminder,-0.5219,1117
+16.17,2nd Item,3036,Lord Dominik's Regards,-0.9331,2578
+16.17,2nd Item,3046,Phantom Dancer,-0.702,65442
+16.17,2nd Item,3072,Bloodthirster,-4.7527,148
+16.17,2nd Item,3085,Runaan's Hurricane,0.3349,329893
+16.17,2nd Item,3091,Wit's End,-3.3358,175
+16.17,2nd Item,3094,Rapid Firecannon,-5.0852,2288
+16.17,2nd Item,3097,Stormrazor,-1.4137,427
+16.17,2nd Item,3153,Blade of The Ruined King,-4.7648,159
+16.17,2nd Item,6672,Kraken Slayer,-3.316,1415
+16.17,2nd Item,6673,Immortal Shieldbow,-2.2393,168
+16.17,2nd Item,6676,The Collector,-1.7035,1367
+16.17,2nd Item,6695,Serpent's Fang,-5.5337,168

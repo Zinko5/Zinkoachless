@@ -1114,53 +1114,60 @@
 16.16,All Items,4401,Force of Nature,0.6394,166
 16.16,All Items,3065,Spirit Visage,0.3234,3278
 16.16,All Items,3742,Dead Man's Plate,0.7368,3186
-16.17,Keystone,8021,Fleet Footwork,0.0082,5494
-16.17,Keystone,8437,Grasp of the Undying,0.3491,573
-16.17,Spell,4,Flash,0.1186,5028
-16.17,Spell,6,Ghost,-0.4389,1122
-16.17,Spell,11,Smite,-0.0,6166
-16.17,Starter,1101,Scorchclaw Pup,1.6325,922
-16.17,Starter,1102,Gustwalker Hatchling,0.1121,4276
-16.17,Starter,1103,Mosstomper Seedling,-2.0521,967
-16.17,Boots,3009,Boots of Swiftness,0.3011,3650
-16.17,Boots,3047,Plated Steelcaps,0.8168,1553
-16.17,Boots,3111,Mercury's Treads,-1.3161,730
-16.17,1st Item,3083,Warmog's Armor,0.5834,129
-16.17,1st Item,3084,Heartsteel,-0.0311,5894
-16.17,2nd Item,3065,Spirit Visage,0.3768,1029
-16.17,2nd Item,3075,Thornmail,-4.7367,154
-16.17,2nd Item,3083,Warmog's Armor,0.6294,968
-16.17,2nd Item,3084,Heartsteel,3.7324,116
-16.17,2nd Item,3143,Randuin's Omen,2.9648,120
-16.17,2nd Item,3742,Dead Man's Plate,0.0225,2532
-16.17,2nd Item,3748,Titanic Hydra,-2.0068,423
-16.17,3rd Item,2501,Overlord's Bloodmail,-2.2046,143
-16.17,3rd Item,2502,Unending Despair,-3.1563,115
-16.17,3rd Item,3065,Spirit Visage,0.3925,1776
-16.17,3rd Item,3075,Thornmail,-1.4537,556
-16.17,3rd Item,3083,Warmog's Armor,-3.1813,173
-16.17,3rd Item,3143,Randuin's Omen,1.9394,343
-16.17,3rd Item,3742,Dead Man's Plate,0.3501,484
-16.17,3rd Item,3748,Titanic Hydra,0.0617,452
-16.17,4th+ Item,2501,Overlord's Bloodmail,-1.8906,305
-16.17,4th+ Item,2502,Unending Despair,1.3089,108
-16.17,4th+ Item,3065,Spirit Visage,-1.6628,329
-16.17,4th+ Item,3075,Thornmail,0.5533,472
-16.17,4th+ Item,3083,Warmog's Armor,0.33,108
-16.17,4th+ Item,3143,Randuin's Omen,1.8615,350
-16.17,4th+ Item,3742,Dead Man's Plate,-0.6557,129
-16.17,4th+ Item,3748,Titanic Hydra,-1.0616,478
-16.17,4th+ Item,6665,"Jak'Sho, The Protean",2.7757,177
-16.17,All Items,2525,Protoplasm Harness,-0.0421,125
-16.17,All Items,2501,Overlord's Bloodmail,-2.2562,466
-16.17,All Items,2502,Unending Despair,-1.589,298
-16.17,All Items,3143,Randuin's Omen,2.0496,816
-16.17,All Items,3083,Warmog's Armor,0.1231,1380
-16.17,All Items,2504,Kaenic Rookern,-2.0302,107
-16.17,All Items,3748,Titanic Hydra,-0.8251,1417
-16.17,All Items,3075,Thornmail,-1.069,1189
-16.17,All Items,3084,Heartsteel,0.0214,6016
-16.17,All Items,6665,"Jak'Sho, The Protean",3.7399,248
-16.17,All Items,4401,Force of Nature,1.381,168
-16.17,All Items,3065,Spirit Visage,0.1885,3139
-16.17,All Items,3742,Dead Man's Plate,0.0283,3159
+16.17,Keystone,8021,Fleet Footwork,0.0465,12182
+16.17,Keystone,8437,Grasp of the Undying,-0.318,1309
+16.17,Spell,4,Flash,0.3729,11151
+16.17,Spell,6,Ghost,-1.4263,2584
+16.17,Spell,11,Smite,-0.0,13774
+16.17,Starter,1101,Scorchclaw Pup,2.264,2080
+16.17,Starter,1102,Gustwalker Hatchling,0.0449,9602
+16.17,Starter,1103,Mosstomper Seedling,-2.4584,2091
+16.17,Boots,3009,Boots of Swiftness,-0.2868,8135
+16.17,Boots,3047,Plated Steelcaps,-0.0169,3436
+16.17,Boots,3111,Mercury's Treads,-0.2122,1695
+16.17,1st Item,3083,Warmog's Armor,-1.801,292
+16.17,1st Item,3084,Heartsteel,0.0457,13172
+16.17,1st Item,3748,Titanic Hydra,0.5787,137
+16.17,2nd Item,2502,Unending Despair,-3.8509,155
+16.17,2nd Item,3065,Spirit Visage,0.1175,2255
+16.17,2nd Item,3075,Thornmail,-2.3338,378
+16.17,2nd Item,3083,Warmog's Armor,-0.0785,2179
+16.17,2nd Item,3084,Heartsteel,0.5208,301
+16.17,2nd Item,3143,Randuin's Omen,3.3702,282
+16.17,2nd Item,3742,Dead Man's Plate,0.3746,5664
+16.17,2nd Item,3748,Titanic Hydra,-1.5891,970
+16.17,3rd Item,2501,Overlord's Bloodmail,-1.5996,331
+16.17,3rd Item,2502,Unending Despair,-0.7684,255
+16.17,3rd Item,3065,Spirit Visage,0.2422,3946
+16.17,3rd Item,3075,Thornmail,-1.9605,1154
+16.17,3rd Item,3083,Warmog's Armor,0.7014,351
+16.17,3rd Item,3143,Randuin's Omen,1.3677,789
+16.17,3rd Item,3742,Dead Man's Plate,0.6714,1119
+16.17,3rd Item,3748,Titanic Hydra,-0.1989,1055
+16.17,3rd Item,4401,Force of Nature,-0.7758,158
+16.17,3rd Item,6665,"Jak'Sho, The Protean",0.8415,107
+16.17,4th+ Item,2501,Overlord's Bloodmail,-1.5185,634
+16.17,4th+ Item,2502,Unending Despair,1.7582,250
+16.17,4th+ Item,2504,Kaenic Rookern,0.522,120
+16.17,4th+ Item,2525,Protoplasm Harness,-1.9316,142
+16.17,4th+ Item,3065,Spirit Visage,-1.0544,777
+16.17,4th+ Item,3075,Thornmail,-0.0292,1063
+16.17,4th+ Item,3083,Warmog's Armor,0.8789,239
+16.17,4th+ Item,3143,Randuin's Omen,2.6648,815
+16.17,4th+ Item,3742,Dead Man's Plate,3.2971,294
+16.17,4th+ Item,3748,Titanic Hydra,-1.2664,1056
+16.17,4th+ Item,4401,Force of Nature,0.1464,145
+16.17,4th+ Item,6665,"Jak'Sho, The Protean",0.4464,359
+16.17,All Items,2501,Overlord's Bloodmail,-1.6598,1000
+16.17,All Items,2502,Unending Despair,-0.5863,664
+16.17,All Items,2504,Kaenic Rookern,-2.1937,205
+16.17,All Items,2525,Protoplasm Harness,0.5318,264
+16.17,All Items,3065,Spirit Visage,0.0704,6991
+16.17,All Items,3075,Thornmail,-1.2553,2606
+16.17,All Items,3083,Warmog's Armor,-0.0786,3063
+16.17,All Items,3084,Heartsteel,0.0569,13487
+16.17,All Items,3143,Randuin's Omen,2.2634,1892
+16.17,All Items,3742,Dead Man's Plate,0.5316,7102
+16.17,All Items,3748,Titanic Hydra,-0.9343,3221
+16.17,All Items,4401,Force of Nature,-0.4359,388
+16.17,All Items,6665,"Jak'Sho, The Protean",0.127,492

@@ -1656,78 +1656,10 @@
 16.16,All Items,4401,Force of Nature,-1.2257,186
 16.16,All Items,4633,Riftmaker,1.1938,2427
 16.16,All Items,3065,Spirit Visage,0.4369,3885
-16.17,Keystone,8437,Grasp of the Undying,0.0886,22482
-16.17,Spell,3,Exhaust,0.1716,2597
-16.17,Spell,4,Flash,-0.1745,19311
-16.17,Spell,6,Ghost,0.9329,3081
-16.17,Spell,12,Teleport,-1.5126,5341
-16.17,Spell,14,Ignite,0.5236,15196
-16.17,Starter,1028,Ruby Crystal,-0.9768,113
-16.17,Starter,1054,Doran's Shield,0.063,16265
-16.17,Starter,1056,Doran's Ring,-1.5702,1762
-16.17,Starter,1120,Doran's Helm,0.392,4570
-16.17,Boots,3009,Boots of Swiftness,-0.3083,3623
-16.17,Boots,3047,Plated Steelcaps,-0.0799,11745
-16.17,Boots,3111,Mercury's Treads,0.3184,6279
-16.17,1st Item,2510,Dusk and Dawn,1.1359,2802
-16.17,1st Item,2525,Protoplasm Harness,-0.9162,302
-16.17,1st Item,3065,Spirit Visage,-1.8919,138
-16.17,1st Item,3068,Sunfire Aegis,-2.5055,597
-16.17,1st Item,3075,Thornmail,-4.5411,168
-16.17,1st Item,3083,Warmog's Armor,-0.8816,927
-16.17,1st Item,3084,Heartsteel,0.1058,16756
-16.17,1st Item,6664,Hollow Radiance,-1.7047,412
-16.17,2nd Item,2502,Unending Despair,0.2956,371
-16.17,2nd Item,2504,Kaenic Rookern,-1.212,102
-16.17,2nd Item,2510,Dusk and Dawn,0.7304,10312
-16.17,2nd Item,2525,Protoplasm Harness,-1.5116,162
-16.17,2nd Item,3065,Spirit Visage,0.2263,739
-16.17,2nd Item,3068,Sunfire Aegis,-1.8773,1113
-16.17,2nd Item,3075,Thornmail,-1.4096,2024
-16.17,2nd Item,3083,Warmog's Armor,0.7427,554
-16.17,2nd Item,3084,Heartsteel,-0.3663,1699
-16.17,2nd Item,3110,Frozen Heart,0.2374,134
-16.17,2nd Item,3143,Randuin's Omen,-0.9873,324
-16.17,2nd Item,4633,Riftmaker,1.7403,419
-16.17,2nd Item,6664,Hollow Radiance,-1.1292,903
-16.17,3rd Item,2502,Unending Despair,0.8457,1194
-16.17,3rd Item,2504,Kaenic Rookern,1.408,201
-16.17,3rd Item,2510,Dusk and Dawn,-0.7995,648
-16.17,3rd Item,2525,Protoplasm Harness,-6.785,176
-16.17,3rd Item,3041,Mejai's Soulstealer,-1.8799,123
-16.17,3rd Item,3065,Spirit Visage,0.043,2417
-16.17,3rd Item,3068,Sunfire Aegis,0.6275,297
-16.17,3rd Item,3075,Thornmail,0.2049,2493
-16.17,3rd Item,3083,Warmog's Armor,0.5199,335
-16.17,3rd Item,3110,Frozen Heart,1.7535,150
-16.17,3rd Item,3143,Randuin's Omen,0.9854,748
-16.17,3rd Item,4401,Force of Nature,5.0605,104
-16.17,3rd Item,4633,Riftmaker,-0.259,1819
-16.17,3rd Item,6664,Hollow Radiance,-2.3814,217
-16.17,4th+ Item,2502,Unending Despair,1.7817,593
-16.17,4th+ Item,2504,Kaenic Rookern,0.8103,189
-16.17,4th+ Item,2525,Protoplasm Harness,4.0597,163
-16.17,4th+ Item,3041,Mejai's Soulstealer,-1.4134,119
-16.17,4th+ Item,3065,Spirit Visage,0.4598,1209
-16.17,4th+ Item,3075,Thornmail,-1.6683,865
-16.17,4th+ Item,3083,Warmog's Armor,0.3599,149
-16.17,4th+ Item,3143,Randuin's Omen,-0.8301,578
-16.17,4th+ Item,4633,Riftmaker,-0.7585,414
-16.17,4th+ Item,6665,"Jak'Sho, The Protean",-4.7393,182
-16.17,All Items,2525,Protoplasm Harness,-1.3126,803
-16.17,All Items,2502,Unending Despair,1.1195,2189
-16.17,All Items,3143,Randuin's Omen,-0.4885,1711
-16.17,All Items,3041,Mejai's Soulstealer,-0.5108,311
-16.17,All Items,3083,Warmog's Armor,-0.0906,1965
-16.17,All Items,2504,Kaenic Rookern,0.4432,559
-16.17,All Items,2510,Dusk and Dawn,0.7302,13856
-16.17,All Items,6664,Hollow Radiance,-1.2886,1595
-16.17,All Items,3748,Titanic Hydra,-2.9634,286
-16.17,All Items,3068,Sunfire Aegis,-1.591,2086
-16.17,All Items,3110,Frozen Heart,0.6704,433
-16.17,All Items,3075,Thornmail,-0.8192,5552
-16.17,All Items,3084,Heartsteel,0.0564,18561
-16.17,All Items,6665,"Jak'Sho, The Protean",-4.3862,338
-16.17,All Items,4401,Force of Nature,3.7902,234
-16.17,All Items,4633,Riftmaker,-0.0429,2668
-16.17,All Items,3065,Spirit Visage,0.1257,4503
+16.17,Keystone,8230,Stormraider's Surge,-9.5997,124
+16.17,Keystone,9923,Hail of Blades,-4.432,209
+16.17,Keystone,8437,Grasp of the Undying,0.1378,50535
+16.17,Starter,1028,Ruby Crystal,0.9118,204
+16.17,Starter,1054,Doran's Shield,0.052,37085
+16.17,Starter,1056,Doran's Ring,-1.1343,3941
+16.17,Starter,1120,Doran's Helm,0.1806,9890

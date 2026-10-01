@@ -92,6 +92,8 @@ Donde:
 
 ```
 zinkoachless/
+├── config.json                # Configuración central (parches, season y lista de campeones/roles)
+├── pipeline.py                # Script maestro para ejecutar todo el pipeline de datos en un solo paso
 ├── get-wpa.py                 # Extracción y almacenamiento en caché de estadísticas desde Coachless
 ├── patch_history.py           # Rastreador de cambios e historial de parches (DDragon)
 ├── process_wpa.py             # Agregación, ponderación y exportación de datos compactos
@@ -106,6 +108,7 @@ zinkoachless/
     ├── styles.css             # Sistema de diseño, Glassmorphism y modo oscuro
     ├── app.js                 # Lógica interactiva, filtros, lazy loading y exportador
     └── data/
+        ├── config.json        # Configuración sincronizada para la web
         └── granular/          # JSONs compactos por campeón cargados bajo demanda
 ```
 
@@ -135,44 +138,42 @@ uv pip install requests pandas
 
 ## Pipeline de Actualización de Datos
 
-Para actualizar las estadísticas ante nuevos parches de League of Legends:
+Para ejecutar el flujo completo de actualización (parches, extracción y procesamiento):
 
 ```bash
-# 1. Activar entorno virtual
 source .venv/bin/activate
+python3 pipeline.py
+```
 
-# 2. Descargar y auditar cambios de balance desde Riot DDragon
-python3 patch_history.py
-
-# 3. Descargar estadísticas de la API de Coachless (usa caché local)
-python3 get-wpa.py
-
-# 4. Procesar métricas y compilar JSONs compactos para docs/data/granular/
-python3 process_wpa.py
+O ejecutar cada paso individualmente:
+```bash
+python3 patch_history.py  # 1. Auditoría y diff de balance DDragon
+python3 get-wpa.py        # 2. Descarga de estadísticas Coachless
+python3 process_wpa.py    # 3. Procesamiento y exportación para GitHub Pages
 ```
 
 ---
 
-## Cómo Añadir un Nuevo Campeón
+## Cómo Añadir un Nuevo Campeón o Parche
 
-1. **En `get-wpa.py`:** Añade la tupla de ID y rol a la lista `CHAMPIONS`:
-   ```python
-   # Roles: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support
-   CHAMPIONS.append((81, 3))  # Ejemplo: Ezreal Bot
+1. Abre `config.json` y añade tu campeón en la lista `"champions"`:
+   ```json
+   { "id": 81, "name": "Ezreal", "roles": [3] }
    ```
-2. **En `docs/app.js`:** Registra el nombre y los roles soportados en los mapeos:
-   ```javascript
-   championNames[81] = "Ezreal";
-   championRolesMap[81] = [3, 2]; // Bot y Mid
+   *(Roles: `0: Top`, `1: Jungle`, `2: Mid`, `3: Bot`, `4: Support`)*
+
+2. Para nuevos parches, añade el número a la lista `"patches"`:
+   ```json
+   "patches": [1, 2, ..., 17, 18]
    ```
-3. **En `docs/index.html`:** Añade la opción correspondiente en el `<select id="champion-select">` respetando el orden alfabético:
-   ```html
-   <option value="81">Ezreal</option>
-   ```
-4. **Ejecutar el pipeline:**
+
+3. Ejecuta el pipeline:
    ```bash
-   source .venv/bin/activate && python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py
+   source .venv/bin/activate
+   python3 pipeline.py
    ```
+
+La página web, el buscador de campeones, los selectores de línea y los filtros de parches se actualizarán automáticamente sin necesidad de tocar código HTML ni JavaScript.
 
 ---
 

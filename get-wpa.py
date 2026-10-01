@@ -83,65 +83,37 @@ def safe_fetch(func, *args, **kwargs):
         except Exception:
             return None
 
-# Configuración de extracción
-CHAMPIONS = [
-    # {"id": 236, "role": 3},  # Lucian (Bot/ADC)
-    # {"id": 901, "role": 3},  # Smolder (Bot/ADC)
-    # {"id": 245, "role": 1},  # Ekko (Jungla)
-    # {"id": 245, "role": 2},  # Ekko (Mid)
-    # {"id": 887, "role": 1},  # Gwen (Jungla)
-    # {"id": 887, "role": 2},  # Gwen (Mid)
-    # {"id": 106, "role": 0},  # Volibear (Top)
-    # {"id": 106, "role": 1},  # Volibear (Jungla)
-    # {"id": 1, "role": 2},    # Annie (Mid)
-    # {"id": 19, "role": 0},   # Warwick (Top)
-    # {"id": 19, "role": 1},   # Warwick (Jungla)
-    # {"id": 9, "role": 1},    # Fiddlesticks (Jungla)
-    # {"id": 234, "role": 1},  # Viego (Jungla)
-    # {"id": 360, "role": 3},  # Samira (Bot/ADC)
-    # {"id": 233, "role": 1},  # Briar (Jungla)
-    # {"id": 35, "role": 1},   # Shaco (Jungla)
-    # {"id": 104, "role": 1},  # Graves (Jungla)
-    # {"id": 84, "role": 0},   # Akali (Top)
-    # {"id": 84, "role": 2},   # Akali (Mid)
-    # {"id": 99, "role": 3},   # Lux (Bot/ADC)
-    # {"id": 99, "role": 2},   # Lux (Mid)
-    # {"id": 99, "role": 4},   # Lux (Support)
-    # {"id": 86, "role": 0},   # Garen (Top)
-    # {"id": 36, "role": 0},   # DrMundo (Top)
-    # {"id": 36, "role": 1},   # DrMundo (Jungla)
-    # {"id": 147, "role": 2},  # Seraphine (Mid)
-    # {"id": 147, "role": 3},  # Seraphine (Bot/ADC)
-    # {"id": 147, "role": 4},  # Seraphine (Support)
-    # {"id": 105, "role": 2},  # Fizz (Mid)
-    # {"id": 26, "role": 4},   # Zilean (Support)
-    # {"id": 895, "role": 3},  # Nilah (Bot/ADC)
-    # {"id": 518, "role": 4},  # Neeko (Support)
-    # {"id": 28, "role": 1},   # Evelynn (Jungla)
-    # {"id": 45, "role": 2},   # Veigar (Mid)
-    # {"id": 63, "role": 3},   # Brand (Bot/ADC)
-    # {"id": 63, "role": 4},   # Brand (Support)
-    # {"id": 223, "role": 0},  # Tahm Kench (Top)
-    # {"id": 223, "role": 4},  # Tahm Kench (Support)
-    # {"id": 17, "role": 0},   # Teemo (Top)
-    # {"id": 23, "role": 0},   # Tryndamere (Top)
-    # {"id": 1, "role": 4},    # Annie (Support)
-    # {"id": 8, "role": 2},    # Vladimir (Mid)
-    # {"id": 50, "role": 3},   # Swain (Bot/ADC)
-    # {"id": 119, "role": 3},  # Draven (Bot/ADC)
-    # {"id": 18, "role": 3}    # Tristana (Bot/ADC)
-    {"id": 222, "role": 3}    # Jinx (Bot/ADC)
-]
-MAJOR = 16              # Season
+# Cargar configuración centralizada
+CONFIG_FILE = "config.json"
+MAJOR = 16
 PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+CHAMPIONS = []
+
+if os.path.exists(CONFIG_FILE):
+    try:
+        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+            MAJOR = cfg.get("season", MAJOR)
+            PATCHES = cfg.get("patches", PATCHES)
+            for c in cfg.get("champions", []):
+                c_id = c["id"]
+                c_name = c.get("name", str(c_id))
+                for r in c.get("roles", [3]):
+                    CHAMPIONS.append({"id": c_id, "role": r, "name": c_name})
+    except Exception as e:
+        print(f"Error al leer {CONFIG_FILE}: {e}")
+
+if not CHAMPIONS:
+    CHAMPIONS = [{"id": 236, "role": 3, "name": "Lucian"}]
 
 latest_patch_num = max(PATCHES) if PATCHES else None
 
 for champ in CHAMPIONS:
     champ_id = champ["id"]
     champ_role = champ["role"]
+    champ_name = champ.get("name", str(champ_id))
     print(f"\n=========================================")
-    print(f"Iniciando extracción rápida para Campeón ID: {champ_id} (Rol: {champ_role})")
+    print(f"Iniciando extracción para {champ_name} (ID: {champ_id}, Rol: {champ_role})")
     print(f"=========================================")
     
     os.makedirs(os.path.join("data", "raw"), exist_ok=True)

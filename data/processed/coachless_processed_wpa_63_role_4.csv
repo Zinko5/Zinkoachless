@@ -1203,57 +1203,69 @@
 16.16,All Items,4645,Shadowflame,-1.3459,822
 16.16,All Items,6653,Liandry's Torment,0.0835,18682
 16.16,All Items,8010,Bloodletter's Curse,1.3656,1046
-16.17,Keystone,8229,Arcane Comet,-2.5266,2657
-16.17,Keystone,8992,Deathfire Touch,0.4908,26002
-16.17,Keystone,8128,Dark Harvest,-1.1348,4523
-16.17,Keystone,8112,Electrocute,-2.5303,140
-16.17,Spell,3,Exhaust,-0.0108,4931
-16.17,Spell,4,Flash,0.0102,33560
-16.17,Spell,6,Ghost,3.0832,188
-16.17,Spell,7,Heal,1.8514,4185
-16.17,Spell,14,Ignite,-0.306,24050
-16.17,Spell,21,Barrier,-2.3584,153
-16.17,Starter,3865,World Atlas,-0.0,33587
-16.17,Boots,3009,Boots of Swiftness,0.7049,1887
-16.17,Boots,3020,Sorcerer's Shoes,-0.268,23987
-16.17,Boots,3047,Plated Steelcaps,2.0364,362
-16.17,Boots,3111,Mercury's Treads,1.5316,536
-16.17,Boots,3158,Ionian Boots of Lucidity,0.2749,4217
-16.17,2nd Item,2503,Blackfire Torch,-2.243,7262
-16.17,2nd Item,3116,Rylai's Crystal Scepter,1.2088,18104
-16.17,2nd Item,3118,Malignance,-7.8583,206
-16.17,2nd Item,6653,Liandry's Torment,-0.4127,7181
-16.17,3rd Item,2503,Blackfire Torch,-0.9622,2904
-16.17,3rd Item,3116,Rylai's Crystal Scepter,0.1026,7845
-16.17,3rd Item,3118,Malignance,-2.495,277
-16.17,3rd Item,3157,Zhonya's Hourglass,-1.2964,876
-16.17,3rd Item,3165,Morellonomicon,-0.0429,1232
-16.17,3rd Item,4645,Shadowflame,-1.6295,276
-16.17,3rd Item,6653,Liandry's Torment,0.5098,13043
-16.17,3rd Item,8010,Bloodletter's Curse,-1.739,372
-16.17,4th+ Item,2503,Blackfire Torch,-0.4444,1241
-16.17,4th+ Item,3041,Mejai's Soulstealer,0.6977,151
-16.17,4th+ Item,3089,Rabadon's Deathcap,-4.7105,415
-16.17,4th+ Item,3102,Banshee's Veil,-2.4619,158
-16.17,4th+ Item,3116,Rylai's Crystal Scepter,0.3315,1364
-16.17,4th+ Item,3118,Malignance,-2.1258,1320
-16.17,4th+ Item,3135,Void Staff,-1.7787,371
-16.17,4th+ Item,3137,Cryptbloom,-2.3713,112
-16.17,4th+ Item,3157,Zhonya's Hourglass,0.2382,2646
-16.17,4th+ Item,3165,Morellonomicon,0.2241,3553
-16.17,4th+ Item,4645,Shadowflame,-1.3197,740
-16.17,4th+ Item,6653,Liandry's Torment,1.5821,2002
-16.17,4th+ Item,8010,Bloodletter's Curse,2.5178,927
-16.17,All Items,2503,Blackfire Torch,-1.7205,11412
-16.17,All Items,3041,Mejai's Soulstealer,-2.5018,234
-16.17,All Items,3089,Rabadon's Deathcap,-4.7251,471
-16.17,All Items,3102,Banshee's Veil,-1.7097,206
-16.17,All Items,3116,Rylai's Crystal Scepter,0.8439,27321
-16.17,All Items,3118,Malignance,-2.8234,1812
-16.17,All Items,3135,Void Staff,-2.1021,434
-16.17,All Items,3137,Cryptbloom,-2.9646,129
-16.17,All Items,3157,Zhonya's Hourglass,-0.1892,3565
-16.17,All Items,3165,Morellonomicon,0.0107,4872
-16.17,All Items,4645,Shadowflame,-1.3773,1047
-16.17,All Items,6653,Liandry's Torment,0.3082,22231
-16.17,All Items,8010,Bloodletter's Curse,1.3779,1330
+16.17,Keystone,8230,Stormraider's Surge,-2.401,131
+16.17,Keystone,8229,Arcane Comet,-2.1381,5631
+16.17,Keystone,8992,Deathfire Touch,0.3849,58698
+16.17,Keystone,8128,Dark Harvest,-0.777,10068
+16.17,Keystone,8112,Electrocute,-3.0492,389
+16.17,Spell,3,Exhaust,0.2841,10825
+16.17,Spell,4,Flash,0.0041,75366
+16.17,Spell,6,Ghost,0.4171,430
+16.17,Spell,7,Heal,1.9054,9347
+16.17,Spell,12,Teleport,-6.2686,218
+16.17,Spell,14,Ignite,-0.3524,54269
+16.17,Spell,21,Barrier,-2.4709,342
+16.17,Starter,3865,World Atlas,0.0,75419
+16.17,Boots,3008,Gluttonous Greaves,3.7269,107
+16.17,Boots,3009,Boots of Swiftness,0.9077,4319
+16.17,Boots,3020,Sorcerer's Shoes,-0.2367,54171
+16.17,Boots,3047,Plated Steelcaps,1.3877,773
+16.17,Boots,3111,Mercury's Treads,1.7652,1098
+16.17,Boots,3158,Ionian Boots of Lucidity,0.3871,9201
+16.17,2nd Item,2503,Blackfire Torch,-2.5786,16556
+16.17,2nd Item,3116,Rylai's Crystal Scepter,1.2895,40135
+16.17,2nd Item,3118,Malignance,-6.895,458
+16.17,2nd Item,3165,Morellonomicon,-5.9582,169
+16.17,2nd Item,6653,Liandry's Torment,-0.2315,16442
+16.17,2nd Item,6655,Luden's Echo,-1.7377,107
+16.17,3rd Item,2503,Blackfire Torch,-0.8351,6498
+16.17,3rd Item,3041,Mejai's Soulstealer,-3.2323,166
+16.17,3rd Item,3116,Rylai's Crystal Scepter,0.0986,17818
+16.17,3rd Item,3118,Malignance,-3.1167,639
+16.17,3rd Item,3157,Zhonya's Hourglass,-0.7691,1969
+16.17,3rd Item,3165,Morellonomicon,-0.9372,2758
+16.17,3rd Item,4645,Shadowflame,-0.6671,612
+16.17,3rd Item,6653,Liandry's Torment,0.3758,29193
+16.17,3rd Item,8010,Bloodletter's Curse,0.4415,811
+16.17,4th+ Item,2503,Blackfire Torch,0.3896,2804
+16.17,4th+ Item,3041,Mejai's Soulstealer,-0.2791,318
+16.17,4th+ Item,3089,Rabadon's Deathcap,-3.4403,987
+16.17,4th+ Item,3102,Banshee's Veil,-1.3355,345
+16.17,4th+ Item,3116,Rylai's Crystal Scepter,0.1573,3085
+16.17,4th+ Item,3118,Malignance,-1.8873,3062
+16.17,4th+ Item,3135,Void Staff,-0.6971,895
+16.17,4th+ Item,3137,Cryptbloom,-0.0649,239
+16.17,4th+ Item,3157,Zhonya's Hourglass,0.1967,5860
+16.17,4th+ Item,3165,Morellonomicon,-0.1501,8005
+16.17,4th+ Item,4645,Shadowflame,-0.4698,1753
+16.17,4th+ Item,6653,Liandry's Torment,0.9317,4526
+16.17,4th+ Item,8010,Bloodletter's Curse,2.4587,2115
+16.17,All Items,2065,Shurelya's Battlesong,10.8927,102
+16.17,All Items,2503,Blackfire Torch,-1.8167,25867
+16.17,All Items,2524,Bandlepipes,-2.4983,101
+16.17,All Items,3003,Archangel's Staff,3.1025,148
+16.17,All Items,3041,Mejai's Soulstealer,-1.8111,513
+16.17,All Items,3089,Rabadon's Deathcap,-3.2636,1119
+16.17,All Items,3102,Banshee's Veil,-0.9755,437
+16.17,All Items,3116,Rylai's Crystal Scepter,0.8847,61055
+16.17,All Items,3118,Malignance,-2.6667,4174
+16.17,All Items,3135,Void Staff,-0.7448,1015
+16.17,All Items,3137,Cryptbloom,0.6059,274
+16.17,All Items,3157,Zhonya's Hourglass,-0.1081,7925
+16.17,All Items,3165,Morellonomicon,-0.4417,10952
+16.17,All Items,4005,Imperial Mandate,-0.7452,121
+16.17,All Items,4645,Shadowflame,-0.5046,2419
+16.17,All Items,4646,Stormsurge,2.0398,125
+16.17,All Items,6653,Liandry's Torment,0.2289,50174
+16.17,All Items,6655,Luden's Echo,0.7897,140
+16.17,All Items,8010,Bloodletter's Curse,2.0011,2989

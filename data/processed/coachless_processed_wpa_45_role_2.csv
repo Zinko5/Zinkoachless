@@ -2110,113 +2110,14 @@
 16.16,All Items,6657,Rod of Ages,0.2286,21951
 16.16,All Items,6665,"Jak'Sho, The Protean",2.3333,159
 16.16,All Items,8020,Abyssal Mask,-1.0941,144
-16.17,Keystone,8369,First Strike,0.6595,22051
-16.17,Keystone,8230,Stormraider's Surge,1.9693,1862
-16.17,Keystone,8214,Summon Aery,1.8068,3280
-16.17,Keystone,8360,Unsealed Spellbook,8.14,679
-16.17,Keystone,8229,Arcane Comet,-1.3869,16812
-16.17,Keystone,8992,Deathfire Touch,-3.1055,540
-16.17,Keystone,8128,Dark Harvest,-3.1059,750
-16.17,Keystone,8112,Electrocute,-0.5822,3852
-16.17,Spell,3,Exhaust,2.8837,1040
-16.17,Spell,4,Flash,-0.0004,50084
-16.17,Spell,6,Ghost,2.1862,755
-16.17,Spell,7,Heal,-0.251,211
-16.17,Spell,12,Teleport,-0.128,43287
-16.17,Spell,14,Ignite,-2.0404,1632
-16.17,Spell,21,Barrier,1.2123,3128
-16.17,Starter,1027,Sapphire Crystal,-1.0903,250
-16.17,Starter,1056,Doran's Ring,0.148,41897
-16.17,Starter,1082,Dark Seal,-0.0812,107
-16.17,Starter,1120,Doran's Helm,-2.1465,121
-16.17,Starter,3070,Tear of the Goddess,-0.5851,7395
-16.17,Boots,3009,Boots of Swiftness,0.6899,1808
-16.17,Boots,3020,Sorcerer's Shoes,0.349,33216
-16.17,Boots,3047,Plated Steelcaps,2.0411,1489
-16.17,Boots,3111,Mercury's Treads,-0.1291,3809
-16.17,Boots,3158,Ionian Boots of Lucidity,1.2831,8830
-16.17,1st Item,2065,Shurelya's Battlesong,3.8042,142
-16.17,1st Item,2503,Blackfire Torch,1.7376,201
-16.17,1st Item,3003,Archangel's Staff,0.2983,5082
-16.17,1st Item,3089,Rabadon's Deathcap,2.1788,133
-16.17,1st Item,3118,Malignance,-1.517,134
-16.17,1st Item,3119,Winter's Approach,-1.6838,112
-16.17,1st Item,3152,Hextech Rocketbelt,3.2448,1326
-16.17,1st Item,3157,Zhonya's Hourglass,-0.5355,233
-16.17,1st Item,4646,Stormsurge,2.5824,200
-16.17,1st Item,6655,Luden's Echo,-0.7994,19712
-16.17,1st Item,6657,Rod of Ages,0.3768,22175
-16.17,2nd Item,2065,Shurelya's Battlesong,-3.126,253
-16.17,2nd Item,3003,Archangel's Staff,0.9994,16970
-16.17,2nd Item,3041,Mejai's Soulstealer,-0.2601,145
-16.17,2nd Item,3089,Rabadon's Deathcap,0.0782,6480
-16.17,2nd Item,3102,Banshee's Veil,-0.973,417
-16.17,2nd Item,3119,Winter's Approach,-2.4357,127
-16.17,2nd Item,3135,Void Staff,2.5786,310
-16.17,2nd Item,3137,Cryptbloom,0.8007,1124
-16.17,2nd Item,3152,Hextech Rocketbelt,-0.8953,1085
-16.17,2nd Item,3157,Zhonya's Hourglass,-2.5022,2057
-16.17,2nd Item,4629,Cosmic Drive,-0.565,228
-16.17,2nd Item,4645,Shadowflame,-0.6614,4441
-16.17,2nd Item,4646,Stormsurge,-0.5687,8663
-16.17,2nd Item,6655,Luden's Echo,-1.4393,2115
-16.17,2nd Item,6657,Rod of Ages,-0.5799,1237
-16.17,3rd Item,3003,Archangel's Staff,2.5254,1168
-16.17,3rd Item,3041,Mejai's Soulstealer,0.1866,312
-16.17,3rd Item,3089,Rabadon's Deathcap,0.4188,18315
-16.17,3rd Item,3102,Banshee's Veil,0.8942,820
-16.17,3rd Item,3110,Frozen Heart,-4.8875,110
-16.17,3rd Item,3135,Void Staff,0.4204,1533
-16.17,3rd Item,3137,Cryptbloom,1.5401,1723
-16.17,3rd Item,3152,Hextech Rocketbelt,-1.0809,335
-16.17,3rd Item,3157,Zhonya's Hourglass,-2.5539,3817
-16.17,3rd Item,3165,Morellonomicon,-4.0411,110
-16.17,3rd Item,4629,Cosmic Drive,-1.3016,114
-16.17,3rd Item,4645,Shadowflame,0.5773,2527
-16.17,3rd Item,4646,Stormsurge,-0.9988,2233
-16.17,3rd Item,6655,Luden's Echo,-1.3529,448
-16.17,3rd Item,6657,Rod of Ages,-4.2466,168
-16.17,4th+ Item,2504,Kaenic Rookern,0.1396,162
-16.17,4th+ Item,3003,Archangel's Staff,3.434,299
-16.17,4th+ Item,3041,Mejai's Soulstealer,1.3294,476
-16.17,4th+ Item,3089,Rabadon's Deathcap,-0.3518,3603
-16.17,4th+ Item,3102,Banshee's Veil,-0.2917,1721
-16.17,4th+ Item,3110,Frozen Heart,0.7322,111
-16.17,4th+ Item,3135,Void Staff,1.9899,3194
-16.17,4th+ Item,3137,Cryptbloom,0.7156,1608
-16.17,4th+ Item,3143,Randuin's Omen,-1.2823,129
-16.17,4th+ Item,3152,Hextech Rocketbelt,2.4104,308
-16.17,4th+ Item,3157,Zhonya's Hourglass,-0.5807,5160
-16.17,4th+ Item,3165,Morellonomicon,0.0621,260
-16.17,4th+ Item,3742,Dead Man's Plate,1.8849,176
-16.17,4th+ Item,4629,Cosmic Drive,3.6923,107
-16.17,4th+ Item,4645,Shadowflame,-1.7924,3309
-16.17,4th+ Item,4646,Stormsurge,-0.3177,1307
-16.17,4th+ Item,6655,Luden's Echo,5.2323,178
-16.17,4th+ Item,6665,"Jak'Sho, The Protean",0.13,109
-16.17,All Items,2065,Shurelya's Battlesong,-1.9256,510
-16.17,All Items,2503,Blackfire Torch,1.1739,295
-16.17,All Items,2504,Kaenic Rookern,0.7092,422
-16.17,All Items,2522,Actualizer,-3.6988,132
-16.17,All Items,3003,Archangel's Staff,0.9528,23522
-16.17,All Items,3041,Mejai's Soulstealer,0.7252,944
-16.17,All Items,3089,Rabadon's Deathcap,0.2504,28546
-16.17,All Items,3102,Banshee's Veil,-0.0025,2994
-16.17,All Items,3110,Frozen Heart,0.7546,302
-16.17,All Items,3118,Malignance,-2.1286,238
-16.17,All Items,3119,Winter's Approach,-1.8339,343
-16.17,All Items,3135,Void Staff,1.5494,5067
-16.17,All Items,3137,Cryptbloom,1.022,4490
-16.17,All Items,3143,Randuin's Omen,-2.591,188
-16.17,All Items,3152,Hextech Rocketbelt,1.2118,3061
-16.17,All Items,3157,Zhonya's Hourglass,-1.5976,11305
-16.17,All Items,3165,Morellonomicon,-2.6107,441
-16.17,All Items,3742,Dead Man's Plate,2.1154,292
-16.17,All Items,4401,Force of Nature,1.7198,149
-16.17,All Items,4629,Cosmic Drive,0.5713,548
-16.17,All Items,4645,Shadowflame,-0.6936,10346
-16.17,All Items,4646,Stormsurge,-0.5667,12414
-16.17,All Items,6655,Luden's Echo,-0.8209,22457
-16.17,All Items,6657,Rod of Ages,0.2923,23643
-16.17,All Items,6665,"Jak'Sho, The Protean",-0.7636,154
-16.17,All Items,8020,Abyssal Mask,3.933,177
+16.17,Keystone,8369,First Strike,0.8386,50457
+16.17,Keystone,8230,Stormraider's Surge,2.0012,4323
+16.17,Keystone,8214,Summon Aery,2.5851,7106
+16.17,Keystone,8021,Fleet Footwork,-0.8236,149
+16.17,Keystone,8360,Unsealed Spellbook,4.5449,1578
+16.17,Keystone,8437,Grasp of the Undying,-8.2028,126
+16.17,Keystone,8229,Arcane Comet,-1.5854,37965
+16.17,Keystone,8992,Deathfire Touch,-2.5291,1185
+16.17,Keystone,8128,Dark Harvest,-1.8725,1622
+16.17,Keystone,8112,Electrocute,-1.0667,8654
+16.17,Keystone,8351,Glacial Augment,4.9293,187

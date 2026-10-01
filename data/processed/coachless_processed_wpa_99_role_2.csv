@@ -1503,91 +1503,11 @@
 16.16,All Items,4646,Stormsurge,0.5423,23883
 16.16,All Items,6653,Liandry's Torment,2.2058,146
 16.16,All Items,6655,Luden's Echo,-0.0904,28817
-16.17,Keystone,8369,First Strike,3.1024,816
-16.17,Keystone,8214,Summon Aery,0.1655,294
-16.17,Keystone,8229,Arcane Comet,0.0495,38175
-16.17,Keystone,8992,Deathfire Touch,-6.1355,201
-16.17,Keystone,8128,Dark Harvest,-0.1903,9694
-16.17,Keystone,8112,Electrocute,0.2771,935
-16.17,Spell,1,Cleanse,3.1481,225
-16.17,Spell,3,Exhaust,1.2059,1965
-16.17,Spell,4,Flash,-0.0001,50289
-16.17,Spell,6,Ghost,0.9171,791
-16.17,Spell,7,Heal,0.6907,336
-16.17,Spell,12,Teleport,-0.4728,25280
-16.17,Spell,14,Ignite,-1.5033,4794
-16.17,Spell,21,Barrier,0.895,16902
-16.17,Starter,1052,Amplifying Tome,-8.4097,237
-16.17,Starter,1056,Doran's Ring,0.0699,49321
-16.17,Starter,1082,Dark Seal,-0.7289,355
-16.17,Starter,3070,Tear of the Goddess,-4.1249,167
-16.17,Boots,3009,Boots of Swiftness,2.1789,566
-16.17,Boots,3020,Sorcerer's Shoes,0.5582,44434
-16.17,Boots,3047,Plated Steelcaps,1.6732,496
-16.17,Boots,3111,Mercury's Treads,-1.2516,1143
-16.17,Boots,3158,Ionian Boots of Lucidity,-2.5965,2517
-16.17,1st Item,2503,Blackfire Torch,-3.953,482
-16.17,1st Item,3003,Archangel's Staff,3.3255,128
-16.17,1st Item,3118,Malignance,-0.1151,14665
-16.17,1st Item,3157,Zhonya's Hourglass,-0.1675,176
-16.17,1st Item,4646,Stormsurge,0.3257,1014
-16.17,1st Item,6655,Luden's Echo,0.0929,33203
-16.17,1st Item,6657,Rod of Ages,4.442,109
-16.17,2nd Item,3003,Archangel's Staff,0.8439,180
-16.17,2nd Item,3041,Mejai's Soulstealer,0.6379,1576
-16.17,2nd Item,3089,Rabadon's Deathcap,-1.5352,1096
-16.17,2nd Item,3100,Lich Bane,-3.8562,138
-16.17,2nd Item,3102,Banshee's Veil,1.9509,231
-16.17,2nd Item,3118,Malignance,0.4297,1148
-16.17,2nd Item,3135,Void Staff,-1.7336,169
-16.17,2nd Item,3152,Hextech Rocketbelt,-5.7014,273
-16.17,2nd Item,3157,Zhonya's Hourglass,-0.7883,2447
-16.17,2nd Item,3165,Morellonomicon,1.7714,111
-16.17,2nd Item,4628,Horizon Focus,-1.0759,939
-16.17,2nd Item,4645,Shadowflame,-0.8714,12560
-16.17,2nd Item,4646,Stormsurge,0.7217,24002
-16.17,2nd Item,6653,Liandry's Torment,-3.2679,101
-16.17,2nd Item,6655,Luden's Echo,-1.6352,628
-16.17,3rd Item,3041,Mejai's Soulstealer,0.9611,2282
-16.17,3rd Item,3089,Rabadon's Deathcap,0.0173,7691
-16.17,3rd Item,3102,Banshee's Veil,0.2001,458
-16.17,3rd Item,3118,Malignance,-2.045,606
-16.17,3rd Item,3135,Void Staff,-1.6119,885
-16.17,3rd Item,3137,Cryptbloom,-0.0095,212
-16.17,3rd Item,3157,Zhonya's Hourglass,-1.1298,3219
-16.17,3rd Item,3165,Morellonomicon,0.3575,284
-16.17,3rd Item,4628,Horizon Focus,-1.8453,484
-16.17,3rd Item,4645,Shadowflame,0.2838,11716
-16.17,3rd Item,4646,Stormsurge,0.8187,3207
-16.17,3rd Item,6655,Luden's Echo,1.9137,149
-16.17,4th+ Item,3041,Mejai's Soulstealer,1.5016,1586
-16.17,4th+ Item,3089,Rabadon's Deathcap,-0.1183,5332
-16.17,4th+ Item,3102,Banshee's Veil,-0.1795,617
-16.17,4th+ Item,3118,Malignance,-3.8188,496
-16.17,4th+ Item,3135,Void Staff,1.2007,2096
-16.17,4th+ Item,3137,Cryptbloom,1.7721,304
-16.17,4th+ Item,3157,Zhonya's Hourglass,-1.3089,2807
-16.17,4th+ Item,3165,Morellonomicon,2.7986,318
-16.17,4th+ Item,4628,Horizon Focus,2.8368,332
-16.17,4th+ Item,4645,Shadowflame,-0.6674,1924
-16.17,4th+ Item,4646,Stormsurge,0.3613,922
-16.17,4th+ Item,6655,Luden's Echo,-3.8059,126
-16.17,All Items,2503,Blackfire Torch,-4.0315,549
-16.17,All Items,3003,Archangel's Staff,0.7476,389
-16.17,All Items,3041,Mejai's Soulstealer,0.9576,5510
-16.17,All Items,3089,Rabadon's Deathcap,-0.1651,14151
-16.17,All Items,3100,Lich Bane,-3.7485,227
-16.17,All Items,3102,Banshee's Veil,0.3135,1330
-16.17,All Items,3118,Malignance,-0.2578,16926
-16.17,All Items,3135,Void Staff,0.2829,3185
-16.17,All Items,3137,Cryptbloom,1.1469,608
-16.17,All Items,3152,Hextech Rocketbelt,-3.135,459
-16.17,All Items,3157,Zhonya's Hourglass,-1.0681,8687
-16.17,All Items,3165,Morellonomicon,1.6676,719
-16.17,All Items,4005,Imperial Mandate,-1.0079,217
-16.17,All Items,4628,Horizon Focus,-0.573,1762
-16.17,All Items,4645,Shadowflame,-0.351,26256
-16.17,All Items,4646,Stormsurge,0.7061,29155
-16.17,All Items,6653,Liandry's Torment,-1.319,177
-16.17,All Items,6655,Luden's Echo,0.0546,34111
-16.17,All Items,6657,Rod of Ages,2.9665,116
+16.17,Spell,1,Cleanse,4.0931,529
+16.17,Spell,3,Exhaust,0.989,4531
+16.17,Spell,4,Flash,-0.0004,116300
+16.17,Spell,6,Ghost,1.2776,1774
+16.17,Spell,7,Heal,-0.7423,736
+16.17,Spell,12,Teleport,-0.6624,58262
+16.17,Spell,14,Ignite,-1.0808,11354
+16.17,Spell,21,Barrier,1.087,39140

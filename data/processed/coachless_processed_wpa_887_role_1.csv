@@ -1165,60 +1165,21 @@
 16.16,All Items,3089,Rabadon's Deathcap,0.9877,6664
 16.16,All Items,4633,Riftmaker,-0.4358,3956
 16.16,All Items,3102,Banshee's Veil,-0.8283,287
-16.17,Keystone,8010,Conqueror,0.1413,9131
-16.17,Keystone,8369,First Strike,-0.2192,4514
-16.17,Spell,4,Flash,-0.7253,1916
-16.17,Spell,6,Ghost,0.1315,11893
-16.17,Spell,11,Smite,-0.0,13935
-16.17,Starter,1101,Scorchclaw Pup,0.9745,5399
-16.17,Starter,1102,Gustwalker Hatchling,-0.9015,7337
-16.17,Starter,1103,Mosstomper Seedling,1.1295,1198
-16.17,Boots,3008,Gluttonous Greaves,0.6625,1107
-16.17,Boots,3009,Boots of Swiftness,-2.5191,149
-16.17,Boots,3020,Sorcerer's Shoes,0.0416,7928
-16.17,Boots,3047,Plated Steelcaps,-0.3961,1947
-16.17,Boots,3111,Mercury's Treads,1.6108,1273
-16.17,Boots,3158,Ionian Boots of Lucidity,-1.8517,382
-16.17,1st Item,2510,Dusk and Dawn,0.2775,8306
-16.17,1st Item,3100,Lich Bane,-0.9501,2166
-16.17,1st Item,3115,Nashor's Tooth,0.1297,3335
-16.17,2nd Item,2510,Dusk and Dawn,1.0264,1750
-16.17,2nd Item,3041,Mejai's Soulstealer,3.2792,116
-16.17,2nd Item,3089,Rabadon's Deathcap,-0.5186,447
-16.17,2nd Item,3100,Lich Bane,4.6869,226
-16.17,2nd Item,3115,Nashor's Tooth,-0.7368,844
-16.17,2nd Item,3118,Malignance,-5.9488,196
-16.17,2nd Item,4633,Riftmaker,-0.9806,1935
-16.17,2nd Item,4645,Shadowflame,0.1065,7144
-16.17,3rd Item,2510,Dusk and Dawn,4.9921,112
-16.17,3rd Item,3041,Mejai's Soulstealer,1.2989,274
-16.17,3rd Item,3089,Rabadon's Deathcap,0.3744,4942
-16.17,3rd Item,3115,Nashor's Tooth,-0.1314,154
-16.17,3rd Item,3118,Malignance,-2.2958,127
-16.17,3rd Item,3135,Void Staff,-1.1651,300
-16.17,3rd Item,3157,Zhonya's Hourglass,-0.8467,945
-16.17,3rd Item,4633,Riftmaker,0.5139,1362
-16.17,3rd Item,4645,Shadowflame,-1.2917,1451
-16.17,4th+ Item,3041,Mejai's Soulstealer,0.1527,508
-16.17,4th+ Item,3089,Rabadon's Deathcap,0.283,1486
-16.17,4th+ Item,3102,Banshee's Veil,-0.09,235
-16.17,4th+ Item,3118,Malignance,0.5276,257
-16.17,4th+ Item,3135,Void Staff,1.1226,1829
-16.17,4th+ Item,3157,Zhonya's Hourglass,-0.8329,1813
-16.17,4th+ Item,4633,Riftmaker,-1.8821,485
-16.17,4th+ Item,4645,Shadowflame,0.6538,506
-16.17,4th+ Item,4646,Stormsurge,0.2697,204
-16.17,All Items,4646,Stormsurge,1.0473,367
-16.17,All Items,4645,Shadowflame,-0.0965,9118
-16.17,All Items,8010,Bloodletter's Curse,-1.7241,106
-16.17,All Items,3135,Void Staff,0.7409,2156
-16.17,All Items,3100,Lich Bane,-0.4653,2460
-16.17,All Items,3041,Mejai's Soulstealer,0.9253,899
-16.17,All Items,3118,Malignance,-2.25,608
-16.17,All Items,3115,Nashor's Tooth,-0.0392,4429
-16.17,All Items,2510,Dusk and Dawn,0.4515,10199
-16.17,All Items,3165,Morellonomicon,-2.9808,113
-16.17,All Items,3157,Zhonya's Hourglass,-0.9009,2837
-16.17,All Items,3089,Rabadon's Deathcap,0.299,6884
-16.17,All Items,4633,Riftmaker,-0.6636,3826
-16.17,All Items,3102,Banshee's Veil,-1.1139,295
+16.17,Keystone,8369,First Strike,-0.2471,9633
+16.17,Keystone,8230,Stormraider's Surge,-3.141,104
+16.17,Keystone,8010,Conqueror,0.1508,20813
+16.17,Keystone,8021,Fleet Footwork,2.6417,104
+16.17,Keystone,8005,Press the Attack,3.7397,159
+16.17,Spell,3,Exhaust,4.6875,210
+16.17,Spell,4,Flash,-1.7052,4059
+16.17,Spell,6,Ghost,0.2306,26673
+16.17,Spell,11,Smite,0.0,31043
+16.17,Boots,3008,Gluttonous Greaves,-0.2043,2615
+16.17,Boots,3009,Boots of Swiftness,0.1046,351
+16.17,Boots,3020,Sorcerer's Shoes,-0.3557,17177
+16.17,Boots,3047,Plated Steelcaps,-0.3112,4340
+16.17,Boots,3111,Mercury's Treads,1.2787,2934
+16.17,Boots,3158,Ionian Boots of Lucidity,-1.7873,862
+16.17,1st Item,2510,Dusk and Dawn,0.4517,19223
+16.17,1st Item,3100,Lich Bane,-1.5639,4628
+16.17,1st Item,3115,Nashor's Tooth,-0.1901,6848

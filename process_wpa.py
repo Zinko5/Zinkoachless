@@ -284,3 +284,9 @@ if __name__ == "__main__":
         processed_keys.append(key_name)
             
     print(f"\n=== Todos los datos procesados ({len(processed_keys)} perfiles) y exportados a 'docs/data/granular/' para GitHub Pages ===")
+    
+    # Sincronizar archivo de configuración central con docs/data/config.json
+    if os.path.exists("config.json"):
+        import shutil
+        shutil.copyfile("config.json", os.path.join("docs", "data", "config.json"))
+        print(f"---> Configuración sincronizada en 'docs/data/config.json'.")

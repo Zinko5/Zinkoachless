@@ -31,15 +31,14 @@
   - Default filter state: `⚡ Post-Ajuste` checked by default.
   - Default sort order: `⭐ Recomendado (Smart Rank)`.
   - Default champion: Akali (ID: 84, Top) por orden alfabético inicial.
-- **Champion Scalability Workflow:**
-  1. Add Champion ID and role (0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support) to `CHAMPIONS` list in [`get-wpa.py`](file:///home/zinko/publico/zinkoachless/get-wpa.py).
-  2. Map champion name and supported roles in `championNames` and `championRolesMap` in [`docs/app.js`](file:///home/zinko/publico/zinkoachless/docs/app.js).
-  3. Add `<option>` with unique champion name to `#champion-select` in [`docs/index.html`](file:///home/zinko/publico/zinkoachless/docs/index.html).
-  4. Run `source .venv/bin/activate && python3 patch_history.py && python3 get-wpa.py && python3 process_wpa.py`.
-- **Supported Champions:** Lucian, Smolder, Ekko, Gwen, Volibear, Annie, Warwick, Fiddlesticks, Viego, Samira, Briar, Shaco, Graves, Akali, Lux, Garen, Dr. Mundo, Seraphine, Fizz, Zilean, Nilah, Neeko, Evelynn, Veigar, Brand, Tahm Kench, Teemo, Tryndamere, Vladimir, Swain, Draven, Tristana, Jinx
+- **Champion Scalability Workflow (Centralized via config.json):**
+  1. Add Champion ID, name, and roles (0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support) to `"champions"` list in [`config.json`](file:///home/zinko/publico/zinkoachless/config.json).
+  2. Run `source .venv/bin/activate && python3 pipeline.py`.
+  3. The website and all components update automatically without touching HTML or JS.
+- **Supported Champions (33):** Lucian, Smolder, Ekko, Gwen, Volibear, Annie, Warwick, Fiddlesticks, Viego, Samira, Briar, Shaco, Graves, Akali, Lux, Garen, Dr. Mundo, Seraphine, Fizz, Zilean, Nilah, Neeko, Evelynn, Veigar, Brand, Tahm Kench, Teemo, Tryndamere, Vladimir, Swain, Draven, Tristana, Jinx
 
 ---
 
 ## Next Steps
-- Add more ADC, midlane, and jungle champions (e.g. Ezreal ID: 81, Kai'Sa ID: 145, Lee Sin ID: 64).
-- Create automated CI/Cron runner to execute updates whenever Riot releases a new patch.
+- Add more ADC, midlane, and jungle champions (e.g. Ezreal ID: 81, Kai'Sa ID: 145, Lee Sin ID: 64) via `config.json`.
+- Create automated CI/Cron runner to execute `pipeline.py` whenever Riot releases a new patch.

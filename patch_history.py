@@ -5,8 +5,19 @@ import requests
 DATA_RAW_DIR = os.path.join("data", "raw")
 OUTPUT_FILE = os.path.join("data", "processed", "item_patch_history.json")
 
+# Cargar configuración centralizada
+CONFIG_FILE = "config.json"
 MAJOR = 16
 PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+
+if os.path.exists(CONFIG_FILE):
+    try:
+        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+            MAJOR = cfg.get("season", MAJOR)
+            PATCHES = cfg.get("patches", PATCHES)
+    except Exception as e:
+        print(f"Advertencia al leer {CONFIG_FILE}: {e}")
 
 def fetch_ddragon_items(major, patch):
     os.makedirs(DATA_RAW_DIR, exist_ok=True)

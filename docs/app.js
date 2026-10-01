@@ -403,77 +403,48 @@ function formatNumber(num) {
   return num;
 }
 
+let appConfig = null;
+
 const championNames = {
-  236: "Lucian",
-  901: "Smolder",
-  245: "Ekko",
-  887: "Gwen",
-  106: "Volibear",
-  1: "Annie",
-  19: "Warwick",
-  9: "Fiddlesticks",
-  234: "Viego",
-  360: "Samira",
-  233: "Briar",
-  35: "Shaco",
-  104: "Graves",
-  84: "Akali",
-  99: "Lux",
-  86: "Garen",
-  36: "DrMundo",
-  147: "Seraphine",
-  105: "Fizz",
-  26: "Zilean",
-  895: "Nilah",
-  518: "Neeko",
-  28: "Evelynn",
-  45: "Veigar",
-  63: "Brand",
-  223: "TahmKench",
-  17: "Teemo",
-  23: "Tryndamere",
-  8: "Vladimir",
-  50: "Swain",
-  119: "Draven",
-  18: "Tristana"
+  84: "Akali", 1: "Annie", 63: "Brand", 233: "Briar", 36: "DrMundo", 119: "Draven", 245: "Ekko",
+  28: "Evelynn", 9: "Fiddlesticks", 105: "Fizz", 86: "Garen", 104: "Graves", 887: "Gwen", 222: "Jinx",
+  236: "Lucian", 99: "Lux", 518: "Neeko", 895: "Nilah", 360: "Samira", 147: "Seraphine", 35: "Shaco",
+  901: "Smolder", 50: "Swain", 223: "TahmKench", 17: "Teemo", 18: "Tristana", 23: "Tryndamere",
+  45: "Veigar", 234: "Viego", 8: "Vladimir", 106: "Volibear", 19: "Warwick", 26: "Zilean"
 };
 
 // Roles soportados por cada campeón (ID de rol de Coachless: 0: Top, 1: Jungle, 2: Mid, 3: Bot, 4: Support)
 const championRolesMap = {
-  236: [3],       // Lucian (Bot)
-  901: [3],       // Smolder (Bot)
-  245: [1, 2],    // Ekko (Jungle, Mid)
-  887: [1, 2],    // Gwen (Jungle, Mid)
-  106: [0, 1],    // Volibear (Top, Jungle)
-  1: [2, 4],      // Annie (Mid, Support)
-  19: [0, 1],     // Warwick (Top, Jungle)
-  9: [1],         // Fiddlesticks (Jungle)
-  234: [1],       // Viego (Jungle)
-  360: [3],       // Samira (Bot)
-  233: [1],       // Briar (Jungle)
-  35: [1],        // Shaco (Jungle)
-  104: [1],       // Graves (Jungle)
-  84: [0, 2],     // Akali (Top, Mid)
-  99: [2, 3, 4],  // Lux (Mid, Bot, Support)
-  86: [0],        // Garen (Top)
-  36: [0, 1],     // Dr. Mundo (Top, Jungle)
-  147: [2, 3, 4], // Seraphine (Mid, Bot, Support)
-  105: [2],       // Fizz (Mid)
-  26: [4],        // Zilean (Support)
-  895: [3],       // Nilah (Bot)
-  518: [4],       // Neeko (Support)
-  28: [1],        // Evelynn (Jungle)
-  45: [2],        // Veigar (Mid)
-  63: [3, 4],     // Brand (Bot, Support)
-  223: [0, 4],    // Tahm Kench (Top, Support)
-  17: [0],        // Teemo (Top)
-  23: [0],        // Tryndamere (Top)
-  8: [2],         // Vladimir (Mid)
-  50: [3],        // Swain (Bot)
-  119: [3],       // Draven (Bot)
-  18: [3],      // Tristana (Bot)
-  222: [3]         // Jinx (Bot)
+  84: [0, 2], 1: [2, 4], 63: [3, 4], 233: [1], 36: [0, 1], 119: [3], 245: [1, 2],
+  28: [1], 9: [1], 105: [2], 86: [0], 104: [1], 887: [1, 2], 222: [3],
+  236: [3], 99: [2, 3, 4], 518: [4], 895: [3], 360: [3], 147: [2, 3, 4], 35: [1],
+  901: [3], 50: [3], 223: [0, 4], 17: [0], 18: [3], 23: [0],
+  45: [2], 234: [1], 8: [2], 106: [0, 1], 19: [0, 1], 26: [4]
 };
+
+async function loadConfig() {
+  if (appConfig) return appConfig;
+  const paths = ["data/config.json", "../data/config.json"];
+  for (const p of paths) {
+    try {
+      const res = await fetch(p);
+      if (res.ok) {
+        appConfig = await res.json();
+        break;
+      }
+    } catch (e) {}
+  }
+  
+  if (appConfig && appConfig.champions) {
+    appConfig.champions.forEach(c => {
+      championRolesMap[c.id] = c.roles || [0];
+      if (c.name) {
+        championNames[c.id] = c.name;
+      }
+    });
+  }
+  return appConfig;
+}
 
 const roleNames = {
   0: "Superior (Top)",
@@ -585,19 +556,42 @@ async function loadData() {
   applyFilters();
 }
 
-function sortChampionSelectOptions() {
+function populateAndSortChampionSelect() {
   const select = document.getElementById("champion-select");
   if (!select) return;
-  const options = Array.from(select.options);
-  options.sort((a, b) => a.text.localeCompare(b.text));
-  select.innerHTML = "";
-  options.forEach(opt => select.add(opt));
   
-  if (options.length > 0) {
-    select.value = options[0].value;
-    selectedChamp = options[0].value;
-    const supportedRoles = championRolesMap[selectedChamp] || [0];
-    selectedRole = supportedRoles[0];
+  select.innerHTML = "";
+
+  let champList = [];
+  if (appConfig && appConfig.champions && appConfig.champions.length > 0) {
+    champList = appConfig.champions.map(c => ({
+      id: String(c.id),
+      name: c.name || championNames[c.id] || `ID_${c.id}`
+    }));
+  } else {
+    champList = Object.keys(championRolesMap).map(id => ({
+      id: String(id),
+      name: championNames[id] || `ID_${id}`
+    }));
+  }
+
+  champList.sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
+
+  champList.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c.id;
+    opt.textContent = c.name;
+    select.appendChild(opt);
+  });
+
+  if (select.options.length > 0) {
+    const hasSelected = Array.from(select.options).some(o => o.value === String(selectedChamp));
+    if (!hasSelected) {
+      selectedChamp = select.options[0].value;
+      const supportedRoles = championRolesMap[selectedChamp] || [0];
+      selectedRole = supportedRoles[0];
+    }
+    select.value = selectedChamp;
   }
 }
 
@@ -704,11 +698,12 @@ function initCustomChampionSelect() {
 }
 
 // Configurar controladores de eventos
-window.addEventListener("DOMContentLoaded", () => {
-  sortChampionSelectOptions();
+window.addEventListener("DOMContentLoaded", async () => {
+  await loadConfig();
+  populateAndSortChampionSelect();
   initCustomChampionSelect();
-  loadData();
-  lucide.createIcons();
+  await loadData();
+  if (window.lucide) lucide.createIcons();
 
   // Selector de Campeón
   document.getElementById("champion-select").addEventListener("change", (e) => {

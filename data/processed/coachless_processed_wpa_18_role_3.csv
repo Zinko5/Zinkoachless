@@ -1793,115 +1793,16 @@
 16.16,All Items,6676,The Collector,-1.0497,25599
 16.16,All Items,6695,Serpent's Fang,-1.7435,401
 16.16,All Items,6697,Hubris,-3.3243,146
-16.17,Keystone,9923,Hail of Blades,-3.3015,841
-16.17,Keystone,8021,Fleet Footwork,-2.1061,156
-16.17,Keystone,8005,Press the Attack,-2.0565,7134
-16.17,Keystone,8008,Lethal Tempo,0.1781,113022
-16.17,Spell,1,Cleanse,0.6633,6128
-16.17,Spell,3,Exhaust,-0.2276,11992
-16.17,Spell,4,Flash,0.0007,121386
-16.17,Spell,6,Ghost,-0.4271,260
-16.17,Spell,7,Heal,-5.1822,589
-16.17,Spell,12,Teleport,-4.9192,257
-16.17,Spell,14,Ignite,-4.5221,333
-16.17,Spell,21,Barrier,0.0443,101865
-16.17,Starter,1055,Doran's Blade,-0.9148,15815
-16.17,Starter,1083,Cull,8.5796,129
-16.17,Starter,1086,Doran's Bow,0.1402,104817
-16.17,Starter,1120,Doran's Helm,-1.4757,441
-16.17,Boots,3006,Berserker's Greaves,-0.1334,95682
-16.17,Boots,3008,Gluttonous Greaves,1.2288,14200
-16.17,Boots,3009,Boots of Swiftness,-0.2497,154
-16.17,Boots,3047,Plated Steelcaps,0.3215,5858
-16.17,Boots,3111,Mercury's Treads,0.7312,1970
-16.17,1st Item,2523,Hexoptics C44,-0.2836,20305
-16.17,1st Item,3031,Infinity Edge,-3.3637,377
-16.17,1st Item,3032,Yun Tal Wildarrows,0.544,65883
-16.17,1st Item,3097,Stormrazor,2.5184,286
-16.17,1st Item,3153,Blade of The Ruined King,1.0285,134
-16.17,1st Item,6672,Kraken Slayer,0.3048,1457
-16.17,1st Item,6675,Navori Flickerblade,-4.945,163
-16.17,1st Item,6676,The Collector,-0.9183,31896
-16.17,1st Item,6697,Hubris,3.4701,137
-16.17,2nd Item,2523,Hexoptics C44,1.1062,1462
-16.17,2nd Item,3031,Infinity Edge,0.7048,63253
-16.17,2nd Item,3032,Yun Tal Wildarrows,-5.1037,840
-16.17,2nd Item,3033,Mortal Reminder,0.4403,341
-16.17,2nd Item,3036,Lord Dominik's Regards,-1.8581,802
-16.17,2nd Item,3046,Phantom Dancer,-0.6408,331
-16.17,2nd Item,3072,Bloodthirster,-8.0055,124
-16.17,2nd Item,3085,Runaan's Hurricane,3.9171,590
-16.17,2nd Item,3094,Rapid Firecannon,-6.8831,226
-16.17,2nd Item,3097,Stormrazor,-1.1476,101
-16.17,2nd Item,6672,Kraken Slayer,-3.5428,358
-16.17,2nd Item,6675,Navori Flickerblade,-0.8503,43097
-16.17,2nd Item,6676,The Collector,-1.4719,1398
-16.17,3rd Item,2523,Hexoptics C44,-0.3484,1178
-16.17,3rd Item,3026,Guardian Angel,-0.0233,150
-16.17,3rd Item,3031,Infinity Edge,-0.1455,32427
-16.17,3rd Item,3032,Yun Tal Wildarrows,2.2489,252
-16.17,3rd Item,3033,Mortal Reminder,1.2471,3747
-16.17,3rd Item,3036,Lord Dominik's Regards,1.0311,12253
-16.17,3rd Item,3046,Phantom Dancer,3.1349,356
-16.17,3rd Item,3072,Bloodthirster,-2.7121,632
-16.17,3rd Item,3085,Runaan's Hurricane,4.1725,269
-16.17,3rd Item,3094,Rapid Firecannon,-1.8151,318
-16.17,3rd Item,3139,Mercurial Scimitar,-5.0824,118
-16.17,3rd Item,3153,Blade of The Ruined King,-4.8712,163
-16.17,3rd Item,3156,Maw of Malmortius,1.7714,202
-16.17,3rd Item,6672,Kraken Slayer,-3.5935,200
-16.17,3rd Item,6673,Immortal Shieldbow,1.7149,277
-16.17,3rd Item,6675,Navori Flickerblade,-0.2281,40866
-16.17,3rd Item,6676,The Collector,-2.2204,377
-16.17,3rd Item,6695,Serpent's Fang,-0.2575,114
-16.17,4th+ Item,2504,Kaenic Rookern,-3.1716,292
-16.17,4th+ Item,2523,Hexoptics C44,-0.7753,2844
-16.17,4th+ Item,3026,Guardian Angel,0.9762,12440
-16.17,4th+ Item,3031,Infinity Edge,-0.4024,3838
-16.17,4th+ Item,3032,Yun Tal Wildarrows,-6.2226,266
-16.17,4th+ Item,3033,Mortal Reminder,0.3977,11427
-16.17,4th+ Item,3036,Lord Dominik's Regards,0.1257,29333
-16.17,4th+ Item,3046,Phantom Dancer,-2.8896,253
-16.17,4th+ Item,3072,Bloodthirster,0.3253,14284
-16.17,4th+ Item,3085,Runaan's Hurricane,4.0589,227
-16.17,4th+ Item,3091,Wit's End,-4.2037,175
-16.17,4th+ Item,3094,Rapid Firecannon,-5.6766,654
-16.17,4th+ Item,3139,Mercurial Scimitar,-0.7843,4187
-16.17,4th+ Item,3143,Randuin's Omen,-0.4858,554
-16.17,4th+ Item,3153,Blade of The Ruined King,-1.7752,1126
-16.17,4th+ Item,3156,Maw of Malmortius,-1.8445,1942
-16.17,4th+ Item,3814,Edge of Night,11.556,142
-16.17,4th+ Item,6333,Death's Dance,3.2937,136
-16.17,4th+ Item,6665,"Jak'Sho, The Protean",0.7115,228
-16.17,4th+ Item,6672,Kraken Slayer,-5.2429,493
-16.17,4th+ Item,6673,Immortal Shieldbow,-1.1998,1435
-16.17,4th+ Item,6675,Navori Flickerblade,0.1713,5813
-16.17,4th+ Item,6676,The Collector,-2.1325,895
-16.17,4th+ Item,6695,Serpent's Fang,-2.4717,315
-16.17,All Items,2504,Kaenic Rookern,-2.5107,335
-16.17,All Items,2523,Hexoptics C44,-0.2632,25991
-16.17,All Items,3026,Guardian Angel,0.9658,13115
-16.17,All Items,3031,Infinity Edge,0.3726,99911
-16.17,All Items,3032,Yun Tal Wildarrows,0.454,67286
-16.17,All Items,3033,Mortal Reminder,0.6025,15573
-16.17,All Items,3036,Lord Dominik's Regards,0.3423,42510
-16.17,All Items,3046,Phantom Dancer,0.4099,959
-16.17,All Items,3072,Bloodthirster,0.1807,15445
-16.17,All Items,3085,Runaan's Hurricane,3.866,1102
-16.17,All Items,3091,Wit's End,-2.8665,296
-16.17,All Items,3094,Rapid Firecannon,-4.4425,1246
-16.17,All Items,3097,Stormrazor,0.7822,550
-16.17,All Items,3139,Mercurial Scimitar,-0.9613,4526
-16.17,All Items,3143,Randuin's Omen,-0.8624,649
-16.17,All Items,3153,Blade of The Ruined King,-1.5919,1639
-16.17,All Items,3156,Maw of Malmortius,-1.4013,2325
-16.17,All Items,3157,Zhonya's Hourglass,-6.561,140
-16.17,All Items,3814,Edge of Night,9.1553,194
-16.17,All Items,6333,Death's Dance,3.3112,164
-16.17,All Items,6665,"Jak'Sho, The Protean",-0.9717,269
-16.17,All Items,6672,Kraken Slayer,-1.6451,2591
-16.17,All Items,6673,Immortal Shieldbow,-0.7661,1870
-16.17,All Items,6675,Navori Flickerblade,-0.5065,89963
-16.17,All Items,6676,The Collector,-0.9954,34612
-16.17,All Items,6695,Serpent's Fang,-0.5631,611
-16.17,All Items,6697,Hubris,2.1695,199
+16.17,Keystone,8010,Conqueror,-7.0825,165
+16.17,Keystone,9923,Hail of Blades,-3.3339,1748
+16.17,Keystone,8021,Fleet Footwork,-0.6573,343
+16.17,Keystone,8005,Press the Attack,-1.4601,16023
+16.17,Keystone,8008,Lethal Tempo,0.1332,254951
+16.17,Spell,1,Cleanse,1.1386,13701
+16.17,Spell,3,Exhaust,-0.13,28543
+16.17,Spell,4,Flash,0.001,273598
+16.17,Spell,6,Ghost,0.9262,606
+16.17,Spell,7,Heal,-4.8391,1354
+16.17,Spell,12,Teleport,-2.9758,538
+16.17,Spell,14,Ignite,-1.9456,716
+16.17,Spell,21,Barrier,-0.014,228254
