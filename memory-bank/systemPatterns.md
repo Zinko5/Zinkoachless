@@ -12,8 +12,8 @@ flowchart TD
     DHist -->|Merge last_changed_patch| D
     E[Riot Games Data Dragon CDN] -->|Metadata & Localized Names| D
     D -->|Aggregated Data Export| F[data/consolidated/ & data/processed/]
-    D -->|Web Bundle Export| G[docs/data.js]
-    G --> H[docs/index.html + app.js + styles.css]
+    D -->|Granular JSONs Export| G[docs/data/granular/]
+    G -->|Lazy Loading on Demand| H[docs/index.html + app.js + styles.css]
 ```
 
 ---
@@ -49,6 +49,11 @@ flowchart TD
 - Mode 1 (`⭐ Populares & Solidez`): Minimum sample threshold $= \max(50, 0.5\% \times \sum_{\text{category}} \text{sample\_size})$.
 - Mode 2 (`📚 Catálogo Completo`): Displays 100% of recorded items.
 
+### 6. Lazy Loading Architecture & In-Memory Caching (`docs/app.js`)
+- Replaces monolithic data bundles with on-demand fetching of champion JSONs from `docs/data/granular/`.
+- Caches loaded champion data in memory (`championDataCache`) and initializes DDragon catalogs once.
+- Reduces initial web bundle transfer from 78 MB to under 150 KB.
+
 ---
 
 ## Directory Pattern
@@ -57,7 +62,7 @@ flowchart TD
 zinkoachless/
 ├── patch_history.py           # Multi-Entity Patch Change Tracker (DDragon)
 ├── get-wpa.py                 # Fetcher & Cache Manager (Coachless API)
-├── process_wpa.py             # Data Aggregator & Web Data Generator
+├── process_wpa.py             # Data Aggregator & Compact JSON Exporter
 ├── memory-bank/               # Core Architectural & Knowledge Base
 ├── data/
 │   ├── raw/                   # Raw JSON data downloaded per patch & DDragon caches
@@ -67,6 +72,7 @@ zinkoachless/
 └── docs/                      # Frontend SPA (GitHub Pages Deployment)
     ├── index.html             # UI Structure & Filter Control Panel
     ├── styles.css             # Glassmorphic Design System & Compact Badges
-    ├── app.js                 # Frontend Engine, Recency WPA & LoL Item Set Exporter
-    └── data.js                # Embedded JSON Data Bundle for Offline Use
+    ├── app.js                 # Frontend Engine, Recency WPA, Lazy Loader & LoL Item Set Exporter
+    └── data/
+        └── granular/          # Individual compact granular JSONs per champion/role
 ```

@@ -148,6 +148,20 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
         except Exception as e:
             print(f"Advertencia al leer {history_file}: {e}")
 
+    # Claves esenciales de detalles utilizadas por la interfaz web
+    DETAIL_KEYS = {
+        "deltaAgainstPhysicalDamage", "deltaAgainstMagicDamage", "deltaAgainstBalancedDamage",
+        "deltaWhenHighRange", "deltaWhenLowRange", "deltaWhenBalancedRange",
+        "deltaWhenTanky", "deltaWhenSquishy", "deltaWhenBalancedTankiness",
+        "deltaWhenHighCC", "deltaWhenLowCC", "deltaWhenNormalCC",
+        "deltaWhenGoldAhead", "deltaWhenGoldBehind", "deltaWhenGoldBalanced",
+        "physicalDamageOccurrence", "magicDamageOccurrence", "balancedDamageOccurrence",
+        "highRangeOccurrence", "lowRangeOccurrence", "balancedRangeOccurrence",
+        "tankyOccurrence", "squishyOccurrence", "balancedTankinessOccurrence",
+        "highCCOccurrence", "lowCCOccurrence", "normalCCOccurrence",
+        "goldAheadOccurrence", "goldBehindOccurrence", "goldBalancedOccurrence"
+    }
+
     records = []
 
     for patch, sections in raw_data.items():
@@ -176,7 +190,15 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
                 if cat_name == "All Items" and item_details_map:
                     item_id_str = str(parsed["id"])
                     if item_id_str in item_details_map:
-                        parsed["details"] = item_details_map[item_id_str].get("detailed")
+                        raw_details = item_details_map[item_id_str].get("detailed")
+                        if isinstance(raw_details, dict):
+                            filtered_details = {
+                                k: round(float(v), 4) if isinstance(v, float) else int(v) if isinstance(v, int) else v
+                                for k, v in raw_details.items()
+                                if k in DETAIL_KEYS and v is not None
+                            }
+                            if filtered_details:
+                                parsed["details"] = filtered_details
                 records.append(parsed)
 
     # 1. Exportar registros individuales a CSV
@@ -187,10 +209,17 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
         writer.writerows(records)
     print(f"CSV exportado: {len(records)} registros guardados en '{output_csv}'.")
 
-    # 2. Exportar registros individuales a JSON Granular
+    # 2. Exportar registros individuales a JSON Granular (compacto)
     with open(output_granular_json, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
+        json.dump(records, f, ensure_ascii=False, separators=(',', ':'))
     print(f"JSON granular exportado con éxito a '{output_granular_json}'.")
+
+    # Copiar también a docs/data/granular/ para GitHub Pages
+    docs_granular_dir = os.path.join("docs", "data", "granular")
+    os.makedirs(docs_granular_dir, exist_ok=True)
+    docs_granular_json = os.path.join(docs_granular_dir, os.path.basename(output_granular_json))
+    with open(docs_granular_json, "w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, separators=(',', ':'))
 
     # 3. Consolidar agregación de múltiples parches para la interfaz UI
     aggregated = defaultdict(lambda: {"weighted_wpa_sum": 0.0, "total_sample": 0, "name": ""})
@@ -216,7 +245,7 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
 
     # Guardar JSON consolidado
     with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(consolidated, f, ensure_ascii=False, indent=2)
+        json.dump(consolidated, f, ensure_ascii=False, separators=(',', ':'))
     print(f"JSON consolidado exportado con éxito a '{output_json}'.")
 
 if __name__ == "__main__":
@@ -228,6 +257,7 @@ if __name__ == "__main__":
     os.makedirs(os.path.join("data", "processed"), exist_ok=True)
     os.makedirs(os.path.join("data", "consolidated"), exist_ok=True)
     os.makedirs(os.path.join("data", "granular"), exist_ok=True)
+    os.makedirs(os.path.join("docs", "data", "granular"), exist_ok=True)
     
     # Escanear archivos de estadísticas de campeones en data/raw/
     processed_keys = []
@@ -253,21 +283,4 @@ if __name__ == "__main__":
         process_coachless_json(filepath, output_csv, output_json, output_granular_json)
         processed_keys.append(key_name)
             
-    # Generar/actualizar automáticamente docs/data.js para compatibilidad sin conexión (offline)
-    data_js_path = os.path.join("docs", "data.js")
-    try:
-        js_content = "window.fallbackGranularDataMap = window.fallbackGranularDataMap || {};\n\n"
-        for key_name in sorted(processed_keys):
-            g_file = os.path.join("data", "granular", f"coachless_granular_wpa_{key_name}.json")
-            if os.path.exists(g_file):
-                with open(g_file, "r", encoding="utf-8") as f:
-                    g_data = json.load(f)
-                js_content += f"window.fallbackGranularDataMap[\"{key_name}\"] = {json.dumps(g_data, ensure_ascii=False, indent=2)};\n"
-        
-        if js_content:
-            os.makedirs("docs", exist_ok=True)
-            with open(data_js_path, "w", encoding="utf-8") as f:
-                f.write(js_content.strip() + "\n")
-            print(f"\n---> 'docs/data.js' actualizado dinámicamente con los fallbacks offline de: {', '.join(processed_keys)}.")
-    except Exception as e:
-        print(f"Error al generar 'docs/data.js': {e}")
+    print(f"\n=== Todos los datos procesados ({len(processed_keys)} perfiles) y exportados a 'docs/data/granular/' para GitHub Pages ===")

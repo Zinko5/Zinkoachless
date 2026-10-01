@@ -94,18 +94,19 @@ Donde:
 zinkoachless/
 ├── get-wpa.py                 # Extracción y almacenamiento en caché de estadísticas desde Coachless
 ├── patch_history.py           # Rastreador de cambios e historial de parches (DDragon)
-├── process_wpa.py             # Agregación, ponderación y generación de docs/data.js
+├── process_wpa.py             # Agregación, ponderación y exportación de datos compactos
 ├── README.md                  # Documentación del proyecto
 ├── data/
 │   ├── raw/                   # Datos brutos descargados en formato JSON
 │   ├── processed/             # CSVs procesados e historial de ajustes
 │   ├── consolidated/          # JSONs agregados globales
-│   └── granular/              # JSONs de desglose por parche para el frontend
+│   └── granular/              # JSONs de desglose por parche
 └── docs/                      # Aplicación Web Monopágina (SPA para GitHub Pages)
     ├── index.html             # Interfaz semántica y panel de control
     ├── styles.css             # Sistema de diseño, Glassmorphism y modo oscuro
-    ├── app.js                 # Lógica interactiva, filtros y exportador
-    └── data.js                # Bundle estático offline de datos
+    ├── app.js                 # Lógica interactiva, filtros, lazy loading y exportador
+    └── data/
+        └── granular/          # JSONs compactos por campeón cargados bajo demanda
 ```
 
 ---
@@ -146,7 +147,7 @@ python3 patch_history.py
 # 3. Descargar estadísticas de la API de Coachless (usa caché local)
 python3 get-wpa.py
 
-# 4. Procesar métricas y compilar el bundle docs/data.js
+# 4. Procesar métricas y compilar JSONs compactos para docs/data/granular/
 python3 process_wpa.py
 ```
 

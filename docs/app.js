@@ -518,19 +518,25 @@ function updateRoleSelector() {
   }
 }
 
-// Cargar datos
-async function loadData() {
-  // Intentar obtener la versión más reciente de DDragon y mapear runas y campeones dinámicamente
+const championDataCache = {};
+let ddragonLoaded = false;
+
+// Inicializar catálogos de DDragon una sola vez
+async function initDDragon() {
+  if (ddragonLoaded) return;
   try {
     const vRes = await fetch("https://ddragon.leagueoflegends.com/api/versions.json");
     if (vRes.ok) {
       const versions = await vRes.json();
       latestVersion = versions[0];
-      console.log("Latest DDragon version:", latestVersion);
       
-      // Cargar catálogo de runas para poblar sus iconos reales
-      const rRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/runesReforged.json`);
-      if (rRes.ok) {
+      const [rRes, sRes, cRes] = await Promise.all([
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/runesReforged.json`).catch(() => null),
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/summoner.json`).catch(() => null),
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/champion.json`).catch(() => null)
+      ]);
+
+      if (rRes && rRes.ok) {
         const runesPaths = await rRes.json();
         runesPaths.forEach(path => {
           runeImages[path.id] = `https://ddragon.leagueoflegends.com/cdn/img/${path.icon}`;
@@ -540,32 +546,31 @@ async function loadData() {
             });
           });
         });
-        console.log("Runes mapped successfully from DDragon.");
       }
 
-      // Cargar catálogo de hechizos para poblar sus imágenes exactas (ej. Smite, Flash, etc.)
-      const sRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/summoner.json`);
-      if (sRes.ok) {
+      if (sRes && sRes.ok) {
         const spellData = await sRes.json();
         for (const [key, val] of Object.entries(spellData.data)) {
           spellImages[Number(val.key)] = val.image.full;
         }
-        console.log("Summoner spells mapped successfully from DDragon.");
       }
 
-      // Cargar catálogo de campeones para mapear IDs a nombres
-      const cRes = await fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/champion.json`);
-      if (cRes.ok) {
+      if (cRes && cRes.ok) {
         const champData = await cRes.json();
         for (const [key, val] of Object.entries(champData.data)) {
           championNames[Number(val.key)] = val.id;
         }
-        console.log("Champions mapped successfully from DDragon.");
       }
+      ddragonLoaded = true;
     }
   } catch (e) {
     console.warn("Could not fetch DDragon versions, runes or champions dynamically:", e);
   }
+}
+
+// Cargar datos bajo demanda
+async function loadData() {
+  await initDDragon();
 
   // Actualizar cabecera del campeón y botones de roles
   const champName = championNames[selectedChamp] || "Akali";
@@ -573,29 +578,9 @@ async function loadData() {
   updateRoleSelector();
   updateCustomChampionSelectLabel();
 
-  // Clave del archivo según campeón y rol si es diferente al por defecto
-  const dataKey = `${selectedChamp}_role_${selectedRole}`;
-  const offlineData = (window.fallbackGranularDataMap && (window.fallbackGranularDataMap[dataKey] || window.fallbackGranularDataMap[selectedChamp])) || window[`fallbackGranularData${selectedChamp}`];
+  // Recuperar datos granulares bajo demanda
+  wpaData = await getChampionRoleData(selectedChamp, selectedRole);
   
-  if (offlineData && offlineData.length > 0) {
-    wpaData = offlineData;
-  } else {
-    try {
-      // Intentar cargar datos específicos de rol si existen, si no fallback al archivo base del campeón
-      let response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}_role_${selectedRole}.json`);
-      if (!response.ok) {
-        response = await fetch(`../data/granular/coachless_granular_wpa_${selectedChamp}.json`);
-      }
-      if (response.ok) {
-        wpaData = await response.json();
-      } else {
-        wpaData = offlineData || [];
-      }
-    } catch (err) {
-      console.warn("Cargando datos embebidos de respaldo.");
-      wpaData = offlineData || [];
-    }
-  }
   populatePatchDropdowns();
   applyFilters();
 }
@@ -1115,23 +1100,33 @@ document.addEventListener("click", function(event) {
 });
 
 async function getChampionRoleData(champId, roleId) {
-  const dataKey = `${champId}_role_${roleId}`;
-  const offlineData = (window.fallbackGranularDataMap && (window.fallbackGranularDataMap[dataKey] || window.fallbackGranularDataMap[champId])) || window[`fallbackGranularData${champId}`];
-  if (offlineData && offlineData.length > 0) {
-    return offlineData;
+  const cacheKey = `${champId}_role_${roleId}`;
+  if (championDataCache[cacheKey]) {
+    return championDataCache[cacheKey];
   }
-  try {
-    let response = await fetch(`../data/granular/coachless_granular_wpa_${champId}_role_${roleId}.json`);
-    if (!response.ok) {
-      response = await fetch(`../data/granular/coachless_granular_wpa_${champId}.json`);
+
+  const pathsToTry = [
+    `data/granular/coachless_granular_wpa_${champId}_role_${roleId}.json`,
+    `data/granular/coachless_granular_wpa_${champId}.json`,
+    `../data/granular/coachless_granular_wpa_${champId}_role_${roleId}.json`,
+    `../data/granular/coachless_granular_wpa_${champId}.json`
+  ];
+
+  for (const p of pathsToTry) {
+    try {
+      const response = await fetch(p);
+      if (response.ok) {
+        const data = await response.json();
+        championDataCache[cacheKey] = data;
+        return data;
+      }
+    } catch (err) {
+      // Intentar siguiente ruta
     }
-    if (response.ok) {
-      return await response.json();
-    }
-  } catch (err) {
-    console.warn(`Error al recuperar datos para ${champId}_${roleId}:`, err);
   }
-  return offlineData || [];
+
+  console.warn(`No se encontraron datos para ${champId} (rol ${roleId})`);
+  return [];
 }
 
 function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "global") {
@@ -1480,9 +1475,17 @@ async function exportAllLoLItemSets(mode = 'clipboard') {
 
     champEntries.sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
 
+    let completed = 0;
+    const totalCount = champEntries.reduce((acc, c) => acc + c.roles.length, 0);
+
     for (const champ of champEntries) {
       for (const roleId of champ.roles) {
+        if (btnMain) {
+          btnMain.innerHTML = `<i data-lucide="loader" style="width: 16px; height: 16px;"></i> <span>Generando (${completed}/${totalCount})...</span>`;
+          if (window.lucide) window.lucide.createIcons();
+        }
         const rawData = await getChampionRoleData(champ.champId, roleId);
+        completed++;
         if (rawData && rawData.length > 0) {
           const itemSet = buildItemSetFromData(champ.champId, roleId, rawData, availablePatches, "global");
           if (itemSet && itemSet.blocks && itemSet.blocks.length > 0) {

@@ -7,7 +7,7 @@
 ## Core Goals
 1. **Bypass Commercial Paywalls:** Provide multi-patch aggregation capabilities for free without relying on paid Coachless Premium subscriptions.
 2. **Solve Sample Size Limitations:** Aggregate item purchase and rune pick counts across consecutive patches to ensure statistical confidence ($N_{\text{total}} \ge \text{Threshold}$) for low-sample off-meta picks.
-3. **Provide Offline & Fast Visualizations:** Generate static data payloads (`docs/data.js`) to render an ultra-responsive, zero-latency single-page web app (SPA) capable of running 100% offline.
+3. **Provide Ultra-Fast Visualizations:** Serve compact on-demand JSON payloads (`docs/data/granular/`) to render an ultra-responsive, zero-latency single-page web app (SPA) with sub-300ms initial loads.
 4. **Automate Data Pipeline:** Maintain an intelligent caching system that skips static historical patches while updating the latest active patch dynamically.
 
 ---

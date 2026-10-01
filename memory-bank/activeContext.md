@@ -2,6 +2,8 @@
 
 ## Current State & Focus
 - **Full Multi-Entity DDragon Patch Tracker:** [`patch_history.py`](file:///home/zinko/publico/zinkoachless/patch_history.py) diffs items, runes (`runesReforged.json`), and summoner spells (`summoner.json`) across 17 parches.
+- **Lazy Loading & Payload Optimization:** Replaced monolithic 78MB `docs/data.js` bundle with on-demand compact JSON loading (`docs/data/granular/`), cutting initial load transfer by 99.9% (<150KB total) and eliminating Git file size warnings.
+- **In-Memory Caching & Single DDragon Init:** `docs/app.js` caches loaded champion files in `championDataCache` and fetches DDragon version/rune catalogs only once at initialization.
 - **Documentation Upgrade:** Completely updated [`README.md`](file:///home/zinko/publico/zinkoachless/README.md) with accurate paths, math formulas, clean formatting without emoji excess, complete script pipeline guide, environment setup with `uv`, and champion addition instructions.
 - **Time-Decay Exponential Weighting ($\lambda = 0.75$):** Aggregates WPA with a 2.4-patch half-life, ensuring recent patch performance dominates while preserving historical depth.
 - **Smart Composite Ranking (`smart_rank`):** Default sorting algorithm combining recency-weighted WPA and log-sample confidence.
@@ -17,7 +19,7 @@
 - **League of Legends Item Set Exporter (Botón Dividido y Exportación Masiva):**
   - Botón dividido (split button) en cabecera con botón principal "Exportar Set" y flecha mini para opciones adicionales.
   - Exportación individual: copia el set del campeón y rol actual al portapapeles o permite descargarlo en archivo `.json`.
-  - Exportación masiva (Bulk): procesa todos los campeones y roles configurados en `championRolesMap` y consolida los sets en una sola estructura oficial de Riot Games (`{ "itemSets": [ ... ] }`), ordenados estrictamente en orden alfabético por campeón (A-Z) y por posición canónica (Top -> Jungla -> Mid -> Bot/ADC -> Support).
+  - Exportación masiva (Bulk): procesa todos los campeones y roles configurados en `championRolesMap` y consolida los sets en una sola estructura oficial de Riot Games (`{ "itemSets": [ ... ] }`), ordenados estrictamente en orden alfabético por campeón (A-Z) y por posición canónica (Top -> Jungla -> Mid -> Bot/ADC -> Support) con contador de progreso interactivo.
   - Permite copiar todos los sets al portapapeles o descargar `Zinkoachless_All_Item_Sets.json` para importar en un solo paso en el cliente de League of Legends (Colección > Objetos > Importar).
   - Incluye bloque especial "Todos por WPA" con todos los objetos de WPA positivo.
 

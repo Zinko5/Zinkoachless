@@ -20,4 +20,4 @@ By consolidating purchase and pick counts across 10+ patches with exponential re
 - **Statistical Role Badging:** Instant visual guidance distinguishing `⭐ Meta` (Standard high-confidence), `🎯 Situacional / Hidden OP` (High-efficiency niche pick or secret OP choice), `📈 Emergente` (Rising momentum), and `⚡ Ajustado` (Latest patch change).
 - **Dynamic Market Share Filter:** Toggle between `⭐ Populares & Solidez` ($0.5\%$ category sample cutoff) and `📚 Catálogo Completo` (100% un-filtered catalog).
 - **LoL Item Set Exporter:** One-click clipboard copy generating ready-to-use in-game item sets for the League of Legends client.
-- **Offline Autonomy:** Web application functions completely offline using pre-compiled `docs/data.js` bundles.
+- **High-Performance Static Hosting:** Web application functions with sub-300ms initial load via lazy-loaded compact champion payloads (`docs/data/granular/`).
