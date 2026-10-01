@@ -111,20 +111,13 @@ def parse_wpa_entry(entry, category, patch_version, item_map, rune_map, summoner
         "sample_size": int(sample) if sample is not None else 0
     }
 
-def process_coachless_json(input_file, output_csv, output_json, output_granular_json):
+def process_coachless_json(input_file, output_granular_json, item_map, rune_map, summoner_map, item_history):
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             raw_data = json.load(f)
     except FileNotFoundError:
         print(f"Error: {input_file} no encontrado.")
         return
-
-    print("Obteniendo última versión de DDragon...")
-    latest_version = get_latest_version()
-    print(f"Versión seleccionada: {latest_version}")
-    
-    print("Descargando traducciones de objetos, runas y hechizos...")
-    item_map, rune_map, summoner_map = fetch_names_mapping(latest_version)
 
     category_mapping = {
         "keystones": "Keystone",
@@ -137,16 +130,6 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
         "late_game_items": "4th+ Item",
         "items_no_slot": "All Items"
     }
-
-    # Cargar historial de cambios de parches
-    item_history = {}
-    history_file = os.path.join("data", "processed", "item_patch_history.json")
-    if os.path.exists(history_file):
-        try:
-            with open(history_file, "r", encoding="utf-8") as f:
-                item_history = json.load(f)
-        except Exception as e:
-            print(f"Advertencia al leer {history_file}: {e}")
 
     # Claves esenciales de detalles utilizadas por la interfaz web
     DETAIL_KEYS = {
@@ -201,67 +184,41 @@ def process_coachless_json(input_file, output_csv, output_json, output_granular_
                                 parsed["details"] = filtered_details
                 records.append(parsed)
 
-    # 1. Exportar registros individuales a CSV
-    headers = ["patch", "category", "id", "name", "wpa", "sample_size"]
-    with open(output_csv, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=headers, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(records)
-    print(f"CSV exportado: {len(records)} registros guardados en '{output_csv}'.")
-
-    # 2. Exportar registros individuales a JSON Granular (compacto)
+    # Exportar registros individuales a JSON Granular compacto en docs/data/granular/
+    os.makedirs(os.path.dirname(output_granular_json), exist_ok=True)
     with open(output_granular_json, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, separators=(',', ':'))
-    print(f"JSON granular exportado con éxito a '{output_granular_json}'.")
-
-    # Copiar también a docs/data/granular/ para GitHub Pages
-    docs_granular_dir = os.path.join("docs", "data", "granular")
-    os.makedirs(docs_granular_dir, exist_ok=True)
-    docs_granular_json = os.path.join(docs_granular_dir, os.path.basename(output_granular_json))
-    with open(docs_granular_json, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, separators=(',', ':'))
-
-    # 3. Consolidar agregación de múltiples parches para la interfaz UI
-    aggregated = defaultdict(lambda: {"weighted_wpa_sum": 0.0, "total_sample": 0, "name": ""})
-    for r in records:
-        key = (r["category"], r["id"])
-        aggregated[key]["name"] = r["name"]
-        aggregated[key]["total_sample"] += r["sample_size"]
-        aggregated[key]["weighted_wpa_sum"] += r["wpa"] * r["sample_size"]
-
-    consolidated = []
-    for (category, item_id), stats in aggregated.items():
-        total = stats["total_sample"]
-        if total == 0:
-            continue
-        avg_wpa = stats["weighted_wpa_sum"] / total
-        consolidated.append({
-            "category": category,
-            "id": item_id,
-            "name": stats["name"],
-            "wpa": round(avg_wpa, 4),
-            "sample_size": total
-        })
-
-    # Guardar JSON consolidado
-    with open(output_json, "w", encoding="utf-8") as f:
-        json.dump(consolidated, f, ensure_ascii=False, separators=(',', ':'))
-    print(f"JSON consolidado exportado con éxito a '{output_json}'.")
+    print(f"JSON granular exportado: {len(records)} registros guardados en '{output_granular_json}'.")
 
 if __name__ == "__main__":
     import glob
     import re
     import os
+    import shutil
     
-    # Crear estructura de carpetas
-    os.makedirs(os.path.join("data", "processed"), exist_ok=True)
-    os.makedirs(os.path.join("data", "consolidated"), exist_ok=True)
-    os.makedirs(os.path.join("data", "granular"), exist_ok=True)
-    os.makedirs(os.path.join("docs", "data", "granular"), exist_ok=True)
+    docs_granular_dir = os.path.join("docs", "data", "granular")
+    os.makedirs(docs_granular_dir, exist_ok=True)
     
+    print("Obteniendo última versión de DDragon...")
+    latest_version = get_latest_version()
+    print(f"Versión seleccionada: {latest_version}")
+    
+    print("Descargando traducciones de objetos, runas y hechizos una sola vez...")
+    item_map, rune_map, summoner_map = fetch_names_mapping(latest_version)
+
+    # Cargar historial de cambios de parches
+    item_history = {}
+    history_file = os.path.join("data", "processed", "item_patch_history.json")
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                item_history = json.load(f)
+        except Exception as e:
+            print(f"Advertencia al leer {history_file}: {e}")
+
     # Escanear archivos de estadísticas de campeones en data/raw/
     processed_keys = []
-    for filepath in glob.glob(os.path.join("data", "raw", "coachless_champ_*_full_stats.json")):
+    for filepath in sorted(glob.glob(os.path.join("data", "raw", "coachless_champ_*_full_stats.json"))):
         match_role = re.search(r"coachless_champ_(\d+)_role_(\d+)_full_stats.json", filepath)
         match_base = re.search(r"coachless_champ_(\d+)_full_stats.json", filepath)
         
@@ -275,18 +232,15 @@ if __name__ == "__main__":
         else:
             continue
             
-        output_csv = os.path.join("data", "processed", f"coachless_processed_wpa_{key_name}.csv")
-        output_json = os.path.join("data", "consolidated", f"coachless_consolidated_wpa_{key_name}.json")
-        output_granular_json = os.path.join("data", "granular", f"coachless_granular_wpa_{key_name}.json")
+        output_granular_json = os.path.join(docs_granular_dir, f"coachless_granular_wpa_{key_name}.json")
         
         print(f"\n---> Procesando estadísticas: {key_name}")
-        process_coachless_json(filepath, output_csv, output_json, output_granular_json)
+        process_coachless_json(filepath, output_granular_json, item_map, rune_map, summoner_map, item_history)
         processed_keys.append(key_name)
             
     print(f"\n=== Todos los datos procesados ({len(processed_keys)} perfiles) y exportados a 'docs/data/granular/' para GitHub Pages ===")
     
     # Sincronizar archivo de configuración central con docs/data/config.json
     if os.path.exists("config.json"):
-        import shutil
         shutil.copyfile("config.json", os.path.join("docs", "data", "config.json"))
         print(f"---> Configuración sincronizada en 'docs/data/config.json'.")

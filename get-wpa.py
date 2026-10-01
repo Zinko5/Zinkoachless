@@ -18,14 +18,23 @@ HEADERS = {
 session = requests.Session()
 session.headers.update(HEADERS)
 
+COACHLESS_ROLE_MAP = {
+    0: 5,  # Top en Coachless es 5
+    1: 1,  # Jungla
+    2: 2,  # Mid
+    3: 3,  # Bot
+    4: 4   # Support
+}
+
 def build_common_filters(major, patch, champion_id=236, role=3):
+    api_role = COACHLESS_ROLE_MAP.get(role, role)
     return {
         "patch": {"major": major, "patch": patch, "patchAdditions": 0},
         "championIds": [champion_id],
         "matchupChampionIds": None,
         "leagueTiers": [5, 6, 7],
         "regions": None,
-        "role": role
+        "role": api_role
     }
 
 def fetch_keystones(common_filters):

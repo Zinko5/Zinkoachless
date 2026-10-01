@@ -75,19 +75,17 @@ zinkoachless/
 ├── config.json                # Single Source of Truth for Season, Patches, Champions & Roles
 ├── pipeline.py                # Master Pipeline Runner
 ├── patch_history.py           # Multi-Entity Patch Change Tracker (DDragon)
-├── get-wpa.py                 # Fetcher & Cache Manager (Coachless API)
-├── process_wpa.py             # Data Aggregator & Compact JSON Exporter
+├── get-wpa.py                 # Fetcher & Local Raw Cache Manager (Coachless API)
+├── process_wpa.py             # Data Aggregator & Direct Compact JSON Exporter
 ├── memory-bank/               # Core Architectural & Knowledge Base
-├── data/
+├── data/                      # Local data directory (ignored by git)
 │   ├── raw/                   # Raw JSON data downloaded per patch & DDragon caches
-│   ├── processed/             # Flattened CSV exports & item_patch_history.json
-│   ├── consolidated/          # Aggregated annual WPA JSONs
-│   └── granular/              # Granular patch breakdown files per champion
+│   └── processed/             # item_patch_history.json (balance diffs)
 └── docs/                      # Frontend SPA (GitHub Pages Deployment)
     ├── index.html             # UI Structure & Filter Control Panel
     ├── styles.css             # Glassmorphic Design System & Compact Badges
     ├── app.js                 # Frontend Engine, Recency WPA, Lazy Loader & LoL Item Set Exporter
     └── data/
         ├── config.json        # Synced config for dynamic UI generation
-        └── granular/          # Individual compact granular JSONs per champion/role
+        └── granular/          # Compact granular JSONs per champion/role (<50KB each)
 ```
