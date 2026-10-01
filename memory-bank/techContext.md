@@ -45,11 +45,12 @@
 ```
 
 #### Coachless API Role Mapping:
+- **`role: 0`** $\to$ **Carril Superior (Top)**
 - **`role: 1`** $\to$ **Jungla (Jungle)**
 - **`role: 2`** $\to$ **Carril Central (Mid)**
 - **`role: 3`** $\to$ **Tirador / ADC (Bot)**
 - **`role: 4`** $\to$ **Soporte (Support)**
-- **`role: 5`** $\to$ **Carril Superior (Top)**
+- **`role: 5`** $\to$ **Global / Todos los roles combinados**
 
 ---
 

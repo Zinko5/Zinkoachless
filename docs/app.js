@@ -962,18 +962,39 @@ function initCustomChampionSelect() {
   const dropdown = document.getElementById("champion-select-dropdown");
   const searchInput = document.getElementById("champion-search-input");
   const optionsContainer = document.getElementById("champion-select-options");
+  const roleFiltersContainer = document.getElementById("champion-role-filters");
 
   if (!select || !trigger || !dropdown || !optionsContainer) return;
+
+  let currentChampionRoleFilter = "all";
+
+  const roleIconUrls = {
+    0: "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png",
+    1: "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png",
+    2: "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png",
+    3: "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png",
+    4: "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+  };
 
   function renderOptions(filterText = "") {
     optionsContainer.innerHTML = "";
     const options = Array.from(select.options);
     const query = filterText.toLowerCase().trim();
 
-    const filtered = options.filter(opt => opt.text.toLowerCase().includes(query));
+    const filtered = options.filter(opt => {
+      const matchesText = opt.text.toLowerCase().includes(query);
+      if (!matchesText) return false;
+
+      if (currentChampionRoleFilter !== "all") {
+        const targetRole = parseInt(currentChampionRoleFilter, 10);
+        const supportedRoles = championRolesMap[opt.value] || [0];
+        return supportedRoles.includes(targetRole);
+      }
+      return true;
+    });
 
     if (filtered.length === 0) {
-      optionsContainer.innerHTML = `<div style="padding: 0.75rem; text-align: center; color: var(--text-secondary); font-size: 0.85rem;">Sin resultados</div>`;
+      optionsContainer.innerHTML = `<div style="padding: 1rem; text-align: center; color: var(--text-secondary); font-size: 0.85rem;">Sin campeones para este filtro</div>`;
       return;
     }
 
@@ -983,15 +1004,44 @@ function initCustomChampionSelect() {
       
       const champName = championNames[opt.value] || opt.text;
       const avatarUrl = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
+      const supportedRoles = championRolesMap[opt.value] || [0];
+
+      let rolesHtml = "";
+      supportedRoles.forEach(r => {
+        const isMatch = currentChampionRoleFilter !== "all" && parseInt(currentChampionRoleFilter, 10) === r;
+        const iconSrc = roleIconUrls[r];
+        if (iconSrc) {
+          rolesHtml += `<img src="${iconSrc}" class="${isMatch ? 'match-filter' : ''}" alt="${roleLabelsShort[r] || r}" title="${roleNames[r] || r}">`;
+        }
+      });
 
       optionEl.innerHTML = `
-        <img src="${avatarUrl}" alt="${opt.text}" onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png';">
-        <span>${opt.text}</span>
+        <div class="custom-select-option-main">
+          <img src="${avatarUrl}" alt="${opt.text}" onerror="this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/champion/Lucian.png';">
+          <span>${opt.text}</span>
+        </div>
+        <div class="custom-select-option-roles">
+          ${rolesHtml}
+        </div>
       `;
 
       optionEl.addEventListener("click", () => {
         select.value = opt.value;
         selectedChamp = opt.value;
+
+        // Si el usuario filtró por un rol específico, asignar ese rol directamente
+        if (currentChampionRoleFilter !== "all") {
+          const targetRole = parseInt(currentChampionRoleFilter, 10);
+          if (supportedRoles.includes(targetRole)) {
+            selectedRole = targetRole;
+          }
+        } else {
+          // Si estaba en 'Todos', mantener el rol actual si el nuevo campeón lo soporta; si no, cambiar a su rol primario
+          if (!supportedRoles.includes(selectedRole)) {
+            selectedRole = supportedRoles[0];
+          }
+        }
+
         updateCustomChampionSelectLabel();
         closeDropdown();
         loadData();
@@ -1001,11 +1051,43 @@ function initCustomChampionSelect() {
     });
   }
 
+  // Event listeners para los botones de filtro por rol
+  if (roleFiltersContainer) {
+    const roleBtns = roleFiltersContainer.querySelectorAll(".select-role-btn");
+    roleBtns.forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const role = btn.dataset.filterRole;
+
+        // Alternar: si hace clic en el rol ya activo (que no sea 'all'), volver a 'all'
+        if (role === currentChampionRoleFilter && role !== "all") {
+          currentChampionRoleFilter = "all";
+        } else {
+          currentChampionRoleFilter = role;
+        }
+
+        roleBtns.forEach(b => {
+          b.classList.toggle("active", b.dataset.filterRole === currentChampionRoleFilter);
+        });
+
+        renderOptions(searchInput ? searchInput.value : "");
+        if (searchInput) searchInput.focus();
+      });
+    });
+  }
+
   function openDropdown() {
     dropdown.style.display = "block";
     if (searchInput) {
       searchInput.value = "";
       searchInput.focus();
+    }
+    // Al abrir el dropdown inicia siempre sin filtro ('all') por defecto
+    currentChampionRoleFilter = "all";
+    if (roleFiltersContainer) {
+      roleFiltersContainer.querySelectorAll(".select-role-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.filterRole === "all");
+      });
     }
     renderOptions("");
   }

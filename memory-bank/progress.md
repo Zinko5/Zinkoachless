@@ -6,6 +6,7 @@
   - Multi-patch range iteration (Patches 16.1 to 16.16).
   - Intelligent patch caching system.
   - Exception handling with exponential retries (`safe_fetch`).
+  - **Parámetros CLI y Salto Instantáneo (0s):** Flags `--skip-existing` (`-s`) y `--exclude-latest` (`-e`) para omitir instantáneamente campeones completados sin gastar cuota de API ni verificar actualizaciones redundantes.
 - [x] **Data Transformation (`process_wpa.py`):**
   - Multi-category normalization (8 sections: Keystones, Spells, Starters, Boots, 1st, 2nd, 3rd, 4th+ items).
   - Recency-weighted WPA calculation ($\lambda = 0.75$, half-life $\approx 2.4$ patches).
@@ -24,7 +25,7 @@
   - **Statistical Role Badges & Compact UX:** `⭐ Meta`, `🎯 Situacional / Hidden OP`, `📈 Emergente`, `⚡ Ajustado`.
   - **Dynamic Market Share Filter:** Mode 1 (`⭐ Populares & Solidez` - $0.5\%$ category sample cutoff) vs Mode 2 (`📚 Catálogo Completo` - 100% un-filtered).
   - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y **Modal Interactivo de Selección Múltiple** para personalizar qué campeones y roles incluir. Exportación accionable en 6 bloques: Básicos, Primer item, Segundo item, Tercer item, Items por WPA y Todos (catálogo completo positivo).
-  - Dynamic champion selector con buscador integrado (83 campeones y múltiples roles configurados).
+  - Dynamic champion selector con buscador integrado, **filtro rápido por rol/carril** (Todos, Top, Jungla, Mid, Bot, Support) e insignias de posiciones compatibles.
   - **Soporte Multilingüe Dinámico (i18n ES / EN):** Español de Latinoamérica (`es_MX`) por defecto en interfaz, objetos, runas y hechizos; alternador instantáneo `ES` / `EN` en la cabecera con persistencia y búsqueda universal bilingüe.
   - **Visualización Dinámica de Nombres:** Al pasar el cursor (hover en escritorio) o tocar el nombre del ítem (tap en móvil), se ocultan las insignias para mostrar el nombre completo sin cortes ni puntos suspensivos; tocar fuera restaura las insignias.
   - Dark mode aesthetic with glassmorphic cards and crisp layout.

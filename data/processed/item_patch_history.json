@@ -1536,7 +1536,7 @@
     "type": "item"
   },
   "3124": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.18",
     "type": "item"
   },
   "3128": {
@@ -1928,11 +1928,11 @@
     "type": "item"
   },
   "3865": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.19",
     "type": "item"
   },
   "3866": {
-    "last_changed_patch": "16.1",
+    "last_changed_patch": "16.19",
     "type": "item"
   },
   "3867": {
@@ -3284,7 +3284,7 @@
     "type": "item"
   },
   "773102": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.18",
     "type": "item"
   },
   "773105": {
@@ -3476,7 +3476,7 @@
     "type": "item"
   },
   "773211": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.18",
     "type": "item"
   },
   "773222": {
@@ -3496,7 +3496,7 @@
     "type": "item"
   },
   "773512": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.19",
     "type": "item"
   },
   "773513": {
@@ -3533,6 +3533,14 @@
   },
   "226668": {
     "last_changed_patch": "16.17",
+    "type": "item"
+  },
+  "773161": {
+    "last_changed_patch": "16.19",
+    "type": "item"
+  },
+  "773162": {
+    "last_changed_patch": "16.19",
     "type": "item"
   },
   "8112": {
@@ -3892,7 +3900,7 @@
     "type": "summoner"
   },
   "713": {
-    "last_changed_patch": "16.15",
+    "last_changed_patch": "16.18",
     "type": "summoner"
   },
   "709": {

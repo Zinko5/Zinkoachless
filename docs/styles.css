@@ -986,7 +986,7 @@ body {
   position: absolute;
   top: calc(100% + 0.35rem);
   left: 0;
-  min-width: 220px;
+  min-width: 275px;
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
@@ -1014,6 +1014,62 @@ body {
   width: 100%;
 }
 
+/* Barra de filtros por rol dentro del dropdown */
+.custom-select-role-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  padding: 0.35rem 0.6rem;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.select-role-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--text-secondary);
+  padding: 0.25rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.select-role-btn img {
+  width: 15px;
+  height: 15px;
+  filter: brightness(0.6) grayscale(0.4);
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.select-role-btn:hover {
+  background-color: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.select-role-btn:hover img {
+  filter: brightness(1) grayscale(0);
+  transform: scale(1.1);
+}
+
+.select-role-btn.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.45);
+  color: #3b82f6;
+}
+
+.select-role-btn.active img {
+  filter: brightness(1.2) drop-shadow(0 0 3px rgba(59, 130, 246, 0.7));
+  transform: scale(1.1);
+}
+
 .custom-select-options {
   max-height: 240px;
   overflow-y: auto;
@@ -1023,6 +1079,7 @@ body {
 .custom-select-option {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.65rem;
   padding: 0.45rem 0.75rem;
   font-size: 0.925rem;
@@ -1032,12 +1089,53 @@ body {
   transition: background-color 0.15s ease;
 }
 
-.custom-select-option img {
+.custom-select-option-main {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.custom-select-option-main img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.custom-select-option-main span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-select-option-roles {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  opacity: 0.45;
+  transition: opacity 0.15s ease;
+  flex-shrink: 0;
+}
+
+.custom-select-option:hover .custom-select-option-roles,
+.custom-select-option.selected .custom-select-option-roles {
+  opacity: 0.9;
+}
+
+.custom-select-option-roles img {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.custom-select-option-roles img.match-filter {
+  filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.8));
+  transform: scale(1.15);
 }
 
 .custom-select-option:hover,

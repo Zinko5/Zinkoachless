@@ -21,6 +21,11 @@
   - Exportación individual: copia el set del campeón y rol actual al portapapeles o permite descargarlo en archivo `.json`.
   - **Modal Interactivo de Selección Múltiple:** Permite filtrar y seleccionar qué campeones y roles incluir antes de exportar, con buscador en vivo, botones rápidos ("Todos", "Ninguno", "Solo Actual"), resumen dinámico de sets y opciones para copiar al portapapeles o descargar `Zinkoachless_Custom_Item_Sets.json`.
   - Orden canónico por campeón (A-Z) y por posición (Top -> Jungla -> Mid -> Bot/ADC -> Support).
+- **Filtro Rápido por Rol en Selector de Campeones (Champ Select UX):**
+  - Barra de filtro por posición (Todos, Top, Jungla, Mid, Bot, Support) integrada en el dropdown de selección de campeón justo debajo de la barra de búsqueda.
+  - Por defecto inicia siempre en "Todos" (catálogo completo sin filtro).
+  - Filtrado instantáneo por posición para encontrar rápidamente opciones offmeta en la fase de selección.
+  - Indicadores visuales de roles soportados a la derecha de cada campeón en la lista y pre-selección automática del rol filtrado al hacer clic.
 - **Sistema de Internacionalización Dinámica (i18n):**
   - Español Latinoamericano (`es_MX` - LAS/LAN) por defecto para interfaz, objetos, runas y hechizos.
   - Selector de idioma (`ES` / `EN`) en la cabecera superior con persistencia en `localStorage`.
@@ -40,11 +45,16 @@
   2. Run `source .venv/bin/activate && python3 pipeline.py`.
   3. The website and all components update automatically without touching HTML or JS.
 - **Rigor Multiparche en 9 Categorías Principales:** Todo el pipeline extrae y consolida datos históricos en los 17 parches completos con ponderación temporal $\lambda = 0.75$. Se deprecó `GetItemDetailed` al comprobar empíricamente que sus métricas situacionales sólo reordenaban los mismos ítems con WPA positivo general, reduciendo la carga de red en un 90% (de ~1,360 a 153 peticiones por campeón) y previniendo los límites de tasa (HTTP 429).
+- **Modos de Ejecución CLI y Salto Instantáneo (0s) en Pipeline:**
+  - `python3 pipeline.py`: Modo normal con actualización del último parche activo para todos los campeones.
+  - `python3 pipeline.py -s` o `--skip-existing` (`--no-update`): Omite en 0 segundos cualquier campeón que ya tenga todos los parches descargados localmente, sin hacer peticiones redundantes ni gastar cuota de API.
+  - `python3 pipeline.py -e` o `--exclude-latest`: Omitir el último parche de `config.json` (descargando solo hasta el penúltimo) y saltar en 0 segundos todos los campeones ya guardados.
+  - Verificación atómica previa: antes de entrar a consultar categorías en Coachless, el script determina qué parches faltan y, si no falta ninguno, avanza de inmediato sin esperar ni consumir cuota horaria.
 - **Exportador LoL Compacto en 6 Bloques:** Estructura limpia y accionable: Básicos, Primer item, Segundo item, Tercer item, Items por WPA (filtrados por cuota de mercado) y **Todos** (catálogo completo no filtrado con $WPA > 0$ y muestra $\ge 50$).
 - **Optimización y Limpieza de Datos:** Eliminación de campos obsoletos `details` en `docs/data/granular/` (ahorro de ~18 MB en Git) y de `item_details` en `data/raw/` (ahorro de ~8 MB en disco local).
 
 ---
 
 ## Next Steps
-- Ejecutar `pipeline.py` para completar la descarga limpia y procesamiento de los nuevos campeones agregados en `config.json`.
+- Ejecutar `pipeline.py -s` para completar rápidamente la descarga de los campeones restantes sin gastar cuota en los ya existentes.
 - Create automated CI/Cron runner to execute `pipeline.py` whenever Riot releases a new patch.

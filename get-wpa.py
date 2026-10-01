@@ -23,8 +23,10 @@ HEADERS = {
 session = requests.Session()
 session.headers.update(HEADERS)
 
+# Mapeo exacto de roles en la API de Coachless:
+# 0: Top, 1: Jungla, 2: Mid, 3: Bot, 4: Support (5 es la suma global de todos los roles)
 COACHLESS_ROLE_MAP = {
-    0: 5,  # Top en Coachless es 5
+    0: 0,  # Top
     1: 1,  # Jungla
     2: 2,  # Mid
     3: 3,  # Bot
@@ -154,18 +156,41 @@ if os.path.exists(CONFIG_FILE):
 if not CHAMPIONS:
     CHAMPIONS = [{"id": 236, "role": 3, "name": "Lucian"}]
 
-latest_patch_num = max(PATCHES) if PATCHES else None
+import argparse
+
+parser = argparse.ArgumentParser(description="Extracción y caché de estadísticas de Coachless.")
+parser.add_argument("--exclude-latest", "-e", action="store_true",
+                    help="Descarga solo hasta el penúltimo parche listado en config.json y omite campeones ya registrados (0s).")
+parser.add_argument("--skip-existing", "-s", "--no-update", action="store_true",
+                    help="Omite la comprobación de actualizaciones si el campeón ya tiene datos locales.")
+args, unknown = parser.parse_known_args()
+
+if args.exclude_latest:
+    if len(PATCHES) > 1:
+        TARGET_PATCHES = PATCHES[:-1]
+    else:
+        TARGET_PATCHES = PATCHES
+    update_latest = False
+    print(f"\n[MODO: --exclude-latest] Omitiendo último parche ({max(PATCHES)}). Parches objetivo: {min(TARGET_PATCHES)} a {max(TARGET_PATCHES)}.")
+    print("                       No se comprobarán actualizaciones en perfiles ya registrados.")
+elif args.skip_existing:
+    TARGET_PATCHES = PATCHES
+    update_latest = False
+    print(f"\n[MODO: --skip-existing] No se comprobarán actualizaciones en campeones que ya tengan datos locales.")
+else:
+    TARGET_PATCHES = PATCHES
+    update_latest = True
+
+latest_patch_num = max(TARGET_PATCHES) if TARGET_PATCHES else None
 total_champs = len(CHAMPIONS)
 
 print(f"\n=== Iniciando Extracción Ponderada ({total_champs} perfiles de campeones) ===")
-print(f"Temporada: {MAJOR} | Parches: {min(PATCHES)} a {max(PATCHES)} | Ritmo: Pacing Preventivo (~4 req/s)\n")
+print(f"Temporada: {MAJOR} | Parches: {min(TARGET_PATCHES)} a {max(TARGET_PATCHES)} | Ritmo: Pacing Preventivo (~4 req/s)\n")
 
 for idx, champ in enumerate(CHAMPIONS, 1):
     champ_id = champ["id"]
     champ_role = champ["role"]
     champ_name = champ.get("name", str(champ_id))
-    
-    print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role})")
     
     os.makedirs(os.path.join("data", "raw"), exist_ok=True)
     filename = os.path.join("data", "raw", f"coachless_champ_{champ_id}_role_{champ_role}_full_stats.json")
@@ -178,16 +203,28 @@ for idx, champ in enumerate(CHAMPIONS, 1):
         except Exception:
             resultado_final = {}
 
-    for patch in PATCHES:
+    # Determinar qué parches faltan por descargar
+    patches_to_fetch = []
+    for patch in TARGET_PATCHES:
+        patch_key = f"{MAJOR}.{patch}"
+        p_val = resultado_final.get(patch_key)
+        has_data = p_val and p_val.get("items_no_slot")
+        
+        if patch == latest_patch_num and update_latest:
+            patches_to_fetch.append(patch)
+        elif not has_data:
+            patches_to_fetch.append(patch)
+
+    if not patches_to_fetch:
+        print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role}) -> Ya completado (omitido en 0s)")
+        continue
+
+    print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role}) -> Faltan {len(patches_to_fetch)} parches")
+
+    for patch in patches_to_fetch:
         patch_key = f"{MAJOR}.{patch}"
         
-        # Omitir parche si ya existe con datos válidos y no es el último parche activo
-        if patch_key in resultado_final and patch != latest_patch_num:
-            p_val = resultado_final[patch_key]
-            if p_val and p_val.get("items_no_slot"):
-                continue
-
-        if patch == latest_patch_num:
+        if patch == latest_patch_num and update_latest:
             print(f"  -> Actualizando Parche Actual {patch_key}...")
         else:
             print(f"  -> Extrayendo Parche {patch_key}...")
@@ -215,9 +252,8 @@ for idx, champ in enumerate(CHAMPIONS, 1):
                 patch_data[cat] = future.result()
 
         # Validar que obtuvimos datos antes de guardar
-        has_valid = any(v is not None for k, v in patch_data.items() if k != "item_details")
+        has_valid = any(v is not None for v in patch_data.values())
         if has_valid:
-            patch_data["item_details"] = {}
             resultado_final[patch_key] = patch_data
             
             # Checkpoint atómico: guardar progreso inmediatamente en disco
@@ -227,6 +263,6 @@ for idx, champ in enumerate(CHAMPIONS, 1):
     # Resumen final por campeón
     total_valid_patches = sum(1 for p in resultado_final.values() if p and p.get("items_no_slot"))
     if total_valid_patches > 0:
-        print(f"  [✓] {champ_name} completado ({total_valid_patches}/{len(PATCHES)} parches guardados en disco).\n")
+        print(f"  [✓] {champ_name} completado ({total_valid_patches}/{len(TARGET_PATCHES)} parches guardados en disco).\n")
     else:
         print(f"  [!] Sin datos nuevos para {champ_name}.\n")
