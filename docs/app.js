@@ -5,9 +5,9 @@ const spellImages = {
   4: "SummonerFlash.png",
   6: "SummonerHaste.png",
   7: "SummonerHeal.png",
-  11: "SummonerSmite.png",
-  12: "SummonerTeleport.png",
-  14: "SummonerDot.png",
+  8: "SummonerSmite.png",
+  9: "SummonerTeleport.png",
+  10: "SummonerDot.png",
   21: "SummonerBarrier.png"
 };
 
@@ -21,6 +21,316 @@ const runeImages = {
   8112: "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Domination/Electrocute/Electrocute.png"
 };
 
+// Idioma actual (por defecto español latinoamericano)
+let currentLang = localStorage.getItem("zinkoachless_lang") || "es";
+
+// Catálogos multilingües de DDragon (en memoria para cambio instantáneo)
+const ddragonCatalogs = {
+  es: { items: {}, runes: {}, spells: {} },
+  en: { items: {}, runes: {}, spells: {} }
+};
+
+const legacyNames = {
+  es: { 3097: "Navaja de la Tormenta" },
+  en: { 3097: "Stormrazor" }
+};
+
+// Diccionario de internacionalización (i18n)
+const i18n = {
+  es: {
+    title: "Zinkoachless",
+    searchChampion: "Buscar campeón...",
+    roleNames: {
+      0: "Superior (Top)",
+      1: "Jungla",
+      2: "Carril Central (Mid)",
+      3: "Tirador / ADC (Bot)",
+      4: "Soporte (Support)"
+    },
+    roleShort: { 0: "Top", 1: "Jungla", 2: "Mid", 3: "Bot", 4: "Support" },
+    btnGlobal: "Populares & Solidez",
+    btnGlobalTitle: "Vista Filtrada: Muestra solo opciones relevantes con suficiente muestra (evita ruido y picks hiper-raros)",
+    btnAllItems: "Catálogo Completo",
+    btnAllItemsTitle: "Vista Completa: Muestra el catálogo 100% entero de opciones, incluyendo picks de nicho u OTP",
+    btnFilters: "Filtros",
+    btnExportSet: "Exportar Set",
+    btnExportSetTitle: "Copiar set actual al portapapeles",
+    exportDropdownTitle: "Exportación de Sets",
+    exportBulkTitle: "Personalizar y exportar varios...",
+    exportBulkSub: "Elige los campeones y roles deseados",
+    exportCurrentTitle: "Campeón Actual",
+    exportCurrentCopy: "Copiar set actual",
+    exportCurrentCopySub: "Portapapeles (campeón y rol actual)",
+    exportCurrentDownload: "Descargar set actual (.json)",
+    exportCurrentDownloadSub: "Archivo listo para importar",
+    tabBuilds: "Vista por Slots (Builds)",
+    tabItems: "Catálogo General (Items)",
+    searchPlaceholder: "Buscar runas, hechizos, objetos...",
+    patchFrom: "Desde:",
+    patchTo: "Hasta:",
+    wpaFiltersTitle: "Filtrar por WPA (Soporta selección múltiple):",
+    wpaPosGen: "WPA General Positivo (+)",
+    wpaNegGen: "WPA General Negativo (-)",
+    wpaPostAdj: "⚡ Filtrar Post-Ajuste (Solo parches tras último cambio)",
+    wpaTrendingUp: "📈 Alternativas Emergentes (Trending Up)",
+    wpaMagic: "Positivo: Daño Mágico",
+    wpaPhysical: "Positivo: Daño Físico",
+    wpaTanky: "Positivo: Tanques",
+    wpaSquishy: "Positivo: Blandos (Squishy)",
+    wpaHighCC: "Positivo: Alto CC",
+    wpaGoldAhead: "Positivo: Ventaja Oro",
+    wpaGoldBehind: "Positivo: Desventaja Oro",
+    sortBy: "Ordenar por:",
+    sortSmartRank: "⭐ Recomendado (Smart Rank)",
+    sortWpa: "WPA General",
+    sortSample: "Popularidad (Compras)",
+    sortMagic: "Daño Mágico Enemigo",
+    sortPhysical: "Daño Físico Enemigo",
+    sortTanky: "Tanques Enemigos",
+    sortSquishy: "Campeones Blandos (Squishy)",
+    sortHighCC: "Alto CC Enemigo",
+    sortGoldAhead: "Ventaja de Oro",
+    sortGoldBehind: "Desventaja de Oro",
+    sortOrder: "Orden:",
+    sortDesc: "Descendente",
+    sortAsc: "Ascendente",
+    overviewTitle: "Agregación Multiparche WPA",
+    badgeMetaText: "Meta",
+    badgeMetaTitle: "⭐ Meta: Elección estándar de alto volumen y rendimiento sólido",
+    badgeSituationalText: "Situacional / Hidden OP",
+    badgeSituationalTitle: "🎯 Situacional / Hidden OP: Alta efectividad en situaciones específicas o gema oculta (Counter-pick / Secret Meta)",
+    badgeTrendingText: "Emergente",
+    badgeTrendingTitle: "📈 Alternativa Emergente: En alza",
+    badgeAdjustedText: "Ajustado",
+    badgeAdjustedTitle: "⚡ Ajustado: Último cambio en parche",
+    patchTagPrefix: "Parches:",
+    patchTagComplete: "(Completo)",
+    loading: "Cargando...",
+    noData: "Sin datos",
+    noResults: "Sin resultados",
+    // Categories
+    catKeystone: "Keystone",
+    catStarter: "Starter",
+    cat1stItem: "1st Item",
+    cat2ndItem: "2nd Item",
+    catSpell: "Spell",
+    catBoots: "Boots",
+    cat3rdItem: "3rd Item",
+    cat4thItem: "4th+ Item",
+    catAllItems: "Todos los Objetos (Sin orden de compra)",
+    sortTriggerWpa: "▼ WPA",
+    sortTriggerPicks: "Picks",
+    sortTriggerBuys: "Compras",
+    // Modal
+    modalTitle: "Exportar Sets de Objetos",
+    modalSub: "Selecciona los campeones que deseas incluir en el paquete de importación de LoL.",
+    modalSearchPlaceholder: "Buscar campeón...",
+    modalBtnAll: "Todos",
+    modalBtnNone: "Ninguno",
+    modalBtnCurrent: "Solo Actual",
+    modalSelectionSummary: (selected, sets) => `${selected} campeón(es) seleccionado(s) — ${sets} set(s) en total`,
+    modalCancel: "Cancelar",
+    modalCopy: "Copiar al Portapapeles",
+    modalDownload: "Descargar .json",
+    modalProcessing: "Procesando...",
+    modalGenerating: (completed, total) => `Generando (${completed}/${total})...`,
+    // Detail panels
+    dmgTitle: "Por Daño Enemigo",
+    rangeTitle: "Por Rango Enemigo",
+    tankinessTitle: "Por Aguante Enemigo",
+    ccTitle: "Por Control de Masas (CC)",
+    goldTitle: "Por Diferencia de Oro",
+    metricPhysical: "Físico",
+    metricMagic: "Mágico",
+    metricBalanced: "Balanceado",
+    metricHighRange: "Alto Rango",
+    metricLowRange: "Bajo Rango",
+    metricTanky: "Tanques",
+    metricSquishy: "Blandos (Squishy)",
+    metricHighCC: "Alto CC",
+    metricLowCC: "Bajo CC",
+    metricNormalCC: "Normal CC",
+    metricGoldAhead: "Con Ventaja",
+    metricGoldBehind: "Con Desventaja",
+    metricGoldBalanced: "Partida Pareja",
+    advancedPerfTitle: "Rendimiento Avanzado (WPA Added)",
+    // Set export blocks
+    blockBasics: "Básicos",
+    block1st: "Primer item",
+    block2nd: "Segundo item",
+    block3rd: "Tercer item",
+    blockItemsWpa: "Items por WPA",
+    blockVsMagic: "Vs. Daño Mágico",
+    blockVsPhysical: "Vs. Daño Físico",
+    blockVsTanky: "Vs. Tanques",
+    blockVsSquishy: "Vs. Blandos (Squishy)",
+    blockVsHighCC: "Vs. Alto CC",
+    blockGoldAhead: "Con Ventaja (Ahead)",
+    blockGoldBehind: "Con Desventaja (Behind)",
+    blockAllWpa: "Todos por WPA"
+  },
+  en: {
+    title: "Zinkoachless",
+    searchChampion: "Search champion...",
+    roleNames: {
+      0: "Top",
+      1: "Jungle",
+      2: "Middle",
+      3: "Bottom (ADC)",
+      4: "Support"
+    },
+    roleShort: { 0: "Top", 1: "Jungle", 2: "Mid", 3: "Bot", 4: "Support" },
+    btnGlobal: "Popular & Solid",
+    btnGlobalTitle: "Filtered View: Shows relevant choices with sufficient sample size (avoids niche noise)",
+    btnAllItems: "Full Catalog",
+    btnAllItemsTitle: "Full View: Shows 100% complete catalog including niche and OTP picks",
+    btnFilters: "Filters",
+    btnExportSet: "Export Set",
+    btnExportSetTitle: "Copy current set to clipboard",
+    exportDropdownTitle: "Item Set Export",
+    exportBulkTitle: "Customize & bulk export...",
+    exportBulkSub: "Choose desired champions and roles",
+    exportCurrentTitle: "Current Champion",
+    exportCurrentCopy: "Copy current set",
+    exportCurrentCopySub: "Clipboard (current champion & role)",
+    exportCurrentDownload: "Download current set (.json)",
+    exportCurrentDownloadSub: "Ready-to-import file",
+    tabBuilds: "Slot View (Builds)",
+    tabItems: "General Catalog (Items)",
+    searchPlaceholder: "Search runes, spells, items...",
+    patchFrom: "From:",
+    patchTo: "To:",
+    wpaFiltersTitle: "Filter by WPA (Supports multi-select):",
+    wpaPosGen: "Positive General WPA (+)",
+    wpaNegGen: "Negative General WPA (-)",
+    wpaPostAdj: "⚡ Filter Post-Adjustment (Only patches after last change)",
+    wpaTrendingUp: "📈 Rising Alternatives (Trending Up)",
+    wpaMagic: "Positive: Magic Damage",
+    wpaPhysical: "Positive: Physical Damage",
+    wpaTanky: "Positive: Tanks",
+    wpaSquishy: "Positive: Squishy",
+    wpaHighCC: "Positive: High CC",
+    wpaGoldAhead: "Positive: Gold Lead",
+    wpaGoldBehind: "Positive: Gold Deficit",
+    sortBy: "Sort By:",
+    sortSmartRank: "⭐ Recommended (Smart Rank)",
+    sortWpa: "General WPA",
+    sortSample: "Popularity (Buys)",
+    sortMagic: "Enemy Magic Damage",
+    sortPhysical: "Enemy Physical Damage",
+    sortTanky: "Enemy Tanks",
+    sortSquishy: "Squishy Champions",
+    sortHighCC: "Enemy High CC",
+    sortGoldAhead: "Gold Lead",
+    sortGoldBehind: "Gold Deficit",
+    sortOrder: "Order:",
+    sortDesc: "Descending",
+    sortAsc: "Ascending",
+    overviewTitle: "Multi-Patch WPA Aggregation",
+    badgeMetaText: "Meta",
+    badgeMetaTitle: "⭐ Meta: Standard high-volume, solid performance choice",
+    badgeSituationalText: "Situational / Hidden OP",
+    badgeSituationalTitle: "🎯 Situational / Hidden OP: High-efficiency niche pick or secret OP choice",
+    badgeTrendingText: "Rising",
+    badgeTrendingTitle: "📈 Rising Alternative: Trending up",
+    badgeAdjustedText: "Adjusted",
+    badgeAdjustedTitle: "⚡ Adjusted: Last change in patch",
+    patchTagPrefix: "Patches:",
+    patchTagComplete: "(Full)",
+    loading: "Loading...",
+    noData: "No data",
+    noResults: "No results",
+    // Categories
+    catKeystone: "Keystone",
+    catStarter: "Starter",
+    cat1stItem: "1st Item",
+    cat2ndItem: "2nd Item",
+    catSpell: "Spell",
+    catBoots: "Boots",
+    cat3rdItem: "3rd Item",
+    cat4thItem: "4th+ Item",
+    catAllItems: "All Items (Unordered)",
+    sortTriggerWpa: "▼ WPA",
+    sortTriggerPicks: "Picks",
+    sortTriggerBuys: "Buys",
+    // Modal
+    modalTitle: "Export Item Sets",
+    modalSub: "Select the champions you want to include in the LoL client import package.",
+    modalSearchPlaceholder: "Search champion...",
+    modalBtnAll: "All",
+    modalBtnNone: "None",
+    modalBtnCurrent: "Current Only",
+    modalSelectionSummary: (selected, sets) => `${selected} champion(s) selected — ${sets} total set(s)`,
+    modalCancel: "Cancel",
+    modalCopy: "Copy to Clipboard",
+    modalDownload: "Download .json",
+    modalProcessing: "Processing...",
+    modalGenerating: (completed, total) => `Generating (${completed}/${total})...`,
+    // Detail panels
+    dmgTitle: "Enemy Damage Profile",
+    rangeTitle: "Opponent Range",
+    tankinessTitle: "Enemy Tankiness",
+    ccTitle: "Crowd Control (CC)",
+    goldTitle: "Game State (Gold)",
+    metricPhysical: "Physical",
+    metricMagic: "Magic",
+    metricBalanced: "Balanced",
+    metricHighRange: "High Range",
+    metricLowRange: "Low Range",
+    metricTanky: "Tanks",
+    metricSquishy: "Squishy",
+    metricHighCC: "High CC",
+    metricLowCC: "Low CC",
+    metricNormalCC: "Normal CC",
+    metricGoldAhead: "Gold Lead",
+    metricGoldBehind: "Gold Deficit",
+    metricGoldBalanced: "Even Game",
+    advancedPerfTitle: "Advanced Performance (WPA Added)",
+    // Set export blocks
+    blockBasics: "Starter & Core",
+    block1st: "1st Item",
+    block2nd: "2nd Item",
+    block3rd: "3rd Item",
+    blockItemsWpa: "Items by WPA",
+    blockVsMagic: "Vs. Magic Damage",
+    blockVsPhysical: "Vs. Physical Damage",
+    blockVsTanky: "Vs. Tanks",
+    blockVsSquishy: "Vs. Squishy",
+    blockVsHighCC: "Vs. High CC",
+    blockGoldAhead: "When Ahead",
+    blockGoldBehind: "When Behind",
+    blockAllWpa: "All Positive WPA Items"
+  }
+};
+
+function t(key, ...args) {
+  const dict = i18n[currentLang] || i18n.es;
+  const val = dict[key];
+  if (typeof val === "function") {
+    return val(...args);
+  }
+  return val !== undefined ? val : (i18n.es[key] || key);
+}
+
+function getItemLocalizedName(item) {
+  if (!item) return "";
+  const lang = currentLang || "es";
+  const id = Number(item.id);
+  const cat = item.category;
+
+  if (legacyNames[lang] && legacyNames[lang][id]) {
+    return legacyNames[lang][id];
+  }
+
+  if (cat === "Keystone") {
+    if (ddragonCatalogs[lang]?.runes[id]) return ddragonCatalogs[lang].runes[id];
+  } else if (cat === "Spell") {
+    if (ddragonCatalogs[lang]?.spells[id]) return ddragonCatalogs[lang].spells[id];
+  } else {
+    if (ddragonCatalogs[lang]?.items[id]) return ddragonCatalogs[lang].items[id];
+  }
+  return item.name || `ID_${item.id}`;
+}
 
 const roleLabelsShort = {
   0: "Top",
@@ -116,7 +426,7 @@ function renderCategory(containerId, items) {
   container.innerHTML = "";
 
   if (!items || items.length === 0) {
-    container.innerHTML = `<div style="padding: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem;">Sin datos</div>`;
+    container.innerHTML = `<div style="padding: 2rem; text-align: center; color: var(--text-secondary); font-size: 0.875rem;">${t('noData')}</div>`;
     return;
   }
 
@@ -144,6 +454,7 @@ function renderCategory(containerId, items) {
     const sign = item.wpa >= 0 ? "+" : "";
     const wpaClass = item.wpa >= 0 ? "wpa-positive" : "wpa-negative";
     const iconUrl = getImageUrl(item);
+    const displayName = getItemLocalizedName(item);
     
     const row = document.createElement("div");
     row.className = "item-row";
@@ -154,24 +465,26 @@ function renderCategory(containerId, items) {
     // Generar insignias compactas según el rol estadístico del elemento
     let roleBadgeHtml = "";
     if (item.is_meta) {
-      roleBadgeHtml = `<span class="meta-badge" title="⭐ Meta: Elección estándar de alto volumen y rendimiento sólido">⭐</span>`;
+      roleBadgeHtml = `<span class="meta-badge" title="${t('badgeMetaTitle')}">⭐</span>`;
     } else if (item.is_situational) {
-      roleBadgeHtml = `<span class="situational-badge" title="🎯 Situacional / Hidden OP: Alta efectividad en situaciones específicas o gema oculta (Counter-pick / Secret Meta)">🎯</span>`;
+      roleBadgeHtml = `<span class="situational-badge" title="${t('badgeSituationalTitle')}">🎯</span>`;
     }
 
-    const patchBadgeHtml = item.last_changed_patch ? `<span class="patch-badge" title="⚡ Ajustado: Último cambio en parche ${item.last_changed_patch}">${item.last_changed_patch}⚡</span>` : "";
-    const trendingBadgeHtml = item.is_trending_up ? `<span class="trending-badge" title="📈 Alternativa Emergente: En alza (+${item.delta_wpa.toFixed(2)}% WPA en el último parche)">📈</span>` : "";
+    const patchBadgeHtml = item.last_changed_patch ? `<span class="patch-badge" title="${t('badgeAdjustedTitle')} ${item.last_changed_patch}">${item.last_changed_patch}⚡</span>` : "";
+    const trendingBadgeHtml = item.is_trending_up ? `<span class="trending-badge" title="${t('badgeTrendingTitle')} (+${item.delta_wpa.toFixed(2)}% WPA)">📈</span>` : "";
     
     row.innerHTML = `
       <div class="item-icon">
-        <img src="${iconUrl}" alt="${item.name}" onerror="this.onerror=function(){this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/1001.png';}; this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${item.id}.png';">
+        <img src="${iconUrl}" alt="${displayName}" onerror="this.onerror=function(){this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/1001.png';}; this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${item.id}.png';">
       </div>
       <div class="item-details" style="display: flex; flex-direction: column; min-width: 0;">
-        <div style="display: flex; align-items: center; gap: 0.35rem; width: 100%; overflow: hidden;">
-          <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 0.875rem; font-weight: 500; color: var(--text-primary); flex: 1; min-width: 0;">${item.name}</span>
-          ${roleBadgeHtml}
-          ${patchBadgeHtml}
-          ${trendingBadgeHtml}
+        <div class="item-title-row">
+          <span class="item-name-text" title="${displayName}">${displayName}</span>
+          <div class="item-badges-wrapper">
+            ${roleBadgeHtml}
+            ${patchBadgeHtml}
+            ${trendingBadgeHtml}
+          </div>
         </div>
         <div class="item-subtext">ID: ${item.id}</div>
       </div>
@@ -185,9 +498,22 @@ function renderCategory(containerId, items) {
       </div>` : ""}
     `;
 
+    // Manejar toque en móvil para alternar nombre completo vs insignias
+    const nameEl = row.querySelector(".item-name-text");
+    if (nameEl) {
+      nameEl.addEventListener("click", (e) => {
+        const isCurrentActive = row.classList.contains("show-full-name");
+        document.querySelectorAll(".item-row.show-full-name").forEach(r => r.classList.remove("show-full-name"));
+        if (!isCurrentActive) {
+          row.classList.add("show-full-name");
+          e.stopPropagation();
+        }
+      });
+    }
+
     if (item.category === "All Items") {
       row.addEventListener("click", (e) => {
-        if (e.target.closest(".item-details-expanded")) return;
+        if (e.target.closest(".item-details-expanded") || e.target.closest(".item-name-text")) return;
         toggleItemDetails(row, item);
       });
     }
@@ -211,12 +537,12 @@ function applyFilters() {
   const patchTag = document.getElementById("active-patch-tag");
   if (patchTag) {
     let suffix = "";
-    if (postAdjChecked) suffix += " [⚡ Post-Ajuste]";
-    if (trendingUpChecked) suffix += " [📈 Emergentes]";
+    if (postAdjChecked) suffix += ` [⚡ ${t('badgeAdjustedText')}]`;
+    if (trendingUpChecked) suffix += ` [📈 ${t('badgeTrendingText')}]`;
     if (availablePatches.length > 0 && startPatch === availablePatches[0] && endPatch === availablePatches[availablePatches.length - 1]) {
-      patchTag.innerText = `Parches: ${startPatch} - ${endPatch} (Completo)${suffix}`;
+      patchTag.innerText = `${t('patchTagPrefix')} ${startPatch} - ${endPatch} ${t('patchTagComplete')}${suffix}`;
     } else {
-      patchTag.innerText = `Parches: ${startPatch} - ${endPatch}${suffix}`;
+      patchTag.innerText = `${t('patchTagPrefix')} ${startPatch} - ${endPatch}${suffix}`;
     }
   }
 
@@ -339,9 +665,14 @@ function applyFilters() {
 
   // 3. Aplicar filtros de búsqueda y WPA sobre los agregados
   let filtered = aggregatedList.filter(item => {
-    // Filtro de búsqueda
-    if (searchQuery && !item.name.toLowerCase().includes(searchQuery) && !String(item.id).includes(searchQuery)) {
-      return false;
+    // Filtro de búsqueda (soporta nombres en idioma activo, nombre original en inglés o ID)
+    if (searchQuery) {
+      const locName = getItemLocalizedName(item).toLowerCase();
+      const origName = (item.name || "").toLowerCase();
+      const idStr = String(item.id);
+      if (!locName.includes(searchQuery) && !origName.includes(searchQuery) && !idStr.includes(searchQuery)) {
+        return false;
+      }
     }
 
     // Filtro de Alternativas Emergentes
@@ -493,14 +824,15 @@ function updateRoleSelector() {
 
   const roleLabel = document.getElementById("champion-role");
   if (roleLabel) {
-    roleLabel.innerText = roleNames[selectedRole] || "Rol no disponible";
+    const names = (i18n[currentLang] || i18n.es).roleNames || {};
+    roleLabel.innerText = names[selectedRole] || "Rol no disponible";
   }
 }
 
 const championDataCache = {};
 let ddragonLoaded = false;
 
-// Inicializar catálogos de DDragon una sola vez
+// Inicializar catálogos de DDragon una sola vez (descarga es_MX y en_US en paralelo)
 async function initDDragon() {
   if (ddragonLoaded) return;
   try {
@@ -509,34 +841,78 @@ async function initDDragon() {
       const versions = await vRes.json();
       latestVersion = versions[0];
       
-      const [rRes, sRes, cRes] = await Promise.all([
+      const [
+        itemsEsRes, itemsEnRes,
+        runesEsRes, runesEnRes,
+        spellsEsRes, spellsEnRes,
+        cRes
+      ] = await Promise.all([
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/es_MX/item.json`).catch(() => null),
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/item.json`).catch(() => null),
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/es_MX/runesReforged.json`).catch(() => null),
         fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/runesReforged.json`).catch(() => null),
+        fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/es_MX/summoner.json`).catch(() => null),
         fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/summoner.json`).catch(() => null),
         fetch(`https://ddragon.leagueoflegends.com/cdn/${latestVersion}/data/en_US/champion.json`).catch(() => null)
       ]);
 
-      if (rRes && rRes.ok) {
-        const runesPaths = await rRes.json();
+      if (itemsEsRes && itemsEsRes.ok) {
+        const itemData = await itemsEsRes.json();
+        for (const [key, val] of Object.entries(itemData.data || {})) {
+          ddragonCatalogs.es.items[Number(key)] = val.name;
+        }
+      }
+      if (itemsEnRes && itemsEnRes.ok) {
+        const itemData = await itemsEnRes.json();
+        for (const [key, val] of Object.entries(itemData.data || {})) {
+          ddragonCatalogs.en.items[Number(key)] = val.name;
+        }
+      }
+
+      if (runesEsRes && runesEsRes.ok) {
+        const runesPaths = await runesEsRes.json();
         runesPaths.forEach(path => {
-          runeImages[path.id] = `https://ddragon.leagueoflegends.com/cdn/img/${path.icon}`;
+          ddragonCatalogs.es.runes[path.id] = path.name;
           path.slots.forEach(slot => {
             slot.runes.forEach(rune => {
-              runeImages[rune.id] = `https://ddragon.leagueoflegends.com/cdn/img/${rune.icon}`;
+              ddragonCatalogs.es.runes[rune.id] = rune.name;
             });
           });
         });
       }
 
-      if (sRes && sRes.ok) {
-        const spellData = await sRes.json();
-        for (const [key, val] of Object.entries(spellData.data)) {
+      if (runesEnRes && runesEnRes.ok) {
+        const runesPaths = await runesEnRes.json();
+        runesPaths.forEach(path => {
+          runeImages[path.id] = `https://ddragon.leagueoflegends.com/cdn/img/${path.icon}`;
+          ddragonCatalogs.en.runes[path.id] = path.name;
+          path.slots.forEach(slot => {
+            slot.runes.forEach(rune => {
+              runeImages[rune.id] = `https://ddragon.leagueoflegends.com/cdn/img/${rune.icon}`;
+              ddragonCatalogs.en.runes[rune.id] = rune.name;
+            });
+          });
+        });
+      }
+
+      if (spellsEsRes && spellsEsRes.ok) {
+        const spellData = await spellsEsRes.json();
+        for (const [key, val] of Object.entries(spellData.data || {})) {
+          ddragonCatalogs.es.spells[Number(val.key)] = val.name;
+        }
+      }
+
+      if (spellsEnRes && spellsEnRes.ok) {
+        const spellData = await spellsEnRes.json();
+        for (const [key, val] of Object.entries(spellData.data || {})) {
           spellImages[Number(val.key)] = val.image.full;
+          ddragonCatalogs.en.spells[Number(val.key)] = val.name;
         }
       }
 
       if (cRes && cRes.ok) {
         const champData = await cRes.json();
-        for (const [key, val] of Object.entries(champData.data)) {
+        for (const [key, val] of Object.entries(champData.data || {})) {
           championNames[Number(val.key)] = val.id;
         }
       }
@@ -711,6 +1087,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   populateAndSortChampionSelect();
   initCustomChampionSelect();
   await loadData();
+  switchLanguage(currentLang);
   if (window.lucide) lucide.createIcons();
 
   // Selector de Campeón
@@ -945,7 +1322,7 @@ function renderExpandedPanel(container, details) {
   container.replaceChildren();
 
   const title = document.createElement("h4");
-  title.textContent = "Rendimiento Avanzado (WPA Added)";
+  title.textContent = t("advancedPerfTitle");
   title.style.marginBottom = "1rem";
   container.appendChild(title);
 
@@ -954,43 +1331,43 @@ function renderExpandedPanel(container, details) {
 
   const groups = [
     {
-      title: "Por Daño Enemigo",
+      title: t("dmgTitle"),
       metrics: [
-        { label: "Físico", val: details.deltaAgainstPhysicalDamage || 0 },
-        { label: "Mágico", val: details.deltaAgainstMagicDamage || 0 },
-        { label: "Balanceado", val: details.deltaAgainstBalancedDamage || 0 }
+        { label: t("metricPhysical"), val: details.deltaAgainstPhysicalDamage || 0 },
+        { label: t("metricMagic"), val: details.deltaAgainstMagicDamage || 0 },
+        { label: t("metricBalanced"), val: details.deltaAgainstBalancedDamage || 0 }
       ]
     },
     {
-      title: "Por Rango Enemigo",
+      title: t("rangeTitle"),
       metrics: [
-        { label: "Alto Rango", val: details.deltaWhenHighRange || 0 },
-        { label: "Bajo Rango", val: details.deltaWhenLowRange || 0 },
-        { label: "Balanceado", val: details.deltaWhenBalancedRange || 0 }
+        { label: t("metricHighRange"), val: details.deltaWhenHighRange || 0 },
+        { label: t("metricLowRange"), val: details.deltaWhenLowRange || 0 },
+        { label: t("metricBalanced"), val: details.deltaWhenBalancedRange || 0 }
       ]
     },
     {
-      title: "Por Aguante Enemigo",
+      title: t("tankinessTitle"),
       metrics: [
-        { label: "Tanques", val: details.deltaWhenTanky || 0 },
-        { label: "Blandos (Squishy)", val: details.deltaWhenSquishy || 0 },
-        { label: "Balanceado", val: details.deltaWhenBalancedTankiness || 0 }
+        { label: t("metricTanky"), val: details.deltaWhenTanky || 0 },
+        { label: t("metricSquishy"), val: details.deltaWhenSquishy || 0 },
+        { label: t("metricBalanced"), val: details.deltaWhenBalancedTankiness || 0 }
       ]
     },
     {
-      title: "Por Control de Masas (CC)",
+      title: t("ccTitle"),
       metrics: [
-        { label: "Alto CC", val: details.deltaWhenHighCC || 0 },
-        { label: "Bajo CC", val: details.deltaWhenLowCC || 0 },
-        { label: "Normal CC", val: details.deltaWhenNormalCC || 0 }
+        { label: t("metricHighCC"), val: details.deltaWhenHighCC || 0 },
+        { label: t("metricLowCC"), val: details.deltaWhenLowCC || 0 },
+        { label: t("metricNormalCC"), val: details.deltaWhenNormalCC || 0 }
       ]
     },
     {
-      title: "Por Diferencia de Oro",
+      title: t("goldTitle"),
       metrics: [
-        { label: "Con Ventaja", val: details.deltaWhenGoldAhead || 0 },
-        { label: "Con Desventaja", val: details.deltaWhenGoldBehind || 0 },
-        { label: "Partida Pareja", val: details.deltaWhenGoldBalanced || 0 }
+        { label: t("metricGoldAhead"), val: details.deltaWhenGoldAhead || 0 },
+        { label: t("metricGoldBehind"), val: details.deltaWhenGoldBehind || 0 },
+        { label: t("metricGoldBalanced"), val: details.deltaWhenGoldBalanced || 0 }
       ]
     }
   ];
@@ -1269,7 +1646,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
   
   if (basicLoL.length > 0) {
     blocks.push({
-      "type": "Básicos",
+      "type": t("blockBasics"),
       "items": basicLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
@@ -1280,7 +1657,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
 
   if (firstLoL.length > 0) {
     blocks.push({
-      "type": "Primer item",
+      "type": t("block1st"),
       "items": firstLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
@@ -1291,7 +1668,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
 
   if (secondLoL.length > 0) {
     blocks.push({
-      "type": "Segundo item",
+      "type": t("block2nd"),
       "items": secondLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
@@ -1302,7 +1679,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
 
   if (thirdLoL.length > 0) {
     blocks.push({
-      "type": "Tercer item",
+      "type": t("block3rd"),
       "items": thirdLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
@@ -1313,7 +1690,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
 
   if (itemsPorWpaLoL.length > 0) {
     blocks.push({
-      "type": "Items por WPA",
+      "type": t("blockItemsWpa"),
       "items": itemsPorWpaLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
@@ -1322,13 +1699,13 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
     });
   }
 
-  blocks.push(makeAdvancedBlock("Vs. Daño Mágico", "deltaAgainstMagicDamage"));
-  blocks.push(makeAdvancedBlock("Vs. Daño Físico", "deltaAgainstPhysicalDamage"));
-  blocks.push(makeAdvancedBlock("Vs. Tanques", "deltaWhenTanky"));
-  blocks.push(makeAdvancedBlock("Vs. Blandos (Squishy)", "deltaWhenSquishy"));
-  blocks.push(makeAdvancedBlock("Vs. Alto CC", "deltaWhenHighCC"));
-  blocks.push(makeAdvancedBlock("Con Ventaja (Ahead)", "deltaWhenGoldAhead"));
-  blocks.push(makeAdvancedBlock("Con Desventaja (Behind)", "deltaWhenGoldBehind"));
+  blocks.push(makeAdvancedBlock(t("blockVsMagic"), "deltaAgainstMagicDamage"));
+  blocks.push(makeAdvancedBlock(t("blockVsPhysical"), "deltaAgainstPhysicalDamage"));
+  blocks.push(makeAdvancedBlock(t("blockVsTanky"), "deltaWhenTanky"));
+  blocks.push(makeAdvancedBlock(t("blockVsSquishy"), "deltaWhenSquishy"));
+  blocks.push(makeAdvancedBlock(t("blockVsHighCC"), "deltaWhenHighCC"));
+  blocks.push(makeAdvancedBlock(t("blockGoldAhead"), "deltaWhenGoldAhead"));
+  blocks.push(makeAdvancedBlock(t("blockGoldBehind"), "deltaWhenGoldBehind"));
 
   const allItemsUnfilteredList = [];
   for (const key in aggregated) {
@@ -1356,7 +1733,7 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
 
   if (todosPorWpaLoL.length > 0) {
     blocks.push({
-      "type": "Todos por WPA",
+      "type": t("blockAllWpa"),
       "items": todosPorWpaLoL,
       "showIfSummonerSpell": "",
       "hideIfSummonerSpell": "",
@@ -1368,14 +1745,8 @@ function buildItemSetFromData(champId, roleId, rawData, patches, viewMode = "glo
   const finalBlocks = blocks.filter(b => b.items.length > 0);
   if (finalBlocks.length === 0) return null;
 
-  const roleLabelsShort = {
-    0: "Top",
-    1: "Jungla",
-    2: "Mid",
-    3: "Bot",
-    4: "Support"
-  };
-  const roleNameShort = roleLabelsShort[roleId] || "General";
+  const roleMapShort = (i18n[currentLang] || i18n.es).roleShort || roleLabelsShort;
+  const roleNameShort = roleMapShort[roleId] || "General";
   const championDisplayName = getChampionDisplayName(champId);
 
   return {
@@ -1392,18 +1763,12 @@ function exportLoLItemSet() {
 
   const selectedChamp = document.getElementById("champion-select").value;
   const championDisplayName = getChampionDisplayName(selectedChamp);
-  const roleLabelsShort = {
-    0: "Top",
-    1: "Jungla",
-    2: "Mid",
-    3: "Bot",
-    4: "Support"
-  };
-  const roleNameShort = roleLabelsShort[selectedRole] || "General";
+  const roleMapShort = (i18n[currentLang] || i18n.es).roleShort || roleLabelsShort;
+  const roleNameShort = roleMapShort[selectedRole] || "General";
 
   const itemSetJson = buildItemSetFromData(selectedChamp, selectedRole, wpaData, availablePatches, currentView);
   if (!itemSetJson) {
-    alert("No hay suficientes datos procesados para exportar el set de este campeón.");
+    alert(t("alertNoDataForExport"));
     return;
   }
 
@@ -1411,14 +1776,14 @@ function exportLoLItemSet() {
 
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(jsonStr).then(() => {
-      alert(`Set de items de LoL para ${championDisplayName} (${roleNameShort}) copiado al portapapeles con éxito.`);
+      alert(t("alertSetCopied", championDisplayName, roleNameShort));
     }).catch(err => {
       console.error("Error al copiar al portapapeles: ", err);
-      alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
+      alert(t("alertSetCopyError"));
       console.log(jsonStr);
     });
   } else {
-    alert("No se pudo copiar automáticamente. Los datos del Set se han impreso en la consola de desarrollo.");
+    alert(t("alertSetCopyError"));
     console.log(jsonStr);
   }
 }
@@ -1429,18 +1794,12 @@ function exportCurrentLoLItemSetFile() {
 
   const selectedChamp = document.getElementById("champion-select").value;
   const championDisplayName = getChampionDisplayName(selectedChamp);
-  const roleLabelsShort = {
-    0: "Top",
-    1: "Jungla",
-    2: "Mid",
-    3: "Bot",
-    4: "Support"
-  };
-  const roleNameShort = roleLabelsShort[selectedRole] || "General";
+  const roleMapShort = (i18n[currentLang] || i18n.es).roleShort || roleLabelsShort;
+  const roleNameShort = roleMapShort[selectedRole] || "General";
 
   const itemSetJson = buildItemSetFromData(selectedChamp, selectedRole, wpaData, availablePatches, currentView);
   if (!itemSetJson) {
-    alert("No hay suficientes datos procesados para exportar el set de este campeón.");
+    alert(t("alertNoDataForExport"));
     return;
   }
 
@@ -1507,9 +1866,11 @@ function renderModalChampionCards(filterText = "") {
   const filtered = champList.filter(c => c.name.toLowerCase().includes(query));
 
   if (filtered.length === 0) {
-    container.innerHTML = `<div style="grid-column: 1 / -1; padding: 2rem; text-align: center; color: var(--text-secondary);">No se encontraron campeones para "${filterText}".</div>`;
+    container.innerHTML = `<div style="grid-column: 1 / -1; padding: 2rem; text-align: center; color: var(--text-secondary);">${t('noResults')}</div>`;
     return;
   }
+
+  const roleMapShort = (i18n[currentLang] || i18n.es).roleShort || roleLabelsShort;
 
   filtered.forEach(c => {
     const isSelected = modalSelectedChampIds.has(c.id);
@@ -1520,7 +1881,7 @@ function renderModalChampionCards(filterText = "") {
     const champName = championNames[c.id] || c.name;
     const avatarUrl = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${champName}.png`;
 
-    const rolesHtml = c.roles.map(r => `<span class="modal-role-badge">${roleLabelsShort[r] || r}</span>`).join("");
+    const rolesHtml = c.roles.map(r => `<span class="modal-role-badge">${roleMapShort[r] || r}</span>`).join("");
 
     card.innerHTML = `
       <input type="checkbox" class="modal-champ-checkbox" ${isSelected ? 'checked' : ''}>
@@ -1595,12 +1956,12 @@ function updateModalSummary() {
     totalSets += roles.length;
   });
 
-  summaryEl.innerText = `${selectedCount} campeón(es) seleccionado(s) — ${totalSets} set(s) en total`;
+  summaryEl.innerText = t("modalSelectionSummary", selectedCount, totalSets);
 }
 
 async function executeCustomExport(mode = 'clipboard') {
   if (modalSelectedChampIds.size === 0) {
-    alert("Por favor selecciona al menos un campeón para exportar.");
+    alert(t("alertSelectChamp"));
     return;
   }
 
@@ -1610,7 +1971,7 @@ async function executeCustomExport(mode = 'clipboard') {
   const originalHtml = activeBtn ? activeBtn.innerHTML : "";
 
   if (activeBtn) {
-    activeBtn.innerHTML = `<i data-lucide="loader" style="width: 15px; height: 15px;"></i> <span>Procesando...</span>`;
+    activeBtn.innerHTML = `<i data-lucide="loader" style="width: 15px; height: 15px;"></i> <span>${t('modalProcessing')}</span>`;
     if (window.lucide) window.lucide.createIcons();
   }
 
@@ -1639,7 +2000,7 @@ async function executeCustomExport(mode = 'clipboard') {
     for (const champ of selectedEntries) {
       for (const roleId of champ.roles) {
         if (activeBtn) {
-          activeBtn.innerHTML = `<i data-lucide="loader" style="width: 15px; height: 15px;"></i> <span>Generando (${completed}/${totalCount})...</span>`;
+          activeBtn.innerHTML = `<i data-lucide="loader" style="width: 15px; height: 15px;"></i> <span>${t('modalGenerating', completed, totalCount)}</span>`;
           if (window.lucide) window.lucide.createIcons();
         }
         const rawData = await getChampionRoleData(champ.champId, roleId);
@@ -1654,7 +2015,7 @@ async function executeCustomExport(mode = 'clipboard') {
     }
 
     if (allItemSets.length === 0) {
-      alert("No se pudieron generar sets de objetos para los campeones seleccionados.");
+      alert(t("alertNoDataForExport"));
       return;
     }
 
@@ -1665,22 +2026,22 @@ async function executeCustomExport(mode = 'clipboard') {
 
     if (mode === 'download') {
       downloadJsonFile("Zinkoachless_Custom_Item_Sets.json", payload);
-      alert(`Archivo Zinkoachless_Custom_Item_Sets.json descargado con éxito.\n\nContiene ${allItemSets.length} sets de ${selectedEntries.length} campeones seleccionados listos para importar en el cliente de LoL.`);
+      alert(t("alertBulkDownloaded", "Zinkoachless_Custom_Item_Sets.json", allItemSets.length, selectedEntries.length));
       closeBulkExportModal();
     } else {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         await navigator.clipboard.writeText(jsonStr);
-        alert(`Se han copiado al portapapeles ${allItemSets.length} sets de ${selectedEntries.length} campeones seleccionados con éxito.\n\nEn el cliente de League of Legends ve a:\nColección > Objetos > Importar conjuntos de objetos > Pegar conjunto copiado.`);
+        alert(t("alertBulkCopied", allItemSets.length, selectedEntries.length));
         closeBulkExportModal();
       } else {
         downloadJsonFile("Zinkoachless_Custom_Item_Sets.json", payload);
-        alert(`No se pudo acceder al portapapeles, por lo que se descargó automáticamente el archivo Zinkoachless_Custom_Item_Sets.json con ${allItemSets.length} sets.`);
+        alert(t("alertBulkDownloaded", "Zinkoachless_Custom_Item_Sets.json", allItemSets.length, selectedEntries.length));
         closeBulkExportModal();
       }
     }
   } catch (err) {
     console.error("Error al exportar sets personalizados:", err);
-    alert("Ocurrió un error al generar los sets de items: " + err.message);
+    alert("Error: " + err.message);
   } finally {
     if (activeBtn) {
       activeBtn.innerHTML = originalHtml;
@@ -1689,10 +2050,184 @@ async function executeCustomExport(mode = 'clipboard') {
   }
 }
 
+function updateStaticDOMTexts() {
+  document.title = t("title");
+  
+  // Header buttons
+  const btnGlobal = document.getElementById("btn-global");
+  if (btnGlobal) {
+    btnGlobal.title = t("btnGlobalTitle");
+    btnGlobal.innerHTML = `<i data-lucide="sparkles" style="width: 16px; height: 16px;"></i>${t('btnGlobal')}`;
+  }
+  const btnAll = document.getElementById("btn-all-items");
+  if (btnAll) {
+    btnAll.title = t("btnAllItemsTitle");
+    btnAll.innerHTML = `<i data-lucide="layers" style="width: 16px; height: 16px;"></i>${t('btnAllItems')}`;
+  }
+  const btnFilters = document.getElementById("btn-filters");
+  if (btnFilters) {
+    btnFilters.innerHTML = `<i data-lucide="sliders-horizontal" style="width: 16px; height: 16px;"></i> ${t('btnFilters')}`;
+  }
+  
+  // Export split button
+  const btnExportSet = document.getElementById("btn-export-set");
+  if (btnExportSet) {
+    btnExportSet.title = t("btnExportSetTitle");
+    const span = btnExportSet.querySelector("span");
+    if (span) span.innerText = t("btnExportSet");
+  }
+
+  // Export dropdown
+  const exportDropdown = document.getElementById("export-dropdown");
+  if (exportDropdown) {
+    const titles = exportDropdown.querySelectorAll(".split-dropdown-section-title");
+    if (titles[0]) titles[0].innerText = t("exportDropdownTitle");
+    if (titles[1]) titles[1].innerText = t("exportCurrentTitle");
+    
+    const items = exportDropdown.querySelectorAll(".split-dropdown-item");
+    if (items[0]) {
+      items[0].querySelector(".item-title").innerText = t("exportBulkTitle");
+      items[0].querySelector(".item-sub").innerText = t("exportBulkSub");
+    }
+    if (items[1]) {
+      items[1].querySelector(".item-title").innerText = t("exportCurrentCopy");
+      items[1].querySelector(".item-sub").innerText = t("exportCurrentCopySub");
+    }
+    if (items[2]) {
+      items[2].querySelector(".item-title").innerText = t("exportCurrentDownload");
+      items[2].querySelector(".item-sub").innerText = t("exportCurrentDownloadSub");
+    }
+  }
+
+  // Tabs
+  const tabBuilds = document.getElementById("tab-builds");
+  if (tabBuilds) {
+    tabBuilds.innerHTML = `<i data-lucide="layout-grid" style="width: 16px; height: 16px;"></i> ${t('tabBuilds')}`;
+  }
+  const tabItems = document.getElementById("tab-items");
+  if (tabItems) {
+    tabItems.innerHTML = `<i data-lucide="list" style="width: 16px; height: 16px;"></i> ${t('tabItems')}`;
+  }
+
+  // Search input placeholder
+  const searchInput = document.getElementById("search-input");
+  if (searchInput) {
+    searchInput.placeholder = t("searchPlaceholder");
+  }
+
+  // Champion search placeholder
+  const champSearchInput = document.getElementById("champion-search-input");
+  if (champSearchInput) {
+    champSearchInput.placeholder = t("searchChampion");
+  }
+
+  // Modal elements
+  const modalHeaderH3 = document.querySelector("#bulk-export-modal .modal-header h3");
+  if (modalHeaderH3) modalHeaderH3.innerText = t("modalTitle");
+  const modalHeaderP = document.querySelector("#bulk-export-modal .modal-header p");
+  if (modalHeaderP) modalHeaderP.innerText = t("modalSub");
+  const modalSearchInput = document.getElementById("modal-search-input");
+  if (modalSearchInput) modalSearchInput.placeholder = t("modalSearchPlaceholder");
+  
+  const modalChips = document.querySelectorAll(".modal-chip-btn");
+  if (modalChips[0]) modalChips[0].innerText = t("modalBtnAll");
+  if (modalChips[1]) modalChips[1].innerText = t("modalBtnNone");
+  if (modalChips[2]) modalChips[2].innerText = t("modalBtnCurrent");
+
+  const modalCancelBtn = document.querySelector("#bulk-export-modal .modal-footer button:first-child");
+  if (modalCancelBtn) modalCancelBtn.innerText = t("modalCancel");
+  const btnModalCopy = document.getElementById("btn-modal-copy");
+  if (btnModalCopy) {
+    const span = btnModalCopy.querySelector("span");
+    if (span) span.innerText = t("modalCopy");
+  }
+  const btnModalDownload = document.getElementById("btn-modal-download");
+  if (btnModalDownload) {
+    const span = btnModalDownload.querySelector("span");
+    if (span) span.innerText = t("modalDownload");
+  }
+
+  // Overview title and badge legends
+  const overviewH2 = document.querySelector(".overview-section h2");
+  if (overviewH2) overviewH2.innerText = t("overviewTitle");
+
+  const badgeLegend = document.querySelector(".badge-legend");
+  if (badgeLegend) {
+    badgeLegend.innerHTML = `
+      <span title="${t('badgeMetaTitle')}"><strong style="color: #60a5fa;">⭐</strong> ${t('badgeMetaText')}</span>
+      <span title="${t('badgeSituationalTitle')}"><strong style="color: #c084fc;">🎯</strong> ${t('badgeSituationalText')}</span>
+      <span title="${t('badgeTrendingTitle')}"><strong style="color: #10b981;">📈</strong> ${t('badgeTrendingText')}</span>
+      <span title="${t('badgeAdjustedTitle')}"><strong style="color: #f59e0b;">⚡</strong> ${t('badgeAdjustedText')}</span>
+    `;
+  }
+
+  // Sort dropdown options
+  const sortBySelect = document.getElementById("sort-by");
+  if (sortBySelect) {
+    const opts = sortBySelect.options;
+    if (opts[0]) opts[0].text = t("sortSmartRank");
+    if (opts[1]) opts[1].text = t("sortWpa");
+    if (opts[2]) opts[2].text = t("sortSample");
+    if (opts[3]) opts[3].text = t("sortMagic");
+    if (opts[4]) opts[4].text = t("sortPhysical");
+    if (opts[5]) opts[5].text = t("sortTanky");
+    if (opts[6]) opts[6].text = t("sortSquishy");
+    if (opts[7]) opts[7].text = t("sortHighCC");
+    if (opts[8]) opts[8].text = t("sortGoldAhead");
+    if (opts[9]) opts[9].text = t("sortGoldBehind");
+  }
+
+  const sortOrderSelect = document.getElementById("sort-order");
+  if (sortOrderSelect) {
+    const opts = sortOrderSelect.options;
+    if (opts[0]) opts[0].text = t("sortDesc");
+    if (opts[1]) opts[1].text = t("sortAsc");
+  }
+
+  // Slot card headers (WPA / Compras / Picks)
+  document.querySelectorAll(".sort-trigger").forEach(trigger => {
+    const sort = trigger.getAttribute("data-sort");
+    if (sort === "wpa") trigger.innerText = t("sortTriggerWpa");
+    else if (sort === "sample_size") {
+      const card = trigger.closest(".slot-card");
+      const isPick = card && (card.querySelector("#list-Keystone") || card.querySelector("#list-Spell"));
+      trigger.innerText = isPick ? t("sortTriggerPicks") : t("sortTriggerBuys");
+    }
+  });
+
+  if (window.lucide) lucide.createIcons();
+}
+
+function switchLanguage(lang) {
+  if (lang !== "es" && lang !== "en") lang = "es";
+  currentLang = lang;
+  localStorage.setItem("zinkoachless_lang", lang);
+
+  const btnEs = document.getElementById("lang-btn-es");
+  const btnEn = document.getElementById("lang-btn-en");
+  if (btnEs) btnEs.classList.toggle("active", lang === "es");
+  if (btnEn) btnEn.classList.toggle("active", lang === "en");
+
+  updateStaticDOMTexts();
+  updateRoleSelector();
+  updateCustomChampionSelectLabel();
+  applyFilters();
+
+  const modal = document.getElementById("bulk-export-modal");
+  if (modal && modal.style.display !== "none") {
+    renderModalChampionCards(document.getElementById("modal-search-input")?.value || "");
+    updateModalSummary();
+  }
+}
+
 document.addEventListener("click", function(event) {
   const modal = document.getElementById("bulk-export-modal");
   if (modal && event.target === modal) {
     closeBulkExportModal();
+  }
+  // Si se hace clic fuera del nombre del objeto, restaurar la vista normal con insignias
+  if (!event.target.closest(".item-name-text")) {
+    document.querySelectorAll(".item-row.show-full-name").forEach(r => r.classList.remove("show-full-name"));
   }
 });
 
@@ -1701,10 +2236,12 @@ document.addEventListener("keydown", function(event) {
     closeBulkExportModal();
     const dropdown = document.getElementById("export-dropdown");
     if (dropdown) dropdown.style.display = "none";
+    document.querySelectorAll(".item-row.show-full-name").forEach(r => r.classList.remove("show-full-name"));
   }
 });
 
 // Exponer funciones globales para interacción con HTML
+window.switchLanguage = switchLanguage;
 window.openBulkExportModal = openBulkExportModal;
 window.closeBulkExportModal = closeBulkExportModal;
 window.filterModalChampions = filterModalChampions;
@@ -1714,4 +2251,5 @@ window.executeCustomExport = executeCustomExport;
 window.toggleExportDropdown = toggleExportDropdown;
 window.exportLoLItemSet = exportLoLItemSet;
 window.exportCurrentLoLItemSetFile = exportCurrentLoLItemSetFile;
+
 

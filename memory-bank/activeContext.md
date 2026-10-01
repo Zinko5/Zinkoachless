@@ -21,7 +21,11 @@
   - Exportación individual: copia el set del campeón y rol actual al portapapeles o permite descargarlo en archivo `.json`.
   - **Modal Interactivo de Selección Múltiple:** Permite filtrar y seleccionar qué campeones y roles incluir antes de exportar, con buscador en vivo, botones rápidos ("Todos", "Ninguno", "Solo Actual"), resumen dinámico de sets y opciones para copiar al portapapeles o descargar `Zinkoachless_Custom_Item_Sets.json`.
   - Orden canónico por campeón (A-Z) y por posición (Top -> Jungla -> Mid -> Bot/ADC -> Support).
-  - Incluye bloque especial "Todos por WPA" con todos los objetos de WPA positivo.
+- **Sistema de Internacionalización Dinámica (i18n):**
+  - Español Latinoamericano (`es_MX` - LAS/LAN) por defecto para interfaz, objetos, runas y hechizos.
+  - Selector de idioma (`ES` / `EN`) en la cabecera superior con persistencia en `localStorage`.
+  - Descarga y caché en memoria de catálogos duales de DDragon (`es_MX` y `en_US`) para conmutación instantánea (0 ms) sin recargar la página.
+  - Búsqueda multilingüe en tiempo real y exportación de sets de objetos localizada.
 
 ---
 

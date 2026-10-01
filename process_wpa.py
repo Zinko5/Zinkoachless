@@ -18,43 +18,43 @@ def get_latest_version():
     except Exception:
         return "14.22.1"  # Fallback a una versión conocida estable
 
-def fetch_names_mapping(version):
+def fetch_names_mapping(version, locale="es_MX"):
     item_map = {}
     rune_map = {}
     summoner_map = {}
 
     # 1. Obtener objetos
     try:
-        url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/en_US/item.json"
+        url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/item.json"
         data = requests.get(url, timeout=5).json()
         for k, v in data.get("data", {}).items():
             item_map[int(k)] = v.get("name")
     except Exception as e:
-        print(f"Error fetching items: {e}")
+        print(f"Error fetching items ({locale}): {e}")
 
     # 2. Obtener runas
     try:
-        url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/en_US/runesReforged.json"
+        url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/runesReforged.json"
         paths = requests.get(url, timeout=5).json()
         for path in paths:
             for slot in path.get("slots", []):
                 for rune in slot.get("runes", []):
                     rune_map[int(rune["id"])] = rune.get("name")
     except Exception as e:
-        print(f"Error fetching runes: {e}")
+        print(f"Error fetching runes ({locale}): {e}")
 
     # 3. Obtener summoners
     try:
-        url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/en_US/summoner.json"
+        url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/summoner.json"
         data = requests.get(url, timeout=5).json()
         for k, v in data.get("data", {}).items():
             summoner_map[int(v["key"])] = v.get("name")
     except Exception as e:
-        print(f"Error fetching summoners: {e}")
+        print(f"Error fetching summoners ({locale}): {e}")
 
-    # Mappings heredados de ítems eliminados de versiones recientes de DDragon (ej. 3097 = Stormrazor)
+    # Mappings heredados de ítems eliminados de versiones recientes de DDragon (ej. 3097 = Navaja de la Tormenta / Stormrazor)
     legacy_items = {
-        3097: "Stormrazor"
+        3097: "Navaja de la Tormenta" if locale.startswith("es") else "Stormrazor"
     }
     for k, v in legacy_items.items():
         if k not in item_map:

@@ -57,6 +57,40 @@ body {
   animation: fadeIn 0.4s ease-out;
 }
 
+/* LANGUAGE SWITCHER */
+.lang-switch-container {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 2px;
+  gap: 2px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  color: var(--text-primary);
+}
+
+.lang-btn.active {
+  background: var(--accent-color);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+}
+
 .champion-info {
   display: flex;
   align-items: center;
@@ -470,13 +504,47 @@ body {
   min-width: 0;
 }
 
-.item-name {
+.item-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+}
+
+.item-name-text {
   font-size: 0.875rem;
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--text-primary);
+  flex: 1;
+  min-width: 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.item-badges-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+/* Al pasar el cursor por encima (Desktop) o al tocarlo (Móvil), ocultar insignias y mostrar el nombre completo */
+.item-row:hover .item-badges-wrapper,
+.item-row.show-full-name .item-badges-wrapper {
+  display: none !important;
+}
+
+.item-row:hover .item-name-text,
+.item-row.show-full-name .item-name-text {
+  white-space: normal;
+  overflow: visible;
+  word-break: break-word;
+  color: #ffffff;
 }
 
 .item-subtext {

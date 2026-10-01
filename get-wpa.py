@@ -192,9 +192,23 @@ for champ in CHAMPIONS:
                         detailed = future.result()
                         item_details[str(i_id)] = {"detailed": detailed}
 
-        patch_data["item_details"] = item_details
-        resultado_final[patch_key] = patch_data
+        # Verificar si obtuvimos respuestas válidas antes de sobrescribir
+        has_valid = any(v is not None for k, v in patch_data.items() if k != "item_details")
+        if has_valid:
+            patch_data["item_details"] = item_details
+            resultado_final[patch_key] = patch_data
+        elif patch_key not in resultado_final:
+            patch_data["item_details"] = {}
+            resultado_final[patch_key] = patch_data
 
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(resultado_final, f, ensure_ascii=False, indent=2)
-    print(f"Datos guardados con éxito en {filename}")
+    # Solo guardar si hay al menos un parche con datos válidos
+    has_any_data = any(
+        isinstance(pdata, dict) and any(v is not None for k, v in pdata.items() if k != "item_details")
+        for pdata in resultado_final.values()
+    )
+    if has_any_data:
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(resultado_final, f, ensure_ascii=False, indent=2)
+        print(f"Datos guardados con éxito en {filename}")
+    else:
+        print(f"Aviso: No se obtuvieron datos nuevos para {champ_name} (posible límite de peticiones en Coachless).")

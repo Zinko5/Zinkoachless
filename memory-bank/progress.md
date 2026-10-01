@@ -25,6 +25,8 @@
   - **Dynamic Market Share Filter:** Mode 1 (`⭐ Populares & Solidez` - $0.5\%$ category sample cutoff) vs Mode 2 (`📚 Catálogo Completo` - 100% un-filtered).
   - **LoL Item Set Exporter:** Botón dividido (split button) con exportación individual (portapapeles y archivo .json) y **Modal Interactivo de Selección Múltiple** para personalizar qué campeones y roles incluir antes de generar el archivo o copiar al portapapeles. Incluye bloque custom "Todos por WPA".
   - Dynamic champion selector con buscador integrado (33+ campeones soportados).
+  - **Soporte Multilingüe Dinámico (i18n ES / EN):** Español de Latinoamérica (`es_MX`) por defecto en interfaz, objetos, runas y hechizos; alternador instantáneo `ES` / `EN` en la cabecera con persistencia y búsqueda universal bilingüe.
+  - **Visualización Dinámica de Nombres:** Al pasar el cursor (hover en escritorio) o tocar el nombre del ítem (tap en móvil), se ocultan las insignias para mostrar el nombre completo sin cortes ni puntos suspensivos; tocar fuera restaura las insignias.
   - Dark mode aesthetic with glassmorphic cards and crisp layout.
 - [x] **Configuración Centralizada & Pipeline Maestro (`config.json` & `pipeline.py`):**
   - Archivo único `config.json` como *Single Source of Truth* para temporadas, parches, campeones y roles.
