@@ -52,9 +52,12 @@
   - Verificación atómica previa: antes de entrar a consultar categorías en Coachless, el script determina qué parches faltan y, si no falta ninguno, avanza de inmediato sin esperar ni consumir cuota horaria.
 - **Exportador LoL Compacto en 6 Bloques:** Estructura limpia y accionable: Básicos, Primer item, Segundo item, Tercer item, Items por WPA (filtrados por cuota de mercado) y **Todos** (catálogo completo no filtrado con $WPA > 0$ y muestra $\ge 50$).
 - **Optimización y Limpieza de Datos:** Eliminación de campos obsoletos `details` en `docs/data/granular/` (ahorro de ~18 MB en Git) y de `item_details` en `data/raw/` (ahorro de ~8 MB en disco local).
+- **Corrección de Ícono de Navaja de la Tormenta (Stormrazor):** Mapeo de alias en `docs/app.js` (`3097 -> 3095`) para cargar directamente el sprite válido de DDragon 16.19.1 evitando 404 y fallback a botas marrones.
+- **Soporte Completo de Evoluciones de Ítem de Support (1st Item):** Coachless requiere el parámetro `includeSupportItems: True` en peticiones de `role: 4` para entregar las evoluciones de misión (Oposición Celestial 3869, Trineo del Solsticio 3876, Perforatrastos de Zaz'Zak 3871, Creador de Sueños 3870, Canción de Sangre 3877). En `get-wpa.py` se implementó auto-detección y recuperación específica para rellenar `item_slot_1` en perfiles de soporte locales ya cacheados.
 
 ---
 
 ## Next Steps
-- Ejecutar `pipeline.py -s` para completar rápidamente la descarga de los campeones restantes sin gastar cuota en los ya existentes.
-- Create automated CI/Cron runner to execute `pipeline.py` whenever Riot releases a new patch.
+- Ejecutar extracción de `item_slot_1` para soportes una vez finalizado el cooldown de cuota o tras alternar servidor en Proton VPN.
+- Ejecutar `process_wpa.py` para regenerar `docs/data/granular/` con las evoluciones de soporte completas.
+- Crear runner CI/Cron automatizado para ejecutar `pipeline.py` cuando Riot lance un nuevo parche.

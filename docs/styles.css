@@ -952,6 +952,24 @@ body {
   .expanded-grid-full {
     grid-template-columns: 1fr;
   }
+  .custom-select-dropdown {
+    left: -68px !important;
+    width: min(320px, calc(100vw - 2.5rem)) !important;
+    min-width: 250px !important;
+    max-width: calc(100vw - 2.5rem) !important;
+  }
+  .custom-select-role-filters {
+    padding: 0.3rem 0.4rem;
+    gap: 2px;
+  }
+  .select-role-btn {
+    padding: 0.2rem 0.35rem;
+    font-size: 0.7rem;
+  }
+  .select-role-btn img {
+    width: 14px;
+    height: 14px;
+  }
 }
 
 /* CUSTOM SEARCHABLE CHAMPION SELECT */

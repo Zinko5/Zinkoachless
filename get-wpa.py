@@ -1,10 +1,14 @@
+import sys
+import os
+import signal
 import requests
 import json
 import time
-import os
-import random
 import datetime
+import atexit
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 
 BASE_URL = "https://api.coachless.gg"
 
@@ -19,9 +23,23 @@ HEADERS = {
     "Sec-Fetch-Site": "same-site"
 }
 
-# Sesión reutilizable con HTTP Keep-Alive
+# Sesión persistente optimizada con Connection Pooling y HTTP Keep-Alive
 session = requests.Session()
 session.headers.update(HEADERS)
+
+# Pool de sockets reutilizables para hilos concurrentes y recuperación de caídas transitorias
+adapter = HTTPAdapter(
+    pool_connections=25,
+    pool_maxsize=25,
+    max_retries=Retry(
+        total=3,
+        backoff_factor=0.3,
+        status_forcelist=[500, 502, 503, 504],
+        raise_on_status=False
+    )
+)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
 
 # Mapeo exacto de roles en la API de Coachless:
 # 0: Top, 1: Jungla, 2: Mid, 3: Bot, 4: Support (5 es la suma global de todos los roles)
@@ -58,12 +76,14 @@ def make_api_request(url, payload):
     global rate_limit_until, last_request_time
     
     for attempt in range(4):
-        # 1. Si hay un enfriamiento 429 activo, esperar a que expire
-        with rate_limit_lock:
-            now = time.time()
-            sleep_needed = max(0.0, rate_limit_until - now)
-        if sleep_needed > 0:
-            time.sleep(sleep_needed)
+        # 1. Si hay un enfriamiento 429 activo, esperar a que expire (en intervalos de 0.5s para responder al instante a Ctrl+C)
+        while True:
+            with rate_limit_lock:
+                now = time.time()
+                if now >= rate_limit_until:
+                    break
+                chunk = min(0.5, rate_limit_until - now)
+            time.sleep(chunk)
 
         # 2. Pacing global preventivo (mínimo 0.35s entre peticiones a nivel de todo el script)
         with rate_limit_lock:
@@ -99,6 +119,9 @@ def make_api_request(url, payload):
                         print(f"\n[!] Servidor de Coachless devolvió 429 (Cuota de IP). Pausando {wait_sec}s (~{wait_min} min)...")
                         if wait_sec > 90:
                             print(f"    (Tip: Si tienes VPN activada, puedes cambiar de ubicación de servidor para obtener una IP nueva y continuar de inmediato).")
+                continue
+            elif res.status_code in (500, 502, 503, 504):
+                time.sleep(1.0)
                 continue
             else:
                 return None
@@ -187,6 +210,19 @@ total_champs = len(CHAMPIONS)
 print(f"\n=== Iniciando Extracción Ponderada ({total_champs} perfiles de campeones) ===")
 print(f"Temporada: {MAJOR} | Parches: {min(TARGET_PATCHES)} a {max(TARGET_PATCHES)} | Ritmo: Pacing Preventivo (~4 req/s)\n")
 
+executor = ThreadPoolExecutor(max_workers=3)
+atexit.register(lambda: executor.shutdown(wait=False))
+
+def handle_sigint(signum, frame):
+    print("\n\n[!] Extracción interrumpida por el usuario (Ctrl+C). Todo el progreso ha quedado guardado en disco.")
+    try:
+        executor.shutdown(wait=False, cancel_futures=True)
+    except Exception:
+        pass
+    os._exit(130)
+
+signal.signal(signal.SIGINT, handle_sigint)
+
 for idx, champ in enumerate(CHAMPIONS, 1):
     champ_id = champ["id"]
     champ_role = champ["role"]
@@ -203,23 +239,40 @@ for idx, champ in enumerate(CHAMPIONS, 1):
         except Exception:
             resultado_final = {}
 
+    is_supp = (champ_role == 4)
+
     # Determinar qué parches faltan por descargar
     patches_to_fetch = []
     for patch in TARGET_PATCHES:
         patch_key = f"{MAJOR}.{patch}"
         p_val = resultado_final.get(patch_key)
-        has_data = p_val and p_val.get("items_no_slot")
+        
+        # Un parche ya está registrado si existe en el JSON y la respuesta fue válida
+        # (incluso si items_no_slot es [] porque el campeón no existía en ese parche o tuvo 0 partidas).
+        already_cached = (
+            p_val is not None 
+            and isinstance(p_val, dict) 
+            and p_val.get("items_no_slot") is not None
+        )
+        
+        # Si es un soporte y el parche ya fue guardado pero item_slot_1 quedó vacío por el bug previo
+        # (mientras que items_no_slot sí tiene partidas registradas), marcar para re-consultar slot 1
+        if is_supp and already_cached and bool(p_val.get("items_no_slot")) and not bool(p_val.get("item_slot_1")):
+            already_cached = False
         
         if patch == latest_patch_num and update_latest:
             patches_to_fetch.append(patch)
-        elif not has_data:
+        elif not already_cached:
             patches_to_fetch.append(patch)
 
     if not patches_to_fetch:
         print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role}) -> Ya completado (omitido en 0s)")
         continue
 
-    print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role}) -> Faltan {len(patches_to_fetch)} parches")
+    if len(patches_to_fetch) == 1 and patches_to_fetch[0] == latest_patch_num and update_latest:
+        print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role}) -> Actualizando último parche ({MAJOR}.{latest_patch_num})")
+    else:
+        print(f"[{idx}/{total_champs}] {champ_name} (ID: {champ_id}, Rol: {champ_role}) -> Faltan {len(patches_to_fetch)} parches")
 
     for patch in patches_to_fetch:
         patch_key = f"{MAJOR}.{patch}"
@@ -230,31 +283,49 @@ for idx, champ in enumerate(CHAMPIONS, 1):
             print(f"  -> Extrayendo Parche {patch_key}...")
             
         cf = build_common_filters(MAJOR, patch, champ_id, champ_role)
+        p_val = resultado_final.get(patch_key)
         
-        # 1. Peticiones de categorías con concurrencia controlada (2 hilos para estabilidad)
-        categories_tasks = {
-            "keystones": (fetch_keystones, (cf,)),
-            "summoner_spells": (fetch_summoners, (cf,)),
-            "starters": (fetch_items, (cf, None, 6)),
-            "boots": (fetch_items, (cf, None, 2)),
-            "item_slot_1": (fetch_items, (cf, [1], 1)),
-            "item_slot_2": (fetch_items, (cf, [2], 1)),
-            "item_slot_3": (fetch_items, (cf, [3], 1)),
-            "late_game_items": (fetch_items, (cf, [4, 5, 6], 1)),
-            "items_no_slot": (fetch_items, (cf, None, 1))
-        }
+        # Optimización: si las otras categorías ya estaban descargadas y solo faltaba item_slot_1 por ser soporte
+        only_need_supp_slot1 = (
+            is_supp 
+            and p_val is not None 
+            and isinstance(p_val, dict) 
+            and bool(p_val.get("items_no_slot")) 
+            and not bool(p_val.get("item_slot_1"))
+            and not (patch == latest_patch_num and update_latest)
+        )
+
+        # Peticiones de categorías (incluyendo soporte si aplica)
+        if only_need_supp_slot1:
+            categories_tasks = {
+                "item_slot_1": (fetch_items, (cf, [1], 1, True))
+            }
+        else:
+            categories_tasks = {
+                "keystones": (fetch_keystones, (cf,)),
+                "summoner_spells": (fetch_summoners, (cf,)),
+                "starters": (fetch_items, (cf, None, 6, is_supp)),
+                "boots": (fetch_items, (cf, None, 2, is_supp)),
+                "item_slot_1": (fetch_items, (cf, [1], 1, is_supp)),
+                "item_slot_2": (fetch_items, (cf, [2], 1, is_supp)),
+                "item_slot_3": (fetch_items, (cf, [3], 1, is_supp)),
+                "late_game_items": (fetch_items, (cf, [4, 5, 6], 1, is_supp)),
+                "items_no_slot": (fetch_items, (cf, None, 1, is_supp))
+            }
 
         patch_data = {}
-        with ThreadPoolExecutor(max_workers=2) as executor:
-            future_to_cat = {executor.submit(safe_fetch, func, *args): cat for cat, (func, args) in categories_tasks.items()}
-            for future in as_completed(future_to_cat):
-                cat = future_to_cat[future]
-                patch_data[cat] = future.result()
+        future_to_cat = {executor.submit(safe_fetch, func, *args): cat for cat, (func, args) in categories_tasks.items()}
+        for future in as_completed(future_to_cat):
+            cat = future_to_cat[future]
+            patch_data[cat] = future.result()
 
         # Validar que obtuvimos datos antes de guardar
         has_valid = any(v is not None for v in patch_data.values())
         if has_valid:
-            resultado_final[patch_key] = patch_data
+            if only_need_supp_slot1 and patch_key in resultado_final:
+                resultado_final[patch_key]["item_slot_1"] = patch_data.get("item_slot_1", [])
+            else:
+                resultado_final[patch_key] = patch_data
             
             # Checkpoint atómico: guardar progreso inmediatamente en disco
             with open(filename, "w", encoding="utf-8") as f:
@@ -266,3 +337,5 @@ for idx, champ in enumerate(CHAMPIONS, 1):
         print(f"  [✓] {champ_name} completado ({total_valid_patches}/{len(TARGET_PATCHES)} parches guardados en disco).\n")
     else:
         print(f"  [!] Sin datos nuevos para {champ_name}.\n")
+
+executor.shutdown(wait=False)

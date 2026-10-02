@@ -36,11 +36,10 @@
 - [x] **Memory Bank:**
   - Standard Memory Bank system fully maintained (`projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`, `activeContext.md`, `progress.md`).
 
----
-
-## What's Left to Build ⌛
-- [ ] Add more ADC, midlane, and jungle champions to `config.json`.
-- [ ] Create automated daily/weekly patch check runner.
+- [x] **Corrección de Ícono Stormrazor & Compatibilidad DDragon:**
+  - Solucionado en `docs/app.js` mediante mapeo de alias (`3097 -> 3095`) para resolver directamente el nuevo identificador de Riot sin fallbacks a botas.
+- [ ] **Extracción y Backfill de 1st Item en Soportes:**
+  - Lógica adaptada en `get-wpa.py` con `includeSupportItems: True` para `role: 4`. Pendiente ejecutar backfill tras renovación de cuota de IP / reconexión VPN.
 
 ---
 

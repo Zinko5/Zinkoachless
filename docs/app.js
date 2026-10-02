@@ -410,6 +410,11 @@ function onPatchChange(changedSelect) {
   applyFilters();
 }
 
+// Mapeo de alias para IDs de ítems eliminados o reemplazados en versiones recientes de DDragon
+const ITEM_ICON_ALIASES = {
+  3097: 3095, // Navaja de la Tormenta / Stormrazor (en DDragon actual se aloja bajo 3095.png)
+};
+
 function getImageUrl(item) {
   if (item.category === "Keystone") {
     return runeImages[item.id] || "https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/7202_Sorcery.png";
@@ -418,8 +423,9 @@ function getImageUrl(item) {
     const file = spellImages[item.id] || "SummonerFlash.png";
     return `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/spell/${file}`;
   }
-  // Objetos por defecto
-  return `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/item/${item.id}.png`;
+  // Objetos por defecto con soporte de alias para ítems de Riot renombrados
+  const iconId = ITEM_ICON_ALIASES[item.id] || item.id;
+  return `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/item/${iconId}.png`;
 }
 
 function renderCategory(containerId, items) {
@@ -454,6 +460,7 @@ function renderCategory(containerId, items) {
     const wpaClass = item.wpa >= 0 ? "wpa-positive" : "wpa-negative";
     const iconUrl = getImageUrl(item);
     const displayName = getItemLocalizedName(item);
+    const resolvedIconId = ITEM_ICON_ALIASES[item.id] || item.id;
     
     const row = document.createElement("div");
     row.className = "item-row";
@@ -471,7 +478,7 @@ function renderCategory(containerId, items) {
     
     row.innerHTML = `
       <div class="item-icon">
-        <img src="${iconUrl}" alt="${displayName}" onerror="this.onerror=function(){this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/1001.png';}; this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${item.id}.png';">
+        <img src="${iconUrl}" alt="${displayName}" onerror="this.onerror=function(){this.onerror=null;this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/1001.png';}; this.src='https://ddragon.leagueoflegends.com/cdn/13.24.1/img/item/${resolvedIconId}.png';">
       </div>
       <div class="item-details" style="display: flex; flex-direction: column; min-width: 0;">
         <div class="item-title-row">
@@ -1078,6 +1085,7 @@ function initCustomChampionSelect() {
 
   function openDropdown() {
     dropdown.style.display = "block";
+    dropdown.style.removeProperty("right");
     if (searchInput) {
       searchInput.value = "";
       searchInput.focus();
@@ -1090,10 +1098,22 @@ function initCustomChampionSelect() {
       });
     }
     renderOptions("");
+
+    // Verificación preventiva de bordes en pantallas móviles
+    requestAnimationFrame(() => {
+      const rect = dropdown.getBoundingClientRect();
+      const margin = 10;
+      if (rect.right > window.innerWidth - margin) {
+        const overflow = rect.right - (window.innerWidth - margin);
+        const currentLeft = parseFloat(getComputedStyle(dropdown).left) || 0;
+        dropdown.style.left = `${currentLeft - overflow}px`;
+      }
+    });
   }
 
   function closeDropdown() {
     dropdown.style.display = "none";
+    dropdown.style.removeProperty("left");
   }
 
   trigger.addEventListener("click", (e) => {

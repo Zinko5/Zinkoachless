@@ -7,18 +7,63 @@ INPUT_FILE = "coachless_champ_236_full_stats.json"
 OUTPUT_CSV = "coachless_processed_wpa.csv"
 OUTPUT_JSON = "coachless_consolidated_wpa.json"
 
+import os
+import time
+
 # IDs conocidos de botas en LoL
 BOOTS_IDS = {1001, 3006, 3047, 3158, 3009, 3111, 3117, 3020}
 
 def get_latest_version():
+    cache_version_file = os.path.join("data", "raw", "ddragon_latest_version.txt")
+    if os.path.exists(cache_version_file):
+        try:
+            # Si el archivo tiene menos de 24 horas, usarlo directamente
+            mtime = os.path.getmtime(cache_version_file)
+            if time.time() - mtime < 86400:
+                with open(cache_version_file, "r", encoding="utf-8") as f:
+                    ver = f.read().strip()
+                    if ver:
+                        return ver
+        except Exception:
+            pass
+
     try:
         url = "https://ddragon.leagueoflegends.com/api/versions.json"
         versions = requests.get(url, timeout=5).json()
-        return versions[0]
+        latest = versions[0]
+        os.makedirs(os.path.join("data", "raw"), exist_ok=True)
+        with open(cache_version_file, "w", encoding="utf-8") as f:
+            f.write(latest)
+        return latest
     except Exception:
-        return "14.22.1"  # Fallback a una versión conocida estable
+        # Fallback a caché existente o versión estable conocida
+        if os.path.exists(cache_version_file):
+            try:
+                with open(cache_version_file, "r", encoding="utf-8") as f:
+                    return f.read().strip()
+            except Exception:
+                pass
+        return "16.19.1"
 
 def fetch_names_mapping(version, locale="es_MX"):
+    os.makedirs(os.path.join("data", "raw"), exist_ok=True)
+    cache_catalog_file = os.path.join("data", "raw", f"ddragon_catalogs_{locale}_{version}.json")
+
+    # Si ya existe en caché local con datos válidos, cargar en 0ms
+    if os.path.exists(cache_catalog_file):
+        try:
+            with open(cache_catalog_file, "r", encoding="utf-8") as f:
+                cached = json.load(f)
+                item_map = {int(k): v for k, v in cached.get("items", {}).items()}
+                rune_map = {int(k): v for k, v in cached.get("runes", {}).items()}
+                summoner_map = {int(k): v for k, v in cached.get("summoners", {}).items()}
+                if item_map and rune_map and summoner_map:
+                    print(f"Diccionarios DDragon cargados desde caché local ({len(item_map)} objetos, {len(rune_map)} runas, {len(summoner_map)} hechizos).")
+                    return item_map, rune_map, summoner_map
+        except Exception:
+            pass
+
+    print(f"Descargando diccionarios oficiales de DDragon ({version}, {locale})...")
     item_map = {}
     rune_map = {}
     summoner_map = {}
@@ -26,7 +71,7 @@ def fetch_names_mapping(version, locale="es_MX"):
     # 1. Obtener objetos
     try:
         url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/item.json"
-        data = requests.get(url, timeout=5).json()
+        data = requests.get(url, timeout=10).json()
         for k, v in data.get("data", {}).items():
             item_map[int(k)] = v.get("name")
     except Exception as e:
@@ -35,7 +80,7 @@ def fetch_names_mapping(version, locale="es_MX"):
     # 2. Obtener runas
     try:
         url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/runesReforged.json"
-        paths = requests.get(url, timeout=5).json()
+        paths = requests.get(url, timeout=10).json()
         for path in paths:
             for slot in path.get("slots", []):
                 for rune in slot.get("runes", []):
@@ -46,19 +91,33 @@ def fetch_names_mapping(version, locale="es_MX"):
     # 3. Obtener summoners
     try:
         url = f"https://ddragon.leagueoflegends.com/cdn/{version}/data/{locale}/summoner.json"
-        data = requests.get(url, timeout=5).json()
+        data = requests.get(url, timeout=10).json()
         for k, v in data.get("data", {}).items():
             summoner_map[int(v["key"])] = v.get("name")
     except Exception as e:
         print(f"Error fetching summoners ({locale}): {e}")
 
-    # Mappings heredados de ítems eliminados de versiones recientes de DDragon (ej. 3097 = Navaja de la Tormenta / Stormrazor)
+    # Mappings heredados de ítems eliminados de versiones recientes de DDragon (ej. 3097 = Navaja de la Tormenta)
     legacy_items = {
         3097: "Navaja de la Tormenta" if locale.startswith("es") else "Stormrazor"
     }
     for k, v in legacy_items.items():
         if k not in item_map:
             item_map[k] = v
+
+    # Guardar en disco local para que todas las futuras ejecuciones sean instantáneas
+    if item_map and rune_map and summoner_map:
+        try:
+            with open(cache_catalog_file, "w", encoding="utf-8") as f:
+                json.dump({
+                    "version": version,
+                    "locale": locale,
+                    "items": item_map,
+                    "runes": rune_map,
+                    "summoners": summoner_map
+                }, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"Advertencia al guardar caché de DDragon: {e}")
 
     return item_map, rune_map, summoner_map
 
