@@ -60,7 +60,10 @@ Modos de ejecución:
     if args.skip_existing:
         forward_args.append("--skip-existing")
 
+    from cleanup_cache import clean_stale_cache
+
     print("\n⚡ INICIANDO PIPELINE COMPLETO DE ZINKOACHLESS ⚡\n")
+    clean_stale_cache("config.json")
     total_start = time.time()
     
     run_step(1, "Rastreando historial de cambios de balance (DDragon)", "patch_history.py")

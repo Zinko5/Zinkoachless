@@ -231,6 +231,10 @@ if __name__ == "__main__":
     import re
     import os
     import shutil
+    from cleanup_cache import clean_stale_cache
+
+    CONFIG_FILE = "config.json"
+    clean_stale_cache(CONFIG_FILE)
     
     docs_granular_dir = os.path.join("docs", "data", "granular")
     os.makedirs(docs_granular_dir, exist_ok=True)
@@ -252,27 +256,36 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Advertencia al leer {history_file}: {e}")
 
-    # Escanear archivos de estadísticas de campeones en data/raw/
+    # Cargar campeones y roles activos desde config.json (Single Source of Truth)
+    config_champions = []
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                cfg = json.load(f)
+                config_champions = cfg.get("champions", [])
+        except Exception as e:
+            print(f"Error al leer {CONFIG_FILE}: {e}")
+
     processed_keys = []
-    for filepath in sorted(glob.glob(os.path.join("data", "raw", "coachless_champ_*_full_stats.json"))):
-        match_role = re.search(r"coachless_champ_(\d+)_role_(\d+)_full_stats.json", filepath)
-        match_base = re.search(r"coachless_champ_(\d+)_full_stats.json", filepath)
-        
-        if match_role:
-            champ_id = match_role.group(1)
-            champ_role = match_role.group(2)
+    for c in config_champions:
+        champ_id = c["id"]
+        champ_name = c.get("name", str(champ_id))
+        for champ_role in c.get("roles", []):
             key_name = f"{champ_id}_role_{champ_role}"
-        elif match_base:
-            champ_id = match_base.group(1)
-            key_name = champ_id
-        else:
-            continue
+            raw_filepath = os.path.join("data", "raw", f"coachless_champ_{champ_id}_role_{champ_role}_full_stats.json")
             
-        output_granular_json = os.path.join(docs_granular_dir, f"coachless_granular_wpa_{key_name}.json")
-        
-        print(f"\n---> Procesando estadísticas: {key_name}")
-        process_coachless_json(filepath, output_granular_json, item_map, rune_map, summoner_map, item_history)
-        processed_keys.append(key_name)
+            # Compatibilidad si solo existe archivo base sin rol
+            if not os.path.exists(raw_filepath):
+                legacy_filepath = os.path.join("data", "raw", f"coachless_champ_{champ_id}_full_stats.json")
+                if os.path.exists(legacy_filepath):
+                    raw_filepath = legacy_filepath
+                else:
+                    continue
+
+            output_granular_json = os.path.join(docs_granular_dir, f"coachless_granular_wpa_{key_name}.json")
+            print(f"\n---> Procesando estadísticas: {champ_name} ({key_name})")
+            process_coachless_json(raw_filepath, output_granular_json, item_map, rune_map, summoner_map, item_history)
+            processed_keys.append(key_name)
             
     print(f"\n=== Todos los datos procesados ({len(processed_keys)} perfiles) y exportados a 'docs/data/granular/' para GitHub Pages ===")
     

@@ -28,8 +28,10 @@ flowchart TD
 - Defines active season, patch array, and complete champion catalogue with their supported roles.
 - `get-wpa.py`, `patch_history.py`, and `process_wpa.py` read `config.json` directly.
 - Sockets seamlessly into `docs/data/config.json` to dynamically generate web UI selectors without hardcoding.
+- **Depuración y Sincronización Estricta (`cleanup_cache.py`):** Si un campeón o rol se elimina de `config.json`, su caché cruda (`data/raw/`), datos procesados (`data/processed/`) y exportaciones granulares (`docs/data/granular/`) se eliminan definitivamente al ejecutar el pipeline o cualquiera de sus scripts, garantizando que `config.json` determine el 100% del estado del proyecto sin acumular archivos huérfanos.
 
 ### 2. Unified Master Runner (`pipeline.py`)
+- Sincroniza y purga la caché huérfana de inmediato mediante `clean_stale_cache("config.json")`.
 - Executes the 3-step pipeline (`patch_history.py` -> `get-wpa.py` -> `process_wpa.py`) sequentially with error traps and runtime reporting.
 
 ### 3. Data Extraction & Intelligent Caching (`get-wpa.py`)

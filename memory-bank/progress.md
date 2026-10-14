@@ -33,6 +33,7 @@
   - Archivo único `config.json` como *Single Source of Truth* para temporadas, parches, campeones y roles.
   - Script maestro `pipeline.py` que orquesta la ejecución secuencial completa con un solo comando.
   - Sincronización automática con `docs/data/config.json` para poblar dinámicamente la web sin tocar HTML/JS.
+  - **Depuración Automática y Definitiva de Caché (`cleanup_cache.py`):** Si se borra un campeón o rol en `config.json`, se eliminan definitivamente sus archivos en `data/raw/`, `data/processed/` y `docs/data/granular/` al correr el pipeline o scripts individuales.
 - [x] **Memory Bank:**
   - Standard Memory Bank system fully maintained (`projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`, `activeContext.md`, `progress.md`).
 

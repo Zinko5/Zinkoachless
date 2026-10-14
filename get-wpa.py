@@ -156,6 +156,8 @@ def safe_fetch(func, *args, **kwargs):
     except Exception:
         return None
 
+from cleanup_cache import clean_stale_cache
+
 # Cargar configuración centralizada
 CONFIG_FILE = "config.json"
 MAJOR = 16
@@ -163,6 +165,7 @@ PATCHES = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
 CHAMPIONS = []
 
 if os.path.exists(CONFIG_FILE):
+    clean_stale_cache(CONFIG_FILE)
     try:
         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
             cfg = json.load(f)

@@ -53,6 +53,10 @@
 - **Exportador LoL Compacto en 6 Bloques:** Estructura limpia y accionable: Básicos, Primer item, Segundo item, Tercer item, Items por WPA (filtrados por cuota de mercado) y **Todos** (catálogo completo no filtrado con $WPA > 0$ y muestra $\ge 50$).
 - **Optimización y Limpieza de Datos:** Eliminación de campos obsoletos `details` en `docs/data/granular/` (ahorro de ~18 MB en Git) y de `item_details` en `data/raw/` (ahorro de ~8 MB en disco local).
 - **Corrección de Ícono de Navaja de la Tormenta (Stormrazor):** Mapeo de alias en `docs/app.js` (`3097 -> 3095`) para cargar directamente el sprite válido de DDragon 16.19.1 evitando 404 y fallback a botas marrones.
+- **Depuración Automática y Sincronización Estricta de Caché (`cleanup_cache.py`):**
+  - Si se elimina cualquier campeón o rol de `config.json`, al correr `pipeline.py`, `get-wpa.py` o `process_wpa.py` se eliminan automáticamente y de forma definitiva todos sus archivos asociados en `data/raw/`, `data/processed/` y `docs/data/granular/`.
+  - `process_wpa.py` se reestructuró para iterar estrictamente sobre la lista de campeones y roles configurados en `config.json` en lugar de escanear ciegamente `data/raw/`.
+  - `docs/app.js` vacía `championRolesMap` al cargar `data/config.json` para garantizar que la interfaz web no conserve roles ni campeones borrados.
 - **Soporte Completo de Evoluciones de Ítem de Support (1st Item):** Coachless requiere el parámetro `includeSupportItems: True` en peticiones de `role: 4` para entregar las evoluciones de misión (Oposición Celestial 3869, Trineo del Solsticio 3876, Perforatrastos de Zaz'Zak 3871, Creador de Sueños 3870, Canción de Sangre 3877). En `get-wpa.py` se implementó auto-detección y recuperación específica para rellenar `item_slot_1` en perfiles de soporte locales ya cacheados.
 
 ---

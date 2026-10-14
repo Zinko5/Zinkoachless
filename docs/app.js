@@ -751,6 +751,9 @@ async function loadConfig() {
   }
   
   if (appConfig && appConfig.champions) {
+    for (const key in championRolesMap) {
+      delete championRolesMap[key];
+    }
     appConfig.champions.forEach(c => {
       championRolesMap[c.id] = c.roles || [0];
       if (c.name) {
